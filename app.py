@@ -10,15 +10,12 @@ from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
 
-# ──────────────────────────────────────────────────────────
-# FUNCIÓN PARA MOSTRAR VERSIÓN DE STREAMLIT (DEBUG)
-# ──────────────────────────────────────────────────────────
 def show_streamlit_version():
     """
     Muestra la versión real de Streamlit utilizada y la lista 
     de atributos disponibles en el módulo 'st'.
-    Útil para diagnosticar por qué 'st.experimental_rerun' o 'st.rerun' 
-    no existen en entornos extraños.
+    Útil para diagnosticar por qué st.experimental_rerun o st.rerun 
+    no aparezcan en entornos extraños.
     """
     st.write("Versión real de Streamlit:", st.__version__)
     st.write("Atributos disponibles en st:", dir(st))
@@ -85,16 +82,17 @@ def user_data_input():
     - Se seleccionan aleatoriamente 120 preguntas.
     - Se barajan sus opciones.
     - Se registra la hora de inicio del examen.
+    - Se recarga la aplicación para pasar a la siguiente pantalla.
     """
 
-    # LLAMAMOS A LA FUNCIÓN DE DEBUG PARA VER LA VERSIÓN DE STREAMLIT
+    # Mostrar la versión de Streamlit y los atributos disponibles (DEPURACIÓN)
     show_streamlit_version()
 
     st.header("Datos del Usuario")
     with st.form("user_form"):
         nombre = st.text_input("Nombre Completo:")
         identificacion = st.text_input("ID o Número de Estudiante:")
-        
+
         submitted = st.form_submit_button("Iniciar Examen")
         if submitted:
             if nombre.strip() and identificacion.strip():
@@ -104,18 +102,18 @@ def user_data_input():
                     "id": identificacion.strip()
                 }
                 st.success("Datos registrados. Preparando el examen...")
-                
+
                 # Selección y mezcla de preguntas
                 selected = select_random_questions(total=120)
                 st.session_state.selected_questions = selected
                 for q in st.session_state.selected_questions:
                     q['opciones'] = shuffle_options(q)
-                
+
                 # Registro del tiempo de inicio
                 st.session_state.start_time = time.time()
-                
+
                 # Recargar la aplicación para avanzar
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Por favor, completa todos los campos.")
 
@@ -129,7 +127,7 @@ def exam_screen():
     - Botón para finalizar el examen
     """
     st.title("Examen de Práctica SPI - ARDMS")
-    
+
     # Mostrar datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
@@ -197,13 +195,13 @@ def finalize_exam():
     También genera un PDF con los datos del usuario y su puntaje, sin mostrar preguntas.
     """
     st.session_state.end_exam = True
-    
+
     # Calcular el puntaje obtenido
     score = calculate_score()
-    
+
     # Determinar si el usuario aprueba o no
     status = "Aprobado" if score >= config["passing_score"] else "No Aprobado"
-    
+
     st.header("Resultados del Examen")
     st.write(f"Puntaje Obtenido: **{score}**")
     st.write(f"Estado: **{status}**")
@@ -229,7 +227,7 @@ def calculate_score():
     total_score = 0
     for idx, question in enumerate(st.session_state.selected_questions):
         user_answer = st.session_state.answers.get(str(idx), None)
-        
+
         # Si el usuario seleccionó una de las respuestas correctas
         if user_answer and user_answer in question["respuesta_correcta"]:
             # Sumar puntaje uniforme por cada acierto
