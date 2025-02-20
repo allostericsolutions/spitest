@@ -1,1 +1,7 @@
-
+{
+  "password": "francisco",
+  "time_limit_seconds": 7200,
+  "warning_time_seconds": 600,
+  "passing_score": 555,
+  "maximum_score": 700
+}
