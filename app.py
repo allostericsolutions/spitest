@@ -1,3 +1,4 @@
+
 import streamlit as st
 import json
 import time
@@ -178,11 +179,14 @@ def finalize_exam():
     """
     st.session_state.end_exam = True
 
-    # Calcular puntaje
+    # Calcular puntaje con la nueva lógica: 75% → 555, 100% → 700
     score = calculate_score()
 
     # Determinar si aprueba o no
-    status = "Aprobado" if score >= config["passing_score"] else "No Aprobado"
+    if score >= config["passing_score"]:
+        status = "Aprobado"
+    else:
+        status = "No Aprobado"
 
     st.header("Resultados del Examen")
     st.write(f"Puntaje Obtenido: **{score}**")
@@ -202,24 +206,40 @@ def finalize_exam():
 
 def calculate_score():
     """
-    Recorre todas las preguntas y compara la respuesta del usuario con la respuesta correcta
-    para asignar un puntaje.
-    Se añaden líneas de depuración para ver cuál es la respuesta guardada (user_answer)
-    y cuál es la respuesta correcta (correct_answer).
+    Conteo de aciertos. Luego, segmentamos:
+    - 0% a 75% de aciertos: línea de 0 puntos a 555
+    - 75% a 100% de aciertos: línea de 555 a 700
     """
-    total_score = 0
-    for idx, question in enumerate(st.session_state.selected_questions):
-        user_answer = st.session_state.answers.get(str(idx), None)
-        
-        # ────── DEPURACIÓN ──────
-        st.write(f"DEBUG: Pregunta {idx + 1}")
-        st.write(f"DEBUG: user_answer = {user_answer}")
-        st.write(f"DEBUG: correct_answer = {question['respuesta_correcta']}")
+    questions = st.session_state.selected_questions
+    total_questions = len(questions)
+    if total_questions == 0:
+        return 0  # previene divisiones entre 0 si algo falla
 
-        # Condición para sumar puntaje
+    # Contar cuántas respuestas correctas
+    correct_count = 0
+    for idx, question in enumerate(questions):
+        user_answer = st.session_state.answers.get(str(idx), None)
         if user_answer and user_answer in question["respuesta_correcta"]:
-            total_score += (config["maximum_score"] - config["passing_score"]) / 120 + config["passing_score"]
-    return min(int(total_score), config["maximum_score"])
+            correct_count += 1
+
+    # Fracción de aciertos (0.0 → 1.0)
+    x = correct_count / total_questions
+
+    # Por tramos:
+    # 0% → 0, 75% → 555, 100% → 700
+    if x <= 0:
+        final_score = 0
+    elif x <= 0.75:
+        # Sube de 0 a 555 linealmente
+        slope1 = 555 / 0.75  # 555 ÷ 0.75 = 740
+        final_score = slope1 * x
+    else:
+        # De 75% a 100%, sube de 555 a 700
+        slope2 = (700 - 555) / (1 - 0.75)  # 145 ÷ 0.25 = 580
+        final_score = slope2 * (x - 0.75) + 555
+
+    # Convertir a entero
+    return int(final_score)
 
 def main_screen():
     """
