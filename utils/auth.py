@@ -1,3 +1,5 @@
+import json
+
 def load_config():
     """
     Carga el archivo 'config.json' y retorna su contenido
