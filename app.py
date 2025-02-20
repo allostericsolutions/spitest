@@ -1,4 +1,3 @@
-
 import streamlit as st
 import json
 import time
@@ -203,14 +202,22 @@ def finalize_exam():
 
 def calculate_score():
     """
-    Recorre todas las preguntas y compara la respuesta del usuario 
-    con la respuesta correcta para asignar un puntaje.
+    Recorre todas las preguntas y compara la respuesta del usuario con la respuesta correcta
+    para asignar un puntaje.
+    Se añaden líneas de depuración para ver cuál es la respuesta guardada (user_answer)
+    y cuál es la respuesta correcta (correct_answer).
     """
     total_score = 0
     for idx, question in enumerate(st.session_state.selected_questions):
         user_answer = st.session_state.answers.get(str(idx), None)
+        
+        # ────── DEPURACIÓN ──────
+        st.write(f"DEBUG: Pregunta {idx + 1}")
+        st.write(f"DEBUG: user_answer = {user_answer}")
+        st.write(f"DEBUG: correct_answer = {question['respuesta_correcta']}")
+
+        # Condición para sumar puntaje
         if user_answer and user_answer in question["respuesta_correcta"]:
-            # Sumar puntos por cada acierto
             total_score += (config["maximum_score"] - config["passing_score"]) / 120 + config["passing_score"]
     return min(int(total_score), config["maximum_score"])
 
