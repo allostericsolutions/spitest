@@ -10,6 +10,19 @@ from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
 
+# ──────────────────────────────────────────────────────────
+# FUNCIÓN PARA MOSTRAR VERSIÓN DE STREAMLIT (DEBUG)
+# ──────────────────────────────────────────────────────────
+def show_streamlit_version():
+    """
+    Muestra la versión real de Streamlit utilizada y la lista 
+    de atributos disponibles en el módulo 'st'.
+    Útil para diagnosticar por qué 'st.experimental_rerun' o 'st.rerun' 
+    no existen en entornos extraños.
+    """
+    st.write("Versión real de Streamlit:", st.__version__)
+    st.write("Atributos disponibles en st:", dir(st))
+
 # Configuración de la página de Streamlit
 st.set_page_config(
     page_title="Examen de Práctica SPI - ARDMS",
@@ -73,6 +86,10 @@ def user_data_input():
     - Se barajan sus opciones.
     - Se registra la hora de inicio del examen.
     """
+
+    # LLAMAMOS A LA FUNCIÓN DE DEBUG PARA VER LA VERSIÓN DE STREAMLIT
+    show_streamlit_version()
+
     st.header("Datos del Usuario")
     with st.form("user_form"):
         nombre = st.text_input("Nombre Completo:")
