@@ -1,3 +1,4 @@
+
 import streamlit as st
 import json
 import time
@@ -106,7 +107,7 @@ def exam_screen():
     """
     Pantalla principal del examen:
     - Muestra nombre e ID del usuario.
-    - Calcula y muestra el tiempo restante (HH:MM).
+    - Calcula y muestra el tiempo restante únicamente en minutos.
     - Presenta la pregunta actual y sus opciones.
     - Incluye navegación (Anterior, Siguiente, Marcar) y finalización del examen.
     """
@@ -118,19 +119,18 @@ def exam_screen():
     st.write(f"Nombre: **{nombre}**")
     st.write(f"ID: **{identificacion}**")
 
-    # Calcular el tiempo restante (en segundos) y formatearlo en HH:MM
+    # Calcular el tiempo restante (en segundos) y formatearlo solo en minutos
     elapsed_time = time.time() - st.session_state.start_time
     remaining_time = config["time_limit_seconds"] - elapsed_time
 
-    total_minutes = int(remaining_time) // 60
-    hours, minutes = divmod(total_minutes, 60)
-    time_display = f"{hours:02d}:{minutes:02d}"
+    # Convierte a minutos (número entero)
+    minutes_remaining = int(remaining_time // 60)
 
-    # Mostrar el temporizador en la esquina superior derecha (solo HH:MM)
+    # Mostrar el temporizador en la esquina superior derecha con solo minutos
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
-            <strong>Tiempo Restante:</strong> {time_display}
+            <strong>Minutos Restantes:</strong> {minutes_remaining}
         </div>
         """,
         unsafe_allow_html=True
