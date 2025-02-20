@@ -10,16 +10,6 @@ from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
 
-def show_streamlit_version():
-    """
-    Muestra la versión real de Streamlit utilizada y la lista 
-    de atributos disponibles en el módulo 'st'.
-    Útil para diagnosticar por qué st.experimental_rerun o st.rerun 
-    no aparezcan en entornos extraños.
-    """
-    st.write("Versión real de Streamlit:", st.__version__)
-    st.write("Atributos disponibles en st:", dir(st))
-
 # Configuración de la página de Streamlit
 st.set_page_config(
     page_title="Examen de Práctica SPI - ARDMS",
@@ -29,10 +19,10 @@ st.set_page_config(
 
 def load_config():
     """
-    Carga el archivo config.json que contiene información como:
+    Carga el archivo data/config.json con:
     - Contraseña de acceso
-    - Tiempo límite del examen
-    - Tiempo de advertencia (10 minutos)
+    - Tiempo límite del examen (en segundos)
+    - Tiempo de advertencia (10 minutos en segundos)
     - Puntajes mínimo y máximo
     """
     with open('data/config.json', 'r', encoding='utf-8') as f:
@@ -42,7 +32,7 @@ config = load_config()
 
 def initialize_session():
     """
-    Inicializa todas las variables necesarias en el estado de la sesión de Streamlit.
+    Inicializa las variables de estado de la aplicación (Session State).
     """
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = False
@@ -63,7 +53,7 @@ def initialize_session():
 
 def authentication_screen():
     """
-    Muestra la pantalla de autenticación donde el usuario ingresa la contraseña.
+    Pantalla de autenticación: pide la contraseña al usuario.
     """
     st.title("Autenticación")
     password = st.text_input("Ingresa la contraseña para acceder al examen:", type="password")
@@ -76,18 +66,13 @@ def authentication_screen():
 
 def user_data_input():
     """
-    Muestra un formulario para que el usuario ingrese su nombre completo y su ID.
-    Al enviar el formulario:
-    - Se verifica que los campos no estén vacíos.
-    - Se seleccionan aleatoriamente 120 preguntas.
-    - Se barajan sus opciones.
-    - Se registra la hora de inicio del examen.
-    - Se recarga la aplicación para pasar a la siguiente pantalla.
+    Pantalla para que el usuario ingrese su nombre completo e ID. Tras enviarlos:
+    - Verifica que no estén vacíos.
+    - Selecciona 120 preguntas aleatorias.
+    - Mezcla las opciones.
+    - Guarda el tiempo de inicio del examen.
+    - Recarga para avanzar a exam_screen().
     """
-
-    # Mostrar la versión de Streamlit y los atributos disponibles (DEPURACIÓN)
-    show_streamlit_version()
-
     st.header("Datos del Usuario")
     with st.form("user_form"):
         nombre = st.text_input("Nombre Completo:")
@@ -119,31 +104,29 @@ def user_data_input():
 
 def exam_screen():
     """
-    Muestra la pantalla principal del examen con:
-    - Datos del usuario (nombre e ID)
-    - Temporizador
-    - Pregunta actual y sus opciones
-    - Botones de navegación y marcaje
-    - Botón para finalizar el examen
+    Pantalla principal del examen:
+    - Muestra nombre e ID del usuario.
+    - Calcula y muestra el tiempo restante (HH:MM).
+    - Presenta la pregunta actual y sus opciones.
+    - Incluye navegación (Anterior, Siguiente, Marcar) y finalización del examen.
     """
     st.title("Examen de Práctica SPI - ARDMS")
 
-    # Mostrar datos del usuario
+    # Datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
     st.write(f"Nombre: **{nombre}**")
     st.write(f"ID: **{identificacion}**")
 
-    # Calcular tiempo restante
+    # Calcular el tiempo restante (en segundos) y formatearlo en HH:MM
     elapsed_time = time.time() - st.session_state.start_time
     remaining_time = config["time_limit_seconds"] - elapsed_time
 
-    # Formatear el tiempo en hh:mm:ss
-    minutes, seconds = divmod(int(remaining_time), 60)
-    hours, minutes = divmod(minutes, 60)
-    time_display = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    total_minutes = int(remaining_time) // 60
+    hours, minutes = divmod(total_minutes, 60)
+    time_display = f"{hours:02d}:{minutes:02d}"
 
-    # Mostrar el temporizador en la esquina superior derecha
+    # Mostrar el temporizador en la esquina superior derecha (solo HH:MM)
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
@@ -153,18 +136,18 @@ def exam_screen():
         unsafe_allow_html=True
     )
 
-    # Mostrar advertencia si quedan 10 minutos
+    # Mostrar advertencia si faltan 10 minutos (warning_time_seconds = 600)
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("¡El examen terminará en 10 minutos!")
 
-    # Revisar si se agotó el tiempo
+    # Si el tiempo ya se agotó, finalizamos el examen
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("El tiempo se ha agotado. El examen se finalizará ahora.")
         finalize_exam()
         return
 
-    # Mostrar la pregunta actual si el examen no ha terminado
+    # Si el examen sigue en curso, mostramos la pregunta actual
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
         question = st.session_state.selected_questions[current_index]
@@ -172,7 +155,7 @@ def exam_screen():
         # Mostrar la pregunta y sus opciones
         display_question(question, current_index + 1)
 
-        # Navegación entre preguntas y marcaje
+        # Navegación
         display_navigation()
 
         # Botón para finalizar el examen
@@ -191,26 +174,25 @@ def exam_screen():
 
 def finalize_exam():
     """
-    Marca el examen como finalizado, calcula el puntaje y muestra los resultados.
-    También genera un PDF con los datos del usuario y su puntaje, sin mostrar preguntas.
+    Marca el examen como finalizado y muestra los resultados.
+    Genera un PDF (sin incluir preguntas ni respuestas).
     """
     st.session_state.end_exam = True
 
-    # Calcular el puntaje obtenido
+    # Calcular puntaje
     score = calculate_score()
 
-    # Determinar si el usuario aprueba o no
+    # Determinar si aprueba o no
     status = "Aprobado" if score >= config["passing_score"] else "No Aprobado"
 
     st.header("Resultados del Examen")
     st.write(f"Puntaje Obtenido: **{score}**")
     st.write(f"Estado: **{status}**")
 
-    # Generar PDF con los resultados
+    # Generar PDF y permitir descarga
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Resultados generados en PDF.")
 
-    # Opción para descargar el PDF
     with open(pdf_path, "rb") as f:
         st.download_button(
             label="Descargar Resultados (PDF)",
@@ -221,35 +203,31 @@ def finalize_exam():
 
 def calculate_score():
     """
-    Recorre todas las preguntas y compara la respuesta del usuario con la respuesta correcta.
-    Asigna un puntaje por cada pregunta correcta. 
+    Recorre todas las preguntas y compara la respuesta del usuario 
+    con la respuesta correcta para asignar un puntaje.
     """
     total_score = 0
     for idx, question in enumerate(st.session_state.selected_questions):
         user_answer = st.session_state.answers.get(str(idx), None)
-
-        # Si el usuario seleccionó una de las respuestas correctas
         if user_answer and user_answer in question["respuesta_correcta"]:
-            # Sumar puntaje uniforme por cada acierto
+            # Sumar puntos por cada acierto
             total_score += (config["maximum_score"] - config["passing_score"]) / 120 + config["passing_score"]
-    # Limitar el puntaje al máximo definido
     return min(int(total_score), config["maximum_score"])
 
 def main_screen():
     """
-    Una vez que el usuario está autenticado y ha ingresado sus datos,
-    esta función llama a exam_screen() para mostrar el examen.
+    Pantalla que llama exam_screen() si el examen no ha terminado.
     """
     exam_screen()
 
 def main():
     """
-    Función principal de la aplicación:
-    1. Inicializa el estado de la sesión.
-    2. Si no está autenticado, muestra la pantalla de autenticación.
-    3. Si no hay datos del usuario, muestra el formulario de ingreso de datos.
-    4. Si el examen no ha terminado, muestra la pantalla de examen.
-    5. Si el examen está finalizado, muestra los resultados.
+    EJECUCIÓN PRINCIPAL:
+    1. Inicializa el estado.
+    2. Pantalla de autenticación si no hay sesión.
+    3. Si usuario no ha ingresado datos, muestra formulario.
+    4. Mientras examen no haya acabado, presenta exam_screen().
+    5. Si está acabado, muestra resultados.
     """
     initialize_session()
 
