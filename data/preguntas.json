@@ -2406,13 +2406,13 @@
         "enunciado": "Which parameter is not an acoustic variable?",
         "image": "",
         "opciones": [
-            "Distance",
+            "Particle Motion",
             "Pressure",
-            "Temperature",
+            "Resonance",
             "Density"
         ],
         "respuesta_correcta": [
-            "Distance"
+            "Resonance"
         ]
     },
     {
@@ -3833,7 +3833,7 @@
             "Decreases temporal resolution",
             "Increases axial resolution",
             "Increases temporal resolution",
-            "All of the above"
+            "Increases penetration"
         ],
         "respuesta_correcta": [
             "Decreases temporal resolution"
@@ -3881,7 +3881,7 @@
             "Directly proportional",
             "Inversely proportional",
             "Unrelated",
-            "Both A and C"
+            "All options are correct"
         ],
         "respuesta_correcta": [
             "Directly proportional"
@@ -4569,10 +4569,10 @@
             "Enhancing axial resolution",
             "Decreasing penetration",
             "Enhancing lateral resolution",
-            "Both A and B"
+            "Both axial and lateral resolution improve"
         ],
         "respuesta_correcta": [
-            "Both A and B"
+            "Both axial and lateral resolution improve"
         ]
     },
     {
@@ -5049,7 +5049,7 @@
             "Improves axial resolution",
             "Decreases penetration",
             "Improves lateral resolution",
-            "All of the above"
+            "Increases "
         ],
         "respuesta_correcta": [
             "Improves axial resolution"
@@ -5113,10 +5113,10 @@
             "Shorter pulse length",
             "Higher frequency",
             "Longer wavelength",
-            "Both A and B"
+            "Both, Shorter pulse length and Higher frequency"
         ],
         "respuesta_correcta": [
-            "Both A and B"
+            "Both, Shorter pulse length and Higher frequency"
         ]
     },
     {
@@ -9418,7 +9418,7 @@
         "opciones": [
             "A-mode",
             "B-mode",
-            "Both A and B",
+            "M-mode",
             "None of the above"
         ],
         "respuesta_correcta": ["B-mode"]
@@ -9517,9 +9517,9 @@
             "Apodization",
             "Tissue harmonics",
             "Subdicing",
-            "All of the above"
+            "All options are correct"
         ],
-        "respuesta_correcta": ["All of the above"]
+        "respuesta_correcta": ["All options are correct"]
     },
     {
         "clasificacion": 9,
@@ -9702,6 +9702,805 @@
             "Travels through a cystic structure"
         ],
         "respuesta_correcta": ["Travels through an area of increased attenuation"]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What provides potential energy in the cardiovascular system?",
+        "image": "",
+        "opciones": [
+            "Distal arterioles",
+            "Blood flowing through the vessels",
+            "Beating heart",
+            "Venous system"
+        ],
+        "respuesta_correcta": [
+            "Beating heart"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which color scale displays turbulence as a shade of green?",
+        "image": "",
+        "opciones": [
+            "Velocity",
+            "Variance",
+            "Hue",
+            "Saturation"
+        ],
+        "respuesta_correcta": [
+            "Variance"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the flat flow profile seen at vessel entrances called?",
+        "image": "",
+        "opciones": [
+            "Plug flow",
+            "Laminar flow",
+            "Turbulent flow",
+            "Chaotic flow"
+        ],
+        "respuesta_correcta": [
+            "Plug flow"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does increasing PRF/scale on spectral Doppler do?",
+        "image": "",
+        "opciones": [
+            "Increases the potential of aliasing",
+            "Decreases the potential of aliasing",
+            "Makes the spectral waveform appear larger",
+            "Optimizes the system to detect slow flow"
+        ],
+        "respuesta_correcta": [
+            "Decreases the potential of aliasing"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is observed with CW instrumentation?",
+        "image": "",
+        "opciones": [
+            "Transducer frequency matches that of the oscillator",
+            "Sample depth can be determined by a range gate",
+            "Very short pulses are used",
+            "Aliasing limits velocity measurements"
+        ],
+        "respuesta_correcta": [
+            "Transducer frequency matches that of the oscillator"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When is the Doppler shift highest?",
+        "image": "",
+        "opciones": [
+            "Doppler shift is unrelated to beam angle",
+            "When the beam is perpendicular to the direction of flow",
+            "When the beam is parallel to the direction of flow",
+            "When the beam is at a 45˚ angle to flow"
+        ],
+        "respuesta_correcta": [
+            "When the beam is parallel to the direction of flow"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which option will not eliminate aliasing?",
+        "image": "",
+        "opciones": [
+            "Increasing the PRF",
+            "Increasing the Nyquist limit above the frequency shift",
+            "Decreasing the sample depth",
+            "Increasing the frequency shift above the Nyquist limit"
+        ],
+        "respuesta_correcta": [
+            "Increasing the frequency shift above the Nyquist limit"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the reflected frequency when a reflector moves toward the transducer?",
+        "image": "",
+        "opciones": [
+            "Increase",
+            "Decrease",
+            "Stay the same",
+            "It is not possible to predict"
+        ],
+        "respuesta_correcta": [
+            "Increase"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What needs to be increased to see an increase in flow volume?",
+        "image": "",
+        "opciones": [
+            "Pressure difference",
+            "Resistance",
+            "Vessel length",
+            "Viscosity"
+        ],
+        "respuesta_correcta": [
+            "Pressure difference"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "1-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment will not affect the measured frequency shift?",
+        "image": "",
+        "opciones": [
+            "Flow velocity",
+            "Operating frequency",
+            "Amplitude",
+            "Propagation speed"
+        ],
+        "respuesta_correcta": [
+            "Amplitude"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which represents Ohm’s law?",
+        "image": "",
+        "opciones": [
+            "V = IR",
+            "I = R/V",
+            "R = I/V",
+            "R = VI"
+        ],
+        "respuesta_correcta": [
+            "V = IR"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At what point does Reynolds number predict turbulence?",
+        "image": "",
+        "opciones": [
+            "500",
+            "1200",
+            "2000",
+            "4000"
+        ],
+        "respuesta_correcta": [
+            "2000"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a vessel's area increases, what must happen to velocity to maintain constant volume flow?",
+        "image": "",
+        "opciones": [
+            "It increases",
+            "It decreases",
+            "It does not change with changes in area",
+            "Not enough information"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Venous blood returns from the lower extremities to the heart through all EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Calf muscle pump",
+            "Inspiration",
+            "Expiration",
+            "Venous valves"
+        ],
+        "respuesta_correcta": [
+            "Inspiration"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Where is hydrostatic pressure highest in a standing patient?",
+        "image": "",
+        "opciones": [
+            "In the feet",
+            "In the arms",
+            "In the abdomen",
+            "Near the heart"
+        ],
+        "respuesta_correcta": [
+            "In the feet"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A stenosis of 75% in area is equal to what percent in diameter?",
+        "image": "",
+        "opciones": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "respuesta_correcta": [
+            "50%"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to peripheral resistance with arteriolar dilatation in exercising patients?",
+        "image": "",
+        "opciones": [
+            "The peripheral resistance increases",
+            "The peripheral resistance decreases",
+            "There is no change in peripheral resistance",
+            "Peripheral resistance would decrease but only in the presence of disease"
+        ],
+        "respuesta_correcta": [
+            "The peripheral resistance decreases"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is seen with a stationary reflector?",
+        "image": "",
+        "opciones": [
+            "There is a higher reflected frequency compared with the incident frequency",
+            "There is a lower reflected frequency compared with the incident frequency",
+            "The incident frequency is equal to the reflected frequency",
+            "The reflected intensity is higher than the incident intensity"
+        ],
+        "respuesta_correcta": [
+            "The incident frequency is equal to the reflected frequency"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens as the transducer frequency increases?",
+        "image": "",
+        "opciones": [
+            "Penetration ability is increased",
+            "The amount of scatter is increased",
+            "The frequency shift is decreased",
+            "The amount of attenuation is decreased"
+        ],
+        "respuesta_correcta": [
+            "The amount of scatter is increased"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "2-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What occurs as the Doppler angle increases?",
+        "image": "",
+        "opciones": [
+            "It decreases the frequency shift",
+            "It increases the frequency shift",
+            "It increases the risk for aliasing",
+            "It improves the accuracy of the velocity calculation"
+        ],
+        "respuesta_correcta": [
+            "It decreases the frequency shift"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What ultrasound component detects positive and negative frequency shifts?",
+        "image": "",
+        "opciones": [
+            "Analog Doppler",
+            "Oscillator",
+            "Fourier transformer",
+            "Phase quadrature"
+        ],
+        "respuesta_correcta": [
+            "Phase quadrature"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is true for CW Doppler devices?",
+        "image": "",
+        "opciones": [
+            "It only needs one piezoelectric element",
+            "It must have at least two piezoelectric elements",
+            "It must have three piezoelectric elements",
+            "No piezoelectric elements are needed for CW Doppler"
+        ],
+        "respuesta_correcta": [
+            "It must have at least two piezoelectric elements"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What results in aliasing?",
+        "image": "",
+        "opciones": [
+            "Too low an operating frequency",
+            "Increased sampling of the blood flow",
+            "Undersampling of the blood flow",
+            "Too high a Doppler angle"
+        ],
+        "respuesta_correcta": [
+            "Undersampling of the blood flow"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which technique is used to analyze the data and produce a spectral waveform?",
+        "image": "",
+        "opciones": [
+            "Amplitude shifting",
+            "Autocorrelation",
+            "Amplitude sampling",
+            "Fast Fourier transform"
+        ],
+        "respuesta_correcta": [
+            "Fast Fourier transform"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which represents the resistive index?",
+        "image": "",
+        "opciones": [
+            "Peak systolic velocity minus the end diastolic velocity divided by the mean velocity",
+            "End diastolic velocity minus the peak systolic velocity divided by the peak systolic velocity",
+            "Peak systolic velocity minus the end diastolic velocity divided by the peak systolic velocity",
+            "Peak systolic velocity minus the end diastolic velocity"
+        ],
+        "respuesta_correcta": [
+            "Peak systolic velocity minus the end diastolic velocity divided by the peak systolic velocity"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the brightness of the dots on the spectral display indicate?",
+        "image": "",
+        "opciones": [
+            "The number of red blood cells present",
+            "The velocity of the signal",
+            "The frequency shift",
+            "The amount of turbulence present"
+        ],
+        "respuesta_correcta": [
+            "The number of red blood cells present"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which principle describes an object at rest stays at rest unless acted on by an external force?",
+        "image": "",
+        "opciones": [
+            "Laminar flow",
+            "Inertia",
+            "Friction",
+            "Bernoulli"
+        ],
+        "respuesta_correcta": [
+            "Inertia"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which machine setting should be adjusted to add more spectral Doppler waveforms to the display?",
+        "image": "",
+        "opciones": [
+            "PRF",
+            "Sweep speed",
+            "Heart rate",
+            "Gain"
+        ],
+        "respuesta_correcta": [
+            "Sweep speed"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What may result if the spectral Doppler gain is too high?",
+        "image": "",
+        "opciones": [
+            "Too much output power sent into the patient",
+            "Undermeasurement of the velocities",
+            "Overmeasurement of the velocities",
+            "An image that is too dark"
+        ],
+        "respuesta_correcta": [
+            "Overmeasurement of the velocities"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "3-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At what angle to flow is the Doppler shift lowest?",
+        "image": "",
+        "opciones": [
+            "0°",
+            "45°",
+            "60°",
+            "90°"
+        ],
+        "respuesta_correcta": [
+            "90°"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which signal processing technique used for color Doppler is not as accurate as but is faster than that used for spectral Doppler?",
+        "image": "",
+        "opciones": [
+            "Zero crossing",
+            "Phase quadrature",
+            "Autocorrelation",
+            "Fast Fourier transform"
+        ],
+        "respuesta_correcta": [
+            "Autocorrelation"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the smallest number of crystals a PW Doppler device may have?",
+        "image": "",
+        "opciones": [
+            "Zero",
+            "One",
+            "Two",
+            "Three"
+        ],
+        "respuesta_correcta": [
+            "One"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which type of Doppler does not rely on the frequency shift but relies on the strength of the shift?",
+        "image": "",
+        "opciones": [
+            "Spectral Doppler",
+            "Power Doppler",
+            "Color Doppler imaging",
+            "CW Doppler"
+        ],
+        "respuesta_correcta": [
+            "Power Doppler"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is it called when the 2D image, color Doppler image, and spectral Doppler are displayed simultaneously?",
+        "image": "",
+        "opciones": [
+            "Duplex mode",
+            "Triplex mode",
+            "Phase quadrature mode",
+            "Multiplex mode"
+        ],
+        "respuesta_correcta": [
+            "Triplex mode"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the duty factor of CW Doppler?",
+        "image": "",
+        "opciones": [
+            "1",
+            "100",
+            "0.01",
+            "1%"
+        ],
+        "respuesta_correcta": [
+            "1"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which is true about CW Doppler?",
+        "image": "",
+        "opciones": [
+            "The measured frequency shifts come from a user-selected depth",
+            "A range gate is placed in the vessel to be sampled",
+            "CW beams have a large sample volume that may sample several vessels at once",
+            "CW Doppler is able to measure very high frequency shifts"
+        ],
+        "respuesta_correcta": [
+            "CW beams have a large sample volume that may sample several vessels at once"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Compared to 2D grayscale, what is true about color Doppler?",
+        "image": "",
+        "opciones": [
+            "There is improved frame rate",
+            "There is worse temporal resolution",
+            "There are fewer pulses per scan line",
+            "There is a higher frame rate"
+        ],
+        "respuesta_correcta": [
+            "There is worse temporal resolution"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement is false?",
+        "image": "",
+        "opciones": [
+            "Aliasing does not occur with color Doppler",
+            "CW Doppler is able to measure very high frequency shifts",
+            "PW Doppler has range resolution",
+            "Power Doppler is not limited by 90° angle"
+        ],
+        "respuesta_correcta": [
+            "Aliasing does not occur with color Doppler"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which frequency shifts would exhibit aliasing if the PRF is 5000 Hz?",
+        "image": "",
+        "opciones": [
+            "1.0 kHz",
+            "2.5 kHz",
+            "3.0 kHz",
+            "None of the above"
+        ],
+        "respuesta_correcta": [
+            "3.0 kHz"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "4-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is true about the frequency shift?",
+        "image": "",
+        "opciones": [
+            "It increases with an increase in Doppler angle",
+            "It is typically greater than 20,000 Hz",
+            "It is inversely related to operating frequency",
+            "It is in the audible range of sound"
+        ],
+        "respuesta_correcta": [
+            "It is in the audible range of sound"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is said about the ensemble length of color Doppler?",
+        "image": "",
+        "opciones": [
+            "Less than 3 pulses per scan line",
+            "More than 100 pulses per scan line",
+            "10 to 20 pulses per scan line",
+            "Typically 0"
+        ],
+        "respuesta_correcta": [
+            "10 to 20 pulses per scan line"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens if blood flow is sampled in the center of laminar flow?",
+        "image": "",
+        "opciones": [
+            "There will be a higher velocity than if sampled toward the edges",
+            "There will be a slower velocity than if sampled toward the edges",
+            "It will be made up of many different velocities",
+            "It will be turbulent"
+        ],
+        "respuesta_correcta": [
+            "There will be a higher velocity than if sampled toward the edges"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which is false about color Doppler imaging?",
+        "image": "",
+        "opciones": [
+            "It is prone to aliasing",
+            "It obtains mean velocity information",
+            "It uses autocorrelation as its signal processing technique",
+            "It can measure peak systolic and end diastolic velocities"
+        ],
+        "respuesta_correcta": [
+            "It can measure peak systolic and end diastolic velocities"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which is a property of power Doppler?",
+        "image": "",
+        "opciones": [
+            "Able to obtain velocity information and direction of flow",
+            "Signal is obtained by detecting amplitude of shift",
+            "It is prone to aliasing",
+            "Limited by perpendicular angle of incidence"
+        ],
+        "respuesta_correcta": [
+            "Signal is obtained by detecting amplitude of shift"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens in a region of blood vessel narrowing assuming constant flow?",
+        "image": "",
+        "opciones": [
+            "There is a significant pressure increase",
+            "There is an increase in the velocity along with a corresponding increase in pressure",
+            "There is an increase in the velocity along with a corresponding decrease in pressure",
+            "Velocity and pressure are unchanged"
+        ],
+        "respuesta_correcta": [
+            "There is an increase in the velocity along with a corresponding decrease in pressure"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is true about the spectral Doppler envelope?",
+        "image": "",
+        "opciones": [
+            "It is thin when there are many different velocities",
+            "It is thin with CW Doppler",
+            "It is thickened in the center of a laminar flow vessel",
+            "It is thickened in the presence of turbulence"
+        ],
+        "respuesta_correcta": [
+            "It is thickened in the presence of turbulence"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the term for the pressure difference inside a vein and the tissue outside?",
+        "image": "",
+        "opciones": [
+            "Hydrostatic pressure",
+            "Autocorrelation",
+            "Transmural pressure",
+            "Kinetic energy"
+        ],
+        "respuesta_correcta": [
+            "Transmural pressure"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does a proximal stenosis appear on the spectral waveform?",
+        "image": "",
+        "opciones": [
+            "Reversal of flow in diastole",
+            "Delay in the systolic upstroke",
+            "Triphasic waveform",
+            "Aliasing"
+        ],
+        "respuesta_correcta": [
+            "Delay in the systolic upstroke"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment should be made to fix a missing low velocity component on a spectral waveform?",
+        "image": "",
+        "opciones": [
+            "Gain",
+            "Scale",
+            "Wall filter",
+            "Frequency"
+        ],
+        "respuesta_correcta": [
+            "Wall filter"
+        ]
+    },
+    {
+        "clasificacion": 10,
+        "grupo": "5-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What flow pattern would be shown on spectral Doppler within proximal vessels for a patient with dilated distal arterioles?",
+        "image": "",
+        "opciones": [
+            "Monophasic flow",
+            "Multiphasic flow",
+            "Reversal of flow",
+            "Respiratory phasicity"
+        ],
+        "respuesta_correcta": [
+            "Monophasic flow"
+        ]
     }
 ]
-
