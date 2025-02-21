@@ -14,7 +14,7 @@ from components.navigation import display_navigation
 st.set_page_config(
     page_title="SPI Practice Exam - ARDMS",
     layout="centered",
-    initial_sidebar_state="collapsed", # Ya no es necesario modificar este valor.
+    initial_sidebar_state="collapsed",
 )
 
 def load_config():
@@ -107,9 +107,41 @@ def user_data_input():
             else:
                 st.error("Please, complete all fields.")
 
-# ELIMINAMOS display_marked_questions_sidebar()
-# def display_marked_questions_sidebar():
-#     ...
+def display_marked_questions_sidebar():
+    """Displays the sidebar with the list of marked questions."""
+
+    if st.session_state.marked:  # Only shows if there are marked questions
+      # Título de la barra lateral (HTML/CSS personalizado)
+      st.markdown("""
+        <style>
+        .title {
+          writing-mode: vertical-rl;
+          transform: rotate(180deg);
+          position: absolute;
+          top: 50%;
+          left: 0px; /* Ajusta según sea necesario */
+          transform-origin: center;
+          white-space: nowrap;
+          display: block;
+          font-size: 1.2em;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+      st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
+
+      for index in st.session_state.marked:
+        question_number = index + 1
+        col1, col2 = st.sidebar.columns([3, 1])
+        with col1:
+            # Botón para navegar a la pregunta
+            if st.button(f"Question {question_number}", key=f"goto_{index}"):
+                st.session_state.current_question_index = index
+                st.rerun()
+        with col2:
+            #Botón para desmarcar pregunta
+            if st.button("X",key=f"unmark_{index}"):
+                st.session_state.marked.remove(index)
+                st.rerun()
 
 def exam_screen():
     """
@@ -159,7 +191,8 @@ def exam_screen():
         finalize_exam()
         return
 
-    # ELIMINAMOS la llamada a display_marked_questions_sidebar()
+    # Barra lateral de preguntas marcadas
+    display_marked_questions_sidebar()
 
     # Si el examen sigue en curso, mostramos la pregunta actual
     if not st.session_state.end_exam:
