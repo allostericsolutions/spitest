@@ -61,6 +61,7 @@ def authentication_screen():
         if verify_password(password):
             st.session_state.authenticated = True
             st.success("Autenticación exitosa.")
+            st.rerun() # Se necesita el rerun
         else:
             st.error("Contraseña incorrecta.")
 
@@ -101,6 +102,25 @@ def user_data_input():
                 st.rerun()
             else:
                 st.error("Por favor, completa todos los campos.")
+
+def display_marked_questions_sidebar():
+    """Muestra la barra lateral con la lista de preguntas marcadas."""
+
+    if st.session_state.marked:  # Solo muestra si hay preguntas marcadas
+        with st.sidebar:
+            st.write("## Preguntas Marcadas")
+            for index in st.session_state.marked:
+                question_number = index + 1
+                # Botón para navegar a la pregunta
+                if st.button(f"Pregunta {question_number}", key=f"goto_{index}"):
+                    st.session_state.current_question_index = index
+                    st.rerun()  # Importante: Redibuja la interfaz
+
+                #Botón para desmarcar pregunta
+                if st.button(f"X",key=f"unmark_{index}"):
+                    st.session_state.marked.remove(index)
+                    st.rerun()
+
 
 def exam_screen():
     """
@@ -146,6 +166,9 @@ def exam_screen():
         finalize_exam()
         return
 
+    # Barra lateral de preguntas marcadas
+    display_marked_questions_sidebar()
+
     # Si el examen sigue en curso, mostramos la pregunta actual
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
@@ -156,6 +179,7 @@ def exam_screen():
 
         # Navegación
         display_navigation()
+
 
         # Botón para finalizar el examen
         if st.button("Finalizar Examen"):
