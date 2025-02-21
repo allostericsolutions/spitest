@@ -12,18 +12,18 @@ from components.navigation import display_navigation
 
 # Configuración de la página de Streamlit
 st.set_page_config(
-    page_title="Examen de Práctica SPI - ARDMS",
+    page_title="SPI Practice Exam - ARDMS",  # Título en inglés
     layout="centered",
     initial_sidebar_state="collapsed",
 )
 
 def load_config():
     """
-    Carga el archivo data/config.json con:
-    - Contraseña de acceso
-    - Tiempo límite del examen (en segundos)
-    - Tiempo de advertencia (10 minutos en segundos)
-    - Puntajes mínimo y máximo
+    Loads the data/config.json file with:
+    - Access password
+    - Exam time limit (in seconds)
+    - Warning time (10 minutes in seconds)
+    - Minimum and maximum scores
     """
     with open('data/config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -32,7 +32,7 @@ config = load_config()
 
 def initialize_session():
     """
-    Inicializa las variables de estado de la aplicación (Session State).
+    Initializes the application's state variables (Session State).
     """
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = False
@@ -53,33 +53,33 @@ def initialize_session():
 
 def authentication_screen():
     """
-    Pantalla de autenticación: pide la contraseña al usuario.
+    Authentication screen: prompts the user for the password.
     """
-    st.title("Autenticación")
-    password = st.text_input("Ingresa la contraseña para acceder al examen:", type="password")
-    if st.button("Ingresar"):
+    st.title("Authentication")  # Título en inglés
+    password = st.text_input("Enter the password to access the exam:", type="password")  # Texto en inglés
+    if st.button("Enter"):  # Texto en inglés
         if verify_password(password):
             st.session_state.authenticated = True
-            st.success("Autenticación exitosa.")
-            st.rerun() # Se necesita el rerun
+            st.success("Authentication successful.")  # Texto en inglés
+            st.rerun()
         else:
-            st.error("Contraseña incorrecta.")
+            st.error("Incorrect password.")  # Texto en inglés
 
 def user_data_input():
     """
-    Pantalla para que el usuario ingrese su nombre completo e ID. Tras enviarlos:
-    - Verifica que no estén vacíos.
-    - Selecciona 120 preguntas aleatorias.
-    - Mezcla las opciones.
-    - Guarda el tiempo de inicio del examen.
-    - Recarga para avanzar a exam_screen().
+    Screen for the user to enter their full name and ID. After submitting:
+    - Checks that they are not empty.
+    - Selects 120 random questions.
+    - Shuffles the options.
+    - Saves the exam start time.
+    - Reloads to advance to exam_screen().
     """
-    st.header("Datos del Usuario")
+    st.header("User Data")  # Título en inglés
     with st.form("user_form"):
-        nombre = st.text_input("Nombre Completo:")
-        identificacion = st.text_input("ID o Número de Estudiante:")
+        nombre = st.text_input("Full Name:")  # Texto en inglés
+        identificacion = st.text_input("ID or Student Number:")  # Texto en inglés
 
-        submitted = st.form_submit_button("Iniciar Examen")
+        submitted = st.form_submit_button("Start Exam")  # Texto en inglés
         if submitted:
             if nombre.strip() and identificacion.strip():
                 # Guardar datos del usuario
@@ -87,7 +87,7 @@ def user_data_input():
                     "nombre": nombre.strip(),
                     "id": identificacion.strip()
                 }
-                st.success("Datos registrados. Preparando el examen...")
+                st.success("Data registered. Preparing the exam...")  # Texto en inglés
 
                 # Selección y mezcla de preguntas
                 selected = select_random_questions(total=120)
@@ -101,42 +101,42 @@ def user_data_input():
                 # Recargar la aplicación para avanzar
                 st.rerun()
             else:
-                st.error("Por favor, completa todos los campos.")
+                st.error("Please, complete all fields.")  # Texto en inglés
 
 def display_marked_questions_sidebar():
-    """Muestra la barra lateral con la lista de preguntas marcadas."""
+    """Displays the sidebar with the list of marked questions."""
 
-    if st.session_state.marked:  # Solo muestra si hay preguntas marcadas
-        with st.sidebar:
-            st.write("## Preguntas Marcadas")
-            for index in st.session_state.marked:
-                question_number = index + 1
-                # Botón para navegar a la pregunta
-                if st.button(f"Pregunta {question_number}", key=f"goto_{index}"):
-                    st.session_state.current_question_index = index
-                    st.rerun()  # Importante: Redibuja la interfaz
-
-                #Botón para desmarcar pregunta
-                if st.button(f"X",key=f"unmark_{index}"):
-                    st.session_state.marked.remove(index)
-                    st.rerun()
-
+    if st.session_state.marked:  # Only shows if there are marked questions
+      st.sidebar.markdown("<h3 style='padding-top:0px;'>Marked Questions</h3>", unsafe_allow_html=True) #Titulo para la barra lateral
+      for index in st.session_state.marked:
+        question_number = index + 1
+        col1, col2 = st.sidebar.columns([3, 1])  # Dos columnas: 3/4 para la pregunta, 1/4 para la X
+        with col1:
+            # Botón para navegar a la pregunta
+            if st.button(f"Question {question_number}", key=f"goto_{index}"):
+                st.session_state.current_question_index = index
+                st.rerun()  # Importante: Redibuja la interfaz
+        with col2:
+            #Botón para desmarcar pregunta
+            if st.button("X",key=f"unmark_{index}"):
+                st.session_state.marked.remove(index)
+                st.rerun()
 
 def exam_screen():
     """
-    Pantalla principal del examen:
-    - Muestra nombre e ID del usuario.
-    - Calcula y muestra el tiempo restante únicamente en minutos.
-    - Presenta la pregunta actual y sus opciones.
-    - Incluye navegación (Anterior, Siguiente, Marcar) y finalización del examen.
+    Main exam screen:
+    - Displays the user's name and ID.
+    - Calculates and displays the remaining time in minutes only.
+    - Presents the current question and its options.
+    - Includes navigation (Previous, Next, Mark) and exam finalization.
     """
-    st.title("Examen de Práctica SPI - ARDMS")
+    st.title("SPI Practice Exam - ARDMS")  # Título en inglés
 
     # Datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
-    st.write(f"Nombre: **{nombre}**")
-    st.write(f"ID: **{identificacion}**")
+    st.write(f"Name: **{nombre}**")  # Texto en inglés
+    st.write(f"ID: **{identificacion}**")  # Texto en inglés
 
     # Calcular el tiempo restante (en segundos) y formatearlo solo en minutos
     elapsed_time = time.time() - st.session_state.start_time
@@ -149,7 +149,7 @@ def exam_screen():
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
-            <strong>Minutos Restantes:</strong> {minutes_remaining}
+            <strong>Minutes Remaining:</strong> {minutes_remaining}
         </div>
         """,
         unsafe_allow_html=True
@@ -157,12 +157,12 @@ def exam_screen():
 
     # Mostrar advertencia si faltan 10 minutos (warning_time_seconds = 600)
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
-        st.warning("¡El examen terminará en 10 minutos!")
+        st.warning("The exam will end in 10 minutes!")  # Texto en inglés
 
     # Si el tiempo ya se agotó, finalizamos el examen
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
-        st.success("El tiempo se ha agotado. El examen se finalizará ahora.")
+        st.success("Time is up. The exam will be finalized now.")  # Texto en inglés
         finalize_exam()
         return
 
@@ -182,23 +182,23 @@ def exam_screen():
 
 
         # Botón para finalizar el examen
-        if st.button("Finalizar Examen"):
+        if st.button("Finish Exam"):  # Texto en inglés
             # Verificar si hay preguntas sin responder
             unanswered = [
                 i + 1 for i, q in enumerate(st.session_state.selected_questions)
                 if str(i) not in st.session_state.answers
             ]
             if unanswered:
-                st.warning(f"Hay {len(unanswered)} preguntas sin responder. ¿Estás seguro de que deseas finalizar el examen?")
-                if st.button("Confirmar Finalización"):
+                st.warning(f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?")  # Texto en inglés
+                if st.button("Confirm Completion"):  # Texto en inglés
                     finalize_exam()
             else:
                 finalize_exam()
 
 def finalize_exam():
     """
-    Marca el examen como finalizado y muestra los resultados.
-    Genera un PDF (sin incluir preguntas ni respuestas).
+    Marks the exam as finished and displays the results.
+    Generates a PDF (without including questions or answers).
     """
     st.session_state.end_exam = True
 
@@ -207,21 +207,21 @@ def finalize_exam():
 
     # Determinar si aprueba o no
     if score >= config["passing_score"]:
-        status = "Aprobado"
+        status = "Passed"  # Texto en inglés
     else:
-        status = "No Aprobado"
+        status = "Not Passed"  # Texto en inglés
 
-    st.header("Resultados del Examen")
-    st.write(f"Puntaje Obtenido: **{score}**")
-    st.write(f"Estado: **{status}**")
+    st.header("Exam Results")  # Texto en inglés
+    st.write(f"Score Obtained: **{score}**")  # Texto en inglés
+    st.write(f"Status: **{status}**")  # Texto en inglés
 
     # Generar PDF y permitir descarga
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
-    st.success("Resultados generados en PDF.")
+    st.success("Results generated in PDF.")  # Texto en inglés
 
     with open(pdf_path, "rb") as f:
         st.download_button(
-            label="Descargar Resultados (PDF)",
+            label="Download Results (PDF)",  # Texto en inglés
             data=f,
             file_name=os.path.basename(pdf_path),
             mime="application/pdf"
@@ -229,9 +229,9 @@ def finalize_exam():
 
 def calculate_score():
     """
-    Conteo de aciertos. Luego, segmentamos:
-    - 0% a 75% de aciertos: línea de 0 puntos a 555
-    - 75% a 100% de aciertos: línea de 555 a 700
+    Count correct answers. Then, we segment:
+    - 0% to 75% correct: line from 0 points to 555
+    - 75% to 100% correct: line from 555 to 700
     """
     questions = st.session_state.selected_questions
     total_questions = len(questions)
@@ -266,18 +266,18 @@ def calculate_score():
 
 def main_screen():
     """
-    Pantalla que llama exam_screen() si el examen no ha terminado.
+    Screen that calls exam_screen() if the exam has not finished.
     """
     exam_screen()
 
 def main():
     """
-    EJECUCIÓN PRINCIPAL:
-    1. Inicializa el estado.
-    2. Pantalla de autenticación si no hay sesión.
-    3. Si usuario no ha ingresado datos, muestra formulario.
-    4. Mientras examen no haya acabado, presenta exam_screen().
-    5. Si está acabado, muestra resultados.
+    MAIN EXECUTION:
+    1. Initializes the state.
+    2. Authentication screen if there is no session.
+    3. If the user has not entered data, shows the form.
+    4. While the exam has not finished, presents exam_screen().
+    5. If it is finished, shows the results.
     """
     initialize_session()
 
