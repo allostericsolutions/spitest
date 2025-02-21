@@ -9419,7 +9419,7 @@
             "A-mode",
             "B-mode",
             "M-mode",
-            "None of the above"
+            "A-mode and B-mode"
         ],
         "respuesta_correcta": ["B-mode"]
     },
