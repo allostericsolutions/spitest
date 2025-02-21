@@ -2,11 +2,11 @@ import os
 import subprocess
 import tempfile
 import datetime
-import streamlit as st  # Importamos streamlit aquí
+import streamlit as st
 import json
 import time
-import random   # <- Asegúrate de importar random
-from fpdf import FPDF # <- Tambien para el PDF
+import random
+from fpdf import FPDF
 
 # --- Imports de tus módulos (asumiendo que existen) ---
 from utils.auth import verify_password
@@ -21,7 +21,7 @@ from components.navigation import display_navigation
 st.set_page_config(
     page_title="SPI Practice Exam - ARDMS",
     layout="centered",
-    initial_sidebar_state="collapsed",  #  ¡Importante!
+    initial_sidebar_state="collapsed",
 )
 
 # --- Funciones (definiciones) ---
@@ -100,39 +100,39 @@ def display_marked_questions_sidebar():
     st.sidebar.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=200)
 
     if st.session_state.marked:
-      st.sidebar.markdown("""
-        <style>
-        .title {
-          writing-mode: vertical-rl;
-          transform: rotate(180deg);
-          position: absolute;
-          top: 50%;
-          left: 0px;
-          transform-origin: center;
-          white-space: nowrap;
-          display: block;
-          font-size: 1.2em;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-      st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
+        st.sidebar.markdown("""
+            <style>
+            .title {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            transform-origin: center;
+            white-space: nowrap;
+            display: block;
+            font-size: 1.2em;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+        st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
 
-      for index in st.session_state.marked:
-        question_number = index + 1
-        col1, col2 = st.sidebar.columns([3, 1])
-        with col1:
-            # Botón para ir a la pregunta
-            if st.button(f"Question {question_number}", key=f"goto_{index}"):
-                st.session_state.current_question_index = index
-                st.rerun()
-        with col2:
-            # Botón para desmarcar (azul)
-            if st.button("X", key=f"unmark_{index}", button_type="primary"):  #  Botón azul
-                st.session_state.marked.remove(index)
-                st.rerun()
+        for index in st.session_state.marked:
+            question_number = index + 1
+            col1, col2 = st.sidebar.columns([3, 1])
+            with col1:
+                # Botón para ir a la pregunta
+                if st.button(f"Question {question_number}", key=f"goto_{index}"):
+                    st.session_state.current_question_index = index
+                    st.rerun()
+            with col2:
+                # Botón para desmarcar (azul)
+                if st.button("X", key=f"unmark_{index}", button_type="primary"):
+                    st.session_state.marked.remove(index)
+                    st.rerun()
 
 def exam_screen():
-  """Pantalla principal del examen."""
+    """Pantalla principal del examen."""
 
     st.title("SPI Practice Exam - ARDMS")
 
@@ -163,14 +163,14 @@ def exam_screen():
         finalize_exam()
         return
 
-    display_marked_questions_sidebar()  #  <-  Ahora incluye el logo
+    display_marked_questions_sidebar()
 
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
         question = st.session_state.selected_questions[current_index]
 
         # ---  Mostrar la Pregunta (MODIFICADO) ---
-        display_question(question, current_index + 1)  # Se pasa question y el número
+        display_question(question, current_index + 1)
 
         display_navigation()
 
