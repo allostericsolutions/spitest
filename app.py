@@ -43,19 +43,13 @@ def initialize_session():
     if 'current_question_index' not in st.session_state:
         st.session_state.current_question_index = 0
     if 'answers' not in st.session_state:
-        # MODIFICACIÓN AQUÍ: Inicializar answers con None para cada pregunta
-        st.session_state.answers = {}  # Inicialmente vacío
+        st.session_state.answers = {} # Inicialmente vacío
     if 'marked' not in st.session_state:
         st.session_state.marked = set()
     if 'start_time' not in st.session_state:
         st.session_state.start_time = None
     if 'end_exam' not in st.session_state:
         st.session_state.end_exam = False
-
-    # Inicializar answers con None para cada pregunta *después* de user_data_input
-    # pero solo si selected_questions ya existe y answers aun está vacío
-    if st.session_state.selected_questions and not st.session_state.answers:
-        st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
 
 def authentication_screen():
     """
@@ -101,10 +95,14 @@ def user_data_input():
                 for q in st.session_state.selected_questions:
                     q['opciones'] = shuffle_options(q)
 
+                # Inicializar answers *después* de seleccionar las preguntas
+                st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
+
+
                 # Registro del tiempo de inicio
                 st.session_state.start_time = time.time()
 
-                # Recargar la aplicación *antes* de inicializar answers
+                # Recargar la aplicación *después* de inicializar answers
                 st.rerun()
             else:
                 st.error("Please, complete all fields.")
@@ -113,7 +111,24 @@ def display_marked_questions_sidebar():
     """Displays the sidebar with the list of marked questions."""
 
     if st.session_state.marked:  # Only shows if there are marked questions
-      st.sidebar.markdown("<h3 style='padding-top:0px;'>Marked Questions</h3>", unsafe_allow_html=True)
+      # Título de la barra lateral (HTML/CSS personalizado)
+      st.markdown("""
+        <style>
+        .title {
+          writing-mode: vertical-rl;
+          transform: rotate(180deg);
+          position: absolute;
+          top: 50%;
+          left: 0px; /* Ajusta según sea necesario */
+          transform-origin: center;
+          white-space: nowrap;
+          display: block;
+          font-size: 1.2em;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+      st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
+
       for index in st.session_state.marked:
         question_number = index + 1
         col1, col2 = st.sidebar.columns([3, 1])
@@ -136,6 +151,10 @@ def exam_screen():
     - Presents the current question and its options.
     - Includes navigation (Previous, Next, Mark) and exam finalization.
     """
+    # Logo de la empresa
+    st.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=200)
+
+
     st.title("SPI Practice Exam - ARDMS")
 
     # Datos del usuario
