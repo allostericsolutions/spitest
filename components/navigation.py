@@ -19,10 +19,10 @@ def display_navigation():
     """
     col1, col2, col3 = st.columns(3)
 
-    # Botón para marcar la pregunta
+    # Botón para marcar la pregunta (AZUL)
     with col1:
-        if st.button("Mark for review", on_click=mark_current_question): #Texto en ingles
-            pass # Ya no es necesaria accion, el callback lo hace
+        if st.button("Mark for review", button_type="primary", on_click=mark_current_question): #Texto en ingles
+            pass
 
     # Botón para ir a la pregunta anterior
     with col2:
