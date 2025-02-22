@@ -16,35 +16,24 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed",
 )
-
+# CSS goes here, *before* other st elements:
 st.markdown(
     """
     <style>
-    body {
-        background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
-        background-repeat: no-repeat;
-        background-size: contain; /* Or cover, or specific dimensions */
-        background-position: center; /* Or other position */
-    }
-
-    /* Optional: Adjust padding/margins of other elements if needed */
-    .stApp {
-      padding-top: 0px !important;
-    }
-    h1{
-        margin-top: 5px !important;
-        margin-bottom: 10px !important;
-        text-align: center; /* Center the title */
-    }
-    .stTextInput > div > div > input {
+        h1 {
+            font-size: 1.2em !important; /* Reduced font size */
+            margin-top: 5px !important;
+            margin-bottom: 5px !important;
+            text-align: center;
+        }
+        /* Add other CSS rules here as needed */
+           .stTextInput > div > div > input {
             color: black !important;
     }
-
     </style>
     """,
-    unsafe_allow_html=True,
+    unsafe_allow_html=True
 )
-
 
 def load_config():
     """
@@ -84,7 +73,7 @@ def authentication_screen():
     """
     Authentication screen: prompts the user for the password.
     """
-    st.title("Authentication")
+    st.title("Authentication") # font size changed in the css
     password = st.text_input("Enter the password to access the exam:", type="password")
     if st.button("Enter"):
         if verify_password(password):
@@ -103,7 +92,7 @@ def user_data_input():
     - Saves the exam start time.
     - Reloads to advance to exam_screen().
     """
-    st.header("User Data")
+    st.header("User Data") # font size changed with css
     with st.form("user_form"):
         nombre = st.text_input("Full Name:")
         identificacion = st.text_input("ID or Student Number:")
@@ -180,9 +169,11 @@ def exam_screen():
     - Presents the current question and its options.
     - Includes navigation (Previous, Next, Mark) and exam finalization.
     """
-    # Logo de la empresa is in the background now
+    # Logo de la empresa
+    st.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=200)
 
-    st.title("SPI Practice Exam - ARDMS")
+
+    st.title("SPI Practice Exam - ARDMS") # font-size changed with css
 
     # Datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
