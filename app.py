@@ -17,6 +17,35 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
+        background-repeat: no-repeat;
+        background-size: contain; /* Or cover, or specific dimensions */
+        background-position: center; /* Or other position */
+    }
+
+    /* Optional: Adjust padding/margins of other elements if needed */
+    .stApp {
+      padding-top: 0px !important;
+    }
+    h1{
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+        text-align: center; /* Center the title */
+    }
+    .stTextInput > div > div > input {
+            color: black !important;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
 def load_config():
     """
     Loads the data/config.json file with:
@@ -151,9 +180,7 @@ def exam_screen():
     - Presents the current question and its options.
     - Includes navigation (Previous, Next, Mark) and exam finalization.
     """
-    # Logo de la empresa
-    st.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=100)
-
+    # Logo de la empresa is in the background now
 
     st.title("SPI Practice Exam - ARDMS")
 
