@@ -11022,5 +11022,804 @@
         "respuesta_correcta": [
             "American Institute of Ultrasound in Medicine"
         ]
-    }
-]
+    },
+   {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which principle directly addresses minimizing the time of exposure for both the operator and the patient during ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Nonthermal mechanisms",
+      "Mechanical mechanism",
+      "As Low As Reasonably Achievable",
+      "Health Insurance Portability and Accountability Act"
+    ],
+    "respuesta_correcta": [
+      "As Low As Reasonably Achievable"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When confirming a patient's identity, which element is usually present on their wristband and must be verified by the sonographer?",
+    "image": "",
+    "opciones": [
+      "Patient's race",
+      "Medical record number",
+      "Date of registration",
+      "Birth place"
+    ],
+    "respuesta_correcta": [
+      "Medical record number"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What action should a sonographer take when a patient doesn't speak the local or national language?",
+    "image": "",
+    "opciones": [
+      "Use picture cards",
+      "Cancel the examination",
+      "Provide an interpreter",
+      "Offer the patient paper and use hand gestures"
+    ],
+    "respuesta_correcta": [
+      "Provide an interpreter"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which technique employs sound waves to assess the firmness of a suspected lesion?",
+    "image": "",
+    "opciones": [
+      "Tissue harmonic imaging",
+      "Elastography",
+      "Tissue Doppler imaging",
+      "Elastography"
+    ],
+    "respuesta_correcta": [
+      "Elastography"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which type of elastography yields a quantitative result, rather than a color-based representation of tissue stiffness?",
+    "image": "",
+    "opciones": [
+      "Tissue harmonic imaging",
+      "Shear wave elastography",
+      "Strain elastography",
+      "Acoustic radiation force imaging"
+    ],
+    "respuesta_correcta": [
+      "Shear wave elastography"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What imaging method facilitates visualizing blood vessels using contrast-enhanced ultrasound?",
+    "image": "",
+    "opciones": [
+      "Tissue harmonic imaging",
+      "Shear wave elastography",
+      "Fusion imaging",
+      "A-mode imaging"
+    ],
+    "respuesta_correcta": [
+      "Tissue harmonic imaging"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following practices is most effective for curbing the spread of infections?",
+    "image": "",
+    "opciones": [
+      "Covering your mouth when you cough",
+      "Cleaning the ultrasound machine",
+      "Hand washing",
+      "Taking vitamins"
+    ],
+    "respuesta_correcta": [
+      "Hand washing"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What term defines the effect of an acoustic field within a liquid, creating bubbles?",
+    "image": "",
+    "opciones": [
+      "Thermal index",
+      "Cavitation",
+      "Dehydration",
+      "Streaming"
+    ],
+    "respuesta_correcta": [
+      "Cavitation"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the phenomenon of fluid movement resulting from an acoustic field called?",
+    "image": "",
+    "opciones": [
+      "Streaming",
+      "Cavitation",
+      "Hydrostatic pressure",
+      "Radiation forces"
+    ],
+    "respuesta_correcta": [
+      "Streaming"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which calculation estimates the maximum rise in temperature within tissues due to sound attenuation?",
+    "image": "",
+    "opciones": [
+      "Spatial temporal index",
+      "Nonmechanical index",
+      "Mechanical index",
+      "Thermal index"
+    ],
+    "respuesta_correcta": [
+      "Thermal index"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-11",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The highest potential for tissue heating is associated with which aspect of the sound beam?",
+    "image": "",
+    "opciones": [
+      "Spatial average peak average",
+      "Spatial peak temporal average",
+      "Spatial average temporal average",
+      "Spatial average"
+    ],
+    "respuesta_correcta": [
+      "Spatial peak temporal average"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-12",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is NOT a primary aim of the Health Insurance Portability and Accountability Act?",
+    "image": "",
+    "opciones": [
+      "Establish new standards for the release of health records.",
+      "Protect health records by establishing new standards for healthcare professionals to follow.",
+      "Apply strict penalties for those who violate patient confidentiality and patient rights.",
+      "Encourage safe practices when dealing with patients; they also promote cleanliness in the healthcare setting."
+    ],
+    "respuesta_correcta": [
+      "Encourage safe practices when dealing with patients; they also promote cleanliness in the healthcare setting."
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-13",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the term for forces exerted by a sound wave upon an object that can alter its structure?",
+    "image": "",
+    "opciones": [
+      "Cavitation",
+      "Radioactive mechanism",
+      "Radiation forces",
+      "Nonmechanical strengths"
+    ],
+    "respuesta_correcta": [
+      "Radiation forces"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-14",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which form of cavitation poses the greatest risk of causing biological damage?",
+    "image": "",
+    "opciones": [
+      "Acute",
+      "Chronic",
+      "Transient",
+      "Stable"
+    ],
+    "respuesta_correcta": [
+      "Transient"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-15",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What calculation is employed to assess the probability of cavitation occurring?",
+    "image": "",
+    "opciones": [
+      "Cavitational index",
+      "Mechanical index",
+      "Nonmechanical index",
+      "Thermal index"
+    ],
+    "respuesta_correcta": [
+      "Mechanical index"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-16",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which condition best describes the heart's inability to adequately pump blood to meet the body's needs?",
+    "image": "",
+    "opciones": [
+      "Distributive shock",
+      "Neurogenic shock",
+      "Hypovolemic shock",
+      "Cardiogenic shock"
+    ],
+    "respuesta_correcta": [
+      "Cardiogenic shock"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-17",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the most appropriate definition of a nosocomial infection?",
+    "image": "",
+    "opciones": [
+      "Hospital-acquired infection",
+      "Infection caused by not washing your hands",
+      "A nasal infection spread by sneezing",
+      "An airborne disease found in infected persons' lungs that is spread by coughing"
+    ],
+    "respuesta_correcta": [
+      "Hospital-acquired infection"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-18",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which condition can lead to anaphylactic shock?",
+    "image": "",
+    "opciones": [
+      "Cardiac tamponade",
+      "Diarrhea",
+      "lodinated contrast agents",
+      "Lack of glucose"
+    ],
+    "respuesta_correcta": [
+      "lodinated contrast agents"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-19",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is one of the more common types of infections acquired in the hospital setting?",
+    "image": "",
+    "opciones": [
+      "AIDS",
+      "Hepatitis B",
+      "Urinary tract infections",
+      "Tuberculosis"
+    ],
+    "respuesta_correcta": [
+      "Urinary tract infections"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-20",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What initial requirement must be met for an infectious agent to thrive and multiply?",
+    "image": "",
+    "opciones": [
+      "Means of transmission",
+      "Portal of entry",
+      "Portal of exit",
+      "Reservoir"
+    ],
+    "respuesta_correcta": [
+      "Reservoir"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-21",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which virus would be least common for healthcare workers to come into contact with?",
+    "image": "",
+    "opciones": [
+      "Hepatitis B",
+      "Hepatitis C",
+      "Methicillin-resistant Staphylococcus aureus",
+      "Hepatitis A"
+    ],
+    "respuesta_correcta": [
+      "Methicillin-resistant Staphylococcus aureus"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-22",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is not a measure or device that helps prevent pathogens from spreading from an infected person to their surrounding environment?",
+    "image": "",
+    "opciones": [
+      "Gloves",
+      "Hand washing",
+      "Needles",
+      "Sterilization"
+    ],
+    "respuesta_correcta": [
+      "Hand washing"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-23",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Universal or standard precautions are applicable in all of the following situations, with one exception:",
+    "image": "",
+    "opciones": [
+      "Sweat",
+      "Nonintact skin",
+      "Blood",
+      "Pleural fluid"
+    ],
+    "respuesta_correcta": [
+      "Sweat"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-24",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When reviewing sonographic images outside of a medical setting, which element does not necessarily need to be removed?",
+    "image": "",
+    "opciones": [
+      "Patient's name",
+      "Facility",
+      "Date",
+      "Image orientation"
+    ],
+    "respuesta_correcta": [
+      "Image orientation"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-25",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which condition is most accurately described as an airborne illness that can spread through bacteria released when someone coughs, sneezes, speaks, or sings?",
+    "image": "",
+    "opciones": [
+      "Methicillin-resistant Staphylococcus aureus",
+      "Hepatitis B",
+      "Tuberculosis",
+      "Hepatitis C"
+    ],
+    "respuesta_correcta": [
+      "Tuberculosis"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-26",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which illness might most likely appear as an inflamed, oozing skin lesion?",
+    "image": "",
+    "opciones": [
+      "Methicillin-resistant Staphylococcus aureus",
+      "Tuberculosis",
+      "Human immunodeficiency virus",
+      "Hepatitis C"
+    ],
+    "respuesta_correcta": [
+      "Methicillin-resistant Staphylococcus aureus"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-27",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does the term 'hepatitis' specifically refer to?",
+    "image": "",
+    "opciones": [
+      "Liver inflammation",
+      "Renal disorders",
+      "Metabolic obstruction",
+      "Biliary infection"
+    ],
+    "respuesta_correcta": [
+      "Liver inflammation"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-28",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following processes is not considered a non-thermal biological effect?",
+    "image": "",
+    "opciones": [
+      "Radiation forces",
+      "Streaming",
+      "Acoustic cavitation",
+      "Tissue heating"
+    ],
+    "respuesta_correcta": [
+      "Tissue heating"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-29",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What's thought to be the main reason why tissue heats up when sound is attenuated in the human body?",
+    "image": "",
+    "opciones": [
+      "Reflection",
+      "Enhancement",
+      "Cavitation",
+      "Absorption"
+    ],
+    "respuesta_correcta": [
+      "Absorption"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-30",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Below what SPTA intensity level have no biological effects been seen for unfocused beams?",
+    "image": "",
+    "opciones": [
+      "100 mW/cm²",
+      "10 W/cm²",
+      "1000 mW/cm²",
+      "1540 m/s"
+    ],
+    "respuesta_correcta": [
+      "100 mW/cm²"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-31",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following conditions would most likely cause obstructive shock?",
+    "image": "",
+    "opciones": [
+      "Nosocomial infection",
+      "Cardiogenic shock",
+      "Hypovolemic shock",
+      "Obstructive shock"
+    ],
+    "respuesta_correcta": [
+      "Obstructive shock"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-32",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What medical condition develops from the lack of insulin, causing a sweet smell on someone's breath?",
+    "image": "",
+    "opciones": [
+      "Hyperglycemic hyperosmolar nonketotic syndrome",
+      "Diabetic ketoacidosis",
+      "Hypovolemic shock",
+      "Neurogenic shock"
+    ],
+    "respuesta_correcta": [
+      "Diabetic ketoacidosis"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-33",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In tissue that contains well-defined gas bodies, what MI value must not be exceeded to not cause known effects?",
+    "image": "",
+    "opciones": [
+      "0.4",
+      "0.8",
+      "2",
+      "100"
+    ],
+    "respuesta_correcta": [
+      "0.4"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-34",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How many degrees in an angle can a Sonographers arm be in at most, for the prevention of work-related musculoskeletal disorders?",
+    "image": "",
+    "opciones": [
+      "20° angle of adduction",
+      "20° angle of abduction",
+      "30° angle of adduction",
+      "30° angle of abduction"
+    ],
+    "respuesta_correcta": [
+      "30° angle of abduction"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-35",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What has to be present in order for a pathogen to transmit from one individual to another?",
+    "image": "",
+    "opciones": [
+      "Gateway of admission",
+      "Portal of exit",
+      "Infectious agent",
+      "Vulnerable agent"
+    ],
+    "respuesta_correcta": [
+      "Portal of exit"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-36",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is not transmitted via contact with infectious blood or accidental needle sticks?",
+    "image": "",
+    "opciones": [
+      "Tuberculosis",
+      "Human immunodeficiency virus",
+      "Hepatitis C",
+      "Hepatitis B"
+    ],
+    "respuesta_correcta": [
+      "Tuberculosis"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-37",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following would not be considered a clinical complication of diabetes mellitus?",
+    "image": "",
+    "opciones": [
+      "Blurred vision",
+      "Extreme thirst",
+      "Sweet odor to the breath",
+      "Decreased urine output"
+    ],
+    "respuesta_correcta": [
+      "Decreased urine output"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-38",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Human immunodeficiency virus is spread by all of the following means except:",
+    "image": "",
+    "opciones": [
+      "Sexual contact",
+      "Kissing",
+      "Needle stick",
+      "Blood transfusion"
+    ],
+    "respuesta_correcta": [
+      "Kissing"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-39",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Some clinical manifestation of shock includes all of the following except:",
+    "image": "",
+    "opciones": [
+      "Clammy skin",
+      "Decreased urine output",
+      "Increased anxiety",
+      "Extreme thirst"
+    ],
+    "respuesta_correcta": [
+      "Extreme thirst"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-40",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following statements is true concerning hand washing?",
+    "image": "",
+    "opciones": [
+      "Alcohol-based hand rubs can be used to take the place of hand washing in all circumstances.",
+      "Hand washing should occur before and after any contact with patients.",
+      "Hand washing is not an effective means to prevent the spread of infection.",
+      "Alcohol-based hand rubs should never be used in conjunction with hand washing."
+    ],
+    "respuesta_correcta": [
+      "Hand washing should occur before and after any contact with patients."
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-41",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the presence of a nonresponsive adult patient, which pulse should be evaluated?",
+    "image": "",
+    "opciones": [
+      "Radial",
+      "Tibial",
+      "Carotid",
+      "Temporal"
+    ],
+    "respuesta_correcta": [
+      "Carotid"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-42",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Personal protective equipment includes all of the following except:",
+    "image": "",
+    "opciones": [
+      "Gloves",
+      "Gluteraldehyde soaking solution",
+      "Gowns",
+      "Face masks"
+    ],
+    "respuesta_correcta": [
+      "Gluteraldehyde soaking solution"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-43",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following would not be considered a barrier technique?",
+    "image": "",
+    "opciones": [
+      "Sterilization",
+      "Decontamination",
+      "Disposing of waste material",
+      "Hand hygiene"
+    ],
+    "respuesta_correcta": [
+      "Hand hygiene"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-44",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What would be the most likely means of transmission of the human immunodeficiency virus from a patient to a sonographer?",
+    "image": "",
+    "opciones": [
+      "Exposure to fecal material",
+      "Holding the patient's hand without a glove",
+      "Needle stick",
+      "Coughing"
+    ],
+    "respuesta_correcta": [
+      "Needle stick"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-45",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What would be the most likely means of transmission of tuberculosis from a patient to a sonographer?",
+    "image": "",
+    "opciones": [
+      "Exposure to fecal material",
+      "Holding the patient's hand without a glove",
+      "Needle stick",
+      "Coughing"
+    ],
+    "respuesta_correcta": [
+      "Coughing"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-46",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Nonthermal mechanisms may also be referred to as:",
+    "image": "",
+    "opciones": [
+      "Thermal mechanisms",
+      "Mechanical mechanisms",
+      "Thermal indices",
+      "Absorption influence"
+    ],
+    "respuesta_correcta": [
+      "Mechanical mechanisms"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-47",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following would not be a subcategory of distributive shock?",
+    "image": "",
+    "opciones": [
+      "Septic shock",
+      "Anaphylactic shock",
+      "Nosocomial shock",
+      "Neurogenic shock"
+    ],
+    "respuesta_correcta": [
+      "Nosocomial shock"
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-48",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following statements is true concerning the biologic effects of diagnostic sonography?",
+    "image": "",
+    "opciones": [
+      "No effects caused by exposure from present diagnostic ultrasound instruments have been reported in human patients in the absence of contrast agents.",
+      "Very few biologic effects caused by exposure from diagnostic ultrasound instruments have been reported.",
+      "Biologic effects have been recognized and the risk and benefits must be considered for each examination.",
+      "The only biologic effect of diagnostic ultrasound exposure is cavitation."
+    ],
+    "respuesta_correcta": [
+      "No effects caused by exposure from present diagnostic ultrasound instruments have been reported in human patients in the absence of contrast agents."
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-49",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are true statements about the use of gloves except:",
+    "image": "",
+    "opciones": [
+      "Gloves should be used when there is any expected contact with infected materials.",
+      "Gloves can be used to replace hand washing.",
+      "Gloves should be changed between patients.",
+      "Gloves are considered personal protective equipment."
+    ],
+    "respuesta_correcta": [
+      "Gloves can be used to replace hand washing."
+    ]
+  },
+  {
+    "clasificacion": "Patient care and new technology",
+    "grupo": "1-50",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following best describes transient cavitation?",
+    "image": "",
+    "opciones": [
+      "The type of cavitation in which there is a production of cavernous spaces within tissue.",
+      "The type of cavitation that produces bubbles that oscillate, or fluctuate, in size but do not rupture.",
+      "The type of cavitation in which bubbles do not exist.",
+      "The type of cavitation when larger bubbles are produced and subsequently rupture."
+    ],
+    "respuesta_correcta": [
+      "The type of cavitation when larger bubbles are produced and subsequently rupture."
+    ]
+  }
