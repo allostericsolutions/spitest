@@ -152,7 +152,7 @@ def exam_screen():
     - Includes navigation (Previous, Next, Mark) and exam finalization.
     """
     # Logo de la empresa
-    st.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=200)
+    st.image("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png", width=100)
 
 
     st.title("SPI Practice Exam - ARDMS")
