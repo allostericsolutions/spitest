@@ -7777,7 +7777,7 @@
     },
     {
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
-        "grupo": "2-8",
+        "grupo": "2-76",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When imaging depth increases, the Pulse Repetition Period (PRP):",
         "image": "",
@@ -8577,7 +8577,7 @@
     },
     {
         "clasificacion": "Transducers, Resolution, and Image Formation.",
-        "grupo": "2-8",
+        "grupo": "2-90",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "For an unfocused, single-element transducer, how does the width at the sound beam's focal point compare to the beam width at the transducer's face?",
         "image": "",
@@ -13742,5 +13742,22 @@
         "respuesta_correcta": [
             "Laminar"
         ]
+    },
+    {
+        "clasificacion": "Transducers, Resolution, and Image Formation.",
+        "grupo": "5-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
+        "image": "",
+        "opciones": [
+            "Endocavitary transducer",
+            "Linear sequenced array transducer",
+            "Convex transducer",
+            "Continuous-wave transducer"
+        ],
+        "respuesta_correcta": [
+            "Convex transducer"
+           ]
     }
 ]
+    
