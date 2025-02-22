@@ -222,15 +222,15 @@ def exam_screen():
 
 def finalize_exam():
     """
-    Marks the exam as finished, displays the results,
-    generates a PDF, and stores incorrect questions in st.session_state.
+    Marks the exam as finished and displays the results.
+    Generates a PDF (without including questions or answers).
     """
     st.session_state.end_exam = True
 
-    # Calculate score
+    # Calcular puntaje con la nueva lógica: 75% → 555, 100% → 700
     score = calculate_score()
 
-    # Determine pass/fail status
+    # Determinar si aprueba o no
     if score >= config["passing_score"]:
         status = "Passed"
     else:
@@ -240,30 +240,8 @@ def finalize_exam():
     st.write(f"Score Obtained: **{score}**")
     st.write(f"Status: **{status}**")
 
-    # ---  Identify and store incorrect questions ---
-    incorrect_questions = []
-    questions = st.session_state.selected_questions
-    answers = st.session_state.answers
-
-    for idx, question in enumerate(questions):
-        user_answer = answers.get(str(idx), None)
-        correct_answer = question["respuesta_correcta"][0]  # Assuming only one correct answer
-
-        if user_answer != correct_answer:  # Compare directly since there's only one correct answer
-            incorrect_question = {
-                "clasificacion": question["clasificacion"],
-                "enunciado": question["enunciado"],
-                "image": question["image"],
-                "opciones": [user_answer] if user_answer else [None],  # Store user's incorrect answer or None if unanswered
-                "respuesta_correcta": [correct_answer],
-            }
-            incorrect_questions.append(incorrect_question)
-
-    st.session_state.analisis = incorrect_questions
-    print ("incorrect questions", st.session_state.analisis) #only for test
-
-    # Generate PDF and allow download
-    pdf_path = generate_pdf(st.session_state.user_data, score, status, incorrect_questions=incorrect_questions) #Pass incorrect_questions
+    # Generar PDF y permitir descarga
+    pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
 
     with open(pdf_path, "rb") as f:
