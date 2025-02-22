@@ -32,8 +32,8 @@ st.markdown(
       padding-top: 0px !important;
     }
     h1{
-        margin-top: 7px !important;
-        margin-bottom: 12px !important;
+        margin-top: 5px !important;
+        margin-bottom: 10px !important;
         text-align: center; /* Center the title */
     }
     .stTextInput > div > div > input {
