@@ -1,5 +1,5 @@
 [
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -15,7 +15,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -31,7 +31,7 @@
             "Decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -47,7 +47,7 @@
             "The wavelength decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -63,7 +63,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -79,7 +79,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -95,7 +95,7 @@
             "Wavelength decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -111,7 +111,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -127,7 +127,7 @@
             "Higher frequency decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -143,7 +143,7 @@
             "Decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -159,7 +159,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -175,7 +175,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -191,7 +191,7 @@
             "Decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -207,7 +207,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -223,7 +223,7 @@
             "Decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -239,7 +239,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -255,7 +255,7 @@
             "Higher frequency decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -271,7 +271,7 @@
             "Watt"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -287,7 +287,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -303,7 +303,7 @@
             "Attenuation increases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -319,7 +319,7 @@
             "cubic meters"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -335,7 +335,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-11",
         "tipo_pregunta": "opcion_multiple",
@@ -351,7 +351,7 @@
             "Medium properties"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-12",
         "tipo_pregunta": "opcion_multiple",
@@ -367,7 +367,7 @@
             "Higher frequency decreases penetration"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-13",
         "tipo_pregunta": "opcion_multiple",
@@ -383,7 +383,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-14",
         "tipo_pregunta": "opcion_multiple",
@@ -399,7 +399,7 @@
             "They are inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-15",
         "tipo_pregunta": "opcion_multiple",
@@ -415,7 +415,7 @@
             "The source"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-16",
         "tipo_pregunta": "opcion_multiple",
@@ -431,7 +431,7 @@
             "Directly proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-17",
         "tipo_pregunta": "opcion_multiple",
@@ -447,7 +447,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-18",
         "tipo_pregunta": "opcion_multiple",
@@ -463,7 +463,7 @@
             "Higher frequency increases attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-19",
         "tipo_pregunta": "opcion_multiple",
@@ -479,7 +479,7 @@
             "Medium properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -495,7 +495,7 @@
             "Density times speed of sound"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -511,7 +511,7 @@
             "Impedance mismatch"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -527,7 +527,7 @@
             "Rayls"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "2-20",
         "tipo_pregunta": "opcion_multiple",
@@ -543,7 +543,7 @@
             "Increases reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -559,7 +559,7 @@
             "It increases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -575,7 +575,7 @@
             "It is directly proportional to speed of sound"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -591,7 +591,7 @@
             "Impedance difference"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -607,7 +607,7 @@
             "Density times speed of sound"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -623,7 +623,7 @@
             "Increases reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -639,7 +639,7 @@
             "Impedance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -655,7 +655,7 @@
             "Directly proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -671,7 +671,7 @@
             "Higher impedance decreases transmission"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -687,7 +687,7 @@
             "It increases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -703,7 +703,7 @@
             "They are inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -719,7 +719,7 @@
             "Impedance difference"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -735,7 +735,7 @@
             "Impedance difference divided by impedance sum"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -751,7 +751,7 @@
             "Increases transmission"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -767,7 +767,7 @@
             "Impedance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-8",
         "tipo_pregunta": "opcion_multiple",
@@ -783,7 +783,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -799,7 +799,7 @@
             "Higher impedance increases reflection"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -815,7 +815,7 @@
             "Watts/cm\u00b2"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -831,7 +831,7 @@
             "1540 m/s"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -847,7 +847,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -863,7 +863,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -879,7 +879,7 @@
             "Scattering"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -895,7 +895,7 @@
             "Increases attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -911,7 +911,7 @@
             "Diffraction"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -927,7 +927,7 @@
             "They are directly proportional"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -943,7 +943,7 @@
             "Both the source and the medium"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -959,7 +959,7 @@
             "Medium properties"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -975,7 +975,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -991,7 +991,7 @@
             "Decreases"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -1007,7 +1007,7 @@
             "No effect on speed"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -1023,7 +1023,7 @@
             "Higher compressibility decreases speed"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -1039,7 +1039,7 @@
             "They are inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -1055,7 +1055,7 @@
             "It increases"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -1071,7 +1071,7 @@
             "Higher stiffness increases speed"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -1087,7 +1087,7 @@
             "Decreases speed"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -1103,7 +1103,7 @@
             "The source"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -1119,7 +1119,7 @@
             "Spatial pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -1135,7 +1135,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -1151,7 +1151,7 @@
             "Decreases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -1167,7 +1167,7 @@
             "Decreases pulse duration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -1183,7 +1183,7 @@
             "Shorter spatial pulse length improves resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -1199,7 +1199,7 @@
             "They are inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -1215,7 +1215,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -1231,7 +1231,7 @@
             "Decreases pulse duration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -1247,7 +1247,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -1263,7 +1263,7 @@
             "Refraction"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-11",
         "tipo_pregunta": "opcion_multiple",
@@ -1279,7 +1279,7 @@
             "Rayls"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-12",
         "tipo_pregunta": "opcion_multiple",
@@ -1295,7 +1295,7 @@
             "Medium properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-13",
         "tipo_pregunta": "opcion_multiple",
@@ -1311,7 +1311,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-14",
         "tipo_pregunta": "opcion_multiple",
@@ -1327,7 +1327,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-15",
         "tipo_pregunta": "opcion_multiple",
@@ -1343,7 +1343,7 @@
             "Frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-16",
         "tipo_pregunta": "opcion_multiple",
@@ -1359,7 +1359,7 @@
             "Density differences"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-17",
         "tipo_pregunta": "opcion_multiple",
@@ -1375,7 +1375,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-18",
         "tipo_pregunta": "opcion_multiple",
@@ -1391,7 +1391,7 @@
             "Product of density and speed of sound"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-19",
         "tipo_pregunta": "opcion_multiple",
@@ -1407,7 +1407,7 @@
             "Power divided by area"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-20",
         "tipo_pregunta": "opcion_multiple",
@@ -1423,7 +1423,7 @@
             "Medium stiffness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-21",
         "tipo_pregunta": "opcion_multiple",
@@ -1439,7 +1439,7 @@
             "Decibels"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-22",
         "tipo_pregunta": "opcion_multiple",
@@ -1455,7 +1455,7 @@
             "Rate of intensity loss per unit distance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-23",
         "tipo_pregunta": "opcion_multiple",
@@ -1471,7 +1471,7 @@
             "Attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-24",
         "tipo_pregunta": "opcion_multiple",
@@ -1487,7 +1487,7 @@
             "Greater reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-25",
         "tipo_pregunta": "opcion_multiple",
@@ -1503,7 +1503,7 @@
             "Decreases speed"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-26",
         "tipo_pregunta": "opcion_multiple",
@@ -1519,7 +1519,7 @@
             "Speed divided by frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-27",
         "tipo_pregunta": "opcion_multiple",
@@ -1535,7 +1535,7 @@
             "Elasticity"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-28",
         "tipo_pregunta": "opcion_multiple",
@@ -1551,7 +1551,7 @@
             "Impedance mismatch"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-29",
         "tipo_pregunta": "opcion_multiple",
@@ -1567,7 +1567,7 @@
             "Reflection increases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-30",
         "tipo_pregunta": "opcion_multiple",
@@ -1583,7 +1583,7 @@
             "Size of scatterers"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-31",
         "tipo_pregunta": "opcion_multiple",
@@ -1599,7 +1599,7 @@
             "Decreases sound intensity"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-32",
         "tipo_pregunta": "opcion_multiple",
@@ -1615,7 +1615,7 @@
             "Number of cycles and wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-33",
         "tipo_pregunta": "opcion_multiple",
@@ -1631,7 +1631,7 @@
             "Depth of penetration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-34",
         "tipo_pregunta": "opcion_multiple",
@@ -1647,7 +1647,7 @@
             "Doppler effect"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-35",
         "tipo_pregunta": "opcion_multiple",
@@ -1663,7 +1663,7 @@
             "Refines resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-36",
         "tipo_pregunta": "opcion_multiple",
@@ -1679,7 +1679,7 @@
             "Creates contrast"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-37",
         "tipo_pregunta": "opcion_multiple",
@@ -1695,7 +1695,7 @@
             "Higher frequency improves resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-38",
         "tipo_pregunta": "opcion_multiple",
@@ -1711,7 +1711,7 @@
             "Beam width"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-39",
         "tipo_pregunta": "opcion_multiple",
@@ -1727,7 +1727,7 @@
             "Impedance matching"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-40",
         "tipo_pregunta": "opcion_multiple",
@@ -1743,7 +1743,7 @@
             "Modifies wave impedance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-41",
         "tipo_pregunta": "opcion_multiple",
@@ -1759,7 +1759,7 @@
             "Facilitates random scattering"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-42",
         "tipo_pregunta": "opcion_multiple",
@@ -1775,7 +1775,7 @@
             "Acoustic impedance"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -1791,7 +1791,7 @@
             "Mechanical"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -1807,7 +1807,7 @@
             "Period"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-11",
         "tipo_pregunta": "opcion_multiple",
@@ -1823,7 +1823,7 @@
             "Inversely proportional"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-12",
         "tipo_pregunta": "opcion_multiple",
@@ -1839,7 +1839,7 @@
             "Temperature"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-13",
         "tipo_pregunta": "opcion_multiple",
@@ -1855,7 +1855,7 @@
             "Elasticity of the medium"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-14",
         "tipo_pregunta": "opcion_multiple",
@@ -1871,7 +1871,7 @@
             "Hertz"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-15",
         "tipo_pregunta": "opcion_multiple",
@@ -1887,7 +1887,7 @@
             "Decreases wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-16",
         "tipo_pregunta": "opcion_multiple",
@@ -1903,7 +1903,7 @@
             "The distance between two successive points in a wave"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-17",
         "tipo_pregunta": "opcion_multiple",
@@ -1919,7 +1919,7 @@
             "Mechanical"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-18",
         "tipo_pregunta": "opcion_multiple",
@@ -1935,7 +1935,7 @@
             "Decreases speed"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-19",
         "tipo_pregunta": "opcion_multiple",
@@ -1951,7 +1951,7 @@
             "Power per area"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-20",
         "tipo_pregunta": "opcion_multiple",
@@ -1967,7 +1967,7 @@
             "Part of the sound wave"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-21",
         "tipo_pregunta": "opcion_multiple",
@@ -1983,7 +1983,7 @@
             "500 m/s to 1500 m/s"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-22",
         "tipo_pregunta": "opcion_multiple",
@@ -1999,7 +1999,7 @@
             "Amplitude squared"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-23",
         "tipo_pregunta": "opcion_multiple",
@@ -2015,7 +2015,7 @@
             "A transfer of energy through mechanical vibrations"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-24",
         "tipo_pregunta": "opcion_multiple",
@@ -2031,7 +2031,7 @@
             "25 kHz"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-25",
         "tipo_pregunta": "opcion_multiple",
@@ -2047,7 +2047,7 @@
             "Bone"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-26",
         "tipo_pregunta": "opcion_multiple",
@@ -2063,7 +2063,7 @@
             "Increases sound speed"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-27",
         "tipo_pregunta": "opcion_multiple",
@@ -2079,7 +2079,7 @@
             "Constructive interference"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-28",
         "tipo_pregunta": "opcion_multiple",
@@ -2095,7 +2095,7 @@
             "In decibels"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-29",
         "tipo_pregunta": "opcion_multiple",
@@ -2111,7 +2111,7 @@
             "Nothing affects frequency"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-30",
         "tipo_pregunta": "opcion_multiple",
@@ -2127,7 +2127,7 @@
             "Frequency"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-31",
         "tipo_pregunta": "opcion_multiple",
@@ -2143,7 +2143,7 @@
             "A region of reduced particle density"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-32",
         "tipo_pregunta": "opcion_multiple",
@@ -2159,7 +2159,7 @@
             "Decreases"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-33",
         "tipo_pregunta": "opcion_multiple",
@@ -2175,7 +2175,7 @@
             "To convert electrical energy into sound waves and vice versa"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-34",
         "tipo_pregunta": "opcion_multiple",
@@ -2191,7 +2191,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-35",
         "tipo_pregunta": "opcion_multiple",
@@ -2207,7 +2207,7 @@
             "Absorption and conversion to heat"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-36",
         "tipo_pregunta": "opcion_multiple",
@@ -2223,7 +2223,7 @@
             "Destructive cancellation"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-37",
         "tipo_pregunta": "opcion_multiple",
@@ -2239,7 +2239,7 @@
             "Diffraction"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-38",
         "tipo_pregunta": "opcion_multiple",
@@ -2255,7 +2255,7 @@
             "Bouncing off surfaces"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-39",
         "tipo_pregunta": "opcion_multiple",
@@ -2271,7 +2271,7 @@
             "Pressure maxima"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-40",
         "tipo_pregunta": "opcion_multiple",
@@ -2287,7 +2287,7 @@
             "Elasticity"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-41",
         "tipo_pregunta": "opcion_multiple",
@@ -2303,7 +2303,7 @@
             "Rarefactions"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-42",
         "tipo_pregunta": "opcion_multiple",
@@ -2319,7 +2319,7 @@
             "Reflection"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-43",
         "tipo_pregunta": "opcion_multiple",
@@ -2335,7 +2335,7 @@
             "High frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -2351,7 +2351,7 @@
             "1540 meters per second"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -2367,7 +2367,7 @@
             "Rayleigh reflector"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -2383,7 +2383,7 @@
             "Impedance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -2399,7 +2399,7 @@
             "The angle of refraction"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -2415,7 +2415,7 @@
             "Resonance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -2431,7 +2431,7 @@
             "Slower"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -2447,7 +2447,7 @@
             "Reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -2463,7 +2463,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -2479,7 +2479,7 @@
             "The medium"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -2495,7 +2495,7 @@
             "Directly proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-11",
         "tipo_pregunta": "opcion_multiple",
@@ -2511,7 +2511,7 @@
             "Distance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-12",
         "tipo_pregunta": "opcion_multiple",
@@ -2527,7 +2527,7 @@
             "Echo free"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-13",
         "tipo_pregunta": "opcion_multiple",
@@ -2543,7 +2543,7 @@
             "Increases"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-14",
         "tipo_pregunta": "opcion_multiple",
@@ -2559,7 +2559,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-15",
         "tipo_pregunta": "opcion_multiple",
@@ -2575,7 +2575,7 @@
             "Density and speed of sound"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-16",
         "tipo_pregunta": "opcion_multiple",
@@ -2591,7 +2591,7 @@
             "They can be resolved by adjusting the baseline"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-17",
         "tipo_pregunta": "opcion_multiple",
@@ -2607,7 +2607,7 @@
             "Aliasing"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-18",
         "tipo_pregunta": "opcion_multiple",
@@ -2623,7 +2623,7 @@
             "Frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-19",
         "tipo_pregunta": "opcion_multiple",
@@ -2639,7 +2639,7 @@
             "Density and stiffness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-20",
         "tipo_pregunta": "opcion_multiple",
@@ -2655,7 +2655,7 @@
             "Multipath artifact"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-21",
         "tipo_pregunta": "opcion_multiple",
@@ -2671,7 +2671,7 @@
             "Acoustic impedance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-22",
         "tipo_pregunta": "opcion_multiple",
@@ -2687,7 +2687,7 @@
             "Attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-23",
         "tipo_pregunta": "opcion_multiple",
@@ -2703,7 +2703,7 @@
             "Reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-24",
         "tipo_pregunta": "opcion_multiple",
@@ -2719,7 +2719,7 @@
             "Beam profile"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-25",
         "tipo_pregunta": "opcion_multiple",
@@ -2735,7 +2735,7 @@
             "Refraction"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-26",
         "tipo_pregunta": "opcion_multiple",
@@ -2751,7 +2751,7 @@
             "Scattering"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-27",
         "tipo_pregunta": "opcion_multiple",
@@ -2767,7 +2767,7 @@
             "Reflection coefficient"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-28",
         "tipo_pregunta": "opcion_multiple",
@@ -2783,7 +2783,7 @@
             "Huygens principle"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-29",
         "tipo_pregunta": "opcion_multiple",
@@ -2799,7 +2799,7 @@
             "Refraction"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-30",
         "tipo_pregunta": "opcion_multiple",
@@ -2815,7 +2815,7 @@
             "Scattering"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-31",
         "tipo_pregunta": "opcion_multiple",
@@ -2831,7 +2831,7 @@
             "Total internal reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-32",
         "tipo_pregunta": "opcion_multiple",
@@ -2847,7 +2847,7 @@
             "Refraction at an oblique angle"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-33",
         "tipo_pregunta": "opcion_multiple",
@@ -2863,7 +2863,7 @@
             "Frequency remains unchanged"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-34",
         "tipo_pregunta": "opcion_multiple",
@@ -2879,7 +2879,7 @@
             "Attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-35",
         "tipo_pregunta": "opcion_multiple",
@@ -2895,7 +2895,7 @@
             "Converting electrical signals to sound waves"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-36",
         "tipo_pregunta": "opcion_multiple",
@@ -2911,7 +2911,7 @@
             "Increases resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-37",
         "tipo_pregunta": "opcion_multiple",
@@ -2927,7 +2927,7 @@
             "Depth of penetration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-38",
         "tipo_pregunta": "opcion_multiple",
@@ -2943,7 +2943,7 @@
             "Echogenicity"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-39",
         "tipo_pregunta": "opcion_multiple",
@@ -2959,7 +2959,7 @@
             "Reflection"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "1-40",
         "tipo_pregunta": "opcion_multiple",
@@ -2975,7 +2975,7 @@
             "Loss of detail at depth"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-11",
         "tipo_pregunta": "opcion_multiple",
@@ -2991,7 +2991,7 @@
             "Convert electrical energy into sound waves"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-12",
         "tipo_pregunta": "opcion_multiple",
@@ -3007,7 +3007,7 @@
             "It converts sound pressure into electrical voltage"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-13",
         "tipo_pregunta": "opcion_multiple",
@@ -3023,7 +3023,7 @@
             "Lead zirconate titanate (PZT)"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-14",
         "tipo_pregunta": "opcion_multiple",
@@ -3039,7 +3039,7 @@
             "It loses its piezoelectric properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-15",
         "tipo_pregunta": "opcion_multiple",
@@ -3055,7 +3055,7 @@
             "To reduce acoustic impedance mismatch between the transducer and skin"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-16",
         "tipo_pregunta": "opcion_multiple",
@@ -3071,7 +3071,7 @@
             "By the thickness of the piezoelectric element"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-17",
         "tipo_pregunta": "opcion_multiple",
@@ -3087,7 +3087,7 @@
             "Conversion of electrical energy to mechanical energy"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-18",
         "tipo_pregunta": "opcion_multiple",
@@ -3103,7 +3103,7 @@
             "The shape of the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-19",
         "tipo_pregunta": "opcion_multiple",
@@ -3119,7 +3119,7 @@
             "They are generated and emitted"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-20",
         "tipo_pregunta": "opcion_multiple",
@@ -3135,7 +3135,7 @@
             "Backing material"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-21",
         "tipo_pregunta": "opcion_multiple",
@@ -3151,7 +3151,7 @@
             "Quality factor"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-22",
         "tipo_pregunta": "opcion_multiple",
@@ -3167,7 +3167,7 @@
             "Lower frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-23",
         "tipo_pregunta": "opcion_multiple",
@@ -3183,7 +3183,7 @@
             "Its thickness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-24",
         "tipo_pregunta": "opcion_multiple",
@@ -3199,7 +3199,7 @@
             "Proper matching layers"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-25",
         "tipo_pregunta": "opcion_multiple",
@@ -3215,7 +3215,7 @@
             "Ultrasound pulses"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-26",
         "tipo_pregunta": "opcion_multiple",
@@ -3231,7 +3231,7 @@
             "PZT (Lead Zirconate Titanate)"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-27",
         "tipo_pregunta": "opcion_multiple",
@@ -3247,7 +3247,7 @@
             "Pressure waves generate electric signals"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-28",
         "tipo_pregunta": "opcion_multiple",
@@ -3263,7 +3263,7 @@
             "They are lost"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-29",
         "tipo_pregunta": "opcion_multiple",
@@ -3279,7 +3279,7 @@
             "Reduce the duration of the crystal vibrations"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-30",
         "tipo_pregunta": "opcion_multiple",
@@ -3295,7 +3295,7 @@
             "Convert electrical impulses into mechanical vibrations"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-31",
         "tipo_pregunta": "opcion_multiple",
@@ -3311,7 +3311,7 @@
             "Decreasing the element's thickness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-32",
         "tipo_pregunta": "opcion_multiple",
@@ -3327,7 +3327,7 @@
             "Direct piezoelectric effect"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-33",
         "tipo_pregunta": "opcion_multiple",
@@ -3343,7 +3343,7 @@
             "Determines the purity of the sound wave frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "2-34",
         "tipo_pregunta": "opcion_multiple",
@@ -3359,7 +3359,7 @@
             "Reverse piezoelectric effect"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-9",
         "tipo_pregunta": "opcion_multiple",
@@ -3375,7 +3375,7 @@
             "Backing material"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-10",
         "tipo_pregunta": "opcion_multiple",
@@ -3391,7 +3391,7 @@
             "Lead zirconate titanate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-11",
         "tipo_pregunta": "opcion_multiple",
@@ -3407,7 +3407,7 @@
             "To minimize impedance mismatch and improve transmission"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-12",
         "tipo_pregunta": "opcion_multiple",
@@ -3423,7 +3423,7 @@
             "It narrows to improve lateral resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-13",
         "tipo_pregunta": "opcion_multiple",
@@ -3439,7 +3439,7 @@
             "Cable assembly"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-14",
         "tipo_pregunta": "opcion_multiple",
@@ -3455,7 +3455,7 @@
             "To protect internal components and provide a sterile barrier"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-15",
         "tipo_pregunta": "opcion_multiple",
@@ -3471,7 +3471,7 @@
             "The thickness of the piezoelectric element"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-16",
         "tipo_pregunta": "opcion_multiple",
@@ -3487,7 +3487,7 @@
             "Acoustic lens"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-17",
         "tipo_pregunta": "opcion_multiple",
@@ -3503,7 +3503,7 @@
             "Piezoelectric crystal"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-18",
         "tipo_pregunta": "opcion_multiple",
@@ -3519,7 +3519,7 @@
             "To decrease the pulse duration and improve axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-19",
         "tipo_pregunta": "opcion_multiple",
@@ -3535,7 +3535,7 @@
             "Exceeding the Curie temperature"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-20",
         "tipo_pregunta": "opcion_multiple",
@@ -3551,7 +3551,7 @@
             "Damping material"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-21",
         "tipo_pregunta": "opcion_multiple",
@@ -3567,7 +3567,7 @@
             "Matching layer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-22",
         "tipo_pregunta": "opcion_multiple",
@@ -3583,7 +3583,7 @@
             "Focuses the ultrasound beam"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-23",
         "tipo_pregunta": "opcion_multiple",
@@ -3599,7 +3599,7 @@
             "High dielectric constant"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-24",
         "tipo_pregunta": "opcion_multiple",
@@ -3615,7 +3615,7 @@
             "Electrical connectors"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-25",
         "tipo_pregunta": "opcion_multiple",
@@ -3631,7 +3631,7 @@
             "Reduces continuous vibrations"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-26",
         "tipo_pregunta": "opcion_multiple",
@@ -3647,7 +3647,7 @@
             "Piezoelectric element"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-27",
         "tipo_pregunta": "opcion_multiple",
@@ -3663,7 +3663,7 @@
             "Crystal thickness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-28",
         "tipo_pregunta": "opcion_multiple",
@@ -3679,7 +3679,7 @@
             "Minimizes energy loss"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-29",
         "tipo_pregunta": "opcion_multiple",
@@ -3695,7 +3695,7 @@
             "Improved axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-30",
         "tipo_pregunta": "opcion_multiple",
@@ -3711,7 +3711,7 @@
             "To enhance energy transfer efficiency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-31",
         "tipo_pregunta": "opcion_multiple",
@@ -3727,7 +3727,7 @@
             "Increase the operating frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-32",
         "tipo_pregunta": "opcion_multiple",
@@ -3743,7 +3743,7 @@
             "Housing"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "3-33",
         "tipo_pregunta": "opcion_multiple",
@@ -3759,7 +3759,7 @@
             "By optimizing its geometry and material composition"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -3775,7 +3775,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -3791,7 +3791,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -3807,7 +3807,7 @@
             "Real-time scanning"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -3823,7 +3823,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -3839,7 +3839,7 @@
             "Decreases temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-6",
         "tipo_pregunta": "opcion_multiple",
@@ -3855,7 +3855,7 @@
             "High frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-7",
         "tipo_pregunta": "opcion_multiple",
@@ -3871,7 +3871,7 @@
             "Frame rate increase"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-8",
         "tipo_pregunta": "opcion_multiple",
@@ -3887,7 +3887,7 @@
             "Directly proportional"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-9",
         "tipo_pregunta": "opcion_multiple",
@@ -3903,7 +3903,7 @@
             "Increasing frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-10",
         "tipo_pregunta": "opcion_multiple",
@@ -3919,7 +3919,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-11",
         "tipo_pregunta": "opcion_multiple",
@@ -3935,7 +3935,7 @@
             "Decrease frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-12",
         "tipo_pregunta": "opcion_multiple",
@@ -3951,7 +3951,7 @@
             "High frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-13",
         "tipo_pregunta": "opcion_multiple",
@@ -3967,7 +3967,7 @@
             "Increases frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-14",
         "tipo_pregunta": "opcion_multiple",
@@ -3983,7 +3983,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-15",
         "tipo_pregunta": "opcion_multiple",
@@ -3999,7 +3999,7 @@
             "Image detail"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-16",
         "tipo_pregunta": "opcion_multiple",
@@ -4015,7 +4015,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-17",
         "tipo_pregunta": "opcion_multiple",
@@ -4031,7 +4031,7 @@
             "Decreases temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-18",
         "tipo_pregunta": "opcion_multiple",
@@ -4047,7 +4047,7 @@
             "Increasing frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-19",
         "tipo_pregunta": "opcion_multiple",
@@ -4063,7 +4063,7 @@
             "High frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-20",
         "tipo_pregunta": "opcion_multiple",
@@ -4079,7 +4079,7 @@
             "Increase frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-21",
         "tipo_pregunta": "opcion_multiple",
@@ -4095,7 +4095,7 @@
             "Reduces temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-22",
         "tipo_pregunta": "opcion_multiple",
@@ -4111,7 +4111,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-23",
         "tipo_pregunta": "opcion_multiple",
@@ -4127,7 +4127,7 @@
             "Fast-moving structures"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-24",
         "tipo_pregunta": "opcion_multiple",
@@ -4143,7 +4143,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "4-25",
         "tipo_pregunta": "opcion_multiple",
@@ -4159,7 +4159,7 @@
             "Increase frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -4175,7 +4175,7 @@
             "Curved array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -4191,7 +4191,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -4207,7 +4207,7 @@
             "Linear array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -4223,7 +4223,7 @@
             "Lateral resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -4239,7 +4239,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -4255,7 +4255,7 @@
             "Rapid steering of the beam"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -4271,7 +4271,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -4287,7 +4287,7 @@
             "Mechanical sector"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -4303,7 +4303,7 @@
             "Axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -4319,7 +4319,7 @@
             "Limited acoustic window"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-11",
         "tipo_pregunta": "opcion_multiple",
@@ -4335,7 +4335,7 @@
             "High-frequency linear array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-12",
         "tipo_pregunta": "opcion_multiple",
@@ -4351,7 +4351,7 @@
             "Uniform field of view"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-13",
         "tipo_pregunta": "opcion_multiple",
@@ -4367,7 +4367,7 @@
             "Curvilinear array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-14",
         "tipo_pregunta": "opcion_multiple",
@@ -4383,7 +4383,7 @@
             "Endocavitary transducer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-15",
         "tipo_pregunta": "opcion_multiple",
@@ -4399,7 +4399,7 @@
             "Rotating crystal"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-16",
         "tipo_pregunta": "opcion_multiple",
@@ -4415,7 +4415,7 @@
             "Combines features of phased and linear arrays"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-17",
         "tipo_pregunta": "opcion_multiple",
@@ -4431,7 +4431,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-18",
         "tipo_pregunta": "opcion_multiple",
@@ -4447,7 +4447,7 @@
             "Annular array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-19",
         "tipo_pregunta": "opcion_multiple",
@@ -4463,7 +4463,7 @@
             "Linear array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "5-20",
         "tipo_pregunta": "opcion_multiple",
@@ -4479,7 +4479,7 @@
             "Curved array"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-1",
         "tipo_pregunta": "opcion_multiple",
@@ -4495,7 +4495,7 @@
             "Increasing frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-2",
         "tipo_pregunta": "opcion_multiple",
@@ -4511,7 +4511,7 @@
             "Decreasing pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-3",
         "tipo_pregunta": "opcion_multiple",
@@ -4527,7 +4527,7 @@
             "Beam focusing"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-4",
         "tipo_pregunta": "opcion_multiple",
@@ -4543,7 +4543,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-5",
         "tipo_pregunta": "opcion_multiple",
@@ -4559,7 +4559,7 @@
             "Shorter spatial pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-6",
         "tipo_pregunta": "opcion_multiple",
@@ -4575,7 +4575,7 @@
             "Both axial and lateral resolution improve"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-7",
         "tipo_pregunta": "opcion_multiple",
@@ -4591,7 +4591,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-8",
         "tipo_pregunta": "opcion_multiple",
@@ -4607,7 +4607,7 @@
             "Beam width"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-9",
         "tipo_pregunta": "opcion_multiple",
@@ -4623,7 +4623,7 @@
             "Axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-10",
         "tipo_pregunta": "opcion_multiple",
@@ -4639,7 +4639,7 @@
             "Spatial pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-11",
         "tipo_pregunta": "opcion_multiple",
@@ -4655,7 +4655,7 @@
             "Resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-12",
         "tipo_pregunta": "opcion_multiple",
@@ -4671,7 +4671,7 @@
             "Increasing frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-13",
         "tipo_pregunta": "opcion_multiple",
@@ -4687,7 +4687,7 @@
             "Lateral resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-14",
         "tipo_pregunta": "opcion_multiple",
@@ -4703,7 +4703,7 @@
             "Axial"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-15",
         "tipo_pregunta": "opcion_multiple",
@@ -4719,7 +4719,7 @@
             "Pulse frequency"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-16",
         "tipo_pregunta": "opcion_multiple",
@@ -4735,7 +4735,7 @@
             "Rapid motion scans"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-17",
         "tipo_pregunta": "opcion_multiple",
@@ -4751,7 +4751,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-18",
         "tipo_pregunta": "opcion_multiple",
@@ -4767,7 +4767,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-19",
         "tipo_pregunta": "opcion_multiple",
@@ -4783,7 +4783,7 @@
             "Using a lower frequency transducer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "6-20",
         "tipo_pregunta": "opcion_multiple",
@@ -4799,7 +4799,7 @@
             "Pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-1",
         "tipo_pregunta": "opcion_multiple",
@@ -4815,7 +4815,7 @@
             "Using a nonabrasive cloth with a compatible disinfectant"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-2",
         "tipo_pregunta": "opcion_multiple",
@@ -4831,7 +4831,7 @@
             "It can degrade the adhesive between parts"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-3",
         "tipo_pregunta": "opcion_multiple",
@@ -4847,7 +4847,7 @@
             "Avoid tightly bending at acute angles"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-4",
         "tipo_pregunta": "opcion_multiple",
@@ -4863,7 +4863,7 @@
             "Dropping or striking the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-5",
         "tipo_pregunta": "opcion_multiple",
@@ -4879,7 +4879,7 @@
             "Stop using the transducer immediately"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-6",
         "tipo_pregunta": "opcion_multiple",
@@ -4895,7 +4895,7 @@
             "Ensure accurate image quality and measurements"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-7",
         "tipo_pregunta": "opcion_multiple",
@@ -4911,7 +4911,7 @@
             "A dry and room temperature environment"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-8",
         "tipo_pregunta": "opcion_multiple",
@@ -4927,7 +4927,7 @@
             "Acidic or highly alkaline solutions"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-9",
         "tipo_pregunta": "opcion_multiple",
@@ -4943,7 +4943,7 @@
             "The housing and seals"
         ]
     },
-    {
+{
         "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
         "grupo": "7-10",
         "tipo_pregunta": "opcion_multiple",
@@ -4959,7 +4959,7 @@
             "Excessive heat can depolarize crystals"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -4975,7 +4975,7 @@
             "Reverberation"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -4991,7 +4991,7 @@
             "Sound speed differences between tissues"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5007,7 +5007,7 @@
             "Comet tail"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -5023,7 +5023,7 @@
             "Increased attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -5039,7 +5039,7 @@
             "Speed of sound artifact"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5055,7 +5055,7 @@
             "Improves axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -5071,7 +5071,7 @@
             "Increases resolution"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -5087,7 +5087,7 @@
             "Beam width"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -5103,7 +5103,7 @@
             "Axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -5119,7 +5119,7 @@
             "Both, Shorter pulse length and Higher frequency"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -5135,7 +5135,7 @@
             "It is location specific"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -5151,7 +5151,7 @@
             "Pulsed Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5167,7 +5167,7 @@
             "390 Hz"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -5183,7 +5183,7 @@
             "Decreases the Doppler shift"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -5199,7 +5199,7 @@
             "Velocity of the reflector"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -5215,7 +5215,7 @@
             "Color Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -5231,7 +5231,7 @@
             "Detecting low flow states"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -5247,7 +5247,7 @@
             "Spectral Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -5263,7 +5263,7 @@
             "Ability to measure high velocities without aliasing"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5279,7 +5279,7 @@
             "Increase the pulse repetition frequency"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -5295,7 +5295,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -5311,7 +5311,7 @@
             "Potential for tissue heating"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -5327,7 +5327,7 @@
             "Mechanical index (MI)"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -5343,7 +5343,7 @@
             "Thermal effects"
         ]
     },
-    {
+{
         "clasificacion": "Doppler Physics and Instrumentation",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5359,7 +5359,7 @@
             "None confirmed at diagnostic levels"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -5375,7 +5375,7 @@
             "Mirror image artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -5391,7 +5391,7 @@
             "Exceeding the Nyquist limit"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5407,7 +5407,7 @@
             "Reverberation artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -5423,7 +5423,7 @@
             "It obscures low-velocity signals"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -5439,7 +5439,7 @@
             "Comet tail artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -5455,7 +5455,7 @@
             "Excessive gain settings"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -5471,7 +5471,7 @@
             "Speed of sound artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -5487,7 +5487,7 @@
             "High pulse repetition frequency"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-11",
         "tipo_pregunta": "opcion_multiple",
@@ -5503,7 +5503,7 @@
             "Reverberation artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-12",
         "tipo_pregunta": "opcion_multiple",
@@ -5519,7 +5519,7 @@
             "It causes sudden bursts of color"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-13",
         "tipo_pregunta": "opcion_multiple",
@@ -5535,7 +5535,7 @@
             "Refraction artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-14",
         "tipo_pregunta": "opcion_multiple",
@@ -5551,7 +5551,7 @@
             "Resonance of gas bubbles"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-15",
         "tipo_pregunta": "opcion_multiple",
@@ -5567,7 +5567,7 @@
             "Edge artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-16",
         "tipo_pregunta": "opcion_multiple",
@@ -5583,7 +5583,7 @@
             "High attenuation structures"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "1-17",
         "tipo_pregunta": "opcion_multiple",
@@ -5599,7 +5599,7 @@
             "Comet tail artifact"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-44",
         "tipo_pregunta": "opcion_multiple",
@@ -5615,7 +5615,7 @@
             "Ability to measure high velocities without aliasing"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-45",
         "tipo_pregunta": "opcion_multiple",
@@ -5631,7 +5631,7 @@
             "To eliminate low-frequency noise"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-46",
         "tipo_pregunta": "opcion_multiple",
@@ -5647,7 +5647,7 @@
             "Baseline shift"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-47",
         "tipo_pregunta": "opcion_multiple",
@@ -5663,7 +5663,7 @@
             "The variability of blood flow velocity"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-48",
         "tipo_pregunta": "opcion_multiple",
@@ -5679,7 +5679,7 @@
             "Pulsed wave Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-49",
         "tipo_pregunta": "opcion_multiple",
@@ -5695,7 +5695,7 @@
             "Reduces aliasing"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-50",
         "tipo_pregunta": "opcion_multiple",
@@ -5711,7 +5711,7 @@
             "Gain"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-51",
         "tipo_pregunta": "opcion_multiple",
@@ -5727,7 +5727,7 @@
             "To accurately measure blood flow velocity"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-52",
         "tipo_pregunta": "opcion_multiple",
@@ -5743,7 +5743,7 @@
             "Color bleeding"
         ]
     },
-    {
+{
         "clasificacion": "Wave Properties and Interactions with matter",
         "grupo": "2-53",
         "tipo_pregunta": "opcion_multiple",
@@ -5759,7 +5759,7 @@
             "Color Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -5775,7 +5775,7 @@
             "To ensure consistent image quality"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -5791,7 +5791,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -5807,7 +5807,7 @@
             "Doppler flow phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -5823,7 +5823,7 @@
             "Preventive maintenance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -5839,7 +5839,7 @@
             "To mimic human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -5855,7 +5855,7 @@
             "Regular equipment calibration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -5871,7 +5871,7 @@
             "To ensure compliance with standards"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -5887,7 +5887,7 @@
             "Slice-thickness phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -5903,7 +5903,7 @@
             "Power surges"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-11",
         "tipo_pregunta": "opcion_multiple",
@@ -5919,7 +5919,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-12",
         "tipo_pregunta": "opcion_multiple",
@@ -5935,7 +5935,7 @@
             "To simulate blood flow"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-13",
         "tipo_pregunta": "opcion_multiple",
@@ -5951,7 +5951,7 @@
             "Regular software updates"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-14",
         "tipo_pregunta": "opcion_multiple",
@@ -5967,7 +5967,7 @@
             "To measure beam width"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-15",
         "tipo_pregunta": "opcion_multiple",
@@ -5983,7 +5983,7 @@
             "Transducer cleaning"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-16",
         "tipo_pregunta": "opcion_multiple",
@@ -5999,7 +5999,7 @@
             "To ensure compliance with standards"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-17",
         "tipo_pregunta": "opcion_multiple",
@@ -6015,7 +6015,7 @@
             "Regular equipment testing"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-18",
         "tipo_pregunta": "opcion_multiple",
@@ -6031,7 +6031,7 @@
             "Reduced equipment downtime"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-19",
         "tipo_pregunta": "opcion_multiple",
@@ -6047,7 +6047,7 @@
             "Doppler flow phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-20",
         "tipo_pregunta": "opcion_multiple",
@@ -6063,7 +6063,7 @@
             "Restarting the system"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-21",
         "tipo_pregunta": "opcion_multiple",
@@ -6079,7 +6079,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "1-22",
         "tipo_pregunta": "opcion_multiple",
@@ -6095,7 +6095,7 @@
             "To mimic human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-43",
         "tipo_pregunta": "opcion_multiple",
@@ -6111,7 +6111,7 @@
             "Quality assurance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-44",
         "tipo_pregunta": "opcion_multiple",
@@ -6127,7 +6127,7 @@
             "To prevent equipment failure"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-45",
         "tipo_pregunta": "opcion_multiple",
@@ -6143,7 +6143,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-46",
         "tipo_pregunta": "opcion_multiple",
@@ -6159,7 +6159,7 @@
             "Using phantoms"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-47",
         "tipo_pregunta": "opcion_multiple",
@@ -6175,7 +6175,7 @@
             "Preventive maintenance"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-48",
         "tipo_pregunta": "opcion_multiple",
@@ -6191,7 +6191,7 @@
             "To simulate human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-49",
         "tipo_pregunta": "opcion_multiple",
@@ -6207,7 +6207,7 @@
             "Regular equipment calibration"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-50",
         "tipo_pregunta": "opcion_multiple",
@@ -6223,7 +6223,7 @@
             "To ensure compliance with standards"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-51",
         "tipo_pregunta": "opcion_multiple",
@@ -6239,7 +6239,7 @@
             "Slice-thickness phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-52",
         "tipo_pregunta": "opcion_multiple",
@@ -6255,7 +6255,7 @@
             "Power surges"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-53",
         "tipo_pregunta": "opcion_multiple",
@@ -6271,7 +6271,7 @@
             "To simulate blood flow"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-54",
         "tipo_pregunta": "opcion_multiple",
@@ -6287,7 +6287,7 @@
             "Regular software updates"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-55",
         "tipo_pregunta": "opcion_multiple",
@@ -6303,7 +6303,7 @@
             "To ensure compliance with standards"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-56",
         "tipo_pregunta": "opcion_multiple",
@@ -6319,7 +6319,7 @@
             "Regular equipment testing"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-57",
         "tipo_pregunta": "opcion_multiple",
@@ -6335,7 +6335,7 @@
             "Reduced equipment downtime"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-58",
         "tipo_pregunta": "opcion_multiple",
@@ -6351,7 +6351,7 @@
             "Doppler flow phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-59",
         "tipo_pregunta": "opcion_multiple",
@@ -6367,7 +6367,7 @@
             "Restarting the system"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "2-60",
         "tipo_pregunta": "opcion_multiple",
@@ -6383,7 +6383,7 @@
             "To mimic human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -6399,7 +6399,7 @@
             "To ensure equipment operates efficiently and safely"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -6415,7 +6415,7 @@
             "Regularly cleaning and inspecting the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -6431,7 +6431,7 @@
             "Every six months"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -6447,7 +6447,7 @@
             "To evaluate the Doppler shift and flow velocity accuracy"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -6463,7 +6463,7 @@
             "Mechanical impact"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -6479,7 +6479,7 @@
             "Reverberation"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -6495,7 +6495,7 @@
             "Compression"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -6511,7 +6511,7 @@
             "Doppler phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -6527,7 +6527,7 @@
             "To simulate human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -6543,7 +6543,7 @@
             "Slice-thickness phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -6559,7 +6559,7 @@
             "It mimics blood flow"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -6575,7 +6575,7 @@
             "Tissue equivalent phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -6591,7 +6591,7 @@
             "To evaluate spatial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -6607,7 +6607,7 @@
             "Resolution phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -6623,7 +6623,7 @@
             "To measure slice thickness"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -6639,7 +6639,7 @@
             "Resolution phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -6655,7 +6655,7 @@
             "To simulate human tissue properties"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-11",
         "tipo_pregunta": "opcion_multiple",
@@ -6671,7 +6671,7 @@
             "Tissue equivalent phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-12",
         "tipo_pregunta": "opcion_multiple",
@@ -6687,7 +6687,7 @@
             "To simulate blood flow"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-13",
         "tipo_pregunta": "opcion_multiple",
@@ -6703,7 +6703,7 @@
             "Slice-thickness phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-14",
         "tipo_pregunta": "opcion_multiple",
@@ -6719,7 +6719,7 @@
             "To evaluate spatial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "5-15",
         "tipo_pregunta": "opcion_multiple",
@@ -6735,7 +6735,7 @@
             "Doppler phantom"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-1",
         "tipo_pregunta": "opcion_multiple",
@@ -6751,7 +6751,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-2",
         "tipo_pregunta": "opcion_multiple",
@@ -6767,7 +6767,7 @@
             "American College of Radiology"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-3",
         "tipo_pregunta": "opcion_multiple",
@@ -6783,7 +6783,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-4",
         "tipo_pregunta": "opcion_multiple",
@@ -6799,7 +6799,7 @@
             "To accredit ultrasound laboratories"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-5",
         "tipo_pregunta": "opcion_multiple",
@@ -6815,7 +6815,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-6",
         "tipo_pregunta": "opcion_multiple",
@@ -6831,7 +6831,7 @@
             "American Institute of Ultrasound in Medicine"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-7",
         "tipo_pregunta": "opcion_multiple",
@@ -6847,7 +6847,7 @@
             "ACR"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-8",
         "tipo_pregunta": "opcion_multiple",
@@ -6863,7 +6863,7 @@
             "To accredit radiology practices"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-9",
         "tipo_pregunta": "opcion_multiple",
@@ -6879,7 +6879,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-10",
         "tipo_pregunta": "opcion_multiple",
@@ -6895,7 +6895,7 @@
             "Intersocietal Accreditation Commission"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-11",
         "tipo_pregunta": "opcion_multiple",
@@ -6911,7 +6911,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-12",
         "tipo_pregunta": "opcion_multiple",
@@ -6927,7 +6927,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-13",
         "tipo_pregunta": "opcion_multiple",
@@ -6943,7 +6943,7 @@
             "To set guidelines for ultrasound practice"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-14",
         "tipo_pregunta": "opcion_multiple",
@@ -6959,7 +6959,7 @@
             "ACR"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-15",
         "tipo_pregunta": "opcion_multiple",
@@ -6975,7 +6975,7 @@
             "Accrediting radiology practices"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-16",
         "tipo_pregunta": "opcion_multiple",
@@ -6991,7 +6991,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-17",
         "tipo_pregunta": "opcion_multiple",
@@ -7007,7 +7007,7 @@
             "To set guidelines for ultrasound practice"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-18",
         "tipo_pregunta": "opcion_multiple",
@@ -7023,7 +7023,7 @@
             "ACR"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-19",
         "tipo_pregunta": "opcion_multiple",
@@ -7039,7 +7039,7 @@
             "Accrediting ultrasound laboratories"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-20",
         "tipo_pregunta": "opcion_multiple",
@@ -7055,7 +7055,7 @@
             "AIUM"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-21",
         "tipo_pregunta": "opcion_multiple",
@@ -7071,7 +7071,7 @@
             "IAC"
         ]
     },
-    {
+{
         "clasificacion": "Instruments, Bioeffects, Spatial, Temp Resolution",
         "grupo": "6-22",
         "tipo_pregunta": "opcion_multiple",
@@ -7087,7 +7087,7 @@
             "To accredit radiology practices"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -7103,7 +7103,7 @@
             "As Low As Reasonably Achievable"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -7119,7 +7119,7 @@
             "Medical record number"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -7135,7 +7135,7 @@
             "Provide an interpreter"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -7151,7 +7151,7 @@
             "Elastography"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -7167,7 +7167,7 @@
             "Shear wave elastography"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -7183,7 +7183,7 @@
             "Tissue harmonic imaging"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -7199,7 +7199,7 @@
             "Hand washing"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -7215,7 +7215,7 @@
             "Cavitation"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -7231,7 +7231,7 @@
             "Streaming"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -7247,7 +7247,7 @@
             "Thermal index"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-11",
         "tipo_pregunta": "opcion_multiple",
@@ -7263,7 +7263,7 @@
             "Spatial peak temporal average"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-12",
         "tipo_pregunta": "opcion_multiple",
@@ -7279,7 +7279,7 @@
             "Encourage safe practices when dealing with patients; they also promote cleanliness in the healthcare setting."
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-13",
         "tipo_pregunta": "opcion_multiple",
@@ -7295,7 +7295,7 @@
             "Radiation forces"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-14",
         "tipo_pregunta": "opcion_multiple",
@@ -7311,7 +7311,7 @@
             "Transient"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-15",
         "tipo_pregunta": "opcion_multiple",
@@ -7327,7 +7327,7 @@
             "Mechanical index"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-16",
         "tipo_pregunta": "opcion_multiple",
@@ -7343,7 +7343,7 @@
             "Cardiogenic shock"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-17",
         "tipo_pregunta": "opcion_multiple",
@@ -7359,7 +7359,7 @@
             "Hospital-acquired infection"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-18",
         "tipo_pregunta": "opcion_multiple",
@@ -7375,7 +7375,7 @@
             "Iodinated contrast agents"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-19",
         "tipo_pregunta": "opcion_multiple",
@@ -7391,7 +7391,7 @@
             "Urinary tract infections"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-20",
         "tipo_pregunta": "opcion_multiple",
@@ -7407,7 +7407,7 @@
             "Reservoir"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-21",
         "tipo_pregunta": "opcion_multiple",
@@ -7423,7 +7423,7 @@
             "Hepatitis A"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-22",
         "tipo_pregunta": "opcion_multiple",
@@ -7439,7 +7439,7 @@
             "Needles"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-23",
         "tipo_pregunta": "opcion_multiple",
@@ -7455,7 +7455,7 @@
             "Sweat"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-24",
         "tipo_pregunta": "opcion_multiple",
@@ -7471,7 +7471,7 @@
             "Image orientation"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-25",
         "tipo_pregunta": "opcion_multiple",
@@ -7487,7 +7487,7 @@
             "Tuberculosis"
         ]
     },
-    {
+{
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-26",
         "tipo_pregunta": "opcion_multiple",
@@ -7503,7 +7503,7 @@
             "Methicillin-resistant Staphylococcus aureus"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -7519,7 +7519,7 @@
             "Stiffness"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -7535,7 +7535,7 @@
             "An increased Duty Factor (DF)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -7551,7 +7551,7 @@
             "Bone"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -7567,7 +7567,7 @@
             "Lung tissue"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -7583,7 +7583,7 @@
             "Decrease"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -7599,7 +7599,7 @@
             "Snell\u2019s law"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -7615,7 +7615,7 @@
             "Pascals"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -7631,7 +7631,7 @@
             "1 to 20 MHz"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -7647,7 +7647,7 @@
             "Half of the operating frequency"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -7663,7 +7663,7 @@
             "One millionth"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -7679,7 +7679,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -7695,7 +7695,7 @@
             "Refraction"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -7711,7 +7711,7 @@
             "Compressions"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -7727,7 +7727,7 @@
             "Multiplying the number of cycles by the wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -7743,7 +7743,7 @@
             "Kilograms per cubic centimeter"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -7759,7 +7759,7 @@
             "Attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -7775,7 +7775,7 @@
             "12 dB"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -7791,7 +7791,7 @@
             "Increases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -7807,7 +7807,7 @@
             "It is unitless"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -7823,7 +7823,7 @@
             "Duty Factor (DF)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -7839,7 +7839,7 @@
             "Inversely related"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -7855,7 +7855,7 @@
             "As amplitude increases, power remains unchanged"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -7871,7 +7871,7 @@
             "Equal to period divided by frequency"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -7887,7 +7887,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -7903,7 +7903,7 @@
             "Pulse Repetition Frequency (PRF)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -7919,7 +7919,7 @@
             "Pulse Duration (PD)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -7935,7 +7935,7 @@
             "Density"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-8",
         "tipo_pregunta": "opcion_multiple",
@@ -7951,7 +7951,7 @@
             "Frequency"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-9",
         "tipo_pregunta": "opcion_multiple",
@@ -7967,7 +7967,7 @@
             "Hundredths"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "3-10",
         "tipo_pregunta": "opcion_multiple",
@@ -7983,7 +7983,7 @@
             "Greater than 40\u00b0"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -7999,7 +7999,7 @@
             "Refraction"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8015,7 +8015,7 @@
             "Millimeters per microsecond (mm/\u03bcs)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8031,7 +8031,7 @@
             "Absorption"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8047,7 +8047,7 @@
             "0.1 to 0.8 mm"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8063,7 +8063,7 @@
             "100%"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8079,7 +8079,7 @@
             "Wavelength"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8095,7 +8095,7 @@
             "Is reduced by half"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8111,7 +8111,7 @@
             "Reduces the Spatial Pulse Length (SPL)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8127,7 +8127,7 @@
             "Axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "4-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8143,7 +8143,7 @@
             "Pulse Repetition Period (PRP)"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8159,7 +8159,7 @@
             "Pascals or pounds per square inch"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8175,7 +8175,7 @@
             "Intensity"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8191,7 +8191,7 @@
             "Lead zirconate titanate"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8207,7 +8207,7 @@
             "Increases ninefold"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8223,7 +8223,7 @@
             "Rarefaction"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8239,7 +8239,7 @@
             "Propagation speed decreases"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8255,7 +8255,7 @@
             "Mechanical and longitudinal wave"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8271,7 +8271,7 @@
             "Amplitude"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8287,7 +8287,7 @@
             "0.5 MHz"
         ]
     },
-    {
+{
         "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8303,7 +8303,7 @@
             "1540 m/s"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8319,7 +8319,7 @@
             "Focal zone"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8335,7 +8335,7 @@
             "Damping material"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8351,7 +8351,7 @@
             "Number of lines per frame"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8367,7 +8367,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8383,7 +8383,7 @@
             "The number of lines per frame"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8399,7 +8399,7 @@
             "Sector array"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8415,7 +8415,7 @@
             "It has no moving parts"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8431,7 +8431,7 @@
             "Frequency"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8447,7 +8447,7 @@
             "Increased line density"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8463,7 +8463,7 @@
             "Increased PRF"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8479,7 +8479,7 @@
             "It reduces with distance from the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8495,7 +8495,7 @@
             "Longitudinal"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8511,7 +8511,7 @@
             "Large crystal diameter, high frequency"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8527,7 +8527,7 @@
             "Large crystal diameter, high frequency"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8543,7 +8543,7 @@
             "Low-quality factors and wide bandwidths"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8559,7 +8559,7 @@
             "Wide bandwidths"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8575,7 +8575,7 @@
             "Curved"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8591,7 +8591,7 @@
             "One-half"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8607,7 +8607,7 @@
             "Matching layer"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8623,7 +8623,7 @@
             "Bandwidth"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8639,7 +8639,7 @@
             "Constructive interference"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8655,7 +8655,7 @@
             "Spatial pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8671,7 +8671,7 @@
             "Epoxy resin loaded with tungsten"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8687,7 +8687,7 @@
             "The elements are arranged in a ring"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8703,7 +8703,7 @@
             "A larger aperture results in less divergence in the far field"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8719,7 +8719,7 @@
             "Damping shortens spatial pulse length"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8735,7 +8735,7 @@
             "Angular"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8751,7 +8751,7 @@
             "Frame rate"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8767,7 +8767,7 @@
             "Fraunhofer zone"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "3-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8783,7 +8783,7 @@
             "Huygen's principle"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8799,7 +8799,7 @@
             "Elevational resolution"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8815,7 +8815,7 @@
             "The higher the frequency, the longer the near-zone length"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8831,7 +8831,7 @@
             "Phasing"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -8847,7 +8847,7 @@
             "Contrast resolution"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -8863,7 +8863,7 @@
             "Continuous-wave transducers"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-6",
         "tipo_pregunta": "opcion_multiple",
@@ -8879,7 +8879,7 @@
             "Continuous-wave transducers"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-7",
         "tipo_pregunta": "opcion_multiple",
@@ -8895,7 +8895,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-8",
         "tipo_pregunta": "opcion_multiple",
@@ -8911,7 +8911,7 @@
             "Backing material"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-9",
         "tipo_pregunta": "opcion_multiple",
@@ -8927,7 +8927,7 @@
             "Phased array"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "4-10",
         "tipo_pregunta": "opcion_multiple",
@@ -8943,7 +8943,7 @@
             "Matching layer"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -8959,7 +8959,7 @@
             "Eliminates pathogens and damages the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -8975,7 +8975,7 @@
             "Range resolution"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -8991,7 +8991,7 @@
             "The resultant wave is less than the original"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9007,7 +9007,7 @@
             "Utilize a thinner piezoelectric element"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9023,7 +9023,7 @@
             "At the face of the transducer, the beam diameter is double the element's thickness"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9039,7 +9039,7 @@
             "Curved sequenced array transducer"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9055,7 +9055,7 @@
             "Broadband technology"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9071,7 +9071,7 @@
             "The frame rate equals the pulse repetition frequency divided by the lines per frame"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9087,7 +9087,7 @@
             "Temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Transducers, Resolution, and Image Formation.",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9103,7 +9103,7 @@
             "Cold sterilization procedures"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9119,7 +9119,7 @@
             "Intensity"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9135,7 +9135,7 @@
             "Compensation"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9151,7 +9151,7 @@
             "Rectification"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9167,7 +9167,7 @@
             "Pixel"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9183,7 +9183,7 @@
             "Bit"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9199,7 +9199,7 @@
             "Rectification"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9215,7 +9215,7 @@
             "Bistable"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9231,7 +9231,7 @@
             "LCD"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9247,7 +9247,7 @@
             "Double the fundamental frequency"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9263,7 +9263,7 @@
             "D-to-A converter"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9279,7 +9279,7 @@
             "A-mode"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9295,7 +9295,7 @@
             "Pulser"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9311,7 +9311,7 @@
             "Two"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9327,7 +9327,7 @@
             "Master synchronizer"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9343,7 +9343,7 @@
             "Frequency compounding"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9359,7 +9359,7 @@
             "The machine assumes 1540 m/s for all tissue"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9375,7 +9375,7 @@
             "RAID array"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9391,7 +9391,7 @@
             "64"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9407,7 +9407,7 @@
             "The brighter the dot on the display"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9423,7 +9423,7 @@
             "There is more spatial detail"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9439,7 +9439,7 @@
             "Slice thickness artifact"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9455,7 +9455,7 @@
             "Enhancement"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9471,7 +9471,7 @@
             "Pulser"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9487,7 +9487,7 @@
             "Rejection"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9503,7 +9503,7 @@
             "Compression"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9519,7 +9519,7 @@
             "Mirror image artifact"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9535,7 +9535,7 @@
             "Travel time, speed"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9551,7 +9551,7 @@
             "The ability to see differences in shades of gray"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9567,7 +9567,7 @@
             "Postprocessing"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "3-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9583,7 +9583,7 @@
             "B-mode"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9599,7 +9599,7 @@
             "M-mode"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9615,7 +9615,7 @@
             "Time"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9631,7 +9631,7 @@
             "Is produced by the patient"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9647,7 +9647,7 @@
             "The fundamental frequency is filtered out"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9663,7 +9663,7 @@
             "2.0 cm"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9679,7 +9679,7 @@
             "26 \u00b5s"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9695,7 +9695,7 @@
             "All options are correct"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9711,7 +9711,7 @@
             "Beam former"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9727,7 +9727,7 @@
             "Signal-to-noise ratio"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "4-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9743,7 +9743,7 @@
             "Increase the receiver gain"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9759,7 +9759,7 @@
             "Postprocessing"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9775,7 +9775,7 @@
             "Write zoom"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9791,7 +9791,7 @@
             "Compensation"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9807,7 +9807,7 @@
             "Voxel"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9823,7 +9823,7 @@
             "Fill-in interpolation"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9839,7 +9839,7 @@
             "DICOM"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -9855,7 +9855,7 @@
             "Reverberation"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -9871,7 +9871,7 @@
             "Grating lobes"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -9887,7 +9887,7 @@
             "Too far away from the transducer"
         ]
     },
-    {
+{
         "clasificacion": "Image Display, Processing, and Artifacts",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -9903,7 +9903,7 @@
             "Travels through an area of increased attenuation"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -9919,7 +9919,7 @@
             "Beating heart"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -9935,7 +9935,7 @@
             "Variance"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -9951,7 +9951,7 @@
             "Plug flow"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -9967,7 +9967,7 @@
             "Decreases the potential of aliasing"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -9983,7 +9983,7 @@
             "Transducer frequency matches that of the oscillator"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -9999,7 +9999,7 @@
             "When the beam is parallel to the direction of flow"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10015,7 +10015,7 @@
             "Increasing the frequency shift above the Nyquist limit"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10031,7 +10031,7 @@
             "Increase"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10047,7 +10047,7 @@
             "Pressure difference"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10063,7 +10063,7 @@
             "Amplitude"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-1",
         "tipo_pregunta": "opcion_multiple",
@@ -10079,7 +10079,7 @@
             "V = IR"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-2",
         "tipo_pregunta": "opcion_multiple",
@@ -10095,7 +10095,7 @@
             "2000"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-3",
         "tipo_pregunta": "opcion_multiple",
@@ -10111,7 +10111,7 @@
             "It decreases"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-4",
         "tipo_pregunta": "opcion_multiple",
@@ -10127,7 +10127,7 @@
             "Inspiration"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-5",
         "tipo_pregunta": "opcion_multiple",
@@ -10143,7 +10143,7 @@
             "In the feet"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-6",
         "tipo_pregunta": "opcion_multiple",
@@ -10159,7 +10159,7 @@
             "50%"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10175,7 +10175,7 @@
             "The peripheral resistance decreases"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10191,7 +10191,7 @@
             "The incident frequency is equal to the reflected frequency"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10207,7 +10207,7 @@
             "The amount of scatter is increased"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "2-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10223,7 +10223,7 @@
             "It decreases the frequency shift"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-1",
         "tipo_pregunta": "opcion_multiple",
@@ -10239,7 +10239,7 @@
             "Phase quadrature"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-2",
         "tipo_pregunta": "opcion_multiple",
@@ -10255,7 +10255,7 @@
             "It must have at least two piezoelectric elements"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-3",
         "tipo_pregunta": "opcion_multiple",
@@ -10271,7 +10271,7 @@
             "Undersampling of the blood flow"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-4",
         "tipo_pregunta": "opcion_multiple",
@@ -10287,7 +10287,7 @@
             "Fast Fourier transform"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
@@ -10303,7 +10303,7 @@
             "Peak systolic velocity minus the end diastolic velocity divided by the peak systolic velocity"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-6",
         "tipo_pregunta": "opcion_multiple",
@@ -10319,7 +10319,7 @@
             "The number of red blood cells present"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10335,7 +10335,7 @@
             "Inertia"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10351,7 +10351,7 @@
             "Sweep speed"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10367,7 +10367,7 @@
             "Overmeasurement of the velocities"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "3-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10383,7 +10383,7 @@
             "90\u00b0"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-1",
         "tipo_pregunta": "opcion_multiple",
@@ -10399,7 +10399,7 @@
             "Autocorrelation"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-2",
         "tipo_pregunta": "opcion_multiple",
@@ -10415,7 +10415,7 @@
             "One"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-3",
         "tipo_pregunta": "opcion_multiple",
@@ -10431,7 +10431,7 @@
             "Power Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-4",
         "tipo_pregunta": "opcion_multiple",
@@ -10447,7 +10447,7 @@
             "Triplex mode"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-5",
         "tipo_pregunta": "opcion_multiple",
@@ -10463,7 +10463,7 @@
             "1"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-6",
         "tipo_pregunta": "opcion_multiple",
@@ -10479,7 +10479,7 @@
             "CW beams have a large sample volume that may sample several vessels at once"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10495,7 +10495,7 @@
             "There is worse temporal resolution"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10511,7 +10511,7 @@
             "Aliasing does not occur with color Doppler"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10527,7 +10527,7 @@
             "3.0 kHz"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "4-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10543,7 +10543,7 @@
             "It is in the audible range of sound"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-1",
         "tipo_pregunta": "opcion_multiple",
@@ -10559,7 +10559,7 @@
             "10 to 20 pulses per scan line"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-2",
         "tipo_pregunta": "opcion_multiple",
@@ -10575,7 +10575,7 @@
             "There will be a higher velocity than if sampled toward the edges"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-3",
         "tipo_pregunta": "opcion_multiple",
@@ -10591,7 +10591,7 @@
             "It can measure peak systolic and end diastolic velocities"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-4",
         "tipo_pregunta": "opcion_multiple",
@@ -10607,7 +10607,7 @@
             "Signal is obtained by detecting amplitude of shift"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-5",
         "tipo_pregunta": "opcion_multiple",
@@ -10623,7 +10623,7 @@
             "There is an increase in the velocity along with a corresponding decrease in pressure"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-6",
         "tipo_pregunta": "opcion_multiple",
@@ -10639,7 +10639,7 @@
             "It is thickened in the presence of turbulence"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10655,7 +10655,7 @@
             "Transmural pressure"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10671,7 +10671,7 @@
             "Delay in the systolic upstroke"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10687,7 +10687,7 @@
             "Wall filter"
         ]
     },
-    {
+{
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "5-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10703,7 +10703,7 @@
             "Monophasic flow"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-1",
         "tipo_pregunta": "opcion_multiple",
@@ -10719,7 +10719,7 @@
             "Semiannually"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-2",
         "tipo_pregunta": "opcion_multiple",
@@ -10735,7 +10735,7 @@
             "Doppler phantom"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-3",
         "tipo_pregunta": "opcion_multiple",
@@ -10751,7 +10751,7 @@
             "Dead zone"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-4",
         "tipo_pregunta": "opcion_multiple",
@@ -10767,7 +10767,7 @@
             "Vertical depth calibration"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-5",
         "tipo_pregunta": "opcion_multiple",
@@ -10783,7 +10783,7 @@
             "Report equipment malfunctions annually"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-6",
         "tipo_pregunta": "opcion_multiple",
@@ -10799,7 +10799,7 @@
             "CCI"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-7",
         "tipo_pregunta": "opcion_multiple",
@@ -10815,7 +10815,7 @@
             "Accreditation"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-8",
         "tipo_pregunta": "opcion_multiple",
@@ -10831,7 +10831,7 @@
             "Sensitivity"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-9",
         "tipo_pregunta": "opcion_multiple",
@@ -10847,7 +10847,7 @@
             "Slice thickness"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-10",
         "tipo_pregunta": "opcion_multiple",
@@ -10863,7 +10863,7 @@
             "Vertical distance"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-11",
         "tipo_pregunta": "opcion_multiple",
@@ -10879,7 +10879,7 @@
             "Quality assurance"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-12",
         "tipo_pregunta": "opcion_multiple",
@@ -10895,7 +10895,7 @@
             "Sonographer"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-13",
         "tipo_pregunta": "opcion_multiple",
@@ -10911,7 +10911,7 @@
             "Axial resolution"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-14",
         "tipo_pregunta": "opcion_multiple",
@@ -10927,7 +10927,7 @@
             "Depth calibration"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-15",
         "tipo_pregunta": "opcion_multiple",
@@ -10943,7 +10943,7 @@
             "Slice-thickness phantom"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-16",
         "tipo_pregunta": "opcion_multiple",
@@ -10959,7 +10959,7 @@
             "Horizontal calibration"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-17",
         "tipo_pregunta": "opcion_multiple",
@@ -10975,7 +10975,7 @@
             "Tissue-equivalent phantom"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-18",
         "tipo_pregunta": "opcion_multiple",
@@ -10991,7 +10991,7 @@
             "Subtle tissue differences"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-19",
         "tipo_pregunta": "opcion_multiple",
@@ -11007,7 +11007,7 @@
             "American Registry of Diagnostic Medical Sonography"
         ]
     },
-    {
+{
         "clasificacion": "Quality Assurance and Quality Control",
         "grupo": "1-20",
         "tipo_pregunta": "opcion_multiple",
@@ -11023,7 +11023,7 @@
             "American Institute of Ultrasound in Medicine"
         ]
     },
-   {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-1",
     "tipo_pregunta": "opcion_multiple",
@@ -11039,7 +11039,7 @@
       "As Low As Reasonably Achievable"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-2",
     "tipo_pregunta": "opcion_multiple",
@@ -11055,7 +11055,7 @@
       "Medical record number"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-3",
     "tipo_pregunta": "opcion_multiple",
@@ -11071,7 +11071,7 @@
       "Provide an interpreter"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-4",
     "tipo_pregunta": "opcion_multiple",
@@ -11087,7 +11087,7 @@
       "Elastography"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-5",
     "tipo_pregunta": "opcion_multiple",
@@ -11103,7 +11103,7 @@
       "Shear wave elastography"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-6",
     "tipo_pregunta": "opcion_multiple",
@@ -11119,7 +11119,7 @@
       "Tissue harmonic imaging"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-7",
     "tipo_pregunta": "opcion_multiple",
@@ -11135,7 +11135,7 @@
       "Hand washing"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-8",
     "tipo_pregunta": "opcion_multiple",
@@ -11151,7 +11151,7 @@
       "Cavitation"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-9",
     "tipo_pregunta": "opcion_multiple",
@@ -11167,7 +11167,7 @@
       "Streaming"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-10",
     "tipo_pregunta": "opcion_multiple",
@@ -11183,7 +11183,7 @@
       "Thermal index"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-11",
     "tipo_pregunta": "opcion_multiple",
@@ -11199,7 +11199,7 @@
       "Spatial peak temporal average"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-12",
     "tipo_pregunta": "opcion_multiple",
@@ -11215,7 +11215,7 @@
       "Encourage safe practices when dealing with patients; they also promote cleanliness in the healthcare setting."
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-13",
     "tipo_pregunta": "opcion_multiple",
@@ -11231,7 +11231,7 @@
       "Radiation forces"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-14",
     "tipo_pregunta": "opcion_multiple",
@@ -11247,7 +11247,7 @@
       "Transient"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-15",
     "tipo_pregunta": "opcion_multiple",
@@ -11263,7 +11263,7 @@
       "Mechanical index"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-16",
     "tipo_pregunta": "opcion_multiple",
@@ -11279,7 +11279,7 @@
       "Cardiogenic shock"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-17",
     "tipo_pregunta": "opcion_multiple",
@@ -11295,7 +11295,7 @@
       "Hospital-acquired infection"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-18",
     "tipo_pregunta": "opcion_multiple",
@@ -11311,7 +11311,7 @@
       "lodinated contrast agents"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-19",
     "tipo_pregunta": "opcion_multiple",
@@ -11327,7 +11327,7 @@
       "Urinary tract infections"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-20",
     "tipo_pregunta": "opcion_multiple",
@@ -11343,7 +11343,7 @@
       "Reservoir"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-21",
     "tipo_pregunta": "opcion_multiple",
@@ -11359,7 +11359,7 @@
       "Methicillin-resistant Staphylococcus aureus"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-22",
     "tipo_pregunta": "opcion_multiple",
@@ -11375,7 +11375,7 @@
       "Hand washing"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-23",
     "tipo_pregunta": "opcion_multiple",
@@ -11391,7 +11391,7 @@
       "Sweat"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-24",
     "tipo_pregunta": "opcion_multiple",
@@ -11407,7 +11407,7 @@
       "Image orientation"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-25",
     "tipo_pregunta": "opcion_multiple",
@@ -11423,7 +11423,7 @@
       "Tuberculosis"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-26",
     "tipo_pregunta": "opcion_multiple",
@@ -11439,7 +11439,7 @@
       "Methicillin-resistant Staphylococcus aureus"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-27",
     "tipo_pregunta": "opcion_multiple",
@@ -11455,7 +11455,7 @@
       "Liver inflammation"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-28",
     "tipo_pregunta": "opcion_multiple",
@@ -11471,7 +11471,7 @@
       "Tissue heating"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-29",
     "tipo_pregunta": "opcion_multiple",
@@ -11487,7 +11487,7 @@
       "Absorption"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-30",
     "tipo_pregunta": "opcion_multiple",
@@ -11503,7 +11503,7 @@
       "100 mW/cm²"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-31",
     "tipo_pregunta": "opcion_multiple",
@@ -11519,7 +11519,7 @@
       "Obstructive shock"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-32",
     "tipo_pregunta": "opcion_multiple",
@@ -11535,7 +11535,7 @@
       "Diabetic ketoacidosis"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-33",
     "tipo_pregunta": "opcion_multiple",
@@ -11551,7 +11551,7 @@
       "0.4"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-34",
     "tipo_pregunta": "opcion_multiple",
@@ -11567,7 +11567,7 @@
       "30° angle of abduction"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-35",
     "tipo_pregunta": "opcion_multiple",
@@ -11583,7 +11583,7 @@
       "Portal of exit"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-36",
     "tipo_pregunta": "opcion_multiple",
@@ -11599,7 +11599,7 @@
       "Tuberculosis"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-37",
     "tipo_pregunta": "opcion_multiple",
@@ -11615,7 +11615,7 @@
       "Decreased urine output"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-38",
     "tipo_pregunta": "opcion_multiple",
@@ -11631,7 +11631,7 @@
       "Kissing"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-39",
     "tipo_pregunta": "opcion_multiple",
@@ -11647,7 +11647,7 @@
       "Extreme thirst"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-40",
     "tipo_pregunta": "opcion_multiple",
@@ -11663,7 +11663,7 @@
       "Hand washing should occur before and after any contact with patients."
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-41",
     "tipo_pregunta": "opcion_multiple",
@@ -11679,7 +11679,7 @@
       "Carotid"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-42",
     "tipo_pregunta": "opcion_multiple",
@@ -11695,7 +11695,7 @@
       "Gluteraldehyde soaking solution"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-43",
     "tipo_pregunta": "opcion_multiple",
@@ -11711,7 +11711,7 @@
       "Hand hygiene"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-44",
     "tipo_pregunta": "opcion_multiple",
@@ -11727,7 +11727,7 @@
       "Needle stick"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-45",
     "tipo_pregunta": "opcion_multiple",
@@ -11743,7 +11743,7 @@
       "Coughing"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-46",
     "tipo_pregunta": "opcion_multiple",
@@ -11759,7 +11759,7 @@
       "Mechanical mechanisms"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-47",
     "tipo_pregunta": "opcion_multiple",
@@ -11775,7 +11775,7 @@
       "Nosocomial shock"
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-48",
     "tipo_pregunta": "opcion_multiple",
@@ -11791,7 +11791,7 @@
       "No effects caused by exposure from present diagnostic ultrasound instruments have been reported in human patients in the absence of contrast agents."
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-49",
     "tipo_pregunta": "opcion_multiple",
@@ -11807,7 +11807,7 @@
       "Gloves can be used to replace hand washing."
     ]
   },
-  {
+{
     "clasificacion": "Patient care and new technology",
     "grupo": "1-50",
     "tipo_pregunta": "opcion_multiple",
@@ -11823,3 +11823,4 @@
       "The type of cavitation when larger bubbles are produced and subsequently rupture."
     ]
   }
+]
