@@ -156,7 +156,7 @@ def display_marked_questions_sidebar():
         }
         </style>
         """, unsafe_allow_html=True)
-      st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
+      #st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
 
       for index in st.session_state.marked:
         question_number = index + 1
