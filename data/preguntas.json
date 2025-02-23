@@ -8391,7 +8391,7 @@
         "image": "",
         "opciones": [
             "Sector array",
-            "Vector array",
+            "2D array",
             "Curvilinear array",
             "Linear sequenced array"
         ],
