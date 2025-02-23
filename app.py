@@ -182,7 +182,7 @@ def exam_screen():
     """
     # Logo de la empresa is in the background now
 
-    st.title("SPI Practice Exam - ARDMS")
+    st.markdown("<h1 style='font-size: 1.5rem;'>SPI Practice Exam - ARDMS</h1>", unsafe_allow_html=True)
 
     # Datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
