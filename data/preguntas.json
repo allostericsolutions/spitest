@@ -13745,7 +13745,7 @@
     },
     {
         "clasificacion": "Transducers, Resolution, and Image Formation.",
-        "grupo": "5-4",
+        "grupo": "5-78",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
         "image": "",
@@ -13757,7 +13757,87 @@
         ],
         "respuesta_correcta": [
             "Convex transducer"
-           ]
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tech",
+        "grupo": "3-66",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Sonographers best practice while scanning is to avoid abducting the arm more than how many degrees?",
+        "image": "",
+        "opciones": [
+            "50",
+            "90",
+            "30",
+            "40"
+        ],
+        "respuesta_correcta": [
+            "30"
+        ]
+    },
+    {
+        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "4-34",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "The exposure time should be extended during the exam.",
+            "Use the lowest possible output power that provides a diagnostic image.",
+            "Use the lowest possible gain.",
+            "Ensure that the time gain compensation (TGC) is within acceptable limits."
+        ],
+        "respuesta_correcta": [
+            "Use the lowest possible output power that provides a diagnostic image."
+        ]
+    },
+    {
+        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "5-45",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This type of cavitation is the MOST concerning cause of bioeffects:",
+        "image": "",
+        "opciones": [
+            "Transient",
+            "Absorption",
+            "Stable",
+            "Thermal"
+        ],
+        "respuesta_correcta": [
+            "Transient"
+        ]
+    },
+    {
+        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "6-45",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Assuming an unfocused ultrasound beam, the American Institute of Ultrasound in Medicine's \"Statement on Mammalian Biological Effects of Ultrasound In Vivo\" has confirmed that no bioeffects have been noted when the spatial pulse temporal average (SPTA) intensity is less than which value?",
+        "image": "",
+        "opciones": [
+            "10 mW/cm²",
+            "100 W/cm²",
+            "1 W/cm²",
+            "100 mW/cm²"
+        ],
+        "respuesta_correcta": [
+            "100 mW/cm²"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "grupo": "7-35",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer notices that the mechanical index (MI) is too high during an ultrasound. What would be the MOST appropriate modification that the sonographer can make?",
+        "image": "",
+        "opciones": [
+            "Decrease receiver gain.",
+            "Increase period.",
+            "Decrease the output power.",
+            "Decrease the frequency of the transducer."
+        ],
+        "respuesta_correcta": [
+            "Decrease the output power."
+        ]
     }
 ]
     
