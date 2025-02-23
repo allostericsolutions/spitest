@@ -11511,12 +11511,12 @@
         "image": "",
         "opciones": [
             "Nosocomial infection",
-            "Cardiogenic shock",
-            "Hypovolemic shock",
-            "Obstructive shock"
+            "Cardiogenic triad",
+            "Aneurism",
+            "Pulmonary embolism"
         ],
         "respuesta_correcta": [
-            "Obstructive shock"
+            "Pulmonary embolism"
         ]
     },
     {
@@ -13699,16 +13699,16 @@
         "clasificacion": "Hemodynamics and Doppler Principles",
         "grupo": "10-3",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Increasing the pressure differential affects flow how?",
+        "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
         "image": "",
         "opciones": [
             "Resistance decreases",
-            "Pressure differential",
+            "Flow rate increases",
             "Viscosity increases",
             "Flow rate decreases"
         ],
         "respuesta_correcta": [
-            "Pressure differential"
+            "Flow rate increases"
         ]
     },
     {
