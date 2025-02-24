@@ -1,4 +1,5 @@
 import streamlit as st
+import os  # Añadir esta línea
 
 def display_question(question, question_num):
     """
