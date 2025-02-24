@@ -267,6 +267,9 @@ def finalize_exam():
     st.write(f"Score Obtained: **{score}**")
     st.write(f"Status: **{status}**")
 
+    # Mostrar las respuestas incorrectas en la barra lateral (para depurar)
+    st.sidebar.write(st.session_state.incorrect_answers)  # <-- LÍNEA AÑADIDA AQUÍ
+
     # Generar PDF y permitir descarga
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
