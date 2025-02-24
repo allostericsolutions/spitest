@@ -13844,7 +13844,7 @@
     "grupo": "8-1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer is performing an abdominal ultrasound examination.  The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
-    "image": "https://ibb.co/w8Kp1n8",
+    "image": "",
     "opciones": [
         "Output Power",
         "Time Gain Compensation (TGC)",
