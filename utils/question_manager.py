@@ -1,5 +1,6 @@
 import json
 import random
+import streamlit as st  # Importante: Asegúrate de tener esta línea
 
 def load_questions():
     """
@@ -71,3 +72,57 @@ def shuffle_options(question):
     opciones = question.get("opciones", []).copy()
     random.shuffle(opciones)
     return opciones
+
+def calculate_score():
+    """
+    Count correct answers. Then, we segment:
+    - 0% to 75% correct: line from 0 points to 555
+    - 75% to 100% correct: line from 555 to 700
+    """
+    questions = st.session_state.selected_questions
+    total_questions = len(questions)
+    if total_questions == 0:
+        return 0  # previene divisiones entre 0 si algo falla
+
+    # Inicializar la lista de respuestas incorrectas en st.session_state
+    st.session_state.incorrect_answers = []
+
+    # Contar cuántas respuestas correctas
+    correct_count = 0
+    for idx, question in enumerate(questions):
+        user_answer = st.session_state.answers.get(str(idx), None)
+        if user_answer and user_answer in question["respuesta_correcta"]:
+            correct_count += 1
+        else:  # Si la respuesta no es correcta
+            if user_answer is not None: #solo si el usuario respondió
+              incorrect_info = {
+                  "pregunta": {
+                      "enunciado": question["enunciado"],
+                      "opciones": question["opciones"],
+                      "respuesta_correcta": question["respuesta_correcta"],
+                      "image": question.get("image") #Guarda imagen si existe
+                  },
+                  "respuesta_usuario": user_answer,
+                  "indice_pregunta": idx
+              }
+              st.session_state.incorrect_answers.append(incorrect_info)
+
+
+    # Fracción de aciertos (0.0 → 1.0)
+    x = correct_count / total_questions
+
+    # Por tramos:
+    # 0% → 0, 75% → 555, 100% → 700
+    if x <= 0:
+        final_score = 0
+    elif x <= 0.75:
+        # Sube de 0 a 555 linealmente
+        slope1 = 555 / 0.75  # 555 ÷ 0.75 = 740
+        final_score = slope1 * x
+    else:
+        # De 75% a 100%, sube de 555 a 700
+        slope2 = (700 - 555) / (1 - 0.75)  # 145 ÷ 0.25 = 580
+        final_score = slope2 * (x - 0.75) + 555
+
+    # Convertir a entero
+    return int(final_score)
