@@ -25,10 +25,12 @@ def display_marked_questions_sidebar():
             question_number = index + 1
             col1, col2 = st.sidebar.columns([3, 1])
             with col1:
-                if st.button(f"Question {question_number}", key=f"goto_{index}"):
+                # --- CORREGIR AQUÍ ---
+                if st.button(f"Question {question_number}", key=f"goto_{index}"):  # <-- Usar el índice en la clave
+                # --- FIN DE LA CORRECCIÓN ---
                     st.session_state.current_question_index = index
                     st.rerun()
             with col2:
-                if st.button("X", key=f"unmark_{index}"):
+                if st.button("X", key=f"unmark_{index}"):  # <-- Esto ya estaba correcto
                     st.session_state.marked.remove(index)
                     st.rerun()
