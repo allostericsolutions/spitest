@@ -237,12 +237,6 @@ def finalize_exam():
             mime="application/pdf"
         )
 
-def calculate_score():
-    #  (Esta función se define en utils/question_manager.py)
-    #  La hemos movido aquí temporalmente para facilitar la depuración.
-    #  Una vez resuelto el problema, se puede mover de vuelta.
-    pass # Se reemplaza por la version en utils, solo se incluye la firma
-
 def main_screen():
     """
     Screen that calls exam_screen() if the exam has not finished.
