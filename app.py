@@ -16,7 +16,7 @@ from openai_utils.explanations import get_openai_explanation
 st.set_page_config(
     page_title="SPI Practice Exam - ARDMS",
     layout="centered",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",  # <-- Barra lateral siempre abierta
 )
 
 # --- ESTILOS CSS MÁS ESPECÍFICOS Y AJUSTADOS ---
@@ -30,12 +30,13 @@ st.markdown(
     }
 
     /* Ajustes específicos para la imagen de fondo */
-    body {
+     body {
         background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
         background-repeat: no-repeat;
         background-size: contain; /*  'contain' asegura que la imagen se vea completa */
         background-position: center top; /* Centrada horizontalmente, arriba verticalmente */
         background-attachment: fixed; /* Imagen fija */
+
     }
 
     /* Reducir márgenes superiores e inferiores de los títulos */
@@ -75,7 +76,7 @@ st.markdown(
         overflow-y: auto;  /* Scroll vertical solo para las opciones */
     }
 
-    /* Contenedor para la imagen (con altura máxima) */
+     /* Contenedor para la imagen (con altura máxima) */
     .image-container {
         max-height: 300px; /* Ajusta este valor según el tamaño máximo de tus imágenes */
         overflow: hidden; /* Oculta cualquier parte de la imagen que exceda la altura máxima */
@@ -121,7 +122,6 @@ def initialize_session():
         st.session_state.incorrect_answers = []
     if 'explanations' not in st.session_state:
         st.session_state.explanations = {}
-
 
 
 def authentication_screen():
@@ -207,38 +207,36 @@ def exam_screen():
     """
     Main exam screen.
     """
-    # --- Alineación de Nombre/ID y Tiempo Restante ---
+    # --- Información del Usuario y Tiempo en la Barra Lateral (Opción 2) ---
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
+    elapsed_time = time.time() - st.session_state.start_time
+    remaining_time = config["time_limit_seconds"] - elapsed_time
+    minutes_remaining = int(remaining_time // 60)
 
-    col_nombre_id, col_tiempo = st.columns([1, 1])  # Dos columnas de igual ancho
-
-    with col_nombre_id:
-        st.text_input("Name", value=nombre, disabled=True)  # Usar st.text_input deshabilitado
-        st.text_input("ID", value=identificacion, disabled=True)  # Usar st.text_input deshabilitado
-
-    with col_tiempo:
-        elapsed_time = time.time() - st.session_state.start_time
-        remaining_time = config["time_limit_seconds"] - elapsed_time
-        minutes_remaining = int(remaining_time // 60)
-        st.markdown(
-            f"""
-            <div style='text-align: right; font-size: 16px;'>
-              <strong>Minutes Remaining:</strong> {minutes_remaining}
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    st.sidebar.subheader("User Information")  # Título
+    st.sidebar.text_input("Name", value=nombre, disabled=True)
+    st.sidebar.text_input("ID", value=identificacion, disabled=True)
+    st.sidebar.markdown("---")  # Línea divisoria
+    st.sidebar.markdown(
+        f"""
+        <div style='text-align: left; font-size: 16px;'>
+          <strong>Minutes Remaining:</strong> {minutes_remaining}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    # --- Fin de la Barra Lateral ---
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
-        st.warning("The exam will end in 10 minutes!")
+        st.warning("The exam will end in 10 minutes!")  # La advertencia se queda en la vista principal
 
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
         finalize_exam()
         return
-
+    # --- Se llama la función aqui, para que se ejecute---
     display_marked_questions_sidebar()
 
     if not st.session_state.end_exam:
@@ -274,7 +272,7 @@ def finalize_exam():
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: {score}")
+    st.write(f"Score Obtained: {score}")  # Mostrar el puntaje
     st.write(f"Status: {status}")
 
     # --- INTEGRACIÓN CON OPENAI ---
@@ -282,8 +280,8 @@ def finalize_exam():
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
-    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
+    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)  # Muestra las respuestas incorrectas
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)  # <-- Añade esto
 
     # --- (Fin de la integración) ---
 
