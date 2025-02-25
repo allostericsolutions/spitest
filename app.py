@@ -33,7 +33,7 @@ st.markdown(
     body {
         background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
         background-repeat: no-repeat;
-        background-size: contain; /*  'contain' asegura que la imagen se vea completa */
+        background-size: contain; /* 'contain' asegura que la imagen se vea completa */
         background-position: center top; /* Centrada horizontalmente, arriba verticalmente */
         background-attachment: fixed; /* Imagen fija */
     }
@@ -190,33 +190,33 @@ def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
 
     if st.session_state.marked:
-      st.markdown("""
+        st.markdown("""
         <style>
-          .title {
-              writing-mode: vertical-rl;
-              transform: rotate(180deg);
-              position: absolute;
-              top: 50%;
-              left: 0px;
-              transform-origin: center;
-              white-space: nowrap;
-              display: block;
-              font-size: 1.2em;
-          }
+         .title {
+           writing-mode: vertical-rl;
+           transform: rotate(180deg);
+           position: absolute;
+           top: 50%;
+           left: 0px;
+           transform-origin: center;
+           white-space: nowrap;
+           display: block;
+           font-size: 1.2em;
+         }
         </style>
         """, unsafe_allow_html=True)
 
-      for index in st.session_state.marked:
-        question_number = index + 1
-        col1, col2 = st.sidebar.columns([3, 1])
-        with col1:
-            if st.button(f"Question ", key=f"goto_{index}"):
-                st.session_state.current_question_index = index
-                st.rerun()
-        with col2:
-            if st.button("X", key=f"unmark_{index}"):
-                st.session_state.marked.remove(index)
-                st.rerun()
+        for index in st.session_state.marked:
+            question_number = index + 1
+            col1, col2 = st.sidebar.columns([3, 1])
+            with col1:
+                if st.button(f"Question ", key=f"goto_"):
+                    st.session_state.current_question_index = index
+                    st.rerun()
+            with col2:
+                if st.button("X", key=f"unmark_"):
+                    st.session_state.marked.remove(index)
+                    st.rerun()
 
 def exam_screen():
     """
@@ -229,8 +229,10 @@ def exam_screen():
     remaining_time = config["time_limit_seconds"] - elapsed_time
     minutes_remaining = int(remaining_time // 60)
 
-    # --- Barra Lateral Fija ---
+     # --- Barra Lateral Fija ---
     with st.sidebar:
+        # --- CONTENEDOR PARA LA CABECERA FIJA ---
+        st.markdown("<div class='sidebar-header'>", unsafe_allow_html=True)
         with st.container():
             st.subheader("User Information")
             st.text_input("Name", value=nombre, disabled=True)
@@ -239,14 +241,20 @@ def exam_screen():
             st.markdown(
                 f"""
                 <div style='text-align: left; font-size: 16px;'>
-                  <strong>Minutes Remaining:</strong> {minutes_remaining}
+                <strong>Minutes Remaining:</strong> 
                 </div>
                 """,
                 unsafe_allow_html=True
             )
 
+        st.markdown("</div>", unsafe_allow_html=True) # Cierre del contenedor de la cabecera
+
+        # --- CONTENEDOR PARA EL CONTENIDO CON SCROLL ---
+        st.markdown("<div class='sidebar-content'>", unsafe_allow_html=True)
         with st.container():
-          display_marked_questions_sidebar()
+            display_marked_questions_sidebar()
+        st.markdown("</div>", unsafe_allow_html=True) # Cierre del contenedor de contenido
+
     # --- Fin de la Barra Lateral ---
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
@@ -291,8 +299,8 @@ def finalize_exam():
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: {score}")
-    st.write(f"Status: {status}")
+    st.write(f"Score Obtained: ")
+    st.write(f"Status: ")
 
     # --- INTEGRACIÓN CON OPENAI ---
     explanations = get_openai_explanation(st.session_state.incorrect_answers)
