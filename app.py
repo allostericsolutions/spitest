@@ -1,3 +1,4 @@
+# app.py
 import streamlit as st
 import json
 import time
@@ -9,7 +10,7 @@ from utils.question_manager import select_random_questions, shuffle_options, cal
 from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
-from openai_utils.explanations import get_openai_explanation  # <-- Importa la función
+from openai_utils.explanations import get_openai_explanation
 
 # Configuración de la página de Streamlit
 st.set_page_config(
@@ -18,29 +19,67 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+# --- ESTILOS CSS MÁS ESPECÍFICOS Y AJUSTADOS ---
 st.markdown(
     """
     <style>
+    /* Reducir márgenes generales (con cuidado) */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Ajustes específicos para la imagen de fondo */
     body {
         background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
         background-repeat: no-repeat;
-        background-size: contain; /* Or cover, or specific dimensions */
-        background-position: center; /* Or other position */
+        background-size: contain; /*  'contain' asegura que la imagen se vea completa */
+        background-position: center top; /* Centrada horizontalmente, arriba verticalmente */
+        background-attachment: fixed; /* Imagen fija */
     }
 
-    /* Optional: Adjust padding/margins of other elements if needed */
-    .stApp {
-      padding-top: 0px !important;
-    }
-    h1{
+    /* Reducir márgenes superiores e inferiores de los títulos */
+    h1 {
         margin-top: 10px !important;
-        margin-bottom: 15px !important;
-        text-align: center; /* Center the title */
-    }
-    .stTextInput > div > div > input {
-            color: black !important;
+        margin-bottom: 10px !important;
+        text-align: center;
     }
 
+    /* Reducir márgenes de los inputs de texto */
+    .stTextInput > div > div > input {
+        color: black !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* Contenedor de autenticación (para agrupar) */
+    .auth-container {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Contenedor de datos de usuario (para agrupar) */
+    .user-data-container {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Estilos para la pantalla de preguntas */
+    .question-container {
+        /* Puedes agregar estilos generales aquí si es necesario */
+    }
+
+    .options-container {
+        max-height: 200px; /* Ajusta este valor según tus necesidades */
+        overflow-y: auto;  /* Scroll vertical solo para las opciones */
+    }
+
+    /* Contenedor para la imagen (con altura máxima) */
+    .image-container {
+        max-height: 300px; /* Ajusta este valor según el tamaño máximo de tus imágenes */
+        overflow: hidden; /* Oculta cualquier parte de la imagen que exceda la altura máxima */
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -54,7 +93,9 @@ def load_config():
     with open('data/config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
+
 config = load_config()
+
 
 def initialize_session():
     """
@@ -69,7 +110,7 @@ def initialize_session():
     if 'current_question_index' not in st.session_state:
         st.session_state.current_question_index = 0
     if 'answers' not in st.session_state:
-        st.session_state.answers = {} # Inicialmente vacío
+        st.session_state.answers = {}  # Inicialmente vacío
     if 'marked' not in st.session_state:
         st.session_state.marked = set()
     if 'start_time' not in st.session_state:
@@ -82,26 +123,29 @@ def initialize_session():
         st.session_state.explanations = {}
     # print("Inicializando incorrect_answers en initialize_session") # Ya no es necesario
 
+
 def authentication_screen():
     """
     Authentication screen: prompts the user for the password.
     """
-    st.title("Authentication")
-    password = st.text_input("Enter the password to access the exam:", type="password")
-    if st.button("Enter"):
-        if verify_password(password):
-            st.session_state.authenticated = True
-            st.success("Authentication successful.")
-            st.rerun()
-        else:
-            st.error("Incorrect password.")
+    with st.container():  # Usamos un contenedor
+        st.title("Authentication")
+        password = st.text_input("Enter the password to access the exam:", type="password")
+        if st.button("Enter"):
+            if verify_password(password):
+                st.session_state.authenticated = True
+                st.success("Authentication successful.")
+                st.rerun()
+            else:
+                st.error("Incorrect password.")
+
 
 def user_data_input():
     """
     Screen for user data input (name and ID).
     """
-    st.header("User Data")
     with st.form("user_form"):
+        st.header("User Data")
         nombre = st.text_input("Full Name:")
         identificacion = st.text_input("ID or Student Number:")
 
@@ -125,43 +169,44 @@ def user_data_input():
             else:
                 st.error("Please, complete all fields.")
 
+
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
 
     if st.session_state.marked:
-      st.markdown("""
-        <style>
-        .title {
-          writing-mode: vertical-rl;
-          transform: rotate(180deg);
-          position: absolute;
-          top: 50%;
-          left: 0px;
-          transform-origin: center;
-          white-space: nowrap;
-          display: block;
-          font-size: 1.2em;
-        }
-        </style>
-        """, unsafe_allow_html=True)
+        st.markdown("""
+      <style>
+      .title {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      transform-origin: center;
+      white-space: nowrap;
+      display: block;
+      font-size: 1.2em;
+      }
+      </style>
+      """, unsafe_allow_html=True)
 
-      for index in st.session_state.marked:
-        question_number = index + 1
-        col1, col2 = st.sidebar.columns([3, 1])
-        with col1:
-            if st.button(f"Question {question_number}", key=f"goto_{index}"):
-                st.session_state.current_question_index = index
-                st.rerun()
-        with col2:
-            if st.button("X",key=f"unmark_{index}"):
-                st.session_state.marked.remove(index)
-                st.rerun()
+        for index in st.session_state.marked:
+            question_number = index + 1
+            col1, col2 = st.sidebar.columns([3, 1])
+            with col1:
+                if st.button(f"Question ", key=f"goto_{index}"):
+                    st.session_state.current_question_index = index
+                    st.rerun()
+            with col2:
+                if st.button("X", key=f"unmark_{index}"):
+                    st.session_state.marked.remove(index)
+                    st.rerun()
+
 
 def exam_screen():
     """
     Main exam screen.
     """
-    st.markdown("<h1 style='font-size: 1.5rem;'>SPI Practice Exam - ARDMS</h1>", unsafe_allow_html=True)
 
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
@@ -174,10 +219,10 @@ def exam_screen():
 
     st.markdown(
         f"""
-        <div style='text-align: right; font-size: 16px;'>
-            <strong>Minutes Remaining:</strong> {minutes_remaining}
-        </div>
-        """,
+      <div style='text-align: right; font-size: 16px;'>
+        <strong>Minutes Remaining:</strong> {minutes_remaining}
+      </div>
+      """,
         unsafe_allow_html=True
     )
 
@@ -204,11 +249,13 @@ def exam_screen():
                 if str(i) not in st.session_state.answers
             ]
             if unanswered:
-                st.warning(f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?")
+                st.warning(
+                    f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?")
                 if st.button("Confirm Completion"):
                     finalize_exam()
             else:
                 finalize_exam()
+
 
 def finalize_exam():
     """
@@ -223,7 +270,7 @@ def finalize_exam():
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: {score}")
+    st.write(f"Score Obtained: {score}")  # Mostrar el puntaje
     st.write(f"Status: {status}")
 
     # --- INTEGRACIÓN CON OPENAI ---
@@ -232,8 +279,7 @@ def finalize_exam():
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
     st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)  # Muestra las respuestas incorrectas
-    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations) # <-- Añade esto
-
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)  # <-- Añade esto
 
     # --- (Fin de la integración) ---
 
@@ -248,11 +294,13 @@ def finalize_exam():
             mime="application/pdf"
         )
 
+
 def main_screen():
     """
     Screen that calls exam_screen() if the exam has not finished.
     """
     exam_screen()
+
 
 def main():
     """
@@ -268,6 +316,7 @@ def main():
         main_screen()
     else:
         finalize_exam()
+
 
 if __name__ == "__main__":
     main()
