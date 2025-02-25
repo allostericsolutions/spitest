@@ -30,13 +30,12 @@ st.markdown(
     }
 
     /* Ajustes específicos para la imagen de fondo */
-     body {
+    body {
         background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
         background-repeat: no-repeat;
         background-size: contain; /*  'contain' asegura que la imagen se vea completa */
         background-position: center top; /* Centrada horizontalmente, arriba verticalmente */
         background-attachment: fixed; /* Imagen fija */
-
     }
 
     /* Reducir márgenes superiores e inferiores de los títulos */
@@ -76,11 +75,28 @@ st.markdown(
         overflow-y: auto;  /* Scroll vertical solo para las opciones */
     }
 
-     /* Contenedor para la imagen (con altura máxima) */
+    /* Contenedor para la imagen (con altura máxima) */
     .image-container {
         max-height: 300px; /* Ajusta este valor según el tamaño máximo de tus imágenes */
         overflow: hidden; /* Oculta cualquier parte de la imagen que exceda la altura máxima */
     }
+
+    /* --- ESTILOS PARA LA BARRA LATERAL FIJA --- */
+    .sidebar-header {
+        position: sticky;
+        top: 0;
+        background-color: #f0f2f6; /* Un color de fondo para que se vea bien */
+        z-index: 1000; /* Asegura que esté por encima del contenido con scroll */
+        padding: 10px; /* Espacio alrededor del contenido */
+    	border-bottom: 1px solid #ccc;
+    }
+
+    .sidebar-content {
+        max-height: calc(100vh - 150px); /* Ajusta 150px según la altura de tu header */
+        overflow-y: auto;
+        padding: 10px;
+    }
+    /* --- FIN DE ESTILOS PARA LA BARRA LATERAL --- */
     </style>
     """,
     unsafe_allow_html=True,
@@ -174,34 +190,33 @@ def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
 
     if st.session_state.marked:
-        st.markdown("""
-      <style>
-      .title {
-          writing-mode: vertical-rl;
-          transform: rotate(180deg);
-          position: absolute;
-          top: 50%;
-          left: 0px;
-          transform-origin: center;
-          white-space: nowrap;
-          display: block;
-          font-size: 1.2em;
-      }
-      </style>
-      """, unsafe_allow_html=True)
+      st.markdown("""
+        <style>
+          .title {
+              writing-mode: vertical-rl;
+              transform: rotate(180deg);
+              position: absolute;
+              top: 50%;
+              left: 0px;
+              transform-origin: center;
+              white-space: nowrap;
+              display: block;
+              font-size: 1.2em;
+          }
+        </style>
+        """, unsafe_allow_html=True)
 
-        for index in st.session_state.marked:
-            question_number = index + 1
-            col1, col2 = st.sidebar.columns([3, 1])
-            with col1:
-                if st.button(f"Question ", key=f"goto_{index}"):
-                    st.session_state.current_question_index = index
-                    st.rerun()
-            with col2:
-                if st.button("X", key=f"unmark_{index}"):
-                    st.session_state.marked.remove(index)
-                    st.rerun()
-
+      for index in st.session_state.marked:
+        question_number = index + 1
+        col1, col2 = st.sidebar.columns([3, 1])
+        with col1:
+            if st.button(f"Question ", key=f"goto_{index}"):
+                st.session_state.current_question_index = index
+                st.rerun()
+        with col2:
+            if st.button("X", key=f"unmark_{index}"):
+                st.session_state.marked.remove(index)
+                st.rerun()
 
 def exam_screen():
     """
@@ -214,30 +229,34 @@ def exam_screen():
     remaining_time = config["time_limit_seconds"] - elapsed_time
     minutes_remaining = int(remaining_time // 60)
 
-    st.sidebar.subheader("User Information")  # Título
-    st.sidebar.text_input("Name", value=nombre, disabled=True)
-    st.sidebar.text_input("ID", value=identificacion, disabled=True)
-    st.sidebar.markdown("---")  # Línea divisoria
-    st.sidebar.markdown(
-        f"""
-        <div style='text-align: left; font-size: 16px;'>
-          <strong>Minutes Remaining:</strong> {minutes_remaining}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    # --- Barra Lateral Fija ---
+    with st.sidebar:
+        with st.container():
+            st.subheader("User Information")
+            st.text_input("Name", value=nombre, disabled=True)
+            st.text_input("ID", value=identificacion, disabled=True)
+            st.markdown("---")
+            st.markdown(
+                f"""
+                <div style='text-align: left; font-size: 16px;'>
+                  <strong>Minutes Remaining:</strong> {minutes_remaining}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        with st.container():
+          display_marked_questions_sidebar()
     # --- Fin de la Barra Lateral ---
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
-        st.warning("The exam will end in 10 minutes!")  # La advertencia se queda en la vista principal
+        st.warning("The exam will end in 10 minutes!")
 
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
         finalize_exam()
         return
-    # --- Se llama la función aqui, para que se ejecute---
-    display_marked_questions_sidebar()
 
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
@@ -272,7 +291,7 @@ def finalize_exam():
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: {score}")  # Mostrar el puntaje
+    st.write(f"Score Obtained: {score}")
     st.write(f"Status: {status}")
 
     # --- INTEGRACIÓN CON OPENAI ---
@@ -280,8 +299,8 @@ def finalize_exam():
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)  # Muestra las respuestas incorrectas
-    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)  # <-- Añade esto
+    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
     # --- (Fin de la integración) ---
 
