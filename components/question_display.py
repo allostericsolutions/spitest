@@ -1,6 +1,7 @@
+# components/question_display.py
 import streamlit as st
 import os
-import time  # Asegúrate de tener esta importación
+import time  # <-- Importante: Añadir la importación de time
 
 
 def display_question(question, question_num):
@@ -17,14 +18,13 @@ def display_question(question, question_num):
         except FileNotFoundError:
             st.error(f"Image not found: {image_path}")
 
-    # --- Solución definitiva (usando index=None) ---
+    # --- Clave dinámica (cambio principal) ---
     dynamic_key = f"respuesta_{question_num}_{st.session_state.current_question_index}_{time.time()}"
 
     selected = st.radio(
         "Select an answer:",
         options=question['opciones'],
-        key=dynamic_key,  # Usar la clave dinámica
-        index=None  # <-- ¡CRUCIAL! Forzar a que no haya preselección
+        key=dynamic_key  # Usar la clave dinámica
     )
     # --- Fin del cambio ---
 
