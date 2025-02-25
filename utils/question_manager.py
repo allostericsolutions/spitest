@@ -82,31 +82,34 @@ def calculate_score():
     questions = st.session_state.selected_questions
     total_questions = len(questions)
     if total_questions == 0:
-        return 0  # previene divisiones entre 0 si algo falla
+        return 0
 
-    # Inicializar la lista de respuestas incorrectas en st.session_state
     st.session_state.incorrect_answers = []
-
-    # Contar cuántas respuestas correctas
     correct_count = 0
+
     for idx, question in enumerate(questions):
         user_answer = st.session_state.answers.get(str(idx), None)
+        print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # AÑADE ESTO
+
         if user_answer and user_answer in question["respuesta_correcta"]:
             correct_count += 1
-        else:  # Si la respuesta no es correcta
-            if user_answer is not None: #solo si el usuario respondió
-              incorrect_info = {
-                  "pregunta": {
-                      "enunciado": question["enunciado"],
-                      "opciones": question["opciones"],
-                      "respuesta_correcta": question["respuesta_correcta"],
-                      "image": question.get("image") #Guarda imagen si existe
-                  },
-                  "respuesta_usuario": user_answer,
-                  "indice_pregunta": idx
-              }
-              st.session_state.incorrect_answers.append(incorrect_info)
+        else:
+            if user_answer is not None:
+                incorrect_info = {
+                    "pregunta": {
+                        "enunciado": question["enunciado"],
+                        "opciones": question["opciones"],
+                        "respuesta_correcta": question["respuesta_correcta"],
+                        "image": question.get("image")
+                    },
+                    "respuesta_usuario": user_answer,
+                    "indice_pregunta": idx
+                }
+                st.session_state.incorrect_answers.append(incorrect_info)
+                print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # AÑADE ESTO
 
+    print(f"Total de respuestas correctas: {correct_count}")  # AÑADE ESTO
+    print(f"Lista final de respuestas incorrectas: {st.session_state.incorrect_answers}") # AÑADE ESTO
 
     # Fracción de aciertos (0.0 → 1.0)
     x = correct_count / total_questions
