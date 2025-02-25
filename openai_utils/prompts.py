@@ -10,10 +10,10 @@ Para CADA una de las siguientes preguntas de opción múltiple (que un estudiant
 Formato de salida EXACTO (usa este formato; la numeración es crucial):
 
 1. [CONCEPTO PRINCIPAL]
-   [Nombre del Estudiante]: [Explicación breve]
+    [Explicación breve]
 
 2. [CONCEPTO PRINCIPAL]
-   [Nombre del Estudiante]: [Explicación breve]
+   [Explicación breve]
 
 ... (y así sucesivamente para cada pregunta)
 
