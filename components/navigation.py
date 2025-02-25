@@ -8,7 +8,8 @@ def mark_current_question():
     """ Callback function to mark the current question"""
     current_index = st.session_state.current_question_index
     st.session_state.marked.add(current_index)
-    # st.success("Question marked for review.") #Texto en ingles - Removed
+    # st.success("Question marked for review.") #Texto en ingles - Removed  -- ¡YA NO ES NECESARIO!
+    # st.rerun()  # <-- ¡ELIMINAR ESTO!  Causaba el problema.
 
 def display_navigation():
     """
