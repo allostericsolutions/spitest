@@ -24,46 +24,50 @@ def format_question_for_openai(question_data, user_answer):
     )
     return formatted_question
 
-def get_openai_explanation(incorrect_answers): #Quitamos user_name
+
+def get_openai_explanation(incorrect_answers):
     """
     Gets explanations from OpenAI for incorrect answers.
-    Returns:
-      str:  Explicaciones en texto plano, o una cadena vacía si hay error.
     """
-    formatted_questions = []
+    explanations = {}
     for answer_data in incorrect_answers:
         question_data = answer_data["pregunta"]
         user_answer = answer_data["respuesta_usuario"]
-        formatted_questions.append(format_question_for_openai(question_data, user_answer))
+        question_index = answer_data["indice_pregunta"]
 
-    all_questions_str = "\n\n".join(formatted_questions)
+        formatted_question = format_question_for_openai(question_data, user_answer)
 
-    prompt = EXPLANATION_PROMPT.format(
-        preguntas_formateadas=all_questions_str,
-        # nombre_estudiante=user_name  <--  Se elimina esta línea
-    )
-
-    try:
-        response = openai.chat.completions.create(
-            model="gpt-4-1106-preview",  #  o el modelo que prefieras
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7,
-            max_tokens=2000,  # Ajusta según necesidad! (y costos)
-            top_p=1.0,
-            frequency_penalty=0.0,
-            presence_penalty=0.0,
+        # Usamos el prompt importado y .format() para insertar los datos
+        prompt = EXPLANATION_PROMPT.format(
+            pregunta=formatted_question,
+            respuesta_incorrecta=user_answer,  # Podría usarse directamente, pero por claridad
+            respuesta_correcta=', '.join(question_data["respuesta_correcta"])
         )
-        explanation = response.choices[0].message.content.strip()
-        return explanation  # Devolvemos la explicación completa como texto
 
-    except openai.OpenAIError as e:
-        print(f"Error de OpenAI: {e}")
-        st.error(f"Error al obtener la explicación de OpenAI: {e}")
-        return ""
-    except Exception as e:
-        print(f"Error inesperado: {e}")
-        st.error(f"Ocurrió un error inesperado: {e}")
-        return ""
+
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=16000,
+                top_p=1.0,
+                frequency_penalty=0.0,
+                presence_penalty=0.0,
+
+            )
+            explanation = response.choices[0].message.content.strip()
+            explanations[question_index] = explanation
+        except openai.OpenAIError as e:
+            print(f"Error de OpenAI: {e}")
+            st.error(f"Error al obtener la explicación de OpenAI: {e}")
+            return {}
+        except Exception as e:
+            print(f"Error inesperado: {e}")
+            st.error(f"Ocurrió un error inesperado: {e}")
+            return {}
+
+    return explanations
