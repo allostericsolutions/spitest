@@ -119,9 +119,9 @@ def initialize_session():
         st.session_state.end_exam = False
     if 'incorrect_answers' not in st.session_state:
         st.session_state.incorrect_answers = []
-    if 'explanations' not in st.session_state:  # <-- Añade esto
+    if 'explanations' not in st.session_state:
         st.session_state.explanations = {}
-    # print("Inicializando incorrect_answers en initialize_session") # Ya no es necesario
+
 
 
 def authentication_screen():
@@ -177,15 +177,15 @@ def display_marked_questions_sidebar():
         st.markdown("""
       <style>
       .title {
-      writing-mode: vertical-rl;
-      transform: rotate(180deg);
-      position: absolute;
-      top: 50%;
-      left: 0px;
-      transform-origin: center;
-      white-space: nowrap;
-      display: block;
-      font-size: 1.2em;
+          writing-mode: vertical-rl;
+          transform: rotate(180deg);
+          position: absolute;
+          top: 50%;
+          left: 0px;
+          transform-origin: center;
+          white-space: nowrap;
+          display: block;
+          font-size: 1.2em;
       }
       </style>
       """, unsafe_allow_html=True)
@@ -207,24 +207,28 @@ def exam_screen():
     """
     Main exam screen.
     """
-
+    # --- Alineación de Nombre/ID y Tiempo Restante ---
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
-    st.write(f"Name: {nombre}")
-    st.write(f"ID: {identificacion}")
 
-    elapsed_time = time.time() - st.session_state.start_time
-    remaining_time = config["time_limit_seconds"] - elapsed_time
-    minutes_remaining = int(remaining_time // 60)
+    col_nombre_id, col_tiempo = st.columns([1, 1])  # Dos columnas de igual ancho
 
-    st.markdown(
-        f"""
-      <div style='text-align: right; font-size: 16px;'>
-        <strong>Minutes Remaining:</strong> {minutes_remaining}
-      </div>
-      """,
-        unsafe_allow_html=True
-    )
+    with col_nombre_id:
+        st.text_input("Name", value=nombre, disabled=True)  # Usar st.text_input deshabilitado
+        st.text_input("ID", value=identificacion, disabled=True)  # Usar st.text_input deshabilitado
+
+    with col_tiempo:
+        elapsed_time = time.time() - st.session_state.start_time
+        remaining_time = config["time_limit_seconds"] - elapsed_time
+        minutes_remaining = int(remaining_time // 60)
+        st.markdown(
+            f"""
+            <div style='text-align: right; font-size: 16px;'>
+              <strong>Minutes Remaining:</strong> {minutes_remaining}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("The exam will end in 10 minutes!")
@@ -270,7 +274,7 @@ def finalize_exam():
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: {score}")  # Mostrar el puntaje
+    st.write(f"Score Obtained: {score}")
     st.write(f"Status: {status}")
 
     # --- INTEGRACIÓN CON OPENAI ---
@@ -278,8 +282,8 @@ def finalize_exam():
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)  # Muestra las respuestas incorrectas
-    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)  # <-- Añade esto
+    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
     # --- (Fin de la integración) ---
 
