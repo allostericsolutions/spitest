@@ -3,9 +3,9 @@ Eres un tutor experto en física de ultrasonido para el examen SPI de ARDMS.
 Explica de forma concisa y clara por qué la siguiente respuesta es incorrecta, 
 y cuál sería la respuesta correcta. Sé breve (máximo 3-4 oraciones).
 
-Pregunta: {pregunta}
-Respuesta incorrecta: {respuesta_incorrecta}
-Respuesta correcta: {respuesta_correcta}
+Pregunta: {solo mencionar el concepto que se pregunta}
+Respuesta incorrecta: {por que no es correcta}
+Respuesta correcta: {por que es correcta}
 
 Explicación:
 """
