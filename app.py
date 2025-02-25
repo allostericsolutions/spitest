@@ -48,11 +48,7 @@ st.markdown(
 
 def load_config():
     """
-    Loads the data/config.json file with:
-    - Access password
-    - Exam time limit (in seconds)
-    - Warning time (10 minutes in seconds)
-    - Minimum and maximum scores
+    Loads the data/config.json file.
     """
     with open('data/config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -79,8 +75,9 @@ def initialize_session():
         st.session_state.start_time = None
     if 'end_exam' not in st.session_state:
         st.session_state.end_exam = False
-    if 'incorrect_answers' not in st.session_state:  # Añade esta línea
+    if 'incorrect_answers' not in st.session_state:  # Inicializa incorrect_answers
         st.session_state.incorrect_answers = []
+    print("Inicializando incorrect_answers en initialize_session")  # DEBUG
 
 def authentication_screen():
     """
@@ -98,12 +95,7 @@ def authentication_screen():
 
 def user_data_input():
     """
-    Screen for the user to enter their full name and ID. After submitting:
-    - Checks that they are not empty.
-    - Selects 120 random questions.
-    - Shuffles the options.
-    - Saves the exam start time.
-    - Reloads to advance to exam_screen().
+    Screen for user data input (name and ID).
     """
     st.header("User Data")
     with st.form("user_form"):
@@ -113,36 +105,27 @@ def user_data_input():
         submitted = st.form_submit_button("Start Exam")
         if submitted:
             if nombre.strip() and identificacion.strip():
-                # Guardar datos del usuario
                 st.session_state.user_data = {
                     "nombre": nombre.strip(),
                     "id": identificacion.strip()
                 }
                 st.success("Data registered. Preparing the exam...")
 
-                # Selección y mezcla de preguntas
                 selected = select_random_questions(total=120)
                 st.session_state.selected_questions = selected
                 for q in st.session_state.selected_questions:
                     q['opciones'] = shuffle_options(q)
 
-                # Inicializar answers *después* de seleccionar las preguntas
                 st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
-
-
-                # Registro del tiempo de inicio
                 st.session_state.start_time = time.time()
-
-                # Recargar la aplicación *después* de inicializar answers
                 st.rerun()
             else:
                 st.error("Please, complete all fields.")
 
 def display_marked_questions_sidebar():
-    """Displays the sidebar with the list of marked questions."""
+    """Displays the sidebar with marked questions."""
 
-    if st.session_state.marked:  # Only shows if there are marked questions
-      # Título de la barra lateral (HTML/CSS personalizado)
+    if st.session_state.marked:
       st.markdown("""
         <style>
         .title {
@@ -150,7 +133,7 @@ def display_marked_questions_sidebar():
           transform: rotate(180deg);
           position: absolute;
           top: 50%;
-          left: 0px; /* Ajusta según sea necesario */
+          left: 0px;
           transform-origin: center;
           white-space: nowrap;
           display: block;
@@ -158,48 +141,34 @@ def display_marked_questions_sidebar():
         }
         </style>
         """, unsafe_allow_html=True)
-      #st.sidebar.markdown("<div class='title'>Marked Questions</div>", unsafe_allow_html=True)
 
       for index in st.session_state.marked:
         question_number = index + 1
         col1, col2 = st.sidebar.columns([3, 1])
         with col1:
-            # Botón para navegar a la pregunta
             if st.button(f"Question {question_number}", key=f"goto_{index}"):
                 st.session_state.current_question_index = index
                 st.rerun()
         with col2:
-            #Botón para desmarcar pregunta
             if st.button("X",key=f"unmark_{index}"):
                 st.session_state.marked.remove(index)
                 st.rerun()
 
 def exam_screen():
     """
-    Main exam screen:
-    - Displays the user's name and ID.
-    - Calculates and displays the remaining time in minutes only.
-    - Presents the current question and its options.
-    - Includes navigation (Previous, Next, Mark) and exam finalization.
+    Main exam screen.
     """
-    # Logo de la empresa is in the background now
-
     st.markdown("<h1 style='font-size: 1.5rem;'>SPI Practice Exam - ARDMS</h1>", unsafe_allow_html=True)
 
-    # Datos del usuario
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
-    st.write(f"Name: **{nombre}**")
-    st.write(f"ID: **{identificacion}**")
+    st.write(f"Name: {nombre}")
+    st.write(f"ID: {identificacion}")
 
-    # Calcular el tiempo restante (en segundos) y formatearlo solo en minutos
     elapsed_time = time.time() - st.session_state.start_time
     remaining_time = config["time_limit_seconds"] - elapsed_time
-
-    # Convierte a minutos (número entero)
     minutes_remaining = int(remaining_time // 60)
 
-    # Mostrar el temporizador en la esquina superior derecha con solo minutos
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
@@ -209,35 +178,24 @@ def exam_screen():
         unsafe_allow_html=True
     )
 
-    # Mostrar advertencia si faltan 10 minutos (warning_time_seconds = 600)
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("The exam will end in 10 minutes!")
 
-    # Si el tiempo ya se agotó, finalizamos el examen
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
         finalize_exam()
         return
 
-    # Barra lateral de preguntas marcadas
     display_marked_questions_sidebar()
 
-    # Si el examen sigue en curso, mostramos la pregunta actual
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
         question = st.session_state.selected_questions[current_index]
-
-        # Mostrar la pregunta y sus opciones
         display_question(question, current_index + 1)
-
-        # Navegación
         display_navigation()
 
-
-        # Botón para finalizar el examen
         if st.button("Finish Exam"):
-            # Verificar si hay preguntas sin responder
             unanswered = [
                 i + 1 for i, q in enumerate(st.session_state.selected_questions)
                 if str(i) not in st.session_state.answers
@@ -251,28 +209,23 @@ def exam_screen():
 
 def finalize_exam():
     """
-    Marks the exam as finished and displays the results.
-    Generates a PDF (without including questions or answers).
+    Marks the exam as finished, displays results, and generates the PDF.
     """
     st.session_state.end_exam = True
-
-    # Calcular puntaje con la nueva lógica: 75% → 555, 100% → 700
     score = calculate_score()
 
-    # Determinar si aprueba o no
     if score >= config["passing_score"]:
         status = "Passed"
     else:
         status = "Not Passed"
 
     st.header("Exam Results")
-    st.write(f"Score Obtained: **{score}**")
-    st.write(f"Status: **{status}**")
+    st.write(f"Score Obtained: {score}")
+    st.write(f"Status: {status}")
 
-    # Mostrar las respuestas incorrectas en la barra lateral (para depurar)
-    st.sidebar.write(st.session_state.incorrect_answers)  # <-- LÍNEA AÑADIDA AQUÍ
+    print(f"Valor de incorrect_answers ANTES de mostrar en la barra lateral: {st.session_state.incorrect_answers}")  # DEBUG
+    st.sidebar.write(st.session_state.incorrect_answers) # Para depurar
 
-    # Generar PDF y permitir descarga
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
 
@@ -285,41 +238,10 @@ def finalize_exam():
         )
 
 def calculate_score():
-    """
-    Count correct answers. Then, we segment:
-    - 0% to 75% correct: line from 0 points to 555
-    - 75% to 100% correct: line from 555 to 700
-    """
-    questions = st.session_state.selected_questions
-    total_questions = len(questions)
-    if total_questions == 0:
-        return 0  # previene divisiones entre 0 si algo falla
-
-    # Contar cuántas respuestas correctas
-    correct_count = 0
-    for idx, question in enumerate(questions):
-        user_answer = st.session_state.answers.get(str(idx), None)
-        if user_answer and user_answer in question["respuesta_correcta"]:
-            correct_count += 1
-
-    # Fracción de aciertos (0.0 → 1.0)
-    x = correct_count / total_questions
-
-    # Por tramos:
-    # 0% → 0, 75% → 555, 100% → 700
-    if x <= 0:
-        final_score = 0
-    elif x <= 0.75:
-        # Sube de 0 a 555 linealmente
-        slope1 = 555 / 0.75  # 555 ÷ 0.75 = 740
-        final_score = slope1 * x
-    else:
-        # De 75% a 100%, sube de 555 a 700
-        slope2 = (700 - 555) / (1 - 0.75)  # 145 ÷ 0.25 = 580
-        final_score = slope2 * (x - 0.75) + 555
-
-    # Convertir a entero
-    return int(final_score)
+    #  (Esta función se define en utils/question_manager.py)
+    #  La hemos movido aquí temporalmente para facilitar la depuración.
+    #  Una vez resuelto el problema, se puede mover de vuelta.
+    pass # Se reemplaza por la version en utils, solo se incluye la firma
 
 def main_screen():
     """
@@ -329,12 +251,7 @@ def main_screen():
 
 def main():
     """
-    MAIN EXECUTION:
-    1. Initializes the state.
-    2. Authentication screen if there is no session.
-    3. If the user has not entered data, shows the form.
-    4. While the exam has not finished, presents exam_screen().
-    5. If it is finished, shows the results.
+    MAIN EXECUTION.
     """
     initialize_session()
 
