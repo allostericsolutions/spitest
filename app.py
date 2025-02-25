@@ -5,10 +5,11 @@ import os
 
 # Importamos nuestras utilerías y componentes
 from utils.auth import verify_password
-from utils.question_manager import select_random_questions, shuffle_options, calculate_score  # Importante: Añade calculate_score aquí
+from utils.question_manager import select_random_questions, shuffle_options, calculate_score
 from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
+from openai_utils.explanations import get_openai_explanation  # <-- Importa la función
 
 # Configuración de la página de Streamlit
 st.set_page_config(
@@ -75,9 +76,11 @@ def initialize_session():
         st.session_state.start_time = None
     if 'end_exam' not in st.session_state:
         st.session_state.end_exam = False
-    if 'incorrect_answers' not in st.session_state:  # Inicializa incorrect_answers
+    if 'incorrect_answers' not in st.session_state:
         st.session_state.incorrect_answers = []
-    print("Inicializando incorrect_answers en initialize_session")  # DEBUG
+    if 'explanations' not in st.session_state:  # <-- Añade esto
+        st.session_state.explanations = {}
+    # print("Inicializando incorrect_answers en initialize_session") # Ya no es necesario
 
 def authentication_screen():
     """
@@ -212,7 +215,7 @@ def finalize_exam():
     Marks the exam as finished, displays results, and generates the PDF.
     """
     st.session_state.end_exam = True
-    score = calculate_score()  # Llama a la función desde utils.question_manager
+    score = calculate_score()
 
     if score >= config["passing_score"]:
         status = "Passed"
@@ -223,8 +226,16 @@ def finalize_exam():
     st.write(f"Score Obtained: {score}")
     st.write(f"Status: {status}")
 
-    print(f"Valor de incorrect_answers ANTES de mostrar en la barra lateral: {st.session_state.incorrect_answers}")  # DEBUG
-    st.sidebar.write(st.session_state.incorrect_answers) # Para depurar
+    # --- INTEGRACIÓN CON OPENAI ---
+    explanations = get_openai_explanation(st.session_state.incorrect_answers)
+    st.session_state.explanations = explanations  # Guarda las explicaciones
+
+    # Mostrar las explicaciones en la barra lateral (para depurar)
+    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)  # Muestra las respuestas incorrectas
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations) # <-- Añade esto
+
+
+    # --- (Fin de la integración) ---
 
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
