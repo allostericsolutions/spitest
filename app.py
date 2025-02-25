@@ -5,7 +5,7 @@ import os
 
 # Importamos nuestras utilerías y componentes
 from utils.auth import verify_password
-from utils.question_manager import select_random_questions, shuffle_options
+from utils.question_manager import select_random_questions, shuffle_options, calculate_score  # Importante: Añade calculate_score aquí
 from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
@@ -212,7 +212,7 @@ def finalize_exam():
     Marks the exam as finished, displays results, and generates the PDF.
     """
     st.session_state.end_exam = True
-    score = calculate_score()
+    score = calculate_score()  # Llama a la función desde utils.question_manager
 
     if score >= config["passing_score"]:
         status = "Passed"
