@@ -1,7 +1,7 @@
+# Ubicación del archivo: components/question_display.py
+
 import streamlit as st
 import os
-import time  # Asegúrate de tener esta importación
-
 
 def display_question(question, question_num):
     """
@@ -10,6 +10,7 @@ def display_question(question, question_num):
     st.subheader(f"Question {question_num}:")
     st.write(question['enunciado'])
 
+    # Mostrar imagen si existe
     if question['image']:
         image_path = os.path.join("assets", "images", question['image'])
         try:
@@ -17,15 +18,25 @@ def display_question(question, question_num):
         except FileNotFoundError:
             st.error(f"Image not found: {image_path}")
 
-    # --- Solución definitiva (usando index=None) ---
-    dynamic_key = f"respuesta_{question_num}_{st.session_state.current_question_index}_{time.time()}"
+    # Recuperar la respuesta ya seleccionada, si existe
+    existing_answer = st.session_state.answers.get(str(question_num - 1), None)
+
+    # Si existe una respuesta previa, hallamos su índice en la lista de opciones.
+    # De lo contrario, None para que no haya preselección.
+    if existing_answer is not None and existing_answer in question['opciones']:
+        selected_index = question['opciones'].index(existing_answer)
+    else:
+        selected_index = None
+
+    # Usar una clave "estable" (sin time.time()).
+    stable_key = f"respuesta_{question_num}"
 
     selected = st.radio(
         "Select an answer:",
         options=question['opciones'],
-        key=dynamic_key,  # Usar la clave dinámica
-        index=None  # <-- ¡CRUCIAL! Forzar a que no haya preselección
+        index=selected_index,  # None cuando no haya respuesta previa
+        key=stable_key
     )
-    # --- Fin del cambio ---
 
+    # Almacenar la elección en session_state para su persistencia
     st.session_state.answers[str(question_num - 1)] = selected
