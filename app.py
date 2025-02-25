@@ -79,6 +79,8 @@ def initialize_session():
         st.session_state.start_time = None
     if 'end_exam' not in st.session_state:
         st.session_state.end_exam = False
+    if 'incorrect_answers' not in st.session_state:  # Añade esta línea
+        st.session_state.incorrect_answers = []
 
 def authentication_screen():
     """
