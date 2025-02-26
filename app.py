@@ -210,11 +210,11 @@ def display_marked_questions_sidebar():
             question_number = index + 1
             col1, col2 = st.sidebar.columns([3, 1])
             with col1:
-                if st.button(f"Question ", key=f"goto_"):
+                if st.button(f"Question ", key=f"goto_{index}"): # <-- Clave única
                     st.session_state.current_question_index = index
                     st.rerun()
             with col2:
-                if st.button("X", key=f"unmark_"):
+                if st.button("X", key=f"unmark_{index}"): # <-- Clave única
                     st.session_state.marked.remove(index)
                     st.rerun()
 
