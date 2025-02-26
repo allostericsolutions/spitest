@@ -10454,9 +10454,9 @@
         "enunciado": "What is the duty factor of CW Doppler?",
         "image": "",
         "opciones": [
-            "1",
-            "100",
-            "0.01",
+            "1 M",
+            "100%",
+            "0.55 mm",
             "1%"
         ],
         "respuesta_correcta": [
