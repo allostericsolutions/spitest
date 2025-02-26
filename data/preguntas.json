@@ -7411,16 +7411,16 @@
         "clasificacion": "Safety and Risk Management and new tec",
         "grupo": "1-21",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which virus is not commonly encountered by healthcare workers?",
+        "enunciado": "Which of the following viruses is commonly transmitted in healthcare settings?",
         "image": "",
         "opciones": [
             "Hepatitis B",
             "Hepatitis C",
-            "Methicillin-resistant Staphylococcus aureus",
+            "Ebola",
             "Hepatitis A"
         ],
         "respuesta_correcta": [
-            "Hepatitis A"
+            "Hepatitis B"
         ]
     },
     {
