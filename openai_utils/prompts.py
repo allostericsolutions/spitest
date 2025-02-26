@@ -8,6 +8,9 @@ Respuesta correcta: {respuesta_correcta} # explicar el concepto.
 ejemplo:
 
 Explicación:
+Pregunta: Solo exponer el concepto, no la pregunta completa
+Respuesta correcta:  {respuesta_correcta}
+
 """
 
 # Podrías tener más prompts aquí en el futuro, si fuera necesario, por ejemplo:
