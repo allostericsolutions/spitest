@@ -7,7 +7,7 @@ Pregunta: {pregunta} # solo poner el concepto.
 Respuesta correcta: {respuesta_correcta} # explicar el concepto. 
 ejemplo:
 
-Explicación: #usar términos como recuerda que, es importante que sepas, etc, muy variado. Cálido. Breve
+Explicación: #usar términos amables para las explicaciones, personales. Sé muy breve. 
 Pregunta: Solo exponer el concepto, no la pregunta completa
 Respuesta correcta:  {respuesta_correcta}
 
