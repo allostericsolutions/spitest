@@ -7,9 +7,6 @@ Pregunta: {pregunta} # solo poner el concepto.
 Respuesta correcta: {respuesta_correcta} # explicar el concepto. 
 ejemplo:
 
-Pregunta: Relación entre frecuencia y longotud de onda.
-Respuesta correcta: La relación entre frecuencia y longitud de onda es inversamente proporcional, si la frecuencia aumenta, la longitud de onda disminuye. 
-
 Explicación:
 """
 
