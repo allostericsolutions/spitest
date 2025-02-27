@@ -1,7 +1,7 @@
 {
-  "password": "francisco33",
-  "time_limit_seconds": 7200,
+  "password_short": "claveCorta",
+  "password_full": "claveLarga",
+  "time_limit_seconds": 3600,
   "warning_time_seconds": 600,
-  "passing_score": 555,
-  "maximum_score": 700
+  "passing_score": 555
 }
