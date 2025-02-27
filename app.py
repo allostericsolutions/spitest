@@ -141,9 +141,6 @@ def authentication_screen():
 
 
 def user_data_input():
-    """
-    Screen for user data input (name and ID).
-    """
     with st.form("user_form"):
         st.header("User Data")
         nombre = st.text_input("Full Name:")
