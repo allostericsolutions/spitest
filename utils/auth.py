@@ -12,10 +12,10 @@ def verify_password(input_password):
     """
     config = load_config()
 
-    if input_password == config.get("password_short", ""):
+    if input_password == config.get("Echosonomovil", ""):
         st.session_state["exam_type"] = "short"
         return True
-    elif input_password == config.get("password_full", ""):
+    elif input_password == config.get("francisco33", ""):
         st.session_state["exam_type"] = "full"
         return True
     else:
