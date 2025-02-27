@@ -33,8 +33,8 @@ st.markdown(
     body {
         background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
         background-repeat: no-repeat;
-        background-size: contain; /*  'contain' asegura que la imagen se vea completa */
-        background-position: center top; /* Centrada horizontalmente, arriba verticalmente */
+        background-size: contain;
+        background-position: center top;
         background-attachment: fixed; /* Imagen fija */
     }
 
@@ -77,14 +77,13 @@ st.markdown(
 
     /* Contenedor para la imagen (con altura máxima) */
     .image-container {
-        max-height: 300px; /* Ajusta este valor según el tamaño máximo de tus imágenes */
-        overflow: hidden; /* Oculta cualquier parte de la imagen que exceda la altura máxima */
+        max-height: 300px;
+        overflow: hidden;
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 def load_config():
     """
@@ -93,9 +92,7 @@ def load_config():
     with open('data/config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
-
 config = load_config()
-
 
 def initialize_session():
     """
@@ -110,7 +107,7 @@ def initialize_session():
     if 'current_question_index' not in st.session_state:
         st.session_state.current_question_index = 0
     if 'answers' not in st.session_state:
-        st.session_state.answers = {}  # Inicialmente vacío
+        st.session_state.answers = {}
     if 'marked' not in st.session_state:
         st.session_state.marked = set()
     if 'start_time' not in st.session_state:
@@ -122,13 +119,11 @@ def initialize_session():
     if 'explanations' not in st.session_state:
         st.session_state.explanations = {}
 
-
-
 def authentication_screen():
     """
     Authentication screen: prompts the user for the password.
     """
-    with st.container():  # Usamos un contenedor
+    with st.container():
         st.title("Authentication")
         password = st.text_input("Enter the password to access the exam:", type="password")
         if st.button("Enter"):
@@ -139,8 +134,10 @@ def authentication_screen():
             else:
                 st.error("Incorrect password.")
 
-
 def user_data_input():
+    """
+    Screen for user data input (name and ID).
+    """
     with st.form("user_form"):
         st.header("User Data")
         nombre = st.text_input("Full Name:")
@@ -155,7 +152,16 @@ def user_data_input():
                 }
                 st.success("Data registered. Preparing the exam...")
 
-                selected = select_random_questions(total=120)
+                # ───────────────────────────────────────────────
+                # BLOQUE IMPORTANTE: SELECCIÓN DE MODO DE EXAMEN
+                # ───────────────────────────────────────────────
+                exam_type = st.session_state.get("exam_type", "full")
+                if exam_type == "short":
+                    selected = select_random_questions(total=20)
+                else:
+                    selected = select_random_questions(total=120)
+                # ───────────────────────────────────────────────
+
                 st.session_state.selected_questions = selected
                 for q in st.session_state.selected_questions:
                     q['opciones'] = shuffle_options(q)
@@ -166,10 +172,8 @@ def user_data_input():
             else:
                 st.error("Please, complete all fields.")
 
-
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
-
     if st.session_state.marked:
         st.markdown("""
       <style>
@@ -199,20 +203,18 @@ def display_marked_questions_sidebar():
                     st.session_state.marked.remove(index)
                     st.rerun()
 
-
 def exam_screen():
     """
     Main exam screen.
     """
-    # --- Alineación de Nombre/ID y Tiempo Restante ---
     nombre = st.session_state.user_data.get('nombre', '')
     identificacion = st.session_state.user_data.get('id', '')
 
-    col_nombre_id, col_tiempo = st.columns([1, 1])  # Dos columnas de igual ancho
+    col_nombre_id, col_tiempo = st.columns([1, 1])
 
     with col_nombre_id:
-        st.text_input("Name", value=nombre, disabled=True)  # Usar st.text_input deshabilitado
-        st.text_input("ID", value=identificacion, disabled=True)  # Usar st.text_input deshabilitado
+        st.text_input("Name", value=nombre, disabled=True)
+        st.text_input("ID", value=identificacion, disabled=True)
 
     with col_tiempo:
         elapsed_time = time.time() - st.session_state.start_time
@@ -257,7 +259,6 @@ def exam_screen():
             else:
                 finalize_exam()
 
-
 def finalize_exam():
     """
     Marks the exam as finished, displays results, and generates the PDF.
@@ -282,8 +283,6 @@ def finalize_exam():
     st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
     st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
-    # --- (Fin de la integración) ---
-
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
 
@@ -295,13 +294,11 @@ def finalize_exam():
             mime="application/pdf"
         )
 
-
 def main_screen():
     """
     Screen that calls exam_screen() if the exam has not finished.
     """
     exam_screen()
-
 
 def main():
     """
@@ -317,7 +314,6 @@ def main():
         main_screen()
     else:
         finalize_exam()
-
 
 if __name__ == "__main__":
     main()
