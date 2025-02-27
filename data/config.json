@@ -1,7 +1,7 @@
 {
   "password_short": "prueba",
   "password_full": "francisco",
-  "time_limit_seconds": 7600,
+  "time_limit_seconds": 7200,
   "warning_time_seconds": 600,
   "passing_score": 555
 }
