@@ -1,118 +1,113 @@
-# utils/pdf_generator.py
 import os
 import textwrap
 import streamlit as st
 from datetime import datetime
 from fpdf import FPDF
 
+def to_latin1(s: str) -> str:
+    """
+    Reemplaza caracteres fuera de rango Latin-1
+    por '?' para evitar UnicodeEncodeError.
+    """
+    return s.encode("latin-1", errors="replace").decode("latin-1")
+
 class CustomPDF(FPDF):
     def __init__(self):
         super().__init__()
-        # Permite usar {nb} en el footer para total de páginas
+        # Para usar {nb} en footer (total de páginas)
         self.alias_nb_pages()
 
     def header(self):
         """
-        Desactivado el sello/marca de agua. 
-        Descomentar si se desea en el futuro.
+        Header desactivado (sello de agua comentado).
         """
         pass
 
     def footer(self):
         """
-        Pie de página: número de página y fecha/hora.
+        Pie de página con número de página y fecha/hora.
         """
         self.set_y(-15)
         self.set_font("Arial", 'I', 8)
+        # Número de página
         page_text = f"Page {self.page_no()}/{{nb}}"
+        page_text = to_latin1(page_text)  # convertir a latin1
         self.cell(0, 5, page_text, align='C')
 
+        # Debajo, fecha/hora
         self.set_y(-10)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = to_latin1(timestamp)
         self.cell(0, 5, f"Generated on: {timestamp}", align='C')
 
-def _draw_classification_row(pdf, classification, percent, col_width_class=120, col_width_percent=50, line_height=6):
+def _draw_classification_row(pdf: CustomPDF, classification: str, percent: float,
+                             col_width_class: int = 120, col_width_percent: int = 50,
+                             line_height: int = 6):
     """
-    Imprime una fila con:
-      - La clasificación (con posible salto de línea si es larga)
-      - El porcentaje, todo en la misma 'fila' con bordes.
-    
-    Se consigue calculando las líneas que ocupa la clasificación (wrap), 
-    y usando esa altura para ambas celdas de la fila.
+    Imprime la clasificación y el porcentaje en la misma fila,
+    partiendo en varias líneas si la clasificación es larga.
     """
-    # Usamos textwrap para partir el texto en líneas cortas (aprox 40-45 chars).
-    wrapped_lines = textwrap.wrap(classification, width=45) 
-    # (Ajusta 'width=45' según tu gusto y el col_width_class.)
-    
-    # Calculamos cuántas líneas resultado hay
+    classification = to_latin1(classification)  # convertimos a latin1
+    import textwrap
+    wrapped_lines = textwrap.wrap(classification, width=45)
     num_lines = max(1, len(wrapped_lines))
-    # Altura total de la celda
     total_height = num_lines * line_height
-    
-    # Guardamos la posición actual (X, Y) para reencuadrar.
+
     x_start = pdf.get_x()
     y_start = pdf.get_y()
-    
-    # CELDA DE CLASIFICACIÓN (multilínea simulada)
-    # Ponemos borde SOLO a la izquierda y arriba/abajo, iremos línea por línea.
-    pdf.set_font("Arial", '', 12)
-    
+
+    # Parte de clasificación (multilínea)
     for i, txt in enumerate(wrapped_lines):
-        # Para la primera línea, dibujamos full border top-left-right (si deseas),
-        # pero para simplificar, usaremos border=”LR” en cada línea, 
-        # y en la última usamos border=”LRB” (para el borde inferior).
+        # Convertimos cada línea a latin1 por seguridad
+        txt = to_latin1(txt)
+
         if i == 0:
-            # Primera línea
-            border_mode = "LTR" if num_lines == 1 else "LR"
+            if num_lines == 1:
+                border_mode = "LRB"
+            else:
+                border_mode = "LTR"
         elif i == num_lines - 1:
-            # Última línea
             border_mode = "LRB"
         else:
-            # Líneas intermedias
             border_mode = "LR"
 
-        # Imprimimos la línea
         pdf.cell(col_width_class, line_height, txt, border=border_mode, ln=1, align='L')
-
-        # Movemos X al inicio, 
         pdf.set_x(x_start)
 
-    # Volvemos al tope de la fila para colocar el porcentaje
-    # pero la X se corre a la derecha de la primera columna.
+    # Celda para el porcentaje
     pdf.set_xy(x_start + col_width_class, y_start)
+    s_percent = f"{percent:.2f}%"
+    s_percent = to_latin1(s_percent)
 
-    # CELDA DE PORCENTAJE
-    # Tiene la altura total igual a total_height. 
-    # Si solo queremos 1 línea, la centramos verticalmente 
-    # (aquí haremos una approach simple: top alignment).
-    border_percent = "LTRB"  # Borde completo en una sola celda
-    pdf.cell(col_width_percent, total_height, f"{percent:.2f}%", border=border_percent, ln=1, align='R')
-
-    # Aseguramos que la siguiente escritura sea debajo de la fila
+    border_percent = "LTRB"
+    pdf.cell(col_width_percent, total_height, s_percent, border=border_percent, ln=1, align='R')
     pdf.set_y(y_start + total_height)
 
 def generate_pdf(user_data, score, status, photo_path=None):
     """
-    Genera un PDF con:
-    - Nombre y email del usuario
-    - Score obtenido
-    - Estado (Passed / Not Passed)
-    - Tabla de clasificaciones (con wrap de texto en la col de clasificación)
-    - "Concept to Study" enumerado (sin duplicar la frase)
-    - Footer con # de pag y fecha/hora
+    Genera el PDF con:
+    - Nombre y email
+    - Score, Status
+    - Tabla de clasificaciones (con wrap)
+    - Sección "Explanations & Feedback" enumerada
+    - Pie con pág # y fecha/hora
+    - Sin sello de agua
     """
     pdf = CustomPDF()
     pdf.add_page()
 
-    # Título
+    # Título principal
     pdf.set_font("Arial", 'B', 16)
-    pdf.cell(0, 10, "SPI - ARDMS Exam Result", ln=True, align='C')
+    main_title = to_latin1("SPI - ARDMS Exam Result")
+    pdf.cell(0, 10, main_title, ln=True, align='C')
     pdf.ln(10)
 
-    # Datos del usuario
+    # Datos de usuario
     pdf.set_font("Arial", '', 12)
-    pdf.cell(0, 10, f"Name: {user_data.get('nombre', '')}", ln=True)
-    pdf.cell(0, 10, f"Email: {user_data.get('email', '')}", ln=True)
+    name_str = f"Name: {user_data.get('nombre', '')}"
+    email_str = f"Email: {user_data.get('email', '')}"
+    pdf.cell(0, 10, to_latin1(name_str), ln=True)
+    pdf.cell(0, 10, to_latin1(email_str), ln=True)
 
     # Foto opcional
     if photo_path and os.path.exists(photo_path):
@@ -121,67 +116,57 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     pdf.ln(5)
 
-    # Score + Status
+    # Score y Status
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, f"Score: {score}", ln=True)
-    pdf.cell(0, 10, f"Status: {status}", ln=True)
+    pdf.cell(0, 10, to_latin1(f"Score: {score}"), ln=True)
+    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)
     pdf.ln(5)
 
-    # Desglose por clasificación
+    # Desglose por clasificación (tabla)
     classification_stats = st.session_state.get("classification_stats", None)
     if classification_stats:
         pdf.set_font("Arial", 'B', 12)
-        pdf.cell(0, 10, "Detailed Breakdown by Topic", ln=True)
-        
-        # Cabecera de la tabla
-        pdf.cell(120, 8, "Classification", border=1, ln=0, align='C')
-        pdf.cell(50, 8, "Percent (%)", border=1, ln=1, align='C')
+        pdf.cell(0, 10, to_latin1("Detailed Breakdown by Topic"), ln=True)
 
-        # Filas
+        # Cabeceras de tabla
+        pdf.cell(120, 8, to_latin1("Classification"), border=1, ln=0, align='C')
+        pdf.cell(50, 8, to_latin1("Percent (%)"), border=1, ln=1, align='C')
+
+        pdf.set_font("Arial", '', 12)
         for clasif, stats in classification_stats.items():
             total = stats.get("total", 0)
             correct = stats.get("correct", 0)
-            percent = (correct / total)*100 if total > 0 else 0.0
-
-            _draw_classification_row(pdf, clasif, percent, col_width_class=120, col_width_percent=50, line_height=6)
+            percent = (correct/total)*100 if total > 0 else 0.0
+            _draw_classification_row(pdf, clasif, percent)
 
         pdf.ln(5)
 
-    # Explanations ("Concept to Study")
+    # Explanations & Feedback
     explanations = st.session_state.get("explanations", None)
     if explanations:
         pdf.set_font("Arial", 'B', 12)
-        pdf.cell(0, 10, "Explanations & Feedback", ln=True)
+        pdf.cell(0, 10, to_latin1("Explanations & Feedback"), ln=True)
         pdf.set_font("Arial", '', 11)
 
-        # Para evitar duplicar "Concept to Study", 
-        # iremos enumerando con "3. Concept to Study: Bistable"
         for q_idx, exp_text in explanations.items():
-            # Indice de la "pregunta"
+            # Numeración
             if str(q_idx).isdigit():
-                concept_num = int(q_idx) + 1
+                concept_number = int(q_idx) + 1
             else:
-                concept_num = q_idx  # Por si acaso
+                concept_number = q_idx
 
-            # Reemplazamos la posibilidad de que el texto YA incluya "Concept to Study:" 
-            # (opcional, si deseas)
-            # exp_text = exp_text.replace("Concept to Study:", "").strip()
+            # Ej: "3. Concept to Study: Bistable..."
+            line_text = f"{concept_number}. {exp_text}"
+            line_text = to_latin1(line_text)
 
-            # Ahora imprimimos "3. " + el texto
-            # Ej: "3. Concept to Study: Bistable" 
-            # Queda en una sola línea junto al contenido de exp_text
-            full_text = f"{concept_num}. {exp_text}"
-
-            pdf.multi_cell(0, 6, full_text)
+            pdf.multi_cell(0, 6, line_text)
             pdf.ln(4)
 
-    # Carpeta results
-    if not os.path.exists('results'):
-        os.makedirs('results')
-
     # Guardar PDF
-    filename = f"{user_data.get('email', 'unknown')}_result.pdf"
-    filepath = os.path.join("results", filename)
-    pdf.output(filepath)
+    if not os.path.exists("results"):
+        os.makedirs("results")
 
-    return filepath
+    file_name = f"{user_data.get('email', 'unknown')}_result.pdf"
+    path = os.path.join("results", file_name)
+    pdf.output(path)
+    return path
