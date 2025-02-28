@@ -282,8 +282,8 @@ def finalize_exam():
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
-    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
+    st.sidebar.write("Wrong answers:", st.session_state.incorrect_answers)
+    st.sidebar.write("Answer Rationale:", st.session_state.explanations)
 
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
