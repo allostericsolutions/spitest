@@ -71,8 +71,8 @@ st.markdown(
     }
 
     .options-container {
-        max-height: 200px; /* Ajusta este valor según tus necesidades */
-        overflow-y: auto;  /* Scroll vertical solo para las opciones */
+         /* max-height: 200px; /* Ajusta este valor según tus necesidades */
+         /* overflow-y: auto;  /* Scroll vertical solo para las opciones */
     }
 
     /* Contenedor para la imagen (con altura máxima) */
