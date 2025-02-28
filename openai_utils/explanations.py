@@ -52,9 +52,9 @@ def get_openai_explanation(incorrect_answers):
                     {"role": "system", "content": "You are a helpful assistant."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
+                temperature=0.1,
                 max_tokens=16000,
-                top_p=1.0,
+                top_p=0.1,
                 frequency_penalty=0.0,
                 presence_penalty=0.0,
 
