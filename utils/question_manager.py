@@ -65,21 +65,35 @@ def shuffle_options(question):
 def calculate_score():
     """
     Calculates the exam score and stores incorrect answers.
+    Also calculates a classification-wise count of correct answers.
     """
     questions = st.session_state.selected_questions
     total_questions = len(questions)
     if total_questions == 0:
         return 0
 
-    # st.session_state.incorrect_answers = [] # YA NO ES NECESARIO AQUI, se inicializa en initialize_session
     correct_count = 0
 
+    # ──────────────────────────────────────────────────────────────────
+    # NUEVA SECCIÓN: Contadores de aciertos por clasificación
+    # ──────────────────────────────────────────────────────────────────
+    classification_stats = {}
+
     for idx, question in enumerate(questions):
+        # Inicializar conteo para la clasificación de la pregunta
+        clasif = question.get("clasificacion", "Other")
+        if clasif not in classification_stats:
+            classification_stats[clasif] = {"correct": 0, "total": 0}
+        classification_stats[clasif]["total"] += 1
+        # ──────────────────────────────────────────────────────────────
+
         user_answer = st.session_state.answers.get(str(idx), None)
         print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
 
-        if user_answer is not None and user_answer in question["respuesta_correcta"]:  # Comprobación más precisa
+        if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
+            # Si es correcta, incrementamos el contador de aciertos para esta clasificación
+            classification_stats[clasif]["correct"] += 1
         elif user_answer is not None:  # Solo registra si el usuario *respondió*
             incorrect_info = {
                 "pregunta": {
@@ -97,6 +111,9 @@ def calculate_score():
     print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
     print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}") # DEBUG
 
+    # Guardar la estadística de clasificaciones en session_state (para usar en finalize_exam)
+    st.session_state.classification_stats = classification_stats
+
     x = correct_count / total_questions
     if x <= 0:
         final_score = 0
@@ -106,4 +123,5 @@ def calculate_score():
     else:
         slope2 = (700 - 555) / (1 - 0.75)
         final_score = slope2 * (x - 0.75) + 555
+
     return int(final_score)
