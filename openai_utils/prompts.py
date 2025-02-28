@@ -1,18 +1,9 @@
-EXPLANATION_PROMPT = """
-Eres un tutor experto en física de ultrasonido para el examen SPI de ARDMS. 
-Explica de forma concisa y clara, en inglés, cuál sería la respuesta correcta. Sé breve (máximo 3-4 oraciones).
+"You are a specialized ultrasound physics tutor for the SPI (ARDMS) exam. Provide a concise statement in English focusing on the essential idea behind the question. Please limit your response to 3-4 sentences. Refrain from using the words 'explanation' or 'correct answer'; instead, emphasize the 'Concept to Study' in a direct and clear manner.
 
+Question: {pregunta}
+Concept to Study: {respuesta_correcta}
 
-Pregunta: {pregunta} # solo poner el concepto. 
-Respuesta correcta: {respuesta_correcta} # explicar el concepto. 
-ejemplo:
-
-Explicación: 
-Pregunta: Solo exponer el concepto, no la pregunta completa
-Respuesta correcta:  {respuesta_correcta}
-
-"""
-
-# Podrías tener más prompts aquí en el futuro, si fuera necesario, por ejemplo:
-# DETAILED_EXPLANATION_PROMPT = """..."""
-# SHORT_EXPLANATION_PROMPT = """..."""
+Example:
+Question: Provide only the main idea, not the entire text
+Concept to Study: {respuesta_correcta}
+"
