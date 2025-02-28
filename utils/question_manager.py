@@ -73,7 +73,6 @@ def calculate_score():
         return 0
 
     correct_count = 0
-
     # ──────────────────────────────────────────────────────────────────
     # NUEVA SECCIÓN: Contadores de aciertos por clasificación
     # ──────────────────────────────────────────────────────────────────
@@ -85,7 +84,6 @@ def calculate_score():
         if clasif not in classification_stats:
             classification_stats[clasif] = {"correct": 0, "total": 0}
         classification_stats[clasif]["total"] += 1
-        # ──────────────────────────────────────────────────────────────
 
         user_answer = st.session_state.answers.get(str(idx), None)
         print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
@@ -125,3 +123,25 @@ def calculate_score():
         final_score = slope2 * (x - 0.75) + 555
 
     return int(final_score)
+
+# ------------------------------------------
+# Nuevas funciones para el examen corto
+# ------------------------------------------
+def load_short_questions():
+    """
+    Loads all questions from 'data/preguntas_corto.json'.
+    """
+    with open('data/preguntas_corto.json', 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def select_short_questions(total=20):
+    """
+    Selects 'total' questions randomly from the short exam questions file.
+    Since this is for the free/demo version, no distribution by classification is applied.
+    """
+    questions = load_short_questions()
+    if total > len(questions):
+        total = len(questions)
+    selected_questions = random.sample(questions, total)
+    random.shuffle(selected_questions)
+    return selected_questions
