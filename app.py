@@ -1,5 +1,3 @@
-
-# app.py
 import streamlit as st
 import json
 import time
@@ -72,8 +70,10 @@ st.markdown(
     }
 
     .options-container {
-         /* max-height: 200px; /* Ajusta este valor según tus necesidades */
-         /* overflow-y: auto;  /* Scroll vertical solo para las opciones */
+        /*
+        max-height: 200px;  Ajusta este valor según tus necesidades
+        overflow-y: auto;   Scroll vertical solo para las opciones
+        */
     }
 
     /* Contenedor para la imagen (con altura máxima) */
@@ -277,13 +277,25 @@ def finalize_exam():
     st.write(f"Score Obtained: {score}")
     st.write(f"Status: {status}")
 
+    # ──────────────────────────────────────────────────────────
+    # NUEVO BLOQUE: Mostrar desglose por clasificación
+    # ──────────────────────────────────────────────────────────
+    if "classification_stats" in st.session_state:
+        st.sidebar.subheader("Detailed Breakdown by Topic")
+        for clasif, stats in st.session_state.classification_stats.items():
+            if stats["total"] > 0:
+                percent = (stats["correct"] / stats["total"]) * 100
+            else:
+                percent = 0.0
+            st.sidebar.write(f"{clasif}: {percent:.2f}%")
+
     # --- INTEGRACIÓN CON OPENAI ---
     explanations = get_openai_explanation(st.session_state.incorrect_answers)
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-    st.sidebar.write("Wrong answers:", st.session_state.incorrect_answers)
-    st.sidebar.write("Answer Rationale:", st.session_state.explanations)
+    st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
+    st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
