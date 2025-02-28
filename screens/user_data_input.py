@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from utils.question_manager import select_random_questions, shuffle_options
+from utils.question_manager import select_random_questions, select_short_questions, shuffle_options
 
 def user_data_input():
     """
@@ -25,7 +25,7 @@ def user_data_input():
                 # ───────────────────────────────────────────────
                 exam_type = st.session_state.get("exam_type", "full")
                 if exam_type == "short":
-                    selected = select_random_questions(total=20)
+                    selected = select_short_questions(total=20)
                 else:
                     selected = select_random_questions(total=120)
 
