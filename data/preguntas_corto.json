@@ -1,1 +1,450 @@
-
+[
+    {
+        "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
+        "grupo": "2-14",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
+        "image": "",
+        "opciones": [
+            "Using a lens",
+            "By the transducer's physical shape",
+            "Electronically",
+            "Through acoustic matching"
+        ],
+        "respuesta_correcta": [
+            "Using a lens"
+        ]
+    },
+    {
+        "clasificacion": "Wave Properties and Interactions with matter",
+        "grupo": "4-16",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When sound travels through a significant amount of water before hitting a reflector, the reflector appears:",
+        "image": "",
+        "opciones": [
+            "Closer than actual",
+            "Fainter than actual",
+            "Harder than actual",
+            "Too far away"
+        ],
+        "respuesta_correcta": [
+            "Too far away"
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "6-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
+        "image": "",
+        "opciones": [
+            "1°C",
+            "3°C",
+            "5°C",
+            "2°C"
+        ],
+        "respuesta_correcta": [
+            "2°C"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "grupo": "7-20",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If two sound beams with different frequencies travel through soft tissue, which travels faster?",
+        "image": "",
+        "opciones": [
+            "Lower frequency beam",
+            "Higher frequency beam",
+            "Both will travel at the same speed",
+            "It depends on attenuation"
+        ],
+        "respuesta_correcta": [
+            "Both will travel at the same speed"
+        ]
+    },
+    {
+        "clasificacion": "Image Display, Processing, and Artifacts",
+        "grupo": "9-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A display limited to only black and white without shades of gray is known as:",
+        "image": "",
+        "opciones": [
+            "Grayscale",
+            "Color scale",
+            "Bistable",
+            "Multistable"
+        ],
+        "respuesta_correcta": [
+            "Bistable"
+        ]
+    },
+    {
+        "clasificacion": "Patient care and new technology",
+        "grupo": "12-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the term for the smallest unit of digital storage?",
+        "image": "",
+        "opciones": [
+            "The bit",
+            "The byte",
+            "The nibble",
+            "The word"
+        ],
+        "respuesta_correcta": [
+            "The bit"
+        ]
+    },
+    {
+        "clasificacion": "Wave Properties and Interactions with matter",
+        "grupo": "4-17",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the Fresnel zone,",
+        "image": "",
+        "opciones": [
+            "The beam area decreases with distance from the transducer",
+            "The beam area increases with distance",
+            "The beam remains collimated",
+            "The attenuation is minimal"
+        ],
+        "respuesta_correcta": [
+            "The beam area decreases with distance from the transducer"
+        ]
+    },
+    {
+        "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
+        "grupo": "2-15",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
+        "image": "",
+        "opciones": [
+            "Digital",
+            "Analog",
+            "Binary",
+            "Pulsed"
+        ],
+        "respuesta_correcta": [
+            "Analog"
+        ]
+    },
+    {
+        "clasificacion": "Doppler Physics and Instrumentation",
+        "grupo": "3-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement about color Doppler is accurate?",
+        "image": "",
+        "opciones": [
+            "It displays only upflow",
+            "Each pixel can either be grayscale or color",
+            "It has no color hues",
+            "It shows flow direction with depth only"
+        ],
+        "respuesta_correcta": [
+            "Each pixel can either be grayscale or color"
+        ]
+    },
+    {
+        "clasificacion": "Image Display, Processing, and Artifacts",
+        "grupo": "9-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which method maintains pixel density when enlarging an image?",
+        "image": "",
+        "opciones": [
+            "Linear magnification",
+            "Nearest neighbor scaling",
+            "Area magnification",
+            "Write magnification"
+        ],
+        "respuesta_correcta": [
+            "Write magnification"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
+        "grupo": "1-18",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How are amplitude and frequency related?",
+        "image": "",
+        "opciones": [
+            "Direct",
+            "Inverse",
+            "No relation",
+            "Quadratic"
+        ],
+        "respuesta_correcta": [
+            "No relation"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
+        "grupo": "1-19",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the relationship between spatial pulse length and pulse duration?",
+        "image": "",
+        "opciones": [
+            "They are inversely related",
+            "Directly related",
+            "Not related",
+            "Dependent on frequency"
+        ],
+        "respuesta_correcta": [
+            "Directly related"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "grupo": "7-21",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement about axial resolution is true?",
+        "image": "",
+        "opciones": [
+            "It varies with depth",
+            "It is always worse than lateral resolution",
+            "It does not vary with depth",
+            "It depends only on frequency"
+        ],
+        "respuesta_correcta": [
+            "It does not vary with depth"
+        ]
+    },
+    {
+        "clasificacion": "Hemodynamics and Doppler Principles",
+        "grupo": "10-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
+        "image": "",
+        "opciones": [
+            "Resistance decreases",
+            "Flow rate increases",
+            "Viscosity increases",
+            "Flow rate decreases"
+        ],
+        "respuesta_correcta": [
+            "Flow rate increases"
+        ]
+    },
+    {
+        "clasificacion": "Hemodynamics and Doppler Principles",
+        "grupo": "10-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which law relates flow to pressure differential, viscosity, and length?",
+        "image": "",
+        "opciones": [
+            "Newton's law",
+            "Poiseuille's law",
+            "Bernoulli's principle",
+            "Snell's law"
+        ],
+        "respuesta_correcta": [
+            "Poiseuille's law"
+        ]
+    },
+    {
+        "clasificacion": "Hemodynamics and Doppler Principles",
+        "grupo": "10-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most common type of flow in the body?",
+        "image": "",
+        "opciones": [
+            "Turbulent",
+            "Transitional",
+            "Laminar",
+            "Vortex"
+        ],
+        "respuesta_correcta": [
+            "Laminar"
+        ]
+    },
+    {
+        "clasificacion": "Transducers, Resolution, and Image Formation.",
+        "grupo": "5-78",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
+        "image": "",
+        "opciones": [
+            "Endocavitary transducer",
+            "Linear sequenced array transducer",
+            "Convex transducer",
+            "Continuous-wave transducer"
+        ],
+        "respuesta_correcta": [
+            "Convex transducer"
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "3-66",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Sonographers best practice while scanning is to avoid abducting the arm more than how many degrees?",
+        "image": "",
+        "opciones": [
+            "50",
+            "90",
+            "30",
+            "40"
+        ],
+        "respuesta_correcta": [
+            "30"
+        ]
+    },
+    {
+        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "4-34",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "The exposure time should be extended during the exam.",
+            "Use the lowest possible output power that provides a diagnostic image.",
+            "Use the lowest possible gain.",
+            "Ensure that the time gain compensation (TGC) is within acceptable limits."
+        ],
+        "respuesta_correcta": [
+            "Use the lowest possible output power that provides a diagnostic image."
+        ]
+    },
+    {
+       "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "5-45",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This type of cavitation is the MOST concerning cause of bioeffects:",
+        "image": "",
+        "opciones": [
+            "Transient",
+            "Absorption",
+            "Stable",
+            "Thermal"
+        ],
+        "respuesta_correcta": [
+            "Transient"
+        ]
+    },
+    {
+        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "grupo": "6-45",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Assuming an unfocused ultrasound beam, the American Institute of Ultrasound in Medicine's \"Statement on Mammalian Biological Effects of Ultrasound In Vivo\" has confirmed that no bioeffects have been noted when the spatial pulse temporal average (SPTA) intensity is less than which value?",
+        "image": "",
+        "opciones": [
+            "10 mW/cm²",
+            "100 W/cm²",
+            "1 W/cm²",
+            "100 mW/cm²"
+        ],
+        "respuesta_correcta": [
+            "100 mW/cm²"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "grupo": "7-35",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer notices that the mechanical index (MI) is too high during an ultrasound. What would be the MOST appropriate modification that the sonographer can make?",
+        "image": "",
+        "opciones": [
+            "Decrease receiver gain.",
+            "Increase period.",
+            "Decrease the output power.",
+            "Decrease the frequency of the transducer."
+        ],
+        "respuesta_correcta": [
+            "Decrease the output power."
+        ]
+    },
+	{
+        "clasificacion": "Image Display, Processing, and Artifacts",
+        "grupo": "8-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer is performing an abdominal ultrasound examination. The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
+        "image": "",
+        "opciones": [
+            "Output Power",
+            "Time Gain Compensation (TGC)",
+            "Overall Gain (Receiver Gain)",
+            "Dynamic Range"
+        ],
+        "respuesta_correcta": [
+            "Overall Gain (Receiver Gain)"
+        ]
+    },
+    {
+        "clasificacion": "Doppler Physics and Instrumentation",
+        "grupo": "3-21",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler angle provides the most accurate velocity measurement?",
+        "image": "",
+        "opciones": [
+            "0 degrees",
+            "45 degrees",
+            "60 degrees",
+            "90 degrees"
+        ],
+        "respuesta_correcta": [
+            "0 degrees"
+        ]
+    },
+    {
+        "clasificacion": "Image Display, Processing, and Artifacts",
+        "grupo": "9-22",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Reverberation artifacts are most likely to occur between:",
+        "image": "",
+        "opciones": [
+            "Two weak reflectors",
+            "Two strong reflectors",
+            "A strong reflector and a weak reflector",
+            "Two tissues with different acoustic impedances"
+        ],
+        "respuesta_correcta": [
+            "Two strong reflectors"
+        ]
+    },
+    {
+        "clasificacion": "Transducers, Resolution, and Image Formation.",
+        "grupo": "5-80",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary advantage of using a 1.5D or multi-row array transducer?",
+        "image": "",
+        "opciones": [
+            "Improved lateral resolution",
+            "Improved elevational resolution",
+            "Improved axial resolution",
+            "Increased penetration depth"
+        ],
+        "respuesta_correcta": [
+            "Improved elevational resolution"
+        ]
+    },
+    {
+        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "grupo": "7-40",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following tissues has the highest attenuation coefficient?",
+        "image": "",
+        "opciones": [
+            "Fat",
+            "Muscle",
+            "Bone",
+            "Water"
+        ],
+        "respuesta_correcta": [
+            "Bone"
+        ]
+    },
+    {
+        "clasificacion": "Patient care and new technology",
+        "grupo": "12-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary purpose of informed consent in ultrasound examinations?",
+        "image": "",
+        "opciones": [
+            "To protect the sonographer from legal liability",
+            "To ensure the patient understands the procedure and its risks/benefits",
+            "To obtain payment authorization from the patient's insurance",
+            "To document the patient's medical history"
+        ],
+        "respuesta_correcta": [
+            "To ensure the patient understands the procedure and its risks/benefits"
+        ]
+    }
+]
