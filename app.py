@@ -180,10 +180,15 @@ def exam_screen():
         st.text_input("Name", value=nombre, disabled=True)
         st.text_input("Email", value=email, disabled=True)
 
-    # Resto de la pantalla principal: tiempo, preguntas, etc.
+    # Obtenemos exam_type de sesión y parámetros adecuados del config
+    exam_type = st.session_state.get("exam_type", "full")
+    time_limit = config[exam_type]["time_limit_seconds"]
+    warning_time = config[exam_type]["warning_time_seconds"]
+
     elapsed_time = time.time() - st.session_state.start_time
-    remaining_time = config["time_limit_seconds"] - elapsed_time
+    remaining_time = time_limit - elapsed_time
     minutes_remaining = int(remaining_time // 60)
+
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
@@ -193,13 +198,37 @@ def exam_screen():
         unsafe_allow_html=True
     )
 
-    if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
-        st.warning("The exam will end in 10 minutes!")
+    if remaining_time <= warning_time and remaining_time > 0:
+        st.warning("The exam will end soon!")
 
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
         finalize_exam()
+        return
+
+    display_marked_questions_sidebar()
+
+    if not st.session_state.end_exam:
+        current_index = st.session_state.current_question_index
+        question = st.session_state.selected_questions[current_index]
+        display_question(question, current_index + 1)
+        display_navigation()
+
+        if st.button("Finish Exam"):
+            unanswered = [
+                i + 1 for i, q in enumerate(st.session_state.selected_questions)
+                if str(i) not in st.session_state.answers
+            ]
+            if unanswered:
+                st.warning(
+                    f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?"
+                )
+                if st.button("Confirm Completion"):
+                    finalize_exam()
+            else:
+                finalize_exam()
+
         return
 
     display_marked_questions_sidebar()
