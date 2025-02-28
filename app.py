@@ -10,7 +10,6 @@ from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
-from screens.user_data_input import user_data_input  # Importamos la pantalla de ingreso de datos
 
 # Configuración de la página de Streamlit
 st.set_page_config(
@@ -135,6 +134,44 @@ def authentication_screen():
                 st.rerun()
             else:
                 st.error("Incorrect password.")
+
+def user_data_input():
+    """
+    Screen for user data input (name and email).
+    """
+    with st.form("user_form"):
+        st.header("User Data")
+        nombre = st.text_input("Full Name:")
+        email = st.text_input("Email:")
+
+        submitted = st.form_submit_button("Start Exam")
+        if submitted:
+            if nombre.strip() and email.strip():
+                st.session_state.user_data = {
+                    "nombre": nombre.strip(),
+                    "email": email.strip()
+                }
+                st.success("Data registered. Preparing the exam...")
+
+                # ───────────────────────────────────────────────
+                # BLOQUE IMPORTANTE: SELECCIÓN DE MODO DE EXAMEN
+                # ───────────────────────────────────────────────
+                exam_type = st.session_state.get("exam_type", "full")
+                if exam_type == "short":
+                    selected = select_random_questions(total=20)
+                else:
+                    selected = select_random_questions(total=120)
+                # ───────────────────────────────────────────────
+
+                st.session_state.selected_questions = selected
+                for q in st.session_state.selected_questions:
+                    q['opciones'] = shuffle_options(q)
+
+                st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
+                st.session_state.start_time = time.time()
+                st.rerun()
+            else:
+                st.error("Please, complete all fields.")
 
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
@@ -286,7 +323,7 @@ def main():
     if not st.session_state.authenticated:
         authentication_screen()
     elif not st.session_state.user_data:
-        user_data_input()  # Se llama la pantalla de ingreso de datos importada de screens/user_data_input.py
+        user_data_input()
     elif not st.session_state.end_exam:
         main_screen()
     else:
