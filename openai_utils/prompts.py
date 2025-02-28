@@ -6,4 +6,4 @@ Concept to Study: {respuesta_correcta}
 Example:
 Question: Provide only the main idea, not the entire text
 Concept to Study: {respuesta_correcta}
-"
+
