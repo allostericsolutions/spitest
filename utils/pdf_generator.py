@@ -1,4 +1,3 @@
-
 from fpdf import FPDF
 import os
 import streamlit as st
@@ -126,4 +125,4 @@ to prevent the spread of infections…
 Question 5
 Concept to Study: Shorter wavelength
 (…resto de la explicación)
------------------------------------------------
+
