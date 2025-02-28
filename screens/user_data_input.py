@@ -1,3 +1,7 @@
+import streamlit as st
+import time
+from utils.question_manager import select_random_questions, shuffle_options
+
 def user_data_input():
     """
     Screen for user data input (name and email).
@@ -24,7 +28,6 @@ def user_data_input():
                     selected = select_random_questions(total=20)
                 else:
                     selected = select_random_questions(total=120)
-                # ───────────────────────────────────────────────
 
                 st.session_state.selected_questions = selected
                 for q in st.session_state.selected_questions:
@@ -35,4 +38,3 @@ def user_data_input():
                 st.rerun()
             else:
                 st.error("Please, complete all fields.")
-
