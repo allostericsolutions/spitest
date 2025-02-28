@@ -1,4 +1,3 @@
-# utils/pdf_generator.py
 import os
 import textwrap
 import streamlit as st
@@ -15,7 +14,7 @@ def to_latin1(s: str) -> str:
 class CustomPDF(FPDF):
     def __init__(self):
         super().__init__()
-        # Para usar  en footer (total de páginas)
+        # Para usar {nb} en footer (total de páginas)
         self.alias_nb_pages()
 
     def header(self):
@@ -31,7 +30,7 @@ class CustomPDF(FPDF):
         self.set_y(-15)
         self.set_font("Arial", 'I', 8)
         # Número de página
-        page_text = f"Page {self.page_no()}/{'{nb}'}"  # CORREGIDO
+        page_text = f"Page {self.page_no()}/{{nb}}"
         page_text = to_latin1(page_text)  # convertir a latin1
         self.cell(0, 5, page_text, align='C')
 
@@ -39,7 +38,7 @@ class CustomPDF(FPDF):
         self.set_y(-10)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         timestamp = to_latin1(timestamp)
-        self.cell(0, 5, f"Generated on: ", align='C')
+        self.cell(0, 5, f"Generated on: {timestamp}", align='C')
 
 def _draw_classification_row(pdf: CustomPDF, classification: str, percent: float,
                              col_width_class: int = 120, col_width_percent: int = 50,
@@ -89,7 +88,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
     Genera el PDF con:
     - Nombre y email
     - Score, Status
-    - Tabla de clasificaciones (con wrap y agrupación)
+    - Tabla de clasificaciones (con wrap)
     - Sección "Explanations & Feedback" enumerada
     - Pie con pág # y fecha/hora
     - Sin sello de agua
@@ -119,11 +118,11 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     # Score y Status
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, to_latin1(f"Score: "), ln=True)
-    pdf.cell(0, 10, to_latin1(f"Status: "), ln=True)
+    pdf.cell(0, 10, to_latin1(f"Score: {score}"), ln=True)
+    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)
     pdf.ln(5)
 
-    # Desglose por clasificación (tabla, AGRUPADO)
+    # Desglose por clasificación (tabla)
     classification_stats = st.session_state.get("classification_stats", None)
     if classification_stats:
         pdf.set_font("Arial", 'B', 12)
@@ -132,46 +131,13 @@ def generate_pdf(user_data, score, status, photo_path=None):
         # Cabeceras de tabla
         pdf.cell(120, 8, to_latin1("Classification"), border=1, ln=0, align='C')
         pdf.cell(50, 8, to_latin1("Percent (%)"), border=1, ln=1, align='C')
+
         pdf.set_font("Arial", '', 12)
-
-        # DICCIONARIO DE AGRUPACIÓN (¡IMPORTANTE!)
-        grouped_classifications = {
-            "Clinical safety, patient care and quality assurance": [
-                "Patient care and new technology",
-                "Safety and Risk Management and new tec"
-            ],
-            "physical principles": [
-                "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
-                "Basic Physics Concepts, Wave Parameters, and Attenuation",
-                "Wave Properties and Interactions with matter"
-            ],
-            "ultrasound transducers": [
-                "Transducers, Resolution, and Image Formation."
-            ],
-            "imaging, principles and instrumentation": [
-                "Image Display, Processing, and Artifacts",
-                "Instruments (Transducers Construction and function; Image Settings and Display)",
-                "Bioeffects, Spatial, Temporal Resolution"
-            ],
-            "doppler imaging concepts": [
-                "Doppler Physics and Instrumentation",
-                "Hemodynamics and Doppler Principles"
-            ]
-        }
-        # "Bioeffects, Spatial, Temporal Resolution" no existe en el diccionario original que me diste, la pregunta sería,
-        # lo dejamos en "imaging, principles and instrumentation" o en "ultrasound transducers"? la agregué a "imaging, principles and instrumentation"
-
-        for group_name, sub_classifications in grouped_classifications.items():
-            total_group_percent = 0
-            for sub_classif in sub_classifications:
-                if sub_classif in classification_stats:
-                    stats = classification_stats[sub_classif]
-                    total = stats.get("total", 0)
-                    correct = stats.get("correct", 0)
-                    percent = (correct / total) * 100 if total > 0 else 0.0
-                    total_group_percent += percent
-
-            _draw_classification_row(pdf, group_name, total_group_percent)  # Usamos la función existente
+        for clasif, stats in classification_stats.items():
+            total = stats.get("total", 0)
+            correct = stats.get("correct", 0)
+            percent = (correct/total)*100 if total > 0 else 0.0
+            _draw_classification_row(pdf, clasif, percent)
 
         pdf.ln(5)
 
@@ -190,7 +156,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
                 concept_number = q_idx
 
             # Ej: "3. Concept to Study: Bistable..."
-            line_text = f". "
+            line_text = f"{concept_number}. {exp_text}"
             line_text = to_latin1(line_text)
 
             pdf.multi_cell(0, 6, line_text)
