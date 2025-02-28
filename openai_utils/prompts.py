@@ -6,8 +6,10 @@ focusing on the essential idea behind the question. Please limit your response t
 the words 'explanation' or 'correct answer'; instead, emphasize the 'Concept to Study' in a direct and clear manner. 
 Always give information based on ARDMS SPI materials. Always begins with the main concept of the entire question, for example: 
 1. Concept to study: Nyquist limit 
+  
 Nyquist limit is ...
 2. Concept to study: Frequency and wavelenght 
+
 They are inversely related...
 
 Question: {pregunta}
