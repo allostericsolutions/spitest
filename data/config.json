@@ -1,7 +1,7 @@
 {
   "exam_full": {
     "passwords": [
-      "francisco",
+      "prueba25",
       "AlternateFull123",
       "ProFullAccess"
     ],
@@ -26,8 +26,8 @@
   },
   "exam_short": {
     "passwords": [
-      "prueba",
-      "DemoFree456",
+      "prueba45",
+      "francisco",
       "ShortAccess"
     ],
     "time_limit_seconds": 1200,
