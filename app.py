@@ -210,24 +210,24 @@ def exam_screen():
     nombre = st.session_state.user_data.get('nombre', '')
     email = st.session_state.user_data.get('email', '')
 
-    col_nombre_id, col_tiempo = st.columns([1, 1])
-
-    with col_nombre_id:
+    # Mostramos Name y Email en la barra lateral
+    with st.sidebar:
+        st.write("User Information")
         st.text_input("Name", value=nombre, disabled=True)
         st.text_input("Email", value=email, disabled=True)
 
-    with col_tiempo:
-        elapsed_time = time.time() - st.session_state.start_time
-        remaining_time = config["time_limit_seconds"] - elapsed_time
-        minutes_remaining = int(remaining_time // 60)
-        st.markdown(
-            f"""
-            <div style='text-align: right; font-size: 16px;'>
-              <strong>Minutes Remaining:</strong> {minutes_remaining}
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    # Resto de la pantalla principal: tiempo, preguntas, etc.
+    elapsed_time = time.time() - st.session_state.start_time
+    remaining_time = config["time_limit_seconds"] - elapsed_time
+    minutes_remaining = int(remaining_time // 60)
+    st.markdown(
+        f"""
+        <div style='text-align: right; font-size: 16px;'>
+          <strong>Minutes Remaining:</strong> {minutes_remaining}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("The exam will end in 10 minutes!")
@@ -253,7 +253,8 @@ def exam_screen():
             ]
             if unanswered:
                 st.warning(
-                    f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?")
+                    f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?"
+                )
                 if st.button("Confirm Completion"):
                     finalize_exam()
             else:
