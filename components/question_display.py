@@ -1,69 +1,53 @@
 # components/question_display.py
 import streamlit as st
 import os
-import string
 
 def display_question(question, question_num):
     """
-    Muestra el enunciado de la pregunta, la imagen (si existe),
-    y las opciones con labels a), b), c), etc. Sin seleccionar 
-    ninguna por defecto si el usuario no ha contestado antes.
+    Displays the question statement, image (if it exists), and options.
     """
-
-    # Dividimos la parte superior en dos columnas
-    col1, col2 = st.columns([1, 3])
+    # --- MODIFICACIÓN AQUÍ ---
+    col1, col2 = st.columns([1, 3])  # Divide el espacio en dos columnas (ajusta la proporción según necesites)
     with col1:
         st.subheader(f"Question {question_num}:")
     with col2:
-        st.subheader("SPI Practice Exam - ARDMS")
+        st.subheader("SPI Practice Exam - ARDMS") #Se pone como subheader
+    # --- FIN DE LA MODIFICACIÓN ---
 
-    # Contenedor del enunciado
+    # Contenedor para el enunciado
     with st.container():
         st.write(question['enunciado'])
 
-    # Contenedor de la imagen
+    # Contenedor para la imagen
     with st.container():
-        if question.get('image'):
+        if question['image']:
             image_path = os.path.join("assets", "images", question['image'])
             try:
                 st.image(image_path, use_column_width=True)
             except FileNotFoundError:
                 st.error(f"Image not found: {image_path}")
 
-    # Generar etiquetas tipo a), b), c), d) para las opciones
-    labels = list(string.ascii_lowercase)  # ['a', 'b', 'c', ...]
-    labeled_options = [f"{labels[i]}) {op}" for i, op in enumerate(question['opciones'])]
-
-    # Contenedor para las opciones
+    # Contenedor para las opciones (con scroll interno si es necesario)
     with st.container():
-        # Checamos si ya existía alguna respuesta guardada
+        # Recuperar la respuesta ya seleccionada, si existe
         existing_answer = st.session_state.answers.get(str(question_num - 1), None)
+
+        # Si existe una respuesta previa, hallamos su índice en la lista de opciones.
+        # De lo contrario, None para que no haya preselección.
         if existing_answer is not None and existing_answer in question['opciones']:
-            # Si el usuario respondió antes, determinamos el índice de esa respuesta
             selected_index = question['opciones'].index(existing_answer)
         else:
-            # Si no hay respuesta previa, no se forzará ningún índice
             selected_index = None
 
-        # Clave estable para el radio button
+        # Usar una clave "estable" (sin time.time()).
         stable_key = f"respuesta_{question_num}"
 
-        # Si hay una respuesta previa, pasamos ese índice a st.radio
-        # Si no, no definimos "index" para que no seleccione nada por defecto
-        if selected_index is not None:
-            selected_labeled = st.radio(
-                "Select an answer:",
-                options=labeled_options,
-                index=selected_index,
-                key=stable_key
-            )
-        else:
-            selected_labeled = st.radio(
-                "Select an answer:",
-                options=labeled_options,
-                key=stable_key
-            )
+        selected = st.radio(
+            "Select an answer:",
+            options=question['opciones'],
+            index=selected_index,  # None cuando no haya respuesta previa
+            key=stable_key
+        )
 
-        # Quitar la etiqueta (a), b), etc.) del valor seleccionado y almacenarlo
-        selected = selected_labeled.split(')', 1)[1].strip()
+        # Almacenar la elección en session_state para su persistencia
         st.session_state.answers[str(question_num - 1)] = selected
