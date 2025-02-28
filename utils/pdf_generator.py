@@ -31,7 +31,7 @@ class CustomPDF(FPDF):
         self.set_y(-15)
         self.set_font("Arial", 'I', 8)
         # Número de página
-        page_text = f"Page {self.page_no()}/{}"
+        page_text = f"Page {self.page_no()}/{'{nb}'}"  # CORREGIDO
         page_text = to_latin1(page_text)  # convertir a latin1
         self.cell(0, 5, page_text, align='C')
 
@@ -158,9 +158,8 @@ def generate_pdf(user_data, score, status, photo_path=None):
                 "Hemodynamics and Doppler Principles"
             ]
         }
-        # "Bioeffects, Spatial, Temporal Resolution" no existe en el diccionario original que me diste, la pregunta sería, 
+        # "Bioeffects, Spatial, Temporal Resolution" no existe en el diccionario original que me diste, la pregunta sería,
         # lo dejamos en "imaging, principles and instrumentation" o en "ultrasound transducers"? la agregué a "imaging, principles and instrumentation"
-
 
         for group_name, sub_classifications in grouped_classifications.items():
             total_group_percent = 0
