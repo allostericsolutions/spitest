@@ -136,7 +136,7 @@ def authentication_screen():
 
 def user_data_input():
     """
-    Screen for user data input (name and ID).
+    Screen for user data input (name and email).
     """
     with st.form("user_form"):
         st.header("User Data")
@@ -145,9 +145,7 @@ def user_data_input():
 
         submitted = st.form_submit_button("Start Exam")
         if submitted:
-            # Validar que nombre y email no estén vacíos
             if nombre.strip() and email.strip():
-                # Cambia "id" por "email" en el dict user_data
                 st.session_state.user_data = {
                     "nombre": nombre.strip(),
                     "email": email.strip()
@@ -210,13 +208,13 @@ def exam_screen():
     Main exam screen.
     """
     nombre = st.session_state.user_data.get('nombre', '')
-    identificacion = st.session_state.user_data.get('id', '')
+    email = st.session_state.user_data.get('email', '')
 
     col_nombre_id, col_tiempo = st.columns([1, 1])
 
     with col_nombre_id:
         st.text_input("Name", value=nombre, disabled=True)
-        st.text_input("ID", value=identificacion, disabled=True)
+        st.text_input("Email", value=email, disabled=True)
 
     with col_tiempo:
         elapsed_time = time.time() - st.session_state.start_time
