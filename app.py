@@ -141,14 +141,16 @@ def user_data_input():
     with st.form("user_form"):
         st.header("User Data")
         nombre = st.text_input("Full Name:")
-        identificacion = st.text_input("ID or Student Number:")
+        email = st.text_input("Email:")
 
         submitted = st.form_submit_button("Start Exam")
         if submitted:
-            if nombre.strip() and identificacion.strip():
+            # Validar que nombre y email no estén vacíos
+            if nombre.strip() and email.strip():
+                # Cambia "id" por "email" en el dict user_data
                 st.session_state.user_data = {
                     "nombre": nombre.strip(),
-                    "id": identificacion.strip()
+                    "email": email.strip()
                 }
                 st.success("Data registered. Preparing the exam...")
 
