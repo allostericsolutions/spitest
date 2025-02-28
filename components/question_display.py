@@ -6,48 +6,52 @@ def display_question(question, question_num):
     """
     Displays the question statement, image (if it exists), and options.
     """
-    # --- MODIFICACIÓN AQUÍ ---
-    col1, col2 = st.columns([1, 3])  # Divide el espacio en dos columnas (ajusta la proporción según necesites)
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.subheader(f"Question {question_num}:")
     with col2:
-        st.subheader("SPI Practice Exam - ARDMS") #Se pone como subheader
-    # --- FIN DE LA MODIFICACIÓN ---
+        st.subheader("SPI Practice Exam - ARDMS")
 
-    # Contenedor para el enunciado
     with st.container():
         st.write(question['enunciado'])
 
-    # Contenedor para la imagen
     with st.container():
         if question['image']:
             image_path = os.path.join("assets", "images", question['image'])
             try:
                 st.image(image_path, use_column_width=True)
+                st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True) #Con opcion de abrir en otra pestana
             except FileNotFoundError:
                 st.error(f"Image not found: {image_path}")
 
-    # Contenedor para las opciones (con scroll interno si es necesario)
     with st.container():
-        # Recuperar la respuesta ya seleccionada, si existe
         existing_answer = st.session_state.answers.get(str(question_num - 1), None)
 
-        # Si existe una respuesta previa, hallamos su índice en la lista de opciones.
-        # De lo contrario, None para que no haya preselección.
         if existing_answer is not None and existing_answer in question['opciones']:
             selected_index = question['opciones'].index(existing_answer)
         else:
             selected_index = None
 
-        # Usar una clave "estable" (sin time.time()).
         stable_key = f"respuesta_{question_num}"
+
+        # --- MODIFICACIÓN AQUÍ ---
+        labeled_options = [f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])]
+        # --- FIN DE LA MODIFICACIÓN ---
 
         selected = st.radio(
             "Select an answer:",
-            options=question['opciones'],
-            index=selected_index,  # None cuando no haya respuesta previa
+            options=labeled_options,  # Usamos las opciones con letras
+            index=selected_index,
             key=stable_key
         )
 
-        # Almacenar la elección en session_state para su persistencia
-        st.session_state.answers[str(question_num - 1)] = selected
+        # --- MODIFICACIÓN AQUÍ ---
+        # Necesitamos obtener la opción original, sin la letra, para almacenarla correctamente
+        if selected:
+            selected_option_index = ord(selected[0]) - 97  # Obtener el índice de la letra
+            original_selected_option = question['opciones'][selected_option_index]
+        else:
+             original_selected_option = None
+        st.session_state.answers[str(question_num - 1)] = original_selected_option
+
+        # --- FIN DE LA MODIFICACIÓN ---
