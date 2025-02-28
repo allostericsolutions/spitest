@@ -1,10 +1,11 @@
+# utils/pdf_generator.py
 from fpdf import FPDF
 import os
 
 def generate_pdf(user_data, score, status, photo_path=None):
     """
     Generates a PDF file with the exam results:
-    - User's name and ID
+    - User's name and Email
     - Score obtained
     - Status (Passed / Not Passed)
     - (Optional) The user's photo, if the path is provided in photo_path
@@ -16,15 +17,16 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     # Título
     pdf.set_font("Arial", 'B', 16)
-    pdf.cell(0, 10, "SPI - ARDMS Exam Result", ln=True, align='C') #Texto en ingles
+    pdf.cell(0, 10, "SPI - ARDMS Exam Result", ln=True, align='C')  #Texto en inglés
 
     # Espacio entre líneas
     pdf.ln(10)
 
     # Datos del usuario
     pdf.set_font("Arial", '', 12)
-    pdf.cell(0, 10, f"Name: {user_data['nombre']}", ln=True) #Texto en ingles
-    pdf.cell(0, 10, f"ID: {user_data['id']}", ln=True) #Texto en ingles
+    pdf.cell(0, 10, f"Name: {user_data['nombre']}", ln=True)  #Texto en inglés
+    # Se modifica "ID: ..." por "Email: ..."
+    pdf.cell(0, 10, f"Email: {user_data['email']}", ln=True)  #Texto en inglés
 
     # Agregar la foto si se proporcionó una ruta válida
     if photo_path and os.path.exists(photo_path):
@@ -36,15 +38,15 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     # Resultados del examen
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, f"Score: {score}", ln=True) #Texto en ingles
-    pdf.cell(0, 10, f"Status: {status}", ln=True) #Texto en ingles
+    pdf.cell(0, 10, f"Score: {score}", ln=True)   #Texto en inglés
+    pdf.cell(0, 10, f"Status: {status}", ln=True) #Texto en inglés
 
     # Crear carpeta "results" si no existe
     if not os.path.exists('results'):
         os.makedirs('results')
 
     # Guardar el PDF
-    filename = f"results/{user_data['id']}_result.pdf" #Texto en ingles
+    filename = f"results/{user_data['email']}_result.pdf"  #Texto en inglés
     pdf.output(filename)
 
     return filename
