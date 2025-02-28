@@ -260,7 +260,10 @@ def finalize_exam():
     st.session_state.end_exam = True
     score = calculate_score()
 
-    if score >= config["passing_score"]:
+    exam_type = st.session_state.get("exam_type", "full")
+    passing_score = config[exam_type]["passing_score"]
+
+    if score >= passing_score:
         status = "Passed"
     else:
         status = "Not Passed"
@@ -269,9 +272,9 @@ def finalize_exam():
     st.write(f"Score Obtained: {score}")
     st.write(f"Status: {status}")
 
-    # ──────────────────────────────────────────────────────────
+    # ────────────────────
     # NUEVO BLOQUE: Mostrar desglose por clasificación
-    # ──────────────────────────────────────────────────────────
+    # ────────────────────
     if "classification_stats" in st.session_state:
         st.sidebar.subheader("Detailed Breakdown by Topic")
         for clasif, stats in st.session_state.classification_stats.items():
