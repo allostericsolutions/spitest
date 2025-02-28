@@ -1,53 +1,61 @@
 # components/question_display.py
 import streamlit as st
 import os
+import string  # <-- para etiquetas a), b), c), d)...
 
 def display_question(question, question_num):
     """
-    Displays the question statement, image (if it exists), and options.
+    Displays the question statement, image (if it exists), 
+    and options with labels a), b), c), d).
     """
-    # --- MODIFICACIÓN AQUÍ ---
-    col1, col2 = st.columns([1, 3])  # Divide el espacio en dos columnas (ajusta la proporción según necesites)
+
+    # Dos columnas superiores
+    col1, col2 = st.columns([1, 3])
     with col1:
         st.subheader(f"Question {question_num}:")
     with col2:
-        st.subheader("SPI Practice Exam - ARDMS") #Se pone como subheader
-    # --- FIN DE LA MODIFICACIÓN ---
+        st.subheader("SPI Practice Exam - ARDMS")
 
-    # Contenedor para el enunciado
+    # Contenedor del enunciado de la pregunta
     with st.container():
         st.write(question['enunciado'])
 
-    # Contenedor para la imagen
+    # Contenedor de la imagen (si existe)
     with st.container():
-        if question['image']:
+        if question.get('image'):
             image_path = os.path.join("assets", "images", question['image'])
             try:
                 st.image(image_path, use_column_width=True)
             except FileNotFoundError:
                 st.error(f"Image not found: {image_path}")
 
-    # Contenedor para las opciones (con scroll interno si es necesario)
+    # Generar etiquetas a), b), c), d)...
+    labels = list(string.ascii_lowercase)
+    labeled_options = [f"{labels[i]}) {op}" for i, op in enumerate(question['opciones'])]
+
+    # Contenedor para las opciones
     with st.container():
-        # Recuperar la respuesta ya seleccionada, si existe
+        # Recuperar respuesta previa si existe
         existing_answer = st.session_state.answers.get(str(question_num - 1), None)
 
-        # Si existe una respuesta previa, hallamos su índice en la lista de opciones.
-        # De lo contrario, None para que no haya preselección.
+        # Determinar índice de la opción previamente seleccionada
         if existing_answer is not None and existing_answer in question['opciones']:
             selected_index = question['opciones'].index(existing_answer)
         else:
-            selected_index = None
+            selected_index = 0  # por defecto, primera opción
 
-        # Usar una clave "estable" (sin time.time()).
         stable_key = f"respuesta_{question_num}"
 
-        selected = st.radio(
+        # Mostrar las opciones con etiquetas
+        selected_labeled = st.radio(
             "Select an answer:",
-            options=question['opciones'],
-            index=selected_index,  # None cuando no haya respuesta previa
+            options=labeled_options,
+            index=selected_index,
             key=stable_key
         )
 
-        # Almacenar la elección en session_state para su persistencia
-        st.session_state.answers[str(question_num - 1)] = selected
+        # Extraer solo el texto de la opción (sin la etiqueta "a) / b) / ...")
+        selected_option = selected_labeled.split(')', 1)[1].strip()
+
+        # Guardar la respuesta en session_state
+        st.session_state.answers[str(question_num - 1)] = selected_option
