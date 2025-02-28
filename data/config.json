@@ -1,7 +1,38 @@
 {
-  "password_short": "prueba",
-  "password_full": "francisco",
-  "time_limit_seconds": 7200,
-  "warning_time_seconds": 600,
-  "passing_score": 555
+  "exam_full": {
+    "passwords": [
+      "francisco",
+      "AlternateFull123",
+      "ProFullAccess"
+    ],
+    "time_limit_seconds": 7200,
+    "warning_time_seconds": 600,
+    "passing_score": 700,
+    "questions_total": 120,
+    "distribution": {
+      "Basic Physics (Frequency, Wavelength, Period, and Propagation)": 6,
+      "Instruments (Transducers Construction and function; Image Settings and Display)": 7,
+      "Doppler Physics and Instrumentation": 19,
+      "Wave Properties and Interactions with matter": 8,
+      "Bioeffects, Spatial, Temporal Resolution": 5,
+      "Safety and Risk Management and new tech": 3,
+      "Basic Physics Concepts, Wave Parameters, and Attenuation": 6,
+      "Transducers, Resolution, and Image Formation.": 9,
+      "Image Display, Processing, and Artifacts": 16,
+      "Hemodynamics and Doppler Principles": 15,
+      "Quality Assurance and Quality Control": 3,
+      "Patient care and new technology": 3
+    }
+  },
+  "exam_short": {
+    "passwords": [
+      "prueba",
+      "DemoFree456",
+      "ShortAccess"
+    ],
+    "time_limit_seconds": 1200,
+    "warning_time_seconds": 300,
+    "passing_score": 555,
+    "questions_total": 20
+  }
 }
