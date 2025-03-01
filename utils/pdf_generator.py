@@ -177,7 +177,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     pdf.ln(5)
 
-    # --- Explicaciones y Feedback ---
+   # --- Explicaciones y Feedback ---
     explanations = st.session_state.get("explanations")
     if explanations:
         pdf.set_font("Arial", 'B', 12)
@@ -185,12 +185,30 @@ def generate_pdf(user_data, score, status, photo_path=None):
         pdf.set_font("Arial", '', 11)
 
         for q_idx, exp_text in explanations.items():
-            if str(q_idx).isdigit():
-                concept_number = int(q_idx) + 1
+            #  No se necesita concept_number
+            #  if str(q_idx).isdigit():
+            #    concept_number = int(q_idx) + 1
+            #  else:
+            #     concept_number = q_idx
+
+            # Buscar "Concept to Study:" y ponerlo en negrita
+            exp_text = to_latin1(exp_text) # Convertir todo antes.
+            if "Concept to Study:" in exp_text:
+                parts = exp_text.split("Concept to Study:", 1)
+                before = parts[0]
+                rest = parts[1]
+
+                pdf.multi_cell(0, 6, before) # Parte antes (si existe)
+
+                pdf.set_font("Arial", 'B', 11) # Negrita
+                pdf.multi_cell(0, 6, "Concept to Study:")
+                pdf.set_font("Arial", '', 11) # Volver a normal
+
+                pdf.multi_cell(0, 6, rest.lstrip()) #.lstrip() para quitar espacios
             else:
-                concept_number = q_idx
-            line_text = f". {to_latin1(exp_text)}"
-            pdf.multi_cell(0, 6, line_text)
+                # Si no se encuentra "Concept to Study:", imprimir normal
+                pdf.multi_cell(0, 6, exp_text)
+
             pdf.ln(4)
 
     # Guardar PDF
