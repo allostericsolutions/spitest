@@ -14494,5 +14494,215 @@
         "respuesta_correcta": [
             "32 µs"
         ]
+    },
+    {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which method maintains pixel density when enlarging an image?",
+    "image": "",
+    "opciones": [
+      "Area magnification",
+      "Write magnification",
+      "Nearest neighbor scaling",
+      "Linear magnification"
+    ],
+    "respuesta_correcta": [
+      "Write magnification"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary advantage of write magnification over read magnification?",
+    "image": "",
+    "opciones": [
+      "Faster processing time",
+      "Improved spatial resolution",
+      "Larger field of view",
+      "Reduced file size"
+    ],
+    "respuesta_correcta": [
+      "Improved spatial resolution"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Read magnification is performed during which stage of image processing?",
+    "image": "",
+    "opciones": [
+      "Pre-processing",
+      "Post-processing",
+      "Data acquisition",
+      "Analog-to-digital conversion"
+    ],
+    "respuesta_correcta": [
+      "Post-processing"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which type of magnification re-scans the region of interest with a higher pixel density?",
+    "image": "",
+    "opciones": [
+      "Read magnification",
+      "Write magnification",
+      "Zoom magnification",
+      "Pan magnification"
+    ],
+    "respuesta_correcta": [
+      "Write magnification"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to the original data when using read magnification?",
+    "image": "",
+    "opciones": [
+      "The original data is discarded.",
+      "The original data is re-scanned.",
+      "The original data is maintained and enlarged.",
+      "The original data is compressed."
+    ],
+    "respuesta_correcta": [
+      "The original data is maintained and enlarged."
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
+    "image": "",
+    "opciones": [
+        "Write Magnification",
+        "Read Magnification",
+        "Acoustic Zoom",
+        "Panoramic Imaging"
+
+    ],
+    "respuesta_correcta": [
+      "Read Magnification"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Write magnification is a form of:",
+    "image": "",
+    "opciones": [
+      "Post-processing",
+      "Pre-processing",
+      "Real-time processing",
+      "Delayed processing"
+    ],
+    "respuesta_correcta": [
+      "Pre-processing"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Applying read magnification to an ultrasound image will:",
+    "image": "",
+    "opciones": [
+      "Increase the number of scan lines.",
+      "Decrease the pixel size.",
+      "Enlarge the existing pixels.",
+      "Acquire new data."
+    ],
+    "respuesta_correcta": [
+      "Enlarge the existing pixels."
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is a potential disadvantage of using read magnification extensively?",
+    "image": "",
+    "opciones": [
+      "Improved temporal resolution",
+      "Pixelated image appearance",
+      "Increased frame rate",
+      "Reduced acoustic exposure"
+    ],
+    "respuesta_correcta": [
+      "Pixelated image appearance"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Compared to read magnification, write magnification offers:",
+    "image": "",
+    "opciones": [
+        "A larger field of view",
+        "A smaller field of view with improved detail",
+        "No change in image detail",
+        "A faster way to zoom without rescanning"
+
+    ],
+    "respuesta_correcta": [
+      "A smaller field of view with improved detail"
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-11",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When using write magnification, what happens to the frame rate compared to the original, unmagnified image?",
+    "image": "",
+    "opciones": [
+      "It always increases.",
+      "It always decreases.",
+      "It may increase, decrease, or stay the same, depending on system settings and the size of the region of interest.",
+      "It is unaffected."
+    ],
+    "respuesta_correcta": [
+      "It may increase, decrease, or stay the same, depending on system settings and the size of the region of interest."
+    ]
+  },
+  {
+    "clasificacion": "Image Display, Processing, and Artifacts",
+    "grupo": "4-12",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which statement BEST describes the difference between pre-processing and post-processing in ultrasound?",
+    "image": "",
+    "opciones": [
+      "Pre-processing occurs after the image is stored; post-processing occurs before.",
+      "Pre-processing manipulates the image before it is stored; post-processing manipulates the stored image.",
+      "Pre-processing and post-processing are the same.",
+      "Pre-processing only affects the displayed image; post-processing affects the raw data."
+    ],
+    "respuesta_correcta": [
+      "Pre-processing manipulates the image before it is stored; post-processing manipulates the stored image."
+    ]
+  },
+   {
+        "clasificacion": "Image Display, Processing, and Artifacts",
+        "grupo": "4-13",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer wants to magnify a specific area of a stored ultrasound image without rescanning. Which technique should they use?",
+        "image": "",
+        "opciones": [
+            "Write magnification",
+            "Read magnification",
+            "Dynamic focusing",
+            "Acoustic zoom"
+        ],
+        "respuesta_correcta": [
+            "Read magnification"
+        ]
     }
 ]
