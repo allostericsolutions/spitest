@@ -1,6 +1,6 @@
 [
     {
-        "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
+        "clasificacion": "Ultrasound Transducers",
         "grupo": "2-14",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "clasificacion": "Wave Properties and Interactions with matter",
+        "clasificacion": "Physical Principles",
         "grupo": "4-16",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When sound travels through a significant amount of water before hitting a reflector, the reflector appears:",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "clasificacion": "Safety and Risk Management and new tec",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "6-3",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "clasificacion": "Physical Principles",
         "grupo": "7-20",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If two sound beams with different frequencies travel through soft tissue, which travels faster?",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "clasificacion": "Image Display, Processing, and Artifacts",
+        "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "9-7",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A display limited to only black and white without shades of gray is known as:",
@@ -80,7 +80,7 @@
         ]
     },
     {
-        "clasificacion": "Patient care and new technology",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "12-6",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the term for the smallest unit of digital storage?",
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "clasificacion": "Wave Properties and Interactions with matter",
+        "clasificacion": "Physical Principles",
         "grupo": "4-17",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the Fresnel zone,",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "clasificacion": "Instruments (Transducers Construction and function; Image Settings and Display)",
+        "clasificacion": "Ultrasound Transducers",
         "grupo": "2-15",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
@@ -128,7 +128,7 @@
         ]
     },
     {
-        "clasificacion": "Doppler Physics and Instrumentation",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": "3-5",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statement about color Doppler is accurate?",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "clasificacion": "Image Display, Processing, and Artifacts",
+        "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "9-8",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which method maintains pixel density when enlarging an image?",
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
+        "clasificacion": "Physical Principles",
         "grupo": "1-18",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How are amplitude and frequency related?",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics (Frequency, Wavelength, Period, and Propagation)",
+        "clasificacion": "Physical Principles",
         "grupo": "1-19",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the relationship between spatial pulse length and pulse duration?",
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "clasificacion": "Physical Principles",
         "grupo": "7-21",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statement about axial resolution is true?",
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "clasificacion": "Hemodynamics and Doppler Principles",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": "10-3",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
@@ -224,7 +224,7 @@
         ]
     },
     {
-        "clasificacion": "Hemodynamics and Doppler Principles",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": "10-4",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which law relates flow to pressure differential, viscosity, and length?",
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "clasificacion": "Hemodynamics and Doppler Principles",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": "10-5",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the most common type of flow in the body?",
@@ -256,7 +256,7 @@
         ]
     },
     {
-        "clasificacion": "Transducers, Resolution, and Image Formation.",
+        "clasificacion": "Ultrasound Transducers",
         "grupo": "5-78",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
@@ -272,7 +272,7 @@
         ]
     },
     {
-        "clasificacion": "Safety and Risk Management and new tec",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "3-66",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Sonographers best practice while scanning is to avoid abducting the arm more than how many degrees?",
@@ -288,7 +288,7 @@
         ]
     },
     {
-        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "4-34",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
@@ -304,7 +304,7 @@
         ]
     },
     {
-       "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "5-45",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "This type of cavitation is the MOST concerning cause of bioeffects:",
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "clasificacion": "Bioeffects, Spatial, Temporal Resolution",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "6-45",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Assuming an unfocused ultrasound beam, the American Institute of Ultrasound in Medicine's \"Statement on Mammalian Biological Effects of Ultrasound In Vivo\" has confirmed that no bioeffects have been noted when the spatial pulse temporal average (SPTA) intensity is less than which value?",
@@ -336,7 +336,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "clasificacion": "Physical Principles",
         "grupo": "7-35",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer notices that the mechanical index (MI) is too high during an ultrasound. What would be the MOST appropriate modification that the sonographer can make?",
@@ -351,8 +351,8 @@
             "Decrease the output power."
         ]
     },
-	{
-        "clasificacion": "Image Display, Processing, and Artifacts",
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "8-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer is performing an abdominal ultrasound examination. The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
@@ -368,7 +368,7 @@
         ]
     },
     {
-        "clasificacion": "Doppler Physics and Instrumentation",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": "3-21",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler angle provides the most accurate velocity measurement?",
@@ -384,7 +384,7 @@
         ]
     },
     {
-        "clasificacion": "Image Display, Processing, and Artifacts",
+        "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "9-22",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Reverberation artifacts are most likely to occur between:",
@@ -400,7 +400,7 @@
         ]
     },
     {
-        "clasificacion": "Transducers, Resolution, and Image Formation.",
+        "clasificacion": "Ultrasound Transducers",
         "grupo": "5-80",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary advantage of using a 1.5D or multi-row array transducer?",
@@ -416,7 +416,7 @@
         ]
     },
     {
-        "clasificacion": "Basic Physics Concepts, Wave Parameters, and Attenuation",
+        "clasificacion": "Physical Principles",
         "grupo": "7-40",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following tissues has the highest attenuation coefficient?",
@@ -432,7 +432,7 @@
         ]
     },
     {
-        "clasificacion": "Patient care and new technology",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "12-10",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary purpose of informed consent in ultrasound examinations?",
