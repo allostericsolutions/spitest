@@ -30,7 +30,7 @@ class CustomPDF(FPDF):
         self.set_y(-15)
         self.set_font("Arial", 'I', 8)
         # Número de página
-        page_text = f"Page {self.page_no()}/{''}"  # Asegúrate de que esté correcto
+        page_text = f"Page {self.page_no()}/{''}"
         page_text = to_latin1(page_text)
         self.cell(0, 5, page_text, align='C')
 
@@ -40,15 +40,20 @@ class CustomPDF(FPDF):
         timestamp = to_latin1(timestamp)
         self.cell(0, 5, f"Generated on: ", align='C')
 
-def _draw_classification_row(pdf: CustomPDF, classification: str, percent: float,
-                             col_width_class: int = 120, col_width_percent: int = 50,
-                             line_height: int = 6):
+def _draw_classification_row(pdf: CustomPDF, classification: str, questions_asked: int, correct_answers: int, percent: float, feedback: str):
     """
-    Imprime la clasificación y el porcentaje en la misma fila,
-    partiendo en varias líneas si la clasificación es larga.
+    Dibuja una fila en la tabla de clasificación del PDF.
     """
-    classification = to_latin1(classification)
-    wrapped_lines = textwrap.wrap(classification, width=45)
+    # Ajustes para la nueva tabla
+    col_width_class = 70  # Reducido para dar espacio
+    col_width_asked = 25
+    col_width_correct = 25
+    col_width_percent = 20
+    col_width_feedback = 40 # Ajustado
+    line_height = 6
+
+    # Clasificación (con posible multilínea)
+    wrapped_lines = textwrap.wrap(classification, width=25)  # Ajusta el ancho según sea necesario
     num_lines = max(1, len(wrapped_lines))
     total_height = num_lines * line_height
 
@@ -57,26 +62,51 @@ def _draw_classification_row(pdf: CustomPDF, classification: str, percent: float
 
     # Parte de clasificación (multilínea)
     for i, txt in enumerate(wrapped_lines):
-        txt = to_latin1(txt)
         if i == 0:
             border_mode = "LTR" if num_lines > 1 else "LRB"
         elif i == num_lines - 1:
             border_mode = "LRB"
         else:
             border_mode = "LR"
-        pdf.cell(col_width_class, line_height, txt, border=border_mode, ln=1, align='L')
-        pdf.set_x(x_start)
+        pdf.cell(col_width_class, line_height, txt, border=border_mode, ln=1 if i < num_lines -1 else 0, align='L')
+        if i < num_lines -1:
+          pdf.set_x(x_start)
 
-    # Celda para el porcentaje
     pdf.set_xy(x_start + col_width_class, y_start)
-    s_percent = f"{percent:.2f}%"
-    s_percent = to_latin1(s_percent)
-    pdf.cell(col_width_percent, total_height, s_percent, border="LTRB", ln=1, align='R')
-    pdf.set_y(y_start + total_height)
+
+
+    # Preguntas hechas
+    pdf.cell(col_width_asked, total_height, str(questions_asked), border="LTRB", align='C')
+
+    # Respuestas correctas
+    pdf.cell(col_width_correct, total_height, str(correct_answers), border="LTRB", align='C')
+
+    # Porcentaje
+    pdf.cell(col_width_percent, total_height, f"{percent:.2f}%", border="LTRB", align='C')
+
+    # Feedback
+    pdf.cell(col_width_feedback, total_height, feedback, border="LTRB", ln=1, align='C')
+    #pdf.set_y(y_start + total_height) #Ya no es necesario.
+
+
+
+def get_feedback(percent: float) -> str:
+    """
+    Devuelve el comentario de retroalimentación basado en el porcentaje.
+    """
+    if percent >= 95:
+        return "Excellent"
+    elif 80 <= percent <= 94:
+        return "Satisfactory"
+    elif 61 <= percent <= 79:
+        return "May Require Further Study"
+    elif percent <= 60:
+        return "Requires Further Study"
+    return "Unknown"  # En caso de un valor inesperado
 
 def generate_pdf(user_data, score, status, photo_path=None):
     """
-    Genera el PDF (con agrupación de clasificaciones y explicaciones).
+    Genera el PDF (con tabla detallada, comentarios y puntajes).
     """
     pdf = CustomPDF()
     pdf.add_page()
@@ -98,34 +128,56 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     pdf.ln(5)
 
-    # Score y Status
+
+    # --- Puntuaciones ---
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, to_latin1(f"Score: "), ln=True)  # Mostrar puntaje
-    pdf.cell(0, 10, to_latin1(f"Status: "), ln=True)  # Mostrar estado
+    pdf.cell(0, 10, to_latin1(f"Passing Score: 555"), ln=True)  # Passing Score fijo
+    pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True)  # Puntaje del usuario
+    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)  # Mostrar estado
     pdf.ln(5)
 
-    # --- Desglose por Clasificación (Individual) ---
+
+    # --- Desglose por Clasificación (Tabla Detallada) ---
     classification_stats = st.session_state.get("classification_stats")
     if classification_stats:
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(0, 10, to_latin1("Detailed Breakdown by Topic"), ln=True)
 
-        pdf.cell(120, 8, to_latin1("Classification"), border=1, ln=0, align='C')
-        pdf.cell(50, 8, to_latin1("Percent (%)"), border=1, ln=1, align='C')
+        # Encabezados de la tabla
+        pdf.cell(70, 8, to_latin1("Classification"), border=1, ln=0, align='C')
+        pdf.cell(25, 8, to_latin1("Questions Asked"), border=1, ln=0, align='C')
+        pdf.cell(25, 8, to_latin1("Correct Answers"), border=1, ln=0, align='C')
+        pdf.cell(20, 8, to_latin1("Percent"), border=1, ln=0, align='C')
+        pdf.cell(40, 8, to_latin1("Feedback"), border=1, ln=1, align='C') #Aumente el ancho
         pdf.set_font("Arial", '', 12)
 
-        # **MODIFICACIÓN AQUÍ: Iteración sobre las clasificaciones individuales**
+        total_questions_asked = 0
+        total_correct_answers = 0
+
         for clasif, stats in classification_stats.items():
             total = stats.get("total", 0)
             correct = stats.get("correct", 0)
             percent = (correct / total) * 100 if total > 0 else 0.0
+            feedback = get_feedback(percent)  # Obtener el comentario
 
-            _draw_classification_row(pdf, clasif, percent)
-        # **FIN DE LA MODIFICACIÓN**
+            _draw_classification_row(pdf, clasif, total, correct, percent, feedback)
+
+            total_questions_asked += total
+            total_correct_answers += correct
+
+        # Fila de totales
+        pdf.set_font("Arial", 'B', 12)
+        pdf.cell(70, 8, to_latin1("TOTAL"), border=1, ln=0, align='C')
+        pdf.cell(25, 8, str(total_questions_asked), border=1, ln=0, align='C')
+        pdf.cell(25, 8, str(total_correct_answers), border=1, ln=0, align='C')
+        total_percent = (total_correct_answers / total_questions_asked) * 100 if total_questions_asked > 0 else 0.0
+        pdf.cell(20, 8, f"{total_percent:.2f}%", border=1, ln=0, align='C')
+        pdf.cell(40, 8, get_feedback(total_percent), border=1, ln=1, align='C')
+
 
     pdf.ln(5)
 
-    # --- Explicaciones y Feedback (DEBE IR AQUÍ) ---
+    # --- Explicaciones y Feedback ---
     explanations = st.session_state.get("explanations")
     if explanations:
         pdf.set_font("Arial", 'B', 12)
@@ -137,9 +189,9 @@ def generate_pdf(user_data, score, status, photo_path=None):
                 concept_number = int(q_idx) + 1
             else:
                 concept_number = q_idx
-            line_text = f". {to_latin1(exp_text)}"  # Todo en una línea
+            line_text = f". {to_latin1(exp_text)}"
             pdf.multi_cell(0, 6, line_text)
-            pdf.ln(4)  # Espacio después de cada explicación
+            pdf.ln(4)
 
     # Guardar PDF
     if not os.path.exists("results"):
