@@ -1,8 +1,8 @@
-import os
-import textwrap
-import streamlit as st
-from datetime import datetime
 from fpdf import FPDF
+from datetime import datetime
+import os
+import textwrap  # Asegúrate de que textwrap esté importado
+import streamlit as st
 
 def to_latin1(s: str) -> str:
     """
@@ -14,14 +14,21 @@ def to_latin1(s: str) -> str:
 class CustomPDF(FPDF):
     def __init__(self):
         super().__init__()
-        # Para usar en footer (total de páginas)
         self.alias_nb_pages()
 
     def header(self):
         """
-        Header desactivado (sello de agua comentado).
+        Encabezado con el logo.
         """
-        pass
+        # --- Añade esto ---
+        logo_path = os.path.join("assets", "AllostericSolutions.png")  # Ruta a tu logo
+        if os.path.exists(logo_path):
+            self.image(logo_path, x=10, y=8, w=50)  # Ajusta x, y, w según necesidad
+        # -------------------
+        self.set_font("Arial", 'B', 15)
+        self.cell(80)
+        self.ln(20)
+
 
     def footer(self):
         """
@@ -38,7 +45,7 @@ class CustomPDF(FPDF):
         self.set_y(-10)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         timestamp = to_latin1(timestamp)
-        self.cell(0, 5, f"Generated on: ", align='C')
+        self.cell(0, 5, f"Generated on: {timestamp}", align='C')
 
 # --- Función Auxiliar (Modificada) ---
 def _draw_classification_row(pdf: FPDF, classification: str, value1: str, value2: str = None, value3: str = None):
@@ -118,11 +125,11 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     pdf.ln(5)
 
-    # Puntuaciones
+     # Puntuaciones
     pdf.set_font("Arial", 'B', 14)
     pdf.cell(0, 10, to_latin1(f"Passing Score: 555"), ln=True)
-    pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True)
-    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)
+    pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True) #Se agrega la variable score
+    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True) #Se agrega la variable status
     pdf.ln(5)
 
     # --- Desglose por Clasificación (Dos Tablas) ---
@@ -177,7 +184,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     pdf.ln(5)
 
-   # --- Explicaciones y Feedback ---
+    # --- Explicaciones y Feedback ---
     explanations = st.session_state.get("explanations")
     if explanations:
         pdf.set_font("Arial", 'B', 12)
@@ -185,11 +192,11 @@ def generate_pdf(user_data, score, status, photo_path=None):
         pdf.set_font("Arial", '', 11)
 
         for q_idx, exp_text in explanations.items():
-            #  No se necesita concept_number
-            #  if str(q_idx).isdigit():
-            #    concept_number = int(q_idx) + 1
-            #  else:
-            #     concept_number = q_idx
+          #  No se necesita concept_number
+          #  if str(q_idx).isdigit():
+          #    concept_number = int(q_idx) + 1
+          #  else:
+          #    #   concept_number = q_idx
 
             # Buscar "Concept to Study:" y ponerlo en negrita
             exp_text = to_latin1(exp_text) # Convertir todo antes.
