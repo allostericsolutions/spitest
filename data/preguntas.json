@@ -14704,5 +14704,214 @@
         "respuesta_correcta": [
             "Read magnification"
         ]
+    },
+    {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which law relates flow to pressure differential, viscosity, and vessel dimensions?",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Poiseuille's law"
+    ]
+  },
+  {
+    "clasificacion": "Wave Properties and Interactions with matter",
+    "grupo": "5-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The angle of reflection is equal to the angle of incidence. This principle is described by:",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Snell's law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which principle explains the inverse relationship between velocity and pressure in a fluid system, such as blood flow?",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Bernoulli's principle"
+    ]
+  },
+  {
+    "clasificacion": "Wave Properties and Interactions with matter",
+    "grupo": "5-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What law predicts the behavior of sound waves at an interface between two media with different propagation speeds?",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Snell's law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which equation describes the relationship between pressure gradient, flow rate, and resistance in a vessel?",
+    "image": "",
+    "opciones": [
+        "Newton's law",
+        "Snell's Law",
+        "Bernoulli's Principle",
+        "Poiseuille's Law"
+    ],
+    "respuesta_correcta": [
+      "Poiseuille's Law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a stenotic vessel, where velocity increases, the pressure decreases.  This phenomenon is explained by:",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Bernoulli's principle"
+    ]
+  },
+  {
+    "clasificacion": "Wave Properties and Interactions with matter",
+    "grupo": "5-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The change in direction of a sound beam when it crosses a boundary between two media with different speeds is described by:",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Snell's law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which law states that the volume flow rate of a fluid is directly proportional to the pressure difference and the fourth power of the radius, and inversely proportional to the viscosity and length?",
+    "image": "",
+    "opciones": [
+       "Newton's law",
+        "Snell's Law",
+        "Bernoulli's Principle",
+        "Poiseuille's Law"
+    ],
+    "respuesta_correcta": [
+      "Poiseuille's Law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The relationship between kinetic energy and potential energy in a flowing fluid is described by:",
+      "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Bernoulli's principle"
+    ]
+  },
+  {
+    "clasificacion": "Wave Properties and Interactions with matter",
+    "grupo": "5-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which law quantitatively describes refraction?",
+    "image": "",
+    "opciones": [
+      "Newton's law",
+      "Snell's law",
+      "Bernoulli's principle",
+      "Poiseuille's law"
+    ],
+    "respuesta_correcta": [
+      "Snell's law"
+    ]
+  },
+  {
+    "clasificacion": "Hemodynamics and Doppler Principles",
+    "grupo": "5-11",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A small change in vessel radius has a significant impact on flow volume.  This is BEST explained by:",
+    "image": "",
+    "opciones": [
+        "Newton's law",
+        "Snell's Law",
+        "Bernoulli's Principle",
+        "Poiseuille's Law"
+    ],
+    "respuesta_correcta": [
+      "Poiseuille's Law"
+    ]
+  },
+  {
+    "clasificacion": "Wave Properties and Interactions with matter",
+    "grupo": "5-12",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When ultrasound travels from a medium with a low propagation speed to a medium with a high propagation speed, the transmission angle will be:",
+    "image": "",
+    "opciones": [
+        "Less than the incident angle.",
+        "Greater than the incident angle.",
+        "Equal to the incident angle.",
+        "Unrelated to Snell's Law."
+    ],
+    "respuesta_correcta": [
+        "Greater than the incident angle."
+    ]
+  },
+    {
+        "clasificacion": "Hemodynamics and Doppler Principles",
+        "grupo": "5-13",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to Bernoulli's principle, in a region of high blood flow velocity, what happens to the pressure?",
+        "image": "",
+        "opciones": [
+            "Increases",
+            "Decreases",
+            "Stays the same",
+            "Becomes zero"
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ]
     }
 ]
+    
