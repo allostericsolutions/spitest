@@ -3,6 +3,8 @@ import textwrap
 import streamlit as st
 from datetime import datetime
 from fpdf import FPDF
+import requests  # Importante: Necesitamos requests para descargar la imagen
+from io import BytesIO # Importamos BytesIO
 
 def to_latin1(s: str) -> str:
     """
@@ -100,6 +102,28 @@ def generate_pdf(user_data, score, status, photo_path=None):
     """
     pdf = CustomPDF()
     pdf.add_page()
+
+    # --- Agregar la imagen ---
+    image_url = "https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png"
+    try:
+        response = requests.get(image_url)
+        response.raise_for_status()  # Lanza una excepción si hay un error HTTP
+        image_data = BytesIO(response.content)
+        #Calcular posición para centrar.
+        image_width = 50  # Prueba con diferentes anchos (en mm)
+        x = (pdf.w - image_width) / 2
+        pdf.image(image_data, x=x, y=10, w=image_width)
+        pdf.ln(40)  # Espacio después de la imagen
+    except requests.exceptions.RequestException as e:
+        print(f"Error al descargar la imagen: {e}")
+        # Podrías mostrar un mensaje de error en el PDF o simplemente no mostrar la imagen
+        pdf.set_font("Arial", 'B', 12)
+        pdf.cell(0, 10, to_latin1("Error: Could not load logo."), ln=True, align='C')
+    except Exception as e:
+        print(f"Error inesperado: {e}")
+        pdf.set_font("Arial", 'B', 12)
+        pdf.cell(0, 10, to_latin1("Error: Could not load logo."), ln=True, align='C')
+
 
     # Título
     pdf.set_font("Arial", 'B', 16)
