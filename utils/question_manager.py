@@ -15,18 +15,11 @@ def select_random_questions(total=120):
     """
     preguntas = load_questions()
     classification_percentages = {
-        "Basic Physics (Frequency, Wavelength, Period, and Propagation)": 6,
-        "Instruments (Transducers Construction and function; Image Settings and Display)": 7,
-        "Doppler Physics and Instrumentation": 19,
-        "Wave Properties and Interactions with matter": 8,
-        "Bioeffects, Spatial, Temporal Resolution": 5,
-        "Safety and Risk Management and new tech": 3,
-        "Basic Physics Concepts, Wave Parameters, and Attenuation": 6,
-        "Transducers, Resolution, and Image Formation.": 9,
-        "Image Display, Processing, and Artifacts": 16,
-        "Hemodynamics and Doppler Principles": 15,
-        "Quality Assurance and Quality Control": 3,
-        "Patient care and new technology": 3
+       "Physical Principles": 10,
+        "Ultrasound Transducers": 15,
+        "Doppler Imaging Concepts": 16,
+        "Imaging Principles and Instrumentation": 28,
+        "Clinical Safety, Patient Care, and Quality Assurance": 31,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
