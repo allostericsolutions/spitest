@@ -13854,7 +13854,455 @@
     "respuesta_correcta": [
         "Overall Gain (Receiver Gain)"
   ]
-  }
+  },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Use the lowest possible gain.",
+            "Use the lowest possible output power that provides a diagnostic image.",
+            "The exposure time should be extended during the exam.",
+            "Ensure that the time gain compensation (TGC) is within acceptable limits."
+        ],
+        "respuesta_correcta": [
+            "Use the lowest possible output power that provides a diagnostic image."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the MOST important consideration for minimizing patient exposure during an ultrasound exam, according to the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Maintaining the highest possible frame rate.",
+            "Using the lowest output power necessary for diagnostic imaging.",
+            "Adjusting the overall gain to its maximum setting.",
+            "Keeping the exam time as long as possible to acquire more data."
+        ],
+        "respuesta_correcta": [
+            "Using the lowest output power necessary for diagnostic imaging."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To adhere to the ALARA principle in sonography, what should a sonographer prioritize?",
+        "image": "",
+        "opciones": [
+            "Using color Doppler for all examinations.",
+            "Limiting the use of pulsed-wave Doppler.",
+            "Obtaining diagnostic images with the minimum necessary acoustic output.",
+            "Performing all examinations with the maximum available output power."
+        ],
+        "respuesta_correcta": [
+            "Obtaining diagnostic images with the minimum necessary acoustic output."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can a sonographer BEST implement the ALARA principle during a routine abdominal ultrasound?",
+        "image": "",
+        "opciones": [
+            "By increasing the output power to improve image penetration.",
+            "By using the lowest output power and appropriate gain settings to achieve adequate image quality.",
+            "By prolonging the exam time to thoroughly evaluate all structures.",
+            "By using the highest frequency transducer available, regardless of penetration."
+        ],
+        "respuesta_correcta": [
+            "By using the lowest output power and appropriate gain settings to achieve adequate image quality."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The ALARA principle in ultrasound imaging emphasizes:",
+        "image": "",
+        "opciones": [
+            "Using the maximum output power to ensure image clarity.",
+            "Keeping exposure time to a minimum, consistent with obtaining necessary diagnostic information.",
+            "Using the highest possible gain setting.",
+            "Always using the same power settings for all patients."
+        ],
+        "respuesta_correcta": [
+            "Keeping exposure time to a minimum, consistent with obtaining necessary diagnostic information."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When applying the ALARA principle, a sonographer should adjust the ultrasound system controls to:",
+        "image": "",
+        "opciones": [
+            "Maximize the mechanical index (MI).",
+            "Maximize the thermal index (TI).",
+            "Use the minimum output power needed to obtain diagnostic information.",
+            "Always use the pre-set application-specific settings without modification."
+        ],
+        "respuesta_correcta": [
+            "Use the minimum output power needed to obtain diagnostic information."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement BEST reflects the application of the ALARA principle in diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "Higher output power is always preferable for better image quality.",
+            "Exam time should be as long as needed to acquire the maximum possible data.",
+            "Acoustic output should be minimized while still obtaining diagnostic-quality images.",
+            "The mechanical index (MI) should be maximized."
+        ],
+        "respuesta_correcta": [
+            "Acoustic output should be minimized while still obtaining diagnostic-quality images."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding the ALARA principle, which of the following techniques is generally discouraged in routine ultrasound practice?",
+        "image": "",
+        "opciones": [
+            "Adjusting gain to compensate for low output power.",
+            "Using the lowest output power setting appropriate for the examination.",
+            "Routinely using the highest output power setting to ensure adequate penetration.",
+            "Minimizing exam time while still acquiring all necessary images."
+        ],
+        "respuesta_correcta": [
+            "Routinely using the highest output power setting to ensure adequate penetration."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer can best minimize potential bioeffects during an ultrasound exam by:",
+        "image": "",
+        "opciones": [
+            "Using the highest output power setting.",
+            "Adhering to the ALARA principle.",
+            "Increasing the exam time to acquire more data.",
+            "Ignoring the mechanical index (MI) and thermal index (TI)."
+        ],
+        "respuesta_correcta": [
+            "Adhering to the ALARA principle."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In accordance with the ALARA principle, which parameter should be kept as low as reasonably achievable?",
+        "image": "",
+        "opciones": [
+            "Image resolution",
+            "Frame rate",
+            "Acoustic output power",
+            "Overall gain"
+        ],
+        "respuesta_correcta": [
+            "Acoustic output power"
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-11",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an INAPPROPRIATE practice when attempting to follow the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Minimizing exam time.",
+            "Adjusting output power to the lowest level necessary.",
+            "Using the maximum output power setting for all examinations.",
+            "Using appropriate gain settings."
+        ],
+        "respuesta_correcta": [
+            "Using the maximum output power setting for all examinations."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-12",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a key strategy for reducing patient exposure during a fetal ultrasound, following the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Using only pulsed-wave Doppler.",
+            "Keeping exam time to the minimum required for diagnosis.",
+            "Always using the maximum output power setting.",
+            "Using the highest frequency transducer available."
+        ],
+        "respuesta_correcta": [
+            "Keeping exam time to the minimum required for diagnosis."
+        ]
+    },
+     {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-13",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control adjustment is MOST directly related to implementing the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Overall gain",
+            "Time gain compensation (TGC)",
+            "Output power",
+            "Dynamic range"
+        ],
+        "respuesta_correcta": [
+            "Output power"
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-14",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does adjusting the output power relate to the ALARA principle?",
+        "image": "",
+        "opciones": [
+            "Higher output power is always better, regardless of ALARA.",
+            "Output power should be set to the maximum level to obtain the best images.",
+            "Output power should be reduced to the lowest level that still allows for diagnostic imaging.",
+            "Output power is not relevant to the ALARA principle."
+        ],
+        "respuesta_correcta": [
+            "Output power should be reduced to the lowest level that still allows for diagnostic imaging."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "1-15",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The ALARA principle is BEST achieved by a combination of:",
+        "image": "",
+        "opciones": [
+            "High output power and long exam times.",
+            "Low output power and short exam times, while maintaining diagnostic image quality.",
+            "High gain and high output power.",
+            "Low gain and low output power, regardless of image quality."
+        ],
+        "respuesta_correcta": [
+            "Low output power and short exam times, while maintaining diagnostic image quality."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer notices that the mechanical index (MI) is too high during an ultrasound. What would be the MOST appropriate modification that the sonographer can make?",
+        "image": "",
+        "opciones": [
+            "Decrease receiver gain.",
+            "Increase period.",
+            "Decrease the output power.",
+            "Decrease the frequency of the transducer."
+        ],
+        "respuesta_correcta": [
+            "Decrease the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a fetal ultrasound, the sonographer observes a high mechanical index (MI). Which action is MOST appropriate to address this?",
+        "image": "",
+        "opciones": [
+            "Increase the frame rate.",
+            "Lower the output power.",
+            "Increase the depth of the field of view.",
+            "Switch to a higher frequency transducer."
+        ],
+        "respuesta_correcta": [
+            "Lower the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To reduce the risk of cavitation bioeffects indicated by a high MI, the sonographer should primarily:",
+        "image": "",
+        "opciones": [
+            "Adjust the time gain compensation (TGC).",
+            "Decrease the output power.",
+            "Increase the pulse repetition frequency (PRF).",
+            "Use a contrast agent."
+        ],
+        "respuesta_correcta": [
+            "Decrease the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the mechanical index (MI) exceeds acceptable limits during an exam, what is the FIRST adjustment a sonographer should make?",
+        "image": "",
+        "opciones": [
+            "Increase the overall gain.",
+            "Decrease the output power.",
+            "Increase the acoustic focusing.",
+            "Change the transducer frequency."
+        ],
+        "respuesta_correcta": [
+            "Decrease the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which parameter is MOST directly related to the mechanical index (MI) in ultrasound imaging?",
+        "image": "",
+        "opciones": [
+            "Receiver gain",
+            "Output power",
+            "Dynamic range",
+            "Frame rate"
+        ],
+        "respuesta_correcta": [
+            "Output power"
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "An elevated mechanical index (MI) reading suggests an increased risk of:",
+        "image": "",
+        "opciones": [
+            "Thermal bioeffects.",
+            "Cavitation bioeffects.",
+            "Attenuation artifacts.",
+            "Reverberation artifacts."
+        ],
+        "respuesta_correcta": [
+            "Cavitation bioeffects."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What action BEST reduces the likelihood of exceeding the recommended mechanical index (MI) during an ultrasound examination?",
+        "image": "",
+        "opciones": [
+            "Increasing the imaging depth.",
+            "Using a lower frequency transducer.",
+            "Decreasing the output power.",
+            "Increasing the number of focal zones."
+        ],
+        "respuesta_correcta": [
+            "Decreasing the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The mechanical index (MI) is a safety indicator related to the potential for:",
+        "image": "",
+        "opciones": [
+            "Heating of tissue.",
+            "Formation of gas bubbles (cavitation).",
+            "Increased signal penetration.",
+            "Improved image resolution."
+        ],
+        "respuesta_correcta": [
+            "Formation of gas bubbles (cavitation)."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following adjustments would likely INCREASE the mechanical index (MI)?",
+        "image": "",
+        "opciones": [
+            "Decreasing the output power.",
+            "Increasing the frequency.",
+            "Increasing the output power.",
+            "Decreasing the pulse repetition frequency."
+        ],
+        "respuesta_correcta": [
+            "Increasing the output power."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A high MI reading on the ultrasound system display indicates:",
+        "image": "",
+        "opciones": [
+            "Increased risk of thermal effects.",
+            "Increased risk of cavitation.",
+            "Improved spatial resolution.",
+            "Improved temporal resolution."
+        ],
+        "respuesta_correcta": [
+            "Increased risk of cavitation."
+        ]
+    },
+ {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-11",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary reason for monitoring the mechanical index (MI) during diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "To optimize image quality.",
+            "To minimize the risk of bioeffects.",
+            "To ensure proper equipment calibration.",
+            "To maximize the frame rate."
+        ],
+        "respuesta_correcta": [
+            "To minimize the risk of bioeffects."
+        ]
+    },
+    {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-12",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does decreasing the output power affect the mechanical index (MI)?",
+        "image": "",
+        "opciones": [
+           "It generally increases the MI.",
+           "It generally decreases the MI.",
+           "It has no effect on the MI",
+           "The effect on MI depends on the frequency"
+        ],
+        "respuesta_correcta": [
+            "It generally decreases the MI."
+        ]
+    },
+     {
+        "clasificacion": "Safety and Risk Management and new tec",
+        "grupo": "2-13",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a DIRECT consequence of reducing the Mechanical Index (MI) during an ultrasound examination?",
+        "image": "",
+        "opciones": [
+           "Increased risk of thermal bioeffects",
+           "Decreased risk of cavitation",
+           "Enhanced image resolution.",
+           "Greater penetration depth."
+        ],
+        "respuesta_correcta": [
+            "Decreased risk of cavitation"
+        ]
+    }
 ]
   
 
