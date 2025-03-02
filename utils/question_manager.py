@@ -16,10 +16,10 @@ def select_random_questions(total=120):
     preguntas = load_questions()
     classification_percentages = {
        "Physical Principles": 10,
-        "Ultrasound Transducers": 15,
-        "Doppler Imaging Concepts": 16,
-        "Imaging Principles and Instrumentation": 28,
-        "Clinical Safety, Patient Care, and Quality Assurance": 31,
+       "Ultrasound Transducers": 15,
+       "Doppler Imaging Concepts": 16,
+       "Imaging Principles and Instrumentation": 28,
+       "Clinical Safety, Patient Care, and Quality Assurance": 31,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
@@ -91,7 +91,11 @@ def calculate_score():
                     "enunciado": question["enunciado"],
                     "opciones": question["opciones"],
                     "respuesta_correcta": question["respuesta_correcta"],
-                    "image": question.get("image")
+                    "image": question.get("image"),
+                    # ─────────────────────────────────────────────────────────────
+                    # LÍNEA AÑADIDA: Incluimos la posible explicación local
+                    # ─────────────────────────────────────────────────────────────
+                    "explicacion_openai": question.get("explicacion_openai", "")
                 },
                 "respuesta_usuario": user_answer,
                 "indice_pregunta": idx
