@@ -102,17 +102,16 @@ def generate_pdf(user_data, score, status, photo_path=None):
     pdf.add_page()
 
     # --- Logo SOLO en la primera página ---
-    logo_path = os.path.join("assets", "AllostericSolutions.png")
-    print(f"Intentando cargar logo desde: {logo_path}")  # <-- AÑADIDO
+    logo_path = os.path.join("assets", "images", "AllostericSolutions.png")  # <-- CAMBIO AQUÍ
+    print(f"Intentando cargar logo desde: {logo_path}")
     if os.path.exists(logo_path):
-        print(f"¡El logo existe en {logo_path}!")  # <-- AÑADIDO
+        print(f"¡El logo existe en {logo_path}!")
         pdf.image(logo_path, x=10, y=10, w=50)  # Ajusta x, y, w
     else:
-        print(f"¡¡¡El logo NO se encontró en {logo_path}!!!")  # <-- AÑADIDO
+        print(f"¡¡¡El logo NO se encontró en {logo_path}!!!")
     # --------------------------------------
 
     pdf.ln(40)  # Espacio DESPUÉS del logo (ajusta según sea necesario)
-
 
     # Título
     pdf.set_font("Arial", 'B', 16)
@@ -134,8 +133,8 @@ def generate_pdf(user_data, score, status, photo_path=None):
     # Puntuaciones
     pdf.set_font("Arial", 'B', 14)
     pdf.cell(0, 10, to_latin1(f"Passing Score: 555"), ln=True)
-    pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True) # Se muestra el score
-    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True) # Se muestra el status
+    pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True)
+    pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)
     pdf.ln(5)
 
     # --- Desglose por Clasificación (Dos Tablas) ---
