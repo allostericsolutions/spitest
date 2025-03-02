@@ -19,7 +19,7 @@ def display_question(question, question_num):
         if question['image']:
             image_path = os.path.join("assets", "images", question['image'])
             try:
-                st.image(image_path, use_column_width=True)
+                st.image(image_path, use_container_width=True)
                 st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True) #Con opcion de abrir en otra pestana
             except FileNotFoundError:
                 st.error(f"Image not found: {image_path}")
