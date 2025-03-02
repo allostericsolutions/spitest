@@ -66,9 +66,9 @@ def calculate_score():
         return 0
 
     correct_count = 0
-    # ──────────────────────────────────────────────────────────────────
-    # NUEVA SECCIÓN: Contadores de aciertos por clasificación
-    # ──────────────────────────────────────────────────────────────────
+    # ──────────────────────────────────────────────────────────
+    # Contadores de aciertos por clasificación
+    # ──────────────────────────────────────────────────────────
     classification_stats = {}
 
     for idx, question in enumerate(questions):
@@ -83,10 +83,9 @@ def calculate_score():
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
-            # Acierto: incrementa el contador de esa clasificación
             classification_stats[clasif]["correct"] += 1
-        elif user_answer is not None:  # Solo se registra si el usuario respondió
-            # Construimos la info de respuesta incorrecta con la explicación local, si existe
+        elif user_answer is not None:  # Solo registra si el usuario respondió
+            # Construimos la info de respuesta incorrecta
             incorrect_info = {
                 "pregunta": {
                     "enunciado": question["enunciado"],
@@ -94,9 +93,6 @@ def calculate_score():
                     "respuesta_correcta": question["respuesta_correcta"],
                     "image": question.get("image"),
                     "explicacion_openai": question.get("explicacion_openai", ""),
-                    # ─────────────────────────────────────────────────────────────
-                    # LÍNEA AÑADIDA: Incluimos también el tema/concepto
-                    # ─────────────────────────────────────────────────────────────
                     "concept_to_study": question.get("concept_to_study", "")
                 },
                 "respuesta_usuario": user_answer,
@@ -108,7 +104,7 @@ def calculate_score():
     print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
     print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
 
-    # Guardar la estadística de clasificaciones en session_state (para usar en finalize_exam)
+    # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
 
     x = correct_count / total_questions
@@ -124,7 +120,7 @@ def calculate_score():
     return int(final_score)
 
 # ------------------------------------------
-# Nuevas funciones para el examen corto
+# Para examen corto
 # ------------------------------------------
 def load_short_questions():
     """
