@@ -103,8 +103,12 @@ def generate_pdf(user_data, score, status, photo_path=None):
 
     # --- Logo SOLO en la primera página ---
     logo_path = os.path.join("assets", "AllostericSolutions.png")
+    print(f"Intentando cargar logo desde: {logo_path}")  # <-- AÑADIDO
     if os.path.exists(logo_path):
+        print(f"¡El logo existe en {logo_path}!")  # <-- AÑADIDO
         pdf.image(logo_path, x=10, y=10, w=50)  # Ajusta x, y, w
+    else:
+        print(f"¡¡¡El logo NO se encontró en {logo_path}!!!")  # <-- AÑADIDO
     # --------------------------------------
 
     pdf.ln(40)  # Espacio DESPUÉS del logo (ajusta según sea necesario)
@@ -194,11 +198,11 @@ def generate_pdf(user_data, score, status, photo_path=None):
         pdf.set_font("Arial", '', 11)
 
         for q_idx, exp_text in explanations.items():
-          #  No se necesita concept_number
-          #  if str(q_idx).isdigit():
-          #    concept_number = int(q_idx) + 1
-          #  else:
-          #    #   concept_number = q_idx
+            #No se necesita concept_number
+            #if str(q_idx).isdigit():
+            #    concept_number = int(q_idx) + 1
+            #else:
+            #    concept_number = q_idx
 
             # Buscar "Concept to Study:" y ponerlo en negrita
             exp_text = to_latin1(exp_text) # Convertir todo antes.
