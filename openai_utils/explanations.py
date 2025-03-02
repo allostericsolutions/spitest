@@ -35,6 +35,15 @@ def get_openai_explanation(incorrect_answers):
         user_answer = answer_data["respuesta_usuario"]
         question_index = answer_data["indice_pregunta"]
 
+        # ------------------------------------
+        # NUEVO: si existe 'explicacion_openai' no se llama a OpenAI
+        # ------------------------------------
+        local_explanation = question_data.get("explicacion_openai", "").strip()
+        if local_explanation:
+            explanations[question_index] = local_explanation
+            continue
+        # ------------------------------------
+
         formatted_question = format_question_for_openai(question_data, user_answer)
 
         # Usamos el prompt importado y .format() para insertar los datos
@@ -43,7 +52,6 @@ def get_openai_explanation(incorrect_answers):
             respuesta_incorrecta=user_answer,  # Podría usarse directamente, pero por claridad
             respuesta_correcta=', '.join(question_data["respuesta_correcta"])
         )
-
 
         try:
             response = openai.chat.completions.create(
@@ -57,7 +65,6 @@ def get_openai_explanation(incorrect_answers):
                 top_p=0.1,
                 frequency_penalty=0.0,
                 presence_penalty=0.0,
-
             )
             explanation = response.choices[0].message.content.strip()
             explanations[question_index] = explanation
