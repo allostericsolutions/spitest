@@ -27,7 +27,8 @@ def format_question_for_openai(question_data, user_answer):
 
 def get_openai_explanation(incorrect_answers):
     """
-    Gets explanations from OpenAI for incorrect answers.
+    Gets explanations from OpenAI for incorrect answers,
+    adding 'Concept to Study:' if there's a local explanation.
     """
     explanations = {}
     for answer_data in incorrect_answers:
@@ -35,21 +36,27 @@ def get_openai_explanation(incorrect_answers):
         user_answer = answer_data["respuesta_usuario"]
         question_index = answer_data["indice_pregunta"]
 
-        # ------------------------------------
-        # NUEVO: si existe 'explicacion_openai' no se llama a OpenAI
-        # ------------------------------------
+        # Si hay explicación local, no llamamos a OpenAI
         local_explanation = question_data.get("explicacion_openai", "").strip()
+        concept_label = question_data.get("concept_to_study", "").strip()
+
         if local_explanation:
-            explanations[question_index] = local_explanation
+            # Para que se muestre al estilo de ChatGPT, añadimos "Concept to Study:" si corresponde
+            if concept_label:
+                # Combina la etiqueta con la explicación local
+                final_text = f"Concept to Study: {concept_label}\n{local_explanation}"
+            else:
+                # Si no hay concept_to_study, usamos la explicación local tal cual
+                final_text = local_explanation
+
+            explanations[question_index] = final_text
             continue
-        # ------------------------------------
 
+        # Si no hay explicación local, se llama a OpenAI
         formatted_question = format_question_for_openai(question_data, user_answer)
-
-        # Usamos el prompt importado y .format() para insertar los datos
         prompt = EXPLANATION_PROMPT.format(
             pregunta=formatted_question,
-            respuesta_incorrecta=user_answer,  # Podría usarse directamente, pero por claridad
+            respuesta_incorrecta=user_answer,
             respuesta_correcta=', '.join(question_data["respuesta_correcta"])
         )
 
