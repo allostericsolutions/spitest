@@ -19,7 +19,7 @@ class CustomPDF(FPDF):
 
     def header(self):
         """
-        Header desactivado (sello de agua comentado).
+        Encabezado desactivado (sello de agua comentado).
         """
         pass
 
@@ -38,7 +38,7 @@ class CustomPDF(FPDF):
         self.set_y(-10)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         timestamp = to_latin1(timestamp)
-        self.cell(0, 5, f"Generated on: ", align='C')
+        self.cell(0, 5, f"Generated on: {timestamp}", align='C')
 
 # --- Función Auxiliar (Modificada) ---
 def _draw_classification_row(pdf: FPDF, classification: str, value1: str, value2: str = None, value3: str = None):
@@ -95,69 +95,59 @@ def get_feedback(percent: float) -> str:
     return "Unknown"  # En caso de un valor inesperado
 
 def generate_pdf(user_data, score, status, photo_path=None):
-    """
-    Genera el PDF con dos tablas.
-    """
+    """Genera el PDF."""
     pdf = CustomPDF()
     pdf.add_page()
 
-    # Título
+    # --- Logo SOLO en la primera página ---
+    logo_path = os.path.join("assets", "AllostericSolutions.png")
+    if os.path.exists(logo_path):
+        pdf.image(logo_path, x=10, y=10, w=50)  # Ajusta x, y, w
+    # --------------------------------------
+
+    pdf.ln(40)  # Espacio DESPUÉS del logo (ajusta según sea necesario)
+
     pdf.set_font("Arial", 'B', 16)
     pdf.cell(0, 10, to_latin1("SPI - ARDMS Exam Result"), ln=True, align='C')
     pdf.ln(10)
-
-    # Datos de usuario
     pdf.set_font("Arial", '', 12)
     pdf.cell(0, 10, to_latin1(f"Name: {user_data.get('nombre', '')}"), ln=True)
     pdf.cell(0, 10, to_latin1(f"Email: {user_data.get('email', '')}"), ln=True)
 
-    # Foto
     if photo_path and os.path.exists(photo_path):
         pdf.image(photo_path, x=10, y=pdf.get_y() + 5, w=30)
         pdf.ln(40)
 
     pdf.ln(5)
-
-    # Puntuaciones
     pdf.set_font("Arial", 'B', 14)
-    pdf.cell(0, 10, to_latin1(f"Passing Score: 555"), ln=True)
+    pdf.cell(0, 10, to_latin1("Passing Score: 555"), ln=True)
     pdf.cell(0, 10, to_latin1(f"Your Score: {score}"), ln=True)
     pdf.cell(0, 10, to_latin1(f"Status: {status}"), ln=True)
     pdf.ln(5)
 
-    # --- Desglose por Clasificación (Dos Tablas) ---
     classification_stats = st.session_state.get("classification_stats")
     if classification_stats:
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(0, 10, to_latin1("Detailed Breakdown by Topic"), ln=True)
-
-        # --- Tabla 1: Clasificación y Preguntas Hechas ---
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(65, 8, to_latin1("Classification"), border=1, ln=0, align='C')
-        pdf.cell(22, 8, to_latin1("Q's Asked"), border=1, ln=1, align='C')  # Encabezado abreviado
+        pdf.cell(22, 8, to_latin1("Q's Asked"), border=1, ln=1, align='C')
         pdf.set_font("Arial", '', 12)
-
         total_questions_asked = 0
         for clasif, stats in classification_stats.items():
             total = stats.get("total", 0)
             total_questions_asked += total
             _draw_classification_row(pdf, clasif, total)
-
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(65, 8, to_latin1("TOTAL"), border=1, ln=0, align='C')
         pdf.cell(22, 8, str(total_questions_asked), border=1, ln=1, align='C')
-
-
-        pdf.ln(10)  # Espacio entre las tablas
-
-        # --- Tabla 2: Respuestas Correctas, Porcentaje y Comentarios ---
+        pdf.ln(10)
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(65, 8, to_latin1("Classification"), border=1, ln=0, align='C')
-        pdf.cell(22, 8, to_latin1("Correct"), border=1, ln=0, align='C')  # Encabezado abreviado
-        pdf.cell(22, 8, to_latin1("%"), border=1, ln=0, align='C')  # Encabezado abreviado
-        pdf.cell(70, 8, to_latin1("Feedback"), border=1, ln=1, align='C') # Más espacio para feedback
+        pdf.cell(22, 8, to_latin1("Correct"), border=1, ln=0, align='C')
+        pdf.cell(22, 8, to_latin1("%"), border=1, ln=0, align='C')
+        pdf.cell(70, 8, to_latin1("Feedback"), border=1, ln=1, align='C')
         pdf.set_font("Arial", '', 12)
-
         total_correct_answers = 0
         for clasif, stats in classification_stats.items():
             total = stats.get("total", 0)
@@ -165,56 +155,33 @@ def generate_pdf(user_data, score, status, photo_path=None):
             percent = (correct / total) * 100 if total > 0 else 0.0
             feedback = get_feedback(percent)
             total_correct_answers += correct
-            _draw_classification_row(pdf, clasif, correct, f"{percent:.2f}%", feedback)  # Formato a 2 decimales
-
+            _draw_classification_row(pdf, clasif, correct, f"{percent:.2f}%", feedback)
         total_percent = (total_correct_answers / total_questions_asked) * 100 if total_questions_asked > 0 else 0.0
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(65, 8, to_latin1("TOTAL"), border=1, ln=0, align='C')
         pdf.cell(22, 8, str(total_correct_answers), border=1, ln=0, align='C')
         pdf.cell(22, 8, f"{total_percent:.2f}%", border=1, ln=0, align='C')
-        pdf.cell(70, 8, get_feedback(total_percent), border=1, ln=1, align='C')  # Feedback para el total
-
-
+        pdf.cell(70, 8, get_feedback(total_percent), border=1, ln=1, align='C')
     pdf.ln(5)
 
-   # --- Explicaciones y Feedback ---
     explanations = st.session_state.get("explanations")
     if explanations:
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(0, 10, to_latin1("Explanations & Feedback"), ln=True)
         pdf.set_font("Arial", '', 11)
-
         for q_idx, exp_text in explanations.items():
-            #  No se necesita concept_number
-            #  if str(q_idx).isdigit():
-            #    concept_number = int(q_idx) + 1
-            #  else:
-            #     concept_number = q_idx
-
-            # Buscar "Concept to Study:" y ponerlo en negrita
-            exp_text = to_latin1(exp_text) # Convertir todo antes.
+            exp_text = to_latin1(exp_text)
             if "Concept to Study:" in exp_text:
                 parts = exp_text.split("Concept to Study:", 1)
-                before = parts[0]
-                rest = parts[1]
-
-                pdf.multi_cell(0, 6, before) # Parte antes (si existe)
-
-                pdf.set_font("Arial", 'B', 11) # Negrita
+                pdf.multi_cell(0, 6, parts[0])
+                pdf.set_font("Arial", 'B', 11)
                 pdf.multi_cell(0, 6, "Concept to Study:")
-                pdf.set_font("Arial", '', 11) # Volver a normal
-
-                pdf.multi_cell(0, 6, rest.lstrip()) #.lstrip() para quitar espacios
+                pdf.set_font("Arial", '', 11)
+                pdf.multi_cell(0, 6, parts[1].lstrip())
             else:
-                # Si no se encuentra "Concept to Study:", imprimir normal
                 pdf.multi_cell(0, 6, exp_text)
-
             pdf.ln(4)
 
-    # Guardar PDF
-    if not os.path.exists("results"):
-        os.makedirs("results")
+    if not os.path.exists("results"):  os.makedirs("results")
     file_name = f"{user_data.get('email', 'unknown')}_result.pdf"
-    path = os.path.join("results", file_name)
-    pdf.output(path)
-    return path
+    return pdf.output(os.path.join("results", file_name))
