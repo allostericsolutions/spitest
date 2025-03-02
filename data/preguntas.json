@@ -14911,12 +14911,12 @@
             "Decreases"
         ]
     },
-    {
+   {
     "clasificacion": "Physical Principles",
     "grupo": "5-8-1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Observe the ultrasound image. What is the name of the artifact indicated by the increased echogenicity behind the fluid-filled structure?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Acoustic shadowing",
       "Reverberation artifact",
@@ -14932,7 +14932,7 @@
     "grupo": "5-8-2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In the ultrasound image, you see a bright area behind a cyst. What is this artifact commonly called?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Mirror image artifact",
       "Enhanced through transmission",
@@ -14948,7 +14948,7 @@
     "grupo": "5-8-3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A patient with a known liver cyst undergoes an ultrasound examination. The area deep to the cyst appears brighter than the surrounding tissue. What is the cause of this increased brightness?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Increased attenuation of sound waves",
       "Reduced speed of sound in the cyst",
@@ -14964,7 +14964,7 @@
     "grupo": "5-8-4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which artifact is characterized by increased echogenicity distal to a structure with low attenuation?",
-    "image": "enhacement.jpg",
+    "image": "",
     "opciones": [
       "Comet tail artifact",
       "Posterior enhancement",
@@ -14980,7 +14980,7 @@
     "grupo": "5-8-5",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What physical principle explains the presence of 'enhanced through transmission' seen in this ultrasound image?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "The structure in front of the artifact has higher acoustic impedance than the surrounding tissue.",
       "The structure in front of the artifact has lower attenuation than the surrounding tissue.",
@@ -14996,7 +14996,7 @@
     "grupo": "5-8-6",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "While performing an abdominal ultrasound, you notice a region of increased brightness distal to a fluid-filled structure. This is most likely:",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Shadowing",
       "Acoustic enhancement",
@@ -15012,7 +15012,7 @@
     "grupo": "5-8-7",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "The hyperechoic area posterior to the anechoic structure in this image is consistent with which artifact?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Slice thickness artifact",
       "Posterior acoustic shadowing",
@@ -15028,7 +15028,7 @@
     "grupo": "5-8-8",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What causes the increased signal intensity seen deep to the fluid-filled structure in this ultrasound image?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Increased reflection at the fluid-tissue interface",
       "Reduced attenuation through the fluid",
@@ -15044,7 +15044,7 @@
     "grupo": "5-8-9",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer observes a bright region distal to a gallbladder filled with bile. What is the most appropriate term to describe this finding?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Attenuation artifact",
       "Enhanced through transmission",
@@ -15060,7 +15060,7 @@
     "grupo": "5-8-10",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following best describes the appearance of acoustic enhancement on an ultrasound image?",
-    "image": "enhacement.jpg",
+    "image": "",
     "opciones": [
       "A dark area behind a highly attenuating structure",
       "A series of repeating echoes distal to a strong reflector",
@@ -15076,7 +15076,7 @@
     "grupo": "5-8-11",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In ultrasonography, posterior enhancement is often observed behind:",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Bones",
       "Air-filled structures",
@@ -15092,7 +15092,7 @@
     "grupo": "5-8-12",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "You are scanning a patient with ascites. Distal to the ascitic fluid, you observe an area of increased echogenicity. What is the likely explanation for this?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "The ascitic fluid has high protein content.",
       "The ultrasound beam is being reflected by small gas bubbles.",
@@ -15108,7 +15108,7 @@
     "grupo": "5-8-13",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of these structures is MOST likely to demonstrate acoustic enhancement?",
-    "image": "enhacement.jpg",
+    "image": "",
     "opciones": [
       "A renal stone",
       "A simple ovarian cyst",
@@ -15124,7 +15124,7 @@
     "grupo": "5-8-14",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "While performing a FAST exam, you see increased echogenicity behind the free fluid in Morrison's pouch.  This artifact is called:",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Mirror Image",
       "Reverberation",
@@ -15140,7 +15140,7 @@
     "grupo": "5-8-15",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Observing the ultrasound image, what characteristic of the structure *anterior* to the bright region contributes to the artifact seen?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "High reflectivity",
       "Low attenuation",
@@ -15156,7 +15156,7 @@
     "grupo": "5-8-16",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Looking at the displayed ultrasound image, how would you describe the echogenicity of the region *distal* to the anechoic area?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Hypoechoic",
       "Hyperechoic",
@@ -15172,7 +15172,7 @@
     "grupo": "5-8-17",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "The artifact present in the ultrasound image is clinically useful because it can help differentiate:",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Solid masses from cystic structures",
       "Arterial from venous flow",
@@ -15188,7 +15188,7 @@
     "grupo": "5-8-18",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the ultrasound image, what can you infer about the composition of the structure causing the *enhanced through transmission*?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "It is likely composed of dense, calcified material.",
       "It is likely filled with gas.",
@@ -15204,7 +15204,7 @@
     "grupo": "5-8-19",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If you were to increase the overall gain while viewing this image, what would happen to the region of posterior enhancement?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "It would become less noticeable.",
       "It would become more pronounced.",
@@ -15220,7 +15220,7 @@
     "grupo": "5-8-20",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "On the ultrasound image, the presence of *posterior acoustic enhancement* suggests that the structure causing it is:",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "A strong reflector of ultrasound.",
       "A strong attenuator of ultrasound.",
@@ -15236,7 +15236,7 @@
     "grupo": "5-8-21",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Referring to the image, what adjustment to your imaging technique might *reduce* the prominence of the acoustic enhancement?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Increasing the transmit frequency",
       "Decreasing the overall gain",
@@ -15252,7 +15252,7 @@
     "grupo": "5-8-22",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Considering the ultrasound image, could this artifact be mistaken for a pathological finding?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Yes, it could be misinterpreted as increased tissue density.",
       "Yes, it could be mistaken for a solid mass.",
@@ -15268,7 +15268,7 @@
     "grupo": "5-8-23",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In the context of this image, how does *acoustic enhancement* affect your ability to visualize structures *deep* to the anechoic region?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "It obscures the deeper structures.",
       "It improves visualization of deeper structures.",
@@ -15284,7 +15284,7 @@
     "grupo": "5-8-24",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "When you see this artifact on the ultrasound screen, what is the FIRST thing you should consider about the structure *PRODUCING* the enhancement?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Its size",
       "Its shape",
@@ -15300,7 +15300,7 @@
     "grupo": "5-8-25",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the artifact you see in this image, what type of tissue interface is LEAST likely to be present immediately anterior to the bright region?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Fluid-soft tissue",
       "Soft tissue-bone",
@@ -15316,7 +15316,7 @@
     "grupo": "5-8-26",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Imagine you are teaching a student. How would you describe the echotexture of the area exhibiting posterior enhancement *compared to* the surrounding tissue in THIS image?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "It is relatively darker",
       "It is relatively brighter",
@@ -15332,7 +15332,7 @@
     "grupo": "5-8-27",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Looking at this specific ultrasound image, if the structure causing the enhancement were *smaller*, how would the enhancement itself likely change?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "The enhancement would be wider.",
       "The enhancement would be narrower.",
@@ -15348,7 +15348,7 @@
     "grupo": "5-8-28",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Given what you see in this image, is it possible to determine the *exact* depth of the structure causing the enhancement, using *only* this B-mode image?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "Yes, by measuring the distance on the screen.",
       "Yes, by using the time-gain compensation (TGC) curve.",
@@ -15364,7 +15364,7 @@
     "grupo": "5-8-29",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the image, what would happen to the posterior enhancement if the structure causing it were to suddenly fill with *blood* instead of clear fluid?",
-    "image": "enhacement.jpg",
+    "image": "enhacement.png",
     "opciones": [
       "The enhancement would become more pronounced.",
       "The enhancement would likely decrease or disappear.",
