@@ -378,24 +378,6 @@
     "explicacion_openai": "The AIUM statement indicates that no independently confirmed significant biological effects have been observed in mammalian tissues with unfocused ultrasound beams having SPTA (Spatial Peak Temporal Average) intensities below 100 mW/cm²."
   },
   {
-    "clasificacion": "Physical Principles",
-    "grupo": "7-35",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following adjustments is MOST likely set too high?",
-    "image": "",
-    "opciones": [
-      "Decrease receiver gain.",
-      "Increase period.",
-      "Decrease the output power.",
-      "Decrease the frequency of the transducer."
-    ],
-    "respuesta_correcta": [
-      "Decrease the output power."
-    ],
-    "concept_to_study": "Output Power and Image Brightness",
-    "explicacion_openai": "The question is incomplete, It is not clear what is set too high. It is missing data, but it is intended for the student to recognize that if the image is too bright, the first thing to adjust, under the ALARA principle, is the output power."
-  },
-   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "8-1",
     "tipo_pregunta": "opcion_multiple",
@@ -410,8 +392,8 @@
     "respuesta_correcta": [
       "Overall Gain (Receiver Gain)"
     ],
-    "concept_to_study": "Overall Gain (Receiver Gain) and Saturation",
-    "explicacion_openai": "Excessive overall gain (receiver gain) amplifies all returning echoes, including noise, leading to an overly bright image. This can cause saturation, where strong echoes exceed the display's maximum brightness, resulting in a loss of detail."
+    "concept_to_study": "",
+    "explicacion_openai": ""
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
