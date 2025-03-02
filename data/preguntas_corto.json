@@ -478,5 +478,21 @@
     "respuesta_correcta": [
       "Comet tail artifact"
     ]
-  }
+  },
+  {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on your observation of the image, how does the size of the shadowing object relate to the width of the shadow at its origin?",
+        "image": "shadowing.png",
+        "opciones": [
+            "The shadow is wider than the object.",
+            "The shadow is narrower than the object.",
+            "The shadow is approximately the same width as the object.",
+            "The size of the object and shadow are unrelated."
+        ],
+        "respuesta_correcta": [
+            "The shadow is approximately the same width as the object."
+        ]
+    }
 ]
