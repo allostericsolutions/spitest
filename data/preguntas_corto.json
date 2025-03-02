@@ -452,7 +452,7 @@
     "grupo": "5-8-26",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Imagine you are teaching a student. How would you describe the echotexture of the area exhibiting posterior enhancement *compared to* the surrounding tissue in THIS image?",
-    "image": "comet_tail.png",
+    "image": "enhacement.png",
     "opciones": [
       "It is relatively darker",
       "It is relatively brighter",
