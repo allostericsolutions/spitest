@@ -431,7 +431,7 @@
             "Bone"
         ]
     },
-    {
+        {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "12-10",
         "tipo_pregunta": "opcion_multiple",
@@ -446,5 +446,20 @@
         "respuesta_correcta": [
             "To ensure the patient understands the procedure and its risks/benefits"
         ]
-    }
-]
+    },
+    {
+  "clasificacion": "Physical Principles",
+  "grupo": "5-8-1",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Examine the ultrasound image from a patient presenting with right upper quadrant pain, a condition commonly associated with gallbladder adenomyomatosis. Which ultrasound artifact is displayed in the image?",
+  "image": "assets/comet tail.png",
+  "opciones": [
+    "Comet tail artifact",
+    "Ring-down artifact",
+    "Mirror image artifact",
+    "Acoustic shadowing"
+  ],
+  "respuesta_correcta": [
+    "Comet tail artifact"
+  ]
+}
