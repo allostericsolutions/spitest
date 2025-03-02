@@ -15374,5 +15374,262 @@
     "respuesta_correcta": [
       "The enhancement would likely decrease or disappear."
     ]
+  },
+  {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Observing the ultrasound image, what is the primary cause of the dark area seen distal to the echogenic structure?",
+        "image": "shadowing.png",
+        "opciones": [
+            "High reflection and absorption of ultrasound waves",
+            "Low attenuation of ultrasound waves",
+            "Refraction of ultrasound waves",
+            "Increased speed of sound"
+        ],
+        "respuesta_correcta": [
+            "High reflection and absorption of ultrasound waves"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the ultrasound image, how would you describe the echogenicity of the region directly beneath the bright, rounded structure?",
+        "image": "shadowing.png",
+        "opciones": [
+            "Hyperechoic",
+            "Isoechoic",
+            "Anechoic",
+            "Hypoechoic"
+        ],
+        "respuesta_correcta": [
+            "Anechoic"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on the ultrasound image, what can you infer about the composition of the structure causing the acoustic shadowing?",
+        "image": "shadowing.png",
+        "opciones": [
+            "It is likely fluid-filled.",
+            "It is likely composed of soft tissue.",
+            "It is likely composed of highly attenuating material like bone or stone.",
+            "It is likely air-filled."
+        ],
+        "respuesta_correcta": [
+            "It is likely composed of highly attenuating material like bone or stone."
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Looking at the image, how does the presence of acoustic shadowing affect your ability to visualize structures deep to the shadowing object?",
+        "image": "shadowing.png",
+        "opciones": [
+          "It improves visualization.",
+          "It has no effect.",
+          "It obscures or prevents visualization.",
+          "It enhances visualization slightly."
+        ],
+        "respuesta_correcta": [
+          "It obscures or prevents visualization."
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If you were to change the frequency of the transducer while examining this shadowing artifact, what would you *most likely* observe?",
+        "image": "shadowing.png",
+        "opciones": [
+          "The shadow would disappear.",
+          "The shadow would become wider with a higher frequency.",
+          "The shadow would become narrower with a higher frequency.",
+          "The shadow's appearance would be relatively unchanged."
+        ],
+        "respuesta_correcta": [
+          "The shadow's appearance would be relatively unchanged."
+        ]
+      },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Observing the image, what shape best describes the region of acoustic shadowing?",
+        "image": "shadowing.png",
+        "opciones": [
+          "Circular",
+          "Triangular",
+          "Cone-shaped, widening distally",
+          "Irregular"
+        ],
+        "respuesta_correcta": [
+          "Cone-shaped, widening distally"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the ultrasound image, what is the term used to describe the dark area distal to the highly attenuating structure?",
+        "image": "shadowing.png",
+        "opciones": [
+            "Posterior enhancement",
+            "Acoustic shadowing",
+            "Reverberation",
+            "Mirror image"
+        ],
+        "respuesta_correcta": [
+            "Acoustic shadowing"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on your observation of the image, how does the size of the shadowing object relate to the width of the shadow at its origin?",
+        "image": "shadowing.png",
+        "opciones": [
+            "The shadow is wider than the object.",
+            "The shadow is narrower than the object.",
+            "The shadow is approximately the same width as the object.",
+            "The size of the object and shadow are unrelated."
+        ],
+        "respuesta_correcta": [
+            "The shadow is approximately the same width as the object."
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Looking at the ultrasound image, is the shadowing 'clean' or 'dirty'?",
+        "image": "shadowing.png",
+        "opciones": [
+            "Clean",
+            "Dirty",
+            "Cannot be determined from the image",
+            "Neither clean nor dirty"
+        ],
+        "respuesta_correcta": [
+            "Clean"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on what you see in the image, what could you do to try and visualize the tissue *behind* the shadowing?",
+        "image": "shadowing.png",
+        "opciones":[
+            "Increase the overall gain.",
+            "Decrease the imaging depth.",
+            "Try scanning from a different angle.",
+            "Increase the transmit frequency."
+
+        ],
+        "respuesta_correcta":[
+            "Try scanning from a different angle."
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-11",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following structures is MOST likely to produce acoustic shadowing?",
+        "image": "",
+        "opciones": [
+            "A fluid-filled cyst",
+            "A renal calculus",
+            "Fatty tissue",
+            "A blood vessel"
+        ],
+        "respuesta_correcta": [
+            "A renal calculus"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-12",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary mechanism responsible for acoustic shadowing in ultrasound?",
+        "image": "",
+        "opciones": [
+            "Refraction",
+            "Scattering",
+            "High reflection and/or absorption",
+            "Diffraction"
+        ],
+        "respuesta_correcta": [
+            "High reflection and/or absorption"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-13",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 'dirty' shadow, as opposed to a 'clean' shadow, is typically caused by:",
+        "image": "",
+        "opciones": [
+            "Strong reflectors",
+            "Gas",
+            "Calcifications",
+            "Fluid"
+        ],
+        "respuesta_correcta": [
+            "Gas"
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-14",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In general terms, how does acoustic shadowing appear on a B-mode ultrasound image?",
+        "image": "",
+        "opciones": [
+          "A bright area behind a structure.",
+          "A dark area behind a structure.",
+          "A series of parallel lines.",
+          "A distorted, duplicated structure."
+        ],
+        "respuesta_correcta": [
+          "A dark area behind a structure."
+        ]
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "5-9-15",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is LEAST likely to cause significant acoustic shadowing?",
+        "image": "",
+        "opciones":[
+            "Bone",
+            "Air",
+            "Kidney Stone",
+            "Muscle"
+        ],
+        "respuesta_correcta":[
+            "Muscle"
+        ]
+    },
+     {
+    "clasificacion": "Physical Principles",
+    "grupo": "5-9-16",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Clean shadowing is most often associated with which of these?",
+    "image": "",
+    "opciones": [
+      "Air bubbles",
+      "Surgical clips",
+      "Fluid collections",
+      "Soft tissue interfaces"
+    ],
+    "respuesta_correcta": [
+      "Surgical clips"
+    ]
   }
 ]
