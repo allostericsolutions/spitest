@@ -83,19 +83,21 @@ def calculate_score():
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
-            # Si es correcta, incrementamos el contador de aciertos para esta clasificación
+            # Acierto: incrementa el contador de esa clasificación
             classification_stats[clasif]["correct"] += 1
-        elif user_answer is not None:  # Solo registra si el usuario *respondió*
+        elif user_answer is not None:  # Solo se registra si el usuario respondió
+            # Construimos la info de respuesta incorrecta con la explicación local, si existe
             incorrect_info = {
                 "pregunta": {
                     "enunciado": question["enunciado"],
                     "opciones": question["opciones"],
                     "respuesta_correcta": question["respuesta_correcta"],
                     "image": question.get("image"),
+                    "explicacion_openai": question.get("explicacion_openai", ""),
                     # ─────────────────────────────────────────────────────────────
-                    # LÍNEA AÑADIDA: Incluimos la posible explicación local
+                    # LÍNEA AÑADIDA: Incluimos también el tema/concepto
                     # ─────────────────────────────────────────────────────────────
-                    "explicacion_openai": question.get("explicacion_openai", "")
+                    "concept_to_study": question.get("concept_to_study", "")
                 },
                 "respuesta_usuario": user_answer,
                 "indice_pregunta": idx
@@ -104,7 +106,7 @@ def calculate_score():
             print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
 
     print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
-    print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}") # DEBUG
+    print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
 
     # Guardar la estadística de clasificaciones en session_state (para usar en finalize_exam)
     st.session_state.classification_stats = classification_stats
