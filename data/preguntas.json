@@ -788,8 +788,8 @@
     "respuesta_correcta": [
       "They are inversely proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Impedance and transmission",
+    "explicacion_openai": "They are inversely proportional. As the difference (or mismatch) in impedances increases, more sound is reflected and less is transmitted, leading to an inverse relationship between impedance and transmission."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5666,8 +5666,8 @@
     "respuesta_correcta": [
       "Speed of sound artifact"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "The speed of sound artifact",
+    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system assumes a constant speed of sound in tissue, typically 1540 m/s. If the actual speed of sound differs due to variations in tissue composition, structures may appear at incorrect depths on the image. This can lead to misinterpretation of the location and size of anatomical structures"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5720,8 +5720,8 @@
     "respuesta_correcta": [
       "Beam width"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Lateral resolution and Beam with",
+    "explicacion_openai": "Lateral resolution is primarily determined by the beam width because it describes how narrow or wide the ultrasound beam is when it scans across the tissue. A narrower beam better distinguishes two points located side by side"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5738,8 +5738,8 @@
     "respuesta_correcta": [
       "Axial resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Axial Resolution and SPL",
+    "explicacion_openai": "Axial resolution is primarily related to the spatial pulse length. The shorter the spatial pulse length, the better the axial resolution, because it reduces the minimum distance necessary to distinguish two reflectors located along the beam’s path"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -6692,8 +6692,8 @@
     "respuesta_correcta": [
       "Regular software updates"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "preventive measure for ultrasound equipment",
+    "explicacion_openai": "Regular software updates are essential for maintaining the functionality and safety of ultrasound equipment, ensuring that it operates with the latest features and fixes. This practice helps prevent technical issues and enhances the overall performance of the system"
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7628,8 +7628,8 @@
     "respuesta_correcta": [
       "AIUM"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Ultrasound Accreditation",
+    "explicacion_openai": "The American Institute of Ultrasound in Medicine (AIUM) primarily sets guidelines for ultrasound practice"
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -8204,8 +8204,8 @@
     "respuesta_correcta": [
       "Radiation forces"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Radiation forces of a sound beam",
+    "explicacion_openai": "Radiation forces are the direct mechanical forces exerted by an ultrasound beam when it interacts with tissue, an absorber, or a reflector. As the sound wave travels through a material, it carries momentum that can be transferred to whatever it encounters. This transfer of momentum can result in slight pushes or pulls on the structures, potentially causing them to move or deform. These forces are distinct from cavitation (bubble formation and collapse), involving instead a steady, continuous pressure exerted by the acoustic energy"
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -11372,8 +11372,8 @@
     "respuesta_correcta": [
       "It decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Continuity equation",
+    "explicacion_openai": "If the cross-sectional area (the 2D area created by slicing the vessel perpendicular to its length) increases, velocity must decrease to keep volume flow constant, and vice versa. This is explained by the continuity equation (Q = A × v), where Q is volume flow, A is area, and v is velocity. Because Q remains the same, if A goes up, v must go down; if A goes down, v must go up"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -11660,8 +11660,8 @@
     "respuesta_correcta": [
       "Overmeasurement of the velocities"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Doppler gain Settings",
+    "explicacion_openai": "When the spectral Doppler gain is set too high, it can lead to an overestimation of blood flow velocities. This occurs because excessive gain amplifies noise and artifacts, which can falsely elevate the measured velocities. Proper gain settings are essential for accurate Doppler measurements"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -12704,8 +12704,8 @@
     "respuesta_correcta": [
       "Hospital-acquired infection"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Hospital-acquired infection",
+    "explicacion_openai": "A nosocomial infection is an infection that is acquired in a hospital or healthcare facility, typically occurring 48 hours or more after admission. These infections can arise from various sources within the hospital environment and are a significant concern for patient safety and healthcare quality"
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -15458,8 +15458,8 @@
     "respuesta_correcta": [
       "Laminar"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Laminar Flow",
+    "explicacion_openai": "Laminar flow is characterized by smooth, orderly movement of fluid in parallel layers, typically occurring in smaller vessels and at lower velocities. It is the most common type of flow in the body, allowing for efficient and uninterrupted blood circulation"
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -15926,8 +15926,8 @@
     "respuesta_correcta": [
       "Output power"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Mechanical Index and Output Power",
+    "explicacion_openai": "The mechanical index (MI) is most directly related to the output power . MI is influenced by the peak negative pressure of the ultrasound wave, which is driven by the transmit or output power. Increasing output power leads to higher peak pressures and therefore a higher mechanical index"
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -16286,8 +16286,8 @@
     "respuesta_correcta": [
       "6 cm"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Calculate the distance to a reflector",
+    "explicacion_openai": "Step-by-step explanation:\n1. The total round-trip travel time is 78 µs.\n2. Half of this time (one-way) is 39 µs.\n3. The speed of sound in soft tissue is approximately 1.54 mm/µs.\n4. Distance (one-way) = 39 µs × 1.54 mm/µs = 60 mm = 6 cm.\nTherefore, the reflector is located 6 cm from the transducer"
   },
   {
     "clasificacion": "Physical Principles",
