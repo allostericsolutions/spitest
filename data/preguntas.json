@@ -17186,7 +17186,7 @@
     "respuesta_correcta": [
       "It improves visualization of deeper structures."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17204,7 +17204,7 @@
     "respuesta_correcta": [
       "Its likely composition"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17222,7 +17222,7 @@
     "respuesta_correcta": [
       "Soft tissue-bone"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17240,7 +17240,7 @@
     "respuesta_correcta": [
       "It is relatively brighter"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17258,7 +17258,7 @@
     "respuesta_correcta": [
       "The enhancement would be narrower."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17276,7 +17276,7 @@
     "respuesta_correcta": [
       "No, additional information or imaging modes are needed."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17294,7 +17294,7 @@
     "respuesta_correcta": [
       "The enhancement would likely decrease or disappear."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic enhancement",
     "explicacion_openai": ""
   },
   {
@@ -17312,7 +17312,7 @@
     "respuesta_correcta": [
       "High reflection and absorption of ultrasound waves"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17330,7 +17330,7 @@
     "respuesta_correcta": [
       "Anechoic"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17348,7 +17348,7 @@
     "respuesta_correcta": [
       "It is likely composed of highly attenuating material like bone or stone."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17366,7 +17366,7 @@
     "respuesta_correcta": [
       "It obscures or prevents visualization."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17384,7 +17384,7 @@
     "respuesta_correcta": [
       "The shadow's appearance would be relatively unchanged."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17402,7 +17402,7 @@
     "respuesta_correcta": [
       "Cone-shaped, widening distally"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17420,7 +17420,7 @@
     "respuesta_correcta": [
       "Acoustic shadowing"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17438,7 +17438,7 @@
     "respuesta_correcta": [
       "The shadow is approximately the same width as the object."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17456,7 +17456,7 @@
     "respuesta_correcta": [
       "Clean"
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17474,7 +17474,7 @@
     "respuesta_correcta": [
       "Try scanning from a different angle."
     ],
-    "concept_to_study": "",
+    "concept_to_study": "Acoustic shadowing",
     "explicacion_openai": ""
   },
   {
@@ -17492,8 +17492,8 @@
     "respuesta_correcta": [
       "A renal calculus"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "A renal calculus is dense and reflective, causing significant attenuation of the ultrasound beam and creating a distinct shadow."
   },
   {
     "clasificacion": "Physical Principles",
@@ -17510,8 +17510,8 @@
     "respuesta_correcta": [
       "High reflection and/or absorption"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "When the ultrasound beam is strongly reflected or absorbed, there is little sound energy transmitted deeper, resulting in a shadow."
   },
   {
     "clasificacion": "Physical Principles",
@@ -17528,8 +17528,8 @@
     "respuesta_correcta": [
       "Gas"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "Gas scatters and reverberates the sound beam, resulting in a more chaotic or 'dirty' shadow appearance."
   },
   {
     "clasificacion": "Physical Principles",
@@ -17546,8 +17546,8 @@
     "respuesta_correcta": [
       "A dark area behind a structure."
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "Acoustic shadowing presents as a hypoechoic or anechoic region behind a strongly attenuating or reflecting structure."
   },
   {
     "clasificacion": "Physical Principles",
@@ -17564,8 +17564,8 @@
     "respuesta_correcta": [
       "Muscle"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "Muscle generally does not produce a pronounced shadow compared to dense objects like bone, stones, or air."
   },
   {
     "clasificacion": "Physical Principles",
@@ -17582,7 +17582,7 @@
     "respuesta_correcta": [
       "Surgical clips"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic shadowing",
+    "explicacion_openai": "Surgical clips are highly reflective and produce a well-defined shadow with minimal scattering, resulting in a 'clean' shadow."
   }
 ]
