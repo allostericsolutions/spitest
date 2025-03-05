@@ -14,8 +14,8 @@
     "respuesta_correcta": [
       "Inversely proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "In ultrasound physics, frequency and wavelength have an inverse relationship (c = f × λ).",
+    "explicacion_openai": "When frequency increases, wavelength decreases, assuming a constant speed of sound in tissue."
   },
   {
     "clasificacion": "Physical Principles",
@@ -32,8 +32,8 @@
     "respuesta_correcta": [
       "Decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Higher frequency leads to shorter wavelength.",
+    "explicacion_openai": "If the propagation speed remains constant, wavelength must decrease as frequency increases."
   },
   {
     "clasificacion": "Physical Principles",
@@ -50,8 +50,8 @@
     "respuesta_correcta": [
       "The wavelength decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "An increase in frequency results in a decrease in wavelength.",
+    "explicacion_openai": "Because c = f × λ, if c is constant, a higher f means a shorter λ."
   },
   {
     "clasificacion": "Physical Principles",
@@ -68,8 +68,8 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength changes inversely with frequency.",
+    "explicacion_openai": "As frequency increases, the wavelength automatically decreases."
   },
   {
     "clasificacion": "Physical Principles",
@@ -86,8 +86,8 @@
     "respuesta_correcta": [
       "It decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength decreases with increasing frequency.",
+    "explicacion_openai": "Maintaining a constant sound velocity, a rise in frequency causes a shorter wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -104,8 +104,8 @@
     "respuesta_correcta": [
       "Wavelength decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency and wavelength are inversely proportional in ultrasound.",
+    "explicacion_openai": "An increase in frequency reduces wavelength, given that speed = frequency × wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -122,8 +122,8 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength and frequency have an inverse relationship.",
+    "explicacion_openai": "Doubling the frequency halves the wavelength, with sound speed unchanged."
   },
   {
     "clasificacion": "Physical Principles",
@@ -140,8 +140,8 @@
     "respuesta_correcta": [
       "Higher frequency decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "As frequency goes up, wavelength shrinks.",
+    "explicacion_openai": "Under a constant propagation velocity, raising frequency demands a shorter wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -158,8 +158,8 @@
     "respuesta_correcta": [
       "Decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency is inversely proportional to wavelength.",
+    "explicacion_openai": "When frequency rises, wavelength must drop because velocity remains stable."
   },
   {
     "clasificacion": "Physical Principles",
@@ -176,8 +176,8 @@
     "respuesta_correcta": [
       "It decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A higher frequency translates to a shorter wavelength.",
+    "explicacion_openai": "Since c = f × λ, increasing frequency forces a decrease in wavelength at a constant speed."
   },
   {
     "clasificacion": "Physical Principles",
@@ -194,8 +194,8 @@
     "respuesta_correcta": [
       "Inversely proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency and wavelength are inversely proportional in ultrasound.",
+    "explicacion_openai": "More frequency equals a shorter wavelength, assuming constant speed of sound."
   },
   {
     "clasificacion": "Physical Principles",
@@ -212,8 +212,8 @@
     "respuesta_correcta": [
       "Decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "When frequency increases, wavelength decreases accordingly.",
+    "explicacion_openai": "Soft tissue speed stays roughly constant, so higher frequency inevitably shortens the wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -230,8 +230,8 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "In ultrasound, wavelength is inversely proportional to frequency.",
+    "explicacion_openai": "If frequency doubles, wavelength is halved, assuming a constant propagation speed."
   },
   {
     "clasificacion": "Physical Principles",
@@ -248,8 +248,8 @@
     "respuesta_correcta": [
       "Decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Increasing frequency decreases wavelength.",
+    "explicacion_openai": "According to c = f × λ, raising f shortens λ if speed remains constant."
   },
   {
     "clasificacion": "Physical Principles",
@@ -266,8 +266,8 @@
     "respuesta_correcta": [
       "It decreases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength diminishes when frequency rises.",
+    "explicacion_openai": "Because c stays the same, an elevated frequency leads to a shorter wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -284,8 +284,8 @@
     "respuesta_correcta": [
       "Higher frequency decreases wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A rise in frequency results in a lower wavelength in ultrasound.",
+    "explicacion_openai": "Ultrasound speed is generally fixed in a given medium, so boosting frequency reduces wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -302,8 +302,8 @@
     "respuesta_correcta": [
       "Watt"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Power in ultrasound is expressed in watts (W).",
+    "explicacion_openai": "The SI unit of power is the watt, describing energy transfer per unit of time."
   },
   {
     "clasificacion": "Physical Principles",
@@ -320,8 +320,8 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength depends on the source's frequency and the medium’s speed of sound.",
+    "explicacion_openai": "Frequency is set by the transducer, while speed is inherent to the medium. Wavelength follows from both."
   },
   {
     "clasificacion": "Physical Principles",
@@ -338,8 +338,8 @@
     "respuesta_correcta": [
       "Attenuation increases"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Attenuation rises with higher frequency in ultrasound.",
+    "explicacion_openai": "High-frequency waves experience greater absorption and scattering, causing more attenuation."
   },
   {
     "clasificacion": "Physical Principles",
@@ -356,8 +356,8 @@
     "respuesta_correcta": [
       "cubic meters"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Volume is measured in cubic units, such as cubic meters.",
+    "explicacion_openai": "Square units represent area, whereas cubic units indicate volume."
   },
   {
     "clasificacion": "Physical Principles",
@@ -374,8 +374,8 @@
     "respuesta_correcta": [
       "Inversely proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency and period are reciprocal quantities.",
+    "explicacion_openai": "Period (time per cycle) = 1/f. If frequency goes up, period goes down."
   },
   {
     "clasificacion": "Physical Principles",
@@ -392,8 +392,8 @@
     "respuesta_correcta": [
       "Medium properties"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Sound speed is mainly determined by the stiffness and density of the medium.",
+    "explicacion_openai": "Neither frequency nor amplitude changes speed; it is governed by the medium’s physical characteristics."
   },
   {
     "clasificacion": "Physical Principles",
@@ -410,8 +410,8 @@
     "respuesta_correcta": [
       "Higher frequency decreases penetration"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Increasing ultrasound frequency reduces its penetration depth.",
+    "explicacion_openai": "High frequencies attenuate more rapidly, resulting in shallower penetration in tissues."
   },
   {
     "clasificacion": "Physical Principles",
