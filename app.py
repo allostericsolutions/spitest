@@ -12,6 +12,12 @@ from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
 from screens.user_data_input import user_data_input  # Se importa la función extraída
 
+# ─────────────────────────────────────────────────────────────
+# NUEVO IMPORT para las instrucciones
+# ─────────────────────────────────────────────────────────────
+from instrucctions.tab_view.instructions_tab import instructions_tab
+# ─────────────────────────────────────────────────────────────
+
 # Configuración de la página de Streamlit
 st.set_page_config(
     page_title="SPI Practice Exam - ARDMS",
@@ -282,6 +288,11 @@ def main():
     MAIN EXECUTION.
     """
     initialize_session()
+
+    # ─────────────────────────────────────────────────────────
+    # LLAMADO para mostrar las instrucciones (Expander)
+    # ─────────────────────────────────────────────────────────
+    instructions_tab()
 
     if not st.session_state.authenticated:
         authentication_screen()
