@@ -18120,5 +18120,175 @@
     ],
     "concept_to_study": "Nyquist Limit",
     "explicacion_openai": "The Nyquist limit is equal to one-half of the pulse repetition frequency (PRF/2). It represents the upper bound of Doppler shift frequencies that can be accurately displayed, preventing aliasing."
-  }
+  },
+  {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, at what angle of incidence between the ultrasound beam and the direction of blood flow is the Doppler shift MOST accurate?",
+        "image": "",
+        "opciones": [
+            "0 degrees",
+            "45 degrees",
+            "60 degrees",
+            "90 degrees"
+        ],
+        "respuesta_correcta": [
+            "0 degrees"
+        ],
+        "concept_to_study": "The Doppler shift is most accurate when the ultrasound beam is parallel to the direction of flow (0 degrees).",
+        "explicacion_openai": "The Doppler equation includes the cosine of the angle of incidence.  Cos(0) = 1, meaning the full velocity is measured.  As the angle increases, the cosine decreases, and the measured velocity is less than the actual velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, at what angle of incidence is NO Doppler shift detected?",
+        "image": "",
+        "opciones": [
+            "0 degrees",
+            "30 degrees",
+            "60 degrees",
+            "90 degrees"
+        ],
+        "respuesta_correcta": [
+            "90 degrees"
+        ],
+        "concept_to_study": "No Doppler shift is detected when the ultrasound beam is perpendicular to the direction of flow (90 degrees).",
+        "explicacion_openai": "The Doppler equation includes the cosine of the angle of incidence. Cos(90) = 0, meaning no component of the velocity is measured along the beam direction."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is angle correction often necessary in Doppler ultrasound velocity measurements?",
+        "image": "",
+        "opciones": [
+            "To make the image brighter.",
+            "To compensate for the non-zero angle between the ultrasound beam and blood flow.",
+            "To increase the frame rate.",
+            "To improve the spatial resolution."
+        ],
+        "respuesta_correcta": [
+            "To compensate for the non-zero angle between the ultrasound beam and blood flow."
+        ],
+        "concept_to_study": "Angle correction is used to estimate the true velocity of blood flow when the ultrasound beam is not perfectly aligned with the flow direction.",
+        "explicacion_openai": "The Doppler shift measures the component of velocity along the ultrasound beam. Angle correction uses the cosine of the angle of incidence to calculate the true velocity, which is usually higher than the directly measured velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducers are positioned to provide the most accurate Doppler velocity measurements? (The red arrow indicates the direction of blood flow.)",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A and B",
+            "C and D",
+            "Only E",
+            "C, D, and E"
+        ],
+        "respuesta_correcta": [
+            "A and B"
+        ],
+        "concept_to_study": "Transducers that are most closely aligned (smallest angle of incidence) with the direction of blood flow will produce the most accurate velocity measurements.",
+        "explicacion_openai": "The closer the angle of incidence is to 0 degrees, the closer the cosine of the angle is to 1. This minimizes the error in the Doppler velocity calculation. Transducers A and B are essentially parallel to the flow, resulting in the most accurate measurement."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift?",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "A"
+        ],
+        "concept_to_study": "A positive Doppler shift occurs when the blood flow is moving towards the transducer.",
+        "explicacion_openai": "Transducer A is positioned such that blood flow is moving towards it. This results in a higher received frequency compared to the transmitted frequency, hence a positive Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift?",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+           "E"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "A negative Doppler shift occurs when the blood flow is moving away from the transducer.",
+        "explicacion_openai": "Transducer B is positioned such that blood flow is moving away from it. This results in a lower received frequency compared to the transmitted frequency, hence a negative Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would detect no Doppler shift (no flow)?",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A",
+            "B",
+            "C and D",
+            "E",
+            "A and B"
+        ],
+        "respuesta_correcta": [
+            "E"
+        ],
+        "concept_to_study": "No Doppler shift is detected when the ultrasound beam is perpendicular to the direction of blood flow.",
+        "explicacion_openai": "Transducer E is positioned perpendicular (90-degree angle) to the blood flow.  The cosine of 90 degrees is 0, resulting in no measured velocity component along the beam direction, and therefore no Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift? (Select all that apply)",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "A",
+            "C"
+
+        ],
+        "concept_to_study": "A positive Doppler shift occurs when there is a component of blood flow moving towards the transducer.",
+        "explicacion_openai": "Transducers A and C are positioned such that a component of the blood flow is moving towards them. This results in a higher received frequency."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift? (Select all that apply)",
+        "image": "dopplerangle2.jpg",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "B",
+            "D"
+        ],
+        "concept_to_study": "A negative Doppler shift occurs when there is a component of blood flow moving away from the transducer.",
+        "explicacion_openai": "Transducers B and D are positioned such that a component of the blood flow is moving away from them. This results in a lower received frequency."
+    }
 ]
