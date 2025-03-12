@@ -70,6 +70,24 @@
     ],
     "concept_to_study": "Speed of Sound in Soft Tissue",
     "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same."
+   },
+   {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "Decrease the sample depth",
+      "Increase the Doppler angle",
+      "Use a continuous wave transducer",
+      "Decrease the frequency"
+    ],
+    "respuesta_correcta": [
+      "Decrease the sample depth"
+    ],
+    "concept_to_study": "Nyquist Limit",
+    "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
