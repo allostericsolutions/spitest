@@ -17854,5 +17854,271 @@
     ],
     "concept_to_study": "Color Doppler Steering",
     "explicacion_openai": "Steering the color box to be more parallel to the vessel's flow direction reduces the Doppler shift and can help minimize aliasing, even in tortuous vessels. By optimizing the color box steering, you can reduce the angle between the ultrasound beam and the blood flow, which in turn reduces the Doppler shift and helps to prevent aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You observe the following artifact in a pulsed-wave Doppler spectral display. What is the FIRST adjustment you should make to attempt to eliminate it?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "Increase PRF (Scale) setting",
+      "Decrease the sample depth",
+      "Decrease the frequency",
+      "Increase the Doppler angle"
+    ],
+    "respuesta_correcta": [
+      "Increase PRF (Scale) setting"
+    ],
+    "concept_to_study": "Aliasing",
+    "explicacion_openai": "Aliasing occurs when the Doppler shift frequency exceeds the Nyquist limit (PRF/2). Increasing the PRF raises the Nyquist limit, allowing higher velocities to be displayed without aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
+    "image": "",
+    "opciones": [
+      "Decrease the sample depth",
+      "Increase the Doppler angle",
+      "Use a continuous wave transducer",
+      "Decrease the frequency"
+    ],
+    "respuesta_correcta": [
+      "Decrease the sample depth"
+    ],
+    "concept_to_study": "Nyquist Limit",
+    "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit."
+  },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the artifact displayed in this image?",
+    "image": "aliasing.jpg",
+    "opciones": [
+        "Mirror image artifact",
+        "Aliasing",
+        "Range ambiguity",
+        "Reverberation"
+    ],
+    "respuesta_correcta": ["Aliasing"],
+    "concept_to_study": "Aliasing",
+    "explicacion_openai": "Aliasing occurs when the Doppler shift frequency exceeds the Nyquist limit (PRF/2), resulting in the wrapping around of the spectral waveform."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-4",
+     "tipo_pregunta": "opcion_multiple",
+    "enunciado": "This Doppler spectral display shows aliasing. Which of the following adjustments would likely be INEFFECTIVE in resolving this?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "Increasing the PRF",
+      "Decreasing the sample volume depth",
+      "Increasing the Doppler angle",
+      "Lowering the transducer frequency"
+    ],
+    "respuesta_correcta": [
+      "Increasing the Doppler angle"
+    ],
+    "concept_to_study": "Aliasing Correction",
+    "explicacion_openai": "Increasing the Doppler angle *increases* the Doppler shift, making aliasing *worse*.  The other options all help to *increase* the Nyquist limit or *decrease* the Doppler shift."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The spectral Doppler tracing shows wraparound of the waveform. What is the underlying cause of this appearance?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "The Doppler shift exceeds the Nyquist limit.",
+      "The Doppler gain is set too high.",
+      "The wall filter is set too low.",
+      "The sample volume is too large."
+    ],
+    "respuesta_correcta": [
+      "The Doppler shift exceeds the Nyquist limit."
+    ],
+    "concept_to_study": "Nyquist Limit and Aliasing",
+    "explicacion_openai": "Aliasing, visualized as wraparound, occurs when the Doppler shift frequency is higher than one-half of the pulse repetition frequency (the Nyquist limit)."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You see this appearance on a spectral Doppler display. Besides adjusting the PRF/Scale, what other machine control could potentially improve the display, making this artifact  less visually prominent?",
+    "image": "aliasing.jpg",
+    "opciones": [
+        "Increase the Doppler gain.",
+        "Adjust the baseline.",
+        "Increase the wall filter.",
+        "Decrease the dynamic range."
+    ],
+    "respuesta_correcta": ["Adjust the baseline."],
+    "concept_to_study": "Baseline Shift and Aliasing",
+    "explicacion_openai": "While adjusting the baseline doesn't *eliminate* the underlying aliasing, it can shift the displayed waveform to make the wraparound less visually apparent, potentially revealing more of the true velocity profile."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What technical parameter is directly related to the maximum Doppler shift frequency that can be displayed without the artifact seen in this image?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "Transmit frequency",
+      "Pulse Repetition Frequency (PRF)",
+      "Frame rate",
+      "Dynamic range"
+    ],
+    "respuesta_correcta": [
+      "Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "PRF and Nyquist Limit",
+    "explicacion_openai": "The Nyquist limit, which determines the maximum Doppler shift without aliasing, is directly proportional to the PRF (Nyquist limit = PRF/2)."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a pulsed-wave Doppler system, what is the relationship between the artifact observed in the image and the pulse repetition frequency (PRF)?",
+    "image": "aliasing.jpg",
+    "opciones": [
+        "The artifact is unrelated to the PRF.",
+        "The artifact occurs when the Doppler shift exceeds twice the PRF.",
+        "The artifact occurs when the Doppler shift exceeds half the PRF.",
+        "The artifact occurs when the Doppler shift is less than half the PRF."
+    ],
+    "respuesta_correcta": [
+        "The artifact occurs when the Doppler shift exceeds half the PRF."
+    ],
+    "concept_to_study": "Nyquist Limit",
+    "explicacion_openai": "The artifact, aliasing, occurs when the Doppler shift frequency is greater than the Nyquist limit, which is equal to PRF/2."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While attempting to eliminate the artifact present in this spectral Doppler image, which of the following actions is MOST likely to be successful if applied individually?",
+    "image": "aliasing.jpg",
+    "opciones": [
+        "Switching to a lower frequency transducer.",
+        "Increasing the Doppler angle to 60 degrees.",
+        "Decreasing the scale (PRF) setting.",
+        "Increasing the sample volume size."
+    ],
+    "respuesta_correcta": [
+        "Switching to a lower frequency transducer."
+    ],
+    "concept_to_study": "Aliasing and Transducer Frequency",
+    "explicacion_openai": "Lowering the transducer frequency reduces the Doppler shift for a given velocity, thus making it less likely to exceed the Nyquist limit and cause aliasing."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If you were unable to eliminate this artifact using conventional pulsed-wave Doppler techniques, which Doppler modality would be the BEST alternative to obtain accurate velocity measurements?",
+    "image": "aliasing.jpg",
+    "opciones": [
+      "Power Doppler",
+      "Color Flow Doppler",
+      "Continuous Wave (CW) Doppler",
+      "Tissue Doppler Imaging"
+    ],
+    "respuesta_correcta": [
+      "Continuous Wave (CW) Doppler"
+    ],
+    "concept_to_study": "CW Doppler and Aliasing",
+    "explicacion_openai": "Continuous Wave Doppler is not subject to aliasing and can measure arbitrarily high velocities, making it the best choice when pulsed-wave Doppler is insufficient."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-11",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are imaging a deep vessel and encountering aliasing.  Which transducer frequency would be MOST likely to allow you to resolve the aliasing, assuming all other factors remain constant?",
+    "image": "",
+    "opciones": [
+      "A higher frequency transducer",
+      "A lower frequency transducer",
+      "Transducer frequency does not affect aliasing",
+      "Use a continuous wave transducer"
+    ],
+    "respuesta_correcta": [
+      "A lower frequency transducer"
+    ],
+    "concept_to_study": "Doppler Shift Equation",
+    "explicacion_openai": "The Doppler Shift Equation is Δf = (2 * f₀ * v * cosθ) / c.  Lower transmit frequencies (f₀) result in lower Doppler shifts (Δf), reducing the likelihood of exceeding the Nyquist limit."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-12",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Increasing the Doppler angle (away from 0 degrees) will have what effect on aliasing?",
+    "image": "",
+    "opciones": [
+      "It will always eliminate aliasing.",
+      "It will worsen the aliasing.",
+      "It will have no effect on aliasing.",
+      "It will eliminate aliasing above 90 degrees."
+    ],
+    "respuesta_correcta": [
+      "It will worsen the aliasing."
+    ],
+    "concept_to_study": "Cosine and Doppler Shift",
+    "explicacion_openai": "The cosine of the Doppler angle is in the numerator of the Doppler shift equation. As the angle increases towards 90 degrees, the cosine approaches zero. Before that, a larger angle (between 0 and 60) increases the shift, making aliasing more likely. We want to decrease the Doppler shift, to get it under the Nyquist Limit."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-13",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following Doppler modalities is NOT subject to aliasing?",
+    "image": "",
+    "opciones": [
+      "Pulsed-wave Doppler",
+      "Color flow Doppler",
+      "Continuous wave Doppler",
+      "Power Doppler"
+    ],
+    "respuesta_correcta": [
+      "Continuous wave Doppler"
+    ],
+    "concept_to_study": "Continuous Wave Doppler",
+    "explicacion_openai": "Continuous Wave Doppler uses two separate crystals, one continuously transmitting and one continuously receiving. It has no limit to the maximum velocity it can measure, and therefore no PRF and no Nyquist limit."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-14",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are unable to eliminate aliasing in a pulsed-wave Doppler spectrum using PRF adjustments and transducer frequency changes. What alternative technique could you try?",
+    "image": "",
+    "opciones": [
+      "Increase the Doppler angle significantly.",
+      "Switch to power Doppler.",
+      "Switch to continuous wave Doppler.",
+      "Decrease the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Switch to continuous wave Doppler."
+    ],
+    "concept_to_study": "CW Doppler",
+    "explicacion_openai": "When pulsed-wave Doppler's limitations are reached, continuous wave Doppler can accurately measure high velocities without aliasing, as it is the only modality not limited by the Nyquist limit."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1-15",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the Nyquist limit, in the context of pulsed-wave Doppler?",
+    "image": "",
+    "opciones": [
+      "The maximum frame rate achievable.",
+      "The maximum Doppler shift frequency that can be measured without aliasing.",
+      "The minimum Doppler shift frequency that can be detected.",
+      "The maximum depth at which Doppler information can be obtained."
+    ],
+    "respuesta_correcta": [
+      "The maximum Doppler shift frequency that can be measured without aliasing."
+    ],
+    "concept_to_study": "Nyquist Limit",
+    "explicacion_openai": "The Nyquist limit is equal to one-half of the pulse repetition frequency (PRF/2). It represents the upper bound of Doppler shift frequencies that can be accurately displayed, preventing aliasing."
   }
 ]
