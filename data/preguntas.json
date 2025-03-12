@@ -17911,7 +17911,7 @@
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "1-4",
      "tipo_pregunta": "opcion_multiple",
-    "enunciado": "This Doppler spectral display shows aliasing. Which of the following adjustments would likely be INEFFECTIVE in resolving this?",
+    "enunciado": "This Doppler spectral display shows this artifact. Which of the following adjustments would likely be INEFFECTIVE in resolving this?",
     "image": "aliasing.jpg",
     "opciones": [
       "Increasing the PRF",
