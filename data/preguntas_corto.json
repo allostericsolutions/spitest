@@ -16,4 +16,300 @@
     ],
     "concept_to_study": "A positive Doppler shift occurs when the blood flow is moving towards the transducer.",
     "explicacion_openai": "Transducer A is positioned such that blood flow is moving towards it. This results in a higher received frequency compared to the transmitted frequency, hence a positive Doppler shift."
-}
+},
+{
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-5-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The spectral Doppler tracing shows wraparound of the waveform. What is the underlying cause of this appearance?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "The Doppler shift exceeds the Nyquist limit.",
+            "The Doppler gain is set too high.",
+            "The wall filter is set too low.",
+            "The sample volume is too large."
+        ],
+        "respuesta_correcta": [
+            "The Doppler shift exceeds the Nyquist limit."
+        ],
+        "concept_to_study": "Nyquist Limit and Aliasing",
+        "explicacion_openai": "Aliasing, visualized as wraparound, occurs when the Doppler shift frequency is higher than one-half of the pulse repetition frequency (the Nyquist limit)."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-6-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You see this appearance on a spectral Doppler display. Besides adjusting the PRF/Scale, what other machine control could potentially improve the display, making this artifact  less visually prominent?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "Increase the Doppler gain.",
+            "Adjust the baseline.",
+            "Increase the wall filter.",
+            "Decrease the dynamic range."
+        ],
+        "respuesta_correcta": [
+            "Adjust the baseline."
+        ],
+        "concept_to_study": "Baseline Shift and Aliasing",
+        "explicacion_openai": "While adjusting the baseline doesn't *eliminate* the underlying aliasing, it can shift the displayed waveform to make the wraparound less visually apparent, potentially revealing more of the true velocity profile."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-7-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What technical parameter is directly related to the maximum Doppler shift frequency that can be displayed without the artifact seen in this image?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "Transmit frequency",
+            "Pulse Repetition Frequency (PRF)",
+            "Frame rate",
+            "Dynamic range"
+        ],
+        "respuesta_correcta": [
+            "Pulse Repetition Frequency (PRF)"
+        ],
+        "concept_to_study": "PRF and Nyquist Limit",
+        "explicacion_openai": "The Nyquist limit, which determines the maximum Doppler shift without aliasing, is directly proportional to the PRF (Nyquist limit = PRF/2)."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-8-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a pulsed-wave Doppler system, what is the relationship between the artifact observed in the image and the pulse repetition frequency (PRF)?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "The artifact is unrelated to the PRF.",
+            "The artifact occurs when the Doppler shift exceeds twice the PRF.",
+            "The artifact occurs when the Doppler shift exceeds half the PRF.",
+            "The artifact occurs when the Doppler shift is less than half the PRF."
+        ],
+        "respuesta_correcta": [
+            "The artifact occurs when the Doppler shift exceeds half the PRF."
+        ],
+        "concept_to_study": "Nyquist Limit",
+        "explicacion_openai": "The artifact, aliasing, occurs when the Doppler shift frequency is greater than the Nyquist limit, which is equal to PRF/2."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-9-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While attempting to eliminate the artifact present in this spectral Doppler image, which of the following actions is MOST likely to be successful if applied individually?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "Switching to a lower frequency transducer.",
+            "Increasing the Doppler angle to 60 degrees.",
+            "Decreasing the scale (PRF) setting.",
+            "Increasing the sample volume size."
+        ],
+        "respuesta_correcta": [
+            "Switching to a lower frequency transducer."
+        ],
+        "concept_to_study": "Aliasing and Transducer Frequency",
+        "explicacion_openai": "Lowering the transducer frequency reduces the Doppler shift for a given velocity, thus making it less likely to exceed the Nyquist limit and cause aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-10-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If you were unable to eliminate this artifact using conventional pulsed-wave Doppler techniques, which Doppler modality would be the BEST alternative to obtain accurate velocity measurements?",
+        "image": "aliasing.jpg",
+        "opciones": [
+            "Power Doppler",
+            "Color Flow Doppler",
+            "Continuous Wave (CW) Doppler",
+            "Tissue Doppler Imaging"
+        ],
+        "respuesta_correcta": [
+            "Continuous Wave (CW) Doppler"
+        ],
+        "concept_to_study": "CW Doppler and Aliasing",
+        "explicacion_openai": "Continuous Wave Doppler is not subject to aliasing and can measure arbitrarily high velocities, making it the best choice when pulsed-wave Doppler is insufficient."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-11-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are imaging a deep vessel and encountering aliasing.  Which transducer frequency would be MOST likely to allow you to resolve the aliasing, assuming all other factors remain constant?",
+        "image": "",
+        "opciones": [
+            "A higher frequency transducer",
+            "A lower frequency transducer",
+            "Transducer frequency does not affect aliasing",
+            "Use a continuous wave transducer"
+        ],
+        "respuesta_correcta": [
+            "A lower frequency transducer"
+        ],
+        "concept_to_study": "Doppler Shift Equation",
+        "explicacion_openai": "The Doppler Shift Equation is Δf = (2 * f₀ * v * cosθ) / c.  Lower transmit frequencies (f₀) result in lower Doppler shifts (Δf), reducing the likelihood of exceeding the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, at what angle of incidence between the ultrasound beam and the direction of blood flow is the Doppler shift MOST accurate?",
+        "image": "",
+        "opciones": [
+            "0 degrees",
+            "45 degrees",
+            "60 degrees",
+            "90 degrees"
+        ],
+        "respuesta_correcta": [
+            "0 degrees"
+        ],
+        "concept_to_study": "The Doppler shift is most accurate when the ultrasound beam is parallel to the direction of flow (0 degrees).",
+        "explicacion_openai": "The Doppler equation includes the cosine of the angle of incidence.  Cos(0) = 1, meaning the full velocity is measured.  As the angle increases, the cosine decreases, and the measured velocity is less than the actual velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-2-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, at what angle of incidence is NO Doppler shift detected?",
+        "image": "",
+        "opciones": [
+            "0 degrees",
+            "30 degrees",
+            "60 degrees",
+            "90 degrees"
+        ],
+        "respuesta_correcta": [
+            "90 degrees"
+        ],
+        "concept_to_study": "No Doppler shift is detected when the ultrasound beam is perpendicular to the direction of flow (90 degrees).",
+        "explicacion_openai": "The Doppler equation includes the cosine of the angle of incidence. Cos(90) = 0, meaning no component of the velocity is measured along the beam direction."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-3-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is angle correction often necessary in Doppler ultrasound velocity measurements?",
+        "image": "",
+        "opciones": [
+            "To make the image brighter.",
+            "To compensate for the non-zero angle between the ultrasound beam and blood flow.",
+            "To increase the frame rate.",
+            "To improve the spatial resolution."
+        ],
+        "respuesta_correcta": [
+            "To compensate for the non-zero angle between the ultrasound beam and blood flow."
+        ],
+        "concept_to_study": "Angle correction is used to estimate the true velocity of blood flow when the ultrasound beam is not perfectly aligned with the flow direction.",
+        "explicacion_openai": "The Doppler shift measures the component of velocity along the ultrasound beam. Angle correction uses the cosine of the angle of incidence to calculate the true velocity, which is usually higher than the directly measured velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-5-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducers are positioned to provide the most accurate Doppler velocity measurements? (The red arrow indicates the direction of blood flow.)",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A and B",
+            "C and D",
+            "Only E",
+            "C, D, and E"
+        ],
+        "respuesta_correcta": [
+            "A and B"
+        ],
+        "concept_to_study": "Transducers that are most closely aligned (smallest angle of incidence) with the direction of blood flow will produce the most accurate velocity measurements.",
+        "explicacion_openai": "The closer the angle of incidence is to 0 degrees, the closer the cosine of the angle is to 1. This minimizes the error in the Doppler velocity calculation. Transducers A and B are essentially parallel to the flow, resulting in the most accurate measurement."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-6-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift?",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "A"
+        ],
+        "concept_to_study": "A positive Doppler shift occurs when the blood flow is moving towards the transducer.",
+        "explicacion_openai": "Transducer A is positioned such that blood flow is moving towards it. This results in a higher received frequency compared to the transmitted frequency, hence a positive Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-7-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift?",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "A negative Doppler shift occurs when the blood flow is moving away from the transducer.",
+        "explicacion_openai": "Transducer B is positioned such that blood flow is moving away from it. This results in a lower received frequency compared to the transmitted frequency, hence a negative Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-8-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would detect no Doppler shift (no flow)?",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A",
+            "B",
+            "C and D",
+            "E",
+            "A and B"
+        ],
+        "respuesta_correcta": [
+            "E"
+        ],
+        "concept_to_study": "No Doppler shift is detected when the ultrasound beam is perpendicular to the direction of blood flow.",
+        "explicacion_openai": "Transducer E is positioned perpendicular (90-degree angle) to the blood flow.  The cosine of 90 degrees is 0, resulting in no measured velocity component along the beam direction, and therefore no Doppler shift."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-9-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift? (Select all that apply)",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "A",
+            "C"
+        ],
+        "concept_to_study": "A positive Doppler shift occurs when there is a component of blood flow moving towards the transducer.",
+        "explicacion_openai": "Transducers A and C are positioned such that a component of the blood flow is moving towards them. This results in a higher received frequency."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "1-2-1-10-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift? (Select all that apply)",
+        "image": "dopplerangle2.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "B",
+            "D"
+        ],
+        "concept_to_study": "A negative Doppler shift occurs when there is a component of blood flow moving away from the transducer.",
+        "explicacion_openai": "Transducers B and D are positioned such that a component of the blood flow is moving away from them. This results in a lower received frequency."
+    }
+]
