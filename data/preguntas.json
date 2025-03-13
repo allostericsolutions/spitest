@@ -17950,7 +17950,7 @@
         "grupo": "1-8-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In a pulsed-wave Doppler system, what is the relationship between the artifact observed in the image and the pulse repetition frequency (PRF)?",
-        "image": "aliasing.jpg",
+        "image": "aliasing2.jpg",
         "opciones": [
             "The artifact is unrelated to the PRF.",
             "The artifact occurs when the Doppler shift exceeds twice the PRF.",
