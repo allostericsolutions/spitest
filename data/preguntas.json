@@ -18250,6 +18250,280 @@
       ],
       "concept_to_study": "Doppler Angle Effects",
       "explicacion_openai": "No shift is detected when the transducer is perpendicular to the flow direction."
-  }
+  },
+  {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a mirror artifact in ultrasound imaging?",
+        "opciones": [
+            "A shadow behind a dense object",
+            "A duplicate image of an object displayed on the opposite side",
+            "An echo within a fluid area",
+            "An area with increased brightness"
+        ],
+        "respuesta_correcta": [
+            "A duplicate image of an object displayed on the opposite side"
+        ],
+        "concept_to_study": "Mirror artifact",
+        "explicacion_openai": "Sound reflects off strong surfaces like the diaphragm, creating mirrored images."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What structures are commonly involved in creating mirror artifacts?",
+        "opciones": [
+            "Bones and joints",
+            "Air and soft tissue interfaces",
+            "Diaphragm and pleura",
+            "Cardiac valves"
+        ],
+        "respuesta_correcta": [
+            "Diaphragm and pleura"
+        ],
+        "concept_to_study": "Strong reflector",
+        "explicacion_openai": "Strong reflectors like the diaphragm often cause mirror artifacts."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In which ultrasound application is mirror artifact most frequently seen?",
+        "opciones": [
+            "Abdominal ultrasound",
+            "Obstetric ultrasound",
+            "Musculoskeletal ultrasound",
+            "Carotid artery ultrasound"
+        ],
+        "respuesta_correcta": [
+            "Abdominal ultrasound"
+        ],
+        "concept_to_study": "Mirror artifact",
+        "explicacion_openai": "The diaphragm and liver can create mirror artifacts in abdominal scanning."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can mirror artifacts be minimized or avoided during ultrasound imaging?",
+        "opciones": [
+            "Increase gain settings",
+            "Use higher frequencies",
+            "Adjust transducer angle",
+            "Apply gel liberally"
+        ],
+        "respuesta_correcta": [
+            "Adjust transducer angle"
+        ],
+        "concept_to_study": "Transducer angle",
+        "explicacion_openai": "Altering the transducer angle reduces the chance of encountering strong reflectors."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Mirror artifacts usually appear deeper than the actual structure. Why?",
+        "opciones": [
+            "Due to sound speed variation",
+            "Delay in echo return after reflection",
+            "Machine processing error",
+            "Refraction index changes"
+        ],
+        "respuesta_correcta": [
+            "Delay in echo return after reflection"
+        ],
+        "concept_to_study": "Echo delay",
+        "explicacion_openai": "The artifact appears deeper because the sound waves travel an additional path after reflection, causing a delayed return."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which property of tissue interaction leads to mirror artifacts?",
+        "opciones": [
+            "Diffraction",
+            "Reflection",
+            "Absorption",
+            "Refraction"
+        ],
+        "respuesta_correcta": [
+            "Reflection"
+        ],
+        "concept_to_study": "Reflection",
+        "explicacion_openai": "Mirror artifacts are created when ultrasound waves bounce off a strong reflector and project a duplicate image on the opposite side of the reflector."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of these changes would likely increase the chance of seeing a mirror artifact?",
+        "opciones": [
+            "Decrease in gain",
+            "Increase in image depth",
+            "Use of harmonic imaging",
+            "Increase in output power"
+        ],
+        "respuesta_correcta": [
+            "Increase in output power"
+        ],
+        "concept_to_study": "Output power",
+        "explicacion_openai": "Increasing the output power strengthens all reflected sound waves, making any present artifacts more pronounced, including those from strong reflectors."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Can mirror artifacts affect diagnostic accuracy?",
+        "opciones": [
+            "No, they are easily recognizable",
+            "Yes, they can mislead interpretation",
+            "Only in vascular studies",
+            "Only if extremely large"
+        ],
+        "respuesta_correcta": [
+            "Yes, they can mislead interpretation"
+        ],
+        "concept_to_study": "Diagnostic accuracy",
+        "explicacion_openai": "Mirror artifacts can mimic real structures, potentially misleading clinicians and affecting accurate diagnosis."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which technical adjustment is unlikely to reduce mirror artifacts?",
+        "opciones": [
+            "Changing frequency",
+            "Reducing depth of field",
+            "Increasing frame rate",
+            "Shifting focal zones"
+        ],
+        "respuesta_correcta": [
+            "Increasing frame rate"
+        ],
+        "concept_to_study": "Frame rate",
+        "explicacion_openai": "A higher frame rate affects how quickly images are updated, but does not impact the creation of mirror artifacts, which result from sound wave reflections."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the typical cause of a mirror artifact in echocardiography?",
+        "opciones": [
+            "Refraction by heart chambers",
+            "Reflection from the mitral valve",
+            "Reflection from strong structures like the diaphragm",
+            "Diffraction at the edges of structures"
+        ],
+        "respuesta_correcta": [
+            "Reflection from strong structures like the diaphragm"
+        ],
+        "concept_to_study": "Strong reflector",
+        "explicacion_openai": "In echocardiography, mirror artifacts are commonly caused by reflections off strong reflectors such as the diaphragm, which redirect sound waves and create false images."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How is the presence of a mirror artifact usually confirmed during a scan?",
+        "opciones": [
+            "By increasing gain",
+            "By turning off harmonics",
+            "By observing consistent position and characteristics",
+            "By comparing with CT images"
+        ],
+        "respuesta_correcta": [
+            "By observing consistent position and characteristics"
+        ],
+        "concept_to_study": "Artifact confirmation",
+        "explicacion_openai": "Mirror artifacts appear consistently in a symmetric position across a strong reflector, maintaining the same position in different scan angles and planes."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why might a sonographer change the patient's position if a mirror artifact is detected?",
+        "opciones": [
+            "To increase artifact visibility",
+            "To eliminate unwanted reflections",
+            "To improve patient comfort",
+            "To enhance image contrast"
+        ],
+        "respuesta_correcta": [
+            "To eliminate unwanted reflections"
+        ],
+        "concept_to_study": "Patient positioning",
+        "explicacion_openai": "Changing the patient's position can modify the angle at which sound waves encounter strong reflectors, helping to reduce or eliminate mirror artifacts."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Mirror artifacts visually appear at what distance relative to the reflector causing it?",
+        "opciones": [
+            "At half the true distance",
+            "Equidistant on the opposite side",
+            "Twice the true distance",
+            "No particular pattern"
+        ],
+        "respuesta_correcta": [
+            "Equidistant on the opposite side"
+        ],
+        "concept_to_study": "Artifact position",
+        "explicacion_openai": "Mirror artifacts appear as symmetrically duplicated images on the opposite side of the strong reflector, at the same distance."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which feature helps distinguish mirror artifacts from real anatomical structures?",
+        "opciones": [
+            "Shape consistency",
+            "Lack of shadowing",
+            "Position at expected anatomical site",
+            "Specular surface appearance"
+        ],
+        "respuesta_correcta": [
+            "Lack of shadowing"
+        ],
+        "concept_to_study": "Mirror artifact",
+        "explicacion_openai": "Mirror artifacts do not result in the acoustic shadowing that real structures often produce, which helps differentiate them."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What feature suggests that the artifact in the image is not a comet tail artifact?",
+        "image": "Mirrow.png",
+        "opciones": [
+            "Regularly spaced bright echoes",
+            "Lack of rapid tapering",
+            "Appears as multiple parallel lines",
+            "Presence of shadowing"
+        ],
+        "respuesta_correcta": [
+            "Lack of rapid tapering"
+        ],
+        "concept_to_study": "Comet tail",
+        "explicacion_openai": "An artifact that lacks the tapered appearance of rapidly diminishing echoes is not a comet tail artifact, which typically shows bright, tightly spaced, tapering echoes."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which characteristic differentiates the artifact in the image from a ring-down artifact?",
+        "image": "Mirrow.png",
+        "opciones": [
+            "Horizontal lines across the display",
+            "Continuous line of echoes extending posteriorly",
+            "Absence of a central bright line",
+            "Echoes creating a bright tail effect"
+        ],
+        "respuesta_correcta": [
+            "Absence of a central bright line"
+        ],
+        "concept_to_study": "Ring-down",
+        "explicacion_openai": "The lack of a continuous bright line in the center of the artifact distinguishes it from a ring-down artifact, which typically presents a central bright line extending downward."
+    }
 ]
 
