@@ -17914,7 +17914,7 @@
         "grupo": "1-6-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You see this appearance on a spectral Doppler display. Besides adjusting the PRF/Scale, what other machine control could potentially improve the display, making this artifact  less visually prominent?",
-        "image": "aliasing.jpg",
+        "image": "aliasing3.jpg",
         "opciones": [
             "Increase the Doppler gain.",
             "Adjust the baseline.",
