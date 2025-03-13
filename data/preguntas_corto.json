@@ -1,3 +1,168 @@
+ {
+        "clasificacion": "Physical Principles",
+        "grupo": "1-1-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the relationship between frequency and wavelength in ultrasound?",
+        "image": "",
+        "opciones": [
+            "Directly proportional",
+            "Inversely proportional",
+            "Not related",
+            "Exponentially related"
+        ],
+        "respuesta_correcta": [
+            "Inversely proportional"
+        ],
+        "concept_to_study": "In ultrasound physics, frequency and wavelength have an inverse relationship (c = f × λ).",
+        "explicacion_openai": "When frequency increases, wavelength decreases, assuming a constant speed of sound in tissue."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "2-1-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does increasing frequency affect the wavelength of ultrasound?",
+        "image": "",
+        "opciones": [
+            "Increases wavelength",
+            "Decreases wavelength",
+            "No effect on wavelength",
+            "Doubles the wavelength"
+        ],
+        "respuesta_correcta": [
+            "Decreases wavelength"
+        ],
+        "concept_to_study": "Higher frequency leads to shorter wavelength.",
+        "explicacion_openai": "If the propagation speed remains constant, wavelength must decrease as frequency increases."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-1-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the frequency of an ultrasound wave is increased, what happens to its wavelength?",
+        "image": "",
+        "opciones": [
+            "The wavelength increases",
+            "The wavelength decreases",
+            "The wavelength remains constant",
+            "The wavelength becomes infinite"
+        ],
+        "respuesta_correcta": [
+            "The wavelength decreases"
+        ],
+        "concept_to_study": "An increase in frequency results in a decrease in wavelength.",
+        "explicacion_openai": "Because c = f × λ, if c is constant, a higher f means a shorter λ."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "1-2-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which parameter is directly affected by the frequency of an ultrasound wave?",
+        "image": "",
+        "opciones": [
+            "Amplitude",
+            "Wavelength",
+            "Intensity",
+            "Velocity"
+        ],
+        "respuesta_correcta": [
+            "Wavelength"
+        ],
+        "concept_to_study": "Wavelength changes inversely with frequency.",
+        "explicacion_openai": "As frequency increases, the wavelength automatically decreases."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "2-2-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the wavelength when the frequency of ultrasound increases?",
+        "image": "",
+        "opciones": [
+            "It increases",
+            "It decreases",
+            "It remains unchanged",
+            "It becomes zero"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ],
+        "concept_to_study": "Wavelength decreases with increasing frequency.",
+        "explicacion_openai": "Maintaining a constant sound velocity, a rise in frequency causes a shorter wavelength."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-2-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In ultrasound, what is the effect of increasing frequency on wavelength?",
+        "image": "",
+        "opciones": [
+            "Wavelength increases",
+            "Wavelength decreases",
+            "Wavelength is unaffected",
+            "Wavelength doubles"
+        ],
+        "respuesta_correcta": [
+            "Wavelength decreases"
+        ],
+        "concept_to_study": "Frequency and wavelength are inversely proportional in ultrasound.",
+        "explicacion_openai": "An increase in frequency reduces wavelength, given that speed = frequency × wavelength."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "1-3-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is inversely related to frequency in ultrasound?",
+        "image": "",
+        "opciones": [
+            "Amplitude",
+            "Wavelength",
+            "Intensity",
+            "Power"
+        ],
+        "respuesta_correcta": [
+            "Wavelength"
+        ],
+        "concept_to_study": "Wavelength and frequency have an inverse relationship.",
+        "explicacion_openai": "Doubling the frequency halves the wavelength, with sound speed unchanged."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "2-3-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does frequency affect the wavelength in an ultrasound wave?",
+        "image": "",
+        "opciones": [
+            "Higher frequency increases wavelength",
+            "Higher frequency decreases wavelength",
+            "Frequency has no effect on wavelength",
+            "Frequency doubles the wavelength"
+        ],
+        "respuesta_correcta": [
+            "Higher frequency decreases wavelength"
+        ],
+        "concept_to_study": "As frequency goes up, wavelength shrinks.",
+        "explicacion_openai": "Under a constant propagation velocity, raising frequency demands a shorter wavelength."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "3-3-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the effect of frequency on the wavelength of ultrasound?",
+        "image": "",
+        "opciones": [
+            "Increases wavelength",
+            "Decreases wavelength",
+            "No effect on wavelength",
+            "Halves the wavelength"
+        ],
+        "respuesta_correcta": [
+            "Decreases wavelength"
+        ],
+        "concept_to_study": "Frequency is inversely proportional to wavelength.",
+        "explicacion_openai": "When frequency rises, wavelength must drop because velocity remains stable."
+    },
+
+
+
 {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "1-2-1-6-1",
