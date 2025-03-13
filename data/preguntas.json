@@ -18076,7 +18076,7 @@
         "grupo": "1-2-1-5-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducers are positioned to provide the most accurate Doppler velocity measurements? (The red arrow indicates the direction of blood flow.)",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A and B",
             "C and D",
@@ -18094,7 +18094,7 @@
         "grupo": "1-2-1-6-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift?",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A",
             "B",
@@ -18113,7 +18113,7 @@
         "grupo": "1-2-1-7-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift?",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A",
             "B",
@@ -18132,7 +18132,7 @@
         "grupo": "1-2-1-8-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducer(s) would detect no Doppler shift (no flow)?",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A",
             "B",
@@ -18151,7 +18151,7 @@
         "grupo": "1-2-1-9-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducer(s) would demonstrate a positive Doppler shift? (Select all that apply)",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A",
             "B",
@@ -18171,7 +18171,7 @@
         "grupo": "1-2-1-10-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the image, which transducer(s) would demonstrate a negative Doppler shift? (Select all that apply)",
-        "image": "dopplerangle2.jpg",
+        "image": "dopplerangle2.png",
         "opciones": [
             "A",
             "B",
