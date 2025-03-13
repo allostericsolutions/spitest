@@ -4,7 +4,7 @@
     "grupo": "2-14",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
-    "image": "doppler.png",
+    "image": "",
     "opciones": [
       "Using a lens",
       "By the transducer's physical shape",
