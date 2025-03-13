@@ -18251,11 +18251,12 @@
       "concept_to_study": "Doppler Angle Effects",
       "explicacion_openai": "No shift is detected when the transducer is perpendicular to the flow direction."
   },
-  {
+ {
         "clasificacion": "Physical Principles",
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a mirror artifact in ultrasound imaging?",
+        "image": "",
         "opciones": [
             "A shadow behind a dense object",
             "A duplicate image of an object displayed on the opposite side",
@@ -18273,6 +18274,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What structures are commonly involved in creating mirror artifacts?",
+        "image": "",
         "opciones": [
             "Bones and joints",
             "Air and soft tissue interfaces",
@@ -18290,6 +18292,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In which ultrasound application is mirror artifact most frequently seen?",
+        "image": "",
         "opciones": [
             "Abdominal ultrasound",
             "Obstetric ultrasound",
@@ -18307,6 +18310,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How can mirror artifacts be minimized or avoided during ultrasound imaging?",
+        "image": "",
         "opciones": [
             "Increase gain settings",
             "Use higher frequencies",
@@ -18324,6 +18328,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Mirror artifacts usually appear deeper than the actual structure. Why?",
+        "image": "",
         "opciones": [
             "Due to sound speed variation",
             "Delay in echo return after reflection",
@@ -18341,6 +18346,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which property of tissue interaction leads to mirror artifacts?",
+        "image": "",
         "opciones": [
             "Diffraction",
             "Reflection",
@@ -18358,6 +18364,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of these changes would likely increase the chance of seeing a mirror artifact?",
+        "image": "",
         "opciones": [
             "Decrease in gain",
             "Increase in image depth",
@@ -18375,6 +18382,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Can mirror artifacts affect diagnostic accuracy?",
+        "image": "",
         "opciones": [
             "No, they are easily recognizable",
             "Yes, they can mislead interpretation",
@@ -18392,6 +18400,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which technical adjustment is unlikely to reduce mirror artifacts?",
+        "image": "",
         "opciones": [
             "Changing frequency",
             "Reducing depth of field",
@@ -18409,6 +18418,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the typical cause of a mirror artifact in echocardiography?",
+        "image": "",
         "opciones": [
             "Refraction by heart chambers",
             "Reflection from the mitral valve",
@@ -18426,6 +18436,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is the presence of a mirror artifact usually confirmed during a scan?",
+        "image": "",
         "opciones": [
             "By increasing gain",
             "By turning off harmonics",
@@ -18443,6 +18454,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why might a sonographer change the patient's position if a mirror artifact is detected?",
+        "image": "",
         "opciones": [
             "To increase artifact visibility",
             "To eliminate unwanted reflections",
@@ -18460,6 +18472,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Mirror artifacts visually appear at what distance relative to the reflector causing it?",
+        "image": "",
         "opciones": [
             "At half the true distance",
             "Equidistant on the opposite side",
@@ -18477,6 +18490,7 @@
         "grupo": "3-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which feature helps distinguish mirror artifacts from real anatomical structures?",
+        "image": "",
         "opciones": [
             "Shape consistency",
             "Lack of shadowing",
