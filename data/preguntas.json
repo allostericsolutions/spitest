@@ -18538,6 +18538,114 @@
         ],
         "concept_to_study": "Ring-down",
         "explicacion_openai": "The lack of a continuous bright line in the center of the artifact distinguishes it from a ring-down artifact, which typically presents a central bright line extending downward."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
+        "image": "axial.jpg",
+        "opciones": [
+            "Lateral",
+            "Axial",
+            "Temporal",
+            "Contrast"
+        ],
+        "respuesta_correcta": [
+            "Axial"
+        ],
+        "concept_to_study": "Resolution types",
+        "explicacion_openai": "Axial resolution refers to distinguishing structures that lie along the direction of the sound beam."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This type of resolution is directly associated with which characteristic of the spatial pulse length (SPL)?",
+        "image": "axial.jpg",
+        "opciones": [
+            "Frequency of sound",
+            "Length of the pulse",
+            "Pulse repetition frequency",
+            "Beam width"
+        ],
+        "respuesta_correcta": [
+            "Length of the pulse"
+        ],
+        "concept_to_study": "SPL and resolution",
+        "explicacion_openai": "Axial resolution is improved with a shorter spatial pulse length, allowing better distinction between close structures."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A synonym for this type of resolution is:",
+        "image": "axial.jpg",
+        "opciones": [
+            "Depth resolution",
+            "Angular resolution",
+            "Temporal resolution",
+            "Lateral resolution"
+        ],
+        "respuesta_correcta": [
+            "Depth resolution"
+        ],
+        "concept_to_study": "Resolution synonyms",
+        "explicacion_openai": "Axial resolution is often referred to as depth resolution because it involves distinguishing objects at different depths along the beam path."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor primarily influences the resolution depicted in this image?",
+        "image": "axial.jpg",
+        "opciones": [
+            "Beam width",
+            "Pulse duration",
+            "Frame rate",
+            "Transducer size"
+        ],
+        "respuesta_correcta": [
+            "Pulse duration"
+        ],
+        "concept_to_study": "Factors affecting resolution",
+        "explicacion_openai": "Pulse duration directly influences axial resolution as it affects how distinctly structures can be separated along the beam axis."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To improve this type of resolution, which change should be considered?",
+        "image": "axial.jpg",
+        "opciones": [
+            "Decrease transducer frequency",
+            "Increase spatial pulse length",
+            "Increase transducer frequency",
+            "Increase beam width"
+        ],
+        "respuesta_correcta": [
+            "Increase transducer frequency"
+        ],
+        "concept_to_study": "Improving resolution",
+        "explicacion_openai": "Increasing the frequency results in shorter wavelengths and better axial resolution."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The resolution type shown in the image is crucial for distinguishing structures that are:",
+        "image": "axial.jpg",
+        "opciones": [
+            "Adjacent to each other laterally",
+            "Behind one another along the beam path",
+            "Moving across the frame",
+            "Of varying densities"
+        ],
+        "respuesta_correcta": [
+            "Behind one another along the beam path"
+        ],
+        "concept_to_study": "Resolution application",
+        "explicacion_openai": "Axial resolution is essential for identifying structures aligned in the path of the ultrasound beam."
     }
-]
+
 
