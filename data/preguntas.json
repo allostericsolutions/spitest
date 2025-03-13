@@ -11570,8 +11570,8 @@
         "respuesta_correcta": [
             "Fast Fourier transform"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Fast Fourier transform",
+        "explicacion_openai": "The Fast Fourier Transform (FFT) is a mathematical algorithm used in ultrasound to convert time-domain signals into their frequency components, allowing the machine to create a spectral display of Doppler signals."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
