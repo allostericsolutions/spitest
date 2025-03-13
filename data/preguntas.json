@@ -14270,8 +14270,8 @@
     "respuesta_correcta": [
       "Elastography"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Elastography",
+    "explicacion_openai": "Elastography assesses tissue stiffness by measuring the tissue's response to an applied force (either external compression or internal shear waves).  Different elastography techniques exist, but they all provide a qualitative or quantitative measure of tissue elasticity, which can be used to differentiate benign and malignant lesions, assess liver fibrosis, and characterize other tissue abnormalities."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -14288,8 +14288,8 @@
     "respuesta_correcta": [
       "Is chosen to improve transmission into the body"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Matching layer",
+    "explicacion_openai": "Transducer matching layers are designed to enhance the transmission of acoustic waves from the piezoelectric crystal into biological tissues. The acoustic impedance of the matching layer is chosen to be intermediate between the piezoelectric material and human tissue. This optimization minimizes reflections at the interfaces, enhancing energy transfer and image quality. According to ARDMS, matching layers improve image quality and transducer efficiency, while SPI emphasizes their role in enhancing acoustic transmission and image resolution, crucial for accurate diagnostics."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -14324,8 +14324,8 @@
     "respuesta_correcta": [
       "Focus"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Beam Focus",
+    "explicacion_openai": "The focus is the area where the ultrasound beam is narrowest, resulting in the best lateral resolution. The near zone, or Fresnel zone, precedes the focus, and the beam in the far field, or Fraunhofer zone, starts to diverge. Understanding the focus is crucial for optimizing image resolution and accuracy. According to ARDMS, proper focusing enhances image quality by improving resolution, while SPI notes its importance in achieving precise diagnostic results."
   },
   {
     "clasificacion": "Physical Principles",
