@@ -4,7 +4,7 @@
         "grupo": "1-1-1-1-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the relationship between frequency and wavelength in ultrasound?",
-        "image": "",
+        "image": "doppler.png",
         "opciones": [
             "Directly proportional",
             "Inversely proportional",
