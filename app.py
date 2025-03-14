@@ -153,14 +153,23 @@ def exam_screen():
         display_question(question, current_index + 1)
         display_navigation()
 
-        # --- BLOQUE DE FINALIZACIÓN (CORREGIDO) ---
-        finish_exam = st.button("Finish Exam")
-        if finish_exam:
-            confirm = st.button("Confirm Completion")
-            if confirm:
-                st.session_state.end_exam = True  # ¡ACTUALIZAR AQUÍ!
+        # --- BLOQUE DE FINALIZACIÓN (CON FORMULARIO) ---
+        if 'confirm_finish' not in st.session_state:
+            st.session_state.confirm_finish = False
+
+        with st.form("finish_form"):
+            st.warning("Are you sure you want to finish the exam?")
+            if st.form_submit_button("Confirm Completion"):
+                st.session_state.confirm_finish = True
+
+        if st.button("Finish Exam"):
+             if st.session_state.confirm_finish:
+                st.session_state.end_exam = True
                 finalize_exam()
-        # --- FIN DEL BLOQUE CORREGIDO ---
+             else:
+                st.warning("Please confirm completion using the button above.")
+
+        # --- FIN DEL BLOQUE CON FORMULARIO ---
 
 def finalize_exam():
     """
