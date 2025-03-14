@@ -158,7 +158,7 @@ def exam_screen():
             st.session_state.confirm_finish = False
 
         with st.form("finish_form"):
-            st.warning("When you are ready to finish the exam, press 'Finish Exam' and then confirm by pressing 'Confirm Completion'.")
+            st.warning("When you are ready to finish the exam, press 'Confirm Completion' and then conclude by pressing 'Finish Exam'.")
             if st.form_submit_button("Confirm Completion"):
                 st.session_state.confirm_finish = True
 
