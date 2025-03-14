@@ -25,73 +25,10 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# --- ESTILOS CSS MÁS ESPECÍFICOS Y AJUSTADOS ---
-st.markdown(
-    """
-    <style>
-    /* Reducir márgenes generales (con cuidado) */
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    /* Ajustes específicos para la imagen de fondo */
-    body {
-        background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center top;
-        background-attachment: fixed; /* Imagen fija */
-    }
-
-    /* Reducir márgenes superiores e inferiores de los títulos */
-    h1 {
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
-        text-align: center;
-    }
-
-    /* Reducir márgenes de los inputs de texto */
-    .stTextInput > div > div > input {
-        color: black !important;
-        margin-bottom: 5px !important;
-    }
-
-    /* Contenedor de autenticación (para agrupar) */
-    .auth-container {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    /* Contenedor de datos de usuario (para agrupar) */
-    .user-data-container {
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    /* Estilos para la pantalla de preguntas */
-    .question-container {
-        /* Puedes agregar estilos generales aquí si es necesario */
-    }
-
-    .options-container {
-        /*
-        max-height: 200px;  Ajusta este valor según tus necesidades
-        overflow-y: auto;   Scroll vertical solo para las opciones
-        */
-    }
-
-    /* Contenedor para la imagen (con altura máxima) */
-    .image-container {
-        max-height: 300px;
-        overflow: hidden;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+def load_css():
+    """Carga el archivo CSS personalizado."""
+    with open("assets/styles/custom.css", "r") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def load_config():
     """
@@ -146,20 +83,20 @@ def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
     if st.session_state.marked:
         st.markdown("""
-      <style>
-      .title {
-          writing-mode: vertical-rl;
-          transform: rotate(180deg);
-          position: absolute;
-          top: 50%;
-          left: 0px;
-          transform-origin: center;
-          white-space: nowrap;
-          display: block;
-          font-size: 1.2em;
-      }
-      </style>
-      """, unsafe_allow_html=True)
+        <style>
+        .title {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            transform-origin: center;
+            white-space: nowrap;
+            display: block;
+            font-size: 1.2em;
+        }
+        </style>
+        """, unsafe_allow_html=True)
 
         for index in st.session_state.marked:
             question_number = index + 1
@@ -193,7 +130,7 @@ def exam_screen():
     st.markdown(
         f"""
         <div style='text-align: right; font-size: 16px;'>
-          <strong>Minutes Remaining:</strong> {minutes_remaining}
+            <strong>Minutes Remaining:</strong> {minutes_remaining}
         </div>
         """,
         unsafe_allow_html=True
@@ -263,8 +200,8 @@ def finalize_exam():
     st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
-   # st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
-   # st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
+    # st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
+    # st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
@@ -288,7 +225,7 @@ def main():
     MAIN EXECUTION.
     """
     initialize_session()
-
+    load_css()
     # ─────────────────────────────────────────────────────────
     # LLAMADO para mostrar las instrucciones (Expander)
     # ─────────────────────────────────────────────────────────
