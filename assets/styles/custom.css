@@ -56,11 +56,11 @@ h1 {
 
 /* Contenedor para la imagen (con altura máxima) */
 .image-container {
-    max-height: 300px; /* Ajusta la altura máxima según sea necesario */
+    max-height: 250px; /* Ajusta la altura máxima según sea necesario */
     overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
 }
 
 .image-container img { /* Target the img element inside the container */
-    width: 100%; /* Make the image take the full width of its container */
+    width: 80%; /* Make the image take the full width of its container */
     height: auto; /* Maintain aspect ratio */
 }
