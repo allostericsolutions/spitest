@@ -18590,8 +18590,8 @@
         "respuesta_correcta": [
             "Depth resolution"
         ],
-        "concept_to_study": "Resolution synonyms",
-        "explicacion_openai": "Axial resolution is often referred to as depth resolution because it involves distinguishing objects at different depths along the beam path."
+        "concept_to_study": "Axial Resolution",
+        "explicacion_openai": " axial resolution, also known as depth, longitudinal, range, or radial resolution, is a critical measure of image quality in ultrasound. It determines the ability to distinguish objects along the beam's path. Achieved by minimizing the SPL, primarily through the use of higher-frequency transducers and shorter pulse lengths, good axial resolution enables visualization of fine anatomical details, improving diagnostic accuracy."
     },
 {
         "clasificacion": "Physical Principles",
