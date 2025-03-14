@@ -77,7 +77,7 @@ h1 {
 
 /* --- SELECTORES (CORREGIDOS) --- */
 .stRadio > div > label > span { /* Para las opciones de respuesta (incluye incisos) */
-    font-size: var(--option-text-size);
+    font-size: var(--option-text-size) !important;  /*AQUI EL CAMBIO*/
 }
 
 .stMarkdown p { /* Para el texto del enunciado */
