@@ -18754,6 +18754,24 @@
         ],
         "concept_to_study": "Doppler artifacts",
         "explicacion_openai": "Aliasing is a prevalent artifact in Doppler ultrasound, occurring when the Doppler shift exceeds the Nyquist limit."
-    }
+    },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "5-3-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The frequency bandwidth may be determined by which of the following?",
+    "image": "",
+    "opciones": [
+        "Spectral analysis",
+        "Schlieren system",
+        "Hydrophone analysis",
+        "Cathode analysis"
+    ],
+    "respuesta_correcta": [
+        "Spectral analysis"
+    ],
+    "concept_to_study": "Frequency bandwidth determination",
+    "explicacion_openai": "Spectral analysis is used to determine the range of frequencies present in a signal, including bandwidth."
+}
 ]
 
