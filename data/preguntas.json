@@ -18772,6 +18772,27 @@
     ],
     "concept_to_study": "Frequency bandwidth determination",
     "explicacion_openai": "Spectral analysis is used to determine the range of frequencies present in a signal, including bandwidth."
-}
+},
+ {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-3-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the mathematical technique used to break down the signal and produce a spectral waveform?",
+        "image": "",
+        "opciones": [
+            "Autocorrelation",
+            "Fast Fourier Transform",
+            "Wavelet Transform",
+            "Laplace Transform"
+        ],
+        "respuesta_correcta": [
+            "Fast Fourier Transform"
+        ],
+        "concept_to_study": "Spectral analysis",
+        "explicacion_openai": "The Fast Fourier Transform (FFT) is used to decompose a signal into its frequency components to produce a spectral waveform."
+    }
 ]
+
+
+
 
