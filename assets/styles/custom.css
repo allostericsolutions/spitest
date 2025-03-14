@@ -1,1 +1,66 @@
+/* assets/styles/custom.css */
 
+/* Reducir márgenes generales (con cuidado) */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes específicos para la imagen de fondo */
+body {
+    background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed; /* Imagen fija */
+}
+
+/* Reducir márgenes superiores e inferiores de los títulos */
+h1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+}
+
+/* Reducir márgenes de los inputs de texto */
+.stTextInput > div > div > input {
+    color: black !important;
+    margin-bottom: 5px !important;
+}
+
+/* Contenedor de autenticación (para agrupar) */
+.auth-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Contenedor de datos de usuario (para agrupar) */
+.user-data-container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para la pantalla de preguntas */
+.question-container {
+    /* Puedes agregar estilos generales aquí si es necesario */
+}
+
+.options-container {
+    /*
+    max-height: 200px;  Ajusta este valor según tus necesidades
+    overflow-y: auto;   Scroll vertical solo para las opciones
+    */
+}
+
+/* Contenedor para la imagen (con altura máxima) */
+.image-container {
+    max-height: 300px; /* Ajusta la altura máxima según sea necesario */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+}
+
+.image-container img { /* Target the img element inside the container */
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
