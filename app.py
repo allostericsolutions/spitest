@@ -163,11 +163,11 @@ def exam_screen():
                 st.session_state.confirm_finish = True
 
         if st.button("Finish Exam"):
-             if st.session_state.confirm_finish:
-                st.session_state.end_exam = True
-                finalize_exam()
-             else:
-                st.warning("Please confirm completion using the button above.")
+                if st.session_state.confirm_finish:
+                    st.session_state.end_exam = True
+                    finalize_exam()
+                else:
+                    st.warning("Please confirm completion using the button above.")
 
         # --- FIN DEL BLOQUE CON FORMULARIO ---
 
@@ -234,6 +234,28 @@ def main():
     # LLAMADO para mostrar las instrucciones (Expander)
     # ─────────────────────────────────────────────────────────
     instructions_tab()
+
+     # --- Control de tamaño de fuente (AÑADIDO) ---
+    with st.sidebar:
+        st.write("Adjust Font Size")
+        font_size_multiplier = st.slider(
+            "Font Size",
+            min_value=0.8,
+            max_value=2.0,
+            value=1.0,  # Valor inicial (1.0 = tamaño predeterminado)
+            step=0.1,
+            key="font_size_slider"
+        )
+
+    # Inyectar CSS para aplicar el tamaño de fuente (AÑADIDO)
+    st.markdown(f"""
+        <style>
+            :root {{
+                --base-font-size: {16 * font_size_multiplier}px; /* Tamaño base dinámico */
+            }}
+        </style>
+    """, unsafe_allow_html=True)
+
 
     if not st.session_state.authenticated:
         authentication_screen()
