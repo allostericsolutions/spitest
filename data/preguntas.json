@@ -18790,7 +18790,151 @@
         ],
         "concept_to_study": "Spectral analysis",
         "explicacion_openai": "The Fast Fourier Transform (FFT) is used to decompose a signal into its frequency components to produce a spectral waveform."
-    }
+    },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
+    "image": "window.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample B"
+    ],
+    "concept_to_study": "Doppler sample volume placement, peak systolic velocity measurement.",
+    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. A, being too large, is not correct because it is measuring many speeds at once."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The Doppler spectral waveform obtained from sample volume A (the largest sample volume) exhibits significant spectral broadening. Which of the following factors is *MOST LIKELY* contributing to this finding?",
+    "image": "window.jpg",
+    "opciones": [
+      "Excessively large sample volume size.",
+      "Doppler angle approaching 90 degrees.",
+      "Increased blood viscosity.",
+      "Normal laminar flow."
+    ],
+    "respuesta_correcta": [
+      "Excessively large sample volume size."
+    ],
+    "concept_to_study": "Spectral broadening, factors affecting Doppler waveforms.",
+    "explicacion_openai": "An excessively large sample volume (A) interrogates a wider range of blood flow velocities within the vessel, including slower velocities near the vessel walls and faster velocities in the center. This range of velocities is displayed as spectral broadening."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "While evaluating the vessel segment with sample volume C (the region with the depicted atherosclerotic plaque), the Doppler spectral waveform demonstrates an increased peak systolic velocity and spectral broadening. Which of the following statements is *MOST ACCURATE* regarding these findings?",
+    "image": "window.jpg",
+    "opciones": [
+      "The spectral broadening indicates normal laminar flow within the stenosis.",
+      "The increased peak systolic velocity is inconsistent with the presence of a stenosis.",
+      "The spectral broadening may be caused by turbulent flow downstream from the stenosis.",
+      "The increased peak systolic velocity suggests a venous obstruction."
+    ],
+    "respuesta_correcta": [
+      "The spectral broadening may be caused by turbulent flow downstream from the stenosis."
+    ],
+    "concept_to_study": "Hemodynamic effects of stenosis on Doppler waveforms.",
+    "explicacion_openai": "The stenosis causes flow disturbances and an increase in the velocity, and this is represented on the Doppler signal."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Considering the spectral Doppler waveform presented in the image, which of the sample volumes (A, B, C, or D) is *LEAST LIKELY* to have generated this specific waveform?",
+    "image": "window.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample C"
+    ],
+    "concept_to_study": "Correlation between spectral Doppler waveforms and sample volume placement.",
+    "explicacion_openai": "Given the image showing relatively narrow spectral window and clear outline, sample volume C, which is placed within a vessel with significant stenosis and associated flow disturbances, is least likely to generate this type of waveform. Stenosis typically results in spectral broadening."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to demonstrate primarily laminar flow under normal physiological conditions?",
+    "image": "window2.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample B"
+    ],
+    "concept_to_study": "Laminar flow characteristics, Doppler assessment.",
+    "explicacion_openai": "Laminar flow is characterized by organized, parallel layers of blood flow. Sample volume B, placed centrally in the normal vessel segment, is most likely to demonstrate this type of flow."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the sample volumes (A, B, C, or D) would *MOST LIKELY* demonstrate turbulent flow patterns?",
+    "image": "window2.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample C"
+    ],
+    "concept_to_study": "Turbulent flow, relationship with stenosis, Doppler assessment.",
+    "explicacion_openai": "Turbulent flow is characterized by chaotic, disorganized flow patterns. Sample volume C, positioned within or immediately downstream of the stenotic segment, is most likely to demonstrate turbulent flow."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to display a plug flow profile?",
+    "image": "window2.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample A"
+    ],
+    "concept_to_study": "Plug flow profile, relationship with large sample volume size, Doppler assessment.",
+    "explicacion_openai": "Plug flow is characterized by flow moving at approximately the same velocity across the entire vessel lumen. It appears in large vessels. Sample volume A, which is the largest, positioned in the normal vessel segment, is most likely to demonstrate this type of flow."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which sample volume (A, B, C, or D) is *MOST LIKELY* to show flow reversal or flow separation?",
+    "image": "window.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample C"
+    ],
+    "concept_to_study": "Flow reversal and separation, relationship with stenosis, Doppler assessment.",
+    "explicacion_openai": "Flow reversal is typical in stenosis and causes disturbances on the arterial flow. Sample volume C, which is the closest, is more prone to show these changes."
+  }
 ]
 
 
