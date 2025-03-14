@@ -18646,5 +18646,114 @@
         ],
         "concept_to_study": "Resolution application",
         "explicacion_openai": "Axial resolution is essential for identifying structures aligned in the path of the ultrasound beam."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The Doppler shift frequency is primarily:",
+        "image": "",
+        "opciones": [
+            "Directly proportional to the velocity of the moving reflector",
+            "Greater in pulsed Doppler systems",
+            "Greater at high-intensity levels",
+            "Dependent on the number of transducer elements"
+        ],
+        "respuesta_correcta": [
+            "Directly proportional to the velocity of the moving reflector"
+        ],
+        "concept_to_study": "Doppler shift proportionality",
+        "explicacion_openai": "The Doppler shift increases with higher velocity of the reflector."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler interrogation angle could result in no Doppler shift being detected?",
+        "image": "",
+        "opciones": [
+            "10°",
+            "60°",
+            "90°",
+            "30°"
+        ],
+        "respuesta_correcta": [
+            "90°"
+        ],
+        "concept_to_study": "Doppler angle and shift",
+        "explicacion_openai": "At 90°, the Doppler shift is null because the flow is perpendicular to the ultrasound beam."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What method is used to convert Doppler shift into visual data?",
+        "image": "",
+        "opciones": [
+            "Autocorrelation",
+            "Hue",
+            "Fast Fourier Transform",
+            "Reject control"
+        ],
+        "respuesta_correcta": [
+            "Fast Fourier Transform"
+        ],
+        "concept_to_study": "Signal processing in Doppler",
+        "explicacion_openai": "FFT is used to analyze the frequencies and display the Doppler spectrum visually."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The maximum frequency sampled without aliasing is known as the:",
+        "image": "",
+        "opciones": [
+            "Second harmonic limit",
+            "Dispersion frequency limit",
+            "Nyquist limit",
+            "Filter limit"
+        ],
+        "respuesta_correcta": [
+            "Nyquist limit"
+        ],
+        "concept_to_study": "Nyquist limit",
+        "explicacion_openai": "The Nyquist limit is the maximum shift rate that prevents aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is NOT an advantage of Continuous Wave (CW) Doppler?",
+        "image": "",
+        "opciones": [
+            "Ability to measure very high velocities",
+            "Ability to use high frequencies",
+            "No aliasing",
+            "Range ambiguity"
+        ],
+        "respuesta_correcta": [
+            "Range ambiguity"
+        ],
+        "concept_to_study": "CW Doppler advantages",
+        "explicacion_openai": "Range ambiguity is a limitation, not an advantage, of CW Doppler."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "5-2-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most common artifact in Doppler ultrasound?",
+        "image": "",
+        "opciones": [
+            "Flash",
+            "Aliasing",
+            "Turbulent",
+            "Twinkle"
+        ],
+        "respuesta_correcta": [
+            "Aliasing"
+        ],
+        "concept_to_study": "Doppler artifacts",
+        "explicacion_openai": "Aliasing is a prevalent artifact in Doppler ultrasound, occurring when the Doppler shift exceeds the Nyquist limit."
     }
 ]
+
