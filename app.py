@@ -154,18 +154,12 @@ def exam_screen():
         display_navigation()
 
         if st.button("Finish Exam"):
-            unanswered = [
-                i + 1 for i, q in enumerate(st.session_state.selected_questions)
-                if str(i) not in st.session_state.answers
-            ]
-            if unanswered:
-                st.warning(
-                    f"There are {len(unanswered)} unanswered questions. Are you sure you want to finish the exam?"
-                )
-                if st.button("Confirm Completion"):
-                    finalize_exam()
-            else:
+            st.warning(
+                "Are you sure you want to finish the exam?"  # Mensaje más genérico
+            )
+            if st.button("Confirm Completion"):
                 finalize_exam()
+
 
 def finalize_exam():
     """
