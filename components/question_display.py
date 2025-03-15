@@ -19,8 +19,12 @@ def display_question(question, question_num):
         if question['image']:
             image_path = os.path.join("assets", "images", question['image'])
             try:
+                # --- CAMBIO AQUÍ: Envuelve st.image y el enlace en un div ---
+                st.markdown(f'<div class="image-container">', unsafe_allow_html=True)
                 st.image(image_path, use_container_width=True)
-                st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True) #Con opcion de abrir en otra pestana
+                st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True)
+                st.markdown('</div>', unsafe_allow_html=True)  # Cierra el div
+                # ------------------------------------------------------------
             except FileNotFoundError:
                 st.error(f"Image not found: {image_path}")
 
@@ -53,5 +57,4 @@ def display_question(question, question_num):
         else:
              original_selected_option = None
         st.session_state.answers[str(question_num - 1)] = original_selected_option
-
         # --- FIN DE LA MODIFICACIÓN ---
