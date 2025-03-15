@@ -18544,7 +18544,7 @@
         "grupo": "4-1-1-1-1",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Lateral",
             "Axial",
@@ -18562,7 +18562,7 @@
         "grupo": "4-1-1-1-2",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "This type of resolution is directly associated with which characteristic of the spatial pulse length (SPL)?",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Frequency of sound",
             "Length of the pulse",
@@ -18580,7 +18580,7 @@
         "grupo": "4-1-1-1-3",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A synonym for this type of resolution is:",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Depth resolution",
             "Angular resolution",
@@ -18598,7 +18598,7 @@
         "grupo": "4-1-1-1-4",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor primarily influences the resolution depicted in this image?",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Beam width",
             "Pulse duration",
@@ -18616,7 +18616,7 @@
         "grupo": "4-1-1-1-5",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "To improve this type of resolution, which change should be considered?",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Decrease transducer frequency",
             "Increase spatial pulse length",
@@ -18634,7 +18634,7 @@
         "grupo": "4-1-1-1-6",
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The resolution type shown in the image is crucial for distinguishing structures that are:",
-        "image": "axial.jpg",
+        "image": "axial.png",
         "opciones": [
             "Adjacent to each other laterally",
             "Behind one another along the beam path",
@@ -19078,5 +19078,95 @@
     ],
     "concept_to_study": "Slice thickness artifact reduction, spatial compounding, small cystic structures.",
     "explicacion_openai": "Spatial compounding acquires images from multiple angles and combines them to reduce artifacts and enhance visualization. This helps minimize the effects of slice thickness. Note that this does not solve the problem, but does improve visualization."
-  }
+  },
+  {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What type of resolution is indicated by the arrow in the image?",
+        "image": "axial.png",
+        "opciones": [
+            "Axial resolution",
+            "Lateral resolution",
+            "Temporal resolution",
+            "Spatial resolution"
+        ],
+        "respuesta_correcta": [
+            "Axial resolution"
+        ],
+        "concept_to_study": "Resolution types",
+        "explicacion_openai": "The arrow points to axial resolution, which is crucial for distinguishing objects along the ultrasound beam path."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the most important factor determining the type of resolution indicated by the arrow?",
+        "image": "axial.png",
+        "opciones": [
+            "Spatial pulse length",
+            "Frame rate",
+            "Transducer frequency",
+            "Beam width"
+        ],
+        "respuesta_correcta": [
+            "Spatial pulse length"
+        ],
+        "concept_to_study": "Resolution factors",
+        "explicacion_openai": "Axial resolution is primarily determined by the spatial pulse length of the ultrasound beam."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "These are synonyms of the type of resolution shown by the arrow, except:",
+        "image": "axial.png",
+        "opciones": [
+            "Range resolution",
+            "Radial resolution",
+            "Depth resolution",
+            "Lateral resolution"
+        ],
+        "respuesta_correcta": [
+            "Lateral resolution"
+        ],
+        "concept_to_study": "Resolution terminology",
+        "explicacion_openai": "Axial resolution is also known as range, radial, and depth resolution, but not lateral resolution."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Improving the type of resolution indicated by the arrow can be achieved by:",
+        "image": "axial.png",
+        "opciones": [
+            "Increasing the transducer frequency",
+            "Increasing the gain",
+            "Decreasing the frame rate",
+            "Increasing the beam width"
+        ],
+        "respuesta_correcta": [
+            "Increasing the transducer frequency"
+        ],
+        "concept_to_study": "Improving resolution",
+        "explicacion_openai": "Increasing the transducer frequency improves axial resolution by producing shorter wavelengths."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-10",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In what clinical scenario is the type of resolution indicated by the arrow most important?",
+        "image": "axial.png",
+        "opciones": [
+            "Measuring the thickness of a fetal membrane",
+            "Determining the speed of blood flow",
+            "Identifying the location of an organ within the abdomen",
+            "Analyzing contrast between tissues"
+        ],
+        "respuesta_correcta": [
+            "Measuring the thickness of a fetal membrane"
+        ],
+        "concept_to_study": "Clinical application of resolution",
+        "explicacion_openai": "Axial resolution is crucial in scenarios that require precise measurement along the beam path, like assessing membrane thickness."
+    }
 ]
