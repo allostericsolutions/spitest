@@ -58,7 +58,7 @@
     "francisco11",
     "francisco12"
   ],
-  "time_limit_seconds": 7,200,
+  "time_limit_seconds": 7200,
   "warning_time_seconds": 600,
   "passing_score": 555
 },
