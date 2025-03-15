@@ -10,17 +10,15 @@ from utils.pdf_generator import generate_pdf
 from components.question_display import display_question
 from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
-from screens.user_data_input import user_data_input
-# NUEVOS IMPORTS
-from utils.admin_auth import admin_login_screen
-from utils.password_manager import add_password, remove_password, get_passwords
+from screens.user_data_input import user_data_input  # Se importa la función extraída
+
 # ─────────────────────────────────────────────────────────────
 # NUEVO IMPORT para las instrucciones
 # ─────────────────────────────────────────────────────────────
 from instrucctions.tab_view.instructions_tab import instructions_tab
 # ─────────────────────────────────────────────────────────────
 
-# --- Configuración de la página de Streamlit ---
+# Configuración de la página de Streamlit
 st.set_page_config(
     page_title="SPI Practice Exam - ARDMS",
     layout="centered",
@@ -41,10 +39,9 @@ def load_config():
 
 config = load_config()
 
-
 def initialize_session():
     """
-    Inicializa las variables de estado de la aplicación.
+    Initializes the application's state variables (Session State).
     """
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = False
@@ -66,13 +63,10 @@ def initialize_session():
         st.session_state.incorrect_answers = []
     if 'explanations' not in st.session_state:
         st.session_state.explanations = {}
-    if 'admin_authenticated' not in st.session_state: # <-- AÑADIDO
-        st.session_state.admin_authenticated = False
-
 
 def authentication_screen():
     """
-    Pantalla de autenticación: solicita la contraseña al usuario.
+    Authentication screen: prompts the user for the password.
     """
     with st.container():
         st.title("Authentication")
@@ -80,10 +74,10 @@ def authentication_screen():
         if st.button("Enter"):
             if verify_password(password):
                 st.session_state.authenticated = True
-                st.success("Authentication successful.")#Texto en ingles
+                st.success("Authentication successful.")
                 st.rerun()
             else:
-                st.error("Incorrect password.")#Texto en ingles
+                st.error("Incorrect password.")
 
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
@@ -125,7 +119,7 @@ def exam_screen():
 
     # Mostramos Name y Email en la barra lateral
     with st.sidebar:
-        st.write("User Information")#Texto en ingles
+        st.write("User Information")
         st.text_input("Name", value=nombre, disabled=True)
         st.text_input("Email", value=email, disabled=True)
 
@@ -143,16 +137,15 @@ def exam_screen():
     )
 
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
-        st.warning("The exam will end in 10 minutes!")#Texto en ingles
+        st.warning("The exam will end in 10 minutes!")
 
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
-        st.success("Time is up. The exam will be finalized now.")#Texto en ingles
+        st.success("Time is up. The exam will be finalized now.")
         finalize_exam()
         return
 
     display_marked_questions_sidebar()
-
 
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
@@ -160,25 +153,23 @@ def exam_screen():
         display_question(question, current_index + 1)
         display_navigation()
 
-
         # --- BLOQUE DE FINALIZACIÓN (CON FORMULARIO) ---
         if 'confirm_finish' not in st.session_state:
             st.session_state.confirm_finish = False
 
         with st.form("finish_form"):
-            st.warning("When you are ready to finish the exam, press 'Confirm Completion' and then conclude by pressing 'Finish Exam'.")#Texto en ingles
-            if st.form_submit_button("Confirm Completion"):#Texto en ingles
+            st.warning("When you are ready to finish the exam, press 'Confirm Completion' and then conclude by pressing 'Finish Exam'.")
+            if st.form_submit_button("Confirm Completion"):
                 st.session_state.confirm_finish = True
 
-        if st.button("Finish Exam"):#Texto en ingles
+        if st.button("Finish Exam"):
                 if st.session_state.confirm_finish:
                     st.session_state.end_exam = True
                     finalize_exam()
                 else:
-                    st.warning("Please confirm completion using the button above.")#Texto en ingles
+                    st.warning("Please confirm completion using the button above.")
 
         # --- FIN DEL BLOQUE CON FORMULARIO ---
-
 
 def finalize_exam():
     """
@@ -192,15 +183,15 @@ def finalize_exam():
     else:
         status = "Not Passed"
 
-    st.header("Exam Results")#Texto en ingles
-    st.write(f"Score Obtained: {score}")#Texto en ingles
-    st.write(f"Status: {status}")#Texto en ingles
+    st.header("Exam Results")
+    st.write(f"Score Obtained: {score}")
+    st.write(f"Status: {status}")
 
     # ──────────────────────────────────────────────────────────
     # NUEVO BLOQUE: Mostrar desglose por clasificación
     # ──────────────────────────────────────────────────────────
     if "classification_stats" in st.session_state:
-        st.sidebar.subheader("Detailed Breakdown by Topic")#Texto en ingles
+        st.sidebar.subheader("Detailed Breakdown by Topic")
         for clasif, stats in st.session_state.classification_stats.items():
             if stats["total"] > 0:
                 percent = (stats["correct"] / stats["total"]) * 100
@@ -210,18 +201,18 @@ def finalize_exam():
 
     # --- INTEGRACIÓN CON OPENAI ---
     explanations = get_openai_explanation(st.session_state.incorrect_answers)
-    st.session_state.explanations = explanations    # Guarda las explicaciones
+    st.session_state.explanations = explanations  # Guarda las explicaciones
 
     # Mostrar las explicaciones en la barra lateral (para depurar)
     # st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
     # st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
     pdf_path = generate_pdf(st.session_state.user_data, score, status)
-    st.success("Results generated in PDF.")#Texto en ingles
+    st.success("Results generated in PDF.")
 
     with open(pdf_path, "rb") as f:
         st.download_button(
-            label="Download Results (PDF)",#Texto en ingles
+            label="Download Results (PDF)",
             data=f,
             file_name=os.path.basename(pdf_path),
             mime="application/pdf"
@@ -233,50 +224,25 @@ def main_screen():
     """
     exam_screen()
 
-def admin_screen():
-    """
-    Pantalla de administración para gestionar contraseñas (en la barra lateral).
-    """
-    st.sidebar.title("Password Management")
-
-    # Añadir contraseña
-    st.sidebar.header("Add Password")
-    exam_type = st.sidebar.selectbox("Exam Type", ["short", "full"])
-    new_password = st.sidebar.text_input("New Password", type="password")
-    if st.sidebar.button("Add Password"):
-        add_password(exam_type, new_password)
-
-    # Eliminar contraseña
-    st.sidebar.header("Remove Password")
-    exam_type_remove = st.sidebar.selectbox("Exam Type to Remove From", ["short", "full"], key="exam_type_remove")
-    passwords = get_passwords(exam_type_remove)
-    if passwords:
-        password_to_remove = st.sidebar.selectbox("Password to Remove", passwords)
-        if st.sidebar.button("Remove Password"):
-            remove_password(exam_type_remove, password_to_remove)
-    else:
-        st.sidebar.write(f"No passwords found for {exam_type_remove} exam.")
-
-
 def main():
     """
     MAIN EXECUTION.
     """
     initialize_session()
     load_css()
-        # ─────────────────────────────────────────────────────────
-        # LLAMADO para mostrar las instrucciones (Expander)
-        # ─────────────────────────────────────────────────────────
+    # ─────────────────────────────────────────────────────────
+    # LLAMADO para mostrar las instrucciones (Expander)
+    # ─────────────────────────────────────────────────────────
     instructions_tab()
 
-        # --- Control de tamaño de fuente (AÑADIDO) ---
+     # --- Control de tamaño de fuente (AÑADIDO) ---
     with st.sidebar:
-        st.write("Adjust Font Size")#Texto en ingles
+        st.write("Adjust Font Size")
         font_size_multiplier = st.slider(
-            "Font Size",#Texto en ingles
+            "Font Size",
             min_value=0.8,
             max_value=2.0,
-            value=1.0,    # Valor inicial (1.0 = tamaño predeterminado)
+            value=1.0,  # Valor inicial (1.0 = tamaño predeterminado)
             step=0.1,
             key="font_size_slider"
         )
@@ -290,11 +256,8 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    admin_login_screen() # Esto siempre se va a mostrar
 
-    if st.session_state.admin_authenticated: # Y esto si se autentica el admin.
-        admin_screen()
-    elif not st.session_state.authenticated:
+    if not st.session_state.authenticated:
         authentication_screen()
     elif not st.session_state.user_data:
         user_data_input()
