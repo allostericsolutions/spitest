@@ -18813,7 +18813,7 @@
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "8-8-8-8-2",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The Doppler spectral waveform obtained from sample volume A (the largest sample volume) exhibits significant spectral broadening. Which of the following factors is *MOST LIKELY* contributing to this finding?",
+    "enunciado": "The Doppler spectral waveform obtained from sample volume "A" exhibits significant spectral broadening. Which of the following factors is *MOST LIKELY* contributing to this finding?",
     "image": "window.jpg",
     "opciones": [
       "Excessively large sample volume size.",
