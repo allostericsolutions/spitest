@@ -1,5 +1,5 @@
 [
-  {
+{
     "clasificacion": "Ultrasound Transducers",
     "grupo": "2-14",
     "tipo_pregunta": "opcion_multiple",
@@ -17,7 +17,7 @@
     "concept_to_study": "Transducer Focusing",
     "explicacion_openai": "The slice-thickness plane, also known as the elevational plane, is focused using a lens in typical transducers. This acoustic lens helps to narrow the ultrasound beam in the elevational dimension, improving image resolution."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "4-16",
     "tipo_pregunta": "opcion_multiple",
@@ -35,7 +35,7 @@
     "concept_to_study": "Speed Displacement Artifact",
     "explicacion_openai": "Sound travels slower in water than the assumed 1540 m/s used by ultrasound machines. Because the machine assumes a constant speed, the longer travel time through water makes the reflector appear farther away than it actually is."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "6-3",
     "tipo_pregunta": "opcion_multiple",
@@ -53,7 +53,7 @@
     "concept_to_study": "Thermal Bioeffects",
     "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2°C. This limit is based on guidelines from organizations like the AIUM."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "7-20",
     "tipo_pregunta": "opcion_multiple",
@@ -71,7 +71,7 @@
     "concept_to_study": "Speed of Sound in Soft Tissue",
     "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same."
    },
-   {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "1-2",
     "tipo_pregunta": "opcion_multiple",
@@ -89,7 +89,7 @@
     "concept_to_study": "Nyquist Limit",
     "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit."
   },
-  {
+{
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "9-7",
     "tipo_pregunta": "opcion_multiple",
@@ -107,7 +107,7 @@
     "concept_to_study": "Bistable Display",
     "explicacion_openai": "A bistable display is one that is limited to only two shades: black and white. There are no intermediate shades of gray. This type of display has high contrast but poor dynamic range."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "12-6",
     "tipo_pregunta": "opcion_multiple",
@@ -125,7 +125,7 @@
     "concept_to_study": "Bit (Binary Digit)",
     "explicacion_openai": "A bit is the smallest unit of digital storage, representing a single binary value (0 or 1). All digital information is ultimately stored as combinations of bits."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "4-17",
     "tipo_pregunta": "opcion_multiple",
@@ -143,7 +143,7 @@
     "concept_to_study": "Fresnel Zone (Near Zone)",
     "explicacion_openai": "The Fresnel zone, or near zone, is the region closest to the transducer where the ultrasound beam converges. Within this zone, the beam area *decreases* with increasing distance from the transducer."
   },
-  {
+{
     "clasificacion": "Ultrasound Transducers",
     "grupo": "2-15",
     "tipo_pregunta": "opcion_multiple",
@@ -161,7 +161,7 @@
     "concept_to_study": "Analog vs. Digital Signals",
     "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image."
   },
-  {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "3-5",
     "tipo_pregunta": "opcion_multiple",
@@ -179,7 +179,7 @@
     "concept_to_study": "Color Doppler Display",
     "explicacion_openai": "In color Doppler imaging, each pixel on the display can represent either grayscale information (structural data) or color information (velocity data). The color overlay indicates the presence, direction, and velocity of blood flow."
   },
-  {
+{
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "9-8",
     "tipo_pregunta": "opcion_multiple",
@@ -197,7 +197,7 @@
     "concept_to_study": "Write Magnification (Write Zoom)",
     "explicacion_openai": "Write magnification, also known as regional expansion selection (RES), is a pre-processing zoom technique. It rescans only the region of interest, maintaining pixel density and improving image resolution."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "1-18",
     "tipo_pregunta": "opcion_multiple",
@@ -215,7 +215,7 @@
     "concept_to_study": "Amplitude and Frequency Relationship",
     "explicacion_openai": "Amplitude and frequency are independent characteristics of a sound wave. Amplitude relates to the strength of the wave, while frequency relates to the number of cycles per second."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "1-19",
     "tipo_pregunta": "opcion_multiple",
@@ -233,7 +233,7 @@
     "concept_to_study": "Spatial Pulse Length and Pulse Duration Relationship",
     "explicacion_openai": "Spatial pulse length (SPL) and pulse duration (PD) are directly related. A longer pulse duration results in a longer spatial pulse length, and vice versa. Both affect axial resolution."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "7-21",
     "tipo_pregunta": "opcion_multiple",
@@ -251,7 +251,7 @@
     "concept_to_study": "Axial Resolution",
     "explicacion_openai": "Axial resolution is determined by the spatial pulse length and remains constant throughout the image depth. It does *not* vary with depth. Shorter pulses improve axial resolution."
   },
-  {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "10-3",
     "tipo_pregunta": "opcion_multiple",
@@ -269,7 +269,7 @@
     "concept_to_study": "Pressure Differential and Flow Rate",
     "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will *increase* the flow rate. This is a fundamental principle of fluid dynamics."
   },
-  {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "10-4",
     "tipo_pregunta": "opcion_multiple",
@@ -287,7 +287,7 @@
     "concept_to_study": "Poiseuille's Law",
     "explicacion_openai": "Poiseuille's law describes the relationship between flow rate (Q), pressure difference (ΔP), vessel radius (r), vessel length (L), and fluid viscosity (η) in a long, cylindrical tube: Q = (πΔPr^4) / (8ηL)."
   },
-  {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "10-5",
     "tipo_pregunta": "opcion_multiple",
@@ -305,7 +305,7 @@
     "concept_to_study": "Laminar Flow",
     "explicacion_openai": "Laminar flow is the most common type of blood flow found in the normal circulatory system. It is characterized by smooth, orderly layers of fluid movement, with the highest velocity in the center of the vessel and lower velocities near the vessel walls."
   },
-  {
+{
     "clasificacion": "Ultrasound Transducers",
     "grupo": "5-78",
     "tipo_pregunta": "opcion_multiple",
@@ -323,7 +323,7 @@
     "concept_to_study": "Convex (Curved) Transducers",
     "explicacion_openai": "Convex transducers, also known as curved array transducers, are well-suited for imaging deep structures in the abdomen. Their curved shape provides a wider field of view at depth, and they typically operate at lower frequencies, allowing for greater penetration."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "3-66",
     "tipo_pregunta": "opcion_multiple",
@@ -341,7 +341,7 @@
     "concept_to_study": "Sonographer Ergonomics",
     "explicacion_openai": "To prevent musculoskeletal injuries, sonographers should avoid abducting (raising) their arm more than 30 degrees from their body while scanning. Proper ergonomics are crucial for long-term health and career longevity."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "4-34",
     "tipo_pregunta": "opcion_multiple",
@@ -359,7 +359,7 @@
     "concept_to_study": "ALARA Principle",
     "explicacion_openai": "ALARA stands for \"As Low As Reasonably Achievable.\" In ultrasound, this means using the lowest possible output power and shortest scan time necessary to obtain a diagnostic image, minimizing potential bioeffects."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "5-45",
     "tipo_pregunta": "opcion_multiple",
@@ -377,7 +377,7 @@
     "concept_to_study": "Transient Cavitation",
     "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "6-45",
     "tipo_pregunta": "opcion_multiple",
@@ -395,7 +395,7 @@
     "concept_to_study": "SPTA Intensity and Bioeffects",
     "explicacion_openai": "The AIUM statement indicates that no independently confirmed significant biological effects have been observed in mammalian tissues with unfocused ultrasound beams having SPTA (Spatial Peak Temporal Average) intensities below 100 mW/cm²."
   },
-  {
+{
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "8-1",
     "tipo_pregunta": "opcion_multiple",
@@ -413,7 +413,7 @@
     "concept_to_study": "",
     "explicacion_openai": ""
   },
-  {
+{
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "3-21",
     "tipo_pregunta": "opcion_multiple",
@@ -431,7 +431,7 @@
     "concept_to_study": "Doppler Angle and Velocity Accuracy",
     "explicacion_openai": "The most accurate Doppler velocity measurements are obtained when the ultrasound beam is parallel to the direction of blood flow (Doppler angle of 0 degrees). The Doppler equation includes the cosine of the Doppler angle, and cos(0) = 1."
   },
-  {
+{
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "9-22",
     "tipo_pregunta": "opcion_multiple",
@@ -449,7 +449,7 @@
     "concept_to_study": "Reverberation Artifact",
     "explicacion_openai": "Reverberation artifacts occur when sound bounces back and forth between two strong, parallel reflectors. This creates multiple, equally spaced echoes on the display, appearing deeper than the actual reflectors."
   },
-  {
+{
     "clasificacion": "Ultrasound Transducers",
     "grupo": "5-80",
     "tipo_pregunta": "opcion_multiple",
@@ -467,7 +467,7 @@
     "concept_to_study": "1.5D Array Transducers",
     "explicacion_openai": "1.5D array transducers have multiple rows of elements in the elevational plane (slice thickness). This allows for electronic focusing in the elevational dimension, improving elevational resolution (slice thickness resolution)."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "7-40",
     "tipo_pregunta": "opcion_multiple",
@@ -485,7 +485,7 @@
     "concept_to_study": "Attenuation Coefficient",
     "explicacion_openai": "Bone has the highest attenuation coefficient of the listed tissues. This means that ultrasound energy is absorbed, scattered, and reflected to a greater extent in bone compared to fat, muscle, or water."
   },
-  {
+{
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "12-10",
     "tipo_pregunta": "opcion_multiple",
@@ -503,7 +503,7 @@
     "concept_to_study": "Informed Consent",
     "explicacion_openai": "The primary purpose of informed consent is to ensure that the patient has a clear understanding of the ultrasound procedure, including its purpose, potential benefits, risks, and alternatives. This allows the patient to make an autonomous decision about their care."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "5-8-26",
     "tipo_pregunta": "opcion_multiple",
@@ -521,7 +521,7 @@
     "concept_to_study": "Posterior Acoustic Enhancement",
     "explicacion_openai": "Posterior acoustic enhancement, also known as through transmission, occurs when sound travels through a weakly attenuating structure (like a cyst). The area *behind* the structure appears brighter than surrounding tissues because the sound beam has experienced less attenuation."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "5-8-1",
     "tipo_pregunta": "opcion_multiple",
@@ -539,7 +539,7 @@
     "concept_to_study": "Comet Tail Artifact",
     "explicacion_openai": "The comet tail artifact is a type of reverberation artifact. It appears as a series of closely spaced, parallel echoes extending distally from a small, highly reflective object, often cholesterol crystals or small calcifications within the gallbladder wall, as seen in adenomyomatosis."
   },
-  {
+{
     "clasificacion": "Physical Principles",
     "grupo": "5-9-8",
     "tipo_pregunta": "opcion_multiple",
@@ -557,7 +557,7 @@
     "concept_to_study": "Acoustic Shadowing",
     "explicacion_openai": "Acoustic shadowing occurs when sound encounters a highly attenuating or highly reflective structure. The shadow's width at its origin is typically approximately the same width as the object causing the shadowing. The shadow appears as a dark region posterior to the object."
     },
-    {
+{
       "clasificacion": "Doppler Imaging Concepts",
       "grupo": "10-1",
       "tipo_pregunta": "opcion_multiple",
@@ -575,7 +575,7 @@
       "concept_to_study": "Doppler Shift",
       "explicacion_openai": "A positive Doppler shift is observed when the transducer detects flow towards it."
   },
-  {
+{
       "clasificacion": "Doppler Imaging Concepts",
       "grupo": "10-2",
       "tipo_pregunta": "opcion_multiple",
@@ -592,5 +592,114 @@
       ],
       "concept_to_study": "Doppler Shift",
       "explicacion_openai": "A negative Doppler shift occurs when the transducer detects flow away from it."
-  }
+  },
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "8-8-8-8-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
+    "image": "window.jpg",
+    "opciones": [
+      "Sample A",
+      "Sample B",
+      "Sample C",
+      "Sample D"
+    ],
+    "respuesta_correcta": [
+      "Sample B"
+    ],
+    "concept_to_study": "Doppler sample volume placement, peak systolic velocity measurement.",
+    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. A, being too large, is not correct because it is measuring many speeds at once."
+  },
+{
+        "clasificacion": "Physical Principles",
+        "grupo": "4-1-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
+        "image": "axial.png",
+        "opciones": [
+            "Lateral",
+            "Axial",
+            "Temporal",
+            "Contrast"
+        ],
+        "respuesta_correcta": [
+            "Axial"
+        ],
+        "concept_to_study": "Resolution types",
+        "explicacion_openai": "Axial resolution refers to distinguishing structures that lie along the direction of the sound beam."
+
+       },
+{
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "2-2-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the relationship between pulse repetition frequency and pulse repetition period?",
+        "image": "",
+        "opciones": [
+            "Directly proportional",
+            "Inversely proportional",
+            "Not related",
+            "Exponentially related"
+        ],
+        "respuesta_correcta": [
+            "Inversely proportional"
+        ],
+        "concept_to_study": "",
+        "explicacion_openai": ""
+    },
+{
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "2-3-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the duty factor if the pulse repetition period increases?",
+        "image": "",
+        "opciones": [
+            "Increases",
+            "Decreases",
+            "Remains the same",
+            "Becomes zero"
+        ],
+        "respuesta_correcta": [
+            "Decreases"
+        ],
+        "concept_to_study": "",
+        "explicacion_openai": ""
+    },
+{
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "2-4-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the effect of increasing frequency on the pulse duration?",
+        "image": "",
+        "opciones": [
+            "Increases pulse duration",
+            "Decreases pulse duration",
+            "No effect on pulse duration",
+            "Doubles the pulse duration"
+        ],
+        "respuesta_correcta": [
+            "Decreases pulse duration"
+        ],
+        "concept_to_study": "",
+        "explicacion_openai": ""
+    },
+{
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "2-5-1-1-1",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does the spatial pulse length affect axial resolution?",
+        "image": "",
+        "opciones": [
+            "Longer spatial pulse length improves resolution",
+            "Shorter spatial pulse length improves resolution",
+            "Spatial pulse length has no effect on resolution",
+            "Spatial pulse length doubles resolution"
+        ],
+        "respuesta_correcta": [
+            "Shorter spatial pulse length improves resolution"
+        ],
+        "concept_to_study": "",
+        "explicacion_openai": ""
+      }
 ]
