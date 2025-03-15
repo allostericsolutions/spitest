@@ -59,13 +59,13 @@ h1 {
     display: flex;         /* Usa Flexbox para centrar */
     justify-content: center;     /* Centra horizontalmente */
     align-items: center;       /* Centra verticalmente */
-    max-height: 300px;    /* ALTURA MÁXIMA (AJUSTA ESTE VALOR) */
+    max-height: 200px;    /* ALTURA MÁXIMA (AJUSTA ESTE VALOR) */
     overflow: hidden;      /* Oculta si se sale del contenedor */
 }
 
 .image-container img {
-    max-width: 100%;    /* Nunca más ancha que el contenedor */
-    max-height: 100%;   /* Nunca más alta que el contenedor */
+    max-width: 50%;    /* Nunca más ancha que el contenedor */
+    max-height: 50%;   /* Nunca más alta que el contenedor */
     width: auto;       /* Ancho automático (mantiene proporción) */
     height: auto;      /* Altura automática (mantiene proporción) */
     object-fit: contain; /* Mantiene la relación de aspecto */
