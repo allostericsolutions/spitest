@@ -13,7 +13,7 @@ from openai_utils.explanations import get_openai_explanation
 from screens.user_data_input import user_data_input
 
 # --- NUEVAS IMPORTACIONES ---
-from password_manager.manager import verify_password, mark_password_as_used, admin_screen
+from password_manager.manager import verify_password, mark_password_as_used, admin_screen, load_config
 from instrucctions.tab_view.instructions_tab import instructions_tab
 
 # Configuración de la página de Streamlit
@@ -111,11 +111,11 @@ def display_marked_questions_sidebar():
             #question_number = index + 1 # Ya no se usa
             col1, col2 = st.sidebar.columns([3, 1])
             with col1:
-                if st.button(f"Question ", key=f"goto_{index}"):
+                if st.button(f"Question ", key=f"goto_{index}"):  # <-- CORREGIDO
                     st.session_state.current_question_index = index
                     st.rerun()
             with col2:
-                if st.button("X", key=f"unmark_{index}"):
+                if st.button("X", key=f"unmark_{index}"):  # <-- CORREGIDO
                     st.session_state.marked.remove(index)
                     st.rerun()
 
@@ -123,7 +123,7 @@ def exam_screen():
     """
     Main exam screen.
     """
-    from password_manager.manager import load_config #Se importa dentro
+    #from password_manager.manager import load_config # Se puede importar aquí
     config = load_config()  # Se carga la configuración
     nombre = st.session_state.user_data.get('nombre', '')
     email = st.session_state.user_data.get('email', '')
@@ -136,11 +136,11 @@ def exam_screen():
     # --- ASIGNACIÓN DEL TIEMPO RESTANTE (simplificada) ---
     elapsed_time = time.time() - st.session_state.start_time
     if st.session_state.exam_type == "short":
-        remaining_time = 1200 - elapsed_time  # 20 minutos
+        remaining_time = config["time_limit_seconds_short"] - elapsed_time  # 20 minutos
     #Se agrega para usar los tiempos de config
     elif st.session_state.exam_type == "full":
         remaining_time = config["time_limit_seconds_full"] - elapsed_time
-    #En caso de error
+    #En caso de error, no deberia ocurrir
     else:
         remaining_time = 0
 
@@ -202,8 +202,8 @@ def finalize_exam():
     """
     Marks the exam as finished, displays results, and generates the PDF.
     """
-    from password_manager.manager import load_config #Se importa dentro
-    config = load_config()  # Se carga la configuración
+    #from password_manager.manager import load_config  # Se puede importar aquí
+    config = load_config()
     st.session_state.end_exam = True
     score = calculate_score()
 
