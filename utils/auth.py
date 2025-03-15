@@ -7,15 +7,15 @@ def load_config():
 
 def verify_password(input_password):
     """
-    Verifica si la contraseña ingresada corresponde al examen corto o completo,
-    y guarda en Session State la modalidad correspondiente.
+    Verifica si la contraseña ingresada corresponde a alguna de las contraseñas
+    válidas para el examen corto o completo, y guarda la modalidad en Session State.
     """
     config = load_config()
 
-    if input_password == config.get("password_short", ""):
+    if input_password in config.get("passwords_short", []):
         st.session_state["exam_type"] = "short"
         return True
-    elif input_password == config.get("password_full", ""):
+    elif input_password in config.get("passwords_full", []):
         st.session_state["exam_type"] = "full"
         return True
     else:
