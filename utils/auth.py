@@ -1,22 +1,25 @@
-import json
+import bcrypt
 import streamlit as st
 
-def load_config():
-    with open('data/config.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+# CONTRASEÑA DE ADMIN *HARDCODEADA* (¡CAMBIAR ESTO!) Y CON HASHING
+ADMIN_PASSWORD_HASHED = b'$2b$12$qRyAP.AsfK4hNp/8OSWbM.jODU.9Ekm/pAANAg/p.j7qXuzrA/rG.'  # Hash de 'admin_password'
 
-def verify_password(input_password):
+def authenticate_admin(password):
     """
-    Verifica si la contraseña ingresada corresponde a alguna de las contraseñas
-    válidas para el examen corto o completo, y guarda la modalidad en Session State.
+    Autentica al administrador (usando bcrypt para comparar hashes).
     """
-    config = load_config()
+    return bcrypt.checkpw(password.encode('utf-8'), ADMIN_PASSWORD_HASHED)
 
-    if input_password in config.get("passwords_short", []):
-        st.session_state["exam_type"] = "short"
-        return True
-    elif input_password in config.get("passwords_full", []):
-        st.session_state["exam_type"] = "full"
-        return True
-    else:
-        return False
+def admin_login_screen():
+    """
+    Pantalla de login para el administrador (ahora en la barra lateral).
+    """
+    st.sidebar.title("Admin Login")
+    password = st.sidebar.text_input("Admin Password", type="password")
+    if st.sidebar.button("Login"):
+        if authenticate_admin(password):
+            st.session_state.admin_authenticated = True
+            st.sidebar.success("Admin login successful.")  # Mensaje en la sidebar
+            # No usamos st.rerun() aquí para evitar el parpadeo
+        else:
+            st.sidebar.error("Incorrect admin password.")  # Error en la sidebar
