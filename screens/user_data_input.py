@@ -1,3 +1,4 @@
+# screens/user_data_input.py
 import streamlit as st
 import time
 from utils.question_manager import select_random_questions, select_short_questions, shuffle_options
@@ -13,7 +14,11 @@ def user_data_input():
 
         submitted = st.form_submit_button("Start Exam")
         if submitted:
-            if nombre.strip() and email.strip():
+            if not nombre.strip() or not email.strip(): # Primero, verifica campos no vacíos (como antes)
+                st.error("Please, complete all fields.")
+            elif "@" not in email or "." not in email:  # <---- AÑADIDO: VALIDACIÓN SIMPLE DE EMAIL
+                st.error("Please enter a valid email address.") # Mensaje de error más específico
+            else:
                 st.session_state.user_data = {
                     "nombre": nombre.strip(),
                     "email": email.strip()
@@ -36,5 +41,3 @@ def user_data_input():
                 st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
                 st.session_state.start_time = time.time()
                 st.rerun()
-            else:
-                st.error("Please, complete all fields.")
