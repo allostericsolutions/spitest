@@ -15,7 +15,7 @@
       "Using a lens"
     ],
     "concept_to_study": "Transducer Focusing",
-    "explicacion_openai": "The slice-thickness plane, also known as the elevational plane, is focused using a lens in typical transducers. This acoustic lens helps to narrow the ultrasound beam in the elevational dimension, improving image resolution. Understanding this concept is crucial for optimizing image quality and ensuring accurate diagnostic information."
+    "explicacion_openai": "The slice-thickness plane, also known as the elevational plane, is focused using a lens in typical transducers. This acoustic lens helps to narrow the ultrasound beam in the elevational dimension, improving image resolution. Mastering this concept is crucial for optimizing image quality and ensuring accurate diagnostic information."
   },
   {
     "clasificacion": "Physical Principles",
@@ -33,7 +33,7 @@
       "Too far away"
     ],
     "concept_to_study": "Speed Displacement Artifact",
-    "explicacion_openai": "Sound travels slower in water than the assumed 1540 m/s used by ultrasound machines. Because the machine assumes a constant speed, the longer travel time through water makes the reflector appear farther away than it actually is. This understanding is essential for recognizing and correcting artifacts in ultrasound imaging."
+    "explicacion_openai": "Sound travels slower in water than the assumed 1540 m/s used by ultrasound machines. Because the machine assumes a constant speed, the longer travel time through water makes the reflector appear farther away than it actually is. Grasping this concept is essential for recognizing and correcting artifacts in ultrasound imaging."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -51,7 +51,7 @@
       "2°C"
     ],
     "concept_to_study": "Thermal Bioeffects",
-    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2°C. This limit is based on guidelines from organizations like the AIUM. Understanding these guidelines is vital for ensuring patient safety during ultrasound examinations."
+    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2°C. This limit is based on guidelines from organizations like the AIUM. Familiarity with these guidelines is vital for ensuring patient safety during ultrasound examinations."
   },
   {
     "clasificacion": "Physical Principles",
@@ -87,7 +87,7 @@
       "Decrease the sample depth"
     ],
     "concept_to_study": "Nyquist Limit",
-    "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit. Understanding this concept helps in optimizing Doppler settings to avoid aliasing."
+    "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit. This knowledge helps in optimizing Doppler settings to avoid aliasing."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -105,7 +105,7 @@
       "Bistable"
     ],
     "concept_to_study": "Bistable Display",
-    "explicacion_openai": "A bistable display is one that is limited to only two shades: black and white. There are no intermediate shades of gray. This type of display has high contrast but poor dynamic range. Understanding display types is crucial for interpreting ultrasound images accurately."
+    "explicacion_openai": "A bistable display is one that is limited to only two shades: black and white. There are no intermediate shades of gray. This type of display has high contrast but poor dynamic range. Recognizing display types is crucial for interpreting ultrasound images accurately."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -141,7 +141,7 @@
       "The beam area decreases with distance from the transducer"
     ],
     "concept_to_study": "Fresnel Zone (Near Zone)",
-    "explicacion_openai": "The Fresnel zone, or near zone, is the region closest to the transducer where the ultrasound beam converges. Within this zone, the beam area decreases with increasing distance from the transducer. Understanding the Fresnel zone is important for optimizing image resolution and focus."
+    "explicacion_openai": "The Fresnel zone, or near zone, is the region closest to the transducer where the ultrasound beam converges. Within this zone, the beam area decreases with increasing distance from the transducer. This knowledge is important for optimizing image resolution and focus."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -159,7 +159,7 @@
       "Analog"
     ],
     "concept_to_study": "Analog vs. Digital Signals",
-    "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image. Understanding this conversion is crucial for interpreting ultrasound images accurately."
+    "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image. This conversion is crucial for interpreting ultrasound images accurately."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -177,7 +177,7 @@
       "Each pixel can either be grayscale or color"
     ],
     "concept_to_study": "Color Doppler Display",
-    "explicacion_openai": "In color Doppler imaging, each pixel on the display can represent either grayscale information (structural data) or color information (velocity data). The color overlay indicates the presence, direction, and velocity of blood flow. Understanding this helps in accurately assessing blood flow characteristics."
+    "explicacion_openai": "In color Doppler imaging, each pixel on the display can represent either grayscale information (structural data) or color information (velocity data). The color overlay indicates the presence, direction, and velocity of blood flow. This understanding aids in accurately assessing blood flow characteristics."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -195,7 +195,7 @@
       "Write magnification"
     ],
     "concept_to_study": "Write Magnification (Write Zoom)",
-    "explicacion_openai": "Write magnification, also known as regional expansion selection (RES), is a pre-processing zoom technique. It rescans only the region of interest, maintaining pixel density and improving image resolution. Understanding this technique is essential for enhancing image quality in specific areas of interest."
+    "explicacion_openai": "Write magnification, also known as regional expansion selection (RES), is a pre-processing zoom technique. It rescans only the region of interest, maintaining pixel density and improving image resolution. This technique is essential for enhancing image quality in specific areas of interest."
   },
   {
     "clasificacion": "Physical Principles",
@@ -213,7 +213,7 @@
       "No relation"
     ],
     "concept_to_study": "Amplitude and Frequency Relationship",
-    "explicacion_openai": "Amplitude and frequency are independent characteristics of a sound wave. Amplitude relates to the strength of the wave, while frequency relates to the number of cycles per second. Understanding these properties is fundamental for interpreting ultrasound waveforms and their effects on imaging."
+    "explicacion_openai": "Amplitude and frequency are independent characteristics of a sound wave. Amplitude relates to the strength of the wave, while frequency relates to the number of cycles per second. Grasping these properties is fundamental for interpreting ultrasound waveforms and their effects on imaging."
   },
   {
     "clasificacion": "Physical Principles",
@@ -231,7 +231,7 @@
       "Directly related"
     ],
     "concept_to_study": "Spatial Pulse Length and Pulse Duration Relationship",
-    "explicacion_openai": "Spatial pulse length (SPL) and pulse duration (PD) are directly related. A longer pulse duration results in a longer spatial pulse length, and vice versa. Both affect axial resolution. Understanding this relationship is crucial for optimizing image quality and resolution."
+    "explicacion_openai": "Spatial pulse length (SPL) and pulse duration (PD) are directly related. A longer pulse duration results in a longer spatial pulse length, and vice versa. Both affect axial resolution. Recognizing this relationship is crucial for optimizing image quality and resolution."
   },
   {
     "clasificacion": "Physical Principles",
@@ -249,7 +249,7 @@
       "It does not vary with depth"
     ],
     "concept_to_study": "Axial Resolution",
-    "explicacion_openai": "Axial resolution is determined by the spatial pulse length and remains constant throughout the image depth. It does not vary with depth. Shorter pulses improve axial resolution. Understanding axial resolution is essential for achieving high-quality images and accurate diagnoses."
+    "explicacion_openai": "Axial resolution is determined by the spatial pulse length and remains constant throughout the image depth. It does not vary with depth. Shorter pulses improve axial resolution. This knowledge is essential for achieving high-quality images and accurate diagnoses."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -267,7 +267,7 @@
       "Flow rate increases"
     ],
     "concept_to_study": "Pressure Differential and Flow Rate",
-    "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will increase the flow rate. This is described by Poiseuille's Law, a fundamental principle of fluid dynamics. Understanding this relationship is crucial for interpreting Doppler flow measurements."
+    "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will increase the flow rate. This is described by Poiseuille's Law, a fundamental principle of fluid dynamics. This relationship is crucial for interpreting Doppler flow measurements."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -285,7 +285,7 @@
       "Poiseuille's law"
     ],
     "concept_to_study": "Poiseuille's Law",
-    "explicacion_openai": "Poiseuille's law describes the relationship between flow rate (Q), pressure difference (ΔP), vessel radius (r), vessel length (L), and fluid viscosity (η) in a long, cylindrical tube: Q = (πΔPr^4) / (8ηL). Understanding this law is essential for analyzing blood flow dynamics in vessels."
+    "explicacion_openai": "Poiseuille's law describes the relationship between flow rate (Q), pressure difference (ΔP), vessel radius (r), vessel length (L), and fluid viscosity (η) in a long, cylindrical tube: Q = (πΔPr^4) / (8ηL). Familiarity with this law is essential for analyzing blood flow dynamics in vessels."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -303,7 +303,7 @@
       "Laminar"
     ],
     "concept_to_study": "Laminar Flow",
-    "explicacion_openai": "Laminar flow is the most common type of blood flow found in the normal circulatory system. It is characterized by smooth, orderly layers of fluid movement, with the highest velocity in the center of the vessel and lower velocities near the vessel walls. Understanding laminar flow is crucial for interpreting normal and pathological flow patterns."
+    "explicacion_openai": "Laminar flow is the most common type of blood flow found in the normal circulatory system. It is characterized by smooth, orderly layers of fluid movement, with the highest velocity in the center of the vessel and lower velocities near the vessel walls. Recognizing laminar flow is crucial for interpreting normal and pathological flow patterns."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -321,7 +321,7 @@
       "Convex transducer"
     ],
     "concept_to_study": "Convex (Curved) Transducers",
-    "explicacion_openai": "Convex transducers, also known as curved array transducers, are well-suited for imaging deep structures in the abdomen. Their curved shape provides a wider field of view at depth, and they typically operate at lower frequencies, allowing for greater penetration. Understanding transducer types is essential for selecting the appropriate equipment for specific imaging needs."
+    "explicacion_openai": "Convex transducers, also known as curved array transducers, are well-suited for imaging deep structures in the abdomen. Their curved shape provides a wider field of view at depth, and they typically operate at lower frequencies, allowing for greater penetration. Selecting the appropriate transducer is essential for specific imaging needs."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -339,7 +339,7 @@
       "30"
     ],
     "concept_to_study": "Sonographer Ergonomics",
-    "explicacion_openai": "To prevent musculoskeletal injuries, sonographers should avoid abducting (raising) their arm more than 30 degrees from their body while scanning. Proper ergonomics are crucial for long-term health and career longevity. Understanding ergonomic principles is essential for maintaining a healthy work environment."
+    "explicacion_openai": "To prevent musculoskeletal injuries, sonographers should avoid abducting (raising) their arm more than 30 degrees from their body while scanning. Proper ergonomics are crucial for long-term health and career longevity. Adhering to ergonomic principles is essential for maintaining a healthy work environment."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -357,7 +357,7 @@
       "Use the lowest possible output power that provides a diagnostic image."
     ],
     "concept_to_study": "ALARA Principle",
-    "explicacion_openai": "ALARA stands for \"As Low As Reasonably Achievable.\" In ultrasound, this means using the lowest possible output power and shortest scan time necessary to obtain a diagnostic image, minimizing potential bioeffects. Understanding the ALARA principle is crucial for ensuring patient safety during ultrasound examinations."
+    "explicacion_openai": "ALARA stands for \"As Low As Reasonably Achievable.\" In ultrasound, this means using the lowest possible output power and shortest scan time necessary to obtain a diagnostic image, minimizing potential bioeffects. Applying the ALARA principle is crucial for ensuring patient safety during ultrasound examinations."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -375,7 +375,7 @@
       "Transient"
     ],
     "concept_to_study": "Transient Cavitation",
-    "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Understanding cavitation is essential for assessing potential bioeffects in ultrasound imaging."
+    "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Recognizing cavitation is essential for assessing potential bioeffects in ultrasound imaging."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -393,7 +393,7 @@
       "100 mW/cm²"
     ],
     "concept_to_study": "SPTA Intensity and Bioeffects",
-    "explicacion_openai": "The AIUM statement indicates that no independently confirmed significant biological effects have been observed in mammalian tissues with unfocused ultrasound beams having SPTA (Spatial Peak Temporal Average) intensities below 100 mW/cm². Understanding these guidelines is crucial for ensuring patient safety during ultrasound examinations."
+    "explicacion_openai": "The AIUM statement indicates that no independently confirmed significant biological effects have been observed in mammalian tissues with unfocused ultrasound beams having SPTA (Spatial Peak Temporal Average) intensities below 100 mW/cm². Awareness of these guidelines is crucial for ensuring patient safety during ultrasound examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -411,7 +411,7 @@
       "Overall Gain (Receiver Gain)"
     ],
     "concept_to_study": "Gain Settings",
-    "explicacion_openai": "Overall Gain (Receiver Gain) controls the amplification of the received echoes. If set too high, it can cause the image to appear excessively bright, leading to a loss of detail and saturation. Understanding gain settings is essential for optimizing image quality and ensuring accurate diagnostic information."
+    "explicacion_openai": "Overall Gain (Receiver Gain) controls the amplification of the received echoes. If set too high, it can cause the image to appear excessively bright, leading to a loss of detail and saturation. Proper adjustment of gain settings is essential for optimizing image quality and ensuring accurate diagnostic information."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -429,7 +429,7 @@
       "0 degrees"
     ],
     "concept_to_study": "Doppler Angle and Velocity Accuracy",
-    "explicacion_openai": "The most accurate Doppler velocity measurements are obtained when the ultrasound beam is parallel to the direction of blood flow (Doppler angle of 0 degrees). The Doppler equation includes the cosine of the Doppler angle, and cos(0) = 1. Understanding the importance of Doppler angle is crucial for accurate velocity measurements."
+    "explicacion_openai": "The most accurate Doppler velocity measurements are obtained when the ultrasound beam is parallel to the direction of blood flow (Doppler angle of 0 degrees). The Doppler equation includes the cosine of the Doppler angle, and cos(0) = 1. Selecting the correct Doppler angle is crucial for accurate velocity measurements."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -447,7 +447,7 @@
       "Two strong reflectors"
     ],
     "concept_to_study": "Reverberation Artifact",
-    "explicacion_openai": "Reverberation artifacts occur when sound bounces back and forth between two strong, parallel reflectors. This creates multiple, equally spaced echoes on the display, appearing deeper than the actual reflectors. Understanding reverberation artifacts is essential for accurate image interpretation and diagnosis."
+    "explicacion_openai": "Reverberation artifacts occur when sound bounces back and forth between two strong, parallel reflectors. This creates multiple, equally spaced echoes on the display, appearing deeper than the actual reflectors. Recognizing reverberation artifacts is essential for accurate image interpretation and diagnosis."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -483,7 +483,7 @@
       "Bone"
     ],
     "concept_to_study": "Attenuation Coefficient",
-    "explicacion_openai": "Bone has the highest attenuation coefficient of the listed tissues. This means that ultrasound energy is absorbed, scattered, and reflected to a greater extent in bone compared to fat, muscle, or water. Understanding attenuation is crucial for interpreting ultrasound images and optimizing imaging techniques."
+    "explicacion_openai": "Bone has the highest attenuation coefficient of the listed tissues. This means that ultrasound energy is absorbed, scattered, and reflected to a greater extent in bone compared to fat, muscle, or water. Knowledge of attenuation is crucial for interpreting ultrasound images and optimizing imaging techniques."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -501,7 +501,7 @@
       "To ensure the patient understands the procedure and its risks/benefits"
     ],
     "concept_to_study": "Informed Consent",
-    "explicacion_openai": "The primary purpose of informed consent is to ensure that the patient has a clear understanding of the ultrasound procedure, including its purpose, potential benefits, risks, and alternatives. This allows the patient to make an autonomous decision about their care. Understanding informed consent is essential for ethical and legal compliance in medical practice."
+    "explicacion_openai": "The primary purpose of informed consent is to ensure that the patient has a clear understanding of the ultrasound procedure, including its purpose, potential benefits, risks, and alternatives. This allows the patient to make an autonomous decision about their care. Awareness of informed consent is essential for ethical and legal compliance in medical practice."
   },
   {
     "clasificacion": "Physical Principles",
@@ -519,7 +519,7 @@
       "It is relatively brighter"
     ],
     "concept_to_study": "Posterior Acoustic Enhancement",
-    "explicacion_openai": "Posterior acoustic enhancement, also known as through transmission, occurs when sound travels through a weakly attenuating structure (like a cyst). The area behind the structure appears brighter than surrounding tissues because the sound beam has experienced less attenuation. Understanding this artifact is crucial for accurate image interpretation and diagnosis."
+    "explicacion_openai": "Posterior acoustic enhancement, also known as through transmission, occurs when sound travels through a weakly attenuating structure (like a cyst). The area behind the structure appears brighter than surrounding tissues because the sound beam has experienced less attenuation. Recognizing this artifact is crucial for accurate image interpretation and diagnosis."
   },
   {
     "clasificacion": "Physical Principles",
@@ -537,7 +537,7 @@
       "Comet tail artifact"
     ],
     "concept_to_study": "Comet Tail Artifact",
-    "explicacion_openai": "The comet tail artifact is a type of reverberation artifact. It appears as a series of closely spaced, parallel echoes extending distally from a small, highly reflective object, often cholesterol crystals or small calcifications within the gallbladder wall, as seen in adenomyomatosis. Understanding this artifact is essential for accurate diagnosis and differentiation from other conditions."
+    "explicacion_openai": "The comet tail artifact is a type of reverberation artifact. It appears as a series of closely spaced, parallel echoes extending distally from a small, highly reflective object, often cholesterol crystals or small calcifications within the gallbladder wall, as seen in adenomyomatosis. Recognizing this artifact is essential for accurate diagnosis and differentiation from other conditions."
   },
   {
     "clasificacion": "Physical Principles",
@@ -555,7 +555,7 @@
       "The shadow is approximately the same width as the object."
     ],
     "concept_to_study": "Acoustic Shadowing",
-    "explicacion_openai": "Acoustic shadowing occurs when sound encounters a highly attenuating or highly reflective structure. The shadow's width at its origin is typically approximately the same width as the object causing the shadowing. The shadow appears as a dark region posterior to the object. Understanding shadowing is crucial for accurate image interpretation and diagnosis."
+    "explicacion_openai": "Acoustic shadowing occurs when sound encounters a highly attenuating or highly reflective structure. The shadow's width at its origin is typically approximately the same width as the object causing the shadowing. The shadow appears as a dark region posterior to the object. Recognizing shadowing is crucial for accurate image interpretation and diagnosis."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -573,7 +573,7 @@
       "Transducer A and C"
     ],
     "concept_to_study": "Doppler Shift",
-    "explicacion_openai": "A positive Doppler shift is observed when the transducer detects flow towards it. Understanding Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
+    "explicacion_openai": "A positive Doppler shift is observed when the transducer detects flow towards it. Recognizing Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -591,7 +591,7 @@
       "Transducer B and D"
     ],
     "concept_to_study": "Doppler Shift",
-    "explicacion_openai": "A negative Doppler shift occurs when the transducer detects flow away from it. Understanding Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
+    "explicacion_openai": "A negative Doppler shift occurs when the transducer detects flow away from it. Recognizing Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -609,7 +609,7 @@
       "Sample B"
     ],
     "concept_to_study": "Doppler Sample Volume Placement",
-    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. Understanding sample volume placement is crucial for obtaining accurate Doppler measurements and assessing blood flow characteristics."
+    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. Proper sample volume placement is crucial for obtaining accurate Doppler measurements and assessing blood flow characteristics."
   },
   {
     "clasificacion": "Physical Principles",
@@ -627,7 +627,7 @@
       "Axial"
     ],
     "concept_to_study": "Resolution Types",
-    "explicacion_openai": "Axial resolution refers to distinguishing structures that lie along the direction of the sound beam. Understanding axial resolution is essential for achieving high-quality images and accurate diagnoses."
+    "explicacion_openai": "Axial resolution refers to distinguishing structures that lie along the direction of the sound beam. Mastery of axial resolution is essential for achieving high-quality images and accurate diagnoses."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -663,7 +663,7 @@
       "Decreases"
     ],
     "concept_to_study": "Duty Factor",
-    "explicacion_openai": "The duty factor decreases if the pulse repetition period (PRP) increases. The duty factor is the fraction of time that the ultrasound system is actively transmitting sound. Understanding the duty factor is essential for optimizing ultrasound settings and ensuring patient safety."
+    "explicacion_openai": "The duty factor decreases if the pulse repetition period (PRP) increases. The duty factor is the fraction of time that the ultrasound system is actively transmitting sound. Proper understanding of the duty factor is essential for optimizing ultrasound settings and ensuring patient safety."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -681,7 +681,7 @@
       "Decreases pulse duration"
     ],
     "concept_to_study": "Frequency and Pulse Duration",
-    "explicacion_openai": "Increasing the frequency decreases the pulse duration. Higher frequencies result in shorter wavelengths and shorter pulse durations. Understanding this relationship is crucial for optimizing image resolution and quality."
+    "explicacion_openai": "Increasing the frequency decreases the pulse duration. Higher frequencies result in shorter wavelengths and shorter pulse durations. This relationship is crucial for optimizing image resolution and quality."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -699,6 +699,6 @@
       "Shorter spatial pulse length improves resolution"
     ],
     "concept_to_study": "Spatial Pulse Length and Axial Resolution",
-    "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Understanding this relationship is essential for achieving high-quality images and accurate diagnoses."
+    "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
   }
 ]
