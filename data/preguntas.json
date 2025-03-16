@@ -18520,25 +18520,25 @@
         ],
         "concept_to_study": "Comet tail",
         "explicacion_openai": "An artifact that lacks the tapered appearance of rapidly diminishing echoes is not a comet tail artifact, which typically shows bright, tightly spaced, tapering echoes."
-    },
+},
 {
-        "clasificacion": "Physical Principles",
-        "grupo": "3-1-1-1-3",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which characteristic differentiates the artifact in the image from a ring-down artifact?",
-        "image": "mirrow.png",
-        "opciones": [
-            "Horizontal lines across the display",
-            "Continuous line of echoes extending posteriorly",
-            "Absence of a central bright line",
-            "Echoes creating a bright tail effect"
-        ],
-        "respuesta_correcta": [
-            "Absence of a central bright line"
-        ],
-        "concept_to_study": "Ring-down",
-        "explicacion_openai": "The lack of a continuous bright line in the center of the artifact distinguishes it from a ring-down artifact, which typically presents a central bright line extending downward."
-    },
+  "clasificacion": "Physical Principles",
+  "grupo": "3-1-1-1-3",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What is the key feature of the artifact shown in the image?",
+  "image": "mirror.png",
+  "opciones": [
+    "Duplication of structures on the opposite side of a strong reflector",
+    "Horizontal lines across the display",
+    "Continuous line of echoes extending posteriorly",
+    "Echoes creating a bright tail effect"
+  ],
+  "respuesta_correcta": [
+    "Duplication of structures on the opposite side of a strong reflector"
+  ],
+  "concept_to_study": "Mirror Image Artifact",
+  "explicacion_openai": "The mirror image artifact occurs when sound reflects off a strong reflector and creates a duplicate image on the opposite side. This understanding is crucial for distinguishing real anatomical structures from artifacts in ultrasound imaging."
+},
 {
         "clasificacion": "Physical Principles",
         "grupo": "4-1-1-1-1",
