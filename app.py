@@ -125,7 +125,11 @@ def exam_screen():
 
     # Resto de la pantalla principal: tiempo, preguntas, etc.
     elapsed_time = time.time() - st.session_state.start_time
-    remaining_time = config["time_limit_seconds"] - elapsed_time
+    if st.session_state.get("exam_type") == "short":
+        remaining_time = config["time_limit_seconds_short"] - elapsed_time  # MODIFICADO
+    else:
+        remaining_time = config["time_limit_seconds"] - elapsed_time      # MODIFICADO
+
     minutes_remaining = int(remaining_time // 60)
     st.markdown(
         f"""
@@ -235,7 +239,7 @@ def main():
     # ─────────────────────────────────────────────────────────
     instructions_tab()
 
-     # --- Control de tamaño de fuente (AÑADIDO) ---
+    # --- Control de tamaño de fuente (AÑADIDO) ---
     with st.sidebar:
         st.write("Adjust Font Size")
         font_size_multiplier = st.slider(
