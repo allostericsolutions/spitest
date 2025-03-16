@@ -3,7 +3,6 @@ import json
 import time
 import os
 
-
 # Importamos nuestras utilerías y componentes
 from utils.auth import verify_password
 from utils.question_manager import select_random_questions, shuffle_options, calculate_score
@@ -12,7 +11,6 @@ from components.question_display import display_question
 from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
 from screens.user_data_input import user_data_input  # Se importa la función extraída
-from utils.validators import es_correo_valido  # Importamos la función de validación
 
 # ─────────────────────────────────────────────────────────────
 # NUEVO IMPORT para las instrucciones
@@ -128,9 +126,9 @@ def exam_screen():
     # Resto de la pantalla principal: tiempo, preguntas, etc.
     elapsed_time = time.time() - st.session_state.start_time
     if st.session_state.get("exam_type") == "short":
-        remaining_time = config["time_limit_seconds_short"] - elapsed_time
+        remaining_time = config["time_limit_seconds_short"] - elapsed_time  # MODIFICADO
     else:
-        remaining_time = config["time_limit_seconds"] - elapsed_time
+        remaining_time = config["time_limit_seconds"] - elapsed_time      # MODIFICADO
 
     minutes_remaining = int(remaining_time // 60)
     st.markdown(
@@ -141,14 +139,9 @@ def exam_screen():
         """,
         unsafe_allow_html=True
     )
-    if st.session_state.get("exam_type") == "short":
-        warning_time = config["warning_time_seconds_short"]
-    else:
-        warning_time = config["warning_time_seconds"]
-    if remaining_time <= warning_time and remaining_time > 0:
-        minutes_warning = int(warning_time / 60)
-        st.warning(f"The exam will end in {minutes_warning} minutes!")
 
+    if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
+        st.warning("The exam will end in 10 minutes!")
 
     if remaining_time <= 0 and not st.session_state.end_exam:
         st.session_state.end_exam = True
@@ -235,48 +228,6 @@ def main_screen():
     """
     exam_screen()
 
-def user_data_input():
-    """
-    Screen for user data input (name and email).
-    """
-    with st.form("user_form"):
-        st.header("User Data")
-        nombre = st.text_input("Full Name:")
-        email = st.text_input("Email:")
-
-        submitted = st.form_submit_button("Start Exam")
-        if submitted:
-            # --- VALIDACIÓN DEL CORREO ---
-            email_valido = es_correo_valido(email)  # Usamos la función importada
-            if nombre.strip() and email.strip() and email_valido:
-                st.session_state.user_data = {
-                    "nombre": nombre.strip(),
-                    "email": email.strip()
-                }
-                st.success("Data registered. Preparing the exam...")
-
-                # ───────────────────────────────────────────────
-                # BLOQUE IMPORTANTE: SELECCIÓN DE MODO DE EXAMEN
-                # ───────────────────────────────────────────────
-                exam_type = st.session_state.get("exam_type", "full")
-                if exam_type == "short":
-                    selected = select_short_questions(total=20)
-                else:
-                    selected = select_random_questions(total=120)
-
-                st.session_state.selected_questions = selected
-                for q in st.session_state.selected_questions:
-                    q['opciones'] = shuffle_options(q)
-
-                st.session_state.answers = {str(i): None for i in range(len(st.session_state.selected_questions))}
-                st.session_state.start_time = time.time()
-                st.rerun()
-            elif not email_valido:
-                st.error("Please, enter a valid email address.")  # Mensaje específico
-            else:
-                st.error("Please, complete all fields.")
-
-
 def main():
     """
     MAIN EXECUTION.
@@ -288,7 +239,7 @@ def main():
     # ─────────────────────────────────────────────────────────
     instructions_tab()
 
-      # --- Control de tamaño de fuente (AÑADIDO) ---
+    # --- Control de tamaño de fuente (AÑADIDO) ---
     with st.sidebar:
         st.write("Adjust Font Size")
         font_size_multiplier = st.slider(
@@ -308,6 +259,7 @@ def main():
             }}
         </style>
     """, unsafe_allow_html=True)
+
 
     if not st.session_state.authenticated:
         authentication_screen()
