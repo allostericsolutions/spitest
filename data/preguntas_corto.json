@@ -267,7 +267,7 @@
       "Flow rate increases"
     ],
     "concept_to_study": "Pressure Differential and Flow Rate",
-    "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will increase the flow rate. This is a fundamental principle of fluid dynamics. Understanding this relationship is crucial for interpreting Doppler flow measurements."
+    "explicacion_openai": "Increasing the pressure differential (pressure difference) across a vessel, while keeping other factors constant, will increase the flow rate. This is described by Poiseuille's Law, a fundamental principle of fluid dynamics. Understanding this relationship is crucial for interpreting Doppler flow measurements."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
