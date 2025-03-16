@@ -12,7 +12,7 @@ def user_data_input():
 
     with image_column:
         image_path = os.path.join("assets", "images", "AllostericSolutions.png")
-        st.image(image_path, width=260) # Controla el tamaño con 'width', ajusta el valor
+        st.image(image_path, width=290) # Controla el tamaño con 'width', ajusta el valor
 
     with form_column:
         with st.form("user_form"):
