@@ -164,7 +164,7 @@ def exam_screen():
 
     if st.button("Finish Exam"):
         if st.session_state.confirm_finish:
-          st.info("⏳ Please wait a few seconds while we prepare your score and performance report.") # <---- MENSAJE DE ESPERA CON ICONO ⏳
+          # st.info("⏳ Please wait a few seconds while we prepare your score and performance report.") # <---- ELIMINADO mensaje de espera inicial
           st.session_state.end_exam = True
           finalize_exam()
         else:
@@ -208,8 +208,10 @@ def finalize_exam():
   # st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
   # st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
-  pdf_path = generate_pdf(st.session_state.user_data, score, status)
-  st.success("Results generated in PDF.")
+  st.success("Results generated in PDF.") # Mensaje existente, dejémoslo
+
+  # --- AÑADIDO MENSAJE "WE ARE READY!" justo ANTES del botón de descarga
+  st.success("✅ We are ready!") # Mensaje "We are ready!" con checkmark
 
   with open(pdf_path, "rb") as f:
     st.download_button(
