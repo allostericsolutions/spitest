@@ -598,7 +598,7 @@
     "grupo": "8-8-8-8-1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
-    "image": "window.jpg",
+    "image": "window2.jpg",
     "opciones": [
       "Sample A",
       "Sample B",
