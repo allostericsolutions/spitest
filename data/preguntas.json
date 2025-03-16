@@ -18219,7 +18219,7 @@
       "clasificacion": "Doppler Imaging Concepts",
       "grupo": "10-9",
       "tipo_pregunta": "opcion_multiple",
-      "enunciado": "If the flow velocity increases, which transducers will detect the largest positive change in Doppler shift?",
+      "enunciado": "If the flow velocity increases, which transducer will detect the largest POSITIVE change in Doppler shift?",
       "image": "doppler.png",
       "opciones": [
         "Transducer A",
