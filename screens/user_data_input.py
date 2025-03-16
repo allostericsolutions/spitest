@@ -9,6 +9,9 @@ def user_data_input():
     """
     with st.form("user_form"):
         st.header("User Data")
+        # --- AÑADIDO MENSAJE DE ADVERTENCIA ---
+        st.warning("Please note: The email address you provide will be associated with the password you used to access this exam. Its use is authorized by the administrator for the purpose communicated to you.")
+        # --- FIN MENSAJE DE ADVERTENCIA ---
         nombre = st.text_input("Full Name:")
         email = st.text_input("Email:")
 
