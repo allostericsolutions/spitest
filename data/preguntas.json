@@ -19780,5 +19780,185 @@
     ],
     "concept_to_study": "Application of color packet size for slow flow.",
     "explicacion_openai": "For slow flow, increase the color packet size! Using more pulses allows the system to 'hear' the weak signals better, but be mindful of the trade-off: decreased temporal resolution, like getting clearer snapshots but at a slower pace."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "181",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary function of the wall filter in spectral Doppler?",
+    "image": "",
+    "opciones": [
+      "To increase the amplitude of high-velocity signals.",
+      "To eliminate low-frequency, high-amplitude signals caused by vessel wall motion.",
+      "To enhance the color display of slow-moving blood.",
+      "To improve the signal-to-noise ratio of turbulent flow."
+    ],
+    "respuesta_correcta": [
+      "To eliminate low-frequency, high-amplitude signals caused by vessel wall motion."
+    ],
+    "concept_to_study": "Elimination of low-frequency, high-amplitude signals in spectral Doppler.",
+    "explicacion_openai": "Think of the wall filter as a bouncer at a club! Its job is to keep out the 'noisy' guys (low-frequency signals from vessel walls) so you can clearly see the 'stars' (blood flow). This prevents the Doppler waveform from looking cluttered and confusing."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "182",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Increasing the wall filter setting in spectral Doppler will:",
+    "image": "",
+    "opciones": [
+      "Display more low-velocity flow.",
+      "Display less low-velocity flow.",
+      "Have no effect on the displayed flow.",
+      "Increase the pulse repetition frequency (PRF)."
+    ],
+    "respuesta_correcta": [
+      "Display less low-velocity flow."
+    ],
+    "concept_to_study": "Effect of wall filter setting on displayed flow.",
+    "explicacion_openai": "Imagine raising the fence in a yard. If you raise it too high, the smaller pets (slow flow) won't be able to get through! By increasing the wall filter, you're 'hiding' the slow flow and only seeing what's moving faster. Be careful not to lose important information! Think of it like filtering out unwanted noise to highlight the main signal."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "183",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A wall filter that is set too high can result in:",
+    "image": "",
+    "opciones": [
+      "Overestimation of peak systolic velocity.",
+      "Underestimation of peak systolic velocity.",
+      "Accurate measurement of peak systolic velocity.",
+      "Increased color aliasing."
+    ],
+    "respuesta_correcta": [
+      "Underestimation of peak systolic velocity."
+    ],
+    "concept_to_study": "Effect of high wall filter on peak systolic velocity.",
+    "explicacion_openai": "Think of it this way: if you're too strict with the filter, you might be eliminating some of the actual flow that's a bit slower! This means the maximum velocity you measure (peak systolic) will be lower than it really is. Don't be too 'clean'! A high wall filter is like having a very narrow view – you might miss something important!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "184",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the effect of the wall filter on color Doppler imaging?",
+    "image": "",
+    "opciones": [
+      "It affects the color gain.",
+      "It affects the pulse repetition frequency (PRF).",
+      "It removes color arising from slow-moving structures.",
+      "It changes the color map."
+    ],
+    "respuesta_correcta": [
+      "It removes color arising from slow-moving structures."
+    ],
+    "concept_to_study": "Effect of wall filter on color Doppler.",
+    "explicacion_openai": "Imagine you're painting a river, but there are also slow-moving algae. The wall filter is like a magic brush that removes the color from the algae so you only see the river flowing. This makes the color Doppler look clearer and focused on the blood flow! It's about cleaning up the image for better visualization."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "185",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are imaging a small vessel with slow flow. If the wall filter is set too high, what might you observe?",
+    "image": "",
+    "opciones": [
+      "Increased aliasing.",
+      "An artifactual increase in velocity.",
+      "Absence of color or spectral Doppler signal.",
+      "Excessive color blooming."
+    ],
+    "respuesta_correcta": [
+      "Absence of color or spectral Doppler signal."
+    ],
+    "concept_to_study": "Effect of high wall filter on slow flow in small vessels.",
+    "explicacion_openai": "Be careful not to be too 'clean'! If you're looking at a small vessel with slow flow and you set the wall filter too high, you might eliminate the signal completely! It's like looking for an ant with a magnifying glass focused to the max – the ant disappears! Adjust the filter to see those slow flows. Think carefully about your clinical scenario – are you *expecting* slow flow?"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "186",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is MOST likely to require the use of a low wall filter setting?",
+    "image": "",
+    "opciones": [
+      "Imaging a large artery with high-velocity flow.",
+      "Imaging the carotid artery.",
+      "Imaging the abdominal aorta."
+      "Imaging a vein with low-velocity flow."
+    ],
+    "respuesta_correcta": [
+      "Imaging a vein with low-velocity flow."
+    ],
+    "concept_to_study": "Use of low wall filter for low-velocity flow.",
+    "explicacion_openai": "Veins are like calm rivers. If you use a high wall filter, you'll never see the flow! You need a low filter, like a small net, to capture that slow flow and analyze it correctly. Don't forget about the veins! Venous flow is the classic situation where you need to be mindful of your wall filter settings."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "187",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In color Doppler, increasing the wall filter will have what effect on the displayed color?",
+    "image": "",
+    "opciones": [
+      "Increase the amount of color displayed.",
+      "Decrease the amount of color displayed.",
+      "Change the hue of the color.",
+      "Increase the color PRF."
+    ],
+    "respuesta_correcta": [
+      "Decrease the amount of color displayed."
+    ],
+    "concept_to_study": "Effect of increasing wall filter on color display.",
+    "explicacion_openai": "Think of color Doppler as a party where each velocity has its own color. If you turn up the wall filter, you're 'kicking out' the guests who are dancing slowly. Fewer slow dancers means less color on the screen! Be careful not to ruin the party. A higher filter will 'clean up' the display, but may hide useful information."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "188",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are evaluating a spectral Doppler waveform and notice excessive clutter near the baseline. What adjustment is MOST appropriate to reduce this artifact?",
+    "image": "",
+    "opciones": [
+      "Increase the pulse repetition frequency (PRF).",
+      "Decrease the Doppler angle.",
+      "Increase the wall filter.",
+      "Decrease the color gain."
+    ],
+    "respuesta_correcta": [
+      "Increase the wall filter."
+    ],
+    "concept_to_study": "Wall filter adjustment for clutter reduction in spectral Doppler.",
+    "explicacion_openai": "The Doppler waveform looks like a battlefield full of noise near the baseline! Turn up the wall filter as if you're calling in reinforcements to eliminate that noise and clearly see the blood flow. Make sure the waveform is clean and easy to read! It's about achieving a clean spectral window for accurate analysis."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "189",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the potential disadvantage of using a very low wall filter setting?",
+    "image": "",
+    "opciones": [
+      "Underestimation of peak systolic velocity.",
+      "Overestimation of peak systolic velocity.",
+      "Increased spectral broadening.",
+      "Increased clutter from tissue motion."
+    ],
+    "respuesta_correcta": [
+      "Increased clutter from tissue motion."
+    ],
+    "concept_to_study": "Disadvantage of very low wall filter setting.",
+    "explicacion_openai": "If you lower the wall filter too much, you're inviting everyone to the party, even those who aren't dancing! You'll see a lot of 'noise' from tissues moving, and it will be difficult to distinguish the real flow. Find the perfect balance for a clear image! You want to allow the valid Doppler signal through, without letting too much noise cloud the image."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "190",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is NOT affected by the wall filter?",
+    "image": "",
+    "opciones": [
+      "The display of slow-moving blood flow.",
+      "The amount of color displayed in color Doppler.",
+      "The spectral baseline appearance.",
+      "The acoustic power output."
+    ],
+    "respuesta_correcta": [
+      "The acoustic power output."
+    ],
+    "concept_to_study": "Parameters not affected by wall filter.",
+    "explicacion_openai": "The wall filter is like a DJ who controls the music you hear, but not the power of the amplifier. It only affects how you see the signal, not the energy coming out of the transducer! So don't worry, the filter isn't going to change the ultrasound power! Wall filter is for *display*, not for changing the transmitted signal."
   }
 ]
