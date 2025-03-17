@@ -19960,5 +19960,186 @@
     ],
     "concept_to_study": "Parameters not affected by wall filter.",
     "explicacion_openai": "The wall filter is like a DJ who controls the music you hear, but not the power of the amplifier. It only affects how you see the signal, not the energy coming out of the transducer! So don't worry, the filter isn't going to change the ultrasound power! Wall filter is for *display*, not for changing the transmitted signal."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "191",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary effect of increasing the spectral Doppler gain?",
+    "image": "",
+    "opciones": [
+      "Increases the transmitted power.",
+      "Amplifies the received Doppler signal.",
+      "Decreases the pulse repetition frequency (PRF).",
+      "Reduces aliasing."
+    ],
+    "respuesta_correcta": [
+      "Amplifies the received Doppler signal."
+    ],
+    "concept_to_study": "Effect of spectral Doppler gain.",
+    "explicacion_openai": "Think of the gain as turning up the volume on your radio! It doesn't change the music being played (the actual blood flow), but it makes the sound (the Doppler signal) louder so you can hear it better. Be careful not to turn it up too high, or you'll get static!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "192",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the spectral Doppler signal is weak, what adjustment should you make FIRST?",
+    "image": "",
+    "opciones": [
+      "Increase the wall filter.",
+      "Decrease the pulse repetition frequency (PRF).",
+      "Increase the Doppler angle.",
+      "Increase the gain."
+    ],
+    "respuesta_correcta": [
+      "Increase the gain."
+    ],
+    "concept_to_study": "Initial adjustment for weak Doppler signal.",
+    "explicacion_openai": "Your first instinct when you can't hear something well should be to turn up the volume! Similarly, if your Doppler signal is weak, try increasing the gain first. It's the quickest and easiest way to see if you can improve the signal without affecting other parameters."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "193",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Excessive spectral Doppler gain can result in:",
+    "image": "",
+    "opciones": [
+      "Underestimation of velocities.",
+      "Overestimation of velocities.",
+      "Increased spectral broadening.",
+      "Reduced spectral broadening."
+    ],
+    "respuesta_correcta": [
+      "Increased spectral broadening."
+    ],
+    "concept_to_study": "Effect of excessive Doppler gain.",
+    "explicacion_openai": "Turning the volume up too loud on your stereo introduces static and distortion! Similarly, too much Doppler gain amplifies noise along with the signal, which makes the spectral display 'fuzzy' and increases spectral broadening. It's all about finding the sweet spot!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "194",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is LEAST affected by the spectral Doppler gain setting?",
+    "image": "",
+    "opciones": [
+      "The amplitude of the Doppler signal.",
+      "The presence of spectral broadening.",
+      "The measured peak systolic velocity.",
+      "The signal-to-noise ratio."
+    ],
+    "respuesta_correcta": [
+      "The measured peak systolic velocity."
+    ],
+    "concept_to_study": "Parameters minimally affected by gain.",
+    "explicacion_openai": "The gain mainly makes the signal louder, but it shouldn't change the actual speed of the blood flow! Think of it like looking at a car: turning up the brightness (gain) makes it easier to see, but it doesn't change how fast the car is going. *If* you're broadening the spectral window *a lot* with excess gain, then you might have trouble accurately measuring the PSV."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "195",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are evaluating a spectral Doppler waveform and notice that it is barely visible. What should you adjust to improve its visibility?",
+    "image": "",
+    "opciones": [
+      "Decrease the gain.",
+      "Increase the wall filter.",
+      "Increase the gain.",
+      "Decrease the scale (PRF)."
+    ],
+    "respuesta_correcta": [
+      "Increase the gain."
+    ],
+    "concept_to_study": "Gain adjustment for waveform visibility.",
+    "explicacion_openai": "The waveform is barely visible? Time to crank up the gain! Think of it as turning up the lights in a dark room. More gain will brighten the waveform, making it easier to see and analyze. Get that dimmer switch ready!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "196",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does the gain setting affect the appearance of noise on the spectral Doppler display?",
+    "image": "",
+    "opciones": [
+      "Increasing gain decreases the visibility of noise.",
+      "Increasing gain increases the visibility of noise.",
+      "Gain has no effect on the appearance of noise.",
+      "Increasing gain eliminates noise."
+    ],
+    "respuesta_correcta": [
+      "Increasing gain increases the visibility of noise."
+    ],
+    "concept_to_study": "Gain's effect on noise appearance.",
+    "explicacion_openai": "Noise is like static on a TV or radio. The higher the gain, the louder the static becomes! Therefore, be careful when increasing gain, because you might be amplifying unwanted noise as well. Keep the gain only high enough to adequately visualize the true Doppler signal!  It's a balance!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "197",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the potential consequence of having the spectral Doppler gain set too low?",
+    "image": "",
+    "opciones": [
+      "Overestimation of velocity.",
+      "Underestimation of velocity.",
+      "Absence of a detectable Doppler signal.",
+      "Increased spectral broadening."
+    ],
+    "respuesta_correcta": [
+      "Absence of a detectable Doppler signal."
+    ],
+    "concept_to_study": "Consequence of low Doppler gain.",
+    "explicacion_openai": "If the gain is too low, it's like trying to listen to someone whisper in a crowded room – you won't hear anything! A Doppler signal that's too quiet will simply disappear from the display, making it seem like there's no flow at all! Make sure the gain is high enough to visualize the signal."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "198",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is most likely to require a HIGHER spectral Doppler gain setting?",
+    "image": "",
+    "opciones": [
+      "Imaging a vessel with high-velocity flow.",
+      "Imaging a superficial vessel.",
+      "Imaging a deep vessel.",
+      "Imaging a large vessel."
+    ],
+    "respuesta_correcta": [
+      "Imaging a deep vessel."
+    ],
+    "concept_to_study": "Situations requiring higher gain.",
+    "explicacion_openai": "Just like it's harder to hear someone who's far away, signals from deep vessels are weaker by the time they return to the transducer! A higher gain setting is needed to amplify those faint signals and bring them into view. Increase your gain accordingly."
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "199",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You adjust the spectral Doppler gain and notice the baseline noise level increases significantly. What does this indicate?",
+    "image": "",
+    "opciones": [
+      "The gain is set appropriately.",
+      "The gain is set too low.",
+      "The gain is set too high.",
+      "The pulse repetition frequency (PRF) is too low."
+    ],
+    "respuesta_correcta": [
+      "The gain is set too high."
+    ],
+    "concept_to_study": "Interpretation of noise increase with gain.",
+    "explicacion_openai": "When you turn up the gain and the baseline noise explodes, it's a clear sign you've gone too far! Like feedback on a microphone, excessive gain amplifies everything, including unwanted noise. Dial it back a bit to find the right balance!"
+  },
+  {
+    "clasificacion": "Doppler Principles",
+    "grupo": "200",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the optimal goal when adjusting spectral Doppler gain?",
+    "image": "",
+    "opciones": [
+      "To eliminate all noise from the spectral display.",
+      "To maximize the amplitude of the Doppler signal regardless of noise.",
+      "To achieve a balance between signal strength and noise level.",
+      "To set the gain as low as possible."
+    ],
+    "respuesta_correcta": [
+      "To achieve a balance between signal strength and noise level."
+    ],
+    "concept_to_study": "Optimal gain adjustment goal.",
+    "explicacion_openai": "The goal is a harmonious relationship between signal and noise! You want the gain high enough to see the Doppler signal clearly, but not so high that you're drowning in noise. It's like mixing music – find the perfect balance to create a clear and pleasing sound (image)!"
   }
 ]
+  
