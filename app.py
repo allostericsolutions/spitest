@@ -173,7 +173,7 @@ def exam_screen():
 
       if st.button("Finish Exam"):
          if st.session_state.confirm_finish:
-           st.info("⏳ Please wait a few seconds while we prepare your score and performance report.") # <---- MENSAJE DE ESPERA CON ICONO ⏳
+           st.info("⏳ Please wait a few seconds while we prepare your score and performance report. When ready, you will see 'Results generated in PDF' and be able to download your report.") # <---- MENSAJE DE ESPERA CON ICONO ⏳
            st.session_state.end_exam = True
            finalize_exam()
          else:
