@@ -19150,5 +19150,149 @@
         ],
         "concept_to_study": "Clinical application of resolution",
         "explicacion_openai": "Axial resolution is crucial in scenarios that require precise measurement along the beam path, like assessing membrane thickness."
-    }
+    },
+     {
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Considering the type of resolution indicated by the arrow, what most affects this resolution in the far field?",
+  "image": "lateral.png",
+  "opciones": [
+    "Improved",
+    "Degraded",
+    "Unchanged",
+    "Dependent on frequency"
+  ],
+  "respuesta_correcta": [
+    "Degraded"
+  ],
+  "concept_to_study": "Lateral resolution.",
+  "explicacion_openai": "Lateral resolution is the ability to distinguish two objects positioned side by side. In the far field, beam divergence increases, making it harder to distinguish closely spaced objects (degraded lateral resolution)."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What adjustment could be made to improve the resolution indicated by the arrow in the near field?",
+  "image": "lateral.png",
+  "opciones": [
+    "Increase the frequency",
+    "Decrease the gain",
+    "Increase the power output",
+    "Decrease the pulse repetition frequency"
+  ],
+  "respuesta_correcta": [
+    "Increase the frequency"
+  ],
+  "concept_to_study": "Frequency and lateral resolution.",
+  "explicacion_openai": "Increasing the transducer frequency improves lateral resolution in the near field by narrowing the beam width. Remember: Higher frequency = better resolution, but less penetration!"
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Based on the image, the resolution the arrow points to is best described as the ability to differentiate:",
+  "image": "lateral.png",
+  "opciones": [
+    "Structures positioned one on top of another",
+    "Structures positioned side by side",
+    "Structures positioned far from the transducer",
+    "Structures with differing acoustic impedance"
+  ],
+  "respuesta_correcta": [
+    "Structures positioned side by side"
+  ],
+  "concept_to_study": "Definition of lateral resolution.",
+  "explicacion_openai": "Lateral resolution (also known as azimuthal or transverse resolution) is the ability to identify two structures positioned side by side as two separate objects. Axial resolution (LARRD - Longitudinal, Axial, Range, Radial, Depth) is the ability to differentiate structures positioned one on top of another."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "The structures in the image appear wider than they actually are due to:",
+  "image": "lateral.png",
+  "opciones": [
+    "Axial resolution limitations",
+    "Lateral resolution limitations",
+    "Artifactual shadowing",
+    "Slice thickness artifact"
+  ],
+  "respuesta_correcta": [
+    "Lateral resolution limitations"
+  ],
+  "concept_to_study": "Beam width and lateral resolution.",
+  "explicacion_openai": "Structures at depth can appear wider than their actual size on the ultrasound image due to the widening of the sound beam. This broadening is a limitation of lateral resolution. The wider the beam, the more distorted the object appears."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "From the image, which factor most directly impacts the degradation of the indicated resolution with depth?",
+  "image": "lateral.png",
+  "opciones": [
+    "Sound wave attenuation",
+    "Beam divergence",
+    "Refraction",
+    "Reflection"
+  ],
+  "respuesta_correcta": [
+    "Beam divergence"
+  ],
+  "concept_to_study": "Beam divergence and lateral resolution.",
+  "explicacion_openai": "As the ultrasound beam travels deeper into tissue, it diverges (spreads out). This divergence limits lateral resolution. Therefore, deep within the image, the beam has difficulty distinguishing two separate, closely spaced objects; it can only resolve one larger object."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What effect does moving the focal zone deeper into the imaging field have on the indicated resolution?",
+  "image": "lateral.png",
+  "opciones": [
+    "Near field resolution will improve",
+    "Far field resolution will improve",
+    "No change",
+    "Overall resolution will degrade"
+  ],
+  "respuesta_correcta": [
+    "Far field resolution will improve"
+  ],
+  "concept_to_study": "Focal zone and lateral resolution.",
+  "explicacion_openai": "Moving the focal zone deeper improves lateral resolution in the far field by concentrating the ultrasound energy at that depth. Remember: The image quality is directly related to the focal zone's position!"
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "How does the width of the ultrasound beam affect lateral resolution, as illustrated in the image?",
+  "image": "lateral.png",
+  "opciones": [
+    "Wider beam improves lateral resolution",
+    "Narrower beam improves lateral resolution",
+    "Beam width has no effect on lateral resolution",
+    "Wider beam improves axial resolution"
+  ],
+  "respuesta_correcta": [
+    "Narrower beam improves lateral resolution"
+  ],
+  "concept_to_study": "Beam width and lateral resolution.",
+  "explicacion_openai": "A narrower beam improves lateral resolution and enables visualization of small structures positioned side by side. Think of a wide light beam (floodlight) versus a focused light beam (laser pointer): The narrower beam permits to identify fine details."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "1-2-3-4-5",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which of the following terms is NOT a synonym for the resolution indicated by the arrow?",
+  "image": "lateral.png",
+  "opciones": [
+    "Angular",
+    "Transverse",
+    "Azimuthal",
+    "Parametric"
+  ],
+  "respuesta_correcta": [
+    "Parametric"
+  ],
+  "concept_to_study": "Synonyms for lateral resolution.",
+  "explicacion_openai": "Lateral resolution is also called transverse (across the beam), azimuthal (side to side), and angular (referring to the beam angle). Think of the acronym **ATA** (like the computer interface) to remember **A**zimuthal, **T**ransverse, and **A**ngular. Parametric is not a synonym; it relates to measurable quantities. Be familiar with these terms to avoid being tricked!"
+}
 ]
