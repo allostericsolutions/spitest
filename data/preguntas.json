@@ -19294,5 +19294,401 @@
   ],
   "concept_to_study": "Synonyms for lateral resolution.",
   "explicacion_openai": "Lateral resolution is also called transverse (across the beam), azimuthal (side to side), and angular (referring to the beam angle). Think of the acronym **ATA** (like the computer interface) to remember **A**zimuthal, **T**ransverse, and **A**ngular. Parametric is not a synonym; it relates to measurable quantities. Be familiar with these terms to avoid being tricked!"
-}
+},
+ {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What principle underlies Doppler imaging, allowing the visualization of blood flow?",
+    "image": "",
+    "opciones": [
+      "The piezoelectric effect",
+      "The Doppler effect",
+      "The Bragg scattering effect",
+      "The Compton scattering effect"
+    ],
+    "respuesta_correcta": [
+      "The Doppler effect"
+    ],
+    "concept_to_study": "Fundamental principle of Doppler imaging.",
+    "explicacion_openai": "Doppler imaging relies on the Doppler effect, the change in frequency of a wave (sound or light) for an observer moving relative to its source. This shift in frequency is used to determine blood flow velocity and direction."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which term describes the shift in frequency when sound waves reflect off moving objects?",
+    "image": "",
+    "opciones": [
+      "Huygens' principle",
+      "Snell's law",
+      "Doppler shift",
+      "Nyquist limit"
+    ],
+    "respuesta_correcta": [
+      "Doppler shift"
+    ],
+    "concept_to_study": "Definition of Doppler shift.",
+    "explicacion_openai": "The Doppler shift (or Doppler frequency) is the difference between the transmitted frequency and the received frequency. This difference occurs when a wave reflects off a moving object, like red blood cells, and is the foundation of blood flow assessment."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the received frequency is higher than the transmitted frequency, what can be determined about the direction of the blood flow?",
+    "image": "",
+    "opciones": [
+      "Flow is moving away from the transducer",
+      "Flow is moving towards the transducer",
+      "Flow is perpendicular to the transducer",
+      "No flow is present"
+    ],
+    "respuesta_correcta": [
+      "Flow is moving towards the transducer"
+    ],
+    "concept_to_study": "Doppler principle and flow direction.",
+    "explicacion_openai": "A higher received frequency indicates a positive Doppler shift, meaning the blood flow is moving towards the transducer (the sound wave is 'compressed'). Conversely, a lower received frequency indicates flow moving away."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What occurs when the Doppler shift exceeds the Nyquist limit?",
+    "image": "",
+    "opciones": [
+      "Aliasing",
+      "Laminar flow",
+      "Turbulent flow",
+      "Spectral broadening"
+    ],
+    "respuesta_correcta": [
+      "Aliasing"
+    ],
+    "concept_to_study": "The Nyquist limit and aliasing.",
+    "explicacion_openai": "Aliasing occurs when the Doppler shift frequency is greater than half the pulse repetition frequency (PRF), known as the Nyquist limit. It causes the waveform to 'wrap around', presenting flow in the opposite direction."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What adjustment can be made to correct aliasing in Doppler imaging?",
+    "image": "",
+    "opciones": [
+      "Decrease the pulse repetition frequency (PRF)",
+      "Increase the Doppler angle",
+      "Increase the wall filter",
+      "Increase the pulse repetition frequency (PRF)"
+    ],
+    "respuesta_correcta": [
+      "Increase the pulse repetition frequency (PRF)"
+    ],
+    "concept_to_study": "Practical adjustment for aliasing correction.",
+    "explicacion_openai": "Increasing the PRF raises the Nyquist limit, allowing higher Doppler shift frequencies to be accurately measured. This will help avoid aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which Doppler technique displays flow information as a color overlay on a grayscale image?",
+    "image": "",
+    "opciones": [
+      "Continuous-wave Doppler",
+      "Pulsed-wave Doppler",
+      "Color Doppler",
+      "Power Doppler"
+    ],
+    "respuesta_correcta": [
+      "Color Doppler"
+    ],
+    "concept_to_study": "Function of color Doppler.",
+    "explicacion_openai": "Color Doppler uses color to represent the mean velocity and direction of blood flow, superimposed on the conventional grayscale image. Red typically indicates flow towards the transducer, and blue indicates flow away."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which Doppler method is most sensitive to low flow velocities?",
+    "image": "",
+    "opciones": [
+      "Continuous-wave Doppler",
+      "Pulsed-wave Doppler",
+      "Color Doppler",
+      "Power Doppler"
+    ],
+    "respuesta_correcta": [
+      "Power Doppler"
+    ],
+    "concept_to_study": "Sensitivity of power Doppler.",
+    "explicacion_openai": "Power Doppler excels at detecting slow flow because it displays the *amplitude* (strength) or *power* of the Doppler signal, *not* the flow velocity itself. This advantage makes it invaluable for visualizing slow or weak blood flow, such as in small vessels, tumor vascularity, or transplant evaluation. However, because it only provides information on the presence of flow and not its velocity or direction, aliasing is not an artifact encountered with power Doppler. Also, it is more prone to flash artifact (bursts of color) from patient/transducer movement."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If an imaging angle of 90 degrees to flow exists when using Doppler ultrasound, what can be determined from the Doppler shift?",
+    "image": "",
+    "opciones": [
+      "Accurate velocity of flow",
+      "Direction flow",
+      "Change in flow velocity",
+      "No velocity can be recorded."
+    ],
+    "respuesta_correcta": [
+      "No velocity can be recorded."
+    ],
+    "concept_to_study": "Impact of Doppler angle on velocity measurements.",
+    "explicacion_openai": "The Doppler shift is proportional to the cosine of the angle between the ultrasound beam and the direction of flow. The cosine of 90 degrees is zero, so no velocity information can be extracted as the beam and the flow as perpendicular."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What information does spectral Doppler provide that color Doppler does not?",
+    "image": "",
+    "opciones": [
+      "Direction of flow",
+      "Presence of flow",
+      "The peak systolic velocity",
+      "Mean Flow"
+    ],
+    "respuesta_correcta": [
+      "The peak systolic velocity"
+    ],
+    "concept_to_study": "Differences between spectral and color Doppler display.",
+    "explicacion_openai": "Spectral Doppler provides a waveform display showing the range of velocities present in a vessel over time. It allows for accurate measurement of peak systolic and end-diastolic velocities. Color Doppler gives you mean velocity and direction."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-11",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In Doppler imaging, what does a wider waveform on the spectral display typically indicate?",
+    "image": "",
+    "opciones": [
+      "Laminar flow",
+      "Plug flow",
+      "Disturbed or turbulent flow",
+      "Increased vessel diameter"
+    ],
+    "respuesta_correcta": [
+      "Disturbed or turbulent flow"
+    ],
+    "concept_to_study": "Spectral broadening and turbulence",
+    "explicacion_openai": "Spectral broadening (a wider vertical band on the spectral display) indicates a broader range of velocities, which is characteristic of disturbed or turbulent flow. Turbulent flow contains many different velocities, while laminar flow has a narrow, smooth distribution."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-12",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is a primary advantage of continuous-wave (CW) Doppler compared to pulsed-wave (PW) Doppler?",
+    "image": "",
+    "opciones": [
+      "Range resolution",
+      "Ability to measure high velocities without aliasing",
+      "Specific flow sampling at a selected depth",
+      "Enhanced sensitivity to low flow states"
+    ],
+    "respuesta_correcta": [
+      "Ability to measure high velocities without aliasing"
+    ],
+    "concept_to_study": "Advantages of continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler can measure very high velocities without aliasing because it continuously transmits and receives ultrasound waves. This is particularly useful when assessing severe arterial stenosis or cardiac valve abnormalities. It hears all velocities along the beam's path."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-13",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is a significant limitation of continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "Limited blood flow velocity range",
+      "Lack of range resolution (depth specificity)",
+      "Low sensitivity to slow blood-flow",
+      "Limited to superficial vessels"
+    ],
+    "respuesta_correcta": [
+      "Lack of range resolution (depth specificity)"
+    ],
+    "concept_to_study": "Limitations of continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler lacks range resolution, meaning it records signals from all vessels in its path simultaneously instead of only from the desired depth. This makes it difficult to pinpoint the origin of the Doppler signal, causing potential overlap in waveform."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-14",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In what clinical scenario is continuous-wave (CW) Doppler MOST useful?",
+    "image": "",
+    "opciones": [
+      "Imaging a small artery",
+      "Assessing cardiac valve stenosis",
+      "Measuring the flow in superficial veins",
+      "Evaluating the early stages of plaque in arteries"
+    ],
+    "respuesta_correcta": [
+      "Assessing cardiac valve stenosis"
+    ],
+    "concept_to_study": "Clinical applications of continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler is exceptionally valuable in echocardiography for assessing cardiac valve stenosis because assessing the high velocities associated with narrowed heart valves makes its high-velocity capabilities more useful (no aliasing!)."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-15",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does continuous-wave (CW) Doppler determine the velocity of blood flow?",
+    "image": "",
+    "opciones": [
+      "By calculating the time it takes for sound waves to return",
+      "By measuring the amplitude of the Doppler signals",
+      "By detecting the Doppler frequency shift between transmitted and received signals",
+      "By analyzing the color changes in the image"
+    ],
+    "respuesta_correcta": [
+      "By detecting the Doppler frequency shift between transmitted and received signals"
+    ],
+    "concept_to_study": "Function of continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler calculates blood flow velocity from the frequency shift (Doppler shift) between the transmitted and received ultrasound waves. A larger shift usually means a higher velocity."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-16",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What type of display is typically used with continuous-wave (CW) Doppler to show blood flow velocities?",
+    "image": "",
+    "opciones": [
+      "Color map",
+      "Power Doppler image",
+      "Spectral waveform",
+      "B-mode image"
+    ],
+    "respuesta_correcta": [
+      "Spectral waveform"
+    ],
+    "concept_to_study": "Display format for continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler typically uses a spectral waveform display, showing a graph of blood flow velocity over time. This allows clinicians to assess the patterns of blood flow, such as peak systolic velocity and end-diastolic velocity. Time on the X axis, frequency shift (velocity) on the Y axis."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-17",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which artifact is NOT typically observed with continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "Range ambiguity",
+      "Aliasing",
+      "Mirror image",
+      "Ghosting"
+    ],
+    "respuesta_correcta": [
+      "Aliasing"
+    ],
+    "concept_to_study": "Artifacts in CW Doppler.",
+    "explicacion_openai": "As mentioned earlier, the main reason to use continuous-wave (CW) Doppler is that it DOES NOT alias because it is always listening AND always transmitting, range ambiguity is the primary artifact affecting CW Doppler because it picks up signals from all depths without distinction."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-18",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is a disadvantage of using a large sample volume in continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "Increased clarity of the spectral waveform",
+      "Inability to resolve flow information at a specific depth",
+      "Improved measurement of high-velocity flow",
+      "Reduced sensitivity to low-velocity flow"
+    ],
+    "respuesta_correcta": [
+      "Inability to resolve flow information at a specific depth"
+    ],
+    "concept_to_study": "Sample volume in CW Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler doesn't use a 'sample volume' like pulsed-wave. Instead, it is continuously listening and transmitting. Since CW is getting information from whatever happens to be in its continuous path, you cannot resolve flow information at a depth. CW Doppler is *depth ambiguous*."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-19",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does the pulse repetition frequency (PRF) affect the operation of continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "It determines the maximum velocity that can be measured",
+      "It affects the sensitivity of the system to low-velocity flows",
+      "It does not affect continuous-wave Doppler",
+      "It controls the depth of the image"
+    ],
+    "respuesta_correcta": [
+      "It does not affect continuous-wave Doppler"
+    ],
+    "concept_to_study": "Role of PRF in continuous-wave Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler *does not* utilize or depend on pulsed repetitions of ultrasound; it continuously transmits and receives. Therefore, PRF is not a relevant parameter in CW Doppler operation!"
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-20",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why may a sonographer use a dedicated, non-imaging probe for a continuous-wave (CW) Doppler exam?",
+    "image": "",
+    "opciones": [
+      "To improve axial resolution",
+      "To correct aliasing",
+      "To enhance spatial resolution",
+      "To improve Doppler signal sensitivity"
+    ],
+    "respuesta_correcta": [
+      "To improve Doppler signal sensitivity"
+    ],
+    "concept_to_study": "Non-imaging probes for CW Doppler.",
+    "explicacion_openai": "A dedicated, non-imaging probe optimizes Continuous-wave (CW) Doppler signal sensitivity by focusing on Doppler acquisition and signal processing. This is particularly used when the precise location of the vessel is known, and imaging is not necessary such as when using a Pedof probe over the heart."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-21",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are performing a Continuous-wave (CW) Doppler exam on your patient's lower extremities when you notice severe aliasing. What do you do?",
+    "image": "",
+    "opciones": [
+      "Lower the scale",
+      "Adjust the beam steering",
+      "Nothing, Continuous-wave (CW) Doppler DOES NOT alias",
+      "Raise the baseline "
+    ],
+    "respuesta_correcta": [
+      "Nothing, Continuous-wave (CW) Doppler DOES NOT alias"
+    ],
+    "concept_to_study": "Why you would use cW Doppler instead of PW",
+    "explicacion_openai": "You would use Continuous-wave (CW) Doppler instead of PW because Continuous-wave (CW) does not have a Nyquist limit. Because aliasing occurs when the signal exceeds the Nyquist limit, there is NO WAY IT WOULD OCCUR ON A Continuous-wave (CW) PROBE. Your probe is probably malfunctioning."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-22",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What transducer element configuration is characteristic of continuous-wave (CW) Doppler transducers?",
+    "image": "",
+    "opciones": [
+      "A single element that both transmits and receives",
+      "An array of elements fired sequentially",
+      "Two separate elements, one for continuous transmission and one for continuous reception",
+      "Three elements: one for transmission, one for reception, and one for imaging"
+    ],
+    "respuesta_correcta": [
+      "Two separate elements, one for continuous transmission and one for continuous reception"
+    ],
+    "concept_to_study": "Transducer design in CW Doppler.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler transducers use two dedicated crystals: one constantly sends out ultrasound waves, and the other continuously receives them. This allows for continuous monitoring without the pulsed limitations of pulsed-wave Doppler. You are always on. *The sonographer cannot get off of Mr. Bones' Wild Ride.*"
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "2-1-1-1-23",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following best describes the duty factor of a continuous-wave (CW) Doppler?",
+    "image": "",
+    "opciones": [
+      "0%",
+      "50%",
+      "100%",
+      "Varies depending on the depth of the vessel"
+    ],
+    "respuesta_correcta": [
+      "100%"
+    ],
+    "concept_to_study": "Duty factor in ultrasound.",
+    "explicacion_openai": "The duty factor is the percentage of time the ultrasound system is actively transmitting sound. Since the CW transducer is always transmitting, its duty factor is 100%. DF% = PD/PRP)"
+  }
 ]
