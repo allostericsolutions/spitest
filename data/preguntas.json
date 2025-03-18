@@ -20122,5 +20122,185 @@
     ],
     "concept_to_study": "Optimal gain adjustment goal.",
     "explicacion_openai": "The goal is a harmonious relationship between signal and noise! You want the gain high enough to see the Doppler signal clearly, but not so high that you're drowning in noise. It's like mixing music – find the perfect balance to create a clear and pleasing sound (image)!"
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "900",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which letter in the phantom image represents the dead zone?",
+    "image": "phantom.png",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "respuesta_correcta": [
+      "A"
+    ],
+    "concept_to_study": "dead zone",
+    "explicacion_openai": "The dead zone is indicated by letter A in the phantom, as it represents the area close to the transducer face where echoes cannot be detected."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "901",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is assessed by the spatial resolution represented by letter B in the phantom image?",
+    "image": "phantom.png",
+    "opciones": [
+      "Vertical caliper accuracy",
+      "Axial and lateral resolution by closely spaced pins",
+      "Slice thickness measurement",
+      "Grey scale uniformity"
+    ],
+    "respuesta_correcta": [
+      "Axial and lateral resolution by closely spaced pins"
+    ],
+    "concept_to_study": "spatial resolution",
+    "explicacion_openai": "Letter B in the phantom is used to assess spatial resolution through closely spaced vertical and horizontal pins, representing axial and lateral resolution, respectively."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "967",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which letter in the phantom is used to evaluate horizontal caliper accuracy?",
+    "image": "phantom.png",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "respuesta_correcta": [
+      "C"
+    ],
+    "concept_to_study": "horizontal caliper accuracy",
+    "explicacion_openai": "Letter C in the phantom is used to evaluate horizontal caliper accuracy by measuring known distances and ensuring the equipment's measurements match."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "980",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does letter D in the phantom image represent?",
+    "image": "phantom.png",
+    "opciones": [
+      "Dead zone assessment",
+      "Spatial resolution testing",
+      "Slice thickness and elevational resolution",
+      "Grey scale accuracy"
+    ],
+    "respuesta_correcta": [
+      "Slice thickness and elevational resolution"
+    ],
+    "concept_to_study": "slice thickness, elevational resolution",
+    "explicacion_openai": "Letter D represents slice thickness and elevational resolution assessment, utilizing cystic spaces of varying sizes and depths to check the system's ability to focus in the elevational plane."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "333",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which aspect of ultrasound imaging does letter E in the phantom help assess?",
+    "image": "phantom.png",
+    "opciones": [
+      "Dead zone detection",
+      "Slice thickness measurement",
+      "Spatial resolution",
+      "Grey scale accuracy"
+    ],
+    "respuesta_correcta": [
+      "Grey scale accuracy"
+    ],
+    "concept_to_study": "grey scale accuracy",
+    "explicacion_openai": "Letter E is designated for assessing grey scale accuracy, ensuring that different tissue densities are accurately and uniformly represented in the ultrasound image."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "336",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which section of the phantom image is used for testing axial resolution?",
+    "image": "phantom.png",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "respuesta_correcta": [
+      "B"
+    ],
+    "concept_to_study": "axial resolution",
+    "explicacion_openai": "Axial resolution is tested using the vertical pins in letter B, which are closely spaced to determine the system's capability to resolve structures along the beam's direction."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "334",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does the horizontal arrangement of pins under letter B assess in the phantom?",
+    "image": "phantom.png",
+    "opciones": [
+      "Spatial resolution",
+      "Axial resolution",
+      "Lateral resolution",
+      "Grey scale uniformity"
+    ],
+    "respuesta_correcta": [
+      "Lateral resolution"
+    ],
+    "concept_to_study": "lateral resolution",
+    "explicacion_openai": "The horizontal pins in letter B assess lateral resolution by determining how effectively the system can distinguish objects at the same depth but located side by side."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "367",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the significance of the section marked as D in terms of elevational resolution?",
+    "image": "phantom.png",
+    "opciones": [
+      "It confirms axial resolution",
+      "It ensures the grey scale accuracy",
+      "It measures the system's ability to focus in the slice thickness",
+      "It adjusts the dead zone depth"
+    ],
+    "respuesta_correcta": [
+      "It measures the system's ability to focus in the slice thickness"
+    ],
+    "concept_to_study": "elevational resolution",
+    "explicacion_openai": "Section D helps measure the system's ability to focus accurately in the elevational plane by using clear or echo-free cysts, revealing the thickness of the slice and its resolution in this plane."
+  }, 
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "369",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which section in the phantom image is inspected for verifying that the grey scale is accurate and uniform?",
+    "image": "phantom.png",
+    "opciones": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "respuesta_correcta": [
+      "E"
+    ],
+    "concept_to_study": "grey scale accuracy",
+    "explicacion_openai": "Section E is inspected for grey scale accuracy, ensuring that the various shades accurately represent different tissue densities and are uniform across the image."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "553",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the phantom image, which section ensures that measurements taken are accurate to real dimensions?",
+    "image": "phantom.png",
+    "opciones": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "respuesta_correcta": [
+      "C"
+    ],
+    "concept_to_study": "horizontal caliper accuracy",
+    "explicacion_openai": "Section C ensures horizontal caliper accuracy by verifying that measurements displayed on the ultrasound match those in the phantom, guaranteeing the precision of dimensional representation."
   }
 ]
