@@ -10989,7 +10989,7 @@
       "Postprocessing zoom",
       "Read zoom",
       "Write zoom",
-      "None of the above"
+      "Power zoom"
     ],
     "respuesta_correcta": [
       "Write zoom"
@@ -11835,7 +11835,7 @@
       "1.0 kHz",
       "2.5 kHz",
       "3.0 kHz",
-      "None of the above"
+      "None of these values is correct"
     ],
     "respuesta_correcta": [
       "3.0 kHz"
@@ -13975,12 +13975,12 @@
     "image": "",
     "opciones": [
       "The product of densities of the two media",
-      "1 - intensity reflection coefficient",
+      "The intensity transmission coefficient is equal to one minus the intensity reflection coefficient",
       "Intensity transmitted / intensity incident",
       "Squared ratio of acoustic impedances"
     ],
     "respuesta_correcta": [
-      "1 - intensity reflection coefficient"
+      "The intensity transmission coefficient is equal to one minus the intensity reflection coefficient"
     ],
     "concept_to_study": "",
     "explicacion_openai": ""
@@ -17775,7 +17775,7 @@
       "Switching to continuous wave Doppler",
       "Decreasing the sample gate size",
       "Using a different imaging window to decrease depth.",
-      "All of the above are equally helpful"
+      "All of the options are equally helpful"
     ],
     "respuesta_correcta": [
       "Decreasing the sample gate size"
@@ -18543,7 +18543,7 @@
     "clasificacion": "Physical Principles",
     "grupo": "291",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
+    "enunciado": "Which type of resolution is being demonstrated in the image if it refers to the ability to distinguish structures along the path of the ultrasound beam?",
     "image": "axial.png",
     "opciones": [
       "Lateral",
