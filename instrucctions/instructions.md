@@ -1,4 +1,4 @@
-instructions.md (Ejemplo)
+
 ─────────────────────────────────────────────────────────────────────
 # Guía Rápida para el Examen SPI (ARDMS)
 
