@@ -69,7 +69,7 @@
       "Both will travel at the same speed"
     ],
     "concept_to_study": "Speed of Sound in Soft Tissue",
-    "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same. This principle is fundamental in understanding how ultrasound images are formed and interpreted."
+    "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same. This principle is fundamental in understanding how ultrasound images are formed and interpreted.However, factors like tissue density and stiffness do affect the speed of sound. Increased density typically slows down the sound slightly, whereas greater stiffness (or elasticity) increases the speed. These variations are generally minor in soft tissues, allowing for the assumption of a constant speed of sound in most clinical scenarios."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
