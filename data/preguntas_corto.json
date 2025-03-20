@@ -573,7 +573,7 @@
       "Transducer A and C"
     ],
     "concept_to_study": "Doppler Shift",
-    "explicacion_openai": "A positive Doppler shift is observed when the transducer detects flow towards it. Recognizing Doppler shifts is essential for accurately assessing blood flow direction and velocity in clinical practice."
+    "explicacion_openai": "Imagine standing by the roadside as a car approaches, honking its horn. The horn sounds higher in pitch as it comes closer. This is an example of the Doppler effect: the sound frequency increases because the car is moving toward you. In ultrasound, a positive Doppler shift happens when blood flow moves toward the transducer, similar to the approaching car. This causes the reflected sound to have a higher frequency. Transducers detecting flow toward them will show a positive waveform, those detecting flow away will show a negative waveform, and those positioned perpendicularly will not detect any flow. This concept is crucial for doctors and technicians because it helps them visualize how and how fast blood is moving in the body. For example, detecting abnormal flow in a blood vessel might indicate a blockage or narrowing, which is important for diagnosis and treatment."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
