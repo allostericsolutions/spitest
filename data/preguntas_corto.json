@@ -33,7 +33,7 @@
       "Too far away"
     ],
     "concept_to_study": "Speed Displacement Artifact",
-    "explicacion_openai": "Sound travels slower in water than the assumed 1540 m/s used by ultrasound machines. Because the machine assumes a constant speed, the longer travel time through water makes the reflector appear farther away than it actually is. Grasping this concept is essential for recognizing and correcting artifacts in ultrasound imaging."
+    "explicacion_openai": "Diagnostic ultrasound systems assume a constant speed of sound (1540 m/s). In reality, water’s sound speed (~1480 m/s) is slower, so the wave’s round-trip travel time is longer than the machine expects. Because the system still uses “1540 m/s × time / 2” to calculate depth, it interprets the extra travel time as if the reflector were located farther away. This results in a display error called “speed displacement artifact,” where the reflector appears deeper than its true position. Recognizing this phenomenon is vital for understanding and correctly interpreting artifacts in ultrasound imaging"
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
