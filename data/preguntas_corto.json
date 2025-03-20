@@ -14,8 +14,8 @@
     "respuesta_correcta": [
       "Using a lens"
     ],
-    "concept_to_study": "Transducer Focusing",
-    "explicacion_openai": "The slice-thickness plane, also known as the elevational plane, is focused using a lens in typical transducers. This acoustic lens helps to narrow the ultrasound beam in the elevational dimension, improving image resolution. Mastering this concept is crucial for optimizing image quality and ensuring accurate diagnostic information."
+    "concept_to_study": "Transducer Focusing (Elevational Plane)",
+    "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
   },
   {
     "clasificacion": "Physical Principles",
