@@ -1,7 +1,7 @@
 [
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "2-14",
+    "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
     "image": "",
@@ -19,7 +19,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "4-16",
+    "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "When sound travels through a significant amount of water before hitting a reflector, the reflector appears:",
     "image": "",
@@ -33,29 +33,29 @@
       "Too far away"
     ],
     "concept_to_study": "Speed Displacement Artifact",
-    "explicacion_openai": "Diagnostic ultrasound systems assume a constant speed of sound of 1540 m/s. In reality, the speed of sound in water is approximately 1480 m/s and is slower, so the wave's round-trip travel time is longer than the machine expects. Since the system still uses 1540 m/s × time / 2 to calculate depth, it interprets the extra travel time as if the reflector were located farther away. This results in a display error called speed displacement artifact, where the reflector appears deeper than its true position. Recognizing this phenomenon is vital for understanding and correctly interpreting artifacts in ultrasound imaging."
+    "explicacion_openai": "Diagnostic ultrasound systems assume a constant speed of sound of 1540 m/s. In reality, the speed of sound in water is approximately 1480 m/s and is slower, so the wave's round-trip travel time is longer than the machine expects. Since the system still uses 1540 m/s \u00d7 time / 2 to calculate depth, it interprets the extra travel time as if the reflector were located farther away. This results in a display error called speed displacement artifact, where the reflector appears deeper than its true position. Recognizing this phenomenon is vital for understanding and correctly interpreting artifacts in ultrasound imaging."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "6-3",
+    "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
     "image": "",
     "opciones": [
-      "1°C",
-      "3°C",
-      "5°C",
-      "2°C"
+      "1\u00b0C",
+      "3\u00b0C",
+      "5\u00b0C",
+      "2\u00b0C"
     ],
     "respuesta_correcta": [
-      "2°C"
+      "2\u00b0C"
     ],
     "concept_to_study": "Thermal Bioeffects",
-    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2°C. This limit is based on guidelines from organizations like the AIUM. Familiarity with these guidelines is vital for ensuring patient safety during ultrasound examinations."
+    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2\u00b0C. This limit is based on guidelines from organizations like the AIUM. Familiarity with these guidelines is vital for ensuring patient safety during ultrasound examinations."
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "7-20",
+    "grupo": "2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If two sound beams with different frequencies travel through soft tissue, which travels faster?",
     "image": "",
@@ -73,7 +73,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "1-2",
+    "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
     "image": "aliasing.jpg",
@@ -91,7 +91,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "9-7",
+    "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A display limited to only black and white without shades of gray is known as:",
     "image": "",
@@ -109,7 +109,7 @@
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "12-6",
+    "grupo": "2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the term for the smallest unit of digital storage?",
     "image": "",
@@ -127,7 +127,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "4-17",
+    "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In the Fresnel zone:",
     "image": "",
@@ -145,7 +145,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "2-15",
+    "grupo": "2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
     "image": "",
@@ -163,7 +163,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "3-5",
+    "grupo": "2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which statement about color Doppler is accurate?",
     "image": "",
@@ -181,7 +181,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "9-8",
+    "grupo": "2",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which method maintains pixel density when enlarging an image?",
     "image": "",
@@ -199,7 +199,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "1-18",
+    "grupo": "4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How are amplitude and frequency related?",
     "image": "",
@@ -217,7 +217,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "1-19",
+    "grupo": "5",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the relationship between spatial pulse length and pulse duration?",
     "image": "",
@@ -235,7 +235,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "7-21",
+    "grupo": "6",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which statement about axial resolution is true?",
     "image": "",
@@ -253,7 +253,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "10-3",
+    "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
     "image": "",
@@ -271,7 +271,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "10-4",
+    "grupo": "4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which law relates flow to pressure differential, viscosity, and length?",
     "image": "",
@@ -289,7 +289,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "10-5",
+    "grupo": "5",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the most common type of flow in the body?",
     "image": "",
@@ -307,7 +307,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "5-78",
+    "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
     "image": "",
@@ -325,7 +325,7 @@
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "3-66",
+    "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Sonographers best practice while scanning is to avoid abducting the arm more than how many degrees?",
     "image": "",
@@ -343,7 +343,7 @@
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "4-34",
+    "grupo": "4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
     "image": "",
@@ -361,7 +361,7 @@
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "5-45",
+    "grupo": "5",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "This type of cavitation is the MOST concerning cause of bioeffects:",
     "image": "",
@@ -377,9 +377,9 @@
     "concept_to_study": "Transient Cavitation",
     "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Recognizing cavitation is essential for assessing potential bioeffects in ultrasound imaging."
   },
-    {
+  {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "8-1",
+    "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer is performing an abdominal ultrasound examination. The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
     "image": "",
@@ -397,7 +397,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "3-21",
+    "grupo": "6",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which Doppler angle provides the most accurate velocity measurement?",
     "image": "",
@@ -415,7 +415,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "9-22",
+    "grupo": "4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Reverberation artifacts are most likely to occur between:",
     "image": "",
@@ -433,7 +433,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "5-80",
+    "grupo": "4",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the primary advantage of using a 1.5D or multi-row array transducer?",
     "image": "",
@@ -451,7 +451,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "7-40",
+    "grupo": "7",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following tissues has the highest attenuation coefficient?",
     "image": "",
@@ -469,7 +469,7 @@
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "12-10",
+    "grupo": "6",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the primary purpose of informed consent in ultrasound examinations?",
     "image": "",
@@ -487,7 +487,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "5-8-26",
+    "grupo": "8",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Imagine you are teaching a student. How would you describe the echotexture of the area exhibiting posterior enhancement *compared to* the surrounding tissue in THIS image?",
     "image": "enhacement.png",
@@ -505,7 +505,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "5-8-1",
+    "grupo": "9",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Examine the ultrasound image from a patient presenting with right upper quadrant pain, a condition commonly associated with gallbladder adenomyomatosis. Which ultrasound artifact is displayed in the image?",
     "image": "comet_tail.png",
@@ -523,7 +523,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "5-9-8",
+    "grupo": "10",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on your observation of the image, how does the size of the shadowing object relate to the width of the shadow at its origin?",
     "image": "shadowing.png",
@@ -541,7 +541,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "10-1",
+    "grupo": "7",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which labeled transducers result in a positive Doppler shift?",
     "image": "doppler.png",
@@ -559,7 +559,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "10-2",
+    "grupo": "8",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which labeled transducers result in a negative Doppler shift?",
     "image": "doppler.png",
@@ -577,7 +577,7 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "8-8-8-8-1",
+    "grupo": "9",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
     "image": "window2.jpg",
@@ -595,7 +595,7 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "4-1-1-1-1",
+    "grupo": "11",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
     "image": "axial.png",
@@ -613,7 +613,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2-2-1-1-1",
+    "grupo": "5",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the relationship between pulse repetition frequency and pulse repetition period?",
     "image": "",
@@ -631,7 +631,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2-3-1-1-1",
+    "grupo": "6",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What happens to the duty factor if the pulse repetition period increases?",
     "image": "",
@@ -649,7 +649,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2-4-1-1-1",
+    "grupo": "7",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the effect of increasing frequency on the pulse duration?",
     "image": "",
@@ -667,7 +667,7 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2-5-1-1-1",
+    "grupo": "8",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How does the spatial pulse length affect axial resolution?",
     "image": "",
@@ -683,9 +683,9 @@
     "concept_to_study": "Spatial Pulse Length and Axial Resolution",
     "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
   },
-   {
+  {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "980",
+    "grupo": "7",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What does letter D in the phantom image represent?",
     "image": "phantom.png",
@@ -701,4 +701,4 @@
     "concept_to_study": "slice thickness, elevational resolution",
     "explicacion_openai": "Letter D represents slice thickness and elevational resolution assessment, utilizing cystic spaces of varying sizes and depths to check the system's ability to focus in the elevational plane."
   }
-  ]
+]
