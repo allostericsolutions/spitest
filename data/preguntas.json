@@ -20482,6 +20482,98 @@
     ],
     "concept_to_study": "Phase Quadrature Accuracy",
     "explicacion_openai": "Phase quadrature improves Doppler accuracy by separating directional blood flows into forward and reverse components. This ensures a clearer interpretation of hemodynamic patterns and avoids confusion in diagnosing vascular conditions."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "60-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the Nyquist limit in Doppler ultrasound?",
+    "image": "",
+    "opciones": [
+      "The maximum frequency shift that can be measured without aliasing",
+      "The speed of sound in soft tissue",
+      "The number of scan lines per frame",
+      "The ability to detect low-velocity flow"
+    ],
+    "respuesta_correcta": [
+      "The maximum frequency shift that can be measured without aliasing"
+    ],
+    "concept_to_study": "Nyquist Limit Definition",
+    "explicacion_openai": "The Nyquist limit represents the maximum Doppler shift (frequency difference) that can be accurately measured by a pulsed-wave Doppler system before aliasing occurs. It is determined by the Pulse Repetition Frequency (PRF) and is calculated as half of the PRF. Understanding the Nyquist limit is essential for recognizing and troubleshooting aliasing artifacts."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "60-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How is the Nyquist limit mathematically calculated?",
+    "image": "",
+    "opciones": [
+      "PRF / 2",
+      "PRF x 2",
+      "PRF - 10",
+      "PRF x wavelength"
+    ],
+    "respuesta_correcta": [
+      "PRF / 2"
+    ],
+    "concept_to_study": "Nyquist Limit Formula",
+    "explicacion_openai": "The Nyquist limit is mathematically calculated as half of the Pulse Repetition Frequency (PRF). This means that the highest Doppler shift that can be measured without aliasing is equal to PRF / 2. If the Doppler shift exceeds this value, aliasing will occur."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "60-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens if the Doppler frequency shift exceeds the Nyquist limit?",
+    "image": "",
+    "opciones": [
+      "Aliasing occurs, distorting the Doppler waveform",
+      "The system automatically adjusts the PRF",
+      "The ultrasound image becomes brighter",
+      "The velocity of blood flow decreases"
+    ],
+    "respuesta_correcta": [
+      "Aliasing occurs, distorting the Doppler waveform"
+    ],
+    "concept_to_study": "Nyquist Limit and Aliasing",
+    "explicacion_openai": "When the Doppler frequency shift exceeds the Nyquist limit, aliasing occurs. Aliasing is an artifact where high velocities appear 'wrapped' on the opposite side of the baseline, distorting the waveform or color Doppler display. This happens because the system cannot correctly interpret frequencies beyond the Nyquist limit."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "60-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What adjustment can increase the Nyquist limit?",
+    "image": "",
+    "opciones": [
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Decrease the Doppler angle",
+      "Use a higher-frequency transducer",
+      "Reduce the sample depth"
+    ],
+    "respuesta_correcta": [
+      "Increase the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Increasing the Nyquist Limit",
+    "explicacion_openai": "The Nyquist limit can be increased by raising the Pulse Repetition Frequency (PRF). A higher PRF allows the system to measure larger Doppler frequency shifts without aliasing. However, this adjustment has limitations, such as reduced sensitivity to low-velocity flows and potential range ambiguity."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "60-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why does shallow sample depth increase the Nyquist limit?",
+    "image": "",
+    "opciones": [
+      "It allows a higher Pulse Repetition Frequency (PRF)",
+      "It reduces beam width artifacts",
+      "It decreases the speed of sound in tissue",
+      "It increases color saturation in images"
+    ],
+    "respuesta_correcta": [
+      "It allows a higher Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Nyquist Limit and Depth",
+    "explicacion_openai": "A shallower sample depth increases the Nyquist limit because it allows the Pulse Repetition Frequency (PRF) to be higher. With a shorter travel time for the ultrasound pulse to reach the target and return, the system can send out pulses more frequently, thereby increasing the maximum measurable Doppler shift without aliasing."
   }
 ]
+
+   
 
