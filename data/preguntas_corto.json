@@ -537,7 +537,7 @@
       "Comet tail artifact"
     ],
     "concept_to_study": "Comet Tail Artifact",
-    "explicacion_openai": "The comet tail artifact is a type of reverberation artifact. It appears as a series of closely spaced, parallel echoes extending distally from a small, highly reflective object, often cholesterol crystals or small calcifications within the gallbladder wall, as seen in adenomyomatosis. Recognizing this artifact is essential for accurate diagnosis and differentiation from other conditions."
+    "explicacion_openai": "In this case, the presence of adenomyomatosis indicates a comet tail artifact, characterized by tapering, closely spaced lines due to highly reflective cholesterol crystals or calcifications in the gallbladder. Comet tail artifacts generally do not extend as far distally as ring-down artifacts. Ring-down artifacts, which appear as continuous, uniform bands, often extend further due to resonance effects from gas bubbles or fluid collections, as seen in conditions like emphysematous cholecystitis. Recognizing these features helps in accurately distinguishing between conditions involving solid versus gaseous elements."
   },
   {
     "clasificacion": "Physical Principles",
