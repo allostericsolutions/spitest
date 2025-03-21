@@ -377,25 +377,7 @@
     "concept_to_study": "Transient Cavitation",
     "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Recognizing cavitation is essential for assessing potential bioeffects in ultrasound imaging."
   },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "6-45",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Assuming an unfocused ultrasound beam, the American Institute of Ultrasound in Medicine's \"Statement on Mammalian Biological Effects of Ultrasound In Vivo\" has confirmed that no bioeffects have been noted when the spatial pulse temporal average (SPTA) intensity is less than which value?",
-    "image": "",
-    "opciones": [
-      "10 mW/cm²",
-      "100 W/cm²",
-      "1 W/cm²",
-      "100 mW/cm²"
-    ],
-    "respuesta_correcta": [
-      "100 mW/cm²"
-    ],
-    "concept_to_study": "SPTA Intensity and Bioeffects",
-    "explicacion_openai": "The AIUM statement indicates that no independently confirmed significant biological effects have been observed in mammalian tissues with unfocused ultrasound beams having SPTA (Spatial Peak Temporal Average) intensities below 100 mW/cm². Awareness of these guidelines is crucial for ensuring patient safety during ultrasound examinations."
-  },
-  {
+    {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "8-1",
     "tipo_pregunta": "opcion_multiple",
@@ -700,5 +682,23 @@
     ],
     "concept_to_study": "Spatial Pulse Length and Axial Resolution",
     "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
+  },
+   {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "980",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does letter D in the phantom image represent?",
+    "image": "phantom.png",
+    "opciones": [
+      "Dead zone assessment",
+      "Spatial resolution testing",
+      "Slice thickness and elevational resolution",
+      "Grey scale accuracy"
+    ],
+    "respuesta_correcta": [
+      "Slice thickness and elevational resolution"
+    ],
+    "concept_to_study": "slice thickness, elevational resolution",
+    "explicacion_openai": "Letter D represents slice thickness and elevational resolution assessment, utilizing cystic spaces of varying sizes and depths to check the system's ability to focus in the elevational plane."
   }
-]
+  ]
