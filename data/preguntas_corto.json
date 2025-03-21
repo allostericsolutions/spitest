@@ -86,8 +86,8 @@
     "respuesta_correcta": [
       "Decrease the sample depth"
     ],
-    "concept_to_study": "Nyquist Limit",
-    "explicacion_openai": "The Nyquist Limit is the maximum Doppler shift that can be accurately measured (PRF/2). Shallower sample volumes allow for higher PRFs because the system listens for a shorter time, thus increasing the Nyquist limit. This knowledge helps in optimizing Doppler settings to avoid aliasing."
+    "concept_to_study": "Aliasing, depth sample and PRF",
+    "explicacion_openai": "If the sonographer has already increased the Pulse Repetition Frequency (PRF) to address aliasing and the issue persists, the next logical steps are to decrease the sample depth to allow a higher PRF and increase the Nyquist limit, lower the transducer frequency to reduce the Doppler shift for a given velocity, adjust the Doppler angle to decrease the magnitude of the Doppler shift (while staying below 60 degrees for accuracy), and, as a last resort, use a continuous-wave (CW) Doppler transducer to eliminate the Nyquist limit and measure high velocities without aliasing."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
