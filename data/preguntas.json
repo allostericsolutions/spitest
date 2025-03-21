@@ -7307,7 +7307,7 @@
     "concept_to_study": "",
     "explicacion_openai": ""
   },
-  {
+    {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "90",
     "tipo_pregunta": "opcion_multiple",
@@ -7322,8 +7322,8 @@
     "respuesta_correcta": [
       "Doppler phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Understand that the Doppler phantom is specifically designed for evaluating Doppler ultrasound performance by simulating blood flow characteristics.",
+    "explicacion_openai": "A Doppler phantom is an essential tool in ultrasound system quality assurance. It is engineered to mimic realistic blood flow conditions under controlled settings, which enables the accurate assessment of Doppler measurements. By providing a standardized flow environment, it helps technicians verify that the system accurately detects flow velocities and minimizes artifacts such as aliasing. This evaluation is critical in ensuring that the device performs reliably when imaging blood vessels in clinical practice."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7340,8 +7340,8 @@
     "respuesta_correcta": [
       "To simulate human tissue properties"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A tissue equivalent phantom replicates the acoustic properties of human tissue, allowing performance tests to closely mimic clinical imaging conditions.",
+    "explicacion_openai": "The tissue equivalent phantom is constructed with materials that simulate the acoustic behaviors of human tissues, including speed of sound, attenuation, and scattering. This allows ultrasound systems to be evaluated under conditions that reflect the real challenges found in clinical imaging. Its primary use is to ensure that the system's image quality and diagnostic capabilities meet the standards necessary for accurate patient examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7358,8 +7358,8 @@
     "respuesta_correcta": [
       "Slice-thickness phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A slice-thickness phantom is used to evaluate the vertical dimension (slice thickness) of the ultrasound beam, which is critical for image clarity.",
+    "explicacion_openai": "The slice-thickness phantom includes precisely spaced targets or structures that allow the measurement of the ultrasound beam's vertical extent. By assessing the uniformity and accuracy of the slice thickness, technicians can ensure that the system does not introduce partial volume effects and maintains high-quality imaging. This measurement is fundamental to confirm that the imaging slice accurately represents the tissue structure."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7376,8 +7376,8 @@
     "respuesta_correcta": [
       "It mimics blood flow"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "The defining feature of a Doppler phantom is its ability to simulate blood flow, enabling the calibration of Doppler ultrasound systems.",
+    "explicacion_openai": "A Doppler phantom is crafted to reproduce the flow dynamics seen in blood circulation. This means it replicates various velocities and flow patterns in a reproducible manner, allowing clinicians and technical staff to test, calibrate, and optimize Doppler ultrasound measurements. By simulating realistic flow conditions, the phantom is instrumental in evaluating factors like velocity accuracy and the occurrence of aliasing."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7394,8 +7394,8 @@
     "respuesta_correcta": [
       "Tissue equivalent phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Tissue equivalent phantoms simulate the acoustic properties of human tissue, making them ideal for testing an ultrasound system’s penetration depth.",
+    "explicacion_openai": "Penetration depth is a measure of how deeply an ultrasound system can image, which is influenced by the attenuation and scattering characteristics of the medium. A tissue equivalent phantom replicates these properties, allowing the system to be tested in conditions that closely resemble real human tissue. This enables technicians to verify that the ultrasound beam maintains sufficient strength and clarity at greater depths."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7412,8 +7412,8 @@
     "respuesta_correcta": [
       "To evaluate spatial resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A resolution phantom is designed to assess the spatial resolution of an imaging system, which determines its ability to distinguish closely spaced structures.",
+    "explicacion_openai": "Resolution phantoms feature patterns, line pairs, or point targets that challenge the ultrasound system to accurately separate and depict fine details. This evaluation helps determine both axial and lateral resolution, which are critical for diagnostic accuracy. By identifying the smallest structures that can be resolved, the phantom ensures that the system meets the performance criteria required for high-quality clinical imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7430,8 +7430,8 @@
     "respuesta_correcta": [
       "Resolution phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "The resolution phantom is a pivotal tool for evaluating both axial and lateral resolutions, key metrics of image clarity and precision.",
+    "explicacion_openai": "Axial resolution refers to the system's ability to distinguish objects along the direction of the ultrasound beam, while lateral resolution pertains to separation perpendicular to the beam. A resolution phantom is constructed with defined targets that allow technicians to assess these two dimensions. Through this process, one can verify that the ultrasound system can faithfully reproduce anatomical details without blurring or merging closely adjacent features."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7448,8 +7448,8 @@
     "respuesta_correcta": [
       "To measure slice thickness"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "A slice-thickness phantom is used to precisely measure the vertical thickness of the ultrasound beam, which influences image quality and volume averaging.",
+    "explicacion_openai": "The slice thickness of an ultrasound beam affects how much of the tissue is captured in one 'slice' of the image. An accurate measurement ensures that the system produces clear images without excessive blurring from out-of-plane signals. The slice-thickness phantom contains targets of known dimensions that allow for an objective verification of the beam's thickness, helping to maintain consistent imaging performance and diagnostic accuracy."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7466,8 +7466,8 @@
     "respuesta_correcta": [
       "Resolution phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "While resolution phantoms primarily evaluate spatial resolution, they can also help assess the uniformity of the ultrasound beam across the imaging field.",
+    "explicacion_openai": "Uniformity in the ultrasound beam ensures that the output intensity is consistent across the field of view. A resolution phantom, with its well-defined targets, can reveal any variations in beam intensity or focus. By examining how uniformly the phantom is imaged, clinicians and technicians can detect issues such as beam distortions or non-uniform energy distribution, which might otherwise compromise the overall image quality."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7484,8 +7484,8 @@
     "respuesta_correcta": [
       "To simulate human tissue properties"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "The tissue equivalent phantom is vital for simulating the acoustic behavior of human tissues in a controlled setting.",
+    "explicacion_openai": "By closely emulating the properties of human tissue—such as sound speed, attenuation, and scattering—a tissue equivalent phantom enables realistic testing of ultrasound systems. This ensures that the imaging performance, including penetration depth, resolution, and overall contrast, reflects what might be observed in a clinical scenario. It is central to system calibration and quality assurance in ultrasound diagnostics."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7502,8 +7502,8 @@
     "respuesta_correcta": [
       "Tissue equivalent phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "The tissue equivalent phantom is crafted to replicate the acoustic characteristics of human tissue, serving as a realistic model for system testing.",
+    "explicacion_openai": "Engineered with materials that mirror the acoustic properties of human tissue, the tissue equivalent phantom is used extensively for the evaluation of ultrasound systems. It ensures that parameters such as attenuation, reflection, and scattering are similar to those encountered in clinical practice. This provides a reliable benchmark for calibrating devices and verifying that imaging quality meets the necessary diagnostic standards."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7520,8 +7520,8 @@
     "respuesta_correcta": [
       "To simulate blood flow"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Doppler phantoms simulate blood flow dynamics, which is essential for accurately testing and calibrating Doppler ultrasound systems.",
+    "explicacion_openai": "The primary purpose of using a Doppler phantom is to create a controlled and reproducible environment that mimics the conditions of blood flow. This allows for the calibration and testing of ultrasound systems by verifying their ability to detect and measure flow velocities. By simulating both steady and pulsatile flows, the phantom ensures that the Doppler system can provide accurate measurements, which is vital for reliable clinical assessments."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
