@@ -249,7 +249,7 @@
       "It does not vary with depth"
     ],
     "concept_to_study": "Axial Resolution",
-    "explicacion_openai": "Axial resolution is determined by the spatial pulse length and remains constant throughout the image depth. It does not vary with depth. Shorter pulses improve axial resolution. This knowledge is essential for achieving high-quality images and accurate diagnoses."
+    "explicacion_openai": "Axial resolution, also known as longitudinal, depth, or range resolution, is determined by the spatial pulse length. This resolution remains constant regardless of image depth and is crucial for distinguishing between structures that are close together along the direction of the sound beam.Frequency plays a key role in axial resolution. Higher frequencies produce shorter wavelengths, resulting in shorter pulses and improved axial resolution. This allows for better differentiation between closely spaced structures. However, higher frequencies also have less penetration, so there's a trade-off between resolution and imaging depth. Understanding these factors helps in optimizing image quality for accurate clinical assessments."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
