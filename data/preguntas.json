@@ -7322,7 +7322,7 @@
     "respuesta_correcta": [
       "Doppler phantom"
     ],
-    "concept_to_study": "Understand that the Doppler phantom is specifically designed for evaluating Doppler ultrasound performance by simulating blood flow characteristics.",
+    "concept_to_study": "Doppler phantom.",
     "explicacion_openai": "A Doppler phantom is an essential tool in ultrasound system quality assurance. It is engineered to mimic realistic blood flow conditions under controlled settings, which enables the accurate assessment of Doppler measurements. By providing a standardized flow environment, it helps technicians verify that the system accurately detects flow velocities and minimizes artifacts such as aliasing. This evaluation is critical in ensuring that the device performs reliably when imaging blood vessels in clinical practice."
   },
   {
@@ -7340,7 +7340,7 @@
     "respuesta_correcta": [
       "To simulate human tissue properties"
     ],
-    "concept_to_study": "A tissue equivalent phantom replicates the acoustic properties of human tissue, allowing performance tests to closely mimic clinical imaging conditions.",
+    "concept_to_study": "A tissue equivalent phantom.",
     "explicacion_openai": "The tissue equivalent phantom is constructed with materials that simulate the acoustic behaviors of human tissues, including speed of sound, attenuation, and scattering. This allows ultrasound systems to be evaluated under conditions that reflect the real challenges found in clinical imaging. Its primary use is to ensure that the system's image quality and diagnostic capabilities meet the standards necessary for accurate patient examinations."
   },
   {
@@ -7358,7 +7358,7 @@
     "respuesta_correcta": [
       "Slice-thickness phantom"
     ],
-    "concept_to_study": "A slice-thickness phantom is used to evaluate the vertical dimension (slice thickness) of the ultrasound beam, which is critical for image clarity.",
+    "concept_to_study": "Slice-thickness phantom.",
     "explicacion_openai": "The slice-thickness phantom includes precisely spaced targets or structures that allow the measurement of the ultrasound beam's vertical extent. By assessing the uniformity and accuracy of the slice thickness, technicians can ensure that the system does not introduce partial volume effects and maintains high-quality imaging. This measurement is fundamental to confirm that the imaging slice accurately represents the tissue structure."
   },
   {
@@ -7376,7 +7376,7 @@
     "respuesta_correcta": [
       "It mimics blood flow"
     ],
-    "concept_to_study": "The defining feature of a Doppler phantom is its ability to simulate blood flow, enabling the calibration of Doppler ultrasound systems.",
+    "concept_to_study": "Doppler ultrasound systems.",
     "explicacion_openai": "A Doppler phantom is crafted to reproduce the flow dynamics seen in blood circulation. This means it replicates various velocities and flow patterns in a reproducible manner, allowing clinicians and technical staff to test, calibrate, and optimize Doppler ultrasound measurements. By simulating realistic flow conditions, the phantom is instrumental in evaluating factors like velocity accuracy and the occurrence of aliasing."
   },
   {
@@ -7394,7 +7394,7 @@
     "respuesta_correcta": [
       "Tissue equivalent phantom"
     ],
-    "concept_to_study": "Tissue equivalent phantoms simulate the acoustic properties of human tissue, making them ideal for testing an ultrasound system’s penetration depth.",
+    "concept_to_study": "Tissue equivalent phantoms.",
     "explicacion_openai": "Penetration depth is a measure of how deeply an ultrasound system can image, which is influenced by the attenuation and scattering characteristics of the medium. A tissue equivalent phantom replicates these properties, allowing the system to be tested in conditions that closely resemble real human tissue. This enables technicians to verify that the ultrasound beam maintains sufficient strength and clarity at greater depths."
   },
   {
@@ -7412,7 +7412,7 @@
     "respuesta_correcta": [
       "To evaluate spatial resolution"
     ],
-    "concept_to_study": "A resolution phantom is designed to assess the spatial resolution of an imaging system, which determines its ability to distinguish closely spaced structures.",
+    "concept_to_study": "Resolution phantom.",
     "explicacion_openai": "Resolution phantoms feature patterns, line pairs, or point targets that challenge the ultrasound system to accurately separate and depict fine details. This evaluation helps determine both axial and lateral resolution, which are critical for diagnostic accuracy. By identifying the smallest structures that can be resolved, the phantom ensures that the system meets the performance criteria required for high-quality clinical imaging."
   },
   {
@@ -7430,7 +7430,7 @@
     "respuesta_correcta": [
       "Resolution phantom"
     ],
-    "concept_to_study": "The resolution phantom is a pivotal tool for evaluating both axial and lateral resolutions, key metrics of image clarity and precision.",
+    "concept_to_study": "The resolution phantom.",
     "explicacion_openai": "Axial resolution refers to the system's ability to distinguish objects along the direction of the ultrasound beam, while lateral resolution pertains to separation perpendicular to the beam. A resolution phantom is constructed with defined targets that allow technicians to assess these two dimensions. Through this process, one can verify that the ultrasound system can faithfully reproduce anatomical details without blurring or merging closely adjacent features."
   },
   {
@@ -7448,7 +7448,7 @@
     "respuesta_correcta": [
       "To measure slice thickness"
     ],
-    "concept_to_study": "A slice-thickness phantom is used to precisely measure the vertical thickness of the ultrasound beam, which influences image quality and volume averaging.",
+    "concept_to_study": "A slice-thickness phantom.",
     "explicacion_openai": "The slice thickness of an ultrasound beam affects how much of the tissue is captured in one 'slice' of the image. An accurate measurement ensures that the system produces clear images without excessive blurring from out-of-plane signals. The slice-thickness phantom contains targets of known dimensions that allow for an objective verification of the beam's thickness, helping to maintain consistent imaging performance and diagnostic accuracy."
   },
   {
@@ -7484,7 +7484,7 @@
     "respuesta_correcta": [
       "To simulate human tissue properties"
     ],
-    "concept_to_study": "The tissue equivalent phantom is vital for simulating the acoustic behavior of human tissues in a controlled setting.",
+    "concept_to_study": "The tissue equivalent phantom.",
     "explicacion_openai": "By closely emulating the properties of human tissue—such as sound speed, attenuation, and scattering—a tissue equivalent phantom enables realistic testing of ultrasound systems. This ensures that the imaging performance, including penetration depth, resolution, and overall contrast, reflects what might be observed in a clinical scenario. It is central to system calibration and quality assurance in ultrasound diagnostics."
   },
   {
@@ -7502,7 +7502,7 @@
     "respuesta_correcta": [
       "Tissue equivalent phantom"
     ],
-    "concept_to_study": "The tissue equivalent phantom is crafted to replicate the acoustic characteristics of human tissue, serving as a realistic model for system testing.",
+    "concept_to_study": "The tissue equivalent phantom.",
     "explicacion_openai": "Engineered with materials that mirror the acoustic properties of human tissue, the tissue equivalent phantom is used extensively for the evaluation of ultrasound systems. It ensures that parameters such as attenuation, reflection, and scattering are similar to those encountered in clinical practice. This provides a reliable benchmark for calibrating devices and verifying that imaging quality meets the necessary diagnostic standards."
   },
   {
@@ -7520,7 +7520,7 @@
     "respuesta_correcta": [
       "To simulate blood flow"
     ],
-    "concept_to_study": "Doppler phantoms simulate blood flow dynamics, which is essential for accurately testing and calibrating Doppler ultrasound systems.",
+    "concept_to_study": "Doppler phantoms simulate blood flow dynamics.",
     "explicacion_openai": "The primary purpose of using a Doppler phantom is to create a controlled and reproducible environment that mimics the conditions of blood flow. This allows for the calibration and testing of ultrasound systems by verifying their ability to detect and measure flow velocities. By simulating both steady and pulsatile flows, the phantom ensures that the Doppler system can provide accurate measurements, which is vital for reliable clinical assessments."
   },
   {
@@ -7538,8 +7538,8 @@
     "respuesta_correcta": [
       "Slice-thickness phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Slice Thickness",
+    "explicacion_openai": "Slice-thickness phantoms are dedicated tools used to measure the vertical extent (slice thickness) of the ultrasound beam. They contain targets with known dimensions that allow technicians to determine if the system’s slice captures the correct volume. This verification is essential because an accurate slice thickness minimizes partial volume effects and ensures that the image faithfully represents the tissue structures in a clinical setting."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7556,8 +7556,8 @@
     "respuesta_correcta": [
       "To evaluate spatial resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Spatial Resolution",
+    "explicacion_openai": "Resolution phantoms are designed with fine, precise structures – such as line pairs or point targets – to challenge an ultrasound system’s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7574,8 +7574,8 @@
     "respuesta_correcta": [
       "Doppler phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Doppler Evaluation",
+    "explicacion_openai": "A Doppler phantom replicates blood flow dynamics under controlled conditions, allowing for the precise assessment of Doppler measurements. By simulating a range of flow velocities and patterns, it enables the calibration of an ultrasound system’s Doppler functionality, ensuring accurate detection and quantification of blood flow in clinical examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7592,8 +7592,8 @@
     "respuesta_correcta": [
       "IAC"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Ultrasound Accreditation",
+    "explicacion_openai": "The Intersocietal Accreditation Commission (IAC) is charged with accrediting ultrasound facilities in the United States. It sets forth performance and quality standards that laboratories must meet, ensuring that ultrasound examinations are performed reliably and safely. Accreditation by the IAC serves as a quality benchmark for clinical ultrasound practices."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7610,8 +7610,8 @@
     "respuesta_correcta": [
       "American College of Radiology"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "ACR",
+    "explicacion_openai": "ACR stands for the American College of Radiology. In the realm of ultrasound and radiology accreditation, the ACR provides critical standards and guidelines that ensure imaging practices meet high-quality criteria. Its role in accreditation helps maintain consistent imaging quality, safety, and reliability in clinical environments."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7628,8 +7628,8 @@
     "respuesta_correcta": [
       "AIUM"
     ],
-    "concept_to_study": "Ultrasound Accreditation",
-    "explicacion_openai": "The American Institute of Ultrasound in Medicine (AIUM) primarily sets guidelines for ultrasound practice"
+    "concept_to_study": "Ultrasound Practice",
+    "explicacion_openai": "The American Institute of Ultrasound in Medicine (AIUM) is the leading organization that establishes practice guidelines and performance standards for ultrasound. Its recommendations help shape policies for both clinical practice and accreditation, ensuring that imaging is performed safely and effectively."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7646,8 +7646,8 @@
     "respuesta_correcta": [
       "To accredit ultrasound laboratories"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Lab Accreditation",
+    "explicacion_openai": "The IAC, or Intersocietal Accreditation Commission, primarily functions to accredit ultrasound laboratories. By conducting thorough evaluations, it ensures that labs adhere to stringent standards regarding image quality, safety, and technical performance, thereby safeguarding the diagnostic efficacy of ultrasound examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7664,8 +7664,8 @@
     "respuesta_correcta": [
       "AIUM"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Imaging Standards",
+    "explicacion_openai": "The American Institute of Ultrasound in Medicine (AIUM) is renowned for establishing standards that govern ultrasound imaging. These standards encompass technical performance, quality assurance, and best practices, all of which are critical in ensuring that the imaging systems deliver reliable and accurate diagnostic results."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7682,8 +7682,8 @@
     "respuesta_correcta": [
       "American Institute of Ultrasound in Medicine"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "AIUM",
+    "explicacion_openai": "AIUM stands for the American Institute of Ultrasound in Medicine, a key organization that promotes the advancement of ultrasound through education, research, and the development of practice guidelines. Its efforts help ensure high standards and consistency in diagnostic ultrasound practices across the industry."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7700,8 +7700,8 @@
     "respuesta_correcta": [
       "ACR"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Radiology Accreditation",
+    "explicacion_openai": "The American College of Radiology (ACR) is the organization tasked with accrediting radiology practices, including those involving ultrasound. The ACR’s accreditation process involves a rigorous review of imaging quality, safety protocols, and technical performance, ensuring that radiology departments meet the highest standards in diagnostic imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
