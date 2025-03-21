@@ -20302,5 +20302,186 @@
     ],
     "concept_to_study": "horizontal caliper accuracy",
     "explicacion_openai": "Section C ensures horizontal caliper accuracy by verifying that measurements displayed on the ultrasound match those in the phantom, guaranteeing the precision of dimensional representation."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the role of phase quadrature in Doppler ultrasound?",
+    "image": "",
+    "opciones": [
+      "To distinguish flow direction",
+      "To amplify Doppler signals",
+      "To calculate blood pressure",
+      "To improve axial resolution"
+    ],
+    "respuesta_correcta": [
+      "To distinguish flow direction"
+    ],
+    "concept_to_study": "Phase Quadrature",
+    "explicacion_openai": "Phase quadrature is a signal processing technique used in Doppler ultrasound to distinguish between forward and reverse blood flow. By analyzing phase shifts in the received Doppler signals, it identifies the direction of blood flow relative to the transducer. This is essential for correctly interpreting vascular flow patterns, especially in complex cases."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-2",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary purpose of the Fast Fourier Transform (FFT) in spectral Doppler?",
+    "image": "",
+    "opciones": [
+      "To separate complex waveforms into individual frequencies",
+      "To filter out noise in the signal",
+      "To display color flow maps",
+      "To increase temporal resolution"
+    ],
+    "respuesta_correcta": [
+      "To separate complex waveforms into individual frequencies"
+    ],
+    "concept_to_study": "Fast Fourier Transform",
+    "explicacion_openai": "The FFT is a mathematical algorithm used in spectral Doppler ultrasound to break down complex signals into their individual frequency components. This process allows the system to display velocity information as a spectrum, where each frequency corresponds to a specific blood flow velocity. This is crucial for analyzing flow patterns and diagnosing vascular conditions."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-3",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In color Doppler imaging, what does autocorrelation measure?",
+    "image": "",
+    "opciones": [
+      "Mean velocity of blood flow",
+      "Peak velocity of blood flow",
+      "Frequency shifts over time",
+      "Vessel diameter"
+    ],
+    "respuesta_correcta": [
+      "Mean velocity of blood flow"
+    ],
+    "concept_to_study": "Autocorrelation",
+    "explicacion_openai": "Autocorrelation is a computational technique used in color Doppler to estimate the mean velocity and direction of blood flow within a vessel. It works by comparing successive echoes to determine changes in frequency over time. This method is faster than FFT, making it suitable for real-time imaging but less detailed since it does not measure peak velocities."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-4",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why is phase quadrature important in Doppler signal processing?",
+    "image": "",
+    "opciones": [
+      "It separates forward and reverse flow",
+      "It amplifies low-velocity signals",
+      "It eliminates aliasing completely",
+      "It calculates blood vessel diameter"
+    ],
+    "respuesta_correcta": [
+      "It separates forward and reverse flow"
+    ],
+    "concept_to_study": "Phase Quadrature",
+    "explicacion_openai": "Phase quadrature is vital for Doppler ultrasound because it separates forward and reverse flow by analyzing the phase differences in the received signals. This ensures the correct interpretation of blood flow direction, which is critical for diagnosing conditions such as arterial blockages or venous reflux."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-5",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does the spectral display in Doppler ultrasound represent?",
+    "image": "",
+    "opciones": [
+      "Velocity over time",
+      "Transducer frequency",
+      "Beam width",
+      "Temporal resolution"
+    ],
+    "respuesta_correcta": [
+      "Velocity over time"
+    ],
+    "concept_to_study": "Spectral Doppler Display",
+    "explicacion_openai": "The spectral display in Doppler ultrasound represents blood flow velocity over time. The vertical axis shows velocity (derived from frequency shifts), and the horizontal axis shows time. This display helps identify flow patterns, detect stenosis, and evaluate the severity of vascular diseases."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-6",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why is autocorrelation preferred over FFT in color Doppler imaging?",
+    "image": "",
+    "opciones": [
+      "It is faster and allows real-time imaging",
+      "It provides higher spatial resolution",
+      "It calculates peak velocities accurately",
+      "It eliminates aliasing artifacts"
+    ],
+    "respuesta_correcta": [
+      "It is faster and allows real-time imaging"
+    ],
+    "concept_to_study": "Autocorrelation",
+    "explicacion_openai": "Autocorrelation is preferred in color Doppler because it is computationally faster than FFT, allowing for real-time imaging of blood flow. Although it provides mean velocity information instead of detailed spectra, this trade-off makes it ideal for quickly visualizing flow within vessels."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-7",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What artifact might occur if phase quadrature fails to process signals accurately?",
+    "image": "",
+    "opciones": [
+      "Direction ambiguity",
+      "Aliasing",
+      "Spectral broadening",
+      "Reverberation"
+    ],
+    "respuesta_correcta": [
+      "Direction ambiguity"
+    ],
+    "concept_to_study": "Phase Quadrature Artifacts",
+    "explicacion_openai": "If phase quadrature does not correctly process signals, it can cause direction ambiguity. This means that the flow direction may be misrepresented, leading to incorrect interpretations of vascular conditions. Proper calibration is essential to avoid such artifacts."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-8",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does a wide spectral bandwidth in Doppler indicate?",
+    "image": "",
+    "opciones": [
+      "Turbulent flow",
+      "Laminar flow",
+      "Low velocity flow",
+      "Increased spatial resolution"
+    ],
+    "respuesta_correcta": [
+      "Turbulent flow"
+    ],
+    "concept_to_study": "Spectral Broadening",
+    "explicacion_openai": "A wide spectral bandwidth, also known as spectral broadening, indicates turbulent blood flow. This occurs when there is a mix of velocities within the sample volume, often associated with irregular flow patterns caused by stenosis or vessel bifurcations."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-9",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is a key limitation of autocorrelation in Doppler imaging?",
+    "image": "",
+    "opciones": [
+      "It cannot measure peak velocities",
+      "It is too slow for practical use",
+      "It provides poor spatial resolution",
+      "It only works with CW Doppler"
+    ],
+    "respuesta_correcta": [
+      "It cannot measure peak velocities"
+    ],
+    "concept_to_study": "Autocorrelation Limitations",
+    "explicacion_openai": "A major limitation of autocorrelation is that it cannot measure peak velocities, as it only provides mean velocity estimates. For detailed analysis, spectral Doppler using FFT is preferred, but autocorrelation's speed makes it ideal for color Doppler."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "50-10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does phase quadrature improve Doppler accuracy?",
+    "image": "",
+    "opciones": [
+      "By separating directional flows",
+      "By increasing gain settings",
+      "By decreasing beam width",
+      "By amplifying weak signals"
+    ],
+    "respuesta_correcta": [
+      "By separating directional flows"
+    ],
+    "concept_to_study": "Phase Quadrature Accuracy",
+    "explicacion_openai": "Phase quadrature improves Doppler accuracy by separating directional blood flows into forward and reverse components. This ensures a clearer interpretation of hemodynamic patterns and avoids confusion in diagnosing vascular conditions."
   }
 ]
+
