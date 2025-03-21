@@ -19782,7 +19782,7 @@
     "explicacion_openai": "For slow flow, increase the color packet size! Using more pulses allows the system to 'hear' the weak signals better, but be mindful of the trade-off: decreased temporal resolution, like getting clearer snapshots but at a slower pace."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "181",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the primary function of the wall filter in spectral Doppler?",
@@ -19800,7 +19800,7 @@
     "explicacion_openai": "Think of the wall filter as a bouncer at a club! Its job is to keep out the 'noisy' guys (low-frequency signals from vessel walls) so you can clearly see the 'stars' (blood flow). This prevents the Doppler waveform from looking cluttered and confusing."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "182",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Increasing the wall filter setting in spectral Doppler will:",
@@ -19818,7 +19818,7 @@
     "explicacion_openai": "Imagine raising the fence in a yard. If you raise it too high, the smaller pets (slow flow) won't be able to get through! By increasing the wall filter, you're 'hiding' the slow flow and only seeing what's moving faster. Be careful not to lose important information! Think of it like filtering out unwanted noise to highlight the main signal."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "183",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A wall filter that is set too high can result in:",
@@ -19836,7 +19836,7 @@
     "explicacion_openai": "Think of it this way: if you're too strict with the filter, you might be eliminating some of the actual flow that's a bit slower! This means the maximum velocity you measure (peak systolic) will be lower than it really is. Don't be too 'clean'! A high wall filter is like having a very narrow view – you might miss something important!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "184",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the effect of the wall filter on color Doppler imaging?",
@@ -19854,7 +19854,7 @@
     "explicacion_openai": "Imagine you're painting a river, but there are also slow-moving algae. The wall filter is like a magic brush that removes the color from the algae so you only see the river flowing. This makes the color Doppler look clearer and focused on the blood flow! It's about cleaning up the image for better visualization."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "185",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "You are imaging a small vessel with slow flow. If the wall filter is set too high, what might you observe?",
@@ -19872,7 +19872,7 @@
     "explicacion_openai": "Be careful not to be too 'clean'! If you're looking at a small vessel with slow flow and you set the wall filter too high, you might eliminate the signal completely! It's like looking for an ant with a magnifying glass focused to the max – the ant disappears! Adjust the filter to see those slow flows. Think carefully about your clinical scenario – are you *expecting* slow flow?"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "187",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In color Doppler, increasing the wall filter will have what effect on the displayed color?",
@@ -19890,7 +19890,7 @@
     "explicacion_openai": "Think of color Doppler as a party where each velocity has its own color. If you turn up the wall filter, you're 'kicking out' the guests who are dancing slowly. Fewer slow dancers means less color on the screen! Be careful not to ruin the party. A higher filter will 'clean up' the display, but may hide useful information."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "188",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "You are evaluating a spectral Doppler waveform and notice excessive clutter near the baseline. What adjustment is MOST appropriate to reduce this artifact?",
@@ -19908,7 +19908,7 @@
     "explicacion_openai": "The Doppler waveform looks like a battlefield full of noise near the baseline! Turn up the wall filter as if you're calling in reinforcements to eliminate that noise and clearly see the blood flow. Make sure the waveform is clean and easy to read! It's about achieving a clean spectral window for accurate analysis."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "189",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the potential disadvantage of using a very low wall filter setting?",
@@ -19926,7 +19926,7 @@
     "explicacion_openai": "If you lower the wall filter too much, you're inviting everyone to the party, even those who aren't dancing! You'll see a lot of 'noise' from tissues moving, and it will be difficult to distinguish the real flow. Find the perfect balance for a clear image! You want to allow the valid Doppler signal through, without letting too much noise cloud the image."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "190",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following is NOT affected by the wall filter?",
@@ -19944,7 +19944,7 @@
     "explicacion_openai": "The wall filter is like a DJ who controls the music you hear, but not the power of the amplifier. It only affects how you see the signal, not the energy coming out of the transducer! So don't worry, the filter isn't going to change the ultrasound power! Wall filter is for *display*, not for changing the transmitted signal."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "191",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the primary effect of increasing the spectral Doppler gain?",
@@ -19962,7 +19962,7 @@
     "explicacion_openai": "Think of the gain as turning up the volume on your radio! It doesn't change the music being played (the actual blood flow), but it makes the sound (the Doppler signal) louder so you can hear it better. Be careful not to turn it up too high, or you'll get static!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "192",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If the spectral Doppler signal is weak, what adjustment should you make FIRST?",
@@ -19980,7 +19980,7 @@
     "explicacion_openai": "Your first instinct when you can't hear something well should be to turn up the volume! Similarly, if your Doppler signal is weak, try increasing the gain first. It's the quickest and easiest way to see if you can improve the signal without affecting other parameters."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "193",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Excessive spectral Doppler gain can result in:",
@@ -19998,7 +19998,7 @@
     "explicacion_openai": "Turning the volume up too loud on your stereo introduces static and distortion! Similarly, too much Doppler gain amplifies noise along with the signal, which makes the spectral display 'fuzzy' and increases spectral broadening. It's all about finding the sweet spot!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "194",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following is LEAST affected by the spectral Doppler gain setting?",
@@ -20016,7 +20016,7 @@
     "explicacion_openai": "The gain mainly makes the signal louder, but it shouldn't change the actual speed of the blood flow! Think of it like looking at a car: turning up the brightness (gain) makes it easier to see, but it doesn't change how fast the car is going. *If* you're broadening the spectral window *a lot* with excess gain, then you might have trouble accurately measuring the PSV."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "195",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "You are evaluating a spectral Doppler waveform and notice that it is barely visible. What should you adjust to improve its visibility?",
@@ -20034,7 +20034,7 @@
     "explicacion_openai": "The waveform is barely visible? Time to crank up the gain! Think of it as turning up the lights in a dark room. More gain will brighten the waveform, making it easier to see and analyze. Get that dimmer switch ready!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "196",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How does the gain setting affect the appearance of noise on the spectral Doppler display?",
@@ -20052,7 +20052,7 @@
     "explicacion_openai": "Noise is like static on a TV or radio. The higher the gain, the louder the static becomes! Therefore, be careful when increasing gain, because you might be amplifying unwanted noise as well. Keep the gain only high enough to adequately visualize the true Doppler signal!  It's a balance!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "197",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the potential consequence of having the spectral Doppler gain set too low?",
@@ -20070,7 +20070,7 @@
     "explicacion_openai": "If the gain is too low, it's like trying to listen to someone whisper in a crowded room – you won't hear anything! A Doppler signal that's too quiet will simply disappear from the display, making it seem like there's no flow at all! Make sure the gain is high enough to visualize the signal."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "198",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following is most likely to require a HIGHER spectral Doppler gain setting?",
@@ -20088,7 +20088,7 @@
     "explicacion_openai": "Just like it's harder to hear someone who's far away, signals from deep vessels are weaker by the time they return to the transducer! A higher gain setting is needed to amplify those faint signals and bring them into view. Increase your gain accordingly."
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "199",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "You adjust the spectral Doppler gain and notice the baseline noise level increases significantly. What does this indicate?",
@@ -20106,7 +20106,7 @@
     "explicacion_openai": "When you turn up the gain and the baseline noise explodes, it's a clear sign you've gone too far! Like feedback on a microphone, excessive gain amplifies everything, including unwanted noise. Dial it back a bit to find the right balance!"
   },
 {
-    "clasificacion": "Doppler Principles",
+    "clasificacion": "Doppler Imaging Concepts",
     "grupo": "200",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the optimal goal when adjusting spectral Doppler gain?",
