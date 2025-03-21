@@ -51,7 +51,7 @@
       "The wavelength decreases"
     ],
     "concept_to_study": "An increase in frequency results in a decrease in wavelength.",
-    "explicacion_openai": "Because c = f × λ, if c is constant, a higher f means a shorter λ."
+    "explicacion_openai": "The speed of sound in a medium is constant under normal conditions. This relationship is expressed by the equation c = f × λ, where c is the speed of sound, f is the frequency, and λ is the wavelength. If the frequency (f) is increased, the wavelength (λ) must decrease to maintain the constant speed (c). In other words, higher frequencies produce shorter wavelengths. This principle is crucial in ultrasound imaging, as higher frequencies provide better resolution but have reduced penetration depth due to the shorter wavelengths."
   },
 {
     "clasificacion": "Physical Principles",
