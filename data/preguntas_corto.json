@@ -285,7 +285,7 @@
       "Poiseuille's law"
     ],
     "concept_to_study": "Poiseuille's Law",
-    "explicacion_openai": "Poiseuille's law describes the relationship between flow rate (Q), pressure difference (ΔP), vessel radius (r), vessel length (L), and fluid viscosity (η) in a long, cylindrical tube: Q = (πΔPr^4) / (8ηL). Familiarity with this law is essential for analyzing blood flow dynamics in vessels."
+    "explicacion_openai": "Poiseuille's law helps us understand how blood flows through vessels. It tells us that the flow rate depends on the pressure difference, the size of the vessel, the length of the vessel, and how thick (viscosity) the blood is. A higher pressure difference increases blood flow, similar to how squeezing a tube of toothpaste harder makes more toothpaste come out. Larger vessel size (radius) greatly increases flow, as a wider garden hose lets out more water. Longer vessels decrease flow, like a longer straw makes it harder to sip a drink. In clinical settings, understanding these factors is crucial. For example, if blood vessels narrow due to plaque, it reduces flow and increases pressure, leading to conditions like hypertension."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
