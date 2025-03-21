@@ -2768,8 +2768,8 @@
     "respuesta_correcta": [
       "Temporal resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Temporal Resolution",
+    "explicacion_openai": "Temporal resolution in ultrasound refers to the system's ability to capture and display moving structures over time, crucial for visualizing dynamic processes like cardiac functions and fetal movements. High temporal resolution allows clear depiction of fast-moving objects, while low resolution results in blurred or choppy images, impacting diagnosis. Factors affecting temporal resolution include frame rate, imaging depth, number of focal zones, field of view, and line density. To improve it, a sonographer can increase the frame rate, reduce imaging depth, limit focal zones, narrow the field of view, and decrease line density. Adjusting these settings enhances temporal resolution and provides clearer images of dynamic processes."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -2804,8 +2804,8 @@
     "respuesta_correcta": [
       "Directly proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Temporal Resolution and Frequency relationship",
+    "explicacion_openai": "The relationship between frequency and temporal resolution in ultrasound imaging is directly proportional. Higher frequency ultrasound transducers provide better temporal resolution, enabling more precise imaging of moving structures over shorter periods of time. Lower frequency transducers, however, offer greater penetration but less temporal resolution."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4244,8 +4244,8 @@
     "respuesta_correcta": [
       "Frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Temporal Resolution and frame rate",
+    "explicacion_openai": "The primary factor that affects temporal resolution in real-time ultrasound scanning is frame rate. A higher frame rate allows for better temporal resolution, as it captures more frames per second, enabling clearer visualization of moving structures. Other factors, such as spatial resolution and axial resolution, influence different aspects of the image quality, while gain settings adjust image brightness but do not directly affect temporal resolution"
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4263,7 +4263,7 @@
       "Temporal resolution"
     ],
     "concept_to_study": "",
-    "explicacion_openai": ""
+    "explicacion_openai": "The primary factor that affects temporal resolution in real-time ultrasound scanning is frame rate. A higher frame rate allows for better temporal resolution, as it captures more frames per second, enabling clearer visualization of moving structures. Other factors, such as spatial resolution and axial resolution, influence different aspects of the image quality, while gain settings adjust image brightness but do not directly affect temporal resolution"
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4298,8 +4298,8 @@
     "respuesta_correcta": [
       "Frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Temporal Resolution and Frame rate",
+    "explicacion_openai": "The speed of real-time imaging is primarily limited by the frame rate. Frame rate determines how quickly images are refreshed and displayed in real-time scanning. Higher frame rates improve the speed and temporal resolution, while lower frame rates can limit the ability to capture rapid movements effectively."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4316,8 +4316,8 @@
     "respuesta_correcta": [
       "Decreases temporal resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Line density and Temporal resolution",
+    "explicacion_openai": "An increase in line density during ultrasound scanning leads to decreased temporal resolution. This happens because more scan lines require additional processing time, which reduces the frame rate. While higher line density improves spatial resolution, it does so at the expense of temporal resolution."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4370,8 +4370,8 @@
     "respuesta_correcta": [
       "Directly proportional"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Relationship between frame rate and temporal resolution",
+    "explicacion_openai": "The relationship between frame rate and temporal resolution is directly proportional. Higher frame rates result in better temporal resolution because they capture more frames per second, allowing for clearer visualization of dynamic or moving structures. Conversely, lower frame rates reduce temporal resolution"
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4388,8 +4388,8 @@
     "respuesta_correcta": [
       "Increasing frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and temporal resolution",
+    "explicacion_openai": "The relationship between frame rate and temporal resolution is directly proportional. Higher frame rates result in better temporal resolution because they capture more frames per second, allowing for clearer visualization of dynamic or moving structures. Conversely, lower frame rates reduce temporal resolution"
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4406,8 +4406,8 @@
     "respuesta_correcta": [
       "Temporal resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and temporal resolution",
+    "explicacion_openai": "The relationship between frame rate and temporal resolution is directly proportional. Higher frame rates result in better temporal resolution because they capture more frames per second, allowing for clearer visualization of dynamic or moving structures. Conversely, lower frame rates reduce temporal resolution"
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4424,8 +4424,8 @@
     "respuesta_correcta": [
       "Decrease frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Depth, frame rate, temporal resolution",
+    "explicacion_openai": "Increasing the depth setting in real-time imaging will decrease the frame rate. This is because the ultrasound system requires more time for sound waves to travel to greater depths and return, which reduces the number of frames that can be displayed per second. As a result, temporal resolution is also affected."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4442,8 +4442,8 @@
     "respuesta_correcta": [
       "High frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and Temporal resolution",
+    "explicacion_openai": "To improve real-time imaging of fast-moving objects, a high frame rate is necessary. A higher frame rate allows the ultrasound system to capture more frames per second, enabling better temporal resolution and clearer visualization of rapid motion. The other options, such as gain, beam width, and bandwidth, influence other aspects of image quality but do not directly enhance the ability to image fast-moving objects in real-time."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4478,8 +4478,8 @@
     "respuesta_correcta": [
       "Frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate, temporal resolution",
+    "explicacion_openai": "The component primarily adjusted to enhance temporal resolution is the frame rate. By increasing the frame rate, more frames are captured per second, which improves the system's ability to display moving structures in real time. Adjusting other factors like line density or frequency can influence image quality but do not directly enhance temporal resolution."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4496,8 +4496,8 @@
     "respuesta_correcta": [
       "Image detail"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and Image detail",
+    "explicacion_openai": "Increasing the frame rate in real-time scanning typically decreases image detail. While a higher frame rate improves temporal resolution, enabling better visualization of moving objects, it can compromise the spatial resolution or detail of the image due to fewer scan lines being processed."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4514,8 +4514,8 @@
     "respuesta_correcta": [
       "Frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and Temporal resolution",
+    "explicacion_openai": "The best temporal resolution is achieved by enhancing the frame rate. A higher frame rate allows the ultrasound system to capture more images per second, which improves the visualization of moving structures in real-time. Other factors like image depth, beam width, and receiver gain affect different aspects of image quality but do not directly optimize temporal resolution."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4568,8 +4568,8 @@
     "respuesta_correcta": [
       "High frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and temporal resolution",
+    "explicacion_openai": "To capture high-speed cardiac events, the crucial setting is a high frame rate. This ensures that more frames are captured per second, allowing better temporal resolution and precise visualization of fast-moving cardiac structures. Other options, like gain, bandwidth, or frequency, may influence other aspects of image quality but are not as directly relevant for capturing rapid motion."
   },
 {
     "clasificacion": "Ultrasound Transducers",
@@ -4586,8 +4586,8 @@
     "respuesta_correcta": [
       "Increase frame rate"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frame rate and temporal resolution",
+    "explicacion_openai": "To capture high-speed cardiac events, the crucial setting is a high frame rate. This ensures that more frames are captured per second, allowing better temporal resolution and precise visualization of fast-moving cardiac structures. Other options, like gain, bandwidth, or frequency, may influence other aspects of image quality but are not as directly relevant for capturing rapid motion."
   },
 {
     "clasificacion": "Ultrasound Transducers",
