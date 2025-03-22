@@ -20593,308 +20593,308 @@
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "250",
+    "grupo": "215",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What does a clear spectral window (B) indicate about the flow within the vessel?",
     "image": "ventana.png",
     "opciones": [
-        "The presence of turbulent flow",
-        "The occurrence of aliasing",
-        "Laminar flow with uniform velocity",
-        "Flow reversal due to pathologic conditions"
+      "The presence of turbulent flow",
+      "The occurrence of aliasing",
+      "Laminar flow with uniform velocity",
+      "Flow reversal due to pathologic conditions"
     ],
     "respuesta_correcta": [
-        "Laminar flow with uniform velocity"
+      "Laminar flow with uniform velocity"
     ],
     "concept_to_study": "Flow characteristics in spectral Doppler",
     "explicacion_openai": "A clear spectral window is typically associated with laminar flow, where the majority of red blood cells travel at similar speeds, especially with a small sample volume."
-},
-{
+  },
+  {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "251",
+    "grupo": "216",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What does the 'A' marked on the Doppler spectral waveform represent?",
     "image": "ventana.png",
     "opciones": [
-        "The spectral window showing laminar flow",
-        "The envelope showing the peak velocities at a given time",
-        "The area representing aliasing",
-        "The baseline separating positive and negative flows"
+      "The spectral window showing laminar flow",
+      "The envelope showing the peak velocities at a given time",
+      "The area representing aliasing",
+      "The baseline separating positive and negative flows"
     ],
     "respuesta_correcta": [
-        "The envelope showing the peak velocities at a given time"
+      "The envelope showing the peak velocities at a given time"
     ],
     "concept_to_study": "Envelope in spectral Doppler analysis",
     "explicacion_openai": "The envelope is the outer boundary of the spectral waveform. It reflects the range of velocities detected within the sampled blood flow and highlights the highest velocities at a specific time. The thickness of the envelope depends on the range of velocities detected; the more diverse the velocities of the red blood cells within the sample volume, the thicker the envelope will appear. A narrow envelope usually corresponds to laminar flow, where most red blood cells travel at similar velocities, while a thicker envelope indicates a greater variation in velocities, such as in turbulent or mixed flows."
-},
-{
+  },
+  {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "90",
+    "grupo": "217",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the type of spectral window observed (B), where is the Doppler sample most likely taken?",
     "image": "ventana.png",
     "opciones": [
-        "A small sample taken at the center of the vessel",
-        "A wide sample taken across the full thickness of the vessel",
-        "A small sample taken at the periphery of the vessel",
-        "A sample taken outside the vessel, capturing surrounding tissue"
+      "A small sample taken at the center of the vessel",
+      "A wide sample taken across the full thickness of the vessel",
+      "A small sample taken at the periphery of the vessel",
+      "A sample taken outside the vessel, capturing surrounding tissue"
     ],
     "respuesta_correcta": [
-        "A small sample taken at the center of the vessel"
+      "A small sample taken at the center of the vessel"
     ],
     "concept_to_study": "Sample volume and spectral window appearance",
     "explicacion_openai": "The spectral window is typically clear when the sample is taken from the center of the vessel, where laminar flow predominates and velocities are uniform. A wider sample across the vessel's full thickness or near its walls often results in spectral broadening due to a mix of velocities, while sampling outside the vessel produces no valid flow signal."
-},
-{
+  },
+  {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "270",
+    "grupo": "218",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Based on the clean spectral window observed in this image (B), what type of flow is most likely present?",
     "image": "ventana.png",
     "opciones": [
-        "Laminar flow with uniform velocities",
-        "Turbulent flow with mixed velocities",
-        "Aliasing due to high velocity flows",
-        "No flow detected in the sample volume"
+      "Laminar flow with uniform velocities",
+      "Turbulent flow with mixed velocities",
+      "Aliasing due to high velocity flows",
+      "No flow detected in the sample volume"
     ],
     "respuesta_correcta": [
-        "Laminar flow with uniform velocities"
+      "Laminar flow with uniform velocities"
     ],
     "concept_to_study": "Spectral window and laminar flow",
     "explicacion_openai": "A clean spectral window is characteristic of laminar flow, where red blood cells move at nearly identical velocities. This occurs when the sample volume is positioned at the center of the vessel, avoiding areas near the walls where flow disturbances are more likely."
-},
+  },
   {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "279",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What mathematical technique is used to generate the spectral Doppler waveform?",
-        "image": "",
-        "opciones": [
-            "Fast Fourier Transform (FFT)",
-            "Pulse Repetition Frequency (PRF)",
-            "Time Gain Compensation (TGC)",
-            "Power Doppler Processing"
-        ],
-        "respuesta_correcta": [
-            "Fast Fourier Transform (FFT)"
-        ],
-        "concept_to_study": "Mathematical basis of spectral Doppler",
-        "explicacion_openai": "The Fast Fourier Transform (FFT) is used to break down the complex Doppler signal into its frequency components, allowing the creation of a quantifiable spectral waveform that represents blood flow velocity over time."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "280",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How is flow direction displayed on the spectral Doppler graph?",
-        "image": "",
-        "opciones": [
-            "By the amplitude of the waveform dots",
-            "By the position relative to the baseline",
-            "By the thickness of the envelope",
-            "By the sweep speed adjustment"
-        ],
-        "respuesta_correcta": [
-            "By the position relative to the baseline"
-        ],
-        "concept_to_study": "Flow direction representation in Doppler",
-        "explicacion_openai": "Flow direction is represented by whether the Doppler signal is above (positive shift, towards the transducer) or below (negative shift, away from the transducer) the baseline on the spectral graph."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "281",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which Doppler measurement is commonly used to evaluate organ transplants like the liver and kidneys?",
-        "image": "",
-        "opciones": [
-            "Mean velocity",
-            "Resistive Index (RI)",
-            "Pulsatility Index (PI)",
-            "Peak systolic velocity"
-        ],
-        "respuesta_correcta": [
-            "Resistive Index (RI)"
-        ],
-        "concept_to_study": "Clinical applications of Doppler measurements",
-        "explicacion_openai": "The Resistive Index (RI) is a Doppler-derived measurement that quantifies the resistiveness of the distal vascular bed, useful in evaluating transplanted organs such as the liver and kidneys for potential complications."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "282",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What does the brightness of the dots on the spectral Doppler display represent?",
-        "image": "",
-        "opciones": [
-            "Blood flow velocity",
-            "Number of red blood cells at a specific velocity",
-            "The angle of insonation",
-            "The sweep speed of the Doppler system"
-        ],
-        "respuesta_correcta": [
-            "Number of red blood cells at a specific velocity"
-        ],
-        "concept_to_study": "Amplitude representation in Doppler imaging",
-        "explicacion_openai": "The brightness of the dots reflects the amplitude of the Doppler signal, which corresponds to the number of red blood cells moving at a particular velocity in the sample volume."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "283",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is set to 6 kHz and the Doppler shift is 4 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-            "No, aliasing will not occur because the Doppler shift is within the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is too high.",
-            "Yes, aliasing will occur due to a low PRF."
-        ],
-        "respuesta_correcta": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
-        ],
-        "concept_to_study": "Nyquist limit and aliasing",
-        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 4 kHz, it exceeds the Nyquist limit, resulting in aliasing."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "284",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is 8 kHz and the Doppler shift is 3 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the PRF.",
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is too high.",
-            "Yes, aliasing will occur due to the high Doppler shift."
-        ],
-        "respuesta_correcta": [
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
-        ],
-        "concept_to_study": "Nyquist limit and Doppler shift relationship",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 4 kHz. Since the Doppler shift is 3 kHz, it does not exceed the Nyquist limit, so aliasing will not occur."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "285",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is 10 kHz and the Doppler shift is 5 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-            "No, aliasing will not occur because the Doppler shift matches the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is high enough.",
-            "Yes, aliasing will occur due to improper angle correction."
-        ],
-        "respuesta_correcta": [
-            "No, aliasing will not occur because the Doppler shift matches the Nyquist limit."
-        ],
-        "concept_to_study": "Nyquist limit threshold",
-        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 5 kHz. Since the Doppler shift matches the Nyquist limit, aliasing does not occur, but it is close to the threshold. The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "286",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is 4 kHz and the Doppler shift is 6 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is high.",
-            "No, aliasing will not occur because the Nyquist limit is sufficient.",
-            "Yes, aliasing will occur because the PRF is too low."
-        ],
-        "respuesta_correcta": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
-        ],
-        "concept_to_study": "Impact of low PRF on aliasing",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**, which in this case is 2 kHz. Since the Doppler shift is 6 kHz, it greatly exceeds the Nyquist limit, causing aliasing."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "287",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the Nyquist limit if the PRF is set to 12 kHz?",
-        "image": "",
-        "opciones": [
-            "6 kHz",
-            "12 kHz",
-            "3 kHz",
-            "24 kHz"
-        ],
-        "respuesta_correcta": [
-            "6 kHz"
-        ],
-        "concept_to_study": "Definition of Nyquist limit",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**. In this case, the PRF is 12 kHz, so the Nyquist limit is 6 kHz."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "288",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is 6 kHz and the Doppler shift is 2 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is low.",
-            "Yes, aliasing will occur due to high Doppler shift."
-        ],
-        "respuesta_correcta": [
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
-        ],
-        "concept_to_study": "Doppler shift below Nyquist limit",
-        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 2 kHz, it does not exceed the limit, and no aliasing occurs.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "289",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What adjustment would prevent aliasing if the PRF is 6 kHz and the Doppler shift is 4 kHz?",
-        "image": "",
-        "opciones": [
-            "Increase the PRF",
-            "Reduce the transducer frequency",
-            "Decrease the sweep speed",
-            "Increase the gain settings"
-        ],
-        "respuesta_correcta": [
-            "Increase the PRF"
-        ],
-        "concept_to_study": "Preventing aliasing",
-        "explicacion_openai": "Increasing the PRF raises the Nyquist limit, allowing higher Doppler shifts to be measured without aliasing.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "290",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the PRF is 15 kHz and the Doppler shift is 7 kHz, will aliasing occur?",
-        "image": "",
-        "opciones": [
-            "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
-            "No, aliasing will not occur because the PRF is high.",
-            "Yes, aliasing will occur due to low PRF."
-        ],
-        "respuesta_correcta": [
-            "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
-        ],
-        "concept_to_study": "Impact of high PRF on aliasing",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 7.5 kHz. Since the Doppler shift is 7 kHz, it remains within the Nyquist limit, avoiding aliasing."
-    },
-    {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "291",
+    "grupo": "219",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What mathematical technique is used to generate the spectral Doppler waveform?",
+    "image": "",
+    "opciones": [
+      "Fast Fourier Transform (FFT)",
+      "Pulse Repetition Frequency (PRF)",
+      "Time Gain Compensation (TGC)",
+      "Power Doppler Processing"
+    ],
+    "respuesta_correcta": [
+      "Fast Fourier Transform (FFT)"
+    ],
+    "concept_to_study": "Mathematical basis of spectral Doppler",
+    "explicacion_openai": "The Fast Fourier Transform (FFT) is used to break down the complex Doppler signal into its frequency components, allowing the creation of a quantifiable spectral waveform that represents blood flow velocity over time."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "220",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How is flow direction displayed on the spectral Doppler graph?",
+    "image": "",
+    "opciones": [
+      "By the amplitude of the waveform dots",
+      "By the position relative to the baseline",
+      "By the thickness of the envelope",
+      "By the sweep speed adjustment"
+    ],
+    "respuesta_correcta": [
+      "By the position relative to the baseline"
+    ],
+    "concept_to_study": "Flow direction representation in Doppler",
+    "explicacion_openai": "Flow direction is represented by whether the Doppler signal is above (positive shift, towards the transducer) or below (negative shift, away from the transducer) the baseline on the spectral graph."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "221",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which Doppler measurement is commonly used to evaluate organ transplants like the liver and kidneys?",
+    "image": "",
+    "opciones": [
+      "Mean velocity",
+      "Resistive Index (RI)",
+      "Pulsatility Index (PI)",
+      "Peak systolic velocity"
+    ],
+    "respuesta_correcta": [
+      "Resistive Index (RI)"
+    ],
+    "concept_to_study": "Clinical applications of Doppler measurements",
+    "explicacion_openai": "The Resistive Index (RI) is a Doppler-derived measurement that quantifies the resistiveness of the distal vascular bed, useful in evaluating transplanted organs such as the liver and kidneys for potential complications."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "222",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does the brightness of the dots on the spectral Doppler display represent?",
+    "image": "",
+    "opciones": [
+      "Blood flow velocity",
+      "Number of red blood cells at a specific velocity",
+      "The angle of insonation",
+      "The sweep speed of the Doppler system"
+    ],
+    "respuesta_correcta": [
+      "Number of red blood cells at a specific velocity"
+    ],
+    "concept_to_study": "Amplitude representation in Doppler imaging",
+    "explicacion_openai": "The brightness of the dots reflects the amplitude of the Doppler signal, which corresponds to the number of red blood cells moving at a particular velocity in the sample volume."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "223",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 6 kHz and the Doppler shift is 4 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the Doppler shift is within the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is too high.",
+      "Yes, aliasing will occur due to a low PRF."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
+    ],
+    "concept_to_study": "Nyquist limit and aliasing",
+    "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 4 kHz, it exceeds the Nyquist limit, resulting in aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "224",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is 8 kHz and the Doppler shift is 3 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the PRF.",
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is too high.",
+      "Yes, aliasing will occur due to the high Doppler shift."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
+    ],
+    "concept_to_study": "Nyquist limit and Doppler shift relationship",
+    "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 4 kHz. Since the Doppler shift is 3 kHz, it does not exceed the Nyquist limit, so aliasing will not occur."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "225",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is 10 kHz and the Doppler shift is 5 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the Doppler shift matches the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is high enough.",
+      "Yes, aliasing will occur due to improper angle correction."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing will not occur because the Doppler shift matches the Nyquist limit."
+    ],
+    "concept_to_study": "Nyquist limit threshold",
+    "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 5 kHz. Since the Doppler shift matches the Nyquist limit, aliasing does not occur, but it is close to the threshold. The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "226",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is 4 kHz and the Doppler shift is 6 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is high.",
+      "No, aliasing will not occur because the Nyquist limit is sufficient.",
+      "Yes, aliasing will occur because the PRF is too low."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
+    ],
+    "concept_to_study": "Impact of low PRF on aliasing",
+    "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**, which in this case is 2 kHz. Since the Doppler shift is 6 kHz, it greatly exceeds the Nyquist limit, causing aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "227",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the Nyquist limit if the PRF is set to 12 kHz?",
+    "image": "",
+    "opciones": [
+      "6 kHz",
+      "12 kHz",
+      "3 kHz",
+      "24 kHz"
+    ],
+    "respuesta_correcta": [
+      "6 kHz"
+    ],
+    "concept_to_study": "Definition of Nyquist limit",
+    "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**. In this case, the PRF is 12 kHz, so the Nyquist limit is 6 kHz."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "228",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is 6 kHz and the Doppler shift is 2 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is low.",
+      "Yes, aliasing will occur due to high Doppler shift."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
+    ],
+    "concept_to_study": "Doppler shift below Nyquist limit",
+    "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 2 kHz, it does not exceed the limit, and no aliasing occurs.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "229",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What adjustment would prevent aliasing if the PRF is 6 kHz and the Doppler shift is 4 kHz?",
+    "image": "",
+    "opciones": [
+      "Increase the PRF",
+      "Reduce the transducer frequency",
+      "Decrease the sweep speed",
+      "Increase the gain settings"
+    ],
+    "respuesta_correcta": [
+      "Increase the PRF"
+    ],
+    "concept_to_study": "Preventing aliasing",
+    "explicacion_openai": "Increasing the PRF raises the Nyquist limit, allowing higher Doppler shifts to be measured without aliasing.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "230",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is 15 kHz and the Doppler shift is 7 kHz, will aliasing occur?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is high.",
+      "Yes, aliasing will occur due to low PRF."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
+    ],
+    "concept_to_study": "Impact of high PRF on aliasing",
+    "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 7.5 kHz. Since the Doppler shift is 7 kHz, it remains within the Nyquist limit, avoiding aliasing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "231",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If the PRF is 20 kHz and the Doppler shift is 11 kHz, will aliasing occur?",
     "image": "",
     "opciones": [
-        "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
-        "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
-        "No, aliasing will not occur because the PRF is sufficiently high.",
-        "Yes, aliasing will occur due to low PRF."
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit.",
+      "No, aliasing will not occur because the Doppler shift is below the Nyquist limit.",
+      "No, aliasing will not occur because the PRF is sufficiently high.",
+      "Yes, aliasing will occur due to low PRF."
     ],
     "respuesta_correcta": [
-        "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
+      "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
     ],
     "concept_to_study": "Impact of PRF on aliasing",
     "explicacion_openai": "The Nyquist limit defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
- }
+  }
 ]
