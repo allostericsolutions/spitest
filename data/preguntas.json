@@ -266,8 +266,8 @@
     "respuesta_correcta": [
       "It decreases"
     ],
-    "concept_to_study": "Wavelength diminishes when frequency rises.",
-    "explicacion_openai": "Because c stays the same, an elevated frequency leads to a shorter wavelength."
+    "concept_to_study": "Wavelength-Frequency Relationship.",
+    "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f × λ, when the frequency (f) increases, the wavelength (λ) must decrease in order to keep the product constant. This inverse relationship is fundamental: as frequency rises, the shorter wavelength often leads to improved image resolution, though it may also reduce the penetration depth of the ultrasound beam."
   },
   {
     "clasificacion": "Physical Principles",
