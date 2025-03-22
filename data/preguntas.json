@@ -11307,7 +11307,7 @@
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "42",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What needs to be increased to see an increase in flow volume?",
+    "enunciado": "What needs to be increased in order to see an increase in flow volume?",
     "image": "",
     "opciones": [
       "Pressure difference",
