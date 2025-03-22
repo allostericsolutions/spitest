@@ -141,7 +141,7 @@
       "The beam area decreases with distance from the transducer"
     ],
     "concept_to_study": "Fresnel Zone (Near Zone)",
-    "explicacion_openai": "The Fresnel zone, or near zone, is the region closest to the transducer where the ultrasound beam converges. Within this zone, the beam area decreases with increasing distance from the transducer. This knowledge is important for optimizing image resolution and focus."
+    "explicacion_openai": "Fresnel zone, also called the near zone, is the region closest to the transducer where the ultrasound beam converges before reaching its focal point. Within this zone, the beam width decreases progressively as the distance from the transducer increases, leading to improved lateral resolution up to the focal point.The length of the Fresnel zone depends on the diameter of the transducer crystal and the frequency of the ultrasound wave. Larger diameters and higher frequencies result in a longer near zone.Beyond the Fresnel zone lies the Fraunhofer zone (far zone), where the beam starts to diverge and resolution decreases. A longer Fresnel zone improves focus and resolution within the near field, which is advantageous for imaging superficial structures.Length and quality of the Fresnel zone can be adjusted by using higher frequency transducers. Higher frequency transducers create a longer Fresnel zone, allowing for better resolution in the near field." 
   },
   {
     "clasificacion": "Ultrasound Transducers",
