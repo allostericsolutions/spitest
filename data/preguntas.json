@@ -5378,8 +5378,8 @@
     "respuesta_correcta": [
       "Using a lower frequency transducer"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Lower Frequency Transducer",
+    "explicacion_openai": "In ultrasound imaging, using a lower frequency transducer reduces the attenuation of the ultrasound waves, which allows them to penetrate deeper into tissue. Although lower frequency waves have longer wavelengths and may slightly compromise spatial resolution, the benefit of improved depth penetration is paramount when imaging deeper structures. This balance of penetration and resolution makes lower frequency transducers ideal for evaluating deeper anatomical areas while still maintaining an acceptable level of detail."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5396,8 +5396,8 @@
     "respuesta_correcta": [
       "Pulse length"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Pulse Length",
+    "explicacion_openai": "The spatial resolution in ultrasound, particularly axial resolution, is primarily determined by the pulse length. A shorter pulse length means that the ultrasound wave covers a smaller volume of tissue with each emission, allowing the system to distinguish between two closely spaced reflectors more effectively. Therefore, optimizing the pulse length is essential for achieving high-resolution images and accurately depicting fine anatomical details."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5414,8 +5414,8 @@
     "respuesta_correcta": [
       "Using a nonabrasive cloth with a compatible disinfectant"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transducer Cleaning",
+    "explicacion_openai": "The recommended method to clean ultrasound transducers is to use a nonabrasive cloth along with a disinfectant that is compatible with the device. This technique ensures that contaminants are effectively removed without damaging the sensitive surface or the underlying piezoelectric elements. Using harsh chemicals or abrasive materials can compromise the acoustic properties and longevity of the transducer, so following manufacturer guidelines is essential for both patient safety and equipment preservation."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5432,8 +5432,8 @@
     "respuesta_correcta": [
       "It can degrade the adhesive between parts"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Alcohol Effects",
+    "explicacion_openai": "Alcohol should be used sparingly on transducers because it can degrade the adhesive materials that bond the various components of the transducer, including the piezoelectric crystals and matching layers. Excessive exposure to alcohol may compromise the structural integrity of the probe and impair its acoustic performance, leading to potential imaging artifacts or failure of the transducer. Therefore, minimal use of alcohol is recommended, following the manufacturer’s instructions for cleaning."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5450,8 +5450,8 @@
     "respuesta_correcta": [
       "Avoid tightly bending at acute angles"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Cable Handling",
+    "explicacion_openai": "To prolong the life of transducer cables, it is important to handle them gently and avoid tight bending at acute angles. Sharp bends can damage the internal wiring, reduce signal integrity, and eventually lead to cable failure. Proper cable management through careful coiling and avoiding stress points ensures that the transducer and its associated electronics continue to function reliably over time."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5468,8 +5468,8 @@
     "respuesta_correcta": [
       "Dropping or striking the transducer"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transducer Protection",
+    "explicacion_openai": "Transducers are sensitive devices that can be easily damaged by physical shock. Dropping or striking a transducer can cause internal damage to the piezoelectric elements or other critical components, leading to degraded image quality or complete failure of the device. To ensure reliable performance and longevity, it is essential to handle the transducer carefully and avoid any abrupt impacts or collisions."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5486,8 +5486,8 @@
     "respuesta_correcta": [
       "Stop using the transducer immediately"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Cracked Transducer",
+    "explicacion_openai": "If a transducer is found to be cracked, the immediate action is to stop using it. A cracked transducer can lead to inaccurate imaging, generate potential safety hazards, and further deteriorate with continued use. Removing it from service promptly ensures that patient safety is not compromised and that the equipment can be repaired or replaced without risking misdiagnosis."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5504,8 +5504,8 @@
     "respuesta_correcta": [
       "Ensure accurate image quality and measurements"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transducer Calibration",
+    "explicacion_openai": "Regular transducer calibration is essential to maintain the accuracy and consistency of ultrasound imaging. Calibration adjusts for any drift in system performance, ensuring that the measured distances, reflectivity, and overall image quality adhere to clinical standards. This process minimizes errors and guarantees that diagnostic measurements are reliable over time, which is critical for effective patient evaluation."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5522,8 +5522,8 @@
     "respuesta_correcta": [
       "A dry and room temperature environment"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Proper Storage",
+    "explicacion_openai": "Storing transducers in a dry, room temperature environment is crucial to protect them from moisture, thermal stress, and potential degradation. Controlled storage conditions help prevent corrosion and preserve the mechanical and electronic integrity of the device, ensuring that the transducer remains in optimal operating condition for accurate and reliable ultrasound imaging."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5540,8 +5540,8 @@
     "respuesta_correcta": [
       "Acidic or highly alkaline solutions"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Chemical Damage",
+    "explicacion_openai": "Acidic or highly alkaline solutions are harmful to transducers because they can chemically damage the delicate surfaces and internal bonding materials. Such substances can corrode the protective coatings and disrupt the function of the piezoelectric elements, ultimately compromising image quality and potentially leading to device failure. It is critical to avoid these chemicals and use only approved cleaning agents."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5558,8 +5558,8 @@
     "respuesta_correcta": [
       "The housing and seals"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Housing and Seals",
+    "explicacion_openai": "Regular inspection of the transducer’s housing and seals is essential because they safeguard the internal components from moisture, dust, and physical impact. Any crack or deterioration in these protective parts can lead to device malfunction and compromise patient safety. Consistent checks ensure that the transducer remains well-protected and functions reliably over time."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5576,8 +5576,8 @@
     "respuesta_correcta": [
       "Excessive heat can depolarize crystals"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Temperature Effects",
+    "explicacion_openai": "Temperature critically affects transducer crystals, which rely on stable polarization to generate and receive ultrasound waves. Excessive heat can lead to depolarization, where the electrical alignment within the piezoelectric material is disrupted, thereby reducing the efficiency of energy conversion and degrading image quality. Maintaining appropriate temperature conditions is therefore essential to preserve the performance and longevity of the transducer."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5594,8 +5594,8 @@
     "respuesta_correcta": [
       "Reverberation"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Reverberation Artifact",
+    "explicacion_openai": "Reverberation artifact is produced when ultrasound waves reflect repeatedly between two strong reflectors, creating a series of echoes that appear as equally spaced, diminishing lines on the image. This phenomenon can obscure underlying anatomical details and lead to misinterpretation if not recognized. Understanding this artifact is important for adjusting imaging settings and for correctly interpreting complex ultrasound examinations."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5612,8 +5612,8 @@
     "respuesta_correcta": [
       "Sound speed differences between tissues"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Refraction Artifacts",
+    "explicacion_openai": "Refraction artifacts occur when ultrasound waves pass through tissues with different speeds of sound, causing the beam to bend away from its original path. This bending leads to the misplacement of structures on the final image, which can complicate the interpretation of anatomical relationships. Recognizing this effect is essential for clinicians to adjust the scanning technique and improve diagnostic accuracy."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5630,8 +5630,8 @@
     "respuesta_correcta": [
       "Comet tail"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Comet Tail Artifact",
+    "explicacion_openai": "The comet tail artifact is recognized by a series of closely spaced, gradually diminishing echoes that trail from a highly reflective structure, resembling the tail of a comet. This artifact is generated by the scattering of ultrasound waves within small, closely spaced reflective interfaces and can provide diagnostic clues, although it may also mask important details if not properly identified."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5648,8 +5648,8 @@
     "respuesta_correcta": [
       "Increased attenuation"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Shadowing Artifact",
+    "explicacion_openai": "The shadowing artifact occurs when an ultrasound beam encounters a highly attenuating structure that absorbs most of the sound energy, resulting in a dark shadow behind that structure. This effect can significantly reduce the visibility of tissues beyond the attenuator and is an important diagnostic indicator for identifying materials or masses that strongly absorb or reflect ultrasound."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5667,7 +5667,7 @@
       "Speed of sound artifact"
     ],
     "concept_to_study": "The speed of sound artifact",
-    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system assumes a constant speed of sound in tissue, typically 1540 m/s. If the actual speed of sound differs due to variations in tissue composition, structures may appear at incorrect depths on the image. This can lead to misinterpretation of the location and size of anatomical structures"
+    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system’s assumption of a constant speed of sound (typically 1540 m/s) does not match the actual speed in different tissues. This mismatch causes the calculated distances to reflectors to be inaccurate, leading to structures appearing at incorrect depths. Recognizing and adjusting for this artifact is crucial for accurate diagnosis and precise imaging."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5684,8 +5684,8 @@
     "respuesta_correcta": [
       "Improves axial resolution"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency and Resolution",
+    "explicacion_openai": "Increasing the transducer frequency improves axial resolution because higher frequencies generate shorter wavelengths, allowing the ultrasound system to more precisely differentiate between closely spaced reflectors. Although this improvement comes at the cost of reduced penetration depth due to increased attenuation, the enhanced detail is especially valuable for imaging superficial structures where distinguishing fine anatomical features is critical."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -6962,8 +6962,8 @@
     "respuesta_correcta": [
       "To simulate human tissue properties"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Tissue Equivalent Phantom",
+    "explicacion_openai": "A tissue equivalent phantom is designed with materials that mimic the acoustic properties of human tissues—such as attenuation, speed of sound, and scattering. Its primary function is to provide a controlled and reproducible model that allows for the evaluation and calibration of ultrasound imaging systems under conditions that resemble clinical scenarios. This ensures that the device produces accurate, reliable images when used for patient examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -6980,8 +6980,8 @@
     "respuesta_correcta": [
       "Regular equipment calibration"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Equipment Calibration",
+    "explicacion_openai": "Regular equipment calibration is a fundamental element of a quality assurance program in ultrasound imaging. By routinely calibrating the ultrasound system against known standards, technicians ensure that the equipment performs within specified tolerances, leading to consistent and accurate imaging results. This process not only identifies potential performance deviations early but also contributes to maintaining high diagnostic quality and patient safety."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -6998,8 +6998,8 @@
     "respuesta_correcta": [
       "To ensure compliance with standards"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Lab Accreditation",
+    "explicacion_openai": "Lab accreditation in ultrasound is aimed at ensuring that imaging facilities meet established quality and safety standards. This process involves comprehensive evaluations of equipment performance, personnel training, and clinical protocols to verify compliance with industry best practices. The ultimate goal is to guarantee that patients receive accurate diagnostic services in a safe manner, while fostering continuous quality improvement among imaging centers."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7016,8 +7016,8 @@
     "respuesta_correcta": [
       "Slice-thickness phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Slice-thickness Phantom",
+    "explicacion_openai": "A slice-thickness phantom is specifically engineered to evaluate the vertical dimension (slice thickness) of the ultrasound beam. It contains targets with known and precise spacing that allow technicians to measure how accurately the system displays a particular slice of tissue without including out-of-plane echoes. This assessment is crucial for ensuring that the acquired images accurately reflect the anatomical details, thereby enhancing diagnostic confidence."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7034,8 +7034,8 @@
     "respuesta_correcta": [
       "Power surges"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Equipment Malfunction",
+    "explicacion_openai": "Power surges are one of the most common causes of malfunction in ultrasound equipment. Sudden spikes in electrical energy can damage critical electronic components, disturb calibration settings, and permanently impair system performance. Implementing surge protection and ensuring a stable power supply are necessary precautions to minimize these risks and to safeguard the ultrasound system against unexpected electrical disruptions."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7052,8 +7052,8 @@
     "respuesta_correcta": [
       "To simulate blood flow"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Doppler Phantom",
+    "explicacion_openai": "A Doppler phantom is utilized to simulate blood flow within a controlled environment. This simulation replicates the flow characteristics encountered in human vessels, allowing for the evaluation and calibration of Doppler ultrasound systems. By mimicking the dynamic conditions of blood circulation, the phantom facilitates the accurate testing of flow measurement accuracy and helps to fine-tune the system for reliable vascular imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7070,8 +7070,8 @@
     "respuesta_correcta": [
       "Regular software updates"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Preventive Maintenance",
+    "explicacion_openai": "Regular software updates are a critical preventive measure for ensuring that ultrasound equipment functions optimally. These updates help address system bugs, enhance functionality, and improve security, all of which are vital for maintaining reliable performance. By keeping the ultrasound system’s software current, operators can minimize unexpected errors and extend the device’s operational lifespan, contributing to overall quality assurance."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7088,8 +7088,8 @@
     "respuesta_correcta": [
       "To ensure compliance with standards"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Accrediting Agencies",
+    "explicacion_openai": "Accrediting agencies in ultrasound imaging play a crucial role by establishing and enforcing standards of quality and safety. Their evaluations cover everything from equipment performance to organizational protocols, ensuring that imaging facilities operate in compliance with industry benchmarks. This regulatory oversight not only improves diagnostic reliability but also promotes ongoing quality improvement and patient safety in clinical practice."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7106,8 +7106,8 @@
     "respuesta_correcta": [
       "Regular equipment testing"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Quality Assurance Testing",
+    "explicacion_openai": "Regular equipment testing is a core component of quality assurance in ultrasound imaging. This practice involves the use of standardized protocols and phantoms to evaluate system performance on a routine basis, ensuring that all imaging parameters remain within acceptable limits. These tests help identify any deviations early, so corrective measures can be taken promptly, thus maintaining high image quality and patient safety."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7124,8 +7124,8 @@
     "respuesta_correcta": [
       "Reduced equipment downtime"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Preventive Maintenance Benefit",
+    "explicacion_openai": "The primary benefit of preventive maintenance for ultrasound equipment lies in reducing equipment downtime. By proactively addressing minor issues before they escalate into serious problems, regular maintenance ensures that the system remains reliable and available for continuous clinical use. This not only improves the efficiency of the imaging facility but also helps to sustain high diagnostic quality by preventing unexpected malfunctions."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7142,8 +7142,8 @@
     "respuesta_correcta": [
       "Doppler flow phantom"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Doppler Flow Phantom",
+    "explicacion_openai": "A Doppler flow phantom is specifically designed to simulate vascular flow conditions, making it an essential tool for evaluating the performance of Doppler ultrasound systems. It replicates various flow velocities and patterns encountered in clinical settings, allowing for precise calibration of the system’s ability to measure blood flow. This ensures that Doppler imaging yields accurate and reliable information for diagnosing vascular pathologies."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7307,7 +7307,7 @@
     "concept_to_study": "",
     "explicacion_openai": ""
   },
-    {
+  {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "90",
     "tipo_pregunta": "opcion_multiple",
@@ -10580,8 +10580,8 @@
     "respuesta_correcta": [
       "The brighter the dot on the display"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "B-mode Display Brightness",
+    "explicacion_openai": "In B-mode imaging, each dot or pixel displayed on the screen represents the amplitude of the echo that is returned from the tissue. When the returning echo is strong, it generates a brighter spot on the display; conversely, a weak echo produces a darker spot. This brightness mapping enables clinicians to quickly assess tissue characteristics by correlating echo strength with tissue echogenicity, thus contributing to improved contrast and detail in the final ultrasound image."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10598,8 +10598,8 @@
     "respuesta_correcta": [
       "There is more spatial detail"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Pixel Density",
+    "explicacion_openai": "Increasing the pixel density means that a digital image is composed of a larger number of pixels per unit area, which allows for finer spatial details to be captured and displayed. As a result, the image reveals more precise anatomical or structural information, providing greater clarity for diagnostic interpretation. Although higher pixel density can lead to larger file sizes, the benefit of enhanced spatial resolution is particularly valuable in medical imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10616,8 +10616,8 @@
     "respuesta_correcta": [
       "Slice thickness artifact"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Slice Thickness Artifact",
+    "explicacion_openai": "A transducer with a very wide elevational plane produces a beam with a significant slice thickness, which can inadvertently capture echoes from structures that lie outside the intended imaging plane. This phenomenon, known as the slice thickness artifact, results in the superimposition of off-plane echo data on the displayed image, thereby reducing the overall image accuracy and clarity. It is a common challenge when imaging with transducers that are not optimally focused in the elevational dimension."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10634,8 +10634,8 @@
     "respuesta_correcta": [
       "Enhancement"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Acoustic Enhancement",
+    "explicacion_openai": "Acoustic enhancement is the artifact seen as an area of increased brightness behind a weakly attenuating structure. This occurs because such structures allow more ultrasound energy to pass through with less loss, causing the echoes from tissues located deeper than the structure to be stronger. Far from being an error, this artifact is useful since it can help differentiate between cystic (fluid-filled) areas and solid masses, providing valuable diagnostic information."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10652,8 +10652,8 @@
     "respuesta_correcta": [
       "Pulser"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Output Power and Pulser",
+    "explicacion_openai": "The output power control in an ultrasound system primarily affects the pulser, which is responsible for generating the high-voltage electrical pulses that drive the transducer. By adjusting the output power, the operator can modulate the intensity of these pulses, which in turn influences the energy of the emitted ultrasound beam and ultimately improves signal acquisition and image brightness."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10670,8 +10670,8 @@
     "respuesta_correcta": [
       "Rejection"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Noise Rejection",
+    "explicacion_openai": "Within the receiver chain, the function known as 'rejection' is critical for filtering out low-level noise. This process minimizes the interference from unwanted weak signals, ensuring that the echoes displayed accurately represent the returning ultrasound signals from the tissues. Effective noise rejection is essential for enhancing the overall clarity and diagnostic quality of the ultrasound image."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10688,8 +10688,8 @@
     "respuesta_correcta": [
       "Compression"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Dynamic Range Compression",
+    "explicacion_openai": "Dynamic range compression in the receiver reduces the disparity between the strongest and weakest signals by narrowing the overall range of signal amplitudes. This process ensures that subtle details are not lost within high amplitude echoes and that low-level signals remain visible. As a result, the final image is more uniform and easier to interpret, enhancing overall diagnostic accuracy."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10706,8 +10706,8 @@
     "respuesta_correcta": [
       "Mirror image artifact"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Mirror Image Artifact",
+    "explicacion_openai": "A mirror image artifact occurs when the ultrasound beam reflects off a strong reflector and is subsequently re-reflected in such a way that the system misplaces the echo in a symmetrical location across the reflector’s axis. This false duplication of structures can lead to misinterpretation if not recognized, as the artifact appears as an extra, yet weakly represented, image of the actual structure."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10724,8 +10724,8 @@
     "respuesta_correcta": [
       "Travel time, speed"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Distance Calculation",
+    "explicacion_openai": "To accurately calculate the distance to a reflector in ultrasound imaging, it is essential to know the travel time of the ultrasound wave as it moves to and from the reflector, along with the speed of sound in the medium. The distance is derived by multiplying the one-way travel time by the speed of sound, ensuring that the image geometry accurately represents the patient's anatomy."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10742,8 +10742,8 @@
     "respuesta_correcta": [
       "The ability to see differences in shades of gray"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Contrast Resolution",
+    "explicacion_openai": "Contrast resolution is defined as the ability of an ultrasound system to distinguish between subtle differences in the echogenicity of tissues, resulting in the representation of different shades of gray. This capability is crucial for detecting small variations in tissue composition and ensuring that the image produced accurately distinguishes between adjacent anatomical structures."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10760,8 +10760,8 @@
     "respuesta_correcta": [
       "Postprocessing"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Postprocessing",
+    "explicacion_openai": "After an ultrasound image is frozen, the system typically engages in postprocessing. During this phase, additional enhancements are applied to the captured image, such as adjustments to brightness, contrast, and edge sharpening. This process helps to refine the quality of the image, making it more useful and interpretable for diagnostic purposes by emphasizing clinically relevant features."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10778,8 +10778,8 @@
     "respuesta_correcta": [
       "B-mode"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "B-mode Imaging",
+    "explicacion_openai": "In B-mode (brightness mode) imaging, the returned echoes are translated into varying levels of brightness in the final display. This brightness directly reflects the amplitude of the echoes from the tissues: stronger echoes appear brighter and weaker echoes appear darker. This representation enables clinicians to visualize tissue boundaries and internal structures with high contrast and clarity."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10796,8 +10796,8 @@
     "respuesta_correcta": [
       "M-mode"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "M-mode Imaging",
+    "explicacion_openai": "M-mode, or motion mode, imaging captures and displays the movement of structures along a single scan line over time. By recording the positional changes of reflectors along this line, the system creates a time-motion map that is especially useful for evaluating dynamic organs, such as the heart, where the timing and pattern of movement are critical for diagnosis."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10814,8 +10814,8 @@
     "respuesta_correcta": [
       "Time"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "M-mode X-Axis",
+    "explicacion_openai": "In M-mode imaging, the horizontal axis of the display represents time. This allows the continuous tracking of the motion of tissues or organs along a fixed ultrasound beam, providing valuable information on the temporal dynamics of moving structures, such as the rhythm and rate of the heart."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10832,8 +10832,8 @@
     "respuesta_correcta": [
       "Is produced by the patient"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Tissue Harmonics",
+    "explicacion_openai": "The harmonic signal in ultrasound is generated within the patient's tissue as the original ultrasound wave propagates nonlinearly. This process creates signals at multiples of the transmitted frequency, known as harmonics, which tend to have lower noise and better resolution compared to the fundamental frequency. The phenomenon is entirely a result of tissue interaction, and its exploitation improves image quality by reducing artifacts."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10843,21 +10843,21 @@
     "image": "",
     "opciones": [
       "The fundamental frequency is filtered out",
-      "The fundamental beam\u2019s frequency is increased",
+      "The fundamental beam’s frequency is increased",
       "The harmonic signal is filtered out",
       "There are more artifacts"
     ],
     "respuesta_correcta": [
       "The fundamental frequency is filtered out"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Tissue Harmonic Imaging",
+    "explicacion_openai": "In tissue harmonic imaging, the ultrasound system filters out the fundamental frequency and exclusively processes the harmonic frequencies generated as the ultrasound beam travels through the tissue. This selective filtering enhances image quality by reducing noise and artifacts, thereby providing images with improved contrast and spatial resolution that are particularly useful in challenging diagnostic areas."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "161",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sound wave travels for 26 \u00b5s to reach a reflector. How distant is the reflector, assuming the medium is soft tissue?",
+    "enunciado": "A sound wave travels for 26 µs to reach a reflector. How distant is the reflector, assuming the medium is soft tissue?",
     "image": "",
     "opciones": [
       "0.5 cm",
@@ -10868,8 +10868,26 @@
     "respuesta_correcta": [
       "2.0 cm"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Distance Measurement",
+    "explicacion_openai": "The distance to a reflector in ultrasound imaging is calculated using the travel time of the sound wave and the speed of sound in the medium. For soft tissue, this speed is typically 1540 m/s. Given a round-trip travel time of 26 µs, the one-way travel time is approximately 13 µs. Multiplying this by the speed of sound and converting the units appropriately results in an estimated distance of about 2.0 cm."
+  },
+  {
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "234",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does an ultrasound transducer convert electrical energy into?",
+    "image": "",
+    "opciones": [
+      "Mechanical energy",
+      "Electrical energy into mechanical energy",
+      "Thermal energy into mechanical energy",
+      "Electrical energy into thermal energy"
+    ],
+    "respuesta_correcta": [
+      "Electrical energy into mechanical energy"
+    ],
+    "concept_to_study": "Transducer Function",
+    "explicacion_openai": "An ultrasound transducer operates on the principle of piezoelectricity, converting electrical energy into mechanical energy in the form of sound waves. Once these sound waves propagate into the body and reflect off tissues, the transducer reverses the process by converting the returning mechanical energy back into electrical signals. This bidirectional conversion is fundamental to producing the images used in diagnostic ultrasound."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -13172,8 +13190,8 @@
     "respuesta_correcta": [
       "Hand hygiene"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Barrier Techniques",
+    "explicacion_openai": "This question asks you to differentiate between methods used to reduce infection risk. Barrier techniques are those that physically block pathogens (for example, by using sterilization, decontamination, or proper disposal of waste). In contrast, while hand hygiene is essential for infection control, it is not classified as a barrier technique."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13190,8 +13208,8 @@
     "respuesta_correcta": [
       "Needle stick"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "HIV Transmission",
+    "explicacion_openai": "This question tests your understanding of HIV transmission routes in a clinical setting. HIV is primarily transmitted via direct blood-to-blood contact, with needle stick injuries being the most significant risk. Other routes, such as casual contact or exposure to fecal material, do not typically lead to HIV transmission."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13208,8 +13226,8 @@
     "respuesta_correcta": [
       "Coughing"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Airborne Transmission",
+    "explicacion_openai": "Tuberculosis is an airborne disease primarily transmitted through respiratory droplets. When an infected patient coughs, tiny droplets containing the bacteria are expelled and can be inhaled by others. This question emphasizes that coughing is the most common route of TB transmission in healthcare settings."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13226,8 +13244,8 @@
     "respuesta_correcta": [
       "Mechanical mechanisms"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Mechanical Effects",
+    "explicacion_openai": "Nonthermal, or mechanical, mechanisms in ultrasound refer to effects that occur without significant heat production. These include processes such as cavitation, radiation force, and microstreaming. The term 'mechanical mechanisms' highlights that these effects are a result of the physical forces exerted by the ultrasound waves."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13244,8 +13262,8 @@
     "respuesta_correcta": [
       "Nosocomial shock"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Shock Classification",
+    "explicacion_openai": "Distributive shock is generally classified into septic, anaphylactic, and neurogenic shock. 'Nosocomial shock' is not a recognized subcategory in the standard classification and instead refers to conditions acquired in a hospital. This question tests your ability to correctly categorize types of shock based on their underlying mechanisms."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13262,8 +13280,8 @@
     "respuesta_correcta": [
       "No effects caused by exposure from present diagnostic ultrasound instruments have been reported in human patients in the absence of contrast agents."
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Ultrasound Safety",
+    "explicacion_openai": "This question emphasizes the safety record of diagnostic ultrasound. Extensive research indicates that, in the absence of contrast agents, diagnostic ultrasound does not cause harmful biological effects in human patients. This statement underlines the importance of evidence-based safety standards in medical imaging."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13280,8 +13298,8 @@
     "respuesta_correcta": [
       "Gloves can be used to replace hand washing."
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Glove Use",
+    "explicacion_openai": "This question highlights proper infection control practices. Gloves are an important component of personal protective equipment and should be used when there is a risk of exposure to infectious agents. However, they do not replace the need for proper hand washing. Good hygiene practices require that hand washing is performed both before and after glove use to reduce the risk of cross-contamination."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13298,8 +13316,8 @@
     "respuesta_correcta": [
       "The type of cavitation when larger bubbles are produced and subsequently rupture."
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transient Cavitation",
+    "explicacion_openai": "Transient cavitation occurs when larger bubbles form in a medium and eventually collapse or rupture. This rapid bubble collapse generates high energy and pressure changes in the local environment. It is distinct from stable cavitation, where bubbles oscillate without collapsing, and is an important mechanism by which ultrasound can have mechanical effects on tissues."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13316,8 +13334,8 @@
     "respuesta_correcta": [
       "Mechanical, longitudinal"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Sound Waves",
+    "explicacion_openai": "Sound waves are classified as mechanical waves, meaning they require a medium to propagate. They travel as longitudinal or compressional waves, with particle oscillation parallel to the direction of wave propagation. This distinguishes them from electromagnetic waves, which can travel through a vacuum and are typically transverse."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13334,8 +13352,8 @@
     "respuesta_correcta": [
       ">20 kHz"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Frequency Range",
+    "explicacion_openai": "Ultrasound refers to sound waves with frequencies above the human hearing limit of 20 kHz. In diagnostic imaging, the frequencies are typically in the megahertz range, which greatly exceeds 20 kHz, ensuring that these waves are well outside the audible range."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13352,8 +13370,8 @@
     "respuesta_correcta": [
       "1540 m/s"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Sound Velocity in Tissue",
+    "explicacion_openai": "The velocity of sound in soft tissue is approximately 1540 meters per second. This value is a standard assumption used in ultrasound imaging to calculate distances within the body based on the time delay of returning echoes."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -13370,8 +13388,8 @@
     "respuesta_correcta": [
       "Linear sequenced array"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transducer Array",
+    "explicacion_openai": "A linear sequenced array transducer activates its elements in groups sequentially. This sequential activation helps in steering and focusing the ultrasound beam while reducing artifacts, leading to improved image quality, especially for superficial structures."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13388,8 +13406,8 @@
     "respuesta_correcta": [
       "Millimeters"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength Units",
+    "explicacion_openai": "Wavelength is the distance between consecutive peaks or troughs of a wave. In the context of ultrasound imaging, wavelengths are typically measured in millimeters, which is appropriate given the scale of human anatomy and the frequencies used."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13406,14 +13424,14 @@
     "respuesta_correcta": [
       "Weakly attenuating structures"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Attenuation Effects",
+    "explicacion_openai": "Enhancement in ultrasound imaging occurs when structures with low attenuation allow more of the ultrasound signal to be reflected back to the transducer. This increased signal strength results in a brighter, clearer image. Weakly attenuating tissues therefore contribute to improved image quality by preserving the strength of the returning echoes."
   },
   {
     "clasificacion": "Physical Principles",
     "grupo": "158",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/\u00b5s using a 5.0 MHz transducer.",
+    "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/µs using a 5.0 MHz transducer.",
     "image": "",
     "opciones": [
       "0.3 mm",
@@ -13424,8 +13442,8 @@
     "respuesta_correcta": [
       "0.3 mm"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Wavelength Calculation",
+    "explicacion_openai": "To calculate the wavelength (λ) in ultrasound imaging, the equation λ = c/f is used, where c is the speed of sound in the medium and f is the frequency of the transducer. Here, c = 1.5 mm/µs and f = 5.0 MHz. Dividing the speed by the frequency gives λ = 0.3 mm. This calculation illustrates the inverse relationship between frequency and wavelength."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -13442,10 +13460,10 @@
     "respuesta_correcta": [
       "Electrical energy into mechanical energy"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transducer Function",
+    "explicacion_openai": "Ultrasound transducers work on the principle of piezoelectricity. They convert electrical energy into mechanical energy (sound waves) and then convert the reflected mechanical energy back into electrical signals. This conversion process is essential for creating the ultrasound images used in diagnostic imaging."
   },
-  {
+  {    
     "clasificacion": "Ultrasound Transducers",
     "grupo": "235",
     "tipo_pregunta": "opcion_multiple",
@@ -13910,8 +13928,8 @@
     "respuesta_correcta": [
       "As Low As Reasonably Achievable"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "ALARA Principle",
+    "explicacion_openai": "ALARA stands for 'As Low As Reasonably Achievable' and is a fundamental safety principle used in ultrasound imaging and radiology. This concept emphasizes that the amount of exposure to ultrasound energy or radiation should be minimized as much as possible while still obtaining the necessary diagnostic information. It ensures that both patient and operator are exposed to the lowest dose of energy that is reasonably achievable for the task at hand."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13928,8 +13946,8 @@
     "respuesta_correcta": [
       "Ratio of two sound intensities"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Decibel (dB)",
+    "explicacion_openai": "The decibel (dB) is a logarithmic unit used to describe the ratio between two sound intensities. Instead of measuring sound in absolute terms, the decibel scale is used because it can conveniently represent very large or small ratios in a compact form. When comparing the intensity of an ultrasound wave to a reference, the dB scale effectively conveys the relative difference in energy levels in a manner that aligns with human perception of sound."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13938,16 +13956,16 @@
     "enunciado": "Which equation correctly represents Snell's Law?",
     "image": "",
     "opciones": [
-      "n\u2081 sin\u03b8\u2081 = n\u2082 sin\u03b8\u2082",
-      "sin\u03b8\u2081 / sin\u03b8\u2082 = v\u2081 / v\u2082",
-      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082",
-      "\u03b8\u2081 + \u03b8\u2082 = 90\u00b0"
+      "n₁ sinθ₁ = n₂ sinθ₂",
+      "sinθ₁ / sinθ₂ = v₁ / v₂",
+      "sinθ₁ = (C₂/C₁) × sinθ₂",
+      "θ₁ + θ₂ = 90°"
     ],
     "respuesta_correcta": [
-      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082"
+      "sinθ₁ = (C₂/C₁) × sinθ₂"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Snell's Law",
+    "explicacion_openai": "Snell's Law describes the relationship between the angles of incidence and refraction when a wave passes between two media with different speeds of sound. The equation sinθ₁ = (C₂/C₁) × sinθ₂ relates the angle of incidence (θ₁) to the angle of refraction (θ₂) by taking into account the speed of sound in each medium (C₁ and C₂). This relationship is fundamental in ultrasound imaging for predicting the bending of the ultrasound beam at interfaces."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13956,7 +13974,7 @@
     "enunciado": "How can the attenuation coefficient of sound in soft tissue be expressed?",
     "image": "",
     "opciones": [
-      "Frequency \u00d7 wavelength",
+      "Frequency × wavelength",
       "Speed of sound / wavelength",
       "Frequency / 2",
       "Intensity / distance"
@@ -13964,8 +13982,8 @@
     "respuesta_correcta": [
       "Frequency / 2"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Attenuation Coefficient",
+    "explicacion_openai": "The attenuation coefficient quantifies how much the intensity of an ultrasound wave decreases as it travels through soft tissue. In many practical models, this coefficient is assumed to be proportional to frequency, meaning that higher frequency waves are attenuated more. The expression 'Frequency / 2' is one simplified way to represent this relationship, indicating that for every unit increase in frequency, the attenuation increases proportionally, which is critical for balancing penetration depth and image resolution."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13982,8 +14000,8 @@
     "respuesta_correcta": [
       "The intensity transmission coefficient is equal to one minus the intensity reflection coefficient"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transmission Coefficient",
+    "explicacion_openai": "The intensity transmission coefficient represents the fraction of an ultrasound wave's intensity that is transmitted across the interface between two media. Due to the conservation of energy, the transmitted intensity is the complement of the reflected intensity at that interface. Therefore, the transmission coefficient can be defined as one minus the intensity reflection coefficient, ensuring that the sum of transmitted and reflected energies equals the total incident energy."
   },
   {
     "clasificacion": "Physical Principles",
@@ -14000,8 +14018,8 @@
     "respuesta_correcta": [
       "Distance to reflector"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Range Equation",
+    "explicacion_openai": "The range equation in ultrasound imaging is used to calculate the distance to a reflector within the body. It does this by correlating the time delay between the emission of an ultrasound pulse and the reception of its echo with the speed of sound in the tissue. By applying this equation, the system can accurately convert the time data into spatial distance, enabling precise localization of anatomical structures."
   },
   {
     "clasificacion": "Physical Principles",
@@ -14018,8 +14036,8 @@
     "respuesta_correcta": [
       "3 dB/cm"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Attenuation in Soft Tissue",
+    "explicacion_openai": "For 6-MHz ultrasound used in soft tissue, the standard attenuation coefficient is typically around 3 dB per centimeter. This value indicates that with every centimeter of tissue the ultrasound wave travels, its intensity is reduced by approximately 3 dB, which is central to understanding and compensating for signal loss during imaging."
   },
   {
     "clasificacion": "Physical Principles",
@@ -14036,8 +14054,8 @@
     "respuesta_correcta": [
       "Travel time, propagation speed"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Distance Calculation",
+    "explicacion_openai": "Determining the distance to a reflector in ultrasound imaging is based on measuring the travel time of the ultrasound wave and knowing the propagation speed of sound in the medium. This relationship is fundamental because, with a known speed, the time delay is directly convertible into spatial distance, allowing precise localization of internal structures."
   },
   {
     "clasificacion": "Physical Principles",
@@ -14054,26 +14072,26 @@
     "respuesta_correcta": [
       "Occur when the interface is larger than the wavelength"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Specular Reflection",
+    "explicacion_openai": "Specular reflections occur when the reflecting surface is smooth and its dimensions exceed the wavelength of the incident ultrasound wave. Under these conditions, the wave is reflected in a single, well-defined direction rather than scattering in multiple directions. This principle is vital in ultrasound imaging because it allows for clear, distinct echoes that help in accurately delineating tissue interfaces."
   },
   {
     "clasificacion": "Physical Principles",
     "grupo": "183",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Given an incident intensity of 1 mW/cm\u00b2 and impedances of 25 and 75, what is the reflected intensity?",
+    "enunciado": "Given an incident intensity of 1 mW/cm² and impedances of 25 and 75, what is the reflected intensity?",
     "image": "",
     "opciones": [
-      "0.25 mW/cm\u00b2",
-      "0.75 mW/cm\u00b2",
-      "0.50 mW/cm\u00b2",
-      "0.10 mW/cm\u00b2"
+      "0.25 mW/cm²",
+      "0.75 mW/cm²",
+      "0.50 mW/cm²",
+      "0.10 mW/cm²"
     ],
     "respuesta_correcta": [
-      "0.25 mW/cm\u00b2"
+      "0.25 mW/cm²"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Reflected Intensity",
+    "explicacion_openai": "When an ultrasound wave encounters an interface between two media with different acoustic impedances, part of its energy is reflected. Based on the impedance mismatch and the conservation of energy principles, the calculation in this example indicates that 25% of the incident intensity (i.e., 0.25 mW/cm²) is reflected back. This measure of reflected intensity is essential for understanding image formation and the impact of tissue interfaces on ultrasound signals."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -14090,8 +14108,8 @@
     "respuesta_correcta": [
       "Matching layer"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Matching Layer",
+    "explicacion_openai": "The matching layer is an integral component of an ultrasound transducer designed to bridge the acoustic impedance difference between the piezoelectric element and body tissues. By optimizing this interface, the matching layer minimizes reflection losses and enhances the transmission of ultrasound energy into the patient. This results in improved image quality and more efficient energy transfer."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -14108,8 +14126,8 @@
     "respuesta_correcta": [
       "Quality factor"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Quality Factor",
+    "explicacion_openai": "The quality factor, or Q factor, is a parameter that defines the relationship between a transducer's operating frequency and its bandwidth. A high Q factor indicates a narrow bandwidth relative to the center frequency, which can enhance resolution but may limit the range of frequencies available for imaging. Conversely, a low Q factor represents a broader bandwidth, offering greater frequency coverage but potentially lower resolution. This factor is vital in the design and performance optimization of ultrasound systems."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -14126,8 +14144,8 @@
     "respuesta_correcta": [
       "Mechanical deformation that results from a high voltage applied to the face of the crystal that in turn generates a pressure wave"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Piezoelectric Effect",
+    "explicacion_openai": "The piezoelectric effect is the mechanism by which ultrasound transducers convert electrical energy into acoustic energy. When a high voltage is applied to the piezoelectric crystal, it undergoes mechanical deformation, generating a pressure wave that propagates as ultrasound. Conversely, when this pressure wave returns as an echo, it causes a mechanical stress in the crystal that is converted into an electrical signal. This bidirectional conversion is fundamental for both transmitting and receiving ultrasound waves in diagnostic imaging."
   },
   {
     "clasificacion": "Ultrasound Transducers",
