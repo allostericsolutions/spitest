@@ -267,7 +267,7 @@
       "It decreases"
     ],
     "concept_to_study": "Wavelength-Frequency Relationship.",
-    "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f × λ, when the frequency (f) increases, the wavelength (λ) must decrease in order to keep the product constant. This inverse relationship is fundamental: as frequency rises, the shorter wavelength often leads to improved image resolution, though it may also reduce the penetration depth of the ultrasound beam."
+    "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f \u00d7 \u03bb, when the frequency (f) increases, the wavelength (\u03bb) must decrease in order to keep the product constant. This inverse relationship is fundamental: as frequency rises, the shorter wavelength often leads to improved image resolution, though it may also reduce the penetration depth of the ultrasound beam."
   },
   {
     "clasificacion": "Physical Principles",
@@ -5433,7 +5433,7 @@
       "It can degrade the adhesive between parts"
     ],
     "concept_to_study": "Alcohol Effects",
-    "explicacion_openai": "Alcohol should be used sparingly on transducers because it can degrade the adhesive materials that bond the various components of the transducer, including the piezoelectric crystals and matching layers. Excessive exposure to alcohol may compromise the structural integrity of the probe and impair its acoustic performance, leading to potential imaging artifacts or failure of the transducer. Therefore, minimal use of alcohol is recommended, following the manufacturer’s instructions for cleaning."
+    "explicacion_openai": "Alcohol should be used sparingly on transducers because it can degrade the adhesive materials that bond the various components of the transducer, including the piezoelectric crystals and matching layers. Excessive exposure to alcohol may compromise the structural integrity of the probe and impair its acoustic performance, leading to potential imaging artifacts or failure of the transducer. Therefore, minimal use of alcohol is recommended, following the manufacturer\u2019s instructions for cleaning."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5559,7 +5559,7 @@
       "The housing and seals"
     ],
     "concept_to_study": "Housing and Seals",
-    "explicacion_openai": "Regular inspection of the transducer’s housing and seals is essential because they safeguard the internal components from moisture, dust, and physical impact. Any crack or deterioration in these protective parts can lead to device malfunction and compromise patient safety. Consistent checks ensure that the transducer remains well-protected and functions reliably over time."
+    "explicacion_openai": "Regular inspection of the transducer\u2019s housing and seals is essential because they safeguard the internal components from moisture, dust, and physical impact. Any crack or deterioration in these protective parts can lead to device malfunction and compromise patient safety. Consistent checks ensure that the transducer remains well-protected and functions reliably over time."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5667,7 +5667,7 @@
       "Speed of sound artifact"
     ],
     "concept_to_study": "The speed of sound artifact",
-    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system’s assumption of a constant speed of sound (typically 1540 m/s) does not match the actual speed in different tissues. This mismatch causes the calculated distances to reflectors to be inaccurate, leading to structures appearing at incorrect depths. Recognizing and adjusting for this artifact is crucial for accurate diagnosis and precise imaging."
+    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system\u2019s assumption of a constant speed of sound (typically 1540 m/s) does not match the actual speed in different tissues. This mismatch causes the calculated distances to reflectors to be inaccurate, leading to structures appearing at incorrect depths. Recognizing and adjusting for this artifact is crucial for accurate diagnosis and precise imaging."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -6963,7 +6963,7 @@
       "To simulate human tissue properties"
     ],
     "concept_to_study": "Tissue Equivalent Phantom",
-    "explicacion_openai": "A tissue equivalent phantom is designed with materials that mimic the acoustic properties of human tissues—such as attenuation, speed of sound, and scattering. Its primary function is to provide a controlled and reproducible model that allows for the evaluation and calibration of ultrasound imaging systems under conditions that resemble clinical scenarios. This ensures that the device produces accurate, reliable images when used for patient examinations."
+    "explicacion_openai": "A tissue equivalent phantom is designed with materials that mimic the acoustic properties of human tissues\u2014such as attenuation, speed of sound, and scattering. Its primary function is to provide a controlled and reproducible model that allows for the evaluation and calibration of ultrasound imaging systems under conditions that resemble clinical scenarios. This ensures that the device produces accurate, reliable images when used for patient examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7071,7 +7071,7 @@
       "Regular software updates"
     ],
     "concept_to_study": "Preventive Maintenance",
-    "explicacion_openai": "Regular software updates are a critical preventive measure for ensuring that ultrasound equipment functions optimally. These updates help address system bugs, enhance functionality, and improve security, all of which are vital for maintaining reliable performance. By keeping the ultrasound system’s software current, operators can minimize unexpected errors and extend the device’s operational lifespan, contributing to overall quality assurance."
+    "explicacion_openai": "Regular software updates are a critical preventive measure for ensuring that ultrasound equipment functions optimally. These updates help address system bugs, enhance functionality, and improve security, all of which are vital for maintaining reliable performance. By keeping the ultrasound system\u2019s software current, operators can minimize unexpected errors and extend the device\u2019s operational lifespan, contributing to overall quality assurance."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7143,7 +7143,7 @@
       "Doppler flow phantom"
     ],
     "concept_to_study": "Doppler Flow Phantom",
-    "explicacion_openai": "A Doppler flow phantom is specifically designed to simulate vascular flow conditions, making it an essential tool for evaluating the performance of Doppler ultrasound systems. It replicates various flow velocities and patterns encountered in clinical settings, allowing for precise calibration of the system’s ability to measure blood flow. This ensures that Doppler imaging yields accurate and reliable information for diagnosing vascular pathologies."
+    "explicacion_openai": "A Doppler flow phantom is specifically designed to simulate vascular flow conditions, making it an essential tool for evaluating the performance of Doppler ultrasound systems. It replicates various flow velocities and patterns encountered in clinical settings, allowing for precise calibration of the system\u2019s ability to measure blood flow. This ensures that Doppler imaging yields accurate and reliable information for diagnosing vascular pathologies."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7485,7 +7485,7 @@
       "To simulate human tissue properties"
     ],
     "concept_to_study": "The tissue equivalent phantom.",
-    "explicacion_openai": "By closely emulating the properties of human tissue—such as sound speed, attenuation, and scattering—a tissue equivalent phantom enables realistic testing of ultrasound systems. This ensures that the imaging performance, including penetration depth, resolution, and overall contrast, reflects what might be observed in a clinical scenario. It is central to system calibration and quality assurance in ultrasound diagnostics."
+    "explicacion_openai": "By closely emulating the properties of human tissue\u2014such as sound speed, attenuation, and scattering\u2014a tissue equivalent phantom enables realistic testing of ultrasound systems. This ensures that the imaging performance, including penetration depth, resolution, and overall contrast, reflects what might be observed in a clinical scenario. It is central to system calibration and quality assurance in ultrasound diagnostics."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7539,7 +7539,7 @@
       "Slice-thickness phantom"
     ],
     "concept_to_study": "Slice Thickness",
-    "explicacion_openai": "Slice-thickness phantoms are dedicated tools used to measure the vertical extent (slice thickness) of the ultrasound beam. They contain targets with known dimensions that allow technicians to determine if the system’s slice captures the correct volume. This verification is essential because an accurate slice thickness minimizes partial volume effects and ensures that the image faithfully represents the tissue structures in a clinical setting."
+    "explicacion_openai": "Slice-thickness phantoms are dedicated tools used to measure the vertical extent (slice thickness) of the ultrasound beam. They contain targets with known dimensions that allow technicians to determine if the system\u2019s slice captures the correct volume. This verification is essential because an accurate slice thickness minimizes partial volume effects and ensures that the image faithfully represents the tissue structures in a clinical setting."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7557,7 +7557,7 @@
       "To evaluate spatial resolution"
     ],
     "concept_to_study": "Spatial Resolution",
-    "explicacion_openai": "Resolution phantoms are designed with fine, precise structures – such as line pairs or point targets – to challenge an ultrasound system’s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished."
+    "explicacion_openai": "Resolution phantoms are designed with fine, precise structures \u2013 such as line pairs or point targets \u2013 to challenge an ultrasound system\u2019s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7575,7 +7575,7 @@
       "Doppler phantom"
     ],
     "concept_to_study": "Doppler Evaluation",
-    "explicacion_openai": "A Doppler phantom replicates blood flow dynamics under controlled conditions, allowing for the precise assessment of Doppler measurements. By simulating a range of flow velocities and patterns, it enables the calibration of an ultrasound system’s Doppler functionality, ensuring accurate detection and quantification of blood flow in clinical examinations."
+    "explicacion_openai": "A Doppler phantom replicates blood flow dynamics under controlled conditions, allowing for the precise assessment of Doppler measurements. By simulating a range of flow velocities and patterns, it enables the calibration of an ultrasound system\u2019s Doppler functionality, ensuring accurate detection and quantification of blood flow in clinical examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7701,7 +7701,7 @@
       "ACR"
     ],
     "concept_to_study": "Radiology Accreditation",
-    "explicacion_openai": "The American College of Radiology (ACR) is the organization tasked with accrediting radiology practices, including those involving ultrasound. The ACR’s accreditation process involves a rigorous review of imaging quality, safety protocols, and technical performance, ensuring that radiology departments meet the highest standards in diagnostic imaging."
+    "explicacion_openai": "The American College of Radiology (ACR) is the organization tasked with accrediting radiology practices, including those involving ultrasound. The ACR\u2019s accreditation process involves a rigorous review of imaging quality, safety protocols, and technical performance, ensuring that radiology departments meet the highest standards in diagnostic imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10707,7 +10707,7 @@
       "Mirror image artifact"
     ],
     "concept_to_study": "Mirror Image Artifact",
-    "explicacion_openai": "A mirror image artifact occurs when the ultrasound beam reflects off a strong reflector and is subsequently re-reflected in such a way that the system misplaces the echo in a symmetrical location across the reflector’s axis. This false duplication of structures can lead to misinterpretation if not recognized, as the artifact appears as an extra, yet weakly represented, image of the actual structure."
+    "explicacion_openai": "A mirror image artifact occurs when the ultrasound beam reflects off a strong reflector and is subsequently re-reflected in such a way that the system misplaces the echo in a symmetrical location across the reflector\u2019s axis. This false duplication of structures can lead to misinterpretation if not recognized, as the artifact appears as an extra, yet weakly represented, image of the actual structure."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10843,7 +10843,7 @@
     "image": "",
     "opciones": [
       "The fundamental frequency is filtered out",
-      "The fundamental beam’s frequency is increased",
+      "The fundamental beam\u2019s frequency is increased",
       "The harmonic signal is filtered out",
       "There are more artifacts"
     ],
@@ -10857,7 +10857,7 @@
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "161",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sound wave travels for 26 µs to reach a reflector. How distant is the reflector, assuming the medium is soft tissue?",
+    "enunciado": "A sound wave travels for 26 \u00b5s to reach a reflector. How distant is the reflector, assuming the medium is soft tissue?",
     "image": "",
     "opciones": [
       "0.5 cm",
@@ -10869,11 +10869,11 @@
       "2.0 cm"
     ],
     "concept_to_study": "Distance Measurement",
-    "explicacion_openai": "The distance to a reflector in ultrasound imaging is calculated using the travel time of the sound wave and the speed of sound in the medium. For soft tissue, this speed is typically 1540 m/s. Given a round-trip travel time of 26 µs, the one-way travel time is approximately 13 µs. Multiplying this by the speed of sound and converting the units appropriately results in an estimated distance of about 2.0 cm."
+    "explicacion_openai": "The distance to a reflector in ultrasound imaging is calculated using the travel time of the sound wave and the speed of sound in the medium. For soft tissue, this speed is typically 1540 m/s. Given a round-trip travel time of 26 \u00b5s, the one-way travel time is approximately 13 \u00b5s. Multiplying this by the speed of sound and converting the units appropriately results in an estimated distance of about 2.0 cm."
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "234",
+    "grupo": "233",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What does an ultrasound transducer convert electrical energy into?",
     "image": "",
@@ -13375,7 +13375,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "233",
+    "grupo": "234",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which transducer type activates its elements sequentially in groups?",
     "image": "",
@@ -13431,7 +13431,7 @@
     "clasificacion": "Physical Principles",
     "grupo": "158",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/µs using a 5.0 MHz transducer.",
+    "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/\u00b5s using a 5.0 MHz transducer.",
     "image": "",
     "opciones": [
       "0.3 mm",
@@ -13443,11 +13443,11 @@
       "0.3 mm"
     ],
     "concept_to_study": "Wavelength Calculation",
-    "explicacion_openai": "To calculate the wavelength (λ) in ultrasound imaging, the equation λ = c/f is used, where c is the speed of sound in the medium and f is the frequency of the transducer. Here, c = 1.5 mm/µs and f = 5.0 MHz. Dividing the speed by the frequency gives λ = 0.3 mm. This calculation illustrates the inverse relationship between frequency and wavelength."
+    "explicacion_openai": "To calculate the wavelength (\u03bb) in ultrasound imaging, the equation \u03bb = c/f is used, where c is the speed of sound in the medium and f is the frequency of the transducer. Here, c = 1.5 mm/\u00b5s and f = 5.0 MHz. Dividing the speed by the frequency gives \u03bb = 0.3 mm. This calculation illustrates the inverse relationship between frequency and wavelength."
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "234",
+    "grupo": "235",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What does an ultrasound transducer convert electrical energy into?",
     "image": "",
@@ -13463,9 +13463,9 @@
     "concept_to_study": "Transducer Function",
     "explicacion_openai": "Ultrasound transducers work on the principle of piezoelectricity. They convert electrical energy into mechanical energy (sound waves) and then convert the reflected mechanical energy back into electrical signals. This conversion process is essential for creating the ultrasound images used in diagnostic imaging."
   },
-  {    
+  {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "235",
+    "grupo": "236",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Order the following media from lowest to highest attenuation:",
     "image": "",
@@ -13627,7 +13627,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "236",
+    "grupo": "237",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How is the beam uniformity ratio defined?",
     "image": "",
@@ -13681,7 +13681,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "237",
+    "grupo": "238",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How is the sound beam directed in phased array transducers?",
     "image": "",
@@ -13699,7 +13699,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "238",
+    "grupo": "239",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If an amplifier's gain is 18 dB and the power is halved, what is the new gain?",
     "image": "",
@@ -13861,7 +13861,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "239",
+    "grupo": "240",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A thinner piezoelectric element results in:",
     "image": "",
@@ -13879,7 +13879,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "240",
+    "grupo": "241",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the unit for acoustic impedance?",
     "image": "",
@@ -13956,16 +13956,16 @@
     "enunciado": "Which equation correctly represents Snell's Law?",
     "image": "",
     "opciones": [
-      "n₁ sinθ₁ = n₂ sinθ₂",
-      "sinθ₁ / sinθ₂ = v₁ / v₂",
-      "sinθ₁ = (C₂/C₁) × sinθ₂",
-      "θ₁ + θ₂ = 90°"
+      "n\u2081 sin\u03b8\u2081 = n\u2082 sin\u03b8\u2082",
+      "sin\u03b8\u2081 / sin\u03b8\u2082 = v\u2081 / v\u2082",
+      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082",
+      "\u03b8\u2081 + \u03b8\u2082 = 90\u00b0"
     ],
     "respuesta_correcta": [
-      "sinθ₁ = (C₂/C₁) × sinθ₂"
+      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082"
     ],
     "concept_to_study": "Snell's Law",
-    "explicacion_openai": "Snell's Law describes the relationship between the angles of incidence and refraction when a wave passes between two media with different speeds of sound. The equation sinθ₁ = (C₂/C₁) × sinθ₂ relates the angle of incidence (θ₁) to the angle of refraction (θ₂) by taking into account the speed of sound in each medium (C₁ and C₂). This relationship is fundamental in ultrasound imaging for predicting the bending of the ultrasound beam at interfaces."
+    "explicacion_openai": "Snell's Law describes the relationship between the angles of incidence and refraction when a wave passes between two media with different speeds of sound. The equation sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082 relates the angle of incidence (\u03b8\u2081) to the angle of refraction (\u03b8\u2082) by taking into account the speed of sound in each medium (C\u2081 and C\u2082). This relationship is fundamental in ultrasound imaging for predicting the bending of the ultrasound beam at interfaces."
   },
   {
     "clasificacion": "Physical Principles",
@@ -13974,7 +13974,7 @@
     "enunciado": "How can the attenuation coefficient of sound in soft tissue be expressed?",
     "image": "",
     "opciones": [
-      "Frequency × wavelength",
+      "Frequency \u00d7 wavelength",
       "Speed of sound / wavelength",
       "Frequency / 2",
       "Intensity / distance"
@@ -14079,23 +14079,23 @@
     "clasificacion": "Physical Principles",
     "grupo": "183",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Given an incident intensity of 1 mW/cm² and impedances of 25 and 75, what is the reflected intensity?",
+    "enunciado": "Given an incident intensity of 1 mW/cm\u00b2 and impedances of 25 and 75, what is the reflected intensity?",
     "image": "",
     "opciones": [
-      "0.25 mW/cm²",
-      "0.75 mW/cm²",
-      "0.50 mW/cm²",
-      "0.10 mW/cm²"
+      "0.25 mW/cm\u00b2",
+      "0.75 mW/cm\u00b2",
+      "0.50 mW/cm\u00b2",
+      "0.10 mW/cm\u00b2"
     ],
     "respuesta_correcta": [
-      "0.25 mW/cm²"
+      "0.25 mW/cm\u00b2"
     ],
     "concept_to_study": "Reflected Intensity",
-    "explicacion_openai": "When an ultrasound wave encounters an interface between two media with different acoustic impedances, part of its energy is reflected. Based on the impedance mismatch and the conservation of energy principles, the calculation in this example indicates that 25% of the incident intensity (i.e., 0.25 mW/cm²) is reflected back. This measure of reflected intensity is essential for understanding image formation and the impact of tissue interfaces on ultrasound signals."
+    "explicacion_openai": "When an ultrasound wave encounters an interface between two media with different acoustic impedances, part of its energy is reflected. Based on the impedance mismatch and the conservation of energy principles, the calculation in this example indicates that 25% of the incident intensity (i.e., 0.25 mW/cm\u00b2) is reflected back. This measure of reflected intensity is essential for understanding image formation and the impact of tissue interfaces on ultrasound signals."
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "241",
+    "grupo": "242",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the matching layer in a transducer?",
     "image": "",
@@ -14149,7 +14149,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "242",
+    "grupo": "243",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What material is most commonly used in ultrasound transducers?",
     "image": "",
@@ -14203,7 +14203,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "243",
+    "grupo": "244",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which transducer frequency corresponds to the thickest element?",
     "image": "",
@@ -14221,7 +14221,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "244",
+    "grupo": "245",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What term best defines the ability to distinguish between two closely spaced reflectors?",
     "image": "",
@@ -14257,7 +14257,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "245",
+    "grupo": "246",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How is bandwidth defined in ultrasound?",
     "image": "",
@@ -14329,7 +14329,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "246",
+    "grupo": "247",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What is the area where the sound beam is narrowest called?",
     "image": "",
@@ -14401,7 +14401,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "247",
+    "grupo": "248",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which transducer type features multiple elements arranged in a curved formation?",
     "image": "",
@@ -14419,7 +14419,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "248",
+    "grupo": "249",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What control compensates for attenuation based on path length?",
     "image": "",
@@ -14455,7 +14455,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "249",
+    "grupo": "250",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which part of the ultrasound system is responsible for driving the transducer?",
     "image": "",
@@ -14545,7 +14545,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "250",
+    "grupo": "251",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "The primary factors affecting a system's spatial resolution are related to the:",
     "image": "",
@@ -14905,7 +14905,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "251",
+    "grupo": "252",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which control adjusts the transmitted pulse's intensity?",
     "image": "",
@@ -14995,7 +14995,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "252",
+    "grupo": "253",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which device measures acoustic output (intensity) levels?",
     "image": "",
@@ -15067,7 +15067,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "253",
+    "grupo": "254",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What determines the radial resolution of an ultrasound system?",
     "image": "",
@@ -15103,7 +15103,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "254",
+    "grupo": "255",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "When two reflectors are 1.3 mm apart and the spatial pulse length is 2.6 mm, how will they appear?",
     "image": "",
@@ -15157,7 +15157,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "255",
+    "grupo": "256",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "What refers to the ability to resolve two parallel reflectors?",
     "image": "",
@@ -15193,7 +15193,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "256",
+    "grupo": "257",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
     "image": "",
@@ -15319,7 +15319,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "257",
+    "grupo": "258",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
     "image": "",
@@ -15481,7 +15481,7 @@
   },
   {
     "clasificacion": "Ultrasound Transducers",
-    "grupo": "258",
+    "grupo": "259",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
     "image": "",
