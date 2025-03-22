@@ -20590,5 +20590,150 @@
     ],
     "concept_to_study": "Nyquist Limit and Depth",
     "explicacion_openai": "A shallower sample depth increases the Nyquist limit because it allows the Pulse Repetition Frequency (PRF) to be higher. With a shorter travel time for the ultrasound pulse to reach the target and return, the system can send out pulses more frequently, thereby increasing the maximum measurable Doppler shift without aliasing."
-  }
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "250",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does a clear spectral window (B) indicate about the flow within the vessel?",
+    "image": "ventana.png",
+    "opciones": [
+        "The presence of turbulent flow",
+        "The occurrence of aliasing",
+        "Laminar flow with uniform velocity",
+        "Flow reversal due to pathologic conditions"
+    ],
+    "respuesta_correcta": [
+        "Laminar flow with uniform velocity"
+    ],
+    "concept_to_study": "Flow characteristics in spectral Doppler",
+    "explicacion_openai": "A clear spectral window is typically associated with laminar flow, where the majority of red blood cells travel at similar speeds, especially with a small sample volume."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "251",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What does the 'A' marked on the Doppler spectral waveform represent?",
+    "image": "ventana.png",
+    "opciones": [
+        "The spectral window showing laminar flow",
+        "The envelope showing the peak velocities at a given time",
+        "The area representing aliasing",
+        "The baseline separating positive and negative flows"
+    ],
+    "respuesta_correcta": [
+        "The envelope showing the peak velocities at a given time"
+    ],
+    "concept_to_study": "Envelope in spectral Doppler analysis",
+    "explicacion_openai": "The envelope is the outer boundary of the spectral waveform. It reflects the range of velocities detected within the sampled blood flow and highlights the highest velocities at a specific time. The thickness of the envelope depends on the range of velocities detected; the more diverse the velocities of the red blood cells within the sample volume, the thicker the envelope will appear. A narrow envelope usually corresponds to laminar flow, where most red blood cells travel at similar velocities, while a thicker envelope indicates a greater variation in velocities, such as in turbulent or mixed flows."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "90",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the type of spectral window observed (B), where is the Doppler sample most likely taken?",
+    "image": "ventana.png",
+    "opciones": [
+        "A small sample taken at the center of the vessel",
+        "A wide sample taken across the full thickness of the vessel",
+        "A small sample taken at the periphery of the vessel",
+        "A sample taken outside the vessel, capturing surrounding tissue"
+    ],
+    "respuesta_correcta": [
+        "A small sample taken at the center of the vessel"
+    ],
+    "concept_to_study": "Sample volume and spectral window appearance",
+    "explicacion_openai": "The spectral window is typically clear when the sample is taken from the center of the vessel, where laminar flow predominates and velocities are uniform. A wider sample across the vessel's full thickness or near its walls often results in spectral broadening due to a mix of velocities, while sampling outside the vessel produces no valid flow signal."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "270",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the clean spectral window observed in this image (B), what type of flow is most likely present?",
+    "image": "ventana.png",
+    "opciones": [
+        "Laminar flow with uniform velocities",
+        "Turbulent flow with mixed velocities",
+        "Aliasing due to high velocity flows",
+        "No flow detected in the sample volume"
+    ],
+    "respuesta_correcta": [
+        "Laminar flow with uniform velocities"
+    ],
+    "concept_to_study": "Spectral window and laminar flow",
+    "explicacion_openai": "A clean spectral window is characteristic of laminar flow, where red blood cells move at nearly identical velocities. This occurs when the sample volume is positioned at the center of the vessel, avoiding areas near the walls where flow disturbances are more likely."
+},
+  {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "279",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What mathematical technique is used to generate the spectral Doppler waveform?",
+        "image": "",
+        "opciones": [
+            "Fast Fourier Transform (FFT)",
+            "Pulse Repetition Frequency (PRF)",
+            "Time Gain Compensation (TGC)",
+            "Power Doppler Processing"
+        ],
+        "respuesta_correcta": [
+            "Fast Fourier Transform (FFT)"
+        ],
+        "concept_to_study": "Mathematical basis of spectral Doppler",
+        "explicacion_openai": "The Fast Fourier Transform (FFT) is used to break down the complex Doppler signal into its frequency components, allowing the creation of a quantifiable spectral waveform that represents blood flow velocity over time."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "280",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How is flow direction displayed on the spectral Doppler graph?",
+        "image": "",
+        "opciones": [
+            "By the amplitude of the waveform dots",
+            "By the position relative to the baseline",
+            "By the thickness of the envelope",
+            "By the sweep speed adjustment"
+        ],
+        "respuesta_correcta": [
+            "By the position relative to the baseline"
+        ],
+        "concept_to_study": "Flow direction representation in Doppler",
+        "explicacion_openai": "Flow direction is represented by whether the Doppler signal is above (positive shift, towards the transducer) or below (negative shift, away from the transducer) the baseline on the spectral graph."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "281",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler measurement is commonly used to evaluate organ transplants like the liver and kidneys?",
+        "image": "",
+        "opciones": [
+            "Mean velocity",
+            "Resistive Index (RI)",
+            "Pulsatility Index (PI)",
+            "Peak systolic velocity"
+        ],
+        "respuesta_correcta": [
+            "Resistive Index (RI)"
+        ],
+        "concept_to_study": "Clinical applications of Doppler measurements",
+        "explicacion_openai": "The Resistive Index (RI) is a Doppler-derived measurement that quantifies the resistiveness of the distal vascular bed, useful in evaluating transplanted organs such as the liver and kidneys for potential complications."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "282",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the brightness of the dots on the spectral Doppler display represent?",
+        "image": "",
+        "opciones": [
+            "Blood flow velocity",
+            "Number of red blood cells at a specific velocity",
+            "The angle of insonation",
+            "The sweep speed of the Doppler system"
+        ],
+        "respuesta_correcta": [
+            "Number of red blood cells at a specific velocity"
+        ],
+        "concept_to_study": "Amplitude representation in Doppler imaging",
+        "explicacion_openai": "The brightness of the dots reflects the amplitude of the Doppler signal, which corresponds to the number of red blood cells moving at a particular velocity in the sample volume."
+    }
 ]
+
