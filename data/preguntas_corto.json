@@ -213,7 +213,7 @@
       "No relation"
     ],
     "concept_to_study": "Amplitude and Frequency Relationship",
-    "explicacion_openai": "Amplitude and frequency are independent characteristics of a sound wave. Amplitude relates to the strength of the wave, while frequency relates to the number of cycles per second. Grasping these properties is fundamental for interpreting ultrasound waveforms and their effects on imaging."
+    "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
   },
   {
     "clasificacion": "Physical Principles",
