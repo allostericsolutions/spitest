@@ -20975,6 +20975,102 @@
     ],
     "concept_to_study": "Longitudinal nature of sound waves",
     "explicacion_openai": "Sound waves are longitudinal, meaning the molecules vibrate parallel to the direction of the wave’s travel. This property is key to understanding how sound energy is propagated through different mediums."
+  },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": "114",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the frequency range of audible sound for the human ear?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "20 Hz to 20,000 Hz",
+      "0 Hz to 1 Hz",
+      "1 MHz to 10 MHz",
+      "100 kHz to 1 MHz"
+    ],
+    "respuesta_correcta": [
+      "20 Hz to 20,000 Hz"
+    ],
+    "concept_to_study": "Frequency range of audible sound",
+    "explicacion_openai": "Audible sound for humans ranges from 20 Hz to 20,000 Hz, where Hz (Hertz) is the unit of frequency representing the number of wave cycles per second. Frequencies below this range are classified as infrasound, and those above it as ultrasound."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "115",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What type of sound waves have frequencies below 20 Hz?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Ultrasound",
+      "Infrasound",
+      "Audible sound",
+      "Microwaves"
+    ],
+    "respuesta_correcta": [
+      "Infrasound"
+    ],
+    "concept_to_study": "Definition of infrasound",
+    "explicacion_openai": "Infrasound refers to sound waves with frequencies below 20 Hz, which are too low to be detected by the human ear. These waves are often measured in units of Hertz (Hz) and are used to study geological or atmospheric phenomena."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "116",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following represents a typical frequency used in medical ultrasound imaging?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "5 Hz",
+      "500 Hz",
+      "5 MHz",
+      "50 kHz"
+    ],
+    "respuesta_correcta": [
+      "5 MHz"
+    ],
+    "concept_to_study": "Frequency of ultrasound waves",
+    "explicacion_openai": "Medical ultrasound uses frequencies in the range of 1 MHz to 20 MHz (1 MHz = 1,000,000 Hz). These high frequencies allow for detailed imaging of soft tissues but limit penetration depth compared to lower-frequency sounds."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "117",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the typical wavelength of audible sound in air at a frequency of 1,000 Hz, given that the speed of sound in air is approximately 340 m/s?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "0.034 meters",
+      "0.34 meters",
+      "3.4 meters",
+      "34 meters"
+    ],
+    "respuesta_correcta": [
+      "0.34 meters"
+    ],
+    "concept_to_study": "Wavelength of audible sound",
+    "explicacion_openai": "The wavelength of sound is calculated as the speed of sound divided by the frequency. At 1,000 Hz and a speed of 340 m/s, the wavelength is 0.34 meters. Wavelengths help in understanding sound propagation and its interaction with materials."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "118",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the sound intensity level in decibels (dB) of a sound wave with an intensity of 10⁻⁶ W/m², given that the reference intensity is 10⁻¹² W/m²?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "30 dB",
+      "50 dB",
+      "60 dB",
+      "70 dB"
+    ],
+    "respuesta_correcta": [
+      "60 dB"
+    ],
+    "concept_to_study": "Quick mental calculation for sound intensity level",
+    "explicacion_openai": "To calculate the sound intensity level in decibels (dB), use the formula 10 × log10(I/I₀), where I is the intensity and I₀ is the reference intensity. Since I = 10⁻⁶ W/m² and I₀ = 10⁻¹² W/m², the ratio is 10⁶. The log10 of 10⁶ is 6, so the calculation simplifies to 10 × 6 = 60 dB. Quick tip: When the intensity is a power of 10 difference from the reference, the result is simply the exponent multiplied by 10 (e.g., 10⁶ → 6 × 10 = 60 dB). No calculator needed!"
   }
 ]
+  
 ]
