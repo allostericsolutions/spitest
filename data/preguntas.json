@@ -51,7 +51,7 @@
       "The wavelength decreases"
     ],
     "concept_to_study": "An increase in frequency results in a decrease in wavelength.",
-    "explicacion_openai": "The speed of sound in a medium is constant under normal conditions. This relationship is expressed by the equation c = f \u00d7 \u03bb, where c is the speed of sound, f is the frequency, and \u03bb is the wavelength. If the frequency (f) is increased, the wavelength (\u03bb) must decrease to maintain the constant speed (c). In other words, higher frequencies produce shorter wavelengths. This principle is crucial in ultrasound imaging, as higher frequencies provide better resolution but have reduced penetration depth due to the shorter wavelengths."
+    "explicacion_openai": "The speed of sound in a medium is constant under normal conditions. This relationship is expressed by the equation c = f \ \u03bb, where c is the speed of sound, f is the frequency, and \u03bb is the wavelength. If the frequency (f) is increased, the wavelength (\u03bb) must decrease to maintain the constant speed (c). In other words, higher frequencies produce shorter wavelengths. This principle is crucial in ultrasound imaging, as higher frequencies provide better resolution but have reduced penetration depth due to the shorter wavelengths."
   },
   {
     "clasificacion": "Physical Principles",
@@ -105,7 +105,7 @@
       "Wavelength decreases"
     ],
     "concept_to_study": "Frequency and wavelength are inversely proportional in ultrasound.",
-    "explicacion_openai": "An increase in frequency reduces wavelength, given that speed = frequency \u00d7 wavelength."
+    "explicacion_openai": "An increase in frequency reduces wavelength, given that speed = frequency \ wavelength."
   },
   {
     "clasificacion": "Physical Principles",
@@ -177,7 +177,7 @@
       "It decreases"
     ],
     "concept_to_study": "A higher frequency translates to a shorter wavelength.",
-    "explicacion_openai": "Because the propagation speed (c) in a given medium remains constant, increasing the frequency (f) requires a shorter                                wavelength (\u03bb), according to c = f \u00d7 \u03bb"
+    "explicacion_openai": "Because the propagation speed (c) in a given medium remains constant, increasing the frequency (f) requires a shorter                                wavelength (\u03bb), according to c = f \ \u03bb"
   },
   {
     "clasificacion": "Physical Principles",
@@ -249,7 +249,7 @@
       "Decreases wavelength"
     ],
     "concept_to_study": "Increasing frequency decreases wavelength.",
-    "explicacion_openai": "According to c = f \u00d7 \u03bb, raising f shortens \u03bb if speed remains constant."
+    "explicacion_openai": "According to c = f \ \u03bb, raising f shortens \u03bb if speed remains constant."
   },
   {
     "clasificacion": "Physical Principles",
@@ -267,7 +267,7 @@
       "It decreases"
     ],
     "concept_to_study": "Wavelength-Frequency Relationship.",
-    "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f \u00d7 \u03bb, when the frequency (f) increases, the wavelength (\u03bb) must decrease in order to keep the product constant. This inverse relationship is fundamental: as frequency rises, the shorter wavelength often leads to improved image resolution, though it may also reduce the penetration depth of the ultrasound beam."
+    "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f \ \u03bb, when the frequency (f) increases, the wavelength (\u03bb) must decrease in order to keep the product constant. This inverse relationship is fundamental: as frequency rises, the shorter wavelength often leads to improved image resolution, though it may also reduce the penetration depth of the ultrasound beam."
   },
   {
     "clasificacion": "Physical Principles",
@@ -11391,7 +11391,7 @@
       "It decreases"
     ],
     "concept_to_study": "Continuity equation",
-    "explicacion_openai": "If the cross-sectional area (the 2D area created by slicing the vessel perpendicular to its length) increases, velocity must decrease to keep volume flow constant, and vice versa. This is explained by the continuity equation (Q = A \u00d7 v), where Q is volume flow, A is area, and v is velocity. Because Q remains the same, if A goes up, v must go down; if A goes down, v must go up"
+    "explicacion_openai": "If the cross-sectional area (the 2D area created by slicing the vessel perpendicular to its length) increases, velocity must decrease to keep volume flow constant, and vice versa. This is explained by the continuity equation (Q = A \ v), where Q is volume flow, A is area, and v is velocity. Because Q remains the same, if A goes up, v must go down; if A goes down, v must go up"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -13951,39 +13951,22 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "176",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which equation correctly represents Snell's Law?",
-    "image": "",
-    "opciones": [
-      "n\u2081 sin\u03b8\u2081 = n\u2082 sin\u03b8\u2082",
-      "sin\u03b8\u2081 / sin\u03b8\u2082 = v\u2081 / v\u2082",
-      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082",
-      "\u03b8\u2081 + \u03b8\u2082 = 90\u00b0"
-    ],
-    "respuesta_correcta": [
-      "sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082"
-    ],
-    "concept_to_study": "Snell's Law",
-    "explicacion_openai": "Snell's Law describes the relationship between the angles of incidence and refraction when a wave passes between two media with different speeds of sound. The equation sin\u03b8\u2081 = (C\u2082/C\u2081) \u00d7 sin\u03b8\u2082 relates the angle of incidence (\u03b8\u2081) to the angle of refraction (\u03b8\u2082) by taking into account the speed of sound in each medium (C\u2081 and C\u2082). This relationship is fundamental in ultrasound imaging for predicting the bending of the ultrasound beam at interfaces."
-  },
-  {
-    "clasificacion": "Physical Principles",
     "grupo": "177",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How can the attenuation coefficient of sound in soft tissue be expressed?",
     "image": "",
+    "image_explanation": "",
     "opciones": [
-      "Frequency \u00d7 wavelength",
-      "Speed of sound / wavelength",
-      "Frequency / 2",
-      "Intensity / distance"
+        "Frequency × wavelength",
+        "Speed of sound / wavelength",
+        "Frequency / 2",
+        "Intensity / distance"
     ],
     "respuesta_correcta": [
-      "Frequency / 2"
+        "Frequency / 2"
     ],
-    "concept_to_study": "Attenuation Coefficient",
-    "explicacion_openai": "The attenuation coefficient quantifies how much the intensity of an ultrasound wave decreases as it travels through soft tissue. In many practical models, this coefficient is assumed to be proportional to frequency, meaning that higher frequency waves are attenuated more. The expression 'Frequency / 2' is one simplified way to represent this relationship, indicating that for every unit increase in frequency, the attenuation increases proportionally, which is critical for balancing penetration depth and image resolution."
+    "concept_to_study": "Attenuation Coefficient in Soft Tissue",
+    "explicacion_openai": "The attenuation coefficient measures the reduction in intensity of an ultrasound wave as it travels through soft tissue. It is commonly approximated as proportional to frequency, meaning higher frequency waves experience greater attenuation. The relationship 'Frequency / 2' simplifies this concept, showing that for every unit increase in frequency, attenuation increases proportionally. This is essential for balancing depth penetration and image resolution during ultrasound imaging."
   },
   {
     "clasificacion": "Physical Principles",
@@ -16291,22 +16274,23 @@
   },
   {
     "clasificacion": "Physical Principles",
-    "grupo": "223",
-    "tipo_pregunta": "calculo",
-    "enunciado": "An ultrasound pulse takes 78 \u00b5s to travel to a reflector in soft tissue and return to the transducer. Calculate the distance to the reflector.",
+    "grupo": "177",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How can the attenuation coefficient of sound in soft tissue be expressed?",
     "image": "",
+    "image_explanation": "",
     "opciones": [
-      "3 cm",
-      "4.5 cm",
-      "6 cm",
-      "9 cm"
+        "Frequency × wavelength",
+        "Speed of sound / wavelength",
+        "Frequency / 2",
+        "Intensity / distance"
     ],
     "respuesta_correcta": [
-      "6 cm"
+        "Frequency / 2"
     ],
-    "concept_to_study": "Calculate the distance to a reflector",
-    "explicacion_openai": "Step-by-step explanation:\n1. The total round-trip travel time is 78 \u00b5s.\n2. Half of this time (one-way) is 39 \u00b5s.\n3. The speed of sound in soft tissue is approximately 1.54 mm/\u00b5s.\n4. Distance (one-way) = 39 \u00b5s \u00d7 1.54 mm/\u00b5s = 60 mm = 6 cm.\nTherefore, the reflector is located 6 cm from the transducer"
-  },
+    "concept_to_study": "Attenuation Coefficient in Soft Tissue",
+    "explicacion_openai": "The attenuation coefficient measures the reduction in intensity of an ultrasound wave as it travels through soft tissue. It is commonly approximated as proportional to frequency, meaning higher frequency waves experience greater attenuation. The relationship 'Frequency / 2' simplifies this concept, showing that for every unit increase in frequency, attenuation increases proportionally. This is essential for balancing depth penetration and image resolution during ultrasound imaging."
+}
   {
     "clasificacion": "Physical Principles",
     "grupo": "224",
@@ -20896,5 +20880,101 @@
     ],
     "concept_to_study": "Impact of PRF on aliasing",
     "explicacion_openai": "The Nyquist limit defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "109",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What type of wave is sound classified as?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Electromagnetic wave",
+      "Mechanical wave",
+      "Transverse wave",
+      "Electromagnetic field wave"
+    ],
+    "respuesta_correcta": [
+      "Mechanical wave"
+    ],
+    "concept_to_study": "Sound as a mechanical wave",
+    "explicacion_openai": "Sound is classified as a mechanical wave because it requires a medium (solid, liquid, or gas) for propagation. It is created by a vibrating source that causes molecules in the medium to move back and forth, transmitting energy but not physical matter."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "110",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to sound in the absence of a medium?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "It propagates freely",
+      "It becomes slower",
+      "It cannot propagate",
+      "It creates a vacuum wave"
+    ],
+    "respuesta_correcta": [
+      "It cannot propagate"
+    ],
+    "concept_to_study": "Medium necessity for sound propagation",
+    "explicacion_openai": "Sound waves require a medium to propagate because they move through the vibration of molecules. Without a medium, like in a vacuum, sound cannot travel as there are no molecules to carry the wave energy."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "111",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Through which forms of matter can sound propagate?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Solid only",
+      "Liquid only",
+      "Gas only",
+      "Solid, liquid, and gas"
+    ],
+    "respuesta_correcta": [
+      "Solid, liquid, and gas"
+    ],
+    "concept_to_study": "Sound propagation through different states of matter",
+    "explicacion_openai": "Sound can propagate through solid, liquid, and gas as these materials provide the molecules needed for vibration. The tissues in the human body, composed of different forms of matter, enable sound waves to travel during ultrasound imaging."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "112",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the movement of molecules called in a sound wave?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Circular motion",
+      "Back-and-forth motion",
+      "Forward-only motion",
+      "Side-to-side motion"
+    ],
+    "respuesta_correcta": [
+      "Back-and-forth motion"
+    ],
+    "concept_to_study": "Molecule movement in sound waves",
+    "explicacion_openai": "In sound waves, molecules exhibit a back-and-forth motion parallel to the wave's direction of travel. This movement transfers sound energy without moving physical matter from one point to another."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "113",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the orientation of molecule vibration relative to the wave's direction in sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Perpendicular",
+      "Diagonal",
+      "Parallel",
+      "Opposite"
+    ],
+    "respuesta_correcta": [
+      "Parallel"
+    ],
+    "concept_to_study": "Longitudinal nature of sound waves",
+    "explicacion_openai": "Sound waves are longitudinal, meaning the molecules vibrate parallel to the direction of the wave’s travel. This property is key to understanding how sound energy is propagated through different mediums."
   }
+]
 ]
