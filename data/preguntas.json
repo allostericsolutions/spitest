@@ -21070,7 +21070,195 @@
     ],
     "concept_to_study": "Quick mental calculation for sound intensity level",
     "explicacion_openai": "To calculate the sound intensity level in decibels (dB), use the formula 10 × log10(I/I₀), where I is the intensity and I₀ is the reference intensity. Since I = 10⁻⁶ W/m² and I₀ = 10⁻¹² W/m², the ratio is 10⁶. The log10 of 10⁶ is 6, so the calculation simplifies to 10 × 6 = 60 dB. Quick tip: When the intensity is a power of 10 difference from the reference, the result is simply the exponent multiplied by 10 (e.g., 10⁶ → 6 × 10 = 60 dB). No calculator needed!"
-  }
-]
-  
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "119",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is amplitude in the context of sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "The maximum variation of an acoustic variable from its equilibrium value",
+      "The energy transmitted per second",
+      "The distance traveled by a wave in one cycle",
+      "The rate at which sound intensity decreases over distance"
+    ],
+    "respuesta_correcta": [
+      "The maximum variation of an acoustic variable from its equilibrium value"
+    ],
+    "concept_to_study": "Definition of amplitude",
+    "explicacion_openai": "Amplitude measures how much an acoustic variable, such as pressure or density, deviates from its normal or equilibrium state. Essentially, it indicates the strength of a sound wave. For instance, higher amplitudes correspond to louder sounds or stronger wave reflections, which are significant for applications like medical ultrasound where these changes help distinguish tissues and structures."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "120",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which unit is used to measure the pressure amplitude in sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Pascals (Pa)",
+      "Watts (W)",
+      "Joules (J)",
+      "Decibels (dB)"
+    ],
+    "respuesta_correcta": [
+      "Pascals (Pa)"
+    ],
+    "concept_to_study": "Units of amplitude",
+    "explicacion_openai": "Pressure amplitude is measured in Pascals (Pa), a unit that quantifies force per unit area. For example, in sound waves, it represents the variation in air pressure caused by the sound wave as it passes through a medium. The higher the amplitude, the greater the pressure changes, which directly relates to the wave's loudness or intensity."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "121",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How is power defined in relation to sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "The rate at which work is performed or energy is transmitted",
+      "The strength of a sound wave’s amplitude",
+      "The distance traveled by the wave over time",
+      "The number of wave cycles completed per second"
+    ],
+    "respuesta_correcta": [
+      "The rate at which work is performed or energy is transmitted"
+    ],
+    "concept_to_study": "Definition of power",
+    "explicacion_openai": "Power in sound waves is the rate at which the wave transfers energy through a medium. It tells us how much work the sound source is doing to produce the wave. For example, a louder speaker emits sound with higher power, meaning it expends more energy to create the sound waves that spread out into the environment."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "122",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the relationship between amplitude and power in sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Power is proportional to the square of amplitude",
+      "Amplitude is proportional to the square root of power",
+      "Power is inversely proportional to amplitude",
+      "Amplitude and power are unrelated"
+    ],
+    "respuesta_correcta": [
+      "Power is proportional to the square of amplitude"
+    ],
+    "concept_to_study": "Amplitude and power relationship",
+    "explicacion_openai": "Power is directly proportional to the square of amplitude, meaning that small changes in amplitude result in significant changes in power. For instance, doubling the amplitude increases the power by four times. This explains why large amplitude waves have much more energy and can produce stronger effects, such as louder sounds or more intense reflections in ultrasound imaging."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "123",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is intensity in the context of sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "The power of a wave divided by the area it passes through",
+      "The rate of sound wave cycles per second",
+      "The distance traveled by the wave in a single cycle",
+      "The maximum deviation of the acoustic variable from its normal value"
+    ],
+    "respuesta_correcta": [
+      "The power of a wave divided by the area it passes through"
+    ],
+    "concept_to_study": "Definition of intensity",
+    "explicacion_openai": "Intensity measures the concentration of sound power over a specific area. It tells us how much energy is delivered by the wave to a certain spot, such as the surface of a transducer in medical imaging. For example, higher intensity sound waves will deliver more energy and produce stronger echoes for clearer imaging results."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "124",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What unit is used to measure intensity in sound waves?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Watts per square centimeter (W/cm²)",
+      "Pascals (Pa)",
+      "Watts (W)",
+      "Decibels (dB)"
+    ],
+    "respuesta_correcta": [
+      "Watts per square centimeter (W/cm²)"
+    ],
+    "concept_to_study": "Units of intensity",
+    "explicacion_openai": "Intensity is measured in Watts per square centimeter (W/cm²), which represents the amount of sound energy distributed over a specific area. For example, it’s commonly used in ultrasound to describe how much power the transducer is delivering into the tissues being scanned."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "125",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How is intensity related to power?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Intensity is power divided by area",
+      "Power is intensity multiplied by time",
+      "Intensity equals power squared",
+      "Power and intensity are unrelated"
+    ],
+    "respuesta_correcta": [
+      "Intensity is power divided by area"
+    ],
+    "concept_to_study": "Power and intensity relationship",
+    "explicacion_openai": "Intensity is derived by dividing the power of a sound wave by the area it spreads over. For instance, a speaker emitting sound over a larger area will have lower intensity because the same power is distributed more broadly, reducing the energy concentration."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "126",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why is intensity measured per unit area?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "To describe energy concentration",
+      "To measure sound speed",
+      "To identify acoustic resistance",
+      "To measure amplitude"
+    ],
+    "respuesta_correcta": [
+      "To describe energy concentration"
+    ],
+    "concept_to_study": "Intensity and energy concentration",
+    "explicacion_openai": "Intensity is measured per unit area to determine how concentrated the sound energy is at a specific location. This is particularly important in ultrasound imaging, where energy concentration determines the strength and clarity of the echoes captured by the transducer."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "127",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to intensity when the area over which power is distributed increases?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+      "Intensity decreases",
+      "Intensity increases",
+      "Intensity stays the same",
+      "Power increases"
+    ],
+    "respuesta_correcta": [
+      "Intensity decreases"
+    ],
+    "concept_to_study": "Relationship between area and intensity",
+    "explicacion_openai": "When the area increases, intensity decreases because the same power is distributed over a larger surface. This results in a lower concentration of energy at any given point, which can affect the strength of echoes in imaging applications."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "128",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does amplitude affect the energy of a sound wave?",
+    "image": "",
+    "image_explanation": "",
+    "opciones": [
+        "Higher amplitude increases the energy of the wave",
+        "Lower amplitude increases the energy of the wave",
+        "Amplitude has no effect on energy",
+        "Amplitude only affects wave speed"
+    ],
+    "respuesta_correcta": [
+        "Higher amplitude increases the energy of the wave"
+    ],
+    "concept_to_study": "Amplitude and energy relationship",
+    "explicacion_openai": "Amplitude is directly related to the energy carried by a sound wave. A wave with higher amplitude transmits greater energy because the maximum variation in the acoustic variable (such as pressure or particle displacement) is larger. For example, in medical ultrasound, increasing amplitude enhances the energy of sound waves, which can improve the strength of echoes and visibility of deeper structures, but also requires balancing to avoid harming tissues."
+}
 ]
