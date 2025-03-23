@@ -14,7 +14,7 @@
     "respuesta_correcta": [
       "Inversely proportional"
     ],
-    "concept_to_study": "In ultrasound physics, frequency and wavelength have an inverse relationship (c = f \u00d7 \u03bb).",
+    "concept_to_study": "In ultrasound physics, frequency and wavelength have an inverse relationship.",
     "explicacion_openai": "When frequency increases, wavelength decreases, assuming a constant speed of sound in tissue."
   },
   {
