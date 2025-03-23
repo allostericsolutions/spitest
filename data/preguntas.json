@@ -320,7 +320,7 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "Wavelength depends on the source's frequency and the medium\u2019s speed of sound.",
+    "concept_to_study": "Wavelength depends on the source's frequency and the medium´s speed of sound.",
     "explicacion_openai": "Frequency is set by the transducer, while speed is inherent to the medium. Wavelength follows from both."
   },
   {
@@ -393,7 +393,7 @@
       "Medium properties"
     ],
     "concept_to_study": "Sound speed is mainly determined by the stiffness and density of the medium.",
-    "explicacion_openai": "Neither frequency nor amplitude changes speed; it is governed by the medium\u2019s physical characteristics."
+    "explicacion_openai": "Neither frequency nor amplitude changes speed; it is governed by the medium´s physical characteristics."
   },
   {
     "clasificacion": "Physical Principles",
@@ -2685,7 +2685,7 @@
     "clasificacion": "Ultrasound Transducers",
     "grupo": "22",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is Snell\u2019s law used to describe?",
+    "enunciado": "What is Snell´s law used to describe?",
     "image": "",
     "opciones": [
       "The angle of refraction",
@@ -5433,7 +5433,7 @@
       "It can degrade the adhesive between parts"
     ],
     "concept_to_study": "Alcohol Effects",
-    "explicacion_openai": "Alcohol should be used sparingly on transducers because it can degrade the adhesive materials that bond the various components of the transducer, including the piezoelectric crystals and matching layers. Excessive exposure to alcohol may compromise the structural integrity of the probe and impair its acoustic performance, leading to potential imaging artifacts or failure of the transducer. Therefore, minimal use of alcohol is recommended, following the manufacturer\u2019s instructions for cleaning."
+    "explicacion_openai": "Alcohol should be used sparingly on transducers because it can degrade the adhesive materials that bond the various components of the transducer, including the piezoelectric crystals and matching layers. Excessive exposure to alcohol may compromise the structural integrity of the probe and impair its acoustic performance, leading to potential imaging artifacts or failure of the transducer. Therefore, minimal use of alcohol is recommended, following the manufacturer´s instructions for cleaning."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5559,7 +5559,7 @@
       "The housing and seals"
     ],
     "concept_to_study": "Housing and Seals",
-    "explicacion_openai": "Regular inspection of the transducer\u2019s housing and seals is essential because they safeguard the internal components from moisture, dust, and physical impact. Any crack or deterioration in these protective parts can lead to device malfunction and compromise patient safety. Consistent checks ensure that the transducer remains well-protected and functions reliably over time."
+    "explicacion_openai": "Regular inspection of the transducer´s housing and seals is essential because they safeguard the internal components from moisture, dust, and physical impact. Any crack or deterioration in these protective parts can lead to device malfunction and compromise patient safety. Consistent checks ensure that the transducer remains well-protected and functions reliably over time."
   },
   {
     "clasificacion": "Ultrasound Transducers",
@@ -5667,7 +5667,7 @@
       "Speed of sound artifact"
     ],
     "concept_to_study": "The speed of sound artifact",
-    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system\u2019s assumption of a constant speed of sound (typically 1540 m/s) does not match the actual speed in different tissues. This mismatch causes the calculated distances to reflectors to be inaccurate, leading to structures appearing at incorrect depths. Recognizing and adjusting for this artifact is crucial for accurate diagnosis and precise imaging."
+    "explicacion_openai": "The speed of sound artifact occurs when the ultrasound system´s assumption of a constant speed of sound (typically 1540 m/s) does not match the actual speed in different tissues. This mismatch causes the calculated distances to reflectors to be inaccurate, leading to structures appearing at incorrect depths. Recognizing and adjusting for this artifact is crucial for accurate diagnosis and precise imaging."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -5739,7 +5739,7 @@
       "Axial resolution"
     ],
     "concept_to_study": "Axial Resolution and SPL",
-    "explicacion_openai": "Axial resolution is primarily related to the spatial pulse length. The shorter the spatial pulse length, the better the axial resolution, because it reduces the minimum distance necessary to distinguish two reflectors located along the beam\u2019s path"
+    "explicacion_openai": "Axial resolution is primarily related to the spatial pulse length. The shorter the spatial pulse length, the better the axial resolution, because it reduces the minimum distance necessary to distinguish two reflectors located along the beam´s path"
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -7071,7 +7071,7 @@
       "Regular software updates"
     ],
     "concept_to_study": "Preventive Maintenance",
-    "explicacion_openai": "Regular software updates are a critical preventive measure for ensuring that ultrasound equipment functions optimally. These updates help address system bugs, enhance functionality, and improve security, all of which are vital for maintaining reliable performance. By keeping the ultrasound system\u2019s software current, operators can minimize unexpected errors and extend the device\u2019s operational lifespan, contributing to overall quality assurance."
+    "explicacion_openai": "Regular software updates are a critical preventive measure for ensuring that ultrasound equipment functions optimally. These updates help address system bugs, enhance functionality, and improve security, all of which are vital for maintaining reliable performance. By keeping the ultrasound system´s software current, operators can minimize unexpected errors and extend the device´s operational lifespan, contributing to overall quality assurance."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7143,7 +7143,7 @@
       "Doppler flow phantom"
     ],
     "concept_to_study": "Doppler Flow Phantom",
-    "explicacion_openai": "A Doppler flow phantom is specifically designed to simulate vascular flow conditions, making it an essential tool for evaluating the performance of Doppler ultrasound systems. It replicates various flow velocities and patterns encountered in clinical settings, allowing for precise calibration of the system\u2019s ability to measure blood flow. This ensures that Doppler imaging yields accurate and reliable information for diagnosing vascular pathologies."
+    "explicacion_openai": "A Doppler flow phantom is specifically designed to simulate vascular flow conditions, making it an essential tool for evaluating the performance of Doppler ultrasound systems. It replicates various flow velocities and patterns encountered in clinical settings, allowing for precise calibration of the system´s ability to measure blood flow. This ensures that Doppler imaging yields accurate and reliable information for diagnosing vascular pathologies."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7539,7 +7539,7 @@
       "Slice-thickness phantom"
     ],
     "concept_to_study": "Slice Thickness",
-    "explicacion_openai": "Slice-thickness phantoms are dedicated tools used to measure the vertical extent (slice thickness) of the ultrasound beam. They contain targets with known dimensions that allow technicians to determine if the system\u2019s slice captures the correct volume. This verification is essential because an accurate slice thickness minimizes partial volume effects and ensures that the image faithfully represents the tissue structures in a clinical setting."
+    "explicacion_openai": "Slice-thickness phantoms are dedicated tools used to measure the vertical extent (slice thickness) of the ultrasound beam. They contain targets with known dimensions that allow technicians to determine if the system´s slice captures the correct volume. This verification is essential because an accurate slice thickness minimizes partial volume effects and ensures that the image faithfully represents the tissue structures in a clinical setting."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7557,7 +7557,7 @@
       "To evaluate spatial resolution"
     ],
     "concept_to_study": "Spatial Resolution",
-    "explicacion_openai": "Resolution phantoms are designed with fine, precise structures \u2013 such as line pairs or point targets \u2013 to challenge an ultrasound system\u2019s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished."
+    "explicacion_openai": "Resolution phantoms are designed with fine, precise structures \u2013 such as line pairs or point targets \u2013 to challenge an ultrasound system´s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7575,7 +7575,7 @@
       "Doppler phantom"
     ],
     "concept_to_study": "Doppler Evaluation",
-    "explicacion_openai": "A Doppler phantom replicates blood flow dynamics under controlled conditions, allowing for the precise assessment of Doppler measurements. By simulating a range of flow velocities and patterns, it enables the calibration of an ultrasound system\u2019s Doppler functionality, ensuring accurate detection and quantification of blood flow in clinical examinations."
+    "explicacion_openai": "A Doppler phantom replicates blood flow dynamics under controlled conditions, allowing for the precise assessment of Doppler measurements. By simulating a range of flow velocities and patterns, it enables the calibration of an ultrasound system´s Doppler functionality, ensuring accurate detection and quantification of blood flow in clinical examinations."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7701,7 +7701,7 @@
       "ACR"
     ],
     "concept_to_study": "Radiology Accreditation",
-    "explicacion_openai": "The American College of Radiology (ACR) is the organization tasked with accrediting radiology practices, including those involving ultrasound. The ACR\u2019s accreditation process involves a rigorous review of imaging quality, safety protocols, and technical performance, ensuring that radiology departments meet the highest standards in diagnostic imaging."
+    "explicacion_openai": "The American College of Radiology (ACR) is the organization tasked with accrediting radiology practices, including those involving ultrasound. The ACR´s accreditation process involves a rigorous review of imaging quality, safety protocols, and technical performance, ensuring that radiology departments meet the highest standards in diagnostic imaging."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -7998,7 +7998,7 @@
     "enunciado": "When verifying patient identity, which information should sonographers check on the wristband?",
     "image": "",
     "opciones": [
-      "Patient\u2019s race",
+      "Patient´s race",
       "Medical record number",
       "Date of registration",
       "Birth place"
@@ -8271,13 +8271,13 @@
       "Hospital-acquired infection",
       "Infection caused by not washing your hands",
       "A nasal infection spread by sneezing",
-      "An airborne disease found in infected persons\u2019 lungs that is spread by coughing"
+      "An airborne disease found in infected persons´ lungs that is spread by coughing"
     ],
     "respuesta_correcta": [
       "Hospital-acquired infection"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Hospital-acquired infection",
+    "explicacion_openai": "A hospital-acquired infection, also known as a nosocomial infection, is an infection that a patient develops while receiving treatment for medical or surgical conditions in a healthcare facility. These infections can occur in various settings, such as hospitals, nursing homes, or outpatient clinics, and are often caused by bacteria,viruses, or fungi that are present in the healthcare environment. They can arise from various sources, including surgical procedures, invasive devices (like catheters), or the transfer of pathogens from healthcare workers or other patients. Understanding this concept is crucial for infection control and prevention in healthcare settings."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8294,8 +8294,8 @@
     "respuesta_correcta": [
       "Iodinated contrast agents"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Anaphylactic shock from contrast agents",
+    "explicacion_openai": "Anaphylactic shock is a severe, life-threatening allergic reaction triggered by exposure to specific allergens. In the context of medical imaging, iodinated contrast agents are known to cause anaphylactic reactions in susceptible individuals due to their allergenic potential. These agents are used to enhance the visibility of structures in imaging techniques like X-rays or CT scans, but they can provoke hypersensitivity responses, including hives, respiratory distress, and vascular collapse. Proper patient assessment and preparation, such as identifying allergies or premedicating with antihistamines, are critical in preventing anaphylaxis during diagnostic procedures. Recognizing and addressing this risk is key to ensuring patient safety and maintaining high-quality care in clinical settings."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8312,8 +8312,8 @@
     "respuesta_correcta": [
       "Urinary tract infections"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Nosocomial infections and urinary tract infections",
+    "explicacion_openai": "Urinary tract infections (UTIs) are among the most common nosocomial infections—infections acquired in healthcare settings such as hospitals. They are frequently associated with the use of urinary catheters, which can introduce bacteria into the urinary tract, leading to infection. UTIs are preventable through proper catheter insertion techniques, regular monitoring, and minimizing catheter use whenever possible."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8330,8 +8330,8 @@
     "respuesta_correcta": [
       "Reservoir"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Reservoir in infection control",
+    "explicacion_openai": "A reservoir is the environment where an infectious agent can live, grow, and thrive before causing an infection in a host. Reservoirs can include living organisms, such as humans, animals, or even non-living sources like water, soil, or medical equipment. They provide the conditions necessary for the agent’s survival, such as moisture, nutrients, and the proper temperature. Identifying and controlling reservoirs is crucial in preventing the spread of infectious diseases, as they represent the primary source of the pathogen's growth and initial survival."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8348,8 +8348,8 @@
     "respuesta_correcta": [
       "Hepatitis B"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Hepatitis B transmission in healthcare settings",
+    "explicacion_openai": "Hepatitis B is a virus commonly transmitted in healthcare settings, primarily through exposure to infected blood or body fluids. This can occur via needlestick injuries, improper handling of sharps, or contact with contaminated surfaces. Healthcare workers are particularly at risk, which is why vaccinations against Hepatitis B and adherence to standard precautions, such as wearing gloves and following sterilization protocols, are essential to minimize the risk of transmission. Proper safety practices are vital in protecting both patients and healthcare personnel."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8366,8 +8366,8 @@
     "respuesta_correcta": [
       "Needles"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Transmission barriers for pathogen spread",
+    "explicacion_openai": "Transmission barriers are strategies or tools used to prevent the spread of pathogens in healthcare settings. Examples include gloves, which protect against direct contact with infectious agents; hand washing, which reduces the risk of microbial contamination; and sterilization, which eliminates pathogens on medical equipment. In contrast, needles are not a barrier but can actually act as a vehicle for pathogen transmission if not handled and disposed of properly. Preventing the spread of infections requires consistent use of these barriers and strict adherence to hygiene protocols."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8384,8 +8384,8 @@
     "respuesta_correcta": [
       "Sweat"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Control infection/universal precautions and their limitations",
+    "explicacion_openai": "Universal precautions are infection control measures designed to prevent the transmission of pathogens through blood and body fluids. They apply to all body fluids except sweat, as it is not considered a source of infection. These precautions include the use of gloves, masks, and protective clothing when handling blood, non-intact skin, or other potentially infectious materials like pleural fluid."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8394,7 +8394,7 @@
     "enunciado": "When viewing sonographic images outside the clinical setting, which information must remain visible?",
     "image": "",
     "opciones": [
-      "Patient\u2019s name",
+      "Name of the patient",
       "Facility",
       "Date",
       "Image orientation"
@@ -8402,8 +8402,8 @@
     "respuesta_correcta": [
       "Image orientation"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Image orientation in sonographic images outside the clinical setting",
+    "explicacion_openai": "When viewing sonographic images outside the clinical setting, image orientation must remain visible to ensure the accurate interpretation of the anatomical structures being examined. Orientation markers, such as indicators for "superior," "inferior," "anterior," or "posterior," provide crucial context for understanding the spatial relationship within the image. This information allows healthcare providers to accurately diagnose and monitor conditions, as misinterpretation due to missing orientation data could lead to errors in patient care. Maintaining these markers is essential for ensuring clinical precision and quality assurance, even in external or educational settings."
   },
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8456,8 +8456,8 @@
     "respuesta_correcta": [
       "Stiffness"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Stiffness and its impact on sound propagation in ultrasound",
+    "explicacion_openai": "Stiffness refers to a material's ability to resist compression and is directly related to the propagation speed of sound waves—the stiffer the medium, the faster sound travels. Conversely, density, which represents the amount of mass in a material, is inversely related to sound speed; higher density results in slower propagation. For example, compact bone, which is very stiff but less dense, allows faster sound travel compared to lead, which is denser but more flexible. Stiffness may also be referred to as elasticity or bulk modulus in SPI ARDMS materials, making it essential to understand its direct relationship with sound propagation in diagnostic imaging."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8474,8 +8474,8 @@
     "respuesta_correcta": [
       "An increased Duty Factor (DF)"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Pulse Repetition Frequency (PRF) and Duty Factor (DF)",
+    "explicacion_openai": "The Duty Factor (DF) is the percentage of time that the ultrasound system is actively transmitting sound waves, and it has no specific unit as it is expressed as a percentage. It is calculated as the ratio of Pulse Duration (PD) (the time the pulse is "on") to Pulse Repetition Period (PRP) (the total time of a pulse cycle, including "on" and "off" phases). In pulsed-wave ultrasound, where sound is transmitted in short bursts, the Duty Factor is typically less than 1%, as the system spends most of its time "listening." In contrast, continuous-wave (CW) ultrasound has a Duty Factor of 100%, as sound waves are emitted constantly. For example, pulsed ultrasound is like clapping once every 10 seconds, with most of the time spent resting, while CW ultrasound is like clapping nonstop without pauses."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8492,8 +8492,8 @@
     "respuesta_correcta": [
       "Bone"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Propagation speed in different substances",
+    "explicacion_openai": "The material with the highest propagation speed for sound waves is bone, due to its significant stiffness. In ultrasound physics, propagation speed is influenced by stiffness (directly related to speed) and density (inversely related). Bone is much stiffer than other common substances like air, water, or soft tissue, which allows sound waves to travel much faster through it. For example, sound travels extremely slowly in air because it has low stiffness and density, whereas water and soft tissue offer moderate speeds due to balanced properties. This relationship highlights why different tissues and materials produce varying ultrasound imaging characteristics."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8510,8 +8510,8 @@
     "respuesta_correcta": [
       "Lung tissue"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Propagation speed in lung tissue",
+    "explicacion_openai": "Lung tissue has the lowest propagation speed compared to other structures in the human body commonly studied in medical ultrasound, such as soft tissue, blood, or bone. This is due to its high air content and lack of stiffness, which significantly slow the transmission of sound waves. Propagation speed depends on stiffness (directly proportional) and density (inversely proportional). For example, soft tissue, which has balanced stiffness and density, allows faster sound wave travel than lungs, while bone, being extremely stiff, permits the fastest propagation. This distinction is crucial in ultrasound imaging, as it explains why lung regions often present challenges due to the poor transmission of sound waves through air-filled structures."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8528,8 +8528,8 @@
     "respuesta_correcta": [
       "Decrease"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Relationship between imaging depth and Pulse Repetition Frequency (PRF)",
+    "explicacion_openai": "When imaging depth increases, the Pulse Repetition Frequency (PRF) must decrease. This is because deeper imaging requires more time for sound waves to travel to the target and return to the transducer. PRF represents how frequently pulses are emitted per second, and its reduction ensures that sufficient time is available for echoes to return from greater depths before the next pulse is emitted. For students, imagine trying to send a message to someone far away—if the distance increases, you'd need to wait longer for their reply before sending another message. This adjustment is critical to avoid overlapping signals and ensure accurate depth measurement in ultrasound imaging. Understanding the inverse relationship between imaging depth and PRF is essential for managing settings effectively during diagnostic procedures."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8538,16 +8538,16 @@
     "enunciado": "Which law describes the amount of refraction occurring at an interface?",
     "image": "",
     "opciones": [
-      "Snell\u2019s law",
+      "Snell´s law",
       "Law of reflection",
-      "Poiseuille\u2019s law",
-      "Bernoulli\u2019s law"
+      "Poiseuille´s law",
+      "Bernoulli´s law"
     ],
     "respuesta_correcta": [
-      "Snell\u2019s law"
+      "Snell´s law"
     ],
-    "concept_to_study": "",
-    "explicacion_openai": ""
+    "concept_to_study": "Snell's Law and refraction",
+    "explicacion_openai": "Snell's Law describes how sound waves bend, or refract, when they cross an interface between two materials with different properties, such as stiffness or density. This bending occurs because the speed of sound changes as it enters the new material. For example, when sound transitions from soft tissue to bone, it bends due to the difference in propagation speeds. However, if there is no change in material properties at the interface, the sound wave continues straight without bending, as the speed remains constant. This lack of refraction ensures accurate transmission and imaging, highlighting how homogeneous tissues impact ultrasound signal behavior. Understanding this principle helps identify refraction artifacts and ensures accurate interpretation of images."
   },
   {
     "clasificacion": "Physical Principles",
@@ -8719,7 +8719,7 @@
     "image": "",
     "opciones": [
       "Refraction",
-      "Huygen\u2019s principle",
+      "Huygen´s principle",
       "Elevational resolution",
       "Attenuation"
     ],
@@ -10707,7 +10707,7 @@
       "Mirror image artifact"
     ],
     "concept_to_study": "Mirror Image Artifact",
-    "explicacion_openai": "A mirror image artifact occurs when the ultrasound beam reflects off a strong reflector and is subsequently re-reflected in such a way that the system misplaces the echo in a symmetrical location across the reflector\u2019s axis. This false duplication of structures can lead to misinterpretation if not recognized, as the artifact appears as an extra, yet weakly represented, image of the actual structure."
+    "explicacion_openai": "A mirror image artifact occurs when the ultrasound beam reflects off a strong reflector and is subsequently re-reflected in such a way that the system misplaces the echo in a symmetrical location across the reflector´s axis. This false duplication of structures can lead to misinterpretation if not recognized, as the artifact appears as an extra, yet weakly represented, image of the actual structure."
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -10843,7 +10843,7 @@
     "image": "",
     "opciones": [
       "The fundamental frequency is filtered out",
-      "The fundamental beam\u2019s frequency is increased",
+      "The fundamental beam´s frequency is increased",
       "The harmonic signal is filtered out",
       "There are more artifacts"
     ],
@@ -11343,7 +11343,7 @@
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "44",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which represents Ohm\u2019s law?",
+    "enunciado": "Which represents Ohm´s law?",
     "image": "",
     "opciones": [
       "V = IR",
@@ -14763,7 +14763,7 @@
     "clasificacion": "Physical Principles",
     "grupo": "194",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "At an oblique incidence, if medium 1\u2019s speed is greater than medium 2\u2019s, the transmission angle will be:",
+    "enunciado": "At an oblique incidence, if medium 1´s speed is greater than medium 2´s, the transmission angle will be:",
     "image": "",
     "opciones": [
       "Equal to the angle of incidence",
@@ -14889,7 +14889,7 @@
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "107",
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which factor would increase a patient\u2019s acoustic exposure?",
+    "enunciado": "Which factor would increase a patient´s acoustic exposure?",
     "image": "",
     "opciones": [
       "Decreasing frequency",
