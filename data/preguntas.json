@@ -10860,7 +10860,7 @@
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "161",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A sound wave travels for 26 \u00b5s to reach a reflector. How distant is the reflector, assuming the medium is soft tissue?",
+        "enunciado": "A sound wave travels for 26 µs to reach a reflector. How distant is the reflector, assuming the medium is soft tissue",
         "image": "",
         "opciones": [
             "0.5 cm",
@@ -10872,7 +10872,7 @@
             "2.0 cm"
         ],
         "concept_to_study": "Distance Measurement",
-        "explicacion_openai": "The distance to a reflector in ultrasound imaging is calculated using the travel time of the sound wave and the speed of sound in the medium. For soft tissue, this speed is typically 1540 m/s. Given a round-trip travel time of 26 \u00b5s, the one-way travel time is approximately 13 \u00b5s. Multiplying this by the speed of sound and converting the units appropriately results in an estimated distance of about 2.0 cm."
+        "explicacion_openai": "The distance to a reflector in ultrasound imaging is calculated using the travel time of the sound wave and the speed of sound in the medium. For soft tissue, this speed is typically 1540 m/s. Given a round-trip travel time of 26 µs, the one-way travel time is approximately 13 µs. Multiplying the one-way time by the speed of sound (1540 m/s × 13 × 10⁻⁶ s) results in an estimated distance of about 2.0 cm."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -10899,13 +10899,13 @@
         "enunciado": "If a reflector is 20 mm away from the transducer, how long does sound take to travel to the reflector and return?",
         "image": "",
         "opciones": [
-            "13 \u00b5s",
-            "20 \u00b5s",
-            "26 \u00b5s",
-            "39 \u00b5s"
+            "13 µs",
+            "20 µs",
+            "26 µs",
+            "39 µs"
         ],
         "respuesta_correcta": [
-            "26 \u00b5s"
+            "26 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -13434,7 +13434,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "158",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/\u00b5s using a 5.0 MHz transducer.",
+        "enunciado": "Calculate the wavelength in a material with a propagation speed of 1.5 mm/µs using a 5.0 MHz transducer.",
         "image": "",
         "opciones": [
             "0.3 mm",
@@ -13446,7 +13446,7 @@
             "0.3 mm"
         ],
         "concept_to_study": "Wavelength Calculation",
-        "explicacion_openai": "To calculate the wavelength (\u03bb) in ultrasound imaging, the equation \u03bb = c/f is used, where c is the speed of sound in the medium and f is the frequency of the transducer. Here, c = 1.5 mm/\u00b5s and f = 5.0 MHz. Dividing the speed by the frequency gives \u03bb = 0.3 mm. This calculation illustrates the inverse relationship between frequency and wavelength."
+        "explicacion_openai": "To calculate the wavelength in ultrasound imaging, we use the formula: wavelength = speed of sound / frequency. In this scenario, the speed of sound is given as 1.5 mm per microsecond and the transducer frequency is 5.0 MHz. Dividing 1.5 by 5.0 gives a wavelength of 0.3 mm. This calculation demonstrates that, with a constant speed of sound, an increase in frequency results in a shorter wavelength."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -16081,7 +16081,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "212",
         "tipo_pregunta": "calculo",
-        "enunciado": "An ultrasound pulse takes 26 \u00b5s to travel to and from a reflector in soft tissue. What is the depth of the reflector?",
+        "enunciado": "An ultrasound pulse takes 26 µs to travel to and from a reflector in soft tissue. What is the depth of the reflector?",
         "image": "",
         "opciones": [
             "1 cm",
@@ -16099,7 +16099,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "213",
         "tipo_pregunta": "calculo",
-        "enunciado": "If the time of flight (round trip) of an ultrasound pulse in soft tissue is 52 \u00b5s, what is the distance from the transducer to the reflector?",
+        "enunciado": "If the time of flight (round trip) of an ultrasound pulse in soft tissue is 52 µs, what is the distance from the transducer to the reflector?",
         "image": "",
         "opciones": [
             "2 cm",
@@ -16120,13 +16120,13 @@
         "enunciado": "A reflector is located 3 cm deep in soft tissue. What is the round-trip time of flight of the ultrasound pulse?",
         "image": "",
         "opciones": [
-            "19 \u00b5s",
-            "39 \u00b5s",
-            "58 \u00b5s",
-            "78 \u00b5s"
+            "19 µs",
+            "39 µs",
+            "58 µs",
+            "78 µs"
         ],
         "respuesta_correcta": [
-            "39 \u00b5s"
+            "39 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -16138,13 +16138,13 @@
         "enunciado": "A reflector is located 5 cm deep. What will be the total (round-trip) time of flight of the pulse in soft tissue?",
         "image": "",
         "opciones": [
-            "32 \u00b5s",
-            "65 \u00b5s",
-            "97 \u00b5s",
-            "130 \u00b5s"
+            "32 µs",
+            "65 µs",
+            "97 µs",
+            "130 µs"
         ],
         "respuesta_correcta": [
-            "65 \u00b5s"
+            "65 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -16153,7 +16153,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "216",
         "tipo_pregunta": "calculo",
-        "enunciado": "If the time of flight (round trip) is 13 \u00b5s in soft tissue, what is the distance to the reflector?",
+        "enunciado": "If the time of flight (round trip) is 13 µs in soft tissue, what is the distance to the reflector?",
         "image": "",
         "opciones": [
             "0.5 cm",
@@ -16171,7 +16171,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "217",
         "tipo_pregunta": "calculo",
-        "enunciado": "In soft tissue, an ultrasound pulse travels to a reflector and back in 6.5 \u00b5s. How far is the reflector?",
+        "enunciado": "In soft tissue, an ultrasound pulse travels to a reflector and back in 6.5 µs. How far is the reflector?",
         "image": "",
         "opciones": [
             "0.25 cm",
@@ -16192,13 +16192,13 @@
         "enunciado": "A reflector is located 10 cm deep in soft tissue. How long will it take for the ultrasound pulse to return to the transducer (total time of flight)?",
         "image": "",
         "opciones": [
-            "65 \u00b5s",
-            "130 \u00b5s",
-            "195 \u00b5s",
-            "260 \u00b5s"
+            "65 µs",
+            "130 µs",
+            "195 µs",
+            "260 µs"
         ],
         "respuesta_correcta": [
-            "130 \u00b5s"
+            "130 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -16207,7 +16207,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "219",
         "tipo_pregunta": "calculo",
-        "enunciado": "If the round-trip time of flight of an ultrasound pulse is 91 \u00b5s in soft tissue, what is the distance to the reflecting structure?",
+        "enunciado": "If the round-trip time of flight of an ultrasound pulse is 91 µs in soft tissue, what is the distance to the reflecting structure?",
         "image": "",
         "opciones": [
             "4.5 cm",
@@ -16228,13 +16228,13 @@
         "enunciado": "An ultrasound pulse is sent through soft tissue. If the reflector is 1.5 cm deep, what is the time of flight (round trip)?",
         "image": "",
         "opciones": [
-            "10 \u00b5s",
-            "19 \u00b5s",
-            "29 \u00b5s",
-            "39 \u00b5s"
+            "10 µs",
+            "19 µs",
+            "29 µs",
+            "39 µs"
         ],
         "respuesta_correcta": [
-            "19 \u00b5s"
+            "19 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -16243,7 +16243,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "221",
         "tipo_pregunta": "calculo",
-        "enunciado": "The time of flight (round trip) of an ultrasound pulse in soft tissue is 104 \u00b5s. What is the depth of the reflector?",
+        "enunciado": "The time of flight (round trip) of an ultrasound pulse in soft tissue is 104 µs. What is the depth of the reflector?",
         "image": "",
         "opciones": [
             "4 cm",
@@ -16264,13 +16264,13 @@
         "enunciado": "A reflector in soft tissue is located 8.5 cm from the transducer. What is the total time of flight of the ultrasound pulse?",
         "image": "",
         "opciones": [
-            "55 \u00b5s",
-            "110 \u00b5s",
-            "165 \u00b5s",
-            "220 \u00b5s"
+            "55 µs",
+            "110 µs",
+            "165 µs",
+            "220 µs"
         ],
         "respuesta_correcta": [
-            "110 \u00b5s"
+            "110 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -16301,13 +16301,13 @@
         "enunciado": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
         "image": "",
         "opciones": [
-            "16 \u00b5s",
-            "32 \u00b5s",
-            "48 \u00b5s",
-            "64 \u00b5s"
+            "16 µs",
+            "32 µs",
+            "48 µs",
+            "64 µs"
         ],
         "respuesta_correcta": [
-            "32 \u00b5s"
+            "32 µs"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
@@ -20756,7 +20756,7 @@
             "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
         ],
         "concept_to_study": "Nyquist limit and Doppler shift relationship",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 4 kHz. Since the Doppler shift is 3 kHz, it does not exceed the Nyquist limit, so aliasing will not occur."
+        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 4 kHz. Since the Doppler shift is 3 kHz, it does not exceed the Nyquist limit, so aliasing will not occur."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20774,7 +20774,7 @@
             "No, aliasing will not occur because the Doppler shift matches the Nyquist limit."
         ],
         "concept_to_study": "Nyquist limit threshold",
-        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 5 kHz. Since the Doppler shift matches the Nyquist limit, aliasing does not occur, but it is close to the threshold. The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 5 kHz. Since the Doppler shift matches the Nyquist limit, aliasing does not occur, but it is close to the threshold. The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20792,7 +20792,7 @@
             "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
         ],
         "concept_to_study": "Impact of low PRF on aliasing",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**, which in this case is 2 kHz. Since the Doppler shift is 6 kHz, it greatly exceeds the Nyquist limit, causing aliasing."
+        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**, which in this case is 2 kHz. Since the Doppler shift is 6 kHz, it greatly exceeds the Nyquist limit, causing aliasing."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20810,7 +20810,7 @@
             "6 kHz"
         ],
         "concept_to_study": "Definition of Nyquist limit",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**. In this case, the PRF is 12 kHz, so the Nyquist limit is 6 kHz."
+        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur.**. In this case, the PRF is 12 kHz, so the Nyquist limit is 6 kHz."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20828,7 +20828,7 @@
             "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
         ],
         "concept_to_study": "Doppler shift below Nyquist limit",
-        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 2 kHz, it does not exceed the limit, and no aliasing occurs.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+        "explicacion_openai": "The Nyquist limit is half the PRF, which in this case is 3 kHz. Since the Doppler shift is 2 kHz, it does not exceed the limit, and no aliasing occurs.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20846,7 +20846,7 @@
             "Increase the PRF"
         ],
         "concept_to_study": "Preventing aliasing",
-        "explicacion_openai": "Increasing the PRF raises the Nyquist limit, allowing higher Doppler shifts to be measured without aliasing.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+        "explicacion_openai": "Increasing the PRF raises the Nyquist limit, allowing higher Doppler shifts to be measured without aliasing.The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20864,7 +20864,7 @@
             "No, aliasing will not occur because the Doppler shift is below the Nyquist limit."
         ],
         "concept_to_study": "Impact of high PRF on aliasing",
-        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 7.5 kHz. Since the Doppler shift is 7 kHz, it remains within the Nyquist limit, avoiding aliasing."
+        "explicacion_openai": "The **Nyquist limit** is a fundamental concept in signal processing that defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift () exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce . By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. **As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur, which in this case is 7.5 kHz. Since the Doppler shift is 7 kHz, it remains within the Nyquist limit, avoiding aliasing."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20882,7 +20882,7 @@
             "Yes, aliasing will occur because the Doppler shift exceeds the Nyquist limit."
         ],
         "concept_to_study": "Impact of PRF on aliasing",
-        "explicacion_openai": "The Nyquist limit defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction of the signal and prevent aliasing. The Nyquist limit is calculated as Nyquist Limit = PRF / 2. For example, if the PRF is 5 kHz, the Nyquist limit becomes 5 / 2 = 2.5 kHz. This means frequencies up to 2.5 kHz can be measured accurately, but if the Doppler shift (f_D) exceeds 2.5 kHz, aliasing will occur, distorting the measurement. To avoid aliasing in such cases, the PRF must be increased, or the transducer frequency could be lowered to reduce f_D. By adhering to the Nyquist limit, Doppler ultrasound systems ensure reliable frequency measurements and accurate representation of blood flow velocities. As a practical tip, if you are given a Doppler shift value, make sure the PRF is at least double that value; otherwise, aliasing will occur."
+        "explicacion_openai": "The Nyquist limit defines the maximum frequency that can be accurately measured or represented without introducing errors such as aliasing. It states that the sampling frequency (also known as pulse repetition frequency or PRF in Doppler ultrasound) must be at least twice the frequency of the signal being measured to ensure accurate reconstruction and to prevent aliasing. The Nyquist limit is calculated as PRF / 2, meaning that if the PRF is 5 kHz, frequencies up to 2.5 kHz can be accurately measured. If the frequency shift due to blood flow exceeds this limit, aliasing occurs, and the measurement becomes distorted. To avoid this, either the PRF should be increased or the transducer frequency should be lowered to ensure reliable and accurate frequency measurements."
     },
     {
         "clasificacion": "Physical Principles",
