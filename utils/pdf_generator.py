@@ -102,7 +102,7 @@ def generate_pdf(user_data, score, status, photo_path=None):
     pdf.add_page()
 
     # --- Logo SOLO en la primera página ---
-    logo_path = os.path.join("assets", "images", "AllostericSolutions.png")  # <-- CAMBIO AQUÍ
+    logo_path = os.path.join("assets", "images", "medgoal.png")  # <-- CAMBIO AQUÍ
     print(f"Intentando cargar logo desde: {logo_path}")
     if os.path.exists(logo_path):
         print(f"¡El logo existe en {logo_path}!")
