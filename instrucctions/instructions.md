@@ -20,7 +20,8 @@
 3. Navegación de Preguntas  
    - Selecciona tu respuesta entre las opciones mostradas.  
    - Usa los botones “Previous” y “Next” para moverte entre preguntas.  
-   - Si dudas de alguna pregunta, puedes marcarla (Mark for review) para revisar después.
+   - Si dudas de alguna pregunta, puedes marcarla (Mark for review) para revisar después, puedes ver las preguntas marcadas para revisión en la pestaña lateral izquierda que 
+   - se abre si haces click en la cabeza de flecha que está en la esquina superior izquierda. 
 
 4. Tiempo Límite  
    - La experiencia de examen real incluye un minuto por respuesta, como encontrarás en el examen real que se presenta en los centros de examinación.
