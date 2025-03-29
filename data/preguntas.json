@@ -9831,94 +9831,94 @@
         "explicacion_openai": ""
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "210",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Temporal resolution is related to which aspect?",
+        "classification": "Ultrasound Transducers",
+        "group": "210",
+        "question_type": "multiple_choice",
+        "question": "Temporal resolution is related to which aspect?",
         "image": "",
-        "opciones": [
+        "options": [
             "Lateral resolution",
             "Frame rate",
             "Range ambiguity",
             "Element diameter"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Frame rate"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Temporal Resolution",
+        "explanation": "Temporal resolution is directly tied to the frame rate, which represents the number of images displayed per second. Factors that improve frame rate include decreasing imaging depth, reducing the number of focal zones, and narrowing the imaging sector. Conversely, increasing depth, adding more focal zones, or widening the sector size can reduce the frame rate, leading to poorer temporal resolution. Balancing these variables is critical in ultrasound imaging of rapidly moving structures, such as the heart."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "211",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following may also be referred to as the far zone?",
+        "classification": "Ultrasound Transducers",
+        "group": "211",
+        "question_type": "multiple_choice",
+        "question": "Which of the following may also be referred to as the far zone?",
         "image": "",
-        "opciones": [
+        "options": [
             "Frame zone",
             "Fresnel zone",
             "Fraunhofer zone",
             "Frankincense zone"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Fraunhofer zone"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Fraunhofer Zone (Far Zone)",
+        "explanation": "The Fraunhofer zone, or far zone, is the portion of the ultrasound beam beyond the near field where the beam starts to diverge. It is characterized by reduced intensity and less uniformity of the ultrasound signal."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "212",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What states that waves are the result of the interference of many wavelets produced at the face of the transducer?",
+        "classification": "Ultrasound Transducers",
+        "group": "212",
+        "question_type": "multiple_choice",
+        "question": "What states that waves are the result of the interference of many wavelets produced at the face of the transducer?",
         "image": "",
-        "opciones": [
+        "options": [
             "Curie's principle",
             "Snell's law",
             "Bernoulli's law",
             "Huygen's principle"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Huygen's principle"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Huygen's Principle",
+        "explanation": "Huygen's Principle outlines how each point on the transducer surface generates secondary wavelets, and the combined interference of these wavelets forms the final ultrasound beam used for imaging."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "213",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following is the resolution in the third dimension of the beam?",
+        "classification": "Ultrasound Transducers",
+        "group": "213",
+        "question_type": "multiple_choice",
+        "question": "Which of the following is the resolution in the third dimension of the beam?",
         "image": "",
-        "opciones": [
+        "options": [
             "Lateral resolution",
             "Elevational resolution",
             "Contrast resolution",
             "Longitudinal resolution"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Elevational resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Elevational Resolution",
+        "explanation": "Elevational resolution, also referred to as slice thickness resolution or Z-axis resolution, represents the ultrasound system's ability to differentiate structures in the third dimension of the beam, perpendicular to the imaging plane. It is improved by using narrow beam thickness, which can be achieved with 1.5D transducers or advanced matrix arrays. 1.5D transducers have multiple rows of elements that allow for focusing in the elevational plane, reducing beam thickness and improving image quality. Factors that worsen elevational resolution include wide beam thickness and improper transducer focus, which can lead to out-of-plane artifacts and reduced image clarity."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "214",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following is true concerning the frequency and the near-zone length, assuming a single-element, unfocused transducer?",
+        "classification": "Ultrasound Transducers",
+        "group": "214",
+        "question_type": "multiple_choice",
+        "question": "Which of the following is true concerning the frequency and the near-zone length, assuming a single-element, unfocused transducer?",
         "image": "",
-        "opciones": [
+        "options": [
             "The higher the frequency, the longer the near-zone length",
             "The lower the frequency, the longer the near-zone length",
             "Frequency and near-zone length are not related",
             "Increasing the frequency causes divergence in the near field"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "The higher the frequency, the longer the near-zone length"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Frequency and Near-Zone Length",
+        "explanation": "The near-zone length increases with higher frequencies in a single-element, unfocused transducer because higher frequency sound waves create a narrower, more focused beam before diverging. This property is essential for accurate imaging at deeper structures."
     },
     {
         "clasificacion": "Ultrasound Transducers",
