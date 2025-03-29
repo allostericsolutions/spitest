@@ -5979,130 +5979,130 @@
         "explicacion_openai": ""
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "31",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which index is used to assess the likelihood of cavitation?",
+        "classification": "Doppler Imaging Concepts",
+        "group": "31",
+        "question_type": "multiple_choice",
+        "question": "Which index is used to assess the likelihood of cavitation?",
         "image": "",
-        "opciones": [
+        "options": [
             "Mechanical index (MI)",
             "Thermal index (TI)",
             "Spatial peak temporal average (SPTA)",
             "Spatial peak pulse average (SPPA)"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Mechanical index (MI)"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Mechanical Index (MI)",
+        "explanation": "The Mechanical Index (MI) is a parameter used in diagnostic ultrasound to evaluate the risk of cavitation, a phenomenon where microbubbles form in tissue due to acoustic pressure. A higher MI indicates a greater likelihood of cavitation, which can cause mechanical damage to tissue."
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "32",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the primary concern of ultrasound exposure during pregnancy?",
+        "classification": "Doppler Imaging Concepts",
+        "group": "32",
+        "question_type": "multiple_choice",
+        "question": "What is the primary concern of ultrasound exposure during pregnancy?",
         "image": "",
-        "opciones": [
+        "options": [
             "Thermal effects",
             "Mechanical effects",
             "Radiation exposure",
             "Magnetic interference"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Thermal effects"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Thermal Effects in Pregnancy",
+        "explanation": "Thermal effects refer to the increase in tissue temperature caused by ultrasound energy absorption. During pregnancy, prolonged exposure to high-intensity ultrasound could potentially impact fetal development. Maintaining thermal indices within recommended limits minimizes these risks, ensuring safe imaging practices."
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "33",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following is a confirmed bioeffect of diagnostic ultrasound?",
+        "classification": "Doppler Imaging Concepts",
+        "group": "33",
+        "question_type": "multiple_choice",
+        "question": "Which of the following is a confirmed bioeffect of diagnostic ultrasound?",
         "image": "",
-        "opciones": [
+        "options": [
             "None confirmed at diagnostic levels",
             "Tissue necrosis",
             "Chromosomal damage",
             "Cancer induction"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "None confirmed at diagnostic levels"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Bioeffects of Diagnostic Ultrasound",
+        "explanation": "Research has shown that diagnostic ultrasound, when used appropriately, has not been associated with confirmed bioeffects at clinical levels. This conclusion underscores its safety as a diagnostic tool, provided practitioners adhere to established guidelines, including ALARA (As Low As Reasonably Achievable) principles."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "78",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which artifact is characterized by the appearance of a duplicate structure on the opposite side of a strong reflector?",
+        "classification": "Physical Principles",
+        "group": "78",
+        "question_type": "multiple_choice",
+        "question": "Which artifact is characterized by the appearance of a duplicate structure on the opposite side of a strong reflector?",
         "image": "",
-        "opciones": [
+        "options": [
             "Mirror image artifact",
             "Reverberation artifact",
             "Comet tail artifact",
             "Ring down artifact"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Mirror image artifact"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Mirror Image Artifact",
+        "explanation": "The mirror image artifact occurs when ultrasound waves are reflected back and forth between two highly reflective surfaces, creating a duplicate image on the opposite side of the true structure. This artifact is commonly observed near large interfaces such as the diaphragm or pleura."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "79",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the primary cause of aliasing in Doppler ultrasound?",
+        "classification": "Physical Principles",
+        "group": "79",
+        "question_type": "multiple_choice",
+        "question": "What is the primary cause of aliasing in Doppler ultrasound?",
         "image": "",
-        "opciones": [
+        "options": [
             "Exceeding the Nyquist limit",
             "Low frequency transducer",
             "High frame rate",
             "Beam width"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Exceeding the Nyquist limit"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Nyquist Limit and Aliasing",
+        "explanation": "Aliasing in Doppler ultrasound arises when the measured frequency shift exceeds the Nyquist limit, which is half the pulse repetition frequency (PRF). This results in velocity data wrapping around the scale, creating an artifact. Proper adjustment of PRF and transducer settings can minimize aliasing."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "80",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which artifact results from the presence of strong reflectors causing multiple reflections?",
+        "classification": "Physical Principles",
+        "group": "80",
+        "question_type": "multiple_choice",
+        "question": "Which artifact results from the presence of strong reflectors causing multiple reflections?",
         "image": "",
-        "opciones": [
+        "options": [
             "Reverberation artifact",
             "Shadowing artifact",
             "Enhancement artifact",
             "Comet tail artifact"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Reverberation artifact"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Reverberation Artifact",
+        "explanation": "Reverberation artifacts are created by the repeated bouncing of ultrasound waves between strong reflectors, leading to multiple equally spaced echoes. This results in the display of additional, false structures on the image and may complicate accurate interpretation."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "81",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the effect of clutter in Doppler ultrasound?",
+        "classification": "Physical Principles",
+        "group": "81",
+        "question_type": "multiple_choice",
+        "question": "What is the effect of clutter in Doppler ultrasound?",
         "image": "",
-        "opciones": [
+        "options": [
             "It obscures low-velocity signals",
             "It enhances high-velocity signals",
             "It increases frame rate",
             "It reduces aliasing"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "It obscures low-velocity signals"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Clutter in Doppler Ultrasound",
+        "explanation": "Clutter refers to extraneous signals caused by large stationary or slow-moving reflectors, such as tissue or vessel walls, which can mask the detection of low-velocity blood flow. Advanced filtering techniques, such as wall filters, are employed to reduce this noise and enhance diagnostic accuracy."
     },
     {
         "clasificacion": "Physical Principles",
