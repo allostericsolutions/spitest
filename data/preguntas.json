@@ -14908,184 +14908,184 @@
         "explicacion_openai": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "200",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Doubling the intensity results in what change to power?",
+        "classification": "Physical Principles",
+        "group": "200",
+        "question_type": "multiple_choice",
+        "question": "Doubling the intensity results in what change to power?",
         "image": "",
-        "opciones": [
+        "options": [
             "It halves",
             "It doubles",
             "It increases by 10 dB",
             "It increases by 3 dB"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "It doubles"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Intensity and Power Relationship",
+        "explanation": "Intensity is directly proportional to power. Doubling the intensity of an ultrasound beam means that the power also doubles. Understanding this relationship is crucial for managing safe output levels and ensuring image quality during ultrasound exams."
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "88",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What term refers to the number of pulses emitted per second?",
+        "classification": "Doppler Imaging Concepts",
+        "group": "88",
+        "question_type": "multiple_choice",
+        "question": "What term refers to the number of pulses emitted per second?",
         "image": "",
-        "opciones": [
+        "options": [
             "Pulse repetition frequency",
             "Frequency",
             "Wavelength",
             "Beam width"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Pulse repetition frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Pulse Repetition Frequency (PRF)",
+        "explanation": "Pulse Repetition Frequency (PRF) represents the number of ultrasound pulses emitted by the transducer per second. PRF is adjustable by the sonographer and influences imaging depth and frame rate, critical for optimizing diagnostic quality."
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": "89",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "On a spectral Doppler waveform, what is plotted along the x-axis?",
+        "classification": "Doppler Imaging Concepts",
+        "group": "89",
+        "question_type": "multiple_choice",
+        "question": "On a spectral Doppler waveform, what is plotted along the x-axis?",
         "image": "",
-        "opciones": [
+        "options": [
             "Velocity",
             "Amplitude",
             "Time",
             "Frequency shift"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Time"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Spectral Doppler Waveform",
+        "explanation": "In a spectral Doppler waveform, the x-axis represents time, while the y-axis displays velocity or frequency shift. This graphical representation helps analyze blood flow patterns over time and is crucial for vascular assessments."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "201",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the unit for spatial pulse length?",
+        "classification": "Physical Principles",
+        "group": "201",
+        "question_type": "multiple_choice",
+        "question": "What is the unit for spatial pulse length?",
         "image": "",
-        "opciones": [
+        "options": [
             "mm/s",
             "m",
             "cm/s",
             "wavelength"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "m"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Spatial Pulse Length (SPL)",
+        "explanation": "The unit for spatial pulse length (SPL) is meters (m) or its subunits, such as millimeters (mm). SPL is the distance that a pulse occupies in space and is directly related to axial resolution, which improves with shorter SPL."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "253",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which device measures acoustic output (intensity) levels?",
+        "classification": "Ultrasound Transducers",
+        "group": "253",
+        "question_type": "multiple_choice",
+        "question": "Which device measures acoustic output (intensity) levels?",
         "image": "",
-        "opciones": [
+        "options": [
             "Oscilloscope",
             "Spectrum analyzer",
             "Calorimeter",
             "Hydrophone"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Hydrophone"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Measuring Acoustic Intensity",
+        "explanation": "A hydrophone is used to measure acoustic output (intensity) levels of an ultrasound transducer. It records pressure variations and helps ensure safety standards for acoustic exposure are met during diagnostic imaging."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "202",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
+        "classification": "Physical Principles",
+        "group": "202",
+        "question_type": "multiple_choice",
+        "question": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
         "image": "",
-        "opciones": [
+        "options": [
             "Fourier's principle",
             "Newton's principle",
             "Huygen's principle",
             "Snell's principle"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Huygen's principle"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Huygen's Principle",
+        "explanation": "Huygen's Principle explains that each point on the transducer surface acts as a source of secondary wavelets. The interference of these wavelets results in the formation of the ultrasound beam. This principle underlies beam formation and influences resolution and beam shape."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "185",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In tissue harmonic imaging, the utilized frequency is:",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "185",
+        "question_type": "multiple_choice",
+        "question": "In tissue harmonic imaging, the utilized frequency is:",
         "image": "",
-        "opciones": [
+        "options": [
             "Fundamental frequency",
             "Double the fundamental frequency",
             "Half the fundamental frequency",
             "Triple the fundamental frequency"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Double the fundamental frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Tissue Harmonic Imaging",
+        "explanation": "In tissue harmonic imaging, the system utilizes the second harmonic frequency, which is double the fundamental frequency. This technique enhances image quality by reducing side lobe artifacts and improving contrast resolution. The harmonic signals are generated within the tissue itself due to nonlinear propagation of sound waves."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "186",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In B-mode imaging, where is amplitude represented?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "186",
+        "question_type": "multiple_choice",
+        "question": "In B-mode imaging, where is amplitude represented?",
         "image": "",
-        "opciones": [
+        "options": [
             "x-axis",
             "y-axis",
             "z-axis",
             "t-axis"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "z-axis"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Amplitude in B-mode Imaging",
+        "explanation": "In B-mode imaging (Brightness mode), the amplitude of the returning echo is represented on the z-axis, while the x-axis corresponds to lateral position and the y-axis corresponds to depth. The brightness of the displayed pixel is determined by the amplitude of the echo, providing a grayscale representation of tissue structures."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "254",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What determines the radial resolution of an ultrasound system?",
+        "classification": "Ultrasound Transducers",
+        "group": "254",
+        "question_type": "multiple_choice",
+        "question": "What determines the radial resolution of an ultrasound system?",
         "image": "",
-        "opciones": [
+        "options": [
             "Axial resolution",
             "Temporal resolution",
             "Spatial pulse length",
             "Beam frequency"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Spatial pulse length"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Radial (Axial) Resolution",
+        "explanation": "Radial resolution, also known as axial or longitudinal resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing closer structures along the beam axis to be distinguished. Sonographers can enhance axial resolution by using higher-frequency transducers or optimizing pulse duration."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "203",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Axial resolution can be enhanced by:",
+        "classification": "Physical Principles",
+        "group": "203",
+        "question_type": "multiple_choice",
+        "question": "Axial resolution can be enhanced by:",
         "image": "",
-        "opciones": [
+        "options": [
             "Wavelength and intensity",
             "Number of cycles in a pulse, wavelength",
             "Beam width and frequency",
             "Depth and focus"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Number of cycles in a pulse, wavelength"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Enhancing Axial Resolution",
+        "explanation": "Axial resolution, which is the ability to distinguish structures along the ultrasound beam axis, is influenced by both the number of cycles in a pulse and the wavelength. Fewer cycles and shorter wavelengths improve axial resolution. Sonographers can achieve this by selecting higher-frequency transducers or systems designed to emit shorter pulses."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -16295,130 +16295,130 @@
         "explicacion_openai": "The attenuation coefficient measures the reduction in intensity of an ultrasound wave as it travels through soft tissue. It is commonly approximated as proportional to frequency, meaning higher frequency waves experience greater attenuation. The relationship 'Frequency / 2' simplifies this concept, showing that for every unit increase in frequency, attenuation increases proportionally. This is essential for balancing depth penetration and image resolution during ultrasound imaging."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "224",
-        "tipo_pregunta": "calculo",
-        "enunciado": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
+        "classification": "Physical Principles",
+        "group": "224",
+        "question_type": "calculation",
+        "question": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
         "image": "",
-        "opciones": [
+        "options": [
             "16 µs",
             "32 µs",
             "48 µs",
             "64 µs"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "32 µs"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Time of Flight and Soft Tissue",
+        "explanation": "The time of flight (round trip) for ultrasound in soft tissue is calculated using the fact that sound travels at 1540 m/s in soft tissue. The depth of the reflector is 2.5 cm, so the round-trip distance is 2 × 2.5 = 5 cm (or 0.05 m). Time = Distance / Speed, so 0.05 m / 1540 m/s = 32 µs."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "190",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which method maintains pixel density when enlarging an image?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "190",
+        "question_type": "multiple_choice",
+        "question": "Which method maintains pixel density when enlarging an image?",
         "image": "",
-        "opciones": [
+        "options": [
             "Area magnification",
             "Write magnification",
             "Nearest neighbor scaling",
             "Linear magnification"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Write magnification"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Write Magnification and Pixel Density",
+        "explanation": "Write magnification maintains pixel density by re-acquiring data and scanning the region of interest with a higher pixel density during pre-processing. Unlike read magnification, this method improves spatial resolution, providing a clearer, higher-quality image."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "191",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the primary advantage of write magnification over read magnification?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "191",
+        "question_type": "multiple_choice",
+        "question": "What is the primary advantage of write magnification over read magnification?",
         "image": "",
-        "opciones": [
+        "options": [
             "Faster processing time",
             "Improved spatial resolution",
             "Larger field of view",
             "Reduced file size"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Improved spatial resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Advantages of Write Magnification",
+        "explanation": "The primary advantage of write magnification is improved spatial resolution. By re-scanning the region of interest with a higher pixel density, write magnification creates a clearer and more detailed image compared to read magnification, which simply enlarges existing data without improving resolution."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "192",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Read magnification is performed during which stage of image processing?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "192",
+        "question_type": "multiple_choice",
+        "question": "Read magnification is performed during which stage of image processing?",
         "image": "",
-        "opciones": [
+        "options": [
             "Pre-processing",
             "Post-processing",
             "Data acquisition",
             "Analog-to-digital conversion"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Post-processing"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Read Magnification",
+        "explanation": "Read magnification is a post-processing technique that enlarges an image by magnifying the existing stored data. Unlike write magnification, it does not re-scan the region of interest or increase pixel density, which means spatial resolution remains unchanged."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "193",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which type of magnification re-scans the region of interest with a higher pixel density?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "193",
+        "question_type": "multiple_choice",
+        "question": "Which type of magnification re-scans the region of interest with a higher pixel density?",
         "image": "",
-        "opciones": [
+        "options": [
             "Read magnification",
             "Write magnification",
             "Zoom magnification",
             "Pan magnification"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Write magnification"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Write Magnification and Rescanning",
+        "explanation": "Write magnification is a pre-processing method that re-scans the region of interest with a higher pixel density. This results in improved spatial resolution and a more detailed image, making it a preferred method for diagnostic accuracy."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "194",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens to the original data when using read magnification?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "194",
+        "question_type": "multiple_choice",
+        "question": "What happens to the original data when using read magnification?",
         "image": "",
-        "opciones": [
+        "options": [
             "The original data is discarded.",
             "The original data is re-scanned.",
             "The original data is maintained and enlarged.",
             "The original data is compressed."
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "The original data is maintained and enlarged."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Original Data in Read Magnification",
+        "explanation": "When using read magnification, the original data is preserved and enlarged to create a magnified image. This method, however, does not increase pixel density or spatial resolution, as it relies on the existing stored data."
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": "195",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
+        "classification": "Imaging Principles and Instrumentation",
+        "group": "195",
+        "question_type": "multiple_choice",
+        "question": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
         "image": "",
-        "opciones": [
+        "options": [
             "Write Magnification",
             "Read Magnification",
             "Acoustic Zoom",
             "Panoramic Imaging"
         ],
-        "respuesta_correcta": [
+        "correct_answer": [
             "Read Magnification"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Reducing Noise with Read Magnification",
+        "explanation": "Read magnification can improve the appearance of a noisy image by enlarging the region of interest during post-processing. While it does not enhance spatial resolution or re-scan the data, it can make key features more visible without additional scanning."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
