@@ -15220,13 +15220,13 @@
         "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
         "image": "",
         "opciones": [
-            "1\u00b0C",
-            "3\u00b0C",
-            "5\u00b0C",
-            "2\u00b0C"
+            "1°C",
+            "3°C",
+            "5°C",
+            "2°C"
         ],
         "respuesta_correcta": [
-            "2\u00b0C"
+            "2°C"
         ],
         "concept_to_study": "",
         "explicacion_openai": ""
