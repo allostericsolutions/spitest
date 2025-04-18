@@ -8135,8 +8135,8 @@
         "respuesta_correcta": [
             "Streaming"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Streaming",
+        "explicacion_openai": "Streaming refers to the motion or flow of fluids induced by an acoustic field, often caused by ultrasound waves. Acoustic streaming occurs due to the force exerted by sound waves on the fluid, creating pressure gradients and steady particle movement. In contrast:\n\n- **Cavitation** involves the formation and collapse of gas bubbles due to pressure changes but doesn't describe fluid motion.\n- **Hydrostatic pressure** refers to the pressure exerted by a stationary fluid.\n- **Radiation forces** affect particles and surfaces, contributing to motion but don't directly describe fluid flow.\n\nAcoustic streaming is significant in applications like ultrasound therapy and diagnostic imaging, where fluid movement can enhance tissue healing or improve resolution."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
