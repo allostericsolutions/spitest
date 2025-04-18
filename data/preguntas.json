@@ -21263,5 +21263,455 @@
         ],
         "concept_to_study": "Amplitude and energy relationship",
         "explicacion_openai": "Amplitude is directly related to the energy carried by a sound wave. A wave with higher amplitude transmits greater energy because the maximum variation in the acoustic variable (such as pressure or particle displacement) is larger. For example, in medical ultrasound, increasing amplitude enhances the energy of sound waves, which can improve the strength of echoes and visibility of deeper structures, but also requires balancing to avoid harming tissues."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "107",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are unable to eliminate aliasing in a pulsed-wave Doppler spectrum using PRF adjustments and transducer frequency changes. What alternative technique could you try?",
+        "image": "",
+        "opciones": [
+            "Increase the Doppler angle significantly.",
+            "Switch to power Doppler.",
+            "Switch to continuous wave Doppler.",
+            "Decrease the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Switch to continuous wave Doppler."
+        ],
+        "concept_to_study": "CW Doppler",
+        "explicacion_openai": "When pulsed-wave Doppler's limitations are reached, continuous wave Doppler can accurately measure high velocities without aliasing, as it is the only modality not limited by the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "108",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can you minimize aliasing in pulsed-wave Doppler aside from increasing PRF?",
+        "image": "",
+        "opciones": [
+            "Use a lower frequency transducer.",
+            "Increase wall filter settings.",
+            "Switch to color Doppler.",
+            "Decrease the sample volume depth."
+        ],
+        "respuesta_correcta": [
+            "Use a lower frequency transducer."
+        ],
+        "concept_to_study": "Aliasing Management",
+        "explicacion_openai": "Using a lower frequency transducer reduces the Doppler shift, helping to stay within the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "109",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a key advantage of continuous wave Doppler over pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Higher resolution at shallow depths.",
+            "Ability to measure high velocities without aliasing.",
+            "Improved sensitivity to low flow rates.",
+            "Reduced clutter artifact."
+        ],
+        "respuesta_correcta": [
+            "Ability to measure high velocities without aliasing."
+        ],
+        "concept_to_study": "CW Doppler",
+        "explicacion_openai": "Continuous wave Doppler is not limited by the Nyquist limit, allowing for accurate high-velocity measurements."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "110",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the Nyquist limit represent in Doppler imaging?",
+        "image": "",
+        "opciones": [
+            "The maximum velocity measurable without aliasing.",
+            "The lowest detectable flow rate.",
+            "The range resolution limit in ultrasound.",
+            "The PRF divided by the transducer frequency."
+        ],
+        "respuesta_correcta": [
+            "The maximum velocity measurable without aliasing."
+        ],
+        "concept_to_study": "Nyquist Limit",
+        "explicacion_openai": "The Nyquist limit represents the maximum velocity that can be measured accurately in pulsed-wave Doppler without encountering aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "111",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when the Doppler shift exceeds the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "A wider bandwidth is generated.",
+            "Aliasing occurs.",
+            "The PRF automatically increases.",
+            "The Doppler signal is amplified."
+        ],
+        "respuesta_correcta": [
+            "Aliasing occurs."
+        ],
+        "concept_to_study": "Aliasing",
+        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit, leading to misrepresentation of flow direction or velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "112",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What adjustment can reduce aliasing in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Increasing PRF.",
+            "Decreasing PRF.",
+            "Using continuous wave Doppler.",
+            "Changing the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Increasing PRF."
+        ],
+        "concept_to_study": "PRF Adjustment",
+        "explicacion_openai": "Increasing the PRF raises the Nyquist limit, reducing the likelihood of aliasing in pulsed-wave Doppler."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "113",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is the Nyquist limit lower for deeper sample volumes in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Because the PRF is inversely proportional to the depth.",
+            "Because of increased attenuation.",
+            "Because of higher frequency shifts at deeper depths.",
+            "Because the speed of sound increases with depth."
+        ],
+        "respuesta_correcta": [
+            "Because the PRF is inversely proportional to the depth."
+        ],
+        "concept_to_study": "Nyquist Limit and Depth",
+        "explicacion_openai": "The PRF decreases as the depth increases, which lowers the Nyquist limit and increases the risk of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "114",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What technique helps visualize blood flow in deeper vessels without aliasing?",
+        "image": "",
+        "opciones": [
+            "Increasing transducer frequency.",
+            "Using continuous wave Doppler.",
+            "Switching to M-mode.",
+            "Decreasing Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Using continuous wave Doppler."
+        ],
+        "concept_to_study": "CW Doppler for Deep Flow",
+        "explicacion_openai": "Continuous wave Doppler allows for visualization of flow in deeper vessels without the limitation of Nyquist aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "115",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler mode is most affected by the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "Pulsed-wave Doppler",
+            "Continuous wave Doppler",
+            "Color Doppler",
+            "Power Doppler"
+        ],
+        "respuesta_correcta": [
+            "Pulsed-wave Doppler"
+        ],
+        "concept_to_study": "Nyquist Limitation",
+        "explicacion_openai": "Pulsed-wave Doppler is inherently limited by the Nyquist limit, making it more susceptible to aliasing compared to other modes."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "116",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the impact of increasing the pulse repetition frequency (PRF) on the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "It lowers the Nyquist limit.",
+            "It raises the Nyquist limit.",
+            "It has no effect on the Nyquist limit.",
+            "It inverts the Doppler signal polarity."
+        ],
+        "respuesta_correcta": [
+            "It raises the Nyquist limit."
+        ],
+        "concept_to_study": "PRF and Nyquist",
+        "explicacion_openai": "Increasing the PRF extends the Nyquist limit, allowing the measurement of higher velocities without aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "117",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the role of the wall filter in Doppler imaging?",
+        "image": "",
+        "opciones": [
+            "Eliminate low frequency signals from tissue motion.",
+            "Increase signal gain for deep vessels.",
+            "Filter out high frequency noise.",
+            "Enhance the resolution of the Doppler spectrum."
+        ],
+        "respuesta_correcta": [
+            "Eliminate low frequency signals from tissue motion."
+        ],
+        "concept_to_study": "Wall Filter",
+        "explicacion_openai": "The wall filter is used to eliminate low frequency signals caused by tissue motion, thus reducing clutter in the Doppler signal."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "118",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor does NOT affect the Nyquist limit in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "PRF",
+            "Transducer frequency",
+            "Sample volume depth",
+            "Color map settings"
+        ],
+        "respuesta_correcta": [
+            "Color map settings"
+        ],
+        "concept_to_study": "Nyquist Influences",
+        "explicacion_openai": "The Nyquist limit is primarily determined by PRF and sample volume depth, not by the color mapping settings."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "119",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, aliasing is most likely to occur when:",
+        "image": "",
+        "opciones": [
+            "Velocities exceed the maximum range set by the Nyquist limit.",
+            "Using continuous wave Doppler.",
+            "The angle correction is set to zero.",
+            "The power Doppler is used."
+        ],
+        "respuesta_correcta": [
+            "Velocities exceed the maximum range set by the Nyquist limit."
+        ],
+        "concept_to_study": "Aliasing Detection",
+        "explicacion_openai": "Aliasing typically occurs when the actual blood flow velocities exceed the maximum measurable velocity defined by the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "120",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What parameter can be adjusted to minimize aliasing, apart from increasing PRF?",
+        "image": "",
+        "opciones": [
+            "Using a steeper Doppler angle.",
+            "Decreasing the transducer frequency.",
+            "Decreasing the sample volume depth.",
+            "Increasing the color gain."
+        ],
+        "respuesta_correcta": [
+            "Decreasing the transducer frequency."
+        ],
+        "concept_to_study": "Aliasing Mitigation",
+        "explicacion_openai": "Reducing the transducer frequency decreases the Doppler shift, thereby reducing the likelihood of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "121",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler technique is less susceptible to aliasing and is often used to evaluate high velocity jets in the heart?",
+        "image": "",
+        "opciones": [
+            "Pulsed-wave Doppler",
+            "Continuous wave Doppler",
+            "Color Doppler",
+            "Spectral Doppler"
+        ],
+        "respuesta_correcta": [
+            "Continuous wave Doppler"
+        ],
+        "concept_to_study": "High Velocity Assessment",
+        "explicacion_openai": "Continuous wave Doppler, not being limited by the Nyquist constraint, is ideal for assessing high-velocity flows such as cardiac jets."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "122",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the main limitation of pulsed-wave Doppler when evaluating high velocity flows?",
+        "image": "",
+        "opciones": [
+            "Limited penetration.",
+            "Limited resolution.",
+            "Nyquist aliasing.",
+            "Excessive noise."
+        ],
+        "respuesta_correcta": [
+            "Nyquist aliasing."
+        ],
+        "concept_to_study": "Pulsed-wave Limitations",
+        "explicacion_openai": "Pulsed-wave Doppler is primarily limited by aliasing when the flow velocities exceed the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "123",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does adjusting the Doppler angle affect the measured velocity?",
+        "image": "",
+        "opciones": [
+            "It directly increases the actual velocity.",
+            "It results in underestimation of true velocity if the angle is not corrected.",
+            "It has no effect on the measurement.",
+            "It reverses the signal direction."
+        ],
+        "respuesta_correcta": [
+            "It results in underestimation of true velocity if the angle is not corrected."
+        ],
+        "concept_to_study": "Doppler Angle",
+        "explicacion_openai": "An incorrect Doppler angle without proper correction can lead to underestimation of the actual flow velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "124",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement is true regarding continuous wave Doppler and aliasing?",
+        "image": "",
+        "opciones": [
+            "It is immune to aliasing due to continuous sample data.",
+            "It shows aliasing only at low velocities.",
+            "It suffers from aliasing just like pulsed-wave Doppler.",
+            "It aliases only when the angle is incorrect."
+        ],
+        "respuesta_correcta": [
+            "It is immune to aliasing due to continuous sample data."
+        ],
+        "concept_to_study": "CW Doppler Characteristics",
+        "explicacion_openai": "Continuous wave Doppler does not suffer from aliasing because it continuously samples the Doppler signal without discrete pulses."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "125",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which parameter does NOT influence the occurrence of aliasing in Doppler measurements?",
+        "image": "",
+        "opciones": [
+            "PRF",
+            "Transducer frequency",
+            "Sample volume depth",
+            "Doppler gain settings"
+        ],
+        "respuesta_correcta": [
+            "Doppler gain settings"
+        ],
+        "concept_to_study": "Aliasing Influences",
+        "explicacion_openai": "Aliasing is affected by factors like PRF, transducer frequency, and sample volume depth, but gain settings do not alter the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "126",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In color Doppler, what does a mosaic pattern typically indicate?",
+        "image": "",
+        "opciones": [
+            "Uniform laminar flow.",
+            "High velocity fluctuations and turbulence.",
+            "Stationary tissue.",
+            "Low flow state."
+        ],
+        "respuesta_correcta": [
+            "High velocity fluctuations and turbulence."
+        ],
+        "concept_to_study": "Color Doppler Artifacts",
+        "explicacion_openai": "A mosaic pattern in color Doppler often reflects the presence of turbulent, high-velocity flow resulting in aliasing artifacts."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "127",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler imaging, why might reducing the depth of the sample volume help reduce aliasing?",
+        "image": "",
+        "opciones": [
+            "It increases the PRF and thus the Nyquist limit.",
+            "It decreases the resolution.",
+            "It increases the Doppler gain.",
+            "It has no effect on aliasing."
+        ],
+        "respuesta_correcta": [
+            "It increases the PRF and thus the Nyquist limit."
+        ],
+        "concept_to_study": "Depth and PRF",
+        "explicacion_openai": "Reducing the depth of the sample volume effectively increases the PRF, which raises the Nyquist limit and diminishes aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "128",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What effect does increasing the transducer frequency have on the Doppler signal?",
+        "image": "",
+        "opciones": [
+            "It decreases the Doppler shift.",
+            "It increases the Doppler shift.",
+            "It has no effect.",
+            "It reverses the flow direction."
+        ],
+        "respuesta_correcta": [
+            "It increases the Doppler shift."
+        ],
+        "concept_to_study": "Transducer Frequency",
+        "explicacion_openai": "A higher transducer frequency results in a larger Doppler frequency shift, which may also increase the risk of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "129",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a common method to verify the presence of aliasing in a Doppler study?",
+        "image": "",
+        "opciones": [
+            "Observing a sudden reversal of flow direction on the spectral display.",
+            "Increasing the gain settings.",
+            "Using M-mode imaging.",
+            "Decreasing the sample volume size."
+        ],
+        "respuesta_correcta": [
+            "Observing a sudden reversal of flow direction on the spectral display."
+        ],
+        "concept_to_study": "Aliasing Verification",
+        "explicacion_openai": "A sudden reversal or wrap-around of the spectral display is a hallmark sign of aliasing in Doppler ultrasound."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "130",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can adjusting the baseline shift help identify aliasing?",
+        "image": "",
+        "opciones": [
+            "It amplifies the Doppler signal.",
+            "It corrects the velocity scale.",
+            "It can reveal shifted flow patterns across the baseline.",
+            "It filters out noise."
+        ],
+        "respuesta_correcta": [
+            "It can reveal shifted flow patterns across the baseline."
+        ],
+        "concept_to_study": "Baseline Adjustment",
+        "explicacion_openai": "Adjusting the baseline can help in identifying aliasing by making any flow shift more apparent on the spectral display."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "131",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why might power Doppler be preferred over color Doppler in detecting low flow states?",
+        "image": "",
+        "opciones": [
+            "Because it is less sensitive to aliasing.",
+            "Because it provides directional information.",
+            "Because it amplifies high velocity flows.",
+            "Because it is less affected by edema."
+        ],
+        "respuesta_correcta": [
+            "Because it is less sensitive to aliasing."
+        ],
+        "concept_to_study": "Power Doppler",
+        "explicacion_openai": "Power Doppler is more sensitive to low flow signals and is less affected by aliasing, making it advantageous in detecting low flow states."
     }
 ]
