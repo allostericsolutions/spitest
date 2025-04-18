@@ -22073,5 +22073,41 @@
         ],
         "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
         "explicacion_openai": "The Doppler shift of 8.5 kHz exceeds the Nyquist limit of 8 kHz, resulting in aliasing."
-    }
+    },
+    {
+    "classification": "Physical Principles",
+    "group": "302",
+    "question_type": "multiple_choice",
+    "statement": "According to the '13 µs rule', how long does it take for sound to travel 1 cm (round-trip) in soft tissue?",
+    "image": "",
+    "options": [
+        "13 µs",
+        "6.5 µs",
+        "26 µs",
+        "20 µs"
+    ],
+    "correct_answer": [
+        "13 µs"
+    ],
+    "concept_to_study": "13 µs Rule",
+    "explanation_openai": "The '13 µs rule' states that sound takes a total of 13 microseconds (µs) to travel 1 cm round-trip in soft tissue. This total is divided into two equal parts: 6.5 µs for the sound to travel 1 cm to the target and another 6.5 µs for the sound to return to the transducer. This principle relies on the speed of sound in soft tissue, which is approximately 1540 m/s. It is a widely used concept in ultrasound imaging to help calculate distances accurately."
+},
+{
+    "classification": "Physical Principles",
+    "group": "303",
+    "question_type": "multiple_choice",
+    "statement": "If a round-trip time of 26 µs is measured, what is the distance to the reflector using the equation d = 0.77t?",
+    "image": "",
+    "options": [
+        "20 mm",
+        "26 mm",
+        "13 mm",
+        "33 mm"
+    ],
+    "correct_answer": [
+        "20 mm"
+    ],
+    "concept_to_study": "Distance Calculation",
+    "explanation_openai": "To calculate the distance to the reflector, it's helpful to think in terms of the 13 µs rule:\n\n1. In 6.5 µs, sound travels **1 cm (10 mm)** one way.\n2. In 13 µs, sound travels **1 cm (10 mm) round-trip**. \n3. For 26 µs, double the 13 µs result, as it's two complete round-trips:\n   - Distance = 2 × 10 mm = **20 mm**.\n\nThis makes it easy to calculate without using the formula. Just remember:\n- **6.5 µs** = 1 cm (one way).\n- **13 µs** = 1 cm (round-trip).\n- Multiply accordingly for larger times!"
+}   
 ]
