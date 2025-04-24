@@ -300,7 +300,7 @@
             "Amplitude",
             "Watt",
             "Degrees",
-            "None of the above"
+            "None of this options"
         ],
         "respuesta_correcta": [
             "Watt"
@@ -1680,7 +1680,7 @@
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "26",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What effect does increased medium density have on sound speed?",
+        "enunciado": "What is the effect does increased medium density have on sound speed?",
         "image": "",
         "opciones": [
             "Increases speed",
@@ -3981,144 +3981,144 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "94",
-        "question_type": "multiple_choice",
-        "question": "Which component reduces unwanted vibrations in the piezoelectric element?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "94",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which component reduces unwanted vibrations in the piezoelectric element?",
         "image": "",
-        "options": [
+        "opciones": [
             "Damping material",
             "Matching layer",
             "Transducer housing",
             "Lens aperture"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Damping material"
         ],
         "concept_to_study": "Damping Material in Transducers",
         "explanation": "Damping material minimizes unwanted vibrations in the piezoelectric element, allowing for shorter pulses and improved axial resolution. By absorbing excessive oscillations, it ensures clearer and more precise imaging. Sonographers cannot directly adjust this material, as it is an integral transducer component."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "95",
-        "question_type": "multiple_choice",
-        "question": "The impedance mismatch is reduced by which component in the transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "95",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "The impedance mismatch is reduced by which component in the transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Matching layer",
             "Damping layer",
             "Crystal element",
             "Housing unit"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Matching layer"
         ],
         "concept_to_study": "Matching Layer and Impedance",
         "explanation": "The matching layer reduces impedance mismatch between the piezoelectric element and the patient's skin, improving transmission of ultrasound waves. It enhances energy transfer and minimizes reflection losses. This component is integral to the transducer design and is not adjustable by the sonographer."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "96",
-        "question_type": "multiple_choice",
-        "question": "What does an acoustic lens do in a transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "96",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What does an acoustic lens do in a transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Focuses the ultrasound beam",
             "Increases the housing strength",
             "Amplifies the signal",
             "Reduces transmission losses"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Focuses the ultrasound beam"
         ],
         "concept_to_study": "Acoustic Lens Functionality",
         "explanation": "The acoustic lens focuses the ultrasound beam by shaping its trajectory. This improves lateral resolution, allowing for better differentiation of structures side-by-side. Sonographers rely on the transducer’s built-in lens for optimal focusing, without direct control over its design."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "97",
-        "question_type": "multiple_choice",
-        "question": "Which material property is crucial for a transducer's piezoelectric element?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "97",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which material property is crucial for a transducer's piezoelectric element?",
         "image": "",
-        "options": [
+        "opciones": [
             "High dielectric constant",
             "High thermal conductivity",
             "Low electrical resistance",
             "High mechanical rigidity"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "High dielectric constant"
         ],
         "concept_to_study": "Piezoelectric Element Properties",
         "explanation": "A high dielectric constant is essential for the piezoelectric element to efficiently convert electrical energy into mechanical vibrations and vice versa. This property directly affects the transducer's performance, including sensitivity and resolution."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "98",
-        "question_type": "multiple_choice",
-        "question": "What component of the transducer helps in the transmission of electrical signals?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "98",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What component of the transducer helps in the transmission of electrical signals?",
         "image": "",
-        "options": [
+        "opciones": [
             "Electrical connectors",
             "Acoustic lens",
             "Damping layer",
             "Housing unit"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Electrical connectors"
         ],
         "concept_to_study": "Electrical Connectors in Transducers",
         "explanation": "Electrical connectors transmit signals from the ultrasound machine to the piezoelectric element and vice versa. This ensures the proper excitation of the transducer and efficient return of received echoes for image formation."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "99",
-        "question_type": "multiple_choice",
-        "question": "What role does the backing material play in a transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "99",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What role does the backing material play in a transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Reduces continuous vibrations",
             "Amplifies sound waves",
             "Increases transmitting depth",
             "Enhances lateral resolution"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Reduces continuous vibrations"
         ],
         "concept_to_study": "Backing Material in Transducers",
         "explanation": "The backing material dampens continuous vibrations in the piezoelectric element, shortening pulse duration and improving axial resolution. While critical to transducer design, this component is preset and not adjustable by the sonographer."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "100",
-        "question_type": "multiple_choice",
-        "question": "Which part of the transducer is responsible for forming the ultrasound beam?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "100",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which part of the transducer is responsible for forming the ultrasound beam?",
         "image": "",
-        "options": [
+        "opciones": [
             "Piezoelectric element",
             "Matching layer",
             "Damping material",
             "Housing shell"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Piezoelectric element"
         ],
         "concept_to_study": "Piezoelectric Element and Beam Formation",
         "explanation": "The piezoelectric element is the core of the transducer, responsible for generating the ultrasound beam through mechanical vibrations. It converts electrical energy into sound waves during transmission and transforms returning sound waves into electrical signals during reception, enabling ultrasound imaging."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "101",
-        "question_type": "multiple_choice",
-        "question": "What determines the natural operating frequency of a transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "101",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What determines the natural operating frequency of a transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Crystal thickness",
             "Damping layer",
             "Lens curvature",
             "Cable length"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Crystal thickness"
         ],
         "concept_to_study": "Crystal Thickness and Frequency",
@@ -4575,90 +4575,90 @@
         "explicacion_openai": "To capture high-speed cardiac events, the crucial setting is a high frame rate. This ensures that more frames are captured per second, allowing better temporal resolution and precise visualization of fast-moving cardiac structures. Other options, like gain, bandwidth, or frequency, may influence other aspects of image quality but are not as directly relevant for capturing rapid motion."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "127",
-        "question_type": "multiple_choice",
-        "question": "How can you optimize imaging for moving objects?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "127",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "How can you optimize imaging for moving objects?",
         "image": "",
-        "options": [
+        "opciones": [
             "Increase frame rate",
             "Decrease depth",
             "Reduce frequency",
             "Enhance beam width"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Increase frame rate"
         ],
         "concept_to_study": "Frame rate and temporal resolution",
         "explanation": "To capture high-speed motion, such as cardiac activity, optimizing the frame rate is essential. A higher frame rate allows more images to be displayed per second, improving temporal resolution and ensuring precise visualization of moving objects. Other factors, like gain or frequency adjustments, impact image quality but do not directly enhance the ability to capture motion effectively."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "128",
-        "question_type": "multiple_choice",
-        "question": "Decreasing frame rate affects temporal resolution in what way?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "128",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Decreasing frame rate affects temporal resolution in what way?",
         "image": "",
-        "options": [
+        "opciones": [
             "Reduces temporal resolution",
             "Improves temporal resolution",
             "Does not affect temporal resolution",
             "Increases pixel range"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Reduces temporal resolution"
         ],
         "concept_to_study": "Temporal Resolution Impact",
         "explanation": "Temporal resolution is reduced when frame rate decreases. This occurs because fewer images are captured per second, leading to decreased accuracy in visualizing fast-moving structures."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "129",
-        "question_type": "multiple_choice",
-        "question": "What primarily controls the number of images produced per second in ultrasound?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "129",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What primarily controls the number of images produced per second in ultrasound?",
         "image": "",
-        "options": [
+        "opciones": [
             "Frame rate",
             "Depth",
             "Frequency",
             "Damping"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Frame rate"
         ],
         "concept_to_study": "Frame Rate Control",
         "explanation": "Frame rate is the primary parameter that determines the number of images produced per second during an ultrasound scan. It is influenced by factors such as imaging depth, number of focal zones, and the size of the imaging sector."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "130",
-        "question_type": "multiple_choice",
-        "question": "A higher temporal resolution is necessary for imaging:",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "130",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "A higher temporal resolution is necessary for imaging:",
         "image": "",
-        "options": [
+        "opciones": [
             "Fast-moving structures",
             "Vascular structures",
             "Large organs",
             "Static tissues"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Fast-moving structures"
         ],
         "concept_to_study": "Higher Temporal Resolution Applications",
         "explanation": "Higher temporal resolution is required for imaging fast-moving structures, such as the heart or blood flow in vessels, to ensure that motion is accurately captured and visualized."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "131",
-        "question_type": "multiple_choice",
-        "question": "Which aspect of real-time scanning is critical for dynamic examinations?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "131",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which aspect of real-time scanning is critical for dynamic examinations?",
         "image": "",
-        "options": [
+        "opciones": [
             "Temporal resolution",
             "Spatial resolution",
             "Axial resolution",
             "Frequency bandwidth"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Temporal resolution"
         ],
         "concept_to_study": "Importance of Temporal Resolution",
@@ -4773,126 +4773,126 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "138",
-        "question_type": "multiple_choice",
-        "question": "What is the main advantage of using a phased array transducer in echocardiography?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "138",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the main advantage of using a phased array transducer in echocardiography?",
         "image": "",
-        "options": [
+        "opciones": [
             "Rapid steering of the beam",
             "Improved axial resolution",
             "Reduced side lobes",
             "Lower power consumption"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Rapid steering of the beam"
         ],
         "concept_to_study": "Phased Array in Echocardiography",
         "explanation": "Phased array transducers provide rapid electronic steering of the ultrasound beam, which is particularly beneficial for imaging the heart. This capability allows sonographers to capture dynamic cardiac motion efficiently without physically adjusting the transducer."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "139",
-        "question_type": "multiple_choice",
-        "question": "Which type of transducer element arrangement is used in a sector scanner?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "139",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which type of transducer element arrangement is used in a sector scanner?",
         "image": "",
-        "options": [
+        "opciones": [
             "Phased array",
             "Mechanical sector",
             "Linear array",
             "Curvilinear array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Phased array"
         ],
         "concept_to_study": "Sector Scanners and Phased Arrays",
         "explanation": "Sector scanners use phased array transducer element arrangements to electronically steer the beam and create a fan-shaped image. This configuration is especially useful for imaging through small acoustic windows, such as in cardiac imaging."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "140",
-        "question_type": "multiple_choice",
-        "question": "Which transducer uses a motor to steer the beam?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "140",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which transducer uses a motor to steer the beam?",
         "image": "",
-        "options": [
+        "opciones": [
             "Mechanical sector",
             "Phased array",
             "Curvilinear array",
             "Annular array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Mechanical sector"
         ],
         "concept_to_study": "Mechanical Sector Transducers",
         "explanation": "Mechanical sector transducers use a motor to physically steer the beam, creating a sector-shaped image. While these transducers are less common due to advancements in electronic steering, they were historically used for narrow imaging fields such as cardiac studies."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "141",
-        "question_type": "multiple_choice",
-        "question": "What kind of resolution is primarily improved by using a high-frequency linear transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "141",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What kind of resolution is primarily improved by using a high-frequency linear transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Axial resolution",
             "Lateral resolution",
             "Temporal resolution",
             "Contrast resolution"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Axial resolution"
         ],
         "concept_to_study": "High-Frequency Transducers and Resolution",
         "explanation": "Axial resolution, also known as longitudinal or depth resolution, improves with higher-frequency linear transducers due to shorter wavelengths and reduced spatial pulse length. Sonographers can select these transducers for detailed imaging of superficial structures."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "142",
-        "question_type": "multiple_choice",
-        "question": "In which scenario is a sector scanner most beneficial?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "142",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "In which scenario is a sector scanner most beneficial?",
         "image": "",
-        "options": [
+        "opciones": [
             "Limited acoustic window",
             "Wide field of view",
             "Superficial imaging",
             "High absorption media"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Limited acoustic window"
         ],
         "concept_to_study": "Sector Scanners and Acoustic Windows",
         "explanation": "Sector scanners are ideal for scenarios with limited acoustic windows, such as intercostal spaces in cardiac imaging. Their ability to electronically steer the beam allows for optimized imaging through small openings."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "143",
-        "question_type": "multiple_choice",
-        "question": "Which ultrasound transducer type is best for neonatal imaging?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "143",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which ultrasound transducer type is best for neonatal imaging?",
         "image": "",
-        "options": [
+        "opciones": [
             "High-frequency linear array",
             "Low-frequency phased array",
             "Curvilinear array",
             "Annular array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "High-frequency linear array"
         ],
         "concept_to_study": "Transducers for Neonatal Imaging",
         "explanation": "High-frequency linear array transducers are best for neonatal imaging due to their superior axial resolution and ability to visualize superficial structures clearly. Sonographers can use these transducers to achieve detailed images of small anatomical regions in neonates."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "144",
-        "question_type": "multiple_choice",
-        "question": "What is a key advantage of a linear sequential array transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "144",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is a key advantage of a linear sequential array transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Uniform field of view",
             "Wide dynamic range",
             "Deep penetration",
             "Improved Doppler sensitivity"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Uniform field of view"
         ],
         "concept_to_study": "Linear Sequential Array Transducers",
@@ -4917,108 +4917,108 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "146",
-        "question_type": "multiple_choice",
-        "question": "Which transducer type is equipped for intracavitary exams?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "146",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which transducer type is equipped for intracavitary exams?",
         "image": "",
-        "options": [
+        "opciones": [
             "Endocavitary transducer",
             "Phased array transducer",
             "Convex array transducer",
             "Linear sequential array transducer"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Endocavitary transducer"
         ],
         "concept_to_study": "Endocavitary Transducers",
         "explanation": "Endocavitary transducers are specifically designed for intracavitary exams, such as transvaginal and transrectal imaging. These transducers have a small footprint and high-frequency range, allowing for detailed imaging of internal structures. Sonographers can select this transducer type when performing exams that require close proximity to the region of interest."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "147",
-        "question_type": "multiple_choice",
-        "question": "Which configuration does a mechanical transducer typically use?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "147",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which configuration does a mechanical transducer typically use?",
         "image": "",
-        "options": [
+        "opciones": [
             "Rotating crystal",
             "Electronic steering",
             "Fixed focus",
             "None of the above"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Rotating crystal"
         ],
         "concept_to_study": "Mechanical Transducers",
         "explanation": "Mechanical transducers use a rotating crystal to produce a sweeping motion of the ultrasound beam. This mechanical motion allows for sector-shaped images but limits the ability to perform advanced techniques like electronic focusing or steering. These transducers are less commonly used today due to advancements in array technology."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "148",
-        "question_type": "multiple_choice",
-        "question": "What is a key feature of a vector array transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "148",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is a key feature of a vector array transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Combines features of phased and linear arrays",
             "Manual steering of the beam",
             "Single element transducer",
             "Supplies an annular beam"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Combines features of phased and linear arrays"
         ],
         "concept_to_study": "Vector Array Transducers",
         "explanation": "Vector array transducers combine the wide field of view of phased arrays with the linear scanning capabilities of linear arrays. This hybrid functionality makes them versatile for applications requiring both depth and width in imaging. Sonographers typically use vector arrays for abdominal or obstetric imaging."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "149",
-        "question_type": "multiple_choice",
-        "question": "Which array type allows for electronic focusing and steering?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "149",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which array type allows for electronic focusing and steering?",
         "image": "",
-        "options": [
+        "opciones": [
             "Phased array",
             "Linear array",
             "Radial array",
             "Annular array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Phased array"
         ],
         "concept_to_study": "Phased Array Transducers",
         "explanation": "Phased array transducers allow for electronic steering and focusing of the ultrasound beam. This is achieved by adjusting the timing of pulses sent to the individual piezoelectric elements. Sonographers can control these settings for dynamic imaging, such as cardiac or thoracic applications where precise angle steering is required."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "150",
-        "question_type": "multiple_choice",
-        "question": "Which type of transducer array uses piezoelectric elements arranged in concentric rings?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "150",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which type of transducer array uses piezoelectric elements arranged in concentric rings?",
         "image": "",
-        "options": [
+        "opciones": [
             "Annular array",
             "Linear array",
             "Curvilinear array",
             "Phased array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Annular array"
         ],
         "concept_to_study": "Annular Array Transducers",
         "explanation": "Annular array transducers consist of piezoelectric elements arranged in concentric rings. This design allows for excellent focusing in both the lateral and axial planes, providing high-resolution images. However, they lack electronic steering capabilities and are less commonly used in modern systems."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "151",
-        "question_type": "multiple_choice",
-        "question": "Which transducer array is particularly useful for vascular imaging?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "151",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which transducer array is particularly useful for vascular imaging?",
         "image": "",
-        "options": [
+        "opciones": [
             "Linear array",
             "Phased array",
             "Annular array",
             "Curvilinear array"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Linear array"
         ],
         "concept_to_study": "Linear Array Transducers",
@@ -5115,198 +5115,198 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "157",
-        "question_type": "multiple_choice",
-        "question": "What is the most effective way to enhance axial resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "157",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the most effective way to enhance axial resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Shorter spatial pulse length",
             "Wider beam",
             "High output power",
             "Doppler shift"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Shorter spatial pulse length"
         ],
         "concept_to_study": "Axial Resolution and Spatial Pulse Length",
         "explanation": "Axial resolution, also called longitudinal or depth resolution, is defined by the ability to distinguish structures along the axis of the ultrasound beam. It improves with a shorter spatial pulse length (SPL), which reduces the overlap of returning echoes. Sonographers can optimize axial resolution by using a higher frequency transducer or adjusting the system settings to shorten the pulse duration."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "158",
-        "question_type": "multiple_choice",
-        "question": "Increasing frequency impacts resolution by:",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "158",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Increasing frequency impacts resolution by:",
         "image": "",
-        "options": [
+        "opciones": [
             "Enhancing axial resolution",
             "Decreasing penetration",
             "Enhancing lateral resolution",
             "Both axial and lateral resolution improve"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Both axial and lateral resolution improve"
         ],
         "concept_to_study": "Frequency and Resolution",
         "explanation": "Higher frequencies improve both axial and lateral resolution by producing shorter wavelengths and narrower beams. However, increasing frequency reduces penetration depth, making it less suitable for imaging deeper structures. Sonographers can control frequency selection based on the clinical requirement for detail versus depth."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "159",
-        "question_type": "multiple_choice",
-        "question": "Which factor is inversely proportional to frequency affecting spatial resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "159",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which factor is inversely proportional to frequency affecting spatial resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Wavelength",
             "Pulse length",
             "Amplitude",
             "Frame rate"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Wavelength"
         ],
         "concept_to_study": "Wavelength and Frequency",
         "explanation": "Wavelength is inversely proportional to frequency, meaning higher frequencies produce shorter wavelengths, which improve spatial resolution. Sonographers can select higher-frequency transducers to achieve finer resolution, but this may compromise imaging penetration in deeper tissues."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "160",
-        "question_type": "multiple_choice",
-        "question": "Reducing which parameter primarily affects lateral resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "160",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Reducing which parameter primarily affects lateral resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Beam width",
             "Axial length",
             "Frequency",
             "Depth"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Beam width"
         ],
         "concept_to_study": "Lateral Resolution and Beam Width",
         "explanation": "Lateral resolution, also referred to as angular resolution or side-by-side resolution, improves with narrower beam widths. Focusing techniques, such as adjusting the number of focal zones, allow sonographers to control beam width, enhancing lateral resolution and providing sharper imaging of structures perpendicular to the ultrasound beam."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "161",
-        "question_type": "multiple_choice",
-        "question": "Which resolution is least affected by imaging depth?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "161",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which resolution is least affected by imaging depth?",
         "image": "",
-        "options": [
+        "opciones": [
             "Axial resolution",
             "Lateral resolution",
             "Contrast resolution",
             "Temporal resolution"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Axial resolution"
         ],
         "concept_to_study": "Axial Resolution and Depth",
         "explanation": "Axial resolution, also known as longitudinal or depth resolution, is determined by spatial pulse length and is minimally affected by imaging depth. This makes axial resolution reliable for imaging structures at varying depths, as long as pulse duration remains consistent."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "162",
-        "question_type": "multiple_choice",
-        "question": "Axial resolution is determined by:",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "162",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Axial resolution is determined by:",
         "image": "",
-        "options": [
+        "opciones": [
             "Spatial pulse length",
             "Beam width",
             "Frame rate",
             "Amplitude"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Spatial pulse length"
         ],
         "concept_to_study": "Axial Resolution Factors",
         "explanation": "Axial resolution is determined by spatial pulse length (SPL), which is the product of pulse duration and sound speed. Shorter SPL results in better axial resolution. Sonographers can improve SPL by selecting higher-frequency transducers or using system settings that reduce pulse duration."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "163",
-        "question_type": "multiple_choice",
-        "question": "The ability to distinguish closely spaced structures is defined as:",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "163",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "The ability to distinguish closely spaced structures is defined as:",
         "image": "",
-        "options": [
+        "opciones": [
             "Resolution",
             "Gain",
             "Impedance",
             "Doppler shift"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Resolution"
         ],
         "concept_to_study": "Resolution in Ultrasound",
         "explanation": "Resolution, also referred to as image clarity or detail differentiation, defines the system's ability to distinguish closely spaced structures. It includes axial resolution (longitudinal or depth resolution) and lateral resolution (side-by-side resolution). Axial resolution is primarily affected by pulse duration and transducer frequency, whereas lateral resolution depends on beam focusing. The sonographer can improve axial resolution by using a higher frequency transducer or decreasing pulse duration, and lateral resolution is enhanced by adjusting beam focus."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "164",
-        "question_type": "multiple_choice",
-        "question": "Improvements in temporal resolution can be achieved by?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "164",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Improvements in temporal resolution can be achieved by?",
         "image": "",
-        "options": [
+        "opciones": [
             "Increasing frame rate",
             "Decreasing line density",
             "Lowering frequency",
             "Increasing depth"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Increasing frame rate"
         ],
         "concept_to_study": "Temporal Resolution and Frame Rate",
         "explanation": "Temporal resolution refers to the ability to accurately visualize motion over time. Increasing the frame rate, which is the number of images displayed per second, directly improves temporal resolution. This can be achieved by reducing imaging depth, narrowing the imaging sector, or decreasing the number of focal zones. Sonographers have control over these settings and can optimize them based on the imaging requirements."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "165",
-        "question_type": "multiple_choice",
-        "question": "Focusing primarily enhances which type of resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "165",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Focusing primarily enhances which type of resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Lateral resolution",
             "Temporal resolution",
             "Axial resolution",
             "Contrast resolution"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Lateral resolution"
         ],
         "concept_to_study": "Focusing and Lateral Resolution",
         "explanation": "Lateral resolution, also called angular resolution or side-by-side resolution, is the ability to distinguish two structures that are perpendicular to the sound beam. Focusing the beam, either by adjusting the transducer or using dynamic focusing, narrows the beam width and improves lateral resolution. This adjustment is typically under the sonographer's control."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "166",
-        "question_type": "multiple_choice",
-        "question": "Sound with a short pulse duration improves which resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "166",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Sound with a short pulse duration improves which resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Axial",
             "Lateral",
             "Temporal",
             "None of the above"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Axial"
         ],
         "concept_to_study": "Axial Resolution",
         "explanation": "Axial resolution, also known as longitudinal resolution or depth resolution, is enhanced by shorter pulse durations. Shorter pulses result in better differentiation of closely spaced structures along the axis of the ultrasound beam. Axial resolution improves with higher frequency transducers and reduced pulse durations, and the sonographer has control over transducer frequency settings."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "167",
-        "question_type": "multiple_choice",
-        "question": "What directly affects spatial resolution?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "167",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What directly affects spatial resolution?",
         "image": "",
-        "options": [
+        "opciones": [
             "Pulse frequency",
             "Acoustic impedance",
             "Echo enhancement",
             "Doppler effect"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Pulse frequency"
         ],
         "concept_to_study": "Factors Influencing Spatial Resolution",
@@ -5979,126 +5979,126 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Doppler Imaging Concepts",
-        "group": "31",
-        "question_type": "multiple_choice",
-        "question": "Which index is used to assess the likelihood of cavitation?",
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "31",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which index is used to assess the likelihood of cavitation?",
         "image": "",
-        "options": [
+        "opciones": [
             "Mechanical index (MI)",
             "Thermal index (TI)",
             "Spatial peak temporal average (SPTA)",
             "Spatial peak pulse average (SPPA)"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Mechanical index (MI)"
         ],
         "concept_to_study": "Mechanical Index (MI)",
         "explanation": "The Mechanical Index (MI) is a parameter used in diagnostic ultrasound to evaluate the risk of cavitation, a phenomenon where microbubbles form in tissue due to acoustic pressure. A higher MI indicates a greater likelihood of cavitation, which can cause mechanical damage to tissue."
     },
     {
-        "classification": "Doppler Imaging Concepts",
-        "group": "32",
-        "question_type": "multiple_choice",
-        "question": "What is the primary concern of ultrasound exposure during pregnancy?",
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "32",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the primary concern of ultrasound exposure during pregnancy?",
         "image": "",
-        "options": [
+        "opciones": [
             "Thermal effects",
             "Mechanical effects",
             "Radiation exposure",
             "Magnetic interference"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Thermal effects"
         ],
         "concept_to_study": "Thermal Effects in Pregnancy",
         "explanation": "Thermal effects refer to the increase in tissue temperature caused by ultrasound energy absorption. During pregnancy, prolonged exposure to high-intensity ultrasound could potentially impact fetal development. Maintaining thermal indices within recommended limits minimizes these risks, ensuring safe imaging practices."
     },
     {
-        "classification": "Doppler Imaging Concepts",
-        "group": "33",
-        "question_type": "multiple_choice",
-        "question": "Which of the following is a confirmed bioeffect of diagnostic ultrasound?",
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "33",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following is a confirmed bioeffect of diagnostic ultrasound?",
         "image": "",
-        "options": [
+        "opciones": [
             "None confirmed at diagnostic levels",
             "Tissue necrosis",
             "Chromosomal damage",
             "Cancer induction"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "None confirmed at diagnostic levels"
         ],
         "concept_to_study": "Bioeffects of Diagnostic Ultrasound",
         "explanation": "Research has shown that diagnostic ultrasound, when used appropriately, has not been associated with confirmed bioeffects at clinical levels. This conclusion underscores its safety as a diagnostic tool, provided practitioners adhere to established guidelines, including ALARA (As Low As Reasonably Achievable) principles."
     },
     {
-        "classification": "Physical Principles",
-        "group": "78",
-        "question_type": "multiple_choice",
-        "question": "Which artifact is characterized by the appearance of a duplicate structure on the opposite side of a strong reflector?",
+        "clasificacion": "Physical Principles",
+        "grupo": "78",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which artifact is characterized by the appearance of a duplicate structure on the opposite side of a strong reflector?",
         "image": "",
-        "options": [
+        "opciones": [
             "Mirror image artifact",
             "Reverberation artifact",
             "Comet tail artifact",
             "Ring down artifact"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Mirror image artifact"
         ],
         "concept_to_study": "Mirror Image Artifact",
         "explanation": "The mirror image artifact occurs when ultrasound waves are reflected back and forth between two highly reflective surfaces, creating a duplicate image on the opposite side of the true structure. This artifact is commonly observed near large interfaces such as the diaphragm or pleura."
     },
     {
-        "classification": "Physical Principles",
-        "group": "79",
-        "question_type": "multiple_choice",
-        "question": "What is the primary cause of aliasing in Doppler ultrasound?",
+        "clasificacion": "Physical Principles",
+        "grupo": "79",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the primary cause of aliasing in Doppler ultrasound?",
         "image": "",
-        "options": [
+        "opciones": [
             "Exceeding the Nyquist limit",
             "Low frequency transducer",
             "High frame rate",
             "Beam width"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Exceeding the Nyquist limit"
         ],
         "concept_to_study": "Nyquist Limit and Aliasing",
         "explanation": "Aliasing in Doppler ultrasound arises when the measured frequency shift exceeds the Nyquist limit, which is half the pulse repetition frequency (PRF). This results in velocity data wrapping around the scale, creating an artifact. Proper adjustment of PRF and transducer settings can minimize aliasing."
     },
     {
-        "classification": "Physical Principles",
-        "group": "80",
-        "question_type": "multiple_choice",
-        "question": "Which artifact results from the presence of strong reflectors causing multiple reflections?",
+        "clasificacion": "Physical Principles",
+        "grupo": "80",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which artifact results from the presence of strong reflectors causing multiple reflections?",
         "image": "",
-        "options": [
+        "opciones": [
             "Reverberation artifact",
             "Shadowing artifact",
             "Enhancement artifact",
             "Comet tail artifact"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Reverberation artifact"
         ],
         "concept_to_study": "Reverberation Artifact",
         "explanation": "Reverberation artifacts are created by the repeated bouncing of ultrasound waves between strong reflectors, leading to multiple equally spaced echoes. This results in the display of additional, false structures on the image and may complicate accurate interpretation."
     },
     {
-        "classification": "Physical Principles",
-        "group": "81",
-        "question_type": "multiple_choice",
-        "question": "What is the effect of clutter in Doppler ultrasound?",
+        "clasificacion": "Physical Principles",
+        "grupo": "81",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the effect of clutter in Doppler ultrasound?",
         "image": "",
-        "options": [
+        "opciones": [
             "It obscures low-velocity signals",
             "It enhances high-velocity signals",
             "It increases frame rate",
             "It reduces aliasing"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "It obscures low-velocity signals"
         ],
         "concept_to_study": "Clutter in Doppler Ultrasound",
@@ -8135,8 +8135,8 @@
         "respuesta_correcta": [
             "Streaming"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Streaming",
+        "explicacion_openai": "Streaming refers to the motion or flow of fluids induced by an acoustic field, often caused by ultrasound waves. Acoustic streaming occurs due to the force exerted by sound waves on the fluid, creating pressure gradients and steady particle movement. In contrast:\n\n- **Cavitation** involves the formation and collapse of gas bubbles due to pressure changes but doesn't describe fluid motion.\n- **Hydrostatic pressure** refers to the pressure exerted by a stationary fluid.\n- **Radiation forces** affect particles and surfaces, contributing to motion but don't directly describe fluid flow.\n\nAcoustic streaming is significant in applications like ultrasound therapy and diagnostic imaging, where fluid movement can enhance tissue healing or improve resolution."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -8715,90 +8715,90 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Physical Principles",
-        "group": "118",
-        "question_type": "multiple_choice",
-        "question": "As sound travels through the human body, its intensity decreases because of:",
+        "clasificacion": "Physical Principles",
+        "grupo": "118",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "As sound travels through the human body, its intensity decreases because of:",
         "image": "",
-        "options": [
+        "opciones": [
             "Refraction",
             "Huygen´s principle",
             "Elevational resolution",
             "Attenuation"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Attenuation"
         ],
         "concept_to_study": "Attenuation",
         "explanation": "Attenuation is the reduction in sound wave intensity as it travels through the body due to absorption, reflection, and scattering. It is influenced by tissue properties and frequency; higher frequencies experience greater attenuation."
     },
     {
-        "classification": "Physical Principles",
-        "group": "119",
-        "question_type": "multiple_choice",
-        "question": "What is the total attenuation if a 6.0-MHz ultrasound beam travels through 4 cm of soft tissue?",
+        "clasificacion": "Physical Principles",
+        "grupo": "119",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the total attenuation if a 6.0-MHz ultrasound beam travels through 4 cm of soft tissue?",
         "image": "",
-        "options": [
+        "opciones": [
             "1.5 dB",
             "6 dB",
             "12 dB",
             "24 dB"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "12 dB"
         ],
         "concept_to_study": "Attenuation Calculation",
         "explanation": "Attenuation is the reduction in sound wave intensity as it travels through tissue, measured in decibels (dB). This calculation assumes an ultrasound beam with a frequency of 6.0 MHz traveling through 4 cm of soft tissue. The attenuation coefficient for soft tissue is typically 0.5 dB/cm/MHz, meaning for every megahertz of frequency and every centimeter of depth, the beam loses 0.5 dB of intensity. Using the formula: attenuation (dB) = frequency (MHz) × depth (cm) × attenuation coefficient, the total attenuation is calculated as 6.0 MHz × 4 cm × 0.5 dB/cm/MHz = 12 dB."
     },
     {
-        "classification": "Physical Principles",
-        "group": "120",
-        "question_type": "multiple_choice",
-        "question": "When imaging depth increases, the Pulse Repetition Period (PRP):",
+        "clasificacion": "Physical Principles",
+        "grupo": "120",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "When imaging depth increases, the Pulse Repetition Period (PRP):",
         "image": "",
-        "options": [
+        "opciones": [
             "Doubles",
             "Decreases",
             "Increases",
             "Stays the same"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Increases"
         ],
         "concept_to_study": "Pulse Repetition Period (PRP)",
         "explanation": "The Pulse Repetition Period (PRP) refers to the time between successive ultrasound pulses. As imaging depth increases, the PRP also increases to allow sound waves to travel deeper and return to the transducer before the next pulse is emitted."
     },
     {
-        "classification": "Physical Principles",
-        "group": "121",
-        "question_type": "multiple_choice",
-        "question": "Duty Factor (DF) is measured in:",
+        "clasificacion": "Physical Principles",
+        "grupo": "121",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Duty Factor (DF) is measured in:",
         "image": "",
-        "options": [
+        "opciones": [
             "It is unitless",
             "Hertz (Hz)",
             "Decibels per centimeter (dB/cm)",
             "Decibels (dB)"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "It is unitless"
         ],
         "concept_to_study": "Duty Factor (DF)",
         "explanation": "The Duty Factor (DF) is a percentage that describes the fraction of time an ultrasound system actively transmits sound waves during a pulse cycle. It is unitless because it represents a ratio or percentage, rather than a physical quantity. In pulse wave (PW) Doppler, the duty factor is typically very low (e.g., around 0.1% to 1%) because the system spends most of its time listening for returning echoes. Conversely, in continuous wave (CW) Doppler, the duty factor approaches 100% since the transducer continuously transmits and receives signals. For example, a PW Doppler system transmitting for 1 microsecond out of a total cycle of 100 microseconds would have a DF of 1%, while CW Doppler effectively maintains a DF of 100%."
     },
     {
-        "classification": "Physical Principles",
-        "group": "122",
-        "question_type": "multiple_choice",
-        "question": "The percentage of time an ultrasound system transmits pulses is described by the:",
+        "clasificacion": "Physical Principles",
+        "grupo": "122",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "The percentage of time an ultrasound system transmits pulses is described by the:",
         "image": "",
-        "options": [
+        "opciones": [
             "Pulse Repetition Frequency (PRF)",
             "Duty Factor (DF)",
             "Pulse Duration (PD)",
             "Pulse Repetition Period (PRP)"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Duty Factor (DF)"
         ],
         "concept_to_study": "Duty Factor (DF)",
@@ -9831,90 +9831,90 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "210",
-        "question_type": "multiple_choice",
-        "question": "Temporal resolution is related to which aspect?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "210",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Temporal resolution is related to which aspect?",
         "image": "",
-        "options": [
+        "opciones": [
             "Lateral resolution",
             "Frame rate",
             "Range ambiguity",
             "Element diameter"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Frame rate"
         ],
         "concept_to_study": "Temporal Resolution",
         "explanation": "Temporal resolution is directly tied to the frame rate, which represents the number of images displayed per second. Factors that improve frame rate include decreasing imaging depth, reducing the number of focal zones, and narrowing the imaging sector. Conversely, increasing depth, adding more focal zones, or widening the sector size can reduce the frame rate, leading to poorer temporal resolution. Balancing these variables is critical in ultrasound imaging of rapidly moving structures, such as the heart."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "211",
-        "question_type": "multiple_choice",
-        "question": "Which of the following may also be referred to as the far zone?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "211",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following may also be referred to as the far zone?",
         "image": "",
-        "options": [
+        "opciones": [
             "Frame zone",
             "Fresnel zone",
             "Fraunhofer zone",
             "Frankincense zone"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Fraunhofer zone"
         ],
         "concept_to_study": "Fraunhofer Zone (Far Zone)",
         "explanation": "The Fraunhofer zone, or far zone, is the portion of the ultrasound beam beyond the near field where the beam starts to diverge. It is characterized by reduced intensity and less uniformity of the ultrasound signal."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "212",
-        "question_type": "multiple_choice",
-        "question": "What states that waves are the result of the interference of many wavelets produced at the face of the transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "212",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What states that waves are the result of the interference of many wavelets produced at the face of the transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "Curie's principle",
             "Snell's law",
             "Bernoulli's law",
             "Huygen's principle"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Huygen's principle"
         ],
         "concept_to_study": "Huygen's Principle",
         "explanation": "Huygen's Principle outlines how each point on the transducer surface generates secondary wavelets, and the combined interference of these wavelets forms the final ultrasound beam used for imaging."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "213",
-        "question_type": "multiple_choice",
-        "question": "Which of the following is the resolution in the third dimension of the beam?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "213",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following is the resolution in the third dimension of the beam?",
         "image": "",
-        "options": [
+        "opciones": [
             "Lateral resolution",
             "Elevational resolution",
             "Contrast resolution",
             "Longitudinal resolution"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Elevational resolution"
         ],
         "concept_to_study": "Elevational Resolution",
         "explanation": "Elevational resolution, also referred to as slice thickness resolution or Z-axis resolution, represents the ultrasound system's ability to differentiate structures in the third dimension of the beam, perpendicular to the imaging plane. It is improved by using narrow beam thickness, which can be achieved with 1.5D transducers or advanced matrix arrays. 1.5D transducers have multiple rows of elements that allow for focusing in the elevational plane, reducing beam thickness and improving image quality. Factors that worsen elevational resolution include wide beam thickness and improper transducer focus, which can lead to out-of-plane artifacts and reduced image clarity."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "214",
-        "question_type": "multiple_choice",
-        "question": "Which of the following is true concerning the frequency and the near-zone length, assuming a single-element, unfocused transducer?",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "214",
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following is true concerning the frequency and the near-zone length, assuming a single-element, unfocused transducer?",
         "image": "",
-        "options": [
+        "opciones": [
             "The higher the frequency, the longer the near-zone length",
             "The lower the frequency, the longer the near-zone length",
             "Frequency and near-zone length are not related",
             "Increasing the frequency causes divergence in the near field"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "The higher the frequency, the longer the near-zone length"
         ],
         "concept_to_study": "Frequency and Near-Zone Length",
@@ -10920,7 +10920,7 @@
             "Apodization",
             "Tissue harmonics",
             "Subdicing",
-            "All options are correct"
+            "All opciones are correct"
         ],
         "respuesta_correcta": [
             "All options are correct"
@@ -13265,8 +13265,8 @@
         "respuesta_correcta": [
             "Nosocomial shock"
         ],
-        "concept_to_study": "Shock Classification",
-        "explicacion_openai": "Distributive shock is generally classified into septic, anaphylactic, and neurogenic shock. 'Nosocomial shock' is not a recognized subcategory in the standard classification and instead refers to conditions acquired in a hospital. This question tests your ability to correctly categorize types of shock based on their underlying mechanisms."
+        "concept_to_study": "Shock clasificacion",
+        "explicacion_openai": "Distributive shock is generally classified into septic, anaphylactic, and neurogenic shock. 'Nosocomial shock' is not a recognized subcategory in the standard clasificacion and instead refers to conditions acquired in a hospital. This question tests your ability to correctly categorize types of shock based on their underlying mechanisms."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -14908,180 +14908,180 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Physical Principles",
-        "group": "200",
-        "question_type": "multiple_choice",
+        "clasificacion": "Physical Principles",
+        "grupo": "200",
+        "tipo_pregunta": "multiple_choice",
         "question": "Doubling the intensity results in what change to power?",
         "image": "",
-        "options": [
+        "opciones": [
             "It halves",
             "It doubles",
             "It increases by 10 dB",
             "It increases by 3 dB"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "It doubles"
         ],
         "concept_to_study": "Intensity and Power Relationship",
         "explanation": "Intensity is directly proportional to power. Doubling the intensity of an ultrasound beam means that the power also doubles. Understanding this relationship is crucial for managing safe output levels and ensuring image quality during ultrasound exams."
     },
     {
-        "classification": "Doppler Imaging Concepts",
-        "group": "88",
-        "question_type": "multiple_choice",
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "88",
+        "tipo_pregunta": "multiple_choice",
         "question": "What term refers to the number of pulses emitted per second?",
         "image": "",
-        "options": [
+        "opciones": [
             "Pulse repetition frequency",
             "Frequency",
             "Wavelength",
             "Beam width"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Pulse repetition frequency"
         ],
         "concept_to_study": "Pulse Repetition Frequency (PRF)",
         "explanation": "Pulse Repetition Frequency (PRF) represents the number of ultrasound pulses emitted by the transducer per second. PRF is adjustable by the sonographer and influences imaging depth and frame rate, critical for optimizing diagnostic quality."
     },
     {
-        "classification": "Doppler Imaging Concepts",
-        "group": "89",
-        "question_type": "multiple_choice",
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "89",
+        "tipo_pregunta": "multiple_choice",
         "question": "On a spectral Doppler waveform, what is plotted along the x-axis?",
         "image": "",
-        "options": [
+        "opciones": [
             "Velocity",
             "Amplitude",
             "Time",
             "Frequency shift"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Time"
         ],
         "concept_to_study": "Spectral Doppler Waveform",
         "explanation": "In a spectral Doppler waveform, the x-axis represents time, while the y-axis displays velocity or frequency shift. This graphical representation helps analyze blood flow patterns over time and is crucial for vascular assessments."
     },
     {
-        "classification": "Physical Principles",
-        "group": "201",
-        "question_type": "multiple_choice",
+        "clasificacion": "Physical Principles",
+        "grupo": "201",
+        "tipo_pregunta": "multiple_choice",
         "question": "What is the unit for spatial pulse length?",
         "image": "",
-        "options": [
+        "opciones": [
             "mm/s",
             "m",
             "cm/s",
             "wavelength"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "m"
         ],
         "concept_to_study": "Spatial Pulse Length (SPL)",
         "explanation": "The unit for spatial pulse length (SPL) is meters (m) or its subunits, such as millimeters (mm). SPL is the distance that a pulse occupies in space and is directly related to axial resolution, which improves with shorter SPL."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "253",
-        "question_type": "multiple_choice",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "253",
+        "tipo_pregunta": "multiple_choice",
         "question": "Which device measures acoustic output (intensity) levels?",
         "image": "",
-        "options": [
+        "opciones": [
             "Oscilloscope",
             "Spectrum analyzer",
             "Calorimeter",
             "Hydrophone"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Hydrophone"
         ],
         "concept_to_study": "Measuring Acoustic Intensity",
         "explanation": "A hydrophone is used to measure acoustic output (intensity) levels of an ultrasound transducer. It records pressure variations and helps ensure safety standards for acoustic exposure are met during diagnostic imaging."
     },
     {
-        "classification": "Physical Principles",
-        "group": "202",
-        "question_type": "multiple_choice",
+        "clasificacion": "Physical Principles",
+        "grupo": "202",
+        "tipo_pregunta": "multiple_choice",
         "question": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
         "image": "",
-        "options": [
+        "opciones": [
             "Fourier's principle",
             "Newton's principle",
             "Huygen's principle",
             "Snell's principle"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Huygen's principle"
         ],
         "concept_to_study": "Huygen's Principle",
         "explanation": "Huygen's Principle explains that each point on the transducer surface acts as a source of secondary wavelets. The interference of these wavelets results in the formation of the ultrasound beam. This principle underlies beam formation and influences resolution and beam shape."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "185",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "185",
+        "tipo_pregunta": "multiple_choice",
         "question": "In tissue harmonic imaging, the utilized frequency is:",
         "image": "",
-        "options": [
+        "opciones": [
             "Fundamental frequency",
             "Double the fundamental frequency",
             "Half the fundamental frequency",
             "Triple the fundamental frequency"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Double the fundamental frequency"
         ],
         "concept_to_study": "Tissue Harmonic Imaging",
         "explanation": "In tissue harmonic imaging, the system utilizes the second harmonic frequency, which is double the fundamental frequency. This technique enhances image quality by reducing side lobe artifacts and improving contrast resolution. The harmonic signals are generated within the tissue itself due to nonlinear propagation of sound waves."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "186",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "186",
+        "tipo_pregunta": "multiple_choice",
         "question": "In B-mode imaging, where is amplitude represented?",
         "image": "",
-        "options": [
+        "opciones": [
             "x-axis",
             "y-axis",
             "z-axis",
             "t-axis"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "z-axis"
         ],
         "concept_to_study": "Amplitude in B-mode Imaging",
         "explanation": "In B-mode imaging (Brightness mode), the amplitude of the returning echo is represented on the z-axis, while the x-axis corresponds to lateral position and the y-axis corresponds to depth. The brightness of the displayed pixel is determined by the amplitude of the echo, providing a grayscale representation of tissue structures."
     },
     {
-        "classification": "Ultrasound Transducers",
-        "group": "254",
-        "question_type": "multiple_choice",
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "254",
+        "tipo_pregunta": "multiple_choice",
         "question": "What determines the radial resolution of an ultrasound system?",
         "image": "",
-        "options": [
+        "opciones": [
             "Axial resolution",
             "Temporal resolution",
             "Spatial pulse length",
             "Beam frequency"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Spatial pulse length"
         ],
         "concept_to_study": "Radial (Axial) Resolution",
         "explanation": "Radial resolution, also known as axial or longitudinal resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing closer structures along the beam axis to be distinguished. Sonographers can enhance axial resolution by using higher-frequency transducers or optimizing pulse duration."
     },
     {
-        "classification": "Physical Principles",
-        "group": "203",
-        "question_type": "multiple_choice",
+        "clasificacion": "Physical Principles",
+        "grupo": "203",
+        "tipo_pregunta": "multiple_choice",
         "question": "Axial resolution can be enhanced by:",
         "image": "",
-        "options": [
+        "opciones": [
             "Wavelength and intensity",
             "Number of cycles in a pulse, wavelength",
             "Beam width and frequency",
             "Depth and focus"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Number of cycles in a pulse, wavelength"
         ],
         "concept_to_study": "Enhancing Axial Resolution",
@@ -15862,108 +15862,108 @@
         "explicacion_openai": ""
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "131",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "131",
+        "tipo_pregunta": "multiple_choice",
         "question": "During a fetal ultrasound, the sonographer observes a high mechanical index (MI). Which action is MOST appropriate to address this?",
         "image": "",
-        "options": [
+        "opciones": [
             "Increase the frame rate.",
             "Lower the output power.",
             "Increase the depth of the field of view.",
             "Switch to a higher frequency transducer."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Lower the output power."
         ],
         "concept_to_study": "Adjusting for High Mechanical Index (MI)",
         "explanation": "Lowering the output power is the most appropriate action to reduce a high mechanical index (MI), as MI is directly related to the ultrasound wave's peak negative pressure. By reducing the output power, the risk of cavitation bioeffects is minimized, especially critical during sensitive exams like fetal ultrasounds."
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "132",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "132",
+        "tipo_pregunta": "multiple_choice",
         "question": "To reduce the risk of cavitation bioeffects indicated by a high MI, the sonographer should primarily:",
         "image": "",
-        "options": [
+        "opciones": [
             "Adjust the time gain compensation (TGC).",
             "Decrease the output power.",
             "Increase the pulse repetition frequency (PRF).",
             "Use a contrast agent."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Decrease the output power."
         ],
         "concept_to_study": "Cavitation Bioeffects and MI",
         "explanation": "Cavitation bioeffects, associated with high MI values, result from increased mechanical stress on tissues due to ultrasound waves. Decreasing the output power reduces the peak negative pressure and lowers the risk of cavitation, making it the primary action to address this concern."
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "133",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "133",
+        "tipo_pregunta": "multiple_choice",
         "question": "If the mechanical index (MI) exceeds acceptable limits during an exam, what is the FIRST adjustment a sonographer should make?",
         "image": "",
-        "options": [
+        "opciones": [
             "Increase the overall gain.",
             "Decrease the output power.",
             "Increase the acoustic focusing.",
             "Change the transducer frequency."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Decrease the output power."
         ],
         "concept_to_study": "Managing High MI",
         "explanation": "The first adjustment a sonographer should make when the mechanical index (MI) exceeds acceptable limits is to decrease the output power. This directly lowers the peak negative pressure of the ultrasound wave, bringing the MI back within safe levels and reducing potential bioeffects."
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "134",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "134",
+        "tipo_pregunta": "multiple_choice",
         "question": "Which parameter is MOST directly related to the mechanical index (MI) in ultrasound imaging?",
         "image": "",
-        "options": [
+        "opciones": [
             "Receiver gain",
             "Output power",
             "Dynamic range",
             "Frame rate"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Output power"
         ],
         "concept_to_study": "Mechanical Index and Output Power",
         "explanation": "The mechanical index (MI) is most directly related to the output power. MI is influenced by the peak negative pressure of the ultrasound wave, which is determined by the transmit power. Increasing output power increases the MI, indicating a higher risk of mechanical bioeffects like cavitation."
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "135",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "135",
+        "tipo_pregunta": "multiple_choice",
         "question": "An elevated mechanical index (MI) reading suggests an increased risk of:",
         "image": "",
-        "options": [
+        "opciones": [
             "Thermal bioeffects.",
             "Cavitation bioeffects.",
             "Attenuation artifacts.",
             "Reverberation artifacts."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Cavitation bioeffects."
         ],
         "concept_to_study": "Elevated MI and Cavitation",
         "explanation": "An elevated mechanical index (MI) indicates a higher likelihood of cavitation bioeffects. Cavitation occurs when rapid changes in pressure create microbubbles in tissues, which can collapse violently and cause mechanical damage."
     },
     {
-        "classification": "Clinical Safety, Patient Care, and Quality Assurance",
-        "group": "136",
-        "question_type": "multiple_choice",
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "136",
+        "tipo_pregunta": "multiple_choice",
         "question": "What action BEST reduces the likelihood of exceeding the recommended mechanical index (MI) during an ultrasound examination?",
         "image": "",
-        "options": [
+        "opciones": [
             "Increasing the imaging depth.",
             "Using a lower frequency transducer.",
             "Decreasing the output power.",
             "Increasing the number of focal zones."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Decreasing the output power."
         ],
         "concept_to_study": "Reducing High MI Levels",
@@ -16295,126 +16295,126 @@
         "explicacion_openai": "The attenuation coefficient measures the reduction in intensity of an ultrasound wave as it travels through soft tissue. It is commonly approximated as proportional to frequency, meaning higher frequency waves experience greater attenuation. The relationship 'Frequency / 2' simplifies this concept, showing that for every unit increase in frequency, attenuation increases proportionally. This is essential for balancing depth penetration and image resolution during ultrasound imaging."
     },
     {
-        "classification": "Physical Principles",
-        "group": "224",
-        "question_type": "calculation",
+        "clasificacion": "Physical Principles",
+        "grupo": "224",
+        "tipo_pregunta": "calculation",
         "question": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
         "image": "",
-        "options": [
+        "opciones": [
             "16 µs",
             "32 µs",
             "48 µs",
             "64 µs"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "32 µs"
         ],
         "concept_to_study": "Time of Flight and Soft Tissue",
         "explanation": "The time of flight (round trip) for ultrasound in soft tissue is calculated using the fact that sound travels at 1540 m/s in soft tissue. The depth of the reflector is 2.5 cm, so the round-trip distance is 2 × 2.5 = 5 cm (or 0.05 m). Time = Distance / Speed, so 0.05 m / 1540 m/s = 32 µs."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "190",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "190",
+        "tipo_pregunta": "multiple_choice",
         "question": "Which method maintains pixel density when enlarging an image?",
         "image": "",
-        "options": [
+        "opciones": [
             "Area magnification",
             "Write magnification",
             "Nearest neighbor scaling",
             "Linear magnification"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Write magnification"
         ],
         "concept_to_study": "Write Magnification and Pixel Density",
         "explanation": "Write magnification maintains pixel density by re-acquiring data and scanning the region of interest with a higher pixel density during pre-processing. Unlike read magnification, this method improves spatial resolution, providing a clearer, higher-quality image."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "191",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "191",
+        "tipo_pregunta": "multiple_choice",
         "question": "What is the primary advantage of write magnification over read magnification?",
         "image": "",
-        "options": [
+        "opciones": [
             "Faster processing time",
             "Improved spatial resolution",
             "Larger field of view",
             "Reduced file size"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Improved spatial resolution"
         ],
         "concept_to_study": "Advantages of Write Magnification",
         "explanation": "The primary advantage of write magnification is improved spatial resolution. By re-scanning the region of interest with a higher pixel density, write magnification creates a clearer and more detailed image compared to read magnification, which simply enlarges existing data without improving resolution."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "192",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "192",
+        "tipo_pregunta": "multiple_choice",
         "question": "Read magnification is performed during which stage of image processing?",
         "image": "",
-        "options": [
+        "opciones": [
             "Pre-processing",
             "Post-processing",
             "Data acquisition",
             "Analog-to-digital conversion"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Post-processing"
         ],
         "concept_to_study": "Read Magnification",
         "explanation": "Read magnification is a post-processing technique that enlarges an image by magnifying the existing stored data. Unlike write magnification, it does not re-scan the region of interest or increase pixel density, which means spatial resolution remains unchanged."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "193",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "193",
+        "tipo_pregunta": "multiple_choice",
         "question": "Which type of magnification re-scans the region of interest with a higher pixel density?",
         "image": "",
-        "options": [
+        "opciones": [
             "Read magnification",
             "Write magnification",
             "Zoom magnification",
             "Pan magnification"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Write magnification"
         ],
         "concept_to_study": "Write Magnification and Rescanning",
         "explanation": "Write magnification is a pre-processing method that re-scans the region of interest with a higher pixel density. This results in improved spatial resolution and a more detailed image, making it a preferred method for diagnostic accuracy."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "194",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "194",
+        "tipo_pregunta": "multiple_choice",
         "question": "What happens to the original data when using read magnification?",
         "image": "",
-        "options": [
+        "opciones": [
             "The original data is discarded.",
             "The original data is re-scanned.",
             "The original data is maintained and enlarged.",
             "The original data is compressed."
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "The original data is maintained and enlarged."
         ],
         "concept_to_study": "Original Data in Read Magnification",
         "explanation": "When using read magnification, the original data is preserved and enlarged to create a magnified image. This method, however, does not increase pixel density or spatial resolution, as it relies on the existing stored data."
     },
     {
-        "classification": "Imaging Principles and Instrumentation",
-        "group": "195",
-        "question_type": "multiple_choice",
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": "195",
+        "tipo_pregunta": "multiple_choice",
         "question": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
         "image": "",
-        "options": [
+        "opciones": [
             "Write Magnification",
             "Read Magnification",
             "Acoustic Zoom",
             "Panoramic Imaging"
         ],
-        "correct_answer": [
+        "respuesta_correcta": [
             "Read Magnification"
         ],
         "concept_to_study": "Reducing Noise with Read Magnification",
@@ -21263,5 +21263,851 @@
         ],
         "concept_to_study": "Amplitude and energy relationship",
         "explicacion_openai": "Amplitude is directly related to the energy carried by a sound wave. A wave with higher amplitude transmits greater energy because the maximum variation in the acoustic variable (such as pressure or particle displacement) is larger. For example, in medical ultrasound, increasing amplitude enhances the energy of sound waves, which can improve the strength of echoes and visibility of deeper structures, but also requires balancing to avoid harming tissues."
-    }
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "107",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are unable to eliminate aliasing in a pulsed-wave Doppler spectrum using PRF adjustments and transducer frequency changes. What alternative technique could you try?",
+        "image": "",
+        "opciones": [
+            "Increase the Doppler angle significantly.",
+            "Switch to power Doppler.",
+            "Switch to continuous wave Doppler.",
+            "Decrease the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Switch to continuous wave Doppler."
+        ],
+        "concept_to_study": "CW Doppler",
+        "explicacion_openai": "When pulsed-wave Doppler's limitations are reached, continuous wave Doppler can accurately measure high velocities without aliasing, as it is the only modality not limited by the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "108",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can you minimize aliasing in pulsed-wave Doppler aside from increasing PRF?",
+        "image": "",
+        "opciones": [
+            "Use a lower frequency transducer.",
+            "Increase wall filter settings.",
+            "Switch to color Doppler.",
+            "Decrease the sample volume depth."
+        ],
+        "respuesta_correcta": [
+            "Use a lower frequency transducer."
+        ],
+        "concept_to_study": "Aliasing Management",
+        "explicacion_openai": "Using a lower frequency transducer reduces the Doppler shift, helping to stay within the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "109",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is a key advantage of continuous wave Doppler over pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Higher resolution at shallow depths.",
+            "Ability to measure high velocities without aliasing.",
+            "Improved sensitivity to low flow rates.",
+            "Reduced clutter artifact."
+        ],
+        "respuesta_correcta": [
+            "Ability to measure high velocities without aliasing."
+        ],
+        "concept_to_study": "CW Doppler",
+        "explicacion_openai": "Continuous wave Doppler is not limited by the Nyquist limit, allowing for accurate high-velocity measurements."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "110",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the Nyquist limit represent in Doppler imaging?",
+        "image": "",
+        "opciones": [
+            "The maximum velocity measurable without aliasing.",
+            "The lowest detectable flow rate.",
+            "The range resolution limit in ultrasound.",
+            "The PRF divided by the transducer frequency."
+        ],
+        "respuesta_correcta": [
+            "The maximum velocity measurable without aliasing."
+        ],
+        "concept_to_study": "Nyquist Limit",
+        "explicacion_openai": "The Nyquist limit represents the maximum velocity that can be measured accurately in pulsed-wave Doppler without encountering aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "111",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when the Doppler shift exceeds the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "A wider bandwidth is generated.",
+            "Aliasing occurs.",
+            "The PRF automatically increases.",
+            "The Doppler signal is amplified."
+        ],
+        "respuesta_correcta": [
+            "Aliasing occurs."
+        ],
+        "concept_to_study": "Aliasing",
+        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit, leading to misrepresentation of flow direction or velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "112",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What adjustment can reduce aliasing in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Increasing PRF.",
+            "Decreasing PRF.",
+            "Using continuous wave Doppler.",
+            "Changing the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Increasing PRF."
+        ],
+        "concept_to_study": "PRF Adjustment",
+        "explicacion_openai": "Increasing the PRF raises the Nyquist limit, reducing the likelihood of aliasing in pulsed-wave Doppler."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "113",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why is the Nyquist limit lower for deeper sample volumes in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "Because the PRF is inversely proportional to the depth.",
+            "Because of increased attenuation.",
+            "Because of higher frequency shifts at deeper depths.",
+            "Because the speed of sound increases with depth."
+        ],
+        "respuesta_correcta": [
+            "Because the PRF is inversely proportional to the depth."
+        ],
+        "concept_to_study": "Nyquist Limit and Depth",
+        "explicacion_openai": "The PRF decreases as the depth increases, which lowers the Nyquist limit and increases the risk of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "114",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What technique helps visualize blood flow in deeper vessels without aliasing?",
+        "image": "",
+        "opciones": [
+            "Increasing transducer frequency.",
+            "Using continuous wave Doppler.",
+            "Switching to M-mode.",
+            "Decreasing Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Using continuous wave Doppler."
+        ],
+        "concept_to_study": "CW Doppler for Deep Flow",
+        "explicacion_openai": "Continuous wave Doppler allows for visualization of flow in deeper vessels without the limitation of Nyquist aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "115",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler mode is most affected by the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "Pulsed-wave Doppler",
+            "Continuous wave Doppler",
+            "Color Doppler",
+            "Power Doppler"
+        ],
+        "respuesta_correcta": [
+            "Pulsed-wave Doppler"
+        ],
+        "concept_to_study": "Nyquist Limitation",
+        "explicacion_openai": "Pulsed-wave Doppler is inherently limited by the Nyquist limit, making it more susceptible to aliasing compared to other modes."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "116",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the impact of increasing the pulse repetition frequency (PRF) on the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "It lowers the Nyquist limit.",
+            "It raises the Nyquist limit.",
+            "It has no effect on the Nyquist limit.",
+            "It inverts the Doppler signal polarity."
+        ],
+        "respuesta_correcta": [
+            "It raises the Nyquist limit."
+        ],
+        "concept_to_study": "PRF and Nyquist",
+        "explicacion_openai": "Increasing the PRF extends the Nyquist limit, allowing the measurement of higher velocities without aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "117",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the role of the wall filter in Doppler imaging?",
+        "image": "",
+        "opciones": [
+            "Eliminate low frequency signals from tissue motion.",
+            "Increase signal gain for deep vessels.",
+            "Filter out high frequency noise.",
+            "Enhance the resolution of the Doppler spectrum."
+        ],
+        "respuesta_correcta": [
+            "Eliminate low frequency signals from tissue motion."
+        ],
+        "concept_to_study": "Wall Filter",
+        "explicacion_openai": "The wall filter is used to eliminate low frequency signals caused by tissue motion, thus reducing clutter in the Doppler signal."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "118",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which factor does NOT affect the Nyquist limit in pulsed-wave Doppler?",
+        "image": "",
+        "opciones": [
+            "PRF",
+            "Transducer frequency",
+            "Sample volume depth",
+            "Color map settings"
+        ],
+        "respuesta_correcta": [
+            "Color map settings"
+        ],
+        "concept_to_study": "Nyquist Influences",
+        "explicacion_openai": "The Nyquist limit is primarily determined by PRF and sample volume depth, not by the color mapping settings."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "119",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler ultrasound, aliasing is most likely to occur when:",
+        "image": "",
+        "opciones": [
+            "Velocities exceed the maximum range set by the Nyquist limit.",
+            "Using continuous wave Doppler.",
+            "The angle correction is set to zero.",
+            "The power Doppler is used."
+        ],
+        "respuesta_correcta": [
+            "Velocities exceed the maximum range set by the Nyquist limit."
+        ],
+        "concept_to_study": "Aliasing Detection",
+        "explicacion_openai": "Aliasing typically occurs when the actual blood flow velocities exceed the maximum measurable velocity defined by the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "120",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What parameter can be adjusted to minimize aliasing, apart from increasing PRF?",
+        "image": "",
+        "opciones": [
+            "Using a steeper Doppler angle.",
+            "Decreasing the transducer frequency.",
+            "Decreasing the sample volume depth.",
+            "Increasing the color gain."
+        ],
+        "respuesta_correcta": [
+            "Decreasing the transducer frequency."
+        ],
+        "concept_to_study": "Aliasing Mitigation",
+        "explicacion_openai": "Reducing the transducer frequency decreases the Doppler shift, thereby reducing the likelihood of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "121",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler technique is less susceptible to aliasing and is often used to evaluate high velocity jets in the heart?",
+        "image": "",
+        "opciones": [
+            "Pulsed-wave Doppler",
+            "Continuous wave Doppler",
+            "Color Doppler",
+            "Spectral Doppler"
+        ],
+        "respuesta_correcta": [
+            "Continuous wave Doppler"
+        ],
+        "concept_to_study": "High Velocity Assessment",
+        "explicacion_openai": "Continuous wave Doppler, not being limited by the Nyquist constraint, is ideal for assessing high-velocity flows such as cardiac jets."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "122",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the main limitation of pulsed-wave Doppler when evaluating high velocity flows?",
+        "image": "",
+        "opciones": [
+            "Limited penetration.",
+            "Limited resolution.",
+            "Nyquist aliasing.",
+            "Excessive noise."
+        ],
+        "respuesta_correcta": [
+            "Nyquist aliasing."
+        ],
+        "concept_to_study": "Pulsed-wave Limitations",
+        "explicacion_openai": "Pulsed-wave Doppler is primarily limited by aliasing when the flow velocities exceed the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "123",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does adjusting the Doppler angle affect the measured velocity?",
+        "image": "",
+        "opciones": [
+            "It directly increases the actual velocity.",
+            "It results in underestimation of true velocity if the angle is not corrected.",
+            "It has no effect on the measurement.",
+            "It reverses the signal direction."
+        ],
+        "respuesta_correcta": [
+            "It results in underestimation of true velocity if the angle is not corrected."
+        ],
+        "concept_to_study": "Doppler Angle",
+        "explicacion_openai": "An incorrect Doppler angle without proper correction can lead to underestimation of the actual flow velocity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "124",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement is true regarding continuous wave Doppler and aliasing?",
+        "image": "",
+        "opciones": [
+            "It is immune to aliasing due to continuous sample data.",
+            "It shows aliasing only at low velocities.",
+            "It suffers from aliasing just like pulsed-wave Doppler.",
+            "It aliases only when the angle is incorrect."
+        ],
+        "respuesta_correcta": [
+            "It is immune to aliasing due to continuous sample data."
+        ],
+        "concept_to_study": "CW Doppler Characteristics",
+        "explicacion_openai": "Continuous wave Doppler does not suffer from aliasing because it continuously samples the Doppler signal without discrete pulses."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "125",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which parameter does NOT influence the occurrence of aliasing in Doppler measurements?",
+        "image": "",
+        "opciones": [
+            "PRF",
+            "Transducer frequency",
+            "Sample volume depth",
+            "Doppler gain settings"
+        ],
+        "respuesta_correcta": [
+            "Doppler gain settings"
+        ],
+        "concept_to_study": "Aliasing Influences",
+        "explicacion_openai": "Aliasing is affected by factors like PRF, transducer frequency, and sample volume depth, but gain settings do not alter the Nyquist limit."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "126",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In color Doppler, what does a mosaic pattern typically indicate?",
+        "image": "",
+        "opciones": [
+            "Uniform laminar flow.",
+            "High velocity fluctuations and turbulence.",
+            "Stationary tissue.",
+            "Low flow state."
+        ],
+        "respuesta_correcta": [
+            "High velocity fluctuations and turbulence."
+        ],
+        "concept_to_study": "Color Doppler Artifacts",
+        "explicacion_openai": "A mosaic pattern in color Doppler often reflects the presence of turbulent, high-velocity flow resulting in aliasing artifacts."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "127",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler imaging, why might reducing the depth of the sample volume help reduce aliasing?",
+        "image": "",
+        "opciones": [
+            "It increases the PRF and thus the Nyquist limit.",
+            "It decreases the resolution.",
+            "It increases the Doppler gain.",
+            "It has no effect on aliasing."
+        ],
+        "respuesta_correcta": [
+            "It increases the PRF and thus the Nyquist limit."
+        ],
+        "concept_to_study": "Depth and PRF",
+        "explicacion_openai": "Reducing the depth of the sample volume effectively increases the PRF, which raises the Nyquist limit and diminishes aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "128",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What effect does increasing the transducer frequency have on the Doppler signal?",
+        "image": "",
+        "opciones": [
+            "It decreases the Doppler shift.",
+            "It increases the Doppler shift.",
+            "It has no effect.",
+            "It reverses the flow direction."
+        ],
+        "respuesta_correcta": [
+            "It increases the Doppler shift."
+        ],
+        "concept_to_study": "Transducer Frequency",
+        "explicacion_openai": "A higher transducer frequency results in a larger Doppler frequency shift, which may also increase the risk of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "129",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a common method to verify the presence of aliasing in a Doppler study?",
+        "image": "",
+        "opciones": [
+            "Observing a sudden reversal of flow direction on the spectral display.",
+            "Increasing the gain settings.",
+            "Using M-mode imaging.",
+            "Decreasing the sample volume size."
+        ],
+        "respuesta_correcta": [
+            "Observing a sudden reversal of flow direction on the spectral display."
+        ],
+        "concept_to_study": "Aliasing Verification",
+        "explicacion_openai": "A sudden reversal or wrap-around of the spectral display is a hallmark sign of aliasing in Doppler ultrasound."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "130",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can adjusting the baseline shift help identify aliasing?",
+        "image": "",
+        "opciones": [
+            "It amplifies the Doppler signal.",
+            "It corrects the velocity scale.",
+            "It can reveal shifted flow patterns across the baseline.",
+            "It filters out noise."
+        ],
+        "respuesta_correcta": [
+            "It can reveal shifted flow patterns across the baseline."
+        ],
+        "concept_to_study": "Baseline Adjustment",
+        "explicacion_openai": "Adjusting the baseline can help in identifying aliasing by making any flow shift more apparent on the spectral display."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "131",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why might power Doppler be preferred over color Doppler in detecting low flow states?",
+        "image": "",
+        "opciones": [
+            "Because it is less sensitive to aliasing.",
+            "Because it provides directional information.",
+            "Because it amplifies high velocity flows.",
+            "Because it is less affected by edema."
+        ],
+        "respuesta_correcta": [
+            "Because it is less sensitive to aliasing."
+        ],
+        "concept_to_study": "Power Doppler",
+        "explicacion_openai": "Power Doppler is more sensitive to low flow signals and is less affected by aliasing, making it advantageous in detecting low flow states."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "201",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Given a PRF of 5 kHz (Nyquist limit = 2.5 kHz), if the measured Doppler shift is 3 kHz, will aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Depends on the Doppler angle.",
+            "It cannot be determined without more information."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "With a PRF of 5 kHz, the Nyquist limit is 2.5 kHz. Since the Doppler shift of 3 kHz exceeds this limit, aliasing occurs."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "202",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 5 kHz (Nyquist = 2.5 kHz), will aliasing occur if the Doppler shift is 2 kHz?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only in the presence of a low signal.",
+            "It depends on other settings."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "A Doppler shift of 2 kHz is below the Nyquist limit of 2.5 kHz, so aliasing does not occur."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "203",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is 8 kHz (Nyquist = 4 kHz) and a Doppler shift of 4.5 kHz is detected, will aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the gain is high.",
+            "It depends on the wall filter."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "The detected Doppler shift of 4.5 kHz exceeds the Nyquist limit of 4 kHz, resulting in aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "204",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 8 kHz (Nyquist = 4 kHz), does aliasing occur if the Doppler shift is 3.5 kHz?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "It depends on the PRF value.",
+            "It cannot be determined."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "A Doppler shift of 3.5 kHz is below the Nyquist limit of 4 kHz; therefore, aliasing does not occur."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "205",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is 10 kHz (Nyquist = 5 kHz) and the measured Doppler shift is exactly 5 kHz, will aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the Doppler angle is incorrect.",
+            "Depends on the transducer frequency."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Borderline Aliasing",
+        "explicacion_openai": "Theoretically, if the Doppler shift equals the Nyquist limit, aliasing does not occur (although it is a borderline situation)."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "206",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 6 kHz (Nyquist = 3 kHz), if a Doppler shift of 3.2 kHz is measured, will aliasing be present?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only in the presence of turbulence.",
+            "Only when using color Doppler."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "A Doppler shift of 3.2 kHz slightly exceeds the Nyquist limit of 3 kHz, resulting in aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "207",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 6 kHz (Nyquist = 3 kHz), will aliasing occur if the Doppler shift is 2.7 kHz?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "It depends on the transducer settings.",
+            "Depends on the Doppler mode used."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "Since a Doppler shift of 2.7 kHz is within the Nyquist limit of 3 kHz, aliasing does not occur."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "208",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is doubled from 4 kHz to 8 kHz, what will be the new Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "2 kHz",
+            "4 kHz",
+            "8 kHz",
+            "16 kHz"
+        ],
+        "respuesta_correcta": [
+            "4 kHz"
+        ],
+        "concept_to_study": "PRF and Nyquist - Nyquist Limit Calculation",
+        "explicacion_openai": "The Nyquist limit is half the PRF. Doubling the PRF from 4 kHz to 8 kHz changes the limit from 2 kHz to 4 kHz."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "209",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a transducer operates at a PRF of 7 kHz, the Nyquist limit is 3.5 kHz. Will aliasing occur if the measured Doppler shift is 3.5 kHz?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if there is background noise.",
+            "Depends on the Doppler angle setting."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Borderline Condition",
+        "explicacion_openai": "When the Doppler shift exactly matches the Nyquist limit, theoretically no aliasing is observed."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "210",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 7 kHz (Nyquist = 3.5 kHz), if a Doppler shift of 3.8 kHz is registered, does aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Additional filter adjustment is required.",
+            "It cannot be determined without more data."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Verification of Aliasing",
+        "explicacion_openai": "A Doppler shift of 3.8 kHz exceeds the Nyquist limit of 3.5 kHz, thereby causing aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "211",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a PRF of 12 kHz is set, what is the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "6 kHz",
+            "12 kHz",
+            "24 kHz",
+            "3 kHz"
+        ],
+        "respuesta_correcta": [
+            "6 kHz"
+        ],
+        "concept_to_study": "PRF and Nyquist - Limit Calculation",
+        "explicacion_openai": "The Nyquist limit is calculated by dividing the PRF by 2; therefore, 12 kHz / 2 = 6 kHz."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "212",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 12 kHz (Nyquist = 6 kHz), if a Doppler shift of 6.5 kHz is registered, will aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only in the presence of turbulence.",
+            "Depends on the gain balance."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "A Doppler shift of 6.5 kHz exceeds the Nyquist limit of 6 kHz, resulting in aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "213",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "For a PRF of 9 kHz (Nyquist = 4.5 kHz), does aliasing occur if a Doppler shift of 4.4 kHz is detected?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only at lower velocities.",
+            "Depends on the size of the sample volume."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Borderline Cases",
+        "explicacion_openai": "A Doppler shift of 4.4 kHz is slightly below the Nyquist limit of 4.5 kHz, so aliasing is not observed."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "214",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 9 kHz (Nyquist = 4.5 kHz), if a Doppler shift of 5.0 kHz is recorded, does aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the Doppler angle is adjusted.",
+            "Depends on the transducer sensitivity."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Verification of Excess",
+        "explicacion_openai": "The Doppler shift of 5.0 kHz exceeds the Nyquist limit of 4.5 kHz, resulting in aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "215",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a system sets the PRF to 15 kHz (Nyquist = 7.5 kHz) and a Doppler shift of 7.5 kHz is recorded, is aliasing observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only under high gain conditions.",
+            "Depends on the processing algorithm."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Borderline Condition",
+        "explicacion_openai": "When the Doppler shift exactly equals the Nyquist limit (7.5 kHz), theoretically aliasing is not observed."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "216",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 15 kHz (Nyquist = 7.5 kHz), if a Doppler shift of 8.1 kHz is recorded, would aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only with wall filter adjustment.",
+            "Depends on the type of probe used."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Detection of Excess",
+        "explicacion_openai": "The Doppler shift of 8.1 kHz exceeds the Nyquist limit of 7.5 kHz, causing aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "217",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a system with a PRF of 20 kHz (Nyquist = 10 kHz), if a Doppler shift of 10 kHz is recorded, will aliasing be present?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only when using color Doppler.",
+            "A higher PRF would be required to avoid it."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Borderline Condition",
+        "explicacion_openai": "A Doppler shift equal to the Nyquist limit (10 kHz) theoretically does not produce aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "218",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 20 kHz (Nyquist = 10 kHz), if a Doppler shift of 10.5 kHz is recorded, does aliasing occur?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only in the case of a low signal.",
+            "It cannot be determined without the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Verification of Excess",
+        "explicacion_openai": "A Doppler shift of 10.5 kHz exceeds the Nyquist limit of 10 kHz, resulting in aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "219",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 16 kHz, the Nyquist limit will be 8 kHz. Will aliasing occur if a Doppler shift of 7.2 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "A Doppler shift of 7.2 kHz is within the limit of 8 kHz, so aliasing does not occur."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": "220",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With a PRF of 16 kHz (Nyquist = 8 kHz), if the Doppler shift is 8.5 kHz, is aliasing observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only in the presence of turbulent flow.",
+            "Depends on the Doppler mode used."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
+        "explicacion_openai": "The Doppler shift of 8.5 kHz exceeds the Nyquist limit of 8 kHz, resulting in aliasing."
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": "302",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "According to the '13 µs rule', how long does it take for sound to travel 1 cm (round-trip) in soft tissue?",
+    "image": "",
+    "opciones": [
+        "13 µs",
+        "6.5 µs",
+        "26 µs",
+        "20 µs"
+    ],
+    "respuesta_correcta": [
+        "13 µs"
+    ],
+    "concept_to_study": "13 µs Rule",
+    "explanation_openai": "The '13 µs rule' states that sound takes a total of 13 microseconds (µs) to travel 1 cm round-trip in soft tissue. This total is divided into two equal parts: 6.5 µs for the sound to travel 1 cm to the target and another 6.5 µs for the sound to return to the transducer. This principle relies on the speed of sound in soft tissue, which is approximately 1540 m/s. It is a widely used concept in ultrasound imaging to help calculate distances accurately."
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": "303",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "If a round-trip time of 26 µs is measured, what is the distance to the reflector using the equation d = 0.77t?",
+    "image": "",
+    "opciones": [
+        "20 mm",
+        "26 mm",
+        "13 mm",
+        "33 mm"
+    ],
+    "respuesta_correcta": [
+        "20 mm"
+    ],
+    "concept_to_study": "Distance Calculation",
+    "explanation_openai": "To calculate the distance to the reflector, it's helpful to think in terms of the 13 µs rule:\n\n1. In 6.5 µs, sound travels **1 cm (10 mm)** one way.\n2. In 13 µs, sound travels **1 cm (10 mm) round-trip**. \n3. For 26 µs, double the 13 µs result, as it's two complete round-trips:\n   - Distance = 2 × 10 mm = **20 mm**.\n\nThis makes it easy to calculate without using the formula. Just remember:\n- **6.5 µs** = 1 cm (one way).\n- **13 µs** = 1 cm (round-trip).\n- Multiply accordingly for larger times!"
+}   
 ]
