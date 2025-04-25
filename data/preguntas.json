@@ -3996,7 +3996,7 @@
             "Damping material"
         ],
         "concept_to_study": "Damping Material in Transducers",
-        "explanation": "Damping material minimizes unwanted vibrations in the piezoelectric element, allowing for shorter pulses and improved axial resolution. By absorbing excessive oscillations, it ensures clearer and more precise imaging. Sonographers cannot directly adjust this material, as it is an integral transducer component."
+        "explicacion_openai": "Damping material minimizes unwanted vibrations in the piezoelectric element, allowing for shorter pulses and improved axial resolution. By absorbing excessive oscillations, it ensures clearer and more precise imaging. Sonographers cannot directly adjust this material, as it is an integral transducer component."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4014,7 +4014,7 @@
             "Matching layer"
         ],
         "concept_to_study": "Matching Layer and Impedance",
-        "explanation": "The matching layer reduces impedance mismatch between the piezoelectric element and the patient's skin, improving transmission of ultrasound waves. It enhances energy transfer and minimizes reflection losses. This component is integral to the transducer design and is not adjustable by the sonographer."
+        "explicacion_openai": "The matching layer reduces impedance mismatch between the piezoelectric element and the patient's skin, improving transmission of ultrasound waves. It enhances energy transfer and minimizes reflection losses. This component is integral to the transducer design and is not adjustable by the sonographer."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4032,7 +4032,7 @@
             "Focuses the ultrasound beam"
         ],
         "concept_to_study": "Acoustic Lens Functionality",
-        "explanation": "The acoustic lens focuses the ultrasound beam by shaping its trajectory. This improves lateral resolution, allowing for better differentiation of structures side-by-side. Sonographers rely on the transducer’s built-in lens for optimal focusing, without direct control over its design."
+        "explicacion_openai": "The acoustic lens focuses the ultrasound beam by shaping its trajectory. This improves lateral resolution, allowing for better differentiation of structures side-by-side. Sonographers rely on the transducer’s built-in lens for optimal focusing, without direct control over its design."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4050,7 +4050,7 @@
             "High dielectric constant"
         ],
         "concept_to_study": "Piezoelectric Element Properties",
-        "explanation": "A high dielectric constant is essential for the piezoelectric element to efficiently convert electrical energy into mechanical vibrations and vice versa. This property directly affects the transducer's performance, including sensitivity and resolution."
+        "explicacion_openai": "A high dielectric constant is essential for the piezoelectric element to efficiently convert electrical energy into mechanical vibrations and vice versa. This property directly affects the transducer's performance, including sensitivity and resolution."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4068,7 +4068,7 @@
             "Electrical connectors"
         ],
         "concept_to_study": "Electrical Connectors in Transducers",
-        "explanation": "Electrical connectors transmit signals from the ultrasound machine to the piezoelectric element and vice versa. This ensures the proper excitation of the transducer and efficient return of received echoes for image formation."
+        "explicacion_openai": "Electrical connectors transmit signals from the ultrasound machine to the piezoelectric element and vice versa. This ensures the proper excitation of the transducer and efficient return of received echoes for image formation."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4086,7 +4086,7 @@
             "Reduces continuous vibrations"
         ],
         "concept_to_study": "Backing Material in Transducers",
-        "explanation": "The backing material dampens continuous vibrations in the piezoelectric element, shortening pulse duration and improving axial resolution. While critical to transducer design, this component is preset and not adjustable by the sonographer."
+        "explicacion_openai": "The backing material dampens continuous vibrations in the piezoelectric element, shortening pulse duration and improving axial resolution. While critical to transducer design, this component is preset and not adjustable by the sonographer."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4104,7 +4104,7 @@
             "Piezoelectric element"
         ],
         "concept_to_study": "Piezoelectric Element and Beam Formation",
-        "explanation": "The piezoelectric element is the core of the transducer, responsible for generating the ultrasound beam through mechanical vibrations. It converts electrical energy into sound waves during transmission and transforms returning sound waves into electrical signals during reception, enabling ultrasound imaging."
+        "explicacion_openai": "The piezoelectric element is the core of the transducer, responsible for generating the ultrasound beam through mechanical vibrations. It converts electrical energy into sound waves during transmission and transforms returning sound waves into electrical signals during reception, enabling ultrasound imaging."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4122,7 +4122,7 @@
             "Crystal thickness"
         ],
         "concept_to_study": "Crystal Thickness and Frequency",
-        "explanation": "The operating frequency of a transducer is primarily determined by the thickness of the piezoelectric crystal. Thinner crystals generate higher frequencies, improving axial resolution but reducing penetration depth. The piezoelectric effect enables the crystal to convert electrical energy into sound waves during transmission and transform returning sound waves into electrical signals during reception, facilitating ultrasound imaging. Sonographers select transducers based on the frequency needed for specific diagnostic applications."
+        "explicacion_openai": "The operating frequency of a transducer is primarily determined by the thickness of the piezoelectric crystal. Thinner crystals generate higher frequencies, improving axial resolution but reducing penetration depth. The piezoelectric effect enables the crystal to convert electrical energy into sound waves during transmission and transform returning sound waves into electrical signals during reception, facilitating ultrasound imaging. Sonographers select transducers based on the frequency needed for specific diagnostic applications."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4590,7 +4590,7 @@
             "Increase frame rate"
         ],
         "concept_to_study": "Frame rate and temporal resolution",
-        "explanation": "To capture high-speed motion, such as cardiac activity, optimizing the frame rate is essential. A higher frame rate allows more images to be displayed per second, improving temporal resolution and ensuring precise visualization of moving objects. Other factors, like gain or frequency adjustments, impact image quality but do not directly enhance the ability to capture motion effectively."
+        "explicacion_openai": "To capture high-speed motion, such as cardiac activity, optimizing the frame rate is essential. A higher frame rate allows more images to be displayed per second, improving temporal resolution and ensuring precise visualization of moving objects. Other factors, like gain or frequency adjustments, impact image quality but do not directly enhance the ability to capture motion effectively."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4608,7 +4608,7 @@
             "Reduces temporal resolution"
         ],
         "concept_to_study": "Temporal Resolution Impact",
-        "explanation": "Temporal resolution is reduced when frame rate decreases. This occurs because fewer images are captured per second, leading to decreased accuracy in visualizing fast-moving structures."
+        "explicacion_openai": "Temporal resolution is reduced when frame rate decreases. This occurs because fewer images are captured per second, leading to decreased accuracy in visualizing fast-moving structures."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4626,7 +4626,7 @@
             "Frame rate"
         ],
         "concept_to_study": "Frame Rate Control",
-        "explanation": "Frame rate is the primary parameter that determines the number of images produced per second during an ultrasound scan. It is influenced by factors such as imaging depth, number of focal zones, and the size of the imaging sector."
+        "explicacion_openai": "Frame rate is the primary parameter that determines the number of images produced per second during an ultrasound scan. It is influenced by factors such as imaging depth, number of focal zones, and the size of the imaging sector."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4644,7 +4644,7 @@
             "Fast-moving structures"
         ],
         "concept_to_study": "Higher Temporal Resolution Applications",
-        "explanation": "Higher temporal resolution is required for imaging fast-moving structures, such as the heart or blood flow in vessels, to ensure that motion is accurately captured and visualized."
+        "explicacion_openai": "Higher temporal resolution is required for imaging fast-moving structures, such as the heart or blood flow in vessels, to ensure that motion is accurately captured and visualized."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4662,7 +4662,7 @@
             "Temporal resolution"
         ],
         "concept_to_study": "Importance of Temporal Resolution",
-        "explanation": "Temporal resolution is critical for dynamic examinations as it determines the ability to accurately visualize moving structures in real time, ensuring clear and detailed imaging of motion."
+        "explicacion_openai": "Temporal resolution is critical for dynamic examinations as it determines the ability to accurately visualize moving structures in real time, ensuring clear and detailed imaging of motion."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4788,7 +4788,7 @@
             "Rapid steering of the beam"
         ],
         "concept_to_study": "Phased Array in Echocardiography",
-        "explanation": "Phased array transducers provide rapid electronic steering of the ultrasound beam, which is particularly beneficial for imaging the heart. This capability allows sonographers to capture dynamic cardiac motion efficiently without physically adjusting the transducer."
+        "explicacion_openai": "Phased array transducers provide rapid electronic steering of the ultrasound beam, which is particularly beneficial for imaging the heart. This capability allows sonographers to capture dynamic cardiac motion efficiently without physically adjusting the transducer."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4806,7 +4806,7 @@
             "Phased array"
         ],
         "concept_to_study": "Sector Scanners and Phased Arrays",
-        "explanation": "Sector scanners use phased array transducer element arrangements to electronically steer the beam and create a fan-shaped image. This configuration is especially useful for imaging through small acoustic windows, such as in cardiac imaging."
+        "explicacion_openai": "Sector scanners use phased array transducer element arrangements to electronically steer the beam and create a fan-shaped image. This configuration is especially useful for imaging through small acoustic windows, such as in cardiac imaging."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4824,7 +4824,7 @@
             "Mechanical sector"
         ],
         "concept_to_study": "Mechanical Sector Transducers",
-        "explanation": "Mechanical sector transducers use a motor to physically steer the beam, creating a sector-shaped image. While these transducers are less common due to advancements in electronic steering, they were historically used for narrow imaging fields such as cardiac studies."
+        "explicacion_openai": "Mechanical sector transducers use a motor to physically steer the beam, creating a sector-shaped image. While these transducers are less common due to advancements in electronic steering, they were historically used for narrow imaging fields such as cardiac studies."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4842,7 +4842,7 @@
             "Axial resolution"
         ],
         "concept_to_study": "High-Frequency Transducers and Resolution",
-        "explanation": "Axial resolution, also known as longitudinal or depth resolution, improves with higher-frequency linear transducers due to shorter wavelengths and reduced spatial pulse length. Sonographers can select these transducers for detailed imaging of superficial structures."
+        "explicacion_openai": "Axial resolution, also known as longitudinal or depth resolution, improves with higher-frequency linear transducers due to shorter wavelengths and reduced spatial pulse length. Sonographers can select these transducers for detailed imaging of superficial structures."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4860,7 +4860,7 @@
             "Limited acoustic window"
         ],
         "concept_to_study": "Sector Scanners and Acoustic Windows",
-        "explanation": "Sector scanners are ideal for scenarios with limited acoustic windows, such as intercostal spaces in cardiac imaging. Their ability to electronically steer the beam allows for optimized imaging through small openings."
+        "explicacion_openai": "Sector scanners are ideal for scenarios with limited acoustic windows, such as intercostal spaces in cardiac imaging. Their ability to electronically steer the beam allows for optimized imaging through small openings."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4878,7 +4878,7 @@
             "High-frequency linear array"
         ],
         "concept_to_study": "Transducers for Neonatal Imaging",
-        "explanation": "High-frequency linear array transducers are best for neonatal imaging due to their superior axial resolution and ability to visualize superficial structures clearly. Sonographers can use these transducers to achieve detailed images of small anatomical regions in neonates."
+        "explicacion_openai": "High-frequency linear array transducers are best for neonatal imaging due to their superior axial resolution and ability to visualize superficial structures clearly. Sonographers can use these transducers to achieve detailed images of small anatomical regions in neonates."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4896,7 +4896,7 @@
             "Uniform field of view"
         ],
         "concept_to_study": "Linear Sequential Array Transducers",
-        "explanation": "Linear sequential array transducers provide a uniform field of view with consistent beam thickness across the imaging plane. They are particularly useful for applications requiring high resolution of superficial structures, such as vascular imaging."
+        "explicacion_openai": "Linear sequential array transducers provide a uniform field of view with consistent beam thickness across the imaging plane. They are particularly useful for applications requiring high resolution of superficial structures, such as vascular imaging."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4932,7 +4932,7 @@
             "Endocavitary transducer"
         ],
         "concept_to_study": "Endocavitary Transducers",
-        "explanation": "Endocavitary transducers are specifically designed for intracavitary exams, such as transvaginal and transrectal imaging. These transducers have a small footprint and high-frequency range, allowing for detailed imaging of internal structures. Sonographers can select this transducer type when performing exams that require close proximity to the region of interest."
+        "explicacion_openai": "Endocavitary transducers are specifically designed for intracavitary exams, such as transvaginal and transrectal imaging. These transducers have a small footprint and high-frequency range, allowing for detailed imaging of internal structures. Sonographers can select this transducer type when performing exams that require close proximity to the region of interest."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4950,7 +4950,7 @@
             "Rotating crystal"
         ],
         "concept_to_study": "Mechanical Transducers",
-        "explanation": "Mechanical transducers use a rotating crystal to produce a sweeping motion of the ultrasound beam. This mechanical motion allows for sector-shaped images but limits the ability to perform advanced techniques like electronic focusing or steering. These transducers are less commonly used today due to advancements in array technology."
+        "explicacion_openai": "Mechanical transducers use a rotating crystal to produce a sweeping motion of the ultrasound beam. This mechanical motion allows for sector-shaped images but limits the ability to perform advanced techniques like electronic focusing or steering. These transducers are less commonly used today due to advancements in array technology."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4968,7 +4968,7 @@
             "Combines features of phased and linear arrays"
         ],
         "concept_to_study": "Vector Array Transducers",
-        "explanation": "Vector array transducers combine the wide field of view of phased arrays with the linear scanning capabilities of linear arrays. This hybrid functionality makes them versatile for applications requiring both depth and width in imaging. Sonographers typically use vector arrays for abdominal or obstetric imaging."
+        "explicacion_openai": "Vector array transducers combine the wide field of view of phased arrays with the linear scanning capabilities of linear arrays. This hybrid functionality makes them versatile for applications requiring both depth and width in imaging. Sonographers typically use vector arrays for abdominal or obstetric imaging."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -4986,7 +4986,7 @@
             "Phased array"
         ],
         "concept_to_study": "Phased Array Transducers",
-        "explanation": "Phased array transducers allow for electronic steering and focusing of the ultrasound beam. This is achieved by adjusting the timing of pulses sent to the individual piezoelectric elements. Sonographers can control these settings for dynamic imaging, such as cardiac or thoracic applications where precise angle steering is required."
+        "explicacion_openai": "Phased array transducers allow for electronic steering and focusing of the ultrasound beam. This is achieved by adjusting the timing of pulses sent to the individual piezoelectric elements. Sonographers can control these settings for dynamic imaging, such as cardiac or thoracic applications where precise angle steering is required."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5004,7 +5004,7 @@
             "Annular array"
         ],
         "concept_to_study": "Annular Array Transducers",
-        "explanation": "Annular array transducers consist of piezoelectric elements arranged in concentric rings. This design allows for excellent focusing in both the lateral and axial planes, providing high-resolution images. However, they lack electronic steering capabilities and are less commonly used in modern systems."
+        "explicacion_openai": "Annular array transducers consist of piezoelectric elements arranged in concentric rings. This design allows for excellent focusing in both the lateral and axial planes, providing high-resolution images. However, they lack electronic steering capabilities and are less commonly used in modern systems."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5022,7 +5022,7 @@
             "Linear array"
         ],
         "concept_to_study": "Linear Array Transducers",
-        "explanation": "Linear array transducers are ideal for vascular imaging due to their high resolution and ability to produce rectangular images with uniform beam thickness. Their design allows for detailed visualization of superficial structures, such as blood vessels and nerves. Sonographers can control frequency and focus to optimize vascular studies."
+        "explicacion_openai": "Linear array transducers are ideal for vascular imaging due to their high resolution and ability to produce rectangular images with uniform beam thickness. Their design allows for detailed visualization of superficial structures, such as blood vessels and nerves. Sonographers can control frequency and focus to optimize vascular studies."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5130,7 +5130,7 @@
             "Shorter spatial pulse length"
         ],
         "concept_to_study": "Axial Resolution and Spatial Pulse Length",
-        "explanation": "Axial resolution, also called longitudinal or depth resolution, is defined by the ability to distinguish structures along the axis of the ultrasound beam. It improves with a shorter spatial pulse length (SPL), which reduces the overlap of returning echoes. Sonographers can optimize axial resolution by using a higher frequency transducer or adjusting the system settings to shorten the pulse duration."
+        "explicacion_openai": "Axial resolution, also called longitudinal or depth resolution, is defined by the ability to distinguish structures along the axis of the ultrasound beam. It improves with a shorter spatial pulse length (SPL), which reduces the overlap of returning echoes. Sonographers can optimize axial resolution by using a higher frequency transducer or adjusting the system settings to shorten the pulse duration."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5148,7 +5148,7 @@
             "Both axial and lateral resolution improve"
         ],
         "concept_to_study": "Frequency and Resolution",
-        "explanation": "Higher frequencies improve both axial and lateral resolution by producing shorter wavelengths and narrower beams. However, increasing frequency reduces penetration depth, making it less suitable for imaging deeper structures. Sonographers can control frequency selection based on the clinical requirement for detail versus depth."
+        "explicacion_openai": "Higher frequencies improve both axial and lateral resolution by producing shorter wavelengths and narrower beams. However, increasing frequency reduces penetration depth, making it less suitable for imaging deeper structures. Sonographers can control frequency selection based on the clinical requirement for detail versus depth."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5166,7 +5166,7 @@
             "Wavelength"
         ],
         "concept_to_study": "Wavelength and Frequency",
-        "explanation": "Wavelength is inversely proportional to frequency, meaning higher frequencies produce shorter wavelengths, which improve spatial resolution. Sonographers can select higher-frequency transducers to achieve finer resolution, but this may compromise imaging penetration in deeper tissues."
+        "explicacion_openai": "Wavelength is inversely proportional to frequency, meaning higher frequencies produce shorter wavelengths, which improve spatial resolution. Sonographers can select higher-frequency transducers to achieve finer resolution, but this may compromise imaging penetration in deeper tissues."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5184,7 +5184,7 @@
             "Beam width"
         ],
         "concept_to_study": "Lateral Resolution and Beam Width",
-        "explanation": "Lateral resolution, also referred to as angular resolution or side-by-side resolution, improves with narrower beam widths. Focusing techniques, such as adjusting the number of focal zones, allow sonographers to control beam width, enhancing lateral resolution and providing sharper imaging of structures perpendicular to the ultrasound beam."
+        "explicacion_openai": "Lateral resolution, also referred to as angular resolution or side-by-side resolution, improves with narrower beam widths. Focusing techniques, such as adjusting the number of focal zones, allow sonographers to control beam width, enhancing lateral resolution and providing sharper imaging of structures perpendicular to the ultrasound beam."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5202,7 +5202,7 @@
             "Axial resolution"
         ],
         "concept_to_study": "Axial Resolution and Depth",
-        "explanation": "Axial resolution, also known as longitudinal or depth resolution, is determined by spatial pulse length and is minimally affected by imaging depth. This makes axial resolution reliable for imaging structures at varying depths, as long as pulse duration remains consistent."
+        "explicacion_openai": "Axial resolution, also known as longitudinal or depth resolution, is determined by spatial pulse length and is minimally affected by imaging depth. This makes axial resolution reliable for imaging structures at varying depths, as long as pulse duration remains consistent."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5220,7 +5220,7 @@
             "Spatial pulse length"
         ],
         "concept_to_study": "Axial Resolution Factors",
-        "explanation": "Axial resolution is determined by spatial pulse length (SPL), which is the product of pulse duration and sound speed. Shorter SPL results in better axial resolution. Sonographers can improve SPL by selecting higher-frequency transducers or using system settings that reduce pulse duration."
+        "explicacion_openai": "Axial resolution is determined by spatial pulse length (SPL), which is the product of pulse duration and sound speed. Shorter SPL results in better axial resolution. Sonographers can improve SPL by selecting higher-frequency transducers or using system settings that reduce pulse duration."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5238,7 +5238,7 @@
             "Resolution"
         ],
         "concept_to_study": "Resolution in Ultrasound",
-        "explanation": "Resolution, also referred to as image clarity or detail differentiation, defines the system's ability to distinguish closely spaced structures. It includes axial resolution (longitudinal or depth resolution) and lateral resolution (side-by-side resolution). Axial resolution is primarily affected by pulse duration and transducer frequency, whereas lateral resolution depends on beam focusing. The sonographer can improve axial resolution by using a higher frequency transducer or decreasing pulse duration, and lateral resolution is enhanced by adjusting beam focus."
+        "explicacion_openai": "Resolution, also referred to as image clarity or detail differentiation, defines the system's ability to distinguish closely spaced structures. It includes axial resolution (longitudinal or depth resolution) and lateral resolution (side-by-side resolution). Axial resolution is primarily affected by pulse duration and transducer frequency, whereas lateral resolution depends on beam focusing. The sonographer can improve axial resolution by using a higher frequency transducer or decreasing pulse duration, and lateral resolution is enhanced by adjusting beam focus."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5256,7 +5256,7 @@
             "Increasing frame rate"
         ],
         "concept_to_study": "Temporal Resolution and Frame Rate",
-        "explanation": "Temporal resolution refers to the ability to accurately visualize motion over time. Increasing the frame rate, which is the number of images displayed per second, directly improves temporal resolution. This can be achieved by reducing imaging depth, narrowing the imaging sector, or decreasing the number of focal zones. Sonographers have control over these settings and can optimize them based on the imaging requirements."
+        "explicacion_openai": "Temporal resolution refers to the ability to accurately visualize motion over time. Increasing the frame rate, which is the number of images displayed per second, directly improves temporal resolution. This can be achieved by reducing imaging depth, narrowing the imaging sector, or decreasing the number of focal zones. Sonographers have control over these settings and can optimize them based on the imaging requirements."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5274,7 +5274,7 @@
             "Lateral resolution"
         ],
         "concept_to_study": "Focusing and Lateral Resolution",
-        "explanation": "Lateral resolution, also called angular resolution or side-by-side resolution, is the ability to distinguish two structures that are perpendicular to the sound beam. Focusing the beam, either by adjusting the transducer or using dynamic focusing, narrows the beam width and improves lateral resolution. This adjustment is typically under the sonographer's control."
+        "explicacion_openai": "Lateral resolution, also called angular resolution or side-by-side resolution, is the ability to distinguish two structures that are perpendicular to the sound beam. Focusing the beam, either by adjusting the transducer or using dynamic focusing, narrows the beam width and improves lateral resolution. This adjustment is typically under the sonographer's control."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5292,7 +5292,7 @@
             "Axial"
         ],
         "concept_to_study": "Axial Resolution",
-        "explanation": "Axial resolution, also known as longitudinal resolution or depth resolution, is enhanced by shorter pulse durations. Shorter pulses result in better differentiation of closely spaced structures along the axis of the ultrasound beam. Axial resolution improves with higher frequency transducers and reduced pulse durations, and the sonographer has control over transducer frequency settings."
+        "explicacion_openai": "Axial resolution, also known as longitudinal resolution or depth resolution, is enhanced by shorter pulse durations. Shorter pulses result in better differentiation of closely spaced structures along the axis of the ultrasound beam. Axial resolution improves with higher frequency transducers and reduced pulse durations, and the sonographer has control over transducer frequency settings."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5310,7 +5310,7 @@
             "Pulse frequency"
         ],
         "concept_to_study": "Factors Influencing Spatial Resolution",
-        "explanation": "Spatial resolution, which includes both axial and lateral resolution, is directly affected by pulse frequency. Higher pulse frequencies improve spatial resolution by producing shorter wavelengths and finer detail. Sonographers can enhance spatial resolution by selecting higher frequency transducers, although this may reduce penetration depth in deeper tissues."
+        "explicacion_openai": "Spatial resolution, which includes both axial and lateral resolution, is directly affected by pulse frequency. Higher pulse frequencies improve spatial resolution by producing shorter wavelengths and finer detail. Sonographers can enhance spatial resolution by selecting higher frequency transducers, although this may reduce penetration depth in deeper tissues."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -5994,7 +5994,7 @@
             "Mechanical index (MI)"
         ],
         "concept_to_study": "Mechanical Index (MI)",
-        "explanation": "The Mechanical Index (MI) is a parameter used in diagnostic ultrasound to evaluate the risk of cavitation, a phenomenon where microbubbles form in tissue due to acoustic pressure. A higher MI indicates a greater likelihood of cavitation, which can cause mechanical damage to tissue."
+        "explicacion_openai": "The Mechanical Index (MI) is a parameter used in diagnostic ultrasound to evaluate the risk of cavitation, a phenomenon where microbubbles form in tissue due to acoustic pressure. A higher MI indicates a greater likelihood of cavitation, which can cause mechanical damage to tissue."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -6012,7 +6012,7 @@
             "Thermal effects"
         ],
         "concept_to_study": "Thermal Effects in Pregnancy",
-        "explanation": "Thermal effects refer to the increase in tissue temperature caused by ultrasound energy absorption. During pregnancy, prolonged exposure to high-intensity ultrasound could potentially impact fetal development. Maintaining thermal indices within recommended limits minimizes these risks, ensuring safe imaging practices."
+        "explicacion_openai": "Thermal effects refer to the increase in tissue temperature caused by ultrasound energy absorption. During pregnancy, prolonged exposure to high-intensity ultrasound could potentially impact fetal development. Maintaining thermal indices within recommended limits minimizes these risks, ensuring safe imaging practices."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -6030,7 +6030,7 @@
             "None confirmed at diagnostic levels"
         ],
         "concept_to_study": "Bioeffects of Diagnostic Ultrasound",
-        "explanation": "Research has shown that diagnostic ultrasound, when used appropriately, has not been associated with confirmed bioeffects at clinical levels. This conclusion underscores its safety as a diagnostic tool, provided practitioners adhere to established guidelines, including ALARA (As Low As Reasonably Achievable) principles."
+        "explicacion_openai": "Research has shown that diagnostic ultrasound, when used appropriately, has not been associated with confirmed bioeffects at clinical levels. This conclusion underscores its safety as a diagnostic tool, provided practitioners adhere to established guidelines, including ALARA (As Low As Reasonably Achievable) principles."
     },
     {
         "clasificacion": "Physical Principles",
@@ -6048,7 +6048,7 @@
             "Mirror image artifact"
         ],
         "concept_to_study": "Mirror Image Artifact",
-        "explanation": "The mirror image artifact occurs when ultrasound waves are reflected back and forth between two highly reflective surfaces, creating a duplicate image on the opposite side of the true structure. This artifact is commonly observed near large interfaces such as the diaphragm or pleura."
+        "explicacion_openai": "The mirror image artifact occurs when ultrasound waves are reflected back and forth between two highly reflective surfaces, creating a duplicate image on the opposite side of the true structure. This artifact is commonly observed near large interfaces such as the diaphragm or pleura."
     },
     {
         "clasificacion": "Physical Principles",
@@ -6066,7 +6066,7 @@
             "Exceeding the Nyquist limit"
         ],
         "concept_to_study": "Nyquist Limit and Aliasing",
-        "explanation": "Aliasing in Doppler ultrasound arises when the measured frequency shift exceeds the Nyquist limit, which is half the pulse repetition frequency (PRF). This results in velocity data wrapping around the scale, creating an artifact. Proper adjustment of PRF and transducer settings can minimize aliasing."
+        "explicacion_openai": "Aliasing in Doppler ultrasound arises when the measured frequency shift exceeds the Nyquist limit, which is half the pulse repetition frequency (PRF). This results in velocity data wrapping around the scale, creating an artifact. Proper adjustment of PRF and transducer settings can minimize aliasing."
     },
     {
         "clasificacion": "Physical Principles",
@@ -6084,7 +6084,7 @@
             "Reverberation artifact"
         ],
         "concept_to_study": "Reverberation Artifact",
-        "explanation": "Reverberation artifacts are created by the repeated bouncing of ultrasound waves between strong reflectors, leading to multiple equally spaced echoes. This results in the display of additional, false structures on the image and may complicate accurate interpretation."
+        "explicacion_openai": "Reverberation artifacts are created by the repeated bouncing of ultrasound waves between strong reflectors, leading to multiple equally spaced echoes. This results in the display of additional, false structures on the image and may complicate accurate interpretation."
     },
     {
         "clasificacion": "Physical Principles",
@@ -6102,7 +6102,7 @@
             "It obscures low-velocity signals"
         ],
         "concept_to_study": "Clutter in Doppler Ultrasound",
-        "explanation": "Clutter refers to extraneous signals caused by large stationary or slow-moving reflectors, such as tissue or vessel walls, which can mask the detection of low-velocity blood flow. Advanced filtering techniques, such as wall filters, are employed to reduce this noise and enhance diagnostic accuracy."
+        "explicacion_openai": "Clutter refers to extraneous signals caused by large stationary or slow-moving reflectors, such as tissue or vessel walls, which can mask the detection of low-velocity blood flow. Advanced filtering techniques, such as wall filters, are employed to reduce this noise and enhance diagnostic accuracy."
     },
     {
         "clasificacion": "Physical Principles",
@@ -8730,7 +8730,7 @@
             "Attenuation"
         ],
         "concept_to_study": "Attenuation",
-        "explanation": "Attenuation is the reduction in sound wave intensity as it travels through the body due to absorption, reflection, and scattering. It is influenced by tissue properties and frequency; higher frequencies experience greater attenuation."
+        "explicacion_openai": "Attenuation is the reduction in sound wave intensity as it travels through the body due to absorption, reflection, and scattering. It is influenced by tissue properties and frequency; higher frequencies experience greater attenuation."
     },
     {
         "clasificacion": "Physical Principles",
@@ -8748,7 +8748,7 @@
             "12 dB"
         ],
         "concept_to_study": "Attenuation Calculation",
-        "explanation": "Attenuation is the reduction in sound wave intensity as it travels through tissue, measured in decibels (dB). This calculation assumes an ultrasound beam with a frequency of 6.0 MHz traveling through 4 cm of soft tissue. The attenuation coefficient for soft tissue is typically 0.5 dB/cm/MHz, meaning for every megahertz of frequency and every centimeter of depth, the beam loses 0.5 dB of intensity. Using the formula: attenuation (dB) = frequency (MHz) × depth (cm) × attenuation coefficient, the total attenuation is calculated as 6.0 MHz × 4 cm × 0.5 dB/cm/MHz = 12 dB."
+        "explicacion_openai": "Attenuation is the reduction in sound wave intensity as it travels through tissue, measured in decibels (dB). This calculation assumes an ultrasound beam with a frequency of 6.0 MHz traveling through 4 cm of soft tissue. The attenuation coefficient for soft tissue is typically 0.5 dB/cm/MHz, meaning for every megahertz of frequency and every centimeter of depth, the beam loses 0.5 dB of intensity. Using the formula: attenuation (dB) = frequency (MHz) × depth (cm) × attenuation coefficient, the total attenuation is calculated as 6.0 MHz × 4 cm × 0.5 dB/cm/MHz = 12 dB."
     },
     {
         "clasificacion": "Physical Principles",
@@ -8766,7 +8766,7 @@
             "Increases"
         ],
         "concept_to_study": "Pulse Repetition Period (PRP)",
-        "explanation": "The Pulse Repetition Period (PRP) refers to the time between successive ultrasound pulses. As imaging depth increases, the PRP also increases to allow sound waves to travel deeper and return to the transducer before the next pulse is emitted."
+        "explicacion_openai": "The Pulse Repetition Period (PRP) refers to the time between successive ultrasound pulses. As imaging depth increases, the PRP also increases to allow sound waves to travel deeper and return to the transducer before the next pulse is emitted."
     },
     {
         "clasificacion": "Physical Principles",
@@ -8784,7 +8784,7 @@
             "It is unitless"
         ],
         "concept_to_study": "Duty Factor (DF)",
-        "explanation": "The Duty Factor (DF) is a percentage that describes the fraction of time an ultrasound system actively transmits sound waves during a pulse cycle. It is unitless because it represents a ratio or percentage, rather than a physical quantity. In pulse wave (PW) Doppler, the duty factor is typically very low (e.g., around 0.1% to 1%) because the system spends most of its time listening for returning echoes. Conversely, in continuous wave (CW) Doppler, the duty factor approaches 100% since the transducer continuously transmits and receives signals. For example, a PW Doppler system transmitting for 1 microsecond out of a total cycle of 100 microseconds would have a DF of 1%, while CW Doppler effectively maintains a DF of 100%."
+        "explicacion_openai": "The Duty Factor (DF) is a percentage that describes the fraction of time an ultrasound system actively transmits sound waves during a pulse cycle. It is unitless because it represents a ratio or percentage, rather than a physical quantity. In pulse wave (PW) Doppler, the duty factor is typically very low (e.g., around 0.1% to 1%) because the system spends most of its time listening for returning echoes. Conversely, in continuous wave (CW) Doppler, the duty factor approaches 100% since the transducer continuously transmits and receives signals. For example, a PW Doppler system transmitting for 1 microsecond out of a total cycle of 100 microseconds would have a DF of 1%, while CW Doppler effectively maintains a DF of 100%."
     },
     {
         "clasificacion": "Physical Principles",
@@ -8802,7 +8802,7 @@
             "Duty Factor (DF)"
         ],
         "concept_to_study": "Duty Factor (DF)",
-        "explanation": "The Duty Factor (DF) is a percentage that describes the fraction of time an ultrasound system actively transmits sound waves during a pulse cycle. It is unitless because it represents a ratio or percentage, rather than a physical quantity. In pulse wave (PW) Doppler, the duty factor is typically very low (e.g., around 0.1% to 1%) because the system spends most of its time listening for returning echoes. Conversely, in continuous wave (CW) Doppler, the duty factor approaches 100% since the transducer continuously transmits and receives signals. For example, a PW Doppler system transmitting for 1 microsecond out of a total cycle of 100 microseconds would have a DF of 1%, while CW Doppler effectively maintains a DF of 100%."
+        "explicacion_openai": "The Duty Factor (DF) is a percentage that describes the fraction of time an ultrasound system actively transmits sound waves during a pulse cycle. It is unitless because it represents a ratio or percentage, rather than a physical quantity. In pulse wave (PW) Doppler, the duty factor is typically very low (e.g., around 0.1% to 1%) because the system spends most of its time listening for returning echoes. Conversely, in continuous wave (CW) Doppler, the duty factor approaches 100% since the transducer continuously transmits and receives signals. For example, a PW Doppler system transmitting for 1 microsecond out of a total cycle of 100 microseconds would have a DF of 1%, while CW Doppler effectively maintains a DF of 100%."
     },
     {
         "clasificacion": "Physical Principles",
@@ -9846,7 +9846,7 @@
             "Frame rate"
         ],
         "concept_to_study": "Temporal Resolution",
-        "explanation": "Temporal resolution is directly tied to the frame rate, which represents the number of images displayed per second. Factors that improve frame rate include decreasing imaging depth, reducing the number of focal zones, and narrowing the imaging sector. Conversely, increasing depth, adding more focal zones, or widening the sector size can reduce the frame rate, leading to poorer temporal resolution. Balancing these variables is critical in ultrasound imaging of rapidly moving structures, such as the heart."
+        "explicacion_openai": "Temporal resolution is directly tied to the frame rate, which represents the number of images displayed per second. Factors that improve frame rate include decreasing imaging depth, reducing the number of focal zones, and narrowing the imaging sector. Conversely, increasing depth, adding more focal zones, or widening the sector size can reduce the frame rate, leading to poorer temporal resolution. Balancing these variables is critical in ultrasound imaging of rapidly moving structures, such as the heart."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -9864,7 +9864,7 @@
             "Fraunhofer zone"
         ],
         "concept_to_study": "Fraunhofer Zone (Far Zone)",
-        "explanation": "The Fraunhofer zone, or far zone, is the portion of the ultrasound beam beyond the near field where the beam starts to diverge. It is characterized by reduced intensity and less uniformity of the ultrasound signal."
+        "explicacion_openai": "The Fraunhofer zone, or far zone, is the portion of the ultrasound beam beyond the near field where the beam starts to diverge. It is characterized by reduced intensity and less uniformity of the ultrasound signal."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -9882,7 +9882,7 @@
             "Huygen's principle"
         ],
         "concept_to_study": "Huygen's Principle",
-        "explanation": "Huygen's Principle outlines how each point on the transducer surface generates secondary wavelets, and the combined interference of these wavelets forms the final ultrasound beam used for imaging."
+        "explicacion_openai": "Huygen's Principle outlines how each point on the transducer surface generates secondary wavelets, and the combined interference of these wavelets forms the final ultrasound beam used for imaging."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -9900,7 +9900,7 @@
             "Elevational resolution"
         ],
         "concept_to_study": "Elevational Resolution",
-        "explanation": "Elevational resolution, also referred to as slice thickness resolution or Z-axis resolution, represents the ultrasound system's ability to differentiate structures in the third dimension of the beam, perpendicular to the imaging plane. It is improved by using narrow beam thickness, which can be achieved with 1.5D transducers or advanced matrix arrays. 1.5D transducers have multiple rows of elements that allow for focusing in the elevational plane, reducing beam thickness and improving image quality. Factors that worsen elevational resolution include wide beam thickness and improper transducer focus, which can lead to out-of-plane artifacts and reduced image clarity."
+        "explicacion_openai": "Elevational resolution, also referred to as slice thickness resolution or Z-axis resolution, represents the ultrasound system's ability to differentiate structures in the third dimension of the beam, perpendicular to the imaging plane. It is improved by using narrow beam thickness, which can be achieved with 1.5D transducers or advanced matrix arrays. 1.5D transducers have multiple rows of elements that allow for focusing in the elevational plane, reducing beam thickness and improving image quality. Factors that worsen elevational resolution include wide beam thickness and improper transducer focus, which can lead to out-of-plane artifacts and reduced image clarity."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -9918,7 +9918,7 @@
             "The higher the frequency, the longer the near-zone length"
         ],
         "concept_to_study": "Frequency and Near-Zone Length",
-        "explanation": "The near-zone length increases with higher frequencies in a single-element, unfocused transducer because higher frequency sound waves create a narrower, more focused beam before diverging. This property is essential for accurate imaging at deeper structures."
+        "explicacion_openai": "The near-zone length increases with higher frequencies in a single-element, unfocused transducer because higher frequency sound waves create a narrower, more focused beam before diverging. This property is essential for accurate imaging at deeper structures."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -14911,7 +14911,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "200",
         "tipo_pregunta": "multiple_choice",
-        "question": "Doubling the intensity results in what change to power?",
+        "enunciado": "Doubling the intensity results in what change to power?",
         "image": "",
         "opciones": [
             "It halves",
@@ -14923,13 +14923,13 @@
             "It doubles"
         ],
         "concept_to_study": "Intensity and Power Relationship",
-        "explanation": "Intensity is directly proportional to power. Doubling the intensity of an ultrasound beam means that the power also doubles. Understanding this relationship is crucial for managing safe output levels and ensuring image quality during ultrasound exams."
+        "explicacion_openai": "Intensity is directly proportional to power. Doubling the intensity of an ultrasound beam means that the power also doubles. Understanding this relationship is crucial for managing safe output levels and ensuring image quality during ultrasound exams."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": "88",
         "tipo_pregunta": "multiple_choice",
-        "question": "What term refers to the number of pulses emitted per second?",
+        "enunciado": "What term refers to the number of pulses emitted per second?",
         "image": "",
         "opciones": [
             "Pulse repetition frequency",
@@ -14941,13 +14941,13 @@
             "Pulse repetition frequency"
         ],
         "concept_to_study": "Pulse Repetition Frequency (PRF)",
-        "explanation": "Pulse Repetition Frequency (PRF) represents the number of ultrasound pulses emitted by the transducer per second. PRF is adjustable by the sonographer and influences imaging depth and frame rate, critical for optimizing diagnostic quality."
+        "explicacion_openai": "Pulse Repetition Frequency (PRF) represents the number of ultrasound pulses emitted by the transducer per second. PRF is adjustable by the sonographer and influences imaging depth and frame rate, critical for optimizing diagnostic quality."
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": "89",
         "tipo_pregunta": "multiple_choice",
-        "question": "On a spectral Doppler waveform, what is plotted along the x-axis?",
+        "enunciado": "On a spectral Doppler waveform, what is plotted along the x-axis?",
         "image": "",
         "opciones": [
             "Velocity",
@@ -14959,13 +14959,13 @@
             "Time"
         ],
         "concept_to_study": "Spectral Doppler Waveform",
-        "explanation": "In a spectral Doppler waveform, the x-axis represents time, while the y-axis displays velocity or frequency shift. This graphical representation helps analyze blood flow patterns over time and is crucial for vascular assessments."
+        "explicacion_openai": "In a spectral Doppler waveform, the x-axis represents time, while the y-axis displays velocity or frequency shift. This graphical representation helps analyze blood flow patterns over time and is crucial for vascular assessments."
     },
     {
         "clasificacion": "Physical Principles",
         "grupo": "201",
         "tipo_pregunta": "multiple_choice",
-        "question": "What is the unit for spatial pulse length?",
+        "enunciado": "What is the unit for spatial pulse length?",
         "image": "",
         "opciones": [
             "mm/s",
@@ -14977,13 +14977,13 @@
             "m"
         ],
         "concept_to_study": "Spatial Pulse Length (SPL)",
-        "explanation": "The unit for spatial pulse length (SPL) is meters (m) or its subunits, such as millimeters (mm). SPL is the distance that a pulse occupies in space and is directly related to axial resolution, which improves with shorter SPL."
+        "explicacion_openai": "The unit for spatial pulse length (SPL) is meters (m) or its subunits, such as millimeters (mm). SPL is the distance that a pulse occupies in space and is directly related to axial resolution, which improves with shorter SPL."
     },
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": "253",
         "tipo_pregunta": "multiple_choice",
-        "question": "Which device measures acoustic output (intensity) levels?",
+        "enunciado": "Which device measures acoustic output (intensity) levels?",
         "image": "",
         "opciones": [
             "Oscilloscope",
@@ -14995,13 +14995,13 @@
             "Hydrophone"
         ],
         "concept_to_study": "Measuring Acoustic Intensity",
-        "explanation": "A hydrophone is used to measure acoustic output (intensity) levels of an ultrasound transducer. It records pressure variations and helps ensure safety standards for acoustic exposure are met during diagnostic imaging."
+        "explicacion_openai": "A hydrophone is used to measure acoustic output (intensity) levels of an ultrasound transducer. It records pressure variations and helps ensure safety standards for acoustic exposure are met during diagnostic imaging."
     },
     {
         "clasificacion": "Physical Principles",
         "grupo": "202",
         "tipo_pregunta": "multiple_choice",
-        "question": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
+        "enunciado": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
         "image": "",
         "opciones": [
             "Fourier's principle",
@@ -15013,13 +15013,13 @@
             "Huygen's principle"
         ],
         "concept_to_study": "Huygen's Principle",
-        "explanation": "Huygen's Principle explains that each point on the transducer surface acts as a source of secondary wavelets. The interference of these wavelets results in the formation of the ultrasound beam. This principle underlies beam formation and influences resolution and beam shape."
+        "explicacion_openai": "Huygen's Principle explains that each point on the transducer surface acts as a source of secondary wavelets. The interference of these wavelets results in the formation of the ultrasound beam. This principle underlies beam formation and influences resolution and beam shape."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "185",
         "tipo_pregunta": "multiple_choice",
-        "question": "In tissue harmonic imaging, the utilized frequency is:",
+        "enunciado": "In tissue harmonic imaging, the utilized frequency is:",
         "image": "",
         "opciones": [
             "Fundamental frequency",
@@ -15031,13 +15031,13 @@
             "Double the fundamental frequency"
         ],
         "concept_to_study": "Tissue Harmonic Imaging",
-        "explanation": "In tissue harmonic imaging, the system utilizes the second harmonic frequency, which is double the fundamental frequency. This technique enhances image quality by reducing side lobe artifacts and improving contrast resolution. The harmonic signals are generated within the tissue itself due to nonlinear propagation of sound waves."
+        "explicacion_openai": "In tissue harmonic imaging, the system utilizes the second harmonic frequency, which is double the fundamental frequency. This technique enhances image quality by reducing side lobe artifacts and improving contrast resolution. The harmonic signals are generated within the tissue itself due to nonlinear propagation of sound waves."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "186",
         "tipo_pregunta": "multiple_choice",
-        "question": "In B-mode imaging, where is amplitude represented?",
+        "enunciado": "In B-mode imaging, where is amplitude represented?",
         "image": "",
         "opciones": [
             "x-axis",
@@ -15049,13 +15049,13 @@
             "z-axis"
         ],
         "concept_to_study": "Amplitude in B-mode Imaging",
-        "explanation": "In B-mode imaging (Brightness mode), the amplitude of the returning echo is represented on the z-axis, while the x-axis corresponds to lateral position and the y-axis corresponds to depth. The brightness of the displayed pixel is determined by the amplitude of the echo, providing a grayscale representation of tissue structures."
+        "explicacion_openai": "In B-mode imaging (Brightness mode), the amplitude of the returning echo is represented on the z-axis, while the x-axis corresponds to lateral position and the y-axis corresponds to depth. The brightness of the displayed pixel is determined by the amplitude of the echo, providing a grayscale representation of tissue structures."
     },
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": "254",
         "tipo_pregunta": "multiple_choice",
-        "question": "What determines the radial resolution of an ultrasound system?",
+        "enunciado": "What determines the radial resolution of an ultrasound system?",
         "image": "",
         "opciones": [
             "Axial resolution",
@@ -15067,13 +15067,13 @@
             "Spatial pulse length"
         ],
         "concept_to_study": "Radial (Axial) Resolution",
-        "explanation": "Radial resolution, also known as axial or longitudinal resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing closer structures along the beam axis to be distinguished. Sonographers can enhance axial resolution by using higher-frequency transducers or optimizing pulse duration."
+        "explicacion_openai": "Radial resolution, also known as axial or longitudinal resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing closer structures along the beam axis to be distinguished. Sonographers can enhance axial resolution by using higher-frequency transducers or optimizing pulse duration."
     },
     {
         "clasificacion": "Physical Principles",
         "grupo": "203",
         "tipo_pregunta": "multiple_choice",
-        "question": "Axial resolution can be enhanced by:",
+        "enunciado": "Axial resolution can be enhanced by:",
         "image": "",
         "opciones": [
             "Wavelength and intensity",
@@ -15085,7 +15085,7 @@
             "Number of cycles in a pulse, wavelength"
         ],
         "concept_to_study": "Enhancing Axial Resolution",
-        "explanation": "Axial resolution, which is the ability to distinguish structures along the ultrasound beam axis, is influenced by both the number of cycles in a pulse and the wavelength. Fewer cycles and shorter wavelengths improve axial resolution. Sonographers can achieve this by selecting higher-frequency transducers or systems designed to emit shorter pulses."
+        "explicacion_openai": "Axial resolution, which is the ability to distinguish structures along the ultrasound beam axis, is influenced by both the number of cycles in a pulse and the wavelength. Fewer cycles and shorter wavelengths improve axial resolution. Sonographers can achieve this by selecting higher-frequency transducers or systems designed to emit shorter pulses."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -15865,7 +15865,7 @@
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "131",
         "tipo_pregunta": "multiple_choice",
-        "question": "During a fetal ultrasound, the sonographer observes a high mechanical index (MI). Which action is MOST appropriate to address this?",
+        "enunciado": "During a fetal ultrasound, the sonographer observes a high mechanical index (MI). Which action is MOST appropriate to address this?",
         "image": "",
         "opciones": [
             "Increase the frame rate.",
@@ -15877,13 +15877,13 @@
             "Lower the output power."
         ],
         "concept_to_study": "Adjusting for High Mechanical Index (MI)",
-        "explanation": "Lowering the output power is the most appropriate action to reduce a high mechanical index (MI), as MI is directly related to the ultrasound wave's peak negative pressure. By reducing the output power, the risk of cavitation bioeffects is minimized, especially critical during sensitive exams like fetal ultrasounds."
+        "explicacion_openai": "Lowering the output power is the most appropriate action to reduce a high mechanical index (MI), as MI is directly related to the ultrasound wave's peak negative pressure. By reducing the output power, the risk of cavitation bioeffects is minimized, especially critical during sensitive exams like fetal ultrasounds."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "132",
         "tipo_pregunta": "multiple_choice",
-        "question": "To reduce the risk of cavitation bioeffects indicated by a high MI, the sonographer should primarily:",
+        "enunciado": "To reduce the risk of cavitation bioeffects indicated by a high MI, the sonographer should primarily:",
         "image": "",
         "opciones": [
             "Adjust the time gain compensation (TGC).",
@@ -15895,13 +15895,13 @@
             "Decrease the output power."
         ],
         "concept_to_study": "Cavitation Bioeffects and MI",
-        "explanation": "Cavitation bioeffects, associated with high MI values, result from increased mechanical stress on tissues due to ultrasound waves. Decreasing the output power reduces the peak negative pressure and lowers the risk of cavitation, making it the primary action to address this concern."
+        "explicacion_openai": "Cavitation bioeffects, associated with high MI values, result from increased mechanical stress on tissues due to ultrasound waves. Decreasing the output power reduces the peak negative pressure and lowers the risk of cavitation, making it the primary action to address this concern."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "133",
         "tipo_pregunta": "multiple_choice",
-        "question": "If the mechanical index (MI) exceeds acceptable limits during an exam, what is the FIRST adjustment a sonographer should make?",
+        "enunciado": "If the mechanical index (MI) exceeds acceptable limits during an exam, what is the FIRST adjustment a sonographer should make?",
         "image": "",
         "opciones": [
             "Increase the overall gain.",
@@ -15913,13 +15913,13 @@
             "Decrease the output power."
         ],
         "concept_to_study": "Managing High MI",
-        "explanation": "The first adjustment a sonographer should make when the mechanical index (MI) exceeds acceptable limits is to decrease the output power. This directly lowers the peak negative pressure of the ultrasound wave, bringing the MI back within safe levels and reducing potential bioeffects."
+        "explicacion_openai": "The first adjustment a sonographer should make when the mechanical index (MI) exceeds acceptable limits is to decrease the output power. This directly lowers the peak negative pressure of the ultrasound wave, bringing the MI back within safe levels and reducing potential bioeffects."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "134",
         "tipo_pregunta": "multiple_choice",
-        "question": "Which parameter is MOST directly related to the mechanical index (MI) in ultrasound imaging?",
+        "enunciado": "Which parameter is MOST directly related to the mechanical index (MI) in ultrasound imaging?",
         "image": "",
         "opciones": [
             "Receiver gain",
@@ -15931,13 +15931,13 @@
             "Output power"
         ],
         "concept_to_study": "Mechanical Index and Output Power",
-        "explanation": "The mechanical index (MI) is most directly related to the output power. MI is influenced by the peak negative pressure of the ultrasound wave, which is determined by the transmit power. Increasing output power increases the MI, indicating a higher risk of mechanical bioeffects like cavitation."
+        "explicacion_openai": "The mechanical index (MI) is most directly related to the output power. MI is influenced by the peak negative pressure of the ultrasound wave, which is determined by the transmit power. Increasing output power increases the MI, indicating a higher risk of mechanical bioeffects like cavitation."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "135",
         "tipo_pregunta": "multiple_choice",
-        "question": "An elevated mechanical index (MI) reading suggests an increased risk of:",
+        "enunciado": "An elevated mechanical index (MI) reading suggests an increased risk of:",
         "image": "",
         "opciones": [
             "Thermal bioeffects.",
@@ -15949,13 +15949,13 @@
             "Cavitation bioeffects."
         ],
         "concept_to_study": "Elevated MI and Cavitation",
-        "explanation": "An elevated mechanical index (MI) indicates a higher likelihood of cavitation bioeffects. Cavitation occurs when rapid changes in pressure create microbubbles in tissues, which can collapse violently and cause mechanical damage."
+        "explicacion_openai": "An elevated mechanical index (MI) indicates a higher likelihood of cavitation bioeffects. Cavitation occurs when rapid changes in pressure create microbubbles in tissues, which can collapse violently and cause mechanical damage."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "136",
         "tipo_pregunta": "multiple_choice",
-        "question": "What action BEST reduces the likelihood of exceeding the recommended mechanical index (MI) during an ultrasound examination?",
+        "enunciado": "What action BEST reduces the likelihood of exceeding the recommended mechanical index (MI) during an ultrasound examination?",
         "image": "",
         "opciones": [
             "Increasing the imaging depth.",
@@ -15967,7 +15967,7 @@
             "Decreasing the output power."
         ],
         "concept_to_study": "Reducing High MI Levels",
-        "explanation": "The most effective way to reduce the likelihood of exceeding the recommended mechanical index (MI) is to decrease the output power. This lowers the peak negative pressure of the ultrasound wave, reducing the risk of cavitation and ensuring safe imaging practices."
+        "explicacion_openai": "The most effective way to reduce the likelihood of exceeding the recommended mechanical index (MI) is to decrease the output power. This lowers the peak negative pressure of the ultrasound wave, reducing the risk of cavitation and ensuring safe imaging practices."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -16298,7 +16298,7 @@
         "clasificacion": "Physical Principles",
         "grupo": "224",
         "tipo_pregunta": "calculation",
-        "question": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
+        "enunciado": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
         "image": "",
         "opciones": [
             "16 µs",
@@ -16310,13 +16310,13 @@
             "32 µs"
         ],
         "concept_to_study": "Time of Flight and Soft Tissue",
-        "explanation": "The time of flight (round trip) for ultrasound in soft tissue is calculated using the fact that sound travels at 1540 m/s in soft tissue. The depth of the reflector is 2.5 cm, so the round-trip distance is 2 × 2.5 = 5 cm (or 0.05 m). Time = Distance / Speed, so 0.05 m / 1540 m/s = 32 µs."
+        "explicacion_openai": "The time of flight (round trip) for ultrasound in soft tissue is calculated using the fact that sound travels at 1540 m/s in soft tissue. The depth of the reflector is 2.5 cm, so the round-trip distance is 2 × 2.5 = 5 cm (or 0.05 m). Time = Distance / Speed, so 0.05 m / 1540 m/s = 32 µs."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "190",
         "tipo_pregunta": "multiple_choice",
-        "question": "Which method maintains pixel density when enlarging an image?",
+        "enunciado": "Which method maintains pixel density when enlarging an image?",
         "image": "",
         "opciones": [
             "Area magnification",
@@ -16328,13 +16328,13 @@
             "Write magnification"
         ],
         "concept_to_study": "Write Magnification and Pixel Density",
-        "explanation": "Write magnification maintains pixel density by re-acquiring data and scanning the region of interest with a higher pixel density during pre-processing. Unlike read magnification, this method improves spatial resolution, providing a clearer, higher-quality image."
+        "explicacion_openai": "Write magnification maintains pixel density by re-acquiring data and scanning the region of interest with a higher pixel density during pre-processing. Unlike read magnification, this method improves spatial resolution, providing a clearer, higher-quality image."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "191",
         "tipo_pregunta": "multiple_choice",
-        "question": "What is the primary advantage of write magnification over read magnification?",
+        "enunciado": "What is the primary advantage of write magnification over read magnification?",
         "image": "",
         "opciones": [
             "Faster processing time",
@@ -16346,13 +16346,13 @@
             "Improved spatial resolution"
         ],
         "concept_to_study": "Advantages of Write Magnification",
-        "explanation": "The primary advantage of write magnification is improved spatial resolution. By re-scanning the region of interest with a higher pixel density, write magnification creates a clearer and more detailed image compared to read magnification, which simply enlarges existing data without improving resolution."
+        "explicacion_openai": "The primary advantage of write magnification is improved spatial resolution. By re-scanning the region of interest with a higher pixel density, write magnification creates a clearer and more detailed image compared to read magnification, which simply enlarges existing data without improving resolution."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "192",
         "tipo_pregunta": "multiple_choice",
-        "question": "Read magnification is performed during which stage of image processing?",
+        "enunciado": "Read magnification is performed during which stage of image processing?",
         "image": "",
         "opciones": [
             "Pre-processing",
@@ -16364,13 +16364,13 @@
             "Post-processing"
         ],
         "concept_to_study": "Read Magnification",
-        "explanation": "Read magnification is a post-processing technique that enlarges an image by magnifying the existing stored data. Unlike write magnification, it does not re-scan the region of interest or increase pixel density, which means spatial resolution remains unchanged."
+        "explicacion_openai": "Read magnification is a post-processing technique that enlarges an image by magnifying the existing stored data. Unlike write magnification, it does not re-scan the region of interest or increase pixel density, which means spatial resolution remains unchanged."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "193",
         "tipo_pregunta": "multiple_choice",
-        "question": "Which type of magnification re-scans the region of interest with a higher pixel density?",
+        "enunciado": "Which type of magnification re-scans the region of interest with a higher pixel density?",
         "image": "",
         "opciones": [
             "Read magnification",
@@ -16382,13 +16382,13 @@
             "Write magnification"
         ],
         "concept_to_study": "Write Magnification and Rescanning",
-        "explanation": "Write magnification is a pre-processing method that re-scans the region of interest with a higher pixel density. This results in improved spatial resolution and a more detailed image, making it a preferred method for diagnostic accuracy."
+        "explicacion_openai": "Write magnification is a pre-processing method that re-scans the region of interest with a higher pixel density. This results in improved spatial resolution and a more detailed image, making it a preferred method for diagnostic accuracy."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "194",
         "tipo_pregunta": "multiple_choice",
-        "question": "What happens to the original data when using read magnification?",
+        "enunciado": "What happens to the original data when using read magnification?",
         "image": "",
         "opciones": [
             "The original data is discarded.",
@@ -16400,13 +16400,13 @@
             "The original data is maintained and enlarged."
         ],
         "concept_to_study": "Original Data in Read Magnification",
-        "explanation": "When using read magnification, the original data is preserved and enlarged to create a magnified image. This method, however, does not increase pixel density or spatial resolution, as it relies on the existing stored data."
+        "explicacion_openai": "When using read magnification, the original data is preserved and enlarged to create a magnified image. This method, however, does not increase pixel density or spatial resolution, as it relies on the existing stored data."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": "195",
         "tipo_pregunta": "multiple_choice",
-        "question": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
+        "enunciado": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
         "image": "",
         "opciones": [
             "Write Magnification",
@@ -16418,7 +16418,7 @@
             "Read Magnification"
         ],
         "concept_to_study": "Reducing Noise with Read Magnification",
-        "explanation": "Read magnification can improve the appearance of a noisy image by enlarging the region of interest during post-processing. While it does not enhance spatial resolution or re-scan the data, it can make key features more visible without additional scanning."
+        "explicacion_openai": "Read magnification can improve the appearance of a noisy image by enlarging the region of interest during post-processing. While it does not enhance spatial resolution or re-scan the data, it can make key features more visible without additional scanning."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -22090,7 +22090,7 @@
         "13 µs"
     ],
     "concept_to_study": "13 µs Rule",
-    "explanation_openai": "The '13 µs rule' states that sound takes a total of 13 microseconds (µs) to travel 1 cm round-trip in soft tissue. This total is divided into two equal parts: 6.5 µs for the sound to travel 1 cm to the target and another 6.5 µs for the sound to return to the transducer. This principle relies on the speed of sound in soft tissue, which is approximately 1540 m/s. It is a widely used concept in ultrasound imaging to help calculate distances accurately."
+    "explicacion_openai": "The '13 µs rule' states that sound takes a total of 13 microseconds (µs) to travel 1 cm round-trip in soft tissue. This total is divided into two equal parts: 6.5 µs for the sound to travel 1 cm to the target and another 6.5 µs for the sound to return to the transducer. This principle relies on the speed of sound in soft tissue, which is approximately 1540 m/s. It is a widely used concept in ultrasound imaging to help calculate distances accurately."
 },
 {
     "clasificacion": "Physical Principles",
@@ -22108,6 +22108,6 @@
         "20 mm"
     ],
     "concept_to_study": "Distance Calculation",
-    "explanation_openai": "To calculate the distance to the reflector, it's helpful to think in terms of the 13 µs rule:\n\n1. In 6.5 µs, sound travels **1 cm (10 mm)** one way.\n2. In 13 µs, sound travels **1 cm (10 mm) round-trip**. \n3. For 26 µs, double the 13 µs result, as it's two complete round-trips:\n   - Distance = 2 × 10 mm = **20 mm**.\n\nThis makes it easy to calculate without using the formula. Just remember:\n- **6.5 µs** = 1 cm (one way).\n- **13 µs** = 1 cm (round-trip).\n- Multiply accordingly for larger times!"
+    "explicacion_openai": "To calculate the distance to the reflector, it's helpful to think in terms of the 13 µs rule:\n\n1. In 6.5 µs, sound travels **1 cm (10 mm)** one way.\n2. In 13 µs, sound travels **1 cm (10 mm) round-trip**. \n3. For 26 µs, double the 13 µs result, as it's two complete round-trips:\n   - Distance = 2 × 10 mm = **20 mm**.\n\nThis makes it easy to calculate without using the formula. Just remember:\n- **6.5 µs** = 1 cm (one way).\n- **13 µs** = 1 cm (round-trip).\n- Multiply accordingly for larger times!"
 }   
 ]
