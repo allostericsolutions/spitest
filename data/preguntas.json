@@ -22109,5 +22109,365 @@
     ],
     "concept_to_study": "Distance Calculation",
     "explicacion_openai": "To calculate the distance to the reflector, it's helpful to think in terms of the 13 µs rule:\n\n1. In 6.5 µs, sound travels **1 cm (10 mm)** one way.\n2. In 13 µs, sound travels **1 cm (10 mm) round-trip**. \n3. For 26 µs, double the 13 µs result, as it's two complete round-trips:\n   - Distance = 2 × 10 mm = **20 mm**.\n\nThis makes it easy to calculate without using the formula. Just remember:\n- **6.5 µs** = 1 cm (one way).\n- **13 µs** = 1 cm (round-trip).\n- Multiply accordingly for larger times!"
-}   
+},
+{
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "500",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does high sensitivity in a diagnostic test indicate?",
+        "image": "",
+        "opciones": [
+            "It correctly identifies most patients with the disease.",
+            "It correctly identifies most patients without the disease.",
+            "It minimizes false positive results.",
+            "It eliminates all measurement errors."
+        ],
+        "respuesta_correcta": [
+            "It correctly identifies most patients with the disease."
+        ],
+        "concept_to_study": "Sensitivity is the ability of a test to correctly identify patients who have the condition, thus reducing false negatives. It is also known as the True Positive Rate.",
+        "explicacion_openai": "Definition: Sensitivity (True Positive Rate) is defined as the proportion of actual positive cases that the test correctly identifies. \nFormula: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100%\nExplanation: For example, if there are 100 patients with a disease and a test with 95% sensitivity correctly identifies 95 of them, it means that only 5 cases (false negatives) are missed. \nMemory Strategy: Remember the mnemonic 'SnNout' – a Sensitive test when Negative rules Out disease, meaning high sensitivity ensures that almost no affected patient is overlooked, SENSItive patients are those who are ill, right?"
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "501",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does high specificity in a diagnostic test imply?",
+        "image": "",
+        "opciones": [
+            "It minimizes false negatives.",
+            "It correctly identifies most healthy individuals.",
+            "It correctly identifies all true positives.",
+            "It produces more positive results."
+        ],
+        "respuesta_correcta": [
+            "It correctly identifies most healthy individuals."
+        ],
+        "concept_to_study": "Specificity is the ability of a test to correctly identify those who do not have the condition, thereby reducing false positives. It is also known as the True Negative Rate.",
+        "explicacion_openai": "Definition: Specificity (True Negative Rate) is defined as the proportion of individuals without the disease that are correctly identified by the test. \nFormula: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For instance, if 100 healthy individuals are tested and 98 are correctly identified as negative while 2 are incorrectly given a positive result, the test has high specificity. \nMemory Strategy: Use the mnemonic 'SpPin' – a Specific test when Positive rules IN disease; this helps you remember that a high specificity reduces the chance that healthy individuals are falsely labeled as diseased.Specificity means that if you're a healthy patient, A highly specific test will accurately indicate that you're disease-free, right? And if a healthy patient is mistakenly identified as ill, that result is considered a false positive"
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "502",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following scenarios best illustrates a false positive result?",
+        "image": "",
+        "opciones": [
+            "A test fails to detect a condition that is actually present.",
+            "A test indicates a condition is present in a healthy individual.",
+            "A test accurately identifies an individual with the condition.",
+            "A test accurately identifies an individual without the condition."
+        ],
+        "respuesta_correcta": [
+            "A test indicates a condition is present in a healthy individual."
+        ],
+        "concept_to_study": "A false positive occurs when a diagnostic test incorrectly indicates the presence of a disease in someone who is actually healthy.",
+        "explicacion_openai": "Definition: A false positive is an error where the test result is positive even though the patient does not have the disease. \nAssociated Formula: False Positive Rate = (False Positives) / (False Positives + True Negatives) × 100%, which is essentially 1 - Specificity.\nExplanation: For example, if a screening test for diabetes mistakenly labels a healthy person as diabetic, that person has experienced a false positive. \nMemory Strategy: Recall that if many healthy patients test positive, the test’s specificity is low, indicating a high false positive rate."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "503",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario best describes a false negative result?",
+        "image": "",
+        "opciones": [
+            "A test incorrectly indicates disease in a healthy individual.",
+            "A test fails to detect a disease that is present in the patient.",
+            "A test accurately identifies a healthy individual.",
+            "A test accurately identifies a patient with the disease."
+        ],
+        "respuesta_correcta": [
+            "A test fails to detect a disease that is present in the patient."
+        ],
+        "concept_to_study": "A false negative occurs when a diagnostic test fails to identify a disease in a patient who actually has it.",
+        "explicacion_openai": "Definition: A false negative is defined as the error where the test result is negative despite the presence of disease. \nAssociated Formula: False Negative Rate = (False Negatives) / (True Positives + False Negatives) × 100%, which is equivalent to 1 - Sensitivity.\nExplanation: For instance, if 100 patients have tuberculosis and a test only detects 90 of them, the 10 patients it misses are false negatives. \nMemory Strategy: Recall the 'SnNout' mnemonic – a sensitive test when negative rules out disease; if a test misses many cases, its sensitivity (True Positive Rate) is low."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "504",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does increasing the sensitivity of a diagnostic test affect the rate of false negatives?",
+        "image": "",
+        "opciones": [
+            "It increases the rate of false positives only.",
+            "It decreases the rate of false negatives.",
+            "It increases both false negatives and false positives.",
+            "It has no impact on false negatives."
+        ],
+        "respuesta_correcta": [
+            "It decreases the rate of false negatives."
+        ],
+        "concept_to_study": "Higher sensitivity means that the test is better at correctly identifying those with the disease, thereby reducing the number of false negatives.",
+        "explicacion_openai": "Definition: Sensitivity, also known as the True Positive Rate, reflects the test's ability to detect disease. \nFormula: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100%\nExplanation: For example, if improving a test’s sensitivity from 80% to 95% means that instead of missing 20 out of 100 patients, it only misses 5, then the false negative rate decreases significantly. \nMemory Strategy: Remember 'SnNout' – as sensitivity increases, the chance of missing a case (false negatives) decreases."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "505",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does improving the specificity of a test impact false positive results?",
+        "image": "",
+        "opciones": [
+            "It decreases false positive results.",
+            "It increases false negative results.",
+            "It has no impact on false positives.",
+            "It increases the occurrence of false positives."
+        ],
+        "respuesta_correcta": [
+            "It decreases false positive results."
+        ],
+        "concept_to_study": "High specificity, also known as the True Negative Rate, indicates that the test effectively identifies healthy individuals, thereby reducing the incidence of false positives.",
+        "explicacion_openai": "Definition: Specificity (True Negative Rate) measures the proportion of actual negatives that are correctly identified. \nFormula: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For example, if 100 healthy individuals are tested and 98 are properly diagnosed as negative, then only 2 are erroneously identified as positive. \nMemory Strategy: Remember 'SpPin' – a highly specific test, when positive, confidently rules in disease; therefore, high specificity means far fewer false positives."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "506",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which term describes the ability of a test to correctly identify individuals without the disease?",
+        "image": "",
+        "opciones": [
+            "Sensitivity",
+            "Specificity",
+            "Positive Predictive Value",
+            "Negative Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "Specificity"
+        ],
+        "concept_to_study": "Specificity is the ability of a test to correctly identify those who are disease-free, and it is also referred to as the True Negative Rate.",
+        "explicacion_openai": "Definition: Specificity is defined as the proportion of true negatives correctly detected among those who do not have the disease. \nFormula: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For instance, if 150 healthy individuals undergo testing and 145 are accurately determined to be disease-free, then the test has high specificity. \nMemory Strategy: Use 'SpPin' to recall that a highly specific test minimizes false positives by correctly identifying healthy subjects."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "507",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which term refers to a diagnostic test's ability to correctly identify patients who have the disease?",
+        "image": "",
+        "opciones": [
+            "Specificity",
+            "Sensitivity",
+            "False Positive Rate",
+            "False Negative Rate"
+        ],
+        "respuesta_correcta": [
+            "Sensitivity"
+        ],
+        "concept_to_study": "Sensitivity, also known as the True Positive Rate, is the measure of a test's ability to correctly detect those who are diseased.",
+        "explicacion_openai": "Definition: Sensitivity is defined as the proportion of true positive cases correctly identified by the test. \nFormula: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100%\nExplanation: For example, if 200 patients have an infection and a test with 95% sensitivity correctly identifies 190 of them, then 10 patients are missed as false negatives. \nMemory Strategy: Remember 'SnNout' to emphasize that high sensitivity means that a negative result reliably excludes the disease."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "508",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the expected effect on test outcomes if a diagnostic test is adjusted to favor high sensitivity at the expense of specificity?",
+        "image": "",
+        "opciones": [
+            "It increases both true positives and false positives.",
+            "It decreases both false positives and false negatives.",
+            "It only increases true positives.",
+            "It only increases false negatives."
+        ],
+        "respuesta_correcta": [
+            "It increases both true positives and false positives."
+        ],
+        "concept_to_study": "Adjusting a test to favor high sensitivity (True Positive Rate) means more diseased patients are correctly identified, but it usually results in a lower specificity (True Negative Rate), thereby increasing false positives.",
+        "explicacion_openai": "Definition: When a test is optimized for high sensitivity, it aims to capture nearly all true cases even if it means letting more healthy cases be misclassified as positive. \nFormulas: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100% and Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For example, in a broad infectious disease screening, a highly sensitive test may correctly detect almost all infected individuals but also produce extra false positives because its criteria are less strict. \nMemory Strategy: Balance is key—while a high sensitivity test (SnNout) reduces missed disease cases, a reduction in specificity increases false alarms."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "509",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In a screening test, what is a potential drawback of having high sensitivity but low specificity?",
+        "image": "",
+        "opciones": [
+            "Over-diagnosis and unnecessary follow-up tests.",
+            "Under-diagnosis of the condition.",
+            "Increased false negatives.",
+            "Enhanced test efficiency."
+        ],
+        "respuesta_correcta": [
+            "Over-diagnosis and unnecessary follow-up tests."
+        ],
+        "concept_to_study": "When a test is highly sensitive but has low specificity, it detects almost all true cases (low false negatives) but also wrongly identifies many healthy individuals as positive (high false positives).",
+        "explicacion_openai": "Definition: Over-diagnosis occurs when a test yields many false positive results, leading to further unnecessary procedures. \nAssociated Formulas: Specificity = (True Negatives) / (True Negatives + False Positives) × 100% and False Positive Rate = 1 - Specificity\nExplanation: For instance, in breast cancer screening, if an extremely sensitive mammogram also has low specificity, many women without cancer may receive positive results, resulting in unnecessary biopsies and anxiety. \nMemory Strategy: Remember that while 'SnNout' emphasizes sensitivity for ruling out, a test also needs good specificity (SpPin) to avoid over-diagnosis."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "510",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A high false negative rate in a diagnostic test indicates what about the test's sensitivity?",
+        "image": "",
+        "opciones": [
+            "It indicates poor sensitivity.",
+            "It indicates high specificity.",
+            "It indicates excellent sensitivity.",
+            "It has no relation to sensitivity."
+        ],
+        "respuesta_correcta": [
+            "It indicates poor sensitivity."
+        ],
+        "concept_to_study": "A high false negative rate means that the test is missing many cases of the disease, which reflects low sensitivity (True Positive Rate).",
+        "explicacion_openai": "Definition: A false negative occurs when a test fails to detect a disease in a patient who actually has it. \nFormulas: False Negative Rate = (False Negatives) / (True Positives + False Negatives) × 100% and Sensitivity = 100% - False Negative Rate\nExplanation: For example, if a diagnostic test misses 30 out of 100 diseased patients, the false negative rate is 30%, indicating that the test’s sensitivity is only 70%, which is considered poor. \nMemory Strategy: Recall 'SnNout' – if many cases are missed, the test is not sensitive enough."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "511",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A high false positive rate in a diagnostic test is most indicative of what?",
+        "image": "",
+        "opciones": [
+            "Poor specificity.",
+            "High sensitivity.",
+            "Poor sensitivity.",
+            "High diagnostic accuracy."
+        ],
+        "respuesta_correcta": [
+            "Poor specificity."
+        ],
+        "concept_to_study": "A high false positive rate suggests that the test is frequently misclassifying healthy individuals as diseased, reflecting low specificity (True Negative Rate).",
+        "explicacion_openai": "Definition: A false positive is when the test incorrectly indicates disease in a healthy individual. \nFormula: False Positive Rate = (False Positives) / (False Positives + True Negatives) × 100% and Specificity = 100% - False Positive Rate\nExplanation: For instance, if out of 100 healthy subjects, 20 are incorrectly identified as positive, this high false positive rate reveals a low specificity. \nMemory Strategy: Use 'SpPin' – a highly specific test should accurately rule out disease among healthy individuals, thereby keeping false positives low."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "512",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which test parameter is most useful for ruling out a disease when the result is negative, following the mnemonic 'SnNout'?",
+        "image": "",
+        "opciones": [
+            "High specificity",
+            "High sensitivity",
+            "Low sensitivity",
+            "Low specificity"
+        ],
+        "respuesta_correcta": [
+            "High sensitivity"
+        ],
+        "concept_to_study": "High sensitivity (True Positive Rate) is crucial for ruling out disease; a negative result in a highly sensitive test reliably indicates absence of disease.",
+        "explicacion_openai": "Definition: Sensitivity is the measure of how effectively a test identifies patients who have the disease. \nFormula: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100%\nExplanation: For example, an HIV screening test with 99% sensitivity ensures that a negative result almost certainly rules out the infection. \nMemory Strategy: 'SnNout' means that a Sensitive test when Negative rules OUT disease."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "513",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Following the mnemonic 'SpPin', which parameter is most useful for confirming a disease when the test result is positive?",
+        "image": "",
+        "opciones": [
+            "High sensitivity",
+            "High specificity",
+            "Low sensitivity",
+            "Low specificity"
+        ],
+        "respuesta_correcta": [
+            "High specificity"
+        ],
+        "concept_to_study": "High specificity (True Negative Rate) is essential for confirming disease because it ensures that a positive result is truly indicative of illness.",
+        "explicacion_openai": "Definition: Specificity is the ability of a test to correctly identify those without the disease. \nFormula: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For example, in diagnosing tuberculosis, a test with high specificity will yield a positive result only when TB is truly present, minimizing false positives. \nMemory Strategy: 'SpPin' (Specific test when Positive rules IN disease) helps you remember that high specificity confirms disease."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "514",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the relationship between a test's sensitivity and its rate of false negatives?",
+        "image": "",
+        "opciones": [
+            "As sensitivity increases, false negatives increase.",
+            "As sensitivity increases, false negatives decrease.",
+            "Sensitivity does not affect false negatives.",
+            "False negatives and sensitivity are unrelated."
+        ],
+        "respuesta_correcta": [
+            "As sensitivity increases, false negatives decrease."
+        ],
+        "concept_to_study": "High sensitivity, or a high True Positive Rate, is inversely related to the false negative rate.",
+        "explicacion_openai": "Definition: Sensitivity measures the correct identification of true positive cases. \nFormulas: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100% and False Negative Rate = 100% - Sensitivity\nExplanation: For example, if a test’s sensitivity increases from 80% to 95%, the proportion of patients missed (false negatives) declines from 20% to 5%. \nMemory Strategy: Remember 'SnNout' – better sensitivity means fewer cases are missed."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "515",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is one major impact of a diagnostic test having low specificity?",
+        "image": "",
+        "opciones": [
+            "It increases diagnostic accuracy by reducing false negatives.",
+            "It leads to an increased rate of false positives, lowering diagnostic accuracy.",
+            "It enhances the test's ability to confirm disease presence.",
+            "It has no effect on the number of false positive results."
+        ],
+        "respuesta_correcta": [
+            "It leads to an increased rate of false positives, lowering diagnostic accuracy."
+        ],
+        "concept_to_study": "Low specificity (or a low True Negative Rate) results in more healthy individuals being incorrectly identified as diseased (false positives), which compromises overall diagnostic accuracy.",
+        "explicacion_openai": "Definition: Specificity is the ability to correctly rule out disease in healthy individuals. \nFormulas: Specificity = (True Negatives) / (True Negatives + False Positives) × 100% and False Positive Rate = 100% - Specificity\nExplanation: For example, if a test with only 85% specificity is applied in a screening program, many healthy individuals may be misdiagnosed as positive, leading to unnecessary treatments and anxiety. \nMemory Strategy: Recall 'SpPin' – a specific test should rarely yield a false positive."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "516",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a diagnostic test has both high sensitivity and high specificity, what can be said about the occurrence of false results?",
+        "image": "",
+        "opciones": [
+            "Both false positives and false negatives are minimized.",
+            "False positives are minimized but false negatives increase.",
+            "False negatives are minimized but false positives increase.",
+            "Both false positives and false negatives are high."
+        ],
+        "respuesta_correcta": [
+            "Both false positives and false negatives are minimized."
+        ],
+        "concept_to_study": "When a test has high sensitivity (True Positive Rate) and high specificity (True Negative Rate), it accurately identifies both affected and healthy individuals, thereby minimizing both false negatives and false positives.",
+        "explicacion_openai": "Definition: High sensitivity minimizes missed disease cases, and high specificity minimizes incorrect disease identifications. \nFormulas: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100% and Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For example, a diagnostic test with 98% sensitivity and 98% specificity will correctly classify nearly all individuals, leading to minimal misdiagnosis. \nMemory Strategy: Remember that the best tests balance both 'SnNout' and 'SpPin' to reduce error rates."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "517",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is not directly improved by increasing the sensitivity of a diagnostic test?",
+        "image": "",
+        "opciones": [
+            "Reduction of false negatives.",
+            "Accurate detection of true positives.",
+            "Reduction of false positives.",
+            "Identification of most cases of the disease."
+        ],
+        "respuesta_correcta": [
+            "Reduction of false positives."
+        ],
+        "concept_to_study": "Increasing sensitivity improves the detection of true disease cases (reducing false negatives), but it does not directly reduce false positives; that depends on the test's specificity (True Negative Rate).",
+        "explicacion_openai": "Definition: Sensitivity refers to the ability to correctly identify patients with a disease. \nFormula: Sensitivity = (True Positives) / (True Positives + False Negatives) × 100%\nExplanation: For instance, a highly sensitive test will catch nearly all diseased patients but may still produce many false positives if its specificity is low. \nMemory Strategy: To remember the difference, link 'SnNout' with sensitivity (ruling out disease) and 'SpPin' with specificity (ruling in disease); sensitivity does not address false positives."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "518",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which measure is most strongly influenced by the prevalence of a disease in a population when interpreting a positive test result?",
+        "image": "",
+        "opciones": [
+            "Sensitivity",
+            "Specificity",
+            "Positive Predictive Value",
+            "Negative Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "Positive Predictive Value"
+        ],
+        "concept_to_study": "Positive Predictive Value (PPV) is the probability that a patient with a positive test result actually has the disease, and it is strongly influenced by the disease prevalence.",
+        "explicacion_openai": "Definition: PPV is defined as the proportion of true positive results among all positive test results. \nFormula: PPV = (True Positives) / (True Positives + False Positives) × 100%\nExplanation: For example, in a population where a disease is rare, even tests with high sensitivity and specificity may have a low PPV because the number of false positives may be high relative to true positives. \nMemory Strategy: Remember that predictive values depend on prevalence, unlike sensitivity and specificity which are intrinsic test properties."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": "519",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which measure is most strongly influenced by the prevalence of a disease in a population when interpreting a negative test result?",
+        "image": "",
+        "opciones": [
+            "Sensitivity",
+            "Specificity",
+            "Positive Predictive Value",
+            "Negative Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "Negative Predictive Value"
+        ],
+        "concept_to_study": "Negative Predictive Value (NPV) is the probability that a patient with a negative test result truly does not have the disease, and it is heavily influenced by disease prevalence.",
+        "explicacion_openai": "Definition: NPV is defined as the proportion of true negatives among all patients with a negative test result. \nFormula: NPV = (True Negatives) / (True Negatives + False Negatives) × 100%\nExplanation: For example, in a population where the disease is rare, most test results will be negative and the NPV will be high, meaning that a negative result is very reliable. \nMemory Strategy: Like PPV, remember that NPV is affected by the prevalence of the disease; in low-prevalence groups, negative results are very trustworthy."
+    }
 ]
