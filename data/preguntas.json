@@ -15058,8 +15058,8 @@
         "enunciado": "What determines the radial resolution of an ultrasound system?",
         "image": "",
         "opciones": [
-            "Axial resolution",
-            "Temporal resolution",
+            "Intensity",
+            "Power",
             "Spatial pulse length",
             "Beam frequency"
         ],
