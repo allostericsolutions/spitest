@@ -22901,7 +22901,41 @@
     ],
     "concept_to_study": "The ultimate goal of frequency compounding is to enhance image quality by reducing speckle noise and improving contrast resolution, leading to better diagnostic accuracy.",
     "explicacion_openai": "Definition: Frequency compounding combines sub-band images to produce a final image that reduces noise and enhances subtle tissue features. \n\nExplanation: By reducing speckle noise and improving contrast resolution, frequency compounding makes tissue features and abnormalities clearer and more distinguishable, which aids in more accurate diagnoses. \n\nMemory Strategy: Think of frequency compounding as a precision tool that 'cleans up' the image, sharpening details and enhancing clarity for diagnostic purposes."
-  }
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "405",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is NOT an advantage of harmonic ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Improved axial resolution",
+      "Improved lateral resolution and reduction in side lobe artifact",
+      "Reduction in side lobe artifact",
+      "Better signal to noise ratio"
+    ],
+    "respuesta_correcta": [
+      "Improved axial resolution"
+    ],
+    "concept_to_study": "Harmonic imaging and axial resolution",
+    "explicacion_openai": "Harmonic imaging usually has reduced axial resolution compared to non-harmonic B-mode imaging. This is because the resonance frequency generated in harmonic imaging needs to have a narrow bandwidth, to ensure harmonic frequencies - which are integer multiples of the resonance frequency - are easier to detect. A narrow bandwidth is created with a longer spatial pulse length pulse. Lengthening of spatial pulse length reduces axial resolution.Because only the tissue harmonic frequencies are used to generate the image there is an improvement in signal to noise ratio and subsequently contrast. Lateral resolution improves because only the most intense region in the beam generates harmonic frequencies (this region is narrower than the ultrasound beam itself). Side lobe artifact is reduced because the side lobes have insufficient intensity to produce tissue harmonics."
+  },
+ {
+  "clasificacion": "Physical Principles",
+  "grupo": "562",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which relationship best explains the improvement of axial resolution in ultrasound imaging?",
+  "image": "",
+  "opciones": [
+    "Higher frequency → longer wavelength → shorter SPL → better axial resolution",
+    "Higher frequency → shorter wavelength → shorter SPL → better axial resolution",
+    "Higher frequency → shorter wavelength → longer SPL → better axial resolution",
+    "Lower frequency → shorter wavelength → shorter SPL → better axial resolution"
+  ],
+  "respuesta_correcta": [
+    "Higher frequency → shorter wavelength → shorter SPL → better axial resolution"
+  ],
+  "concept_to_study": "Higher frequencies produce shorter wavelengths, resulting in shorter Spatial Pulse Lengths (SPL). This reduction in SPL improves axial resolution by allowing better distinction of closely spaced structures along the beam's axis.",
+  "explicacion_openai": "Definition: Axial resolution depends directly on Spatial Pulse Length (SPL), which is influenced by the wavelength and frequency of the ultrasound. \n\nExplanation: Higher frequencies generate shorter wavelengths. Since SPL is calculated as the number of cycles multiplied by the wavelength, shorter wavelengths reduce the SPL. Consequently, this improves axial resolution, making it possible to distinguish finer details. \n\nMemory Strategy: Remember: 'High frequency = short wavelength = short SPL = sharper axial resolution'—the sequence ensures clearer imaging along the ultrasound beam's direction."
+}
 ]
-   
-
