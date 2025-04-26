@@ -3689,8 +3689,8 @@
         "respuesta_correcta": [
             "Reduce the duration of the crystal vibrations"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "The damping layer",
+        "explicacion_openai": "The damping layer in an ultrasound transducer is designed to reduce the duration of the crystal vibrations.This reduction in vibration time leads to shorter pulse lengths, which enhances the axial resolution of the ultrasound image. By controlling the pulse duration, the damping layer helps to improve image clarity and detail. Additionally, while it does not increase the frequency of the ultrasound waves, it plays a crucial role in optimizing the performance of the transducer by balancing sensitivity and resolution. The damping material absorbs some of the energy from the crystal vibrations, preventing prolonged ringing and allowing for more precise imaging. Understanding the role of the damping layer is essential for grasping how transducer design impacts ultrasound imaging quality"
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -6821,8 +6821,8 @@
         "respuesta_correcta": [
             "Restarting the system"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Restarting the ultrasound system",
+        "explicacion_openai": "Restarting the ultrasound system is a fundamental troubleshooting step when encountering equipment malfunctions. This process can resolve temporary software glitches, refresh system settings, and restore normal functionality. It is often the first action taken by operators to address issues such as frozen screens, error messages, or unresponsive controls. By rebooting the system, the operator allows the software to reload and can clear any transient errors that may be affecting performance. This step is essential in maintaining the reliability and efficiency of ultrasound equipment during clinical use."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -7829,8 +7829,8 @@
         "respuesta_correcta": [
             "ACR"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "The American College of Radiology (ACR)",
+        "explicacion_openai": "The American College of Radiology (ACR) is a professional organization that provides accreditation for ultrasound practices. This accreditation ensures that facilities meet specific standards of quality and safety in imaging services. The ACR's accreditation process involves a thorough evaluation of the facility's equipment, personnel qualifications, and adherence to established protocols. This is crucial for maintaining high standards in patient care and diagnostic accuracy. Other organizations, such as the IAC (Intersocietal Accreditation Commission) and AIUM (American Institute of Ultrasound in Medicine), also play roles in ultrasound accreditation and education, but the ACR is specifically recognized for its comprehensive accreditation programs in radiology and imaging. Understanding the role of the ACR is essential for professionals in the field of ultrasound and radiology"
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -7865,8 +7865,8 @@
         "respuesta_correcta": [
             "IAC"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "The Intersocietal Accreditation Commission (IAC)",
+        "explicacion_openai": "The IAC agency is dedicated to ensuring that ultrasound imaging facilities provide safe, accurate, and high-quality diagnostic services. It does so by defining strict standards, accrediting facilities that meet these standards, and promoting continuous quality improvement—all of which contribute to better diagnostic outcomes and enhanced patient care"
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -7883,8 +7883,8 @@
         "respuesta_correcta": [
             "To set guidelines for ultrasound practice"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "The American Institute of Ultrasound in Medicine (AIUM)",
+        "explicacion_openai": "The AIUM is instrumental in ensuring that ultrasound remains a reliable, safe, and continually advancing imaging modality. Its efforts in establishing robust guidelines, promoting education, supporting research, and championing high standards in practice are vital in shaping the future of diagnostic and interventional ultrasound, also To set guidelines for ultrasound practice."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -7919,8 +7919,8 @@
         "respuesta_correcta": [
             "Accrediting ultrasound laboratories"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "The Intersocietal Accreditation Commission (IAC)",
+        "explicacion_openai": "Accrediting ultrasound laboratories. Through a thorough evaluation and accreditation process, the IAC assesses ultrasound laboratories and imaging centers. This accreditation confirms that a facility meets or exceeds established benchmarks in areas such as operator training, equipment maintenance, procedure protocols, and overall image quality. Accreditation by the IAC is a mark of excellence and reliability in diagnostic imaging"
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -8117,8 +8117,8 @@
         "respuesta_correcta": [
             "Cavitation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Cavitation",
+        "explicacion_openai": "Cavitation refers to the formation of gas bubbles in a liquid due to changes in pressure. In ultrasound, the mechanical index (MI) is a measure that indicates the likelihood of cavitation occurring in tissues when exposed to ultrasound waves. A higher MI suggests a greater potential for cavitation, which can lead to tissue damage if bubbles collapse violently. Understanding the MI is crucial for ensuring patient safety during ultrasound procedures, as it helps to assess the risk of adverse effects associated with ultrasound exposure. Therefore, the MI serves as a critical safety indicator in ultrasound imaging, particularly in relation to the potential for cavitation."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -10439,8 +10439,8 @@
         "respuesta_correcta": [
             "A-mode"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "A-mode in ophthalmology",
+        "explicacion_openai": "A-mode, or amplitude mode, is a one-dimensional ultrasound imaging technique that displays echoes as spikes on a graph, representing the amplitude of returning echoes at specific depths. This mode is particularly useful in ophthalmology for measuring the dimensions of the eye, such as the axial length, and for assessing intraocular structures. Despite the advancement of more complex imaging modalities, A-mode remains relevant in clinical practice due to its simplicity and effectiveness in providing precise measurements.It allows for accurate quantification of distances, which is crucial in diagnosing and managing various ocular conditions. Understanding the application and significance of A-mode in ophthalmology is essential for ultrasound practitioners."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -11717,8 +11717,8 @@
         "respuesta_correcta": [
             "Autocorrelation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Autocorrelation",
+        "explicacion_openai": "Autocorrelation is a signal processing technique used in color Doppler ultrasound that allows for the rapid estimation of blood flow velocities. Unlike the Fast Fourier Transform (FFT), which provides more accurate spectral analysis but requires more processing time, autocorrelation offers a quicker method for analyzing the Doppler signal. This speed is particularly beneficial in clinical settings where real-time imaging is essential. Autocorrelation works by comparing the Doppler signal with itself at different time intervals, enabling the detection of changes in frequency that correspond to blood flow. While it may sacrifice some accuracy compared to FFT, its efficiency makes it a preferred choice for color Doppler applications. Understanding the trade-off between speed and accuracy in these techniques is crucial for effective ultrasound imaging"
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -12948,7 +12948,7 @@
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "76",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Below what SPTA intensity level have no biological effects been seen for unfocused beams?",
+        "enunciado": "Below what SPTA (Spatial Peak Temporal Average) intensity level have no biological effects been seen for unfocused beams?",
         "image": "",
         "opciones": [
             "100 mW/cm\u00b2",
@@ -12959,8 +12959,8 @@
         "respuesta_correcta": [
             "100 mW/cm\u00b2"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "SPTA intensity",
+        "explicacion_openai": "The American Institute of Ultrasound in Medicine has established that no significant bioeffects are observed in mammalian tissues when the spatial pulse temporal average (SPTA) intensity of ultrasound is below 100 mW/cm². This threshold is critical for ensuring safety during ultrasound procedures, particularly in clinical settings. Understanding this limit helps practitioners minimize potential risks associated with ultrasound exposure. It is essential to recognize that intensities above this level may lead to biological effects, emphasizing the importance of adhering to safety guidelines in ultrasound applications."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13013,8 +13013,8 @@
         "respuesta_correcta": [
             "0.4"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Mechanical Index (MI)",
+        "explicacion_openai": "Definition: The Mechanical Index (MI) quantifies the likelihood of acoustic cavitation occurring during an ultrasound exam. Cavitation involves the formation and violent collapse of gas bubbles, which can lead to adverse bioeffects, particularly in tissues with well-defined gas bodies (e.g., lung or bowel tissues).\n\nExplanation: Safety guidelines recommend that to avoid known bioeffects such as cavitation-induced tissue damage, the MI should not exceed 0.4 in tissues containing defined gas pockets. Exceeding this threshold increases the risk of deleterious bioeffects. It is important to note that the MI is strictly a measure of mechanical (cavitational) effects and should not be confused with the Thermal Index (TI), which estimates the potential for tissue heating. Each index has its own specific threshold values and implications for patient safety.\n\nMemory Strategy: Think of the MI threshold (0.4) as a safety ceiling to avoid cavitation while imaging gas-containing tissues, and remember that this value is separate from the TI maximum value, which pertains to heat generation from ultrasound exposure."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
@@ -13157,8 +13157,8 @@
         "respuesta_correcta": [
             "Carotid"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+        "concept_to_study": "Nonresponsive patient",
+        "explicacion_openai": "Definition: In a nonresponsive adult patient, the carotid pulse is the most reliable site to assess circulation. \n\nExplanation: The carotid artery is centrally located and usually provides a strong, easily palpable pulse. Evaluating the carotid pulse is recommended by resuscitation guidelines (such as those from the American Heart Association) for adult patients because peripheral pulses like the radial may be weak or absent in low-perfusion states due to vasoconstriction. \n\nMemory Strategy: Remember the mnemonic 'C for Carotid'—in adults who are nonresponsive, always check the carotid pulse as it gives the best indication of whether the heart is pumping effectively."
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
