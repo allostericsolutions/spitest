@@ -22703,5 +22703,95 @@
         ],
         "concept_to_study": "Spatial compounding may be achieved by electronically steering the beam or by mechanically moving the transducer to acquire images from different angles.",
         "explicacion_openai": "Definition: Spatial compounding can be implemented through electronic methods (using multi-element transducers to steer the beam) or mechanical methods (physically repositioning the transducer). \nExplanation: For example, an ultrasound system might use electronic beam steering to quickly acquire several images from various angles, or a mechanically scanned probe might be rotated to provide different views, both of which are then compounded. \nMemory Strategy: Remember that spatial compounding is all about gathering multiple perspectives—whether through electronics or mechanics, the goal is the same: to combine different angles for a clearer image."
-    }
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": "540",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the definition of Spatial Pulse Length (SPL) in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "The duration of the echo signal",
+      "The product of the number of cycles in a pulse and the wavelength",
+      "The frequency of the transmitted pulse",
+      "The amplitude of the received echo"
+    ],
+    "respuesta_correcta": [
+      "The product of the number of cycles in a pulse and the wavelength"
+    ],
+    "concept_to_study": "Spatial Pulse Length (SPL)",
+    "explicacion_openai": "Definition: SPL is the length of a pulse, determined by multiplying the number of cycles in that pulse by the wavelength of the sound. \n\nExplanation: This means that both the number of cycles and the wavelength directly impact the pulse length. A longer pulse (due either to more cycles or a longer wavelength) increases SPL, which can degrade axial resolution. Shorter SPL improves axial resolution. \n\nMemory Strategy: Think of SPL as the 'footprint' of the pulse in tissue – its size depends on how many cycles (or 'steps') are spread out over space (wavelength)."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "541",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does an increase in wavelength affect the Spatial Pulse Length (SPL)?",
+    "image": "",
+    "opciones": [
+      "It decreases the SPL",
+      "It increases the SPL",
+      "It has no effect on the SPL",
+      "It improves axial resolution without changing SPL"
+    ],
+    "respuesta_correcta": [
+      "It increases the SPL"
+    ],
+    "concept_to_study": "An increase in wavelength leads directly to an increase in SPL since SPL is proportional to the wavelength.",
+    "explicacion_openai": "Definition: SPL is directly proportional to the wavelength when the number of cycles remains constant. \n\nExplanation: If the wavelength increases, the overall length of the pulse (SPL) increases, which can negatively affect axial resolution. \n\nMemory Strategy: Visualize a longer wavelength as stretching the pulse out over a greater distance, thus increasing its 'footprint'."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "542",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does increasing the number of cycles in a pulse influence the Spatial Pulse Length (SPL)?",
+    "image": "",
+    "opciones": [
+      "It decreases the SPL",
+      "It increases the SPL",
+      "It has no effect on SPL",
+      "It only improves the frequency response"
+    ],
+    "respuesta_correcta": [
+      "It increases the SPL"
+    ],
+    "concept_to_study": "The number of cycles in a pulse directly affects the SPL; more cycles result in a longer SPL.",
+    "explicacion_openai": "Definition: SPL equals the product of the number of cycles and the wavelength. \n\nExplanation: Increasing the number of cycles extends the pulse's length, leading to a longer SPL and pulse duration (PD), which may negatively impact axial resolution. \n\nMemory Strategy: Imagine each cycle as a building block; adding more blocks makes the structure (the pulse) longer."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "543",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the effect of damping on the Spatial Pulse Length (SPL) and Pulse Duration (PD)?",
+    "image": "",
+    "opciones": [
+      "Damping increases both SPL and PD",
+      "Damping reduces the number of cycles, thereby reducing SPL and PD",
+      "Damping has no effect on SPL or PD",
+      "Damping only reduces the sound frequency"
+    ],
+    "respuesta_correcta": [
+      "Damping reduces the number of cycles, thereby reducing SPL and PD"
+    ],
+    "concept_to_study": "Damping or backing material shortens the pulse by reducing the number of cycles, which in turn decreases both SPL and PD, thus improving axial resolution.",
+    "explicacion_openai": "Definition: Damping reduces the length of the transmitted pulse by limiting the number of cycles. \n\nExplanation: With fewer cycles, the Spatial Pulse Length and Pulse Duration are shortened, leading to enhanced axial resolution and improved image clarity. \n\nMemory Strategy: Think of damping as 'quenching' the pulse: fewer cycles create a shorter, sharper pulse that enhances resolution."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "544",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How do higher ultrasound frequencies affect the Spatial Pulse Length (SPL)?",
+    "image": "",
+    "opciones": [
+      "Higher frequencies result in longer wavelengths and longer SPL",
+      "Higher frequencies result in shorter wavelengths and shorter SPL",
+      "Higher frequencies have no effect on SPL",
+      "Higher frequencies reduce the number of cycles in a pulse"
+    ],
+    "respuesta_correcta": [
+      "Higher frequencies result in shorter wavelengths and shorter SPL"
+    ],
+    "concept_to_study": "Increasing ultrasound frequency yields shorter wavelengths, which in turn reduce the Spatial Pulse Length, improving axial resolution and overall image quality.",
+    "explicacion_openai": "Definition: Wavelength is inversely related to frequency in a given medium. \n\nExplanation: When the frequency increases, the wavelength decreases. Since SPL is the product of the number of cycles and the wavelength, a shorter wavelength leads to a shorter SPL, which enhances axial resolution. \n\nMemory Strategy: Remember: 'High frequency, short wavelength, short SPL' – a compact pulse is key to better image definition."
+  }
 ]
