@@ -10547,8 +10547,8 @@
         "respuesta_correcta": [
             "RAID array"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": ""
+      "concept_to_study": "RAID (Redundant Array of Independent Disks) is a storage technology that uses multiple hard drives to provide data redundancy and fault tolerance. In a PACS environment, RAID arrays ensure data integrity and availability by distributing data across several drives so that if one fails, the data remains accessible.",
+      "explicacion_openai": "Definition: A RAID array is a system that combines several hard disks into a single storage unit, offering redundancy and improved fault tolerance. \n\nFormula/Concept: There is no single formula, but RAID configurations (such as RAID 1, RAID 5, or RAID 6) rely on distributing data and parity information across multiple disks to protect against drive failure. \n\nExplanation: In a PACS, where a significant amount of critical imaging data is stored, it is essential to protect this data against hardware failures. The RAID array accomplishes this by maintaining redundant copies of data. For instance, in RAID 5, data and parity are distributed across three or more disks so that if one disk fails, the missing data can be reconstructed. This method outperforms other backup methods like optical drives, tape backups, or flash drives which may be slower, offer less redundancy, or are not designed for continuous, real-time data protection. \n\nMemory Strategy: Visualize a RAID array as a safety net made of many threads (disks). If one thread breaks, the net still holds together, ensuring the critical imaging data remains safe and available."
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -22469,5 +22469,239 @@
         ],
         "concept_to_study": "Negative Predictive Value (NPV) is the probability that a patient with a negative test result truly does not have the disease, and it is heavily influenced by disease prevalence.",
         "explicacion_openai": "Definition: NPV is defined as the proportion of true negatives among all patients with a negative test result. \nFormula: NPV = (True Negatives) / (True Negatives + False Negatives) × 100%\nExplanation: For example, in a population where the disease is rare, most test results will be negative and the NPV will be high, meaning that a negative result is very reliable. \nMemory Strategy: Like PPV, remember that NPV is affected by the prevalence of the disease; in low-prevalence groups, negative results are very trustworthy."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "520",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an assumption the ultrasound machine makes about the transmission of sound beams?",
+        "image": "",
+        "opciones": [
+            "Sound beams travel in a curved path through tissue.",
+            "Sound beams travel in a straight line from the transducer and back along the same path.",
+            "Sound beams slow down as they pass through different tissues.",
+            "Sound beams scatter randomly in all directions."
+        ],
+        "respuesta_correcta": [
+            "Sound beams travel in a straight line from the transducer and back along the same path."
+        ],
+        "concept_to_study": "The assumption that sound beams travel in a straight line is fundamental to ultrasound imaging.",
+        "explicacion_openai": "Definition: The ultrasound machine assumes that the sound beam is emitted and received along a straight line from the transducer. \nFormula: This is an assumed propagation path rather than a numerical formula. \nExplanation: For example, it presumes that the echo coming from an object follows the same linear path back to the transducer. If this is not the case, artifacts such as mirror image artifacts may occur. \nMemory Strategy: Think of it as the machine 'believing' the beam always takes the most direct, straight route."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "521",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What propagation speed does the ultrasound machine assume for sound traveling through the body?",
+        "image": "",
+        "opciones": [
+            "1400 m/s",
+            "1540 m/s",
+            "1600 m/s",
+            "1700 m/s"
+        ],
+        "respuesta_correcta": [
+            "1540 m/s"
+        ],
+        "concept_to_study": "Constant propagation speed assumption",
+        "explicacion_openai": "Definition: The ultrasound machine assumes a constant sound propagation speed of 1540 meters per second in soft tissues. \nFormula: This is a constant value, 1540 m/s. \nExplanation: For instance, when calculating how far an echo has traveled based on its return time, the machine uses 1540 m/s as the standard. Variations from this speed in actual tissues can lead to image distortions. \nMemory Strategy: Remember 1540 as the 'magic number' for soft tissue speeds in ultrasound imaging."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "522",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to ultrasound assumptions, any reflection returning to the transducer must have followed which path?",
+        "image": "",
+        "opciones": [
+            "A random diffuse path through the tissue.",
+            "The same direct path the ultrasound beam traveled.",
+            "A curved path due to refraction.",
+            "Multiple branching paths."
+        ],
+        "respuesta_correcta": [
+            "The same direct path the ultrasound beam traveled."
+        ],
+        "concept_to_study": "Reflection path assumption",
+        "explicacion_openai": "Definition: The machine assumes that every echo returning to the transducer comes directly back along the original beam path. \nFormula: There is no numerical formula; it's a conceptual assumption. \nExplanation: For example, if a reflection comes from an off-axis direction due to lateral emissions (side lobes), the system misinterprets its origin, resulting in artifacts. \nMemory Strategy: Remember that the system 'believes' all echoes are as straight as the beam it sent out."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "523",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the common artifact created by multiple reflections between two closely spaced strong specular reflectors?",
+        "image": "",
+        "opciones": [
+            "Mirror image artifact",
+            "Reverberation artifact",
+            "Ring-down artifact",
+            "Side lobe artifact"
+        ],
+        "respuesta_correcta": [
+            "Reverberation artifact"
+        ],
+        "concept_to_study": "Reverberation artifact",
+        "explicacion_openai": "Definition: A reverberation artifact occurs when sound bounces back and forth between two strong reflectors, producing repeated echoes. \nFormula: This is a phenomenon rather than a calculation, so no formula applies directly. \nExplanation: For example, when the ultrasound beam repeatedly reflects between two closely spaced interfaces, a 'stepladder' appearance of parallel echoes is created, with each echo diminishing in amplitude. \nMemory Strategy: Visualize multiple echoes like an echo in a canyon, where each subsequent echo is fainter than the previous one."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "524",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What distinguishes a comet tail artifact from a ring-down artifact in ultrasound imaging?",
+        "image": "",
+        "opciones": [
+            "Comet tail artifact is caused by multiple reflections from small structures like surgical clips, while ring-down artifact is due to vibration of small air bubbles.",
+            "They are completely identical phenomena.",
+            "Comet tail is caused by refraction whereas ring-down is due to side lobes.",
+            "Ring-down artifact results from large, strong reflectors whereas comet tail is due to weak reflectors."
+        ],
+        "respuesta_correcta": [
+            "Comet tail artifact is caused by multiple reflections from small structures like surgical clips, while ring-down artifact is due to vibration of small air bubbles."
+        ],
+        "concept_to_study": "Difference between comet tail and ring-down artifacts",
+        "explicacion_openai": "Definition: Both comet tail and ring-down artifacts are types of reverberation artifacts, though they differ in their causes. \nFormula: There is no direct formula; these are phenomena explained by the physics of sound waves and their interactions with small structures. \nExplanation: Comet tail artifact is typically seen with small, highly reflective structures such as surgical clips or adenomyomatosis in the gallbladder wall, resulting in a tapered trail of echoes. In contrast, a ring-down artifact is produced when sound interacts with small air bubbles that then vibrate continuously, creating a sustained trailing echo. \nMemory Strategy: Think of a 'comet tail' as a slender, tapering trail following a small object versus 'ring-down' where the sound 'rings' off tiny bubbles."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "525",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artifact occurs when a large specular reflector, such as the diaphragm, deviates part of the sound beam, creating a duplicate image that appears deeper than the actual structure?",
+        "image": "",
+        "opciones": [
+            "Mirror image artifact",
+            "Reverberation artifact",
+            "Edge shadowing",
+            "Side lobe artifact"
+        ],
+        "respuesta_correcta": [
+            "Mirror image artifact"
+        ],
+        "concept_to_study": "Mirror image artifact",
+        "explicacion_openai": "Definition: A mirror image artifact happens when a large, reflective surface acts like a mirror and redirects part of the ultrasound beam away from its expected path, creating a duplicate image. \nFormula: This artifact is described conceptually rather than with a formula. \nExplanation: For example, near the diaphragm or pleura, the sound may bounce off the reflector and produce a duplicate, or mirror, image of an object that appears deeper than it actually is. \nMemory Strategy: Imagine a mirror that not only reflects your image but also places it farther away—this exemplifies a mirror image artifact."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "526",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Artifacts such as side lobes or grating lobes occur because the ultrasound machine assumes which of the following about sound energy?",
+        "image": "",
+        "opciones": [
+            "All sound energy is emitted along the main beam axis.",
+            "Sound energy travels in a curved line.",
+            "The slice thickness is variable.",
+            "Echoes only arise from large reflectors."
+        ],
+        "respuesta_correcta": [
+            "All sound energy is emitted along the main beam axis."
+        ],
+        "concept_to_study": "Assumption regarding side lobes and grating lobes",
+        "explicacion_openai": "Definition: The ultrasound machine assumes that all emitted sound energy travels strictly along the main beam axis. \nFormula: This is a conceptual assumption without a numeric formula. \nExplanation: However, in reality, some sound energy is emitted laterally (forming side lobes or grating lobes), and when these lateral energies return as echoes, they are misinterpreted as coming from the main axis, thereby creating artifacts. \nMemory Strategy: Think of the system as having 'tunnel vision'—it only expects echoes from the direct, straight-ahead beam, so any side emissions lead to errors in the image."
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": "527",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is NOT an assumption made by the ultrasound machine?",
+    "image": "",
+    "opciones": [
+      "Sound beams travel in a straight line from the transducer and back.",
+      "The only propagation speed in the body is 1540 m/s.",
+      "Any reflection returning to the transducer must follow the main beam path.",
+      "Sound beams are emitted in multiple random directions."
+    ],
+    "respuesta_correcta": [
+      "Sound beams are emitted in multiple random directions."
+    ],
+    "concept_to_study": "Understanding which statements reflect the machine's assumptions about sound propagation.",
+    "explicacion_openai": "Definition: Ultrasound machines make several key assumptions: that sound travels in a straight line, that the propagation speed in tissue is constant at 1540 m/s, and that echoes come only from the main beam path. \nExplanation: Option 4, 'Sound beams are emitted in multiple random directions,' is NOT an assumption made by the machine. In fact, the machine is designed to focus the beam in a specific direction. \nMemory Strategy: Review the four main assumptions—constant speed (1540 m/s), straight-line travel, echoes following the beam path, and a razor-thin slice thickness. Anything contrary to these, like the idea of random directionality, is not assumed."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "528",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is spatial compounding in ultrasound imaging?",
+        "image": "",
+        "opciones": [
+            "A technique that combines images acquired from multiple angles to improve image quality.",
+            "A method to increase the frequency of the ultrasound beam.",
+            "A process to improve Doppler sensitivity using contrast agents.",
+            "A way to measure tissue elasticity using post-processing algorithms."
+        ],
+        "respuesta_correcta": [
+            "A technique that combines images acquired from multiple angles to improve image quality."
+        ],
+        "concept_to_study": "Spatial compounding involves acquiring multiple images of the same area at different insonation angles and then combining them to reduce artifacts and enhance image clarity.",
+        "explicacion_openai": "Definition: Spatial compounding is the process by which multiple ultrasound images obtained from various angles are averaged to produce a single composite image with reduced speckle noise and improved margin delineation. \nExplanation: For instance, by imaging a lesion from different perspectives, the resulting compounded image shows fewer artifacts such as edge shadowing and provides a clearer representation of the lesion's true borders. \nMemory Strategy: Think of it like assembling a puzzle—each image from a different angle contributes a piece that, when combined, forms a more complete and accurate picture."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "529",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which artifact is most significantly improved by spatial compounding?",
+        "image": "",
+        "opciones": [
+            "Edge shadowing",
+            "Mirror image artifact",
+            "Reverberation artifact",
+            "Ring-down artifact"
+        ],
+        "respuesta_correcta": [
+            "Edge shadowing"
+        ],
+        "concept_to_study": "Spatial compounding greatly diminishes edge shadowing by filling in dark areas through imaging from multiple angles.",
+        "explicacion_openai": "Definition: Edge shadowing is an artifact where the borders of a structure are obscured by a dark shadow due to the directional nature of the ultrasound beam. \nExplanation: Spatial compounding improves this by combining images from several angles, thereby ‘filling in’ the shadowed areas and providing enhanced delineation of the structure’s margins. \nMemory Strategy: Remember 'SpPin' for specificity and 'SnNout' for sensitivity—the multiple views in compounding help 'fill in' the gaps, much like multiple light sources eliminate shadows."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "530",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is one major benefit of spatial compounding in ultrasound imaging?",
+        "image": "",
+        "opciones": [
+            "Reduction of speckle noise and improved contrast.",
+            "Increased frame rate for real-time imaging.",
+            "Enhanced beam penetration into deep tissues.",
+            "Higher sensitivity in color Doppler imaging."
+        ],
+        "respuesta_correcta": [
+            "Reduction of speckle noise and improved contrast."
+        ],
+        "concept_to_study": "Spatial compounding helps average out random speckle and normalizes contrast variations, leading to clearer images.",
+        "explicacion_openai": "Definition: The primary benefit of spatial compounding is the reduction of speckle noise and enhancement of image contrast by averaging multiple images. \nExplanation: For example, when a structure is imaged from various angles, the compounded image shows less granular noise and better differentiation between tissues. \nMemory Strategy: Visualize combining several blurry pictures into one clearer image—this is the essence of spatial compounding."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "531",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is a potential limitation of spatial compounding?",
+        "image": "",
+        "opciones": [
+            "Reduced frame rate due to multiple acquisitions (individual ultrasound images that are captured during the scanning process).",
+            "Increased radiation exposure during the exam.",
+            "Higher likelihood of false negative diagnoses.",
+            "Loss of tissue contrast due to excessive averaging."
+        ],
+        "respuesta_correcta": [
+            "Reduced frame rate due to multiple acquisitions."
+        ],
+        "concept_to_study": "One drawback of spatial compounding is its impact on temporal resolution, often lowering the frame rate.",
+        "explicacion_openai": "Definition: Reduced frame rate is a limitation because acquiring images from multiple angles takes more time, which lowers the overall imaging speed. \nExplanation: For instance, when imaging dynamic structures like a beating heart, the slower frame rate might result in motion artifacts or less fluid motion representation. \nMemory Strategy: Think of it as a trade-off between image quality and speed—more images combined gives better quality but takes longer to produce."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "532",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Spatial compounding can be performed using which of the following methods?",
+        "image": "",
+        "opciones": [
+            "Both electronic and mechanical scanning methods.",
+            "Only mechanical scanning, involving physical movement of the transducer.",
+            "Only electronic beam steering in phased array very high frequency transducers.",
+            "Neither; it is strictly a post-processing technique."
+        ],
+        "respuesta_correcta": [
+            "Both electronic and mechanical scanning methods."
+        ],
+        "concept_to_study": "Spatial compounding may be achieved by electronically steering the beam or by mechanically moving the transducer to acquire images from different angles.",
+        "explicacion_openai": "Definition: Spatial compounding can be implemented through electronic methods (using multi-element transducers to steer the beam) or mechanical methods (physically repositioning the transducer). \nExplanation: For example, an ultrasound system might use electronic beam steering to quickly acquire several images from various angles, or a mechanically scanned probe might be rotated to provide different views, both of which are then compounded. \nMemory Strategy: Remember that spatial compounding is all about gathering multiple perspectives—whether through electronics or mechanics, the goal is the same: to combine different angles for a clearer image."
     }
 ]
