@@ -22793,5 +22793,115 @@
     ],
     "concept_to_study": "Increasing ultrasound frequency yields shorter wavelengths, which in turn reduce the Spatial Pulse Length, improving axial resolution and overall image quality.",
     "explicacion_openai": "Definition: Wavelength is inversely related to frequency in a given medium. \n\nExplanation: When the frequency increases, the wavelength decreases. Since SPL is the product of the number of cycles and the wavelength, a shorter wavelength leads to a shorter SPL, which enhances axial resolution. \n\nMemory Strategy: Remember: 'High frequency, short wavelength, short SPL' – a compact pulse is key to better image definition."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "556",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the definition of frequency compounding in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "A technique that averages images from multiple frequencies to reduce speckle noise",
+      "A method to increase Doppler sensitivity through higher frequencies",
+      "A technique that focuses on improving temporal resolution by reducing pulse duration",
+      "A method used to adjust the sound speed in tissue imaging"
+    ],
+    "respuesta_correcta": [
+      "A technique that averages images from multiple frequency sub-bands to reduce speckle noise"
+    ],
+    "concept_to_study": "Frequency compounding reduces speckle noise by dividing the transmitted frequency range into smaller sub-bands, generating images for each, and averaging them to create a final image.",
+    "explicacion_openai": "Definition: Frequency compounding is a method that divides the transmitted ultrasound frequency into smaller sub-bands, creates individual images for each, and averages them together to reduce speckle noise and improve image quality. \n\nMemory Strategy: Think of frequency compounding as blending snapshots taken with slightly different lenses to produce a smoother, clearer picture."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "557",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which type of resolution is improved through frequency compounding?",
+    "image": "",
+    "opciones": [
+      "Contrast resolution",
+      "Temporal resolution",
+      "Lateral resolution",
+      "Axial resolution"
+    ],
+    "respuesta_correcta": [
+      "Contrast resolution"
+    ],
+    "concept_to_study": "Frequency compounding enhances contrast resolution by reducing speckle noise, thereby increasing the visibility of subtle differences between tissues.",
+    "explicacion_openai": "Definition: Contrast resolution refers to the ability to distinguish between subtle variations in tissue brightness or echogenicity. \n\nExplanation: By averaging images from different sub-frequency bands, frequency compounding smooths out speckle noise and highlights these subtle differences, leading to improved diagnostic accuracy. \n\nMemory Strategy: Think of contrast resolution as improving the 'shades of gray' in an image, which frequency compounding makes sharper by reducing interference."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "558",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which resolution is NOT improved by frequency compounding?",
+    "image": "",
+    "opciones": [
+      "Contrast resolution",
+      "Axial resolution",
+      "Signal-to-noise ratio (SNR)",
+      "Reduction of speckle noise"
+    ],
+    "respuesta_correcta": [
+      "Axial resolution"
+    ],
+    "concept_to_study": "Frequency compounding primarily enhances contrast resolution and reduces noise but does not directly improve axial resolution, as axial resolution depends on factors such as pulse length and frequency.",
+    "explicacion_openai": "Definition: Axial resolution refers to the system's ability to distinguish structures that are close together along the beam's axis. \n\nExplanation: Frequency compounding targets speckle noise reduction and contrast resolution improvement, but axial resolution remains unchanged as it is dictated by spatial pulse length and transducer frequency, not by post-processing techniques. \n\nMemory Strategy: Remember: 'Frequency compounding enhances contrast and reduces noise, but axial resolution relies on pulse structure and cannot be altered by this technique.'"
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "559",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does frequency compounding improve the signal-to-noise ratio (SNR) in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "By averaging sub-band images, reducing noise and enhancing true signal",
+      "By increasing the transmitted frequency",
+      "By shortening the pulse duration to isolate signals",
+      "By using harmonic imaging techniques"
+    ],
+    "respuesta_correcta": [
+      "By averaging sub-band images, reducing noise and enhancing true signal"
+    ],
+    "concept_to_study": "Frequency compounding improves SNR by averaging multiple sub-band images, effectively reducing speckle noise and amplifying tissue signal clarity.",
+    "explicacion_openai": "Definition: Signal-to-noise ratio (SNR) measures the clarity of useful tissue signals relative to background noise. \n\nExplanation: By averaging sub-band images, frequency compounding minimizes noise while preserving tissue signal integrity, resulting in a higher SNR and better image clarity. \n\nMemory Strategy: Think of SNR as 'spotlighting' the important details while muting the unwanted noise—a key benefit of frequency compounding."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "560",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary way frequency compounding reduces speckle noise?",
+    "image": "",
+    "opciones": [
+      "By averaging images  different frequency bands with varying speckle patterns",
+      "By increasing the amplitude of the ultrasound signal",
+      "By amplifying high-frequency harmonics",
+      "By using a longer pulse duration to smooth over noise"
+    ],
+    "respuesta_correcta": [
+      "By averaging images from different sub-frequency bands with varying speckle patterns"
+    ],
+    "concept_to_study": "Frequency compounding reduces speckle noise by leveraging the differences in speckle patterns across sub-band images and averaging them to minimize variance.",
+    "explicacion_openai": "Definition: Speckle noise arises from wave interference and is unique to each sub-frequency band. \n\nExplanation: Frequency compounding takes advantage of the differing speckle patterns in sub-band images and averages them together. This reduces the overall variance caused by noise, resulting in a smoother and clearer final image. \n\nMemory Strategy: Picture speckle as 'patchy interference'—frequency compounding blends patches to smooth out inconsistencies, much like applying an even layer of paint."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "561",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the final result of frequency compounding in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "A clearer image with reduced speckle noise and improved contrast resolution",
+      "An image with higher axial resolution and fewer artifacts",
+      "A faster frame rate for real-time imaging",
+      "An image with increased penetration in deeper tissues"
+    ],
+    "respuesta_correcta": [
+      "A clearer image with reduced speckle noise and improved contrast resolution"
+    ],
+    "concept_to_study": "The ultimate goal of frequency compounding is to enhance image quality by reducing speckle noise and improving contrast resolution, leading to better diagnostic accuracy.",
+    "explicacion_openai": "Definition: Frequency compounding combines sub-band images to produce a final image that reduces noise and enhances subtle tissue features. \n\nExplanation: By reducing speckle noise and improving contrast resolution, frequency compounding makes tissue features and abnormalities clearer and more distinguishable, which aids in more accurate diagnoses. \n\nMemory Strategy: Think of frequency compounding as a precision tool that 'cleans up' the image, sharpening details and enhancing clarity for diagnostic purposes."
   }
 ]
+   
+
