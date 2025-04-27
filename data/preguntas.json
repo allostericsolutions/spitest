@@ -22937,5 +22937,23 @@
   ],
   "concept_to_study": "Higher frequencies produce shorter wavelengths, resulting in shorter Spatial Pulse Lengths (SPL). This reduction in SPL improves axial resolution by allowing better distinction of closely spaced structures along the beam's axis.",
   "explicacion_openai": "Definition: Axial resolution depends directly on Spatial Pulse Length (SPL), which is influenced by the wavelength and frequency of the ultrasound. \n\nExplanation: Higher frequencies generate shorter wavelengths. Since SPL is calculated as the number of cycles multiplied by the wavelength, shorter wavelengths reduce the SPL. Consequently, this improves axial resolution, making it possible to distinguish finer details. \n\nMemory Strategy: Remember: 'High frequency = short wavelength = short SPL = sharper axial resolution'—the sequence ensures clearer imaging along the ultrasound beam's direction."
+},
+{
+  "clasificacion": "Physical Principles",
+  "grupo": "563",
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which of the following does not change with increasing imaging depth?",
+  "image": "",
+  "opciones": [
+    "Axial resolution",
+    "Elevational resolution",
+    "Lateral resolution",
+    "Temporal and lateral resolution"
+  ],
+  "respuesta_correcta": [
+    "Axial resolution"
+  ],
+  "concept_to_study": "Axial resolution is equal to half the spatial pulse length, which is a product of the number of cycles and the wavelength. Both parameters are independent of imaging depth.",
+  "explicacion_openai": "Definition: Axial resolution refers to the ability to distinguish structures close together along the beam's axis, and it is determined by spatial pulse length (SPL). \n\nExplanation: SPL depends on the number of cycles in the pulse and the wavelength, both of which remain constant regardless of imaging depth. Conversely, lateral and elevational resolution improve in the near field but worsen due to beam divergence in the far field. Temporal resolution also decreases with depth because the pulse repetition period must increase to account for longer imaging distances, reducing frame rate. \n\nMemory Strategy: Remember: 'Axial resolution stays constant with depth since SPL and its factors (number of cycles and wavelength) remain unchanged.'"
 }
 ]
