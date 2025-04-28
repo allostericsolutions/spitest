@@ -22955,5 +22955,384 @@
   ],
   "concept_to_study": "Axial resolution is equal to half the spatial pulse length, which is a product of the number of cycles and the wavelength. Both parameters are independent of imaging depth.",
   "explicacion_openai": "Definition: Axial resolution refers to the ability to distinguish structures close together along the beam's axis, and it is determined by spatial pulse length (SPL). \n\nExplanation: SPL depends on the number of cycles in the pulse and the wavelength, both of which remain constant regardless of imaging depth. Conversely, lateral and elevational resolution improve in the near field but worsen due to beam divergence in the far field. Temporal resolution also decreases with depth because the pulse repetition period must increase to account for longer imaging distances, reducing frame rate. \n\nMemory Strategy: Remember: 'Axial resolution stays constant with depth since SPL and its factors (number of cycles and wavelength) remain unchanged.'"
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "592",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the correct order of processing the return echo in a receiver?",
+    "image": "",
+    "opciones": [
+        "Compensation, Amplification, Demodulation, Compression, Reject",
+        "Amplification, Compression, Compensation, Reject, Demodulation",
+        "Demodulation, Compression, Compensation, Amplification, Reject",
+        "Amplification, Compensation, Compression, Demodulation, Reject"
+    ],
+    "respuesta_correcta": [
+        "Amplification, Compensation, Compression, Demodulation, Reject"
+    ],
+    "concept_to_study": "The sequence of operations in the receiver is crucial to process the return echo accurately. Each step plays a specific role in refining the signal for effective diagnosis.",
+    "explicacion_openai": "In ultrasound imaging, the receiver is responsible for processing the return echo in a precise order to ensure the signal is usable for diagnostics. Amplification strengthens weak signals. Compensation adjusts for signal attenuation due to tissue depth. Compression decreases the signal's dynamic range for display purposes. Demodulation converts the signal into a more interpretable form, and reject filters out unnecessary low-level noise. An easy way to remember the sequence is that the processes are in alphabetical order: Amplification, Compensation, Compression, Demodulation, Reject (A, C, C, D, R). This order, managed by the receiver, is critical to maintain the integrity and clarity of the final output."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "942",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which component is responsible for processing the return echo through amplification, compensation, compression, demodulation, and reject?",
+    "image": "",
+    "opciones": [
+        "Pulser",
+        "Receiver",
+        "Beam Former",
+        "Scan Converter"
+    ],
+    "respuesta_correcta": [
+        "Receiver"
+    ],
+    "concept_to_study": "Each component in an ultrasound system has a specific role. The receiver is responsible for processing the return echo to ensure it is clear and usable for diagnosis.",
+    "explicacion_openai": "In ultrasound imaging, the receiver is the component that processes the return echo by performing amplification, compensation, compression, demodulation, and reject. These steps prepare the signal for interpretation and display, ensuring the information is accurate and suitable for diagnostic purposes. Other components like the pulser, beam former, and scan converter have distinct roles but do not manage this sequence of tasks."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which system generates the voltage that drives the transducer and directly controls the amount of power entering the patient?",
+    "image": "",
+    "opciones": [
+        "Pulser",
+        "Receiver",
+        "Beam Former",
+        "Scan Converter"
+    ],
+    "respuesta_correcta": [
+        "Pulser"
+    ],
+    "concept_to_study": "The pulser is a critical component in ultrasound systems, responsible for generating the voltage that activates the transducer and directly controlling the power applied to the patient.",
+    "explicacion_openai": "The pulser generates the voltage that drives the transducer, creating sound waves that penetrate the patient. It also directly regulates the amount of power entering the patient, ensuring that the energy levels are safe and effective for imaging. Other components, such as the receiver or beam former, have different roles and do not manage this function."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which component of the ultrasound system is responsible for controlling the timing of the elements to shape and steer the beam, as well as managing apodization?",
+    "image": "",
+    "opciones": [
+        "Pulser",
+        "Receiver",
+        "Beam Former",
+        "Scan Converter"
+    ],
+    "respuesta_correcta": [
+        "Beam Former"
+    ],
+    "concept_to_study": "The beam former plays a crucial role in ultrasound systems by precisely controlling the timing of the transducer elements for focusing and steering the beam, as well as managing apodization to optimize image quality.",
+    "explicacion_openai": "The beam former is responsible for shaping and steering the ultrasound beam by controlling the timing of the transducer elements. It adjusts the beam's focus to improve resolution and manages apodization, which controls the amplitude of the signals from different elements to reduce artifacts and improve image clarity. These functions are essential for creating accurate and high-quality ultrasound images."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following are functions of the beam former in an ultrasound system?",
+    "image": "",
+    "opciones": [
+        "Controls apodization to reduce artifacts and improve image quality",
+        "Generates the voltage to drive the transducer",
+        "Processes the return echo through amplification, compensation, compression, demodulation, and reject",
+        "Controls the timing of transducer elements to shape and steer the beam for focusing"
+    ],
+    "respuesta_correcta": [
+        "Controls apodization to reduce artifacts and improve image quality",
+        "Controls the timing of transducer elements to shape and steer the beam for focusing"
+    ],
+    "concept_to_study": "The beam former is responsible for shaping and steering the ultrasound beam, as well as controlling apodization to optimize imaging performance.",
+    "explicacion_openai": "The beam former has two main functions: it controls the timing of transducer elements to shape and steer the beam for focusing, and it manages apodization, which adjusts the amplitude of signals across transducer elements to reduce artifacts and enhance image quality. These tasks are vital for creating precise and high-resolution ultrasound images."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which component ensures the electrical signals travel in the correct direction and that pulser voltages from the transducer go to the signal processor?",
+    "image": "",
+    "opciones": [
+        "Transmit/Receive Switch",
+        "Pulser",
+        "Beam Former",
+        "Receiver"
+    ],
+    "respuesta_correcta": [
+        "Transmit/Receive Switch"
+    ],
+    "concept_to_study": "The transmit/receive switch ensures the correct directionality of electrical signals, facilitating the transition between transmission and reception phases in the ultrasound system.",
+    "explicacion_openai": "The transmit/receive switch is a crucial component of the ultrasound system. It ensures that electrical signals from the transducer travel in the correct direction, allowing pulser voltages to reach the signal processor during transmission. This switch also protects sensitive components by isolating the transmission and reception paths."
+},
+{
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is one function of the transmit/receive switch in an ultrasound system?",
+    "image": "",
+    "opciones": [
+        "Ensures the electrical signals travel in the correct direction",
+        "Generates the voltage to drive the transducer",
+        "Processes the return echo through amplification, compensation, compression, demodulation, and reject",
+        "Provides digital information of the internal memory"
+    ],
+    "respuesta_correcta": [
+        "Ensures the electrical signals travel in the correct direction"
+        ],
+    "concept_to_study": "The transmit/receive switch plays a key role in directing signals within the ultrasound system, ensuring proper electrical flow and protecting sensitive components.",
+    "explicacion_openai": "The transmit/receive switch ensures that electrical signals move in the correct direction during ultrasound imaging, managing the transition between transmission and reception phases. It also ensures that pulser voltages generated by the transducer are safely directed to the signal processor, contributing to system efficiency and component protection."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "292",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are true about the piezoelectric element, EXCEPT:",
+    "image": "",
+    "opciones": [
+        "It converts electrical energy into mechanical energy and vice versa",
+        "It is responsible for generating ultrasound waves",
+        "Its material commonly includes lead zirconate titanate (PZT)",
+        "It directly amplifies the ultrasound signal for transmission"
+    ],
+    "respuesta_correcta": [
+        "It directly amplifies the ultrasound signal for transmission"
+    ],
+    "concept_to_study": "The piezoelectric element is a crucial component of transducers, responsible for the conversion between electrical and mechanical energy, enabling ultrasound imaging.",
+    "explicacion_openai": "The piezoelectric element converts electrical energy into mechanical energy to produce ultrasound waves, and vice versa during reception. It typically uses materials like lead zirconate titanate (PZT) for this process. However, it does not directly amplify the ultrasound signal for transmission; that function is performed by other components in the ultrasound system."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "792",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the purpose of the backing material in an ultrasound transducer, and which material is it commonly made of?",
+    "image": "",
+    "opciones": [
+        "To improve lateral resolution; made of aluminum",
+        "To reduce pulse duration and improve axial resolution; made of epoxy resin loaded with tungsten",
+        "To generate sound waves; made of lead zirconate titanate (PZT)",
+        "To increase the penetration depth; made of steel"
+    ],
+    "respuesta_correcta": [
+        "To reduce pulse duration and improve axial resolution; made of epoxy resin loaded with tungsten"
+    ],
+    "concept_to_study": "The backing material in an ultrasound transducer minimizes the pulse duration to enhance axial resolution and is typically made of epoxy resin mixed with tungsten for its acoustic properties.",
+    "explicacion_openai": "The backing material is a critical component of an ultrasound transducer. It reduces the pulse duration, thereby improving axial resolution by dampening the vibrations of the piezoelectric element. This ensures that the transducer produces short, precise ultrasound pulses. The material commonly used is epoxy resin loaded with tungsten, as it provides both acoustic absorption and mechanical support."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following is true about the backing material in an ultrasound transducer?",
+    "image": "",
+    "opciones": [
+        "It is made of tungsten and improves lateral resolution",
+        "It reduces SPL cycles per pulse and improves axial resolution",
+        "It generates the voltage to drive the transducer",
+        "It sits on the front of the transducer to protect the piezoelectric element"
+    ],
+    "respuesta_correcta": [
+        "It reduces SPL cycles per pulse and improves axial resolution"
+    ],
+    "concept_to_study": "The backing material in an ultrasound transducer minimizes the spatial pulse length (SPL) and enhances axial resolution by dampening vibrations of the piezoelectric element.",
+    "explicacion_openai": "The backing material is essential in ultrasound transducers because it reduces the spatial pulse length (SPL) by decreasing the cycles per pulse. This improves axial resolution and ensures precise imaging. It is typically made of tungsten mixed with epoxy resin for optimal acoustic damping. The other options describe functions or properties unrelated to the backing material."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following are true about the backing material in an ultrasound transducer, except:",
+    "image": "",
+    "opciones": [
+        "It reduces spatial pulse length (SPL) cycles per pulse",
+        "It improves axial resolution",
+        "It is made of tungsten-based epoxy resin",
+        "It increases penetration depth for deeper imaging"
+    ],
+    "respuesta_correcta": [
+        "It increases penetration depth for deeper imaging"
+    ],
+    "concept_to_study": "The backing material is designed to reduce SPL cycles per pulse and improve axial resolution by dampening vibrations of the piezoelectric element. It is commonly made of tungsten-based epoxy resin.",
+    "explicacion_openai": "The backing material in ultrasound transducers plays a vital role in reducing spatial pulse length (SPL) cycles per pulse and improving axial resolution. It is typically made of tungsten-based epoxy resin to optimize acoustic damping. However, it does not increase penetration depth; that property depends on other factors such as the frequency of the transducer."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "945",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How does the backing material in an ultrasound transducer affect the quality factor (Q-factor)?",
+    "image": "",
+    "opciones": [
+        "It increases the quality factor by enhancing energy retention",
+        "It decreases the quality factor by dampening vibrations",
+        "It has no effect on the quality factor",
+        "It only affects the lateral resolution, not the quality factor"
+    ],
+    "respuesta_correcta": [
+        "It decreases the quality factor by dampening vibrations"
+    ],
+    "concept_to_study": "The backing material reduces the quality factor (Q-factor) by dampening the vibrations of the piezoelectric element, which improves axial resolution but lowers the efficiency of energy retention.",
+    "explicacion_openai": "The quality factor (Q-factor) in ultrasound imaging is a measure of the purity of the frequency produced by the piezoelectric element in a transducer. It is defined as the ratio of the center frequency to the bandwidth of the transducer's output signal. A higher Q-factor indicates a narrow bandwidth and purer frequency, meaning the transducer generates a more consistent and sustained signal over time. Conversely, a lower Q-factor corresponds to a wider bandwidth, shorter pulse duration, and improved axial resolution, allowing for better diagnostic imaging by reducing overlap of successive echoes. The backing material decreases the Q-factor by dampening vibrations, which helps produce shorter pulses and improves image resolution at the expense of energy efficiency."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the amount of backing material in a transducer is increased, which of the following is true?",
+    "image": "",
+    "opciones": [
+        "SPL increases, Bandwidth decreases, Q-factor increases, Axial resolution decreases, Sensitivity increases, Number of cycles increases",
+        "SPL decreases, Bandwidth increases, Q-factor decreases, Axial resolution improves, Sensitivity decreases, Number of cycles decreases",
+        "SPL increases, Bandwidth increases, Q-factor decreases, Axial resolution improves, Sensitivity increases, Number of cycles decreases",
+        "SPL decreases, Bandwidth decreases, Q-factor increases, Axial resolution decreases, Sensitivity decreases, Number of cycles increases"
+    ],
+    "respuesta_correcta": [
+        "SPL decreases, Bandwidth increases, Q-factor decreases, Axial resolution improves, Sensitivity decreases, Number of cycles decreases"
+    ],
+    "concept_to_study": "Increasing the backing material reduces SPL and the number of cycles, increases bandwidth, decreases Q-factor, improves axial resolution, and decreases sensitivity. These changes optimize the transducer for imaging precision at the expense of energy efficiency and sensitivity.",
+    "explicacion_openai": "When the amount of backing material is increased, it dampens the vibrations of the piezoelectric element, leading to a decrease in spatial pulse length (SPL) and the number of cycles per pulse. This results in a wider bandwidth and improved axial resolution, both essential for accurate imaging. However, the increased backing material also decreases the Q-factor and sensitivity, as more energy is absorbed. The reduction in the number of cycles further supports the creation of short, precise pulses, enhancing image quality while reducing overlap in echoes."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Operating frequency is primarily determined by:",
+    "image": "",
+    "opciones": [
+        "Crystal material",
+        "Crystal diameter",
+        "Crystal thickness",
+        "Backing material"
+    ],
+    "respuesta_correcta": [
+        "Crystal thickness"
+    ],
+    "concept_to_study": "The operating frequency of a piezoelectric transducer is primarily determined by the thickness of the crystal. Thinner crystals produce higher frequencies, while thicker crystals produce lower frequencies.",
+    "explicacion_openai": "The thickness of the piezoelectric crystal directly influences the operating frequency. Thinner crystals vibrate faster, producing higher frequencies, whereas thicker crystals vibrate slower, creating lower frequencies. Other factors like material and diameter influence different aspects of performance but not the operating frequency directly."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to the operating frequency when the thickness of the crystal is decreased?",
+    "image": "",
+    "opciones": [
+        "The operating frequency decreases",
+        "The operating frequency remains constant",
+        "The operating frequency increases",
+        "The operating frequency becomes unstable"
+    ],
+    "respuesta_correcta": [
+        "The operating frequency increases"
+    ],
+    "concept_to_study": "Thinner piezoelectric crystals produce higher frequencies due to faster vibration, which aligns with the need for higher-frequency applications in ultrasound imaging.",
+    "explicacion_openai": "When the thickness of the piezoelectric crystal decreases, its vibrations become faster, leading to a higher operating frequency. This principle is fundamental in the design of high-frequency transducers for imaging smaller or superficial structures with better resolution."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "92",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which factor has the greatest influence on the operating frequency of a piezoelectric transducer?",
+    "image": "",
+    "opciones": [
+        "Crystal material",
+        "Crystal thickness",
+        "Crystal diameter",
+        "Backing material"
+    ],
+    "respuesta_correcta": [
+        "Crystal thickness"
+    ],
+    "concept_to_study": "The thickness of the piezoelectric crystal directly determines its operating frequency, making it the most significant factor in designing transducers.",
+    "explicacion_openai": "Crystal thickness governs the speed of vibration in piezoelectric transducers, directly determining the operating frequency. While material and diameter influence other attributes, they do not have as significant an impact on frequency as thickness does."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": "932",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is true about damping in continuous wave (CW) transducers?",
+    "image": "",
+    "opciones": [
+        "CW transducers have significant damping to improve axial resolution",
+        "CW transducers do not have damping because they continuously emit waves",
+        "CW transducers use damping to reduce bandwidth",
+        "CW transducers rely on damping to shorten pulse duration"
+    ],
+    "respuesta_correcta": [
+        "CW transducers do not have damping because they continuously emit waves"
+    ],
+    "concept_to_study": "Continuous wave transducers do not utilize damping material because they operate by continuously emitting waves, unlike pulsed wave transducers which require short pulses for improved axial resolution.",
+    "explicacion_openai": "In continuous wave transducers, damping is not required because these transducers are designed to emit a continuous signal without interruptions. Damping is typically used in pulsed wave transducers to shorten the pulse duration, increase bandwidth, and improve axial resolution. CW transducers prioritize simplicity for applications like Doppler ultrasound, where continuous wave emission is essential."
+},
+{
+    "classification": "Physical Principles",
+    "group": "102",
+    "question_type": "multiple_choice",
+    "statement": "What does LARD stand for in ultrasound imaging, and how does it relate to axial resolution?",
+    "image": "",
+    "options": [
+        "It refers to the ability to resolve objects in the lateral dimension",
+        "It is synonymous with longitudinal, axial, radial, range, and depth resolution",
+        "It describes resolution in the transverse plane",
+        "It refers to the ability to detect objects at different acoustic impedances"
+    ],
+    "correct_answer": [
+        "It is synonymous with longitudinal, axial, radial, range, and depth resolution"
+    ],
+    "concept_to_study": "LARD encompasses terms synonymous with axial resolution, including longitudinal, axial, radial, range, and depth. It quantifies the system's ability to distinguish closely spaced structures along the beam's axis.",
+    "openai_explanation": "LARD in ultrasound imaging is an acronym that refers to longitudinal, axial, radial, range, and depth resolution. These terms are all synonymous and describe the ability of the ultrasound system to distinguish between two closely spaced objects along the axis of the sound beam. Axial resolution is primarily determined by spatial pulse length (SPL), with shorter SPL leading to better resolution."
+},
+{
+    "classification": "Physical Principles",
+    "group": "102",
+    "question_type": "multiple_choice",
+    "statement": "What does LATA stand for in ultrasound imaging, and how does it relate to lateral resolution?",
+    "image": "",
+    "options": [
+        "It refers to longitudinal resolution and is determined by spatial pulse length (SPL)",
+        "It is synonymous with lateral, angular, transverse, and azimuthal resolution",
+        "It measures depth resolution and is determined by beam frequency",
+        "It describes axial resolution and is influenced by pulse duration"
+    ],
+    "correct_answer": [
+        "It is synonymous with lateral, angular, transverse, and azimuthal resolution"
+    ],
+    "concept_to_study": "LATA represents terms synonymous with lateral resolution, including lateral, angular, transverse, and azimuthal. It describes the ability to resolve objects perpendicular to the sound beam's axis and is primarily influenced by the beam width.",
+    "openai_explanation": "LATA in ultrasound imaging stands for lateral, angular, transverse, and azimuthal resolution, which are all synonymous terms describing lateral resolution. It is the ability of the ultrasound system to distinguish two objects that are close together perpendicular to the axis of the sound beam. Lateral resolution is primarily determined by the beam width, with narrower beams providing better lateral resolution."
+},
+{
+    "classification": "Physical Principles",
+    "group": "102",
+    "question_type": "multiple_choice",
+    "statement": "How is LARD (axial resolution) most directly influenced in ultrasound imaging?",
+    "image": "",
+    "options": [
+        "By the width of the sound beam",
+        "By the spatial pulse length (SPL)",
+        "By the transducer's damping material",
+        "By the number of cycles in the lateral direction"
+    ],
+    "correct_answer": [
+        "By the spatial pulse length (SPL)"
+    ],
+    "concept_to_study": "LARD, or axial resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing the system to distinguish closely spaced structures along the beam's axis.",
+    "openai_explanation": "LARD refers to axial resolution, which is governed by the spatial pulse length (SPL). SPL represents the distance over which one pulse occurs. Shorter pulses, achieved through fewer cycles or increased damping, result in better axial resolution and clearer separation of structures along the axis of the sound beam."
+},
+{
+    "classification": "Physical Principles",
+    "group": "102",
+    "question_type": "multiple_choice",
+    "statement": "Which factor most strongly determines LATA (lateral resolution) in ultrasound imaging?",
+    "image": "",
+    "options": [
+        "Beam width",
+        "Spatial pulse length (SPL)",
+        "Damping material thickness",
+        "Transducer frequency"
+    ],
+    "correct_answer": [
+        "Beam width"
+    ],
+    "concept_to_study": "LATA, or lateral resolution, is primarily determined by the beam width. Narrower beams produce better lateral resolution, allowing the system to distinguish objects positioned side by side.",
+    "openai_explanation": "LATA refers to lateral resolution, which measures the system's ability to distinguish objects positioned perpendicular to the sound beam's axis. This resolution is mainly influenced by the width of the sound beam. A narrower beam improves lateral resolution by reducing overlap between adjacent echoes."
 }
 ]
