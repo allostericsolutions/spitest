@@ -22935,7 +22935,7 @@
   "respuesta_correcta": [
     "Higher frequency → shorter wavelength → shorter SPL → better axial resolution"
   ],
-  "concept_to_study": "Higher frequencies produce shorter wavelengths, resulting in shorter Spatial Pulse Lengths (SPL). This reduction in SPL improves axial resolution by allowing better distinction of closely spaced structures along the beam's axis.",
+  "concept_to_study": "Axial resolution",
   "explicacion_openai": "Definition: Axial resolution depends directly on Spatial Pulse Length (SPL), which is influenced by the wavelength and frequency of the ultrasound. \n\nExplanation: Higher frequencies generate shorter wavelengths. Since SPL is calculated as the number of cycles multiplied by the wavelength, shorter wavelengths reduce the SPL. Consequently, this improves axial resolution, making it possible to distinguish finer details. \n\nMemory Strategy: Remember: 'High frequency = short wavelength = short SPL = sharper axial resolution'—the sequence ensures clearer imaging along the ultrasound beam's direction."
 },
 {
@@ -22953,7 +22953,7 @@
   "respuesta_correcta": [
     "Axial resolution"
   ],
-  "concept_to_study": "Axial resolution is equal to half the spatial pulse length, which is a product of the number of cycles and the wavelength. Both parameters are independent of imaging depth.",
+  "concept_to_study": "Axial resolution.",
   "explicacion_openai": "Definition: Axial resolution refers to the ability to distinguish structures close together along the beam's axis, and it is determined by spatial pulse length (SPL). \n\nExplanation: SPL depends on the number of cycles in the pulse and the wavelength, both of which remain constant regardless of imaging depth. Conversely, lateral and elevational resolution improve in the near field but worsen due to beam divergence in the far field. Temporal resolution also decreases with depth because the pulse repetition period must increase to account for longer imaging distances, reducing frame rate. \n\nMemory Strategy: Remember: 'Axial resolution stays constant with depth since SPL and its factors (number of cycles and wavelength) remain unchanged.'"
 },
 {
@@ -22989,7 +22989,7 @@
     "respuesta_correcta": [
         "Receiver"
     ],
-    "concept_to_study": "Each component in an ultrasound system has a specific role. The receiver is responsible for processing the return echo to ensure it is clear and usable for diagnosis.",
+    "concept_to_study": "Receiver function",
     "explicacion_openai": "In ultrasound imaging, the receiver is the component that processes the return echo by performing amplification, compensation, compression, demodulation, and reject. These steps prepare the signal for interpretation and display, ensuring the information is accurate and suitable for diagnostic purposes. Other components like the pulser, beam former, and scan converter have distinct roles but do not manage this sequence of tasks."
 },
 {
@@ -23007,7 +23007,7 @@
     "respuesta_correcta": [
         "Pulser"
     ],
-    "concept_to_study": "The pulser is a critical component in ultrasound systems, responsible for generating the voltage that activates the transducer and directly controlling the power applied to the patient.",
+    "concept_to_study": "The pulser.",
     "explicacion_openai": "The pulser generates the voltage that drives the transducer, creating sound waves that penetrate the patient. It also directly regulates the amount of power entering the patient, ensuring that the energy levels are safe and effective for imaging. Other components, such as the receiver or beam former, have different roles and do not manage this function."
 },
 {
@@ -23025,7 +23025,7 @@
     "respuesta_correcta": [
         "Beam Former"
     ],
-    "concept_to_study": "The beam former plays a crucial role in ultrasound systems by precisely controlling the timing of the transducer elements for focusing and steering the beam, as well as managing apodization to optimize image quality.",
+    "concept_to_study": "The beam former.",
     "explicacion_openai": "The beam former is responsible for shaping and steering the ultrasound beam by controlling the timing of the transducer elements. It adjusts the beam's focus to improve resolution and manages apodization, which controls the amplitude of the signals from different elements to reduce artifacts and improve image clarity. These functions are essential for creating accurate and high-quality ultrasound images."
 },
 {
@@ -23044,7 +23044,7 @@
         "Controls apodization to reduce artifacts and improve image quality",
         "Controls the timing of transducer elements to shape and steer the beam for focusing"
     ],
-    "concept_to_study": "The beam former is responsible for shaping and steering the ultrasound beam, as well as controlling apodization to optimize imaging performance.",
+    "concept_to_study": "The beam former.",
     "explicacion_openai": "The beam former has two main functions: it controls the timing of transducer elements to shape and steer the beam for focusing, and it manages apodization, which adjusts the amplitude of signals across transducer elements to reduce artifacts and enhance image quality. These tasks are vital for creating precise and high-resolution ultrasound images."
 },
 {
@@ -23062,7 +23062,7 @@
     "respuesta_correcta": [
         "Transmit/Receive Switch"
     ],
-    "concept_to_study": "The transmit/receive switch ensures the correct directionality of electrical signals, facilitating the transition between transmission and reception phases in the ultrasound system.",
+    "concept_to_study": "The transmit/receive switch.",
     "explicacion_openai": "The transmit/receive switch is a crucial component of the ultrasound system. It ensures that electrical signals from the transducer travel in the correct direction, allowing pulser voltages to reach the signal processor during transmission. This switch also protects sensitive components by isolating the transmission and reception paths."
 },
 {
@@ -23080,7 +23080,7 @@
     "respuesta_correcta": [
         "Ensures the electrical signals travel in the correct direction"
         ],
-    "concept_to_study": "The transmit/receive switch plays a key role in directing signals within the ultrasound system, ensuring proper electrical flow and protecting sensitive components.",
+    "concept_to_study": "The transmit/receive switch.",
     "explicacion_openai": "The transmit/receive switch ensures that electrical signals move in the correct direction during ultrasound imaging, managing the transition between transmission and reception phases. It also ensures that pulser voltages generated by the transducer are safely directed to the signal processor, contributing to system efficiency and component protection."
 },
 {
@@ -23098,7 +23098,7 @@
     "respuesta_correcta": [
         "It directly amplifies the ultrasound signal for transmission"
     ],
-    "concept_to_study": "The piezoelectric element is a crucial component of transducers, responsible for the conversion between electrical and mechanical energy, enabling ultrasound imaging.",
+    "concept_to_study": "The piezoelectric element.",
     "explicacion_openai": "The piezoelectric element converts electrical energy into mechanical energy to produce ultrasound waves, and vice versa during reception. It typically uses materials like lead zirconate titanate (PZT) for this process. However, it does not directly amplify the ultrasound signal for transmission; that function is performed by other components in the ultrasound system."
 },
 {
@@ -23116,7 +23116,7 @@
     "respuesta_correcta": [
         "To reduce pulse duration and improve axial resolution; made of epoxy resin loaded with tungsten"
     ],
-    "concept_to_study": "The backing material in an ultrasound transducer minimizes the pulse duration to enhance axial resolution and is typically made of epoxy resin mixed with tungsten for its acoustic properties.",
+    "concept_to_study": "The backing material.",
     "explicacion_openai": "The backing material is a critical component of an ultrasound transducer. It reduces the pulse duration, thereby improving axial resolution by dampening the vibrations of the piezoelectric element. This ensures that the transducer produces short, precise ultrasound pulses. The material commonly used is epoxy resin loaded with tungsten, as it provides both acoustic absorption and mechanical support."
 },
 {
@@ -23134,7 +23134,7 @@
     "respuesta_correcta": [
         "It reduces SPL cycles per pulse and improves axial resolution"
     ],
-    "concept_to_study": "The backing material in an ultrasound transducer minimizes the spatial pulse length (SPL) and enhances axial resolution by dampening vibrations of the piezoelectric element.",
+    "concept_to_study": "The backing material.",
     "explicacion_openai": "The backing material is essential in ultrasound transducers because it reduces the spatial pulse length (SPL) by decreasing the cycles per pulse. This improves axial resolution and ensures precise imaging. It is typically made of tungsten mixed with epoxy resin for optimal acoustic damping. The other options describe functions or properties unrelated to the backing material."
 },
 {
@@ -23152,7 +23152,7 @@
     "respuesta_correcta": [
         "It increases penetration depth for deeper imaging"
     ],
-    "concept_to_study": "The backing material is designed to reduce SPL cycles per pulse and improve axial resolution by dampening vibrations of the piezoelectric element. It is commonly made of tungsten-based epoxy resin.",
+    "concept_to_study": "The backing material.",
     "explicacion_openai": "The backing material in ultrasound transducers plays a vital role in reducing spatial pulse length (SPL) cycles per pulse and improving axial resolution. It is typically made of tungsten-based epoxy resin to optimize acoustic damping. However, it does not increase penetration depth; that property depends on other factors such as the frequency of the transducer."
 },
 {
@@ -23170,7 +23170,7 @@
     "respuesta_correcta": [
         "It decreases the quality factor by dampening vibrations"
     ],
-    "concept_to_study": "The backing material reduces the quality factor (Q-factor) by dampening the vibrations of the piezoelectric element, which improves axial resolution but lowers the efficiency of energy retention.",
+    "concept_to_study": "The backing material.",
     "explicacion_openai": "The quality factor (Q-factor) in ultrasound imaging is a measure of the purity of the frequency produced by the piezoelectric element in a transducer. It is defined as the ratio of the center frequency to the bandwidth of the transducer's output signal. A higher Q-factor indicates a narrow bandwidth and purer frequency, meaning the transducer generates a more consistent and sustained signal over time. Conversely, a lower Q-factor corresponds to a wider bandwidth, shorter pulse duration, and improved axial resolution, allowing for better diagnostic imaging by reducing overlap of successive echoes. The backing material decreases the Q-factor by dampening vibrations, which helps produce shorter pulses and improves image resolution at the expense of energy efficiency."
 },
 {
@@ -23188,7 +23188,7 @@
     "respuesta_correcta": [
         "SPL decreases, Bandwidth increases, Q-factor decreases, Axial resolution improves, Sensitivity decreases, Number of cycles decreases"
     ],
-    "concept_to_study": "Increasing the backing material reduces SPL and the number of cycles, increases bandwidth, decreases Q-factor, improves axial resolution, and decreases sensitivity. These changes optimize the transducer for imaging precision at the expense of energy efficiency and sensitivity.",
+    "concept_to_study": "Increasing the backing materiales.",
     "explicacion_openai": "When the amount of backing material is increased, it dampens the vibrations of the piezoelectric element, leading to a decrease in spatial pulse length (SPL) and the number of cycles per pulse. This results in a wider bandwidth and improved axial resolution, both essential for accurate imaging. However, the increased backing material also decreases the Q-factor and sensitivity, as more energy is absorbed. The reduction in the number of cycles further supports the creation of short, precise pulses, enhancing image quality while reducing overlap in echoes."
 },
 {
@@ -23206,7 +23206,7 @@
     "respuesta_correcta": [
         "Crystal thickness"
     ],
-    "concept_to_study": "The operating frequency of a piezoelectric transducer is primarily determined by the thickness of the crystal. Thinner crystals produce higher frequencies, while thicker crystals produce lower frequencies.",
+    "concept_to_study": "The operating frequency of a piezoelectric transducer.",
     "explicacion_openai": "The thickness of the piezoelectric crystal directly influences the operating frequency. Thinner crystals vibrate faster, producing higher frequencies, whereas thicker crystals vibrate slower, creating lower frequencies. Other factors like material and diameter influence different aspects of performance but not the operating frequency directly."
 },
 {
@@ -23224,7 +23224,7 @@
     "respuesta_correcta": [
         "The operating frequency increases"
     ],
-    "concept_to_study": "Thinner piezoelectric crystals produce higher frequencies due to faster vibration, which aligns with the need for higher-frequency applications in ultrasound imaging.",
+    "concept_to_study": "Thinner piezoelectric crystals.",
     "explicacion_openai": "When the thickness of the piezoelectric crystal decreases, its vibrations become faster, leading to a higher operating frequency. This principle is fundamental in the design of high-frequency transducers for imaging smaller or superficial structures with better resolution."
 },
 {
@@ -23242,7 +23242,7 @@
     "respuesta_correcta": [
         "Crystal thickness"
     ],
-    "concept_to_study": "The thickness of the piezoelectric crystal directly determines its operating frequency, making it the most significant factor in designing transducers.",
+    "concept_to_study": "The thickness of the piezoelectric crystal directly determines its operating frequency",
     "explicacion_openai": "Crystal thickness governs the speed of vibration in piezoelectric transducers, directly determining the operating frequency. While material and diameter influence other attributes, they do not have as significant an impact on frequency as thickness does."
 },
 {
@@ -23260,7 +23260,7 @@
     "respuesta_correcta": [
         "CW transducers do not have damping because they continuously emit waves"
     ],
-    "concept_to_study": "Continuous wave transducers do not utilize damping material because they operate by continuously emitting waves, unlike pulsed wave transducers which require short pulses for improved axial resolution.",
+    "concept_to_study": "Continuous wave transducers.",
     "explicacion_openai": "In continuous wave transducers, damping is not required because these transducers are designed to emit a continuous signal without interruptions. Damping is typically used in pulsed wave transducers to shorten the pulse duration, increase bandwidth, and improve axial resolution. CW transducers prioritize simplicity for applications like Doppler ultrasound, where continuous wave emission is essential."
 },
 {
@@ -23278,7 +23278,7 @@
     "respuesta_correcta": [
         "It is synonymous with longitudinal, axial, radial, range, and depth resolution"
     ],
-    "concept_to_study": "LARD encompasses terms synonymous with axial resolution, including longitudinal, axial, radial, range, and depth. It quantifies the system's ability to distinguish closely spaced structures along the beam's axis.",
+    "concept_to_study": "LARD encompasses terms synonymous with axial resolutione.",
     "explicacion_openai": "LARD in ultrasound imaging is an acronym that refers to longitudinal, axial, radial, range, and depth resolution. These terms are all synonymous and describe the ability of the ultrasound system to distinguish between two closely spaced objects along the axis of the sound beam. Axial resolution is primarily determined by spatial pulse length (SPL), with shorter SPL leading to better resolution."
 },
 {
@@ -23296,7 +23296,7 @@
     "respuesta_correcta": [
         "It is synonymous with lateral, angular, transverse, and azimuthal resolution"
     ],
-    "concept_to_study": "LATA represents terms synonymous with lateral resolution, including lateral, angular, transverse, and azimuthal. It describes the ability to resolve objects perpendicular to the sound beam's axis and is primarily influenced by the beam width.",
+    "concept_to_study": "LATA (Lateral resolution).",
     "explicacion_openai": "LATA in ultrasound imaging stands for lateral, angular, transverse, and azimuthal resolution, which are all synonymous terms describing lateral resolution. It is the ability of the ultrasound system to distinguish two objects that are close together perpendicular to the axis of the sound beam. Lateral resolution is primarily determined by the beam width, with narrower beams providing better lateral resolution."
 },
 {
@@ -23314,7 +23314,7 @@
     "respuesta_correcta": [
         "By the spatial pulse length (SPL)"
     ],
-    "concept_to_study": "LARD, or axial resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing the system to distinguish closely spaced structures along the beam's axis.",
+    "concept_to_study": "LARD, or axial resolution.",
     "explicacion_openai": "LARD refers to axial resolution, which is governed by the spatial pulse length (SPL). SPL represents the distance over which one pulse occurs. Shorter pulses, achieved through fewer cycles or increased damping, result in better axial resolution and clearer separation of structures along the axis of the sound beam."
 },
 {
@@ -23332,7 +23332,7 @@
     "respuesta_correcta": [
         "Beam width"
     ],
-    "concept_to_study": "LATA, or lateral resolution, is primarily determined by the beam width. Narrower beams produce better lateral resolution, allowing the system to distinguish objects positioned side by side.",
+    "concept_to_study": "LATA.",
     "explicacion_openai": "LATA refers to lateral resolution, which measures the system's ability to distinguish objects positioned perpendicular to the sound beam's axis. This resolution is mainly influenced by the width of the sound beam. A narrower beam improves lateral resolution by reducing overlap between adjacent echoes."
   },
   {
@@ -23350,7 +23350,7 @@
     "respuesta_correcta": [
       "It decreases aliasing artifacts"
     ],
-    "concept_to_study": "By increasing the PRF, the Nyquist limit is raised, thereby reducing the likelihood of aliasing artifacts in pulsed Doppler imaging.",
+    "concept_to_study": "Increasing the PRF.",
     "explicacion_openai": "A higher PRF increases the Nyquist limit, which allows the system to measure higher velocities without aliasing. However, increasing PRF may compromise other parameters like penetration depth, so a balance is essential."
   },
   {
@@ -23368,7 +23368,7 @@
     "respuesta_correcta": [
       "Angle of insonation"
     ],
-    "concept_to_study": "The Doppler equation includes a cosine term, making the measured velocity highly sensitive to the angle between the ultrasound beam and the blood flow direction.",
+    "concept_to_study": "The Doppler equation.",
     "explicacion_openai": "Accurate Doppler velocity measurement depends on the angle of insonation. As the cosine of the angle directly affects the calculated velocity, even small errors in angle estimation can lead to significant inaccuracies. Ideally, the angle should be as close to 0° as possible to minimize errors."
   },
   {
@@ -23386,7 +23386,7 @@
     "respuesta_correcta": [
       "Pulsed Doppler provides range resolution but suffers from aliasing; continuous wave Doppler offers unlimited velocity measurement without aliasing but lacks range resolution."
     ],
-    "concept_to_study": "Pulsed Doppler uses time gating to determine the depth of the target (range resolution) but is limited by the Nyquist limit, which can lead to aliasing. Continuous wave Doppler continuously transmits and receives, thereby avoiding aliasing but at the cost of not providing range information.",
+    "concept_to_study": "Pulsed Doppler.",
     "explicacion_openai": "Pulsed Doppler systems can localize an echo to a specific depth due to time gating, but they are constrained by aliasing when velocities exceed the Nyquist limit. In contrast, continuous wave Doppler does not use a gating mechanism, so it can measure very high velocities without aliasing; however, it cannot provide depth-specific information."
   },
   {
@@ -23404,7 +23404,7 @@
     "respuesta_correcta": [
         "Increasing Pulse Repetition Frequency (PRF)"
     ],
-    "concept_to_study": "In pulsed Doppler imaging, the Nyquist limit (maximum measurable velocity without aliasing) is directly related to the PRF. By increasing the PRF, the system can more accurately measure higher velocities without aliasing.",
+    "concept_to_study": "In pulsed Doppler.",
     "explicacion_openai": "Aliasing artifacts occur in pulsed Doppler because its intermittent sampling imposes a Nyquist limit: a threshold above which measured velocities wrap around, leading to incorrect readings. Increasing the Pulse Repetition Frequency (PRF) raises this limit, thereby reducing the chance of aliasing. Although higher PRF can affect other aspects like penetration depth, it is the most direct method to mitigate aliasing in pulsed Doppler."
 },
 {
@@ -23422,7 +23422,7 @@
     "respuesta_correcta": [
         "Increase PRF, decrease sample depth, decrease frequency, increase the Doppler angle, use CW Doppler"
     ],
-    "concept_to_study": "Several parameter adjustments can be used to reduce aliasing artifacts in Doppler ultrasound systems. Increasing the PRF raises the Nyquist limit, decreasing the sample depth reduces the time delay between samples, decreasing the operating frequency increases the wavelength, increasing the Doppler angle reduces the measured velocity component, and using CW Doppler avoids aliasing by continuously sampling the signal.",
+    "concept_to_study": "Adjustments can be used to reduce aliasing artifacts.",
     "explicacion_openai": "Aliasing in Doppler ultrasound is a consequence of the limited sampling rate inherent in pulsed systems. To minimize aliasing artifacts, one can raise the Pulse Repetition Frequency (PRF) to increase the Nyquist limit, reduce sample depth to shorten the sampling window, lower the transducer frequency to increase the wavelength, and increase the Doppler angle to lower the effective velocity measurement. Additionally, Continuous Wave (CW) Doppler, which continuously samples the signal, does not suffer from aliasing. Combining these adjustments—'Increase PRF, decrease sample depth, decrease frequency, increase the Doppler angle, use CW Doppler'—represents the most effective approach to avoid aliasing."
 },
   {
@@ -23440,7 +23440,7 @@
     "respuesta_correcta": [
       "All are correct"
     ],
-    "concept_to_study": "The Doppler frequency shift is defined by the equation fD = (2 * f0 * v * cos(θ)) / c, where f0 is the transmit frequency, v is the blood flow velocity, θ is the insonation angle, and c is the speed of sound. Hence, increasing blood flow velocity, increasing transmit frequency, or decreasing the Doppler angle (which increases cos(θ)) will all contribute to a higher Doppler shift.",
+    "concept_to_study": "The Doppler frequency shift.",
     "explicacion_openai": "Each parameter in the Doppler equation directly affects the magnitude of the observed frequency shift. Higher blood flow velocity and a higher transmit frequency both produce larger shifts, and a smaller Doppler angle (closer to 0°) increases the cosine factor, yielding a greater Doppler shift. Thus, all options combined effectively increase fD."
   },
   {
@@ -23494,7 +23494,7 @@
     "respuesta_correcta": [
       "Sample volume depth"
     ],
-    "concept_to_study": "The Doppler frequency shift depends on the flow velocity, transmit frequency, and the cosine of the insonation angle, while the sample volume depth does not have a direct impact on the magnitude of the frequency shift.",
+    "concept_to_study": "The Doppler frequency shift.",
     "explicacion_openai": "The Doppler frequency shift is calculated using parameters that include the velocity of the moving scatterers (e.g., red blood cells), the transmit frequency, and the angle between the ultrasound beam and the direction of flow. The sample volume depth affects the location from which signals are received but does not alter the actual frequency shift observed."
   },
   {
@@ -23512,7 +23512,7 @@
     "respuesta_correcta": [
       "Human hearing"
     ],
-    "concept_to_study": "Although ultrasound systems operate in the megahertz range, the Doppler shift, which is due to the movement of blood, is much smaller. This small shift results in frequencies that fall within the human audible range.",
+    "concept_to_study": "Doppler shift frequencies.",
     "explicacion_openai": "The Doppler shift is calculated using the equation fD = (2 * f0 * v * cos(θ)) / c. While the transmitted frequency (f0) is in the MHz range, the blood flow velocity (v) is very small compared to the speed of sound (c). This makes the frequency change (fD) a small fraction of f0, placing it within the audio frequency range that humans can hear."
   }
 ]
