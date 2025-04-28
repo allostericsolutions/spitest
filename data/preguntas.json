@@ -23514,5 +23514,383 @@
     ],
     "concept_to_study": "Doppler shift frequencies.",
     "explicacion_openai": "The Doppler shift is calculated using the equation fD = (2 * f0 * v * cos(θ)) / c. While the transmitted frequency (f0) is in the MHz range, the blood flow velocity (v) is very small compared to the speed of sound (c). This makes the frequency change (fD) a small fraction of f0, placing it within the audio frequency range that humans can hear."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters is determined by the medium?",
+    "image": "",
+    "opciones": [
+      "Propagation speed",
+      "Amplitude",
+      "Wavelength",
+      "Frequency"
+    ],
+    "respuesta_correcta": [
+      "Propagation speed"
+    ],
+    "concept_to_study": "Propagation speed",
+    "explicacion_openai": "Propagation speed is determined by the properties of the medium, including its density and stiffness. Higher stiffness increases the speed of sound, as the material resists compression more effectively, allowing waves to travel faster. In contrast, higher density decreases the speed of sound, as the increased mass requires more energy to propagate the wave."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters is determined by the medium?",
+    "image": "",
+    "opciones": [
+      "Amplitude",
+      "Impedance",
+      "Wavelength",
+      "Frequency"
+    ],
+    "respuesta_correcta": [
+      "Impedance"
+    ],
+    "concept_to_study": "Impedance",
+    "explicacion_openai": "Acoustic impedance is determined by the properties of the medium and is calculated using the formula Z = ρ * c, where Z is the impedance, ρ (rho) is the density of the medium, and c is the propagation speed. A higher density or faster propagation speed increases the impedance. Impedance is important for understanding how sound waves are transmitted and reflected at boundaries between different media, such as tissue interfaces in ultrasound imaging."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3801",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters, defined as the time duration of one complete cycle, is determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Period",
+      "Propagation speed",
+      "Wavelength",
+      "Impedance"
+    ],
+    "respuesta_correcta": [
+      "Period"
+    ],
+    "concept_to_study": "Period",
+    "explicacion_openai": "The period is the time it takes for one complete cycle (T = 1/frequency) and is entirely set by the source's vibration characteristics. For review: Propagation speed and impedance depend solely on the medium; wavelength is determined by both the source (via frequency) and the medium (via speed); while period, frequency, amplitude, power, and intensity are defined by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3031",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters, defined as the number of cycles per second, is determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Frequency",
+      "Propagation speed",
+      "Wavelength",
+      "Impedance"
+    ],
+    "respuesta_correcta": [
+      "Frequency"
+    ],
+    "concept_to_study": "Frequency",
+    "explicacion_openai": "Frequency is measured in cycles per second (Hz) and reflects the vibration rate of the source. It depends exclusively on the source. To recap: Propagation speed and impedance are dictated by the medium; wavelength results from both the source (frequency) and the medium (speed); whereas period, frequency, amplitude, power, and intensity are determined solely by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3401",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters, representing the maximum variation in pressure or displacement, is determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Amplitude",
+      "Propagation speed",
+      "Wavelength",
+      "Impedance"
+    ],
+    "respuesta_correcta": [
+      "Amplitude"
+    ],
+    "concept_to_study": "Amplitude",
+    "explicacion_openai": "Amplitude indicates the peak pressure or displacement resulting from the energy of the vibrating source; thus, it is determined solely by the source. As a review: Propagation speed and impedance depend on the medium's properties; wavelength is set by both the source (frequency) and the medium (speed); while period, frequency, amplitude, power, and intensity are solely determined by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3071",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters, representing the energy transmitted per unit time, is determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Power",
+      "Propagation speed",
+      "Wavelength",
+      "Impedance"
+    ],
+    "respuesta_correcta": [
+      "Power"
+    ],
+    "concept_to_study": "Power",
+    "explicacion_openai": "Power measures the rate at which energy is transmitted by the source and is therefore solely determined by the source's output. In summary: Propagation speed and impedance are properties of the medium; wavelength is influenced by both the source (frequency) and the medium (speed); while period, frequency, amplitude, power, and intensity depend exclusively on the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following sound wave parameters, defined as the acoustic power per unit area, is determined solely by the source (considering its initial value)?",
+    "image": "",
+    "opciones": [
+      "Intensity",
+      "Propagation speed",
+      "Wavelength",
+      "Impedance"
+    ],
+    "respuesta_correcta": [
+      "Intensity"
+    ],
+    "concept_to_study": "Intensity",
+    "explicacion_openai": "Intensity is the acoustic power per unit area and is fundamentally related to the energy output of the source. Although intensity may vary with distance and medium attenuation, its initial value is determined solely by the source. To review all parameters: propagation speed and impedance depend on the medium; wavelength is set by both the source (frequency) and the medium (speed); while period, frequency, amplitude, power, and intensity are defined exclusively by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following pulsed sound wave parameters represents the active emission time of an ultrasound pulse, determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Pulse Duration",
+      "Duty Factor",
+      "Pulse Repetition Period",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Pulse Duration"
+    ],
+    "concept_to_study": "Pulse Duration",
+    "explicacion_openai": "Pulse Duration is the period during which the ultrasound pulse is actively emitted. It is completely determined by the source’s timing settings and is independent of the medium."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Identify the parameter that defines the length of time an ultrasound pulse remains on, set exclusively by the ultrasound source.",
+    "image": "",
+    "opciones": [
+      "Pulse Duration",
+      "Duty Factor",
+      "Pulse Repetition Period",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Pulse Duration"
+    ],
+    "concept_to_study": "Pulse Duration",
+    "explicacion_openai": "The active duration of the ultrasound pulse, known as Pulse Duration, is solely determined by how long the source emits the pulse. This parameter sets the base for many derived measurements."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter, calculated as the ratio of pulse duration to pulse repetition period, represents the fraction of time the ultrasound system is active?",
+    "image": "",
+    "opciones": [
+      "Duty Factor",
+      "Pulse Duration",
+      "Pulse Repetition Period",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Duty Factor"
+    ],
+    "concept_to_study": "Duty Factor",
+    "explicacion_openai": "Duty Factor is defined as the ratio of the Pulse Duration to the Pulse Repetition Period. Because it is a ratio, it is unitless and is often expressed as a percentage. This parameter is entirely determined by the source's timing settings."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Select the parameter that indicates the percentage of time an ultrasound system is transmitting, determined exclusively by the source.",
+    "image": "",
+    "opciones": [
+      "Duty Factor",
+      "Pulse Duration",
+      "Pulse Repetition Frequency",
+      "Pulse Repetition Period"
+    ],
+    "respuesta_correcta": [
+      "Duty Factor"
+    ],
+    "concept_to_study": "Duty Factor",
+    "explicacion_openai": "The Duty Factor represents the proportion of time that the ultrasound pulse is active within one cycle. Being a ratio (pulse duration divided by pulse repetition period), it does not have units and is typically expressed as a percentage. This value is fully determined by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter denotes the time interval between the start of one ultrasound pulse and the start of the next, determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Pulse Repetition Period",
+      "Pulse Duration",
+      "Duty Factor",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Pulse Repetition Period"
+    ],
+    "concept_to_study": "Pulse Repetition Period",
+    "explicacion_openai": "The Pulse Repetition Period is the time interval between the beginning of one pulse and the beginning of the next. This interval is entirely controlled by the source’s timing settings."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Identify the parameter that measures the time span between the start of consecutive ultrasound pulses, set by the source.",
+    "image": "",
+    "opciones": [
+      "Pulse Repetition Period",
+      "Duty Factor",
+      "Pulse Duration",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Pulse Repetition Period"
+    ],
+    "concept_to_study": "Pulse Repetition Period",
+    "explicacion_openai": "Pulse Repetition Period defines the time gap between successive ultrasound pulses and is solely determined by the source’s configuration."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter, defined as the number of ultrasound pulses emitted per second, is determined solely by the source?",
+    "image": "",
+    "opciones": [
+      "Pulse Repetition Frequency",
+      "Pulse Duration",
+      "Duty Factor",
+      "Pulse Repetition Period"
+    ],
+    "respuesta_correcta": [
+      "Pulse Repetition Frequency"
+    ],
+    "concept_to_study": "Pulse Repetition Frequency",
+    "explicacion_openai": "Pulse Repetition Frequency (PRF) indicates the number of pulses transmitted each second and is the reciprocal of the Pulse Repetition Period. It is entirely set by the source’s operational settings."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Select the parameter representing the count of ultrasound pulses emitted per second, defined exclusively by the source.",
+    "image": "",
+    "opciones": [
+      "Pulse Repetition Frequency",
+      "Duty Factor",
+      "Pulse Duration",
+      "Pulse Repetition Period"
+    ],
+    "respuesta_correcta": [
+      "Pulse Repetition Frequency"
+    ],
+    "concept_to_study": "Pulse Repetition Frequency",
+    "explicacion_openai": "Pulse Repetition Frequency expresses how many pulses are emitted in one second. Since it directly depends on the source's timing, its value is determined exclusively by the source."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter is defined as the product of the pulse duration and the speed of sound in the medium, making it dependent on both the source and the medium?",
+    "image": "",
+    "opciones": [
+      "Spatial Pulse Length",
+      "Pulse Duration",
+      "Duty Factor",
+      "Pulse Repetition Frequency"
+    ],
+    "respuesta_correcta": [
+      "Spatial Pulse Length"
+    ],
+    "concept_to_study": "Spatial Pulse Length",
+    "explicacion_openai": "Spatial Pulse Length (SPL) is calculated by multiplying the Pulse Duration (set by the source) by the speed of sound in the medium. This parameter not only reflects the energy characteristics but is also an essential component in determining axial resolution. A shorter SPL improves axial resolution by enabling the ultrasound system to more precisely distinguish between two closely spaced reflectors along the beam path."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Identify the parameter that describes the physical length an ultrasound pulse occupies in space, which depends on the source's pulse duration and the medium's propagation speed.",
+    "image": "",
+    "opciones": [
+      "Spatial Pulse Length",
+      "Pulse Repetition Period",
+      "Duty Factor",
+      "Pulse Duration"
+    ],
+    "respuesta_correcta": [
+      "Spatial Pulse Length"
+    ],
+    "concept_to_study": "Spatial Pulse Length",
+    "explicacion_openai": "Spatial Pulse Length represents the distance an ultrasound pulse covers in the medium and is obtained by multiplying the source-determined Pulse Duration by the speed of sound in the medium. This parameter is crucial for axial resolution, since a shorter SPL allows the system to resolve smaller structures along the ultrasound beam's direction."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "When an ultrasound wave encounters an interface at normal (perpendicular) incidence, the ratio of sound energy reflected versus transmitted is primarily determined by which factor?",
+    "image": "",
+    "opciones": [
+      "Impedance mismatch",
+      "Propagation speed difference",
+      "Frequency variation",
+      "Attenuation coefficient"
+    ],
+    "respuesta_correcta": [
+      "Impedance mismatch"
+    ],
+    "concept_to_study": "Reflection at interfaces",
+    "explicacion_openai": "At normal incidence, the amount of sound energy that is reflected versus transmitted at an interface is governed by the acoustic impedance mismatch between the two media. A larger mismatch results in a higher reflection coefficient (i.e., a greater percentage of the incident sound is reflected)."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "For an ultrasound wave striking an interface perpendicularly, which parameter directly influences the intensity of the reflected and transmitted waves?",
+    "image": "",
+    "opciones": [
+      "Impedance mismatch",
+      "Wave frequency",
+      "Transducer sensitivity",
+      "Sound velocity gradient"
+    ],
+    "respuesta_correcta": [
+      "Impedance mismatch"
+    ],
+    "concept_to_study": "Reflection magnitude",
+    "explicacion_openai": "The intensity distribution between the reflected and transmitted sound at an interface during normal incidence is mainly determined by the impedance mismatch between the two media. This mismatch defines the reflection coefficient, which quantifies the percentage of incident sound energy that is reflected."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "When an ultrasound wave strikes an interface at an oblique angle, the bending of the wave (refraction) is primarily due to:",
+    "image": "",
+    "opciones": [
+      "Propagation speed mismatch",
+      "Impedance mismatch",
+      "Frequency shift",
+      "Attenuation difference"
+    ],
+    "respuesta_correcta": [
+      "Propagation speed mismatch"
+    ],
+    "concept_to_study": "Refraction due to oblique incidence",
+    "explicacion_openai": "Refraction occurs when an ultrasound wave encounters an interface at an oblique angle and changes direction because of a mismatch in propagation speed between the two media. This effect is described by Snell's Law, whereby the difference in sound speed causes the beam to bend."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "301",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which phenomenon describes the change in the transmitted ultrasound beam’s angle as it passes from one medium into another at an oblique angle?",
+    "image": "",
+    "opciones": [
+      "Refraction",
+      "Reflection",
+      "Diffraction",
+      "Scattering"
+    ],
+    "respuesta_correcta": [
+      "Refraction"
+    ],
+    "concept_to_study": "Refraction and angle change",
+    "explicacion_openai": "Refraction is the phenomenon where an ultrasound beam, striking an interface at an oblique angle, changes direction as it enters a new medium due to differences in propagation speeds. The new angle of transmission is determined by Snell's Law, relating the speed mismatch to the change in beam direction."
   }
 ]
