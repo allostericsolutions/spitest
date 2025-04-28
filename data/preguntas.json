@@ -22348,7 +22348,7 @@
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "513",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Following the mnemonic 'SpPin', which parameter is most useful for confirming a disease when the test result is positive?",
+        "enunciado": "When a diagnostic test result is positive, which test characteristic is most critical for confirming the presence of a disease?",
         "image": "",
         "opciones": [
             "High sensitivity",
@@ -22359,9 +22359,8 @@
         "respuesta_correcta": [
             "High specificity"
         ],
-        "concept_to_study": "High specificity (True Negative Rate) is essential for confirming disease because it ensures that a positive result is truly indicative of illness.",
-        "explicacion_openai": "Definition: Specificity is the ability of a test to correctly identify those without the disease. \nFormula: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%\nExplanation: For example, in diagnosing tuberculosis, a test with high specificity will yield a positive result only when TB is truly present, minimizing false positives. \nMemory Strategy: 'SpPin' (Specific test when Positive rules IN disease) helps you remember that high specificity confirms disease."
-    },
+        "concept_to_study": "High specificity (True Negative Rate).",
+        "explicacion_openai": "Specificity is the ability of a diagnostic test to correctly identify patients who do not have the disease, meaning that a high specificity test minimizes false positives. This is critical when confirming a disease because a positive result from a test with high specificity is very likely to indicate that the disease is truly present. The formula for specificity is: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%. For example, in the context of diagnosing tuberculosis, a test with high specificity would ensure that few healthy individuals are incorrectly classified as diseased."
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "514",
