@@ -23264,75 +23264,255 @@
     "explicacion_openai": "In continuous wave transducers, damping is not required because these transducers are designed to emit a continuous signal without interruptions. Damping is typically used in pulsed wave transducers to shorten the pulse duration, increase bandwidth, and improve axial resolution. CW transducers prioritize simplicity for applications like Doppler ultrasound, where continuous wave emission is essential."
 },
 {
-    "classification": "Physical Principles",
-    "group": "102",
-    "question_type": "multiple_choice",
-    "statement": "What does LARD stand for in ultrasound imaging, and how does it relate to axial resolution?",
+    "clasificacion": "Physical Principles",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What does LARD stand for in ultrasound imaging, and how does it relate to axial resolution?",
     "image": "",
-    "options": [
+    "opciones": [
         "It refers to the ability to resolve objects in the lateral dimension",
         "It is synonymous with longitudinal, axial, radial, range, and depth resolution",
         "It describes resolution in the transverse plane",
         "It refers to the ability to detect objects at different acoustic impedances"
     ],
-    "correct_answer": [
+    "respuesta_correcta": [
         "It is synonymous with longitudinal, axial, radial, range, and depth resolution"
     ],
     "concept_to_study": "LARD encompasses terms synonymous with axial resolution, including longitudinal, axial, radial, range, and depth. It quantifies the system's ability to distinguish closely spaced structures along the beam's axis.",
-    "openai_explanation": "LARD in ultrasound imaging is an acronym that refers to longitudinal, axial, radial, range, and depth resolution. These terms are all synonymous and describe the ability of the ultrasound system to distinguish between two closely spaced objects along the axis of the sound beam. Axial resolution is primarily determined by spatial pulse length (SPL), with shorter SPL leading to better resolution."
+    "explicacion_openai": "LARD in ultrasound imaging is an acronym that refers to longitudinal, axial, radial, range, and depth resolution. These terms are all synonymous and describe the ability of the ultrasound system to distinguish between two closely spaced objects along the axis of the sound beam. Axial resolution is primarily determined by spatial pulse length (SPL), with shorter SPL leading to better resolution."
 },
 {
-    "classification": "Physical Principles",
-    "group": "102",
-    "question_type": "multiple_choice",
-    "statement": "What does LATA stand for in ultrasound imaging, and how does it relate to lateral resolution?",
+    "clasificacion": "Physical Principles",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What does LATA stand for in ultrasound imaging, and how does it relate to lateral resolution?",
     "image": "",
-    "options": [
+    "opciones": [
         "It refers to longitudinal resolution and is determined by spatial pulse length (SPL)",
         "It is synonymous with lateral, angular, transverse, and azimuthal resolution",
         "It measures depth resolution and is determined by beam frequency",
         "It describes axial resolution and is influenced by pulse duration"
     ],
-    "correct_answer": [
+    "respuesta_correcta": [
         "It is synonymous with lateral, angular, transverse, and azimuthal resolution"
     ],
     "concept_to_study": "LATA represents terms synonymous with lateral resolution, including lateral, angular, transverse, and azimuthal. It describes the ability to resolve objects perpendicular to the sound beam's axis and is primarily influenced by the beam width.",
-    "openai_explanation": "LATA in ultrasound imaging stands for lateral, angular, transverse, and azimuthal resolution, which are all synonymous terms describing lateral resolution. It is the ability of the ultrasound system to distinguish two objects that are close together perpendicular to the axis of the sound beam. Lateral resolution is primarily determined by the beam width, with narrower beams providing better lateral resolution."
+    "explicacion_openai": "LATA in ultrasound imaging stands for lateral, angular, transverse, and azimuthal resolution, which are all synonymous terms describing lateral resolution. It is the ability of the ultrasound system to distinguish two objects that are close together perpendicular to the axis of the sound beam. Lateral resolution is primarily determined by the beam width, with narrower beams providing better lateral resolution."
 },
 {
-    "classification": "Physical Principles",
-    "group": "102",
-    "question_type": "multiple_choice",
-    "statement": "How is LARD (axial resolution) most directly influenced in ultrasound imaging?",
+    "clasificacion": "Physical Principles",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How is LARD (axial resolution) most directly influenced in ultrasound imaging?",
     "image": "",
-    "options": [
+    "opciones": [
         "By the width of the sound beam",
         "By the spatial pulse length (SPL)",
         "By the transducer's damping material",
         "By the number of cycles in the lateral direction"
     ],
-    "correct_answer": [
+    "respuesta_correcta": [
         "By the spatial pulse length (SPL)"
     ],
     "concept_to_study": "LARD, or axial resolution, is determined by the spatial pulse length (SPL). Shorter SPL improves axial resolution by allowing the system to distinguish closely spaced structures along the beam's axis.",
-    "openai_explanation": "LARD refers to axial resolution, which is governed by the spatial pulse length (SPL). SPL represents the distance over which one pulse occurs. Shorter pulses, achieved through fewer cycles or increased damping, result in better axial resolution and clearer separation of structures along the axis of the sound beam."
+    "explicacion_openai": "LARD refers to axial resolution, which is governed by the spatial pulse length (SPL). SPL represents the distance over which one pulse occurs. Shorter pulses, achieved through fewer cycles or increased damping, result in better axial resolution and clearer separation of structures along the axis of the sound beam."
 },
 {
-    "classification": "Physical Principles",
-    "group": "102",
-    "question_type": "multiple_choice",
-    "statement": "Which factor most strongly determines LATA (lateral resolution) in ultrasound imaging?",
+    "clasificacion": "Physical Principles",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which factor most strongly determines LATA (lateral resolution) in ultrasound imaging?",
     "image": "",
-    "options": [
+    "opciones": [
         "Beam width",
         "Spatial pulse length (SPL)",
         "Damping material thickness",
         "Transducer frequency"
     ],
-    "correct_answer": [
+    "respuesta_correcta": [
         "Beam width"
     ],
     "concept_to_study": "LATA, or lateral resolution, is primarily determined by the beam width. Narrower beams produce better lateral resolution, allowing the system to distinguish objects positioned side by side.",
-    "openai_explanation": "LATA refers to lateral resolution, which measures the system's ability to distinguish objects positioned perpendicular to the sound beam's axis. This resolution is mainly influenced by the width of the sound beam. A narrower beam improves lateral resolution by reducing overlap between adjacent echoes."
-}
+    "explicacion_openai": "LATA refers to lateral resolution, which measures the system's ability to distinguish objects positioned perpendicular to the sound beam's axis. This resolution is mainly influenced by the width of the sound beam. A narrower beam improves lateral resolution by reducing overlap between adjacent echoes."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1024",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How does increasing the Pulse Repetition Frequency (PRF) in pulsed Doppler imaging affect aliasing?",
+    "image": "",
+    "opciones": [
+      "It increases aliasing artifacts",
+      "It decreases aliasing artifacts",
+      "It has no effect on aliasing",
+      "It reverses the Doppler shift"
+    ],
+    "respuesta_correcta": [
+      "It decreases aliasing artifacts"
+    ],
+    "concept_to_study": "By increasing the PRF, the Nyquist limit is raised, thereby reducing the likelihood of aliasing artifacts in pulsed Doppler imaging.",
+    "explicacion_openai": "A higher PRF increases the Nyquist limit, which allows the system to measure higher velocities without aliasing. However, increasing PRF may compromise other parameters like penetration depth, so a balance is essential."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1042",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which factor primarily influences the accuracy of Doppler velocity measurements due to the cosine dependency in the Doppler equation?",
+    "image": "",
+    "opciones": [
+      "Transducer damping",
+      "Angle of insonation",
+      "Pulse length",
+      "Beam width"
+    ],
+    "respuesta_correcta": [
+      "Angle of insonation"
+    ],
+    "concept_to_study": "The Doppler equation includes a cosine term, making the measured velocity highly sensitive to the angle between the ultrasound beam and the blood flow direction.",
+    "explicacion_openai": "Accurate Doppler velocity measurement depends on the angle of insonation. As the cosine of the angle directly affects the calculated velocity, even small errors in angle estimation can lead to significant inaccuracies. Ideally, the angle should be as close to 0° as possible to minimize errors."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1302",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the key difference between pulsed Doppler and continuous wave Doppler regarding range resolution and aliasing?",
+    "image": "",
+    "opciones": [
+      "Pulsed Doppler provides range resolution but suffers from aliasing; continuous wave Doppler offers unlimited velocity measurement without aliasing but lacks range resolution.",
+      "Continuous wave Doppler provides range resolution and is susceptible to aliasing; pulsed Doppler does not provide range resolution but avoids aliasing.",
+      "Both modalities offer similar range resolution; the only difference is in their sensitivity to aliasing.",
+      "Neither modality provides range resolution, and both are equally subject to aliasing."
+    ],
+    "respuesta_correcta": [
+      "Pulsed Doppler provides range resolution but suffers from aliasing; continuous wave Doppler offers unlimited velocity measurement without aliasing but lacks range resolution."
+    ],
+    "concept_to_study": "Pulsed Doppler uses time gating to determine the depth of the target (range resolution) but is limited by the Nyquist limit, which can lead to aliasing. Continuous wave Doppler continuously transmits and receives, thereby avoiding aliasing but at the cost of not providing range information.",
+    "explicacion_openai": "Pulsed Doppler systems can localize an echo to a specific depth due to time gating, but they are constrained by aliasing when velocities exceed the Nyquist limit. In contrast, continuous wave Doppler does not use a gating mechanism, so it can measure very high velocities without aliasing; however, it cannot provide depth-specific information."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "3102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which adjustment in a pulsed Doppler system most effectively increases the Nyquist limit to reduce aliasing artifacts?",
+    "image": "",
+    "opciones": [
+        "Increasing Pulse Repetition Frequency (PRF)",
+        "Decreasing the transducer frequency",
+        "Increasing the sample volume size",
+        "Lowering the Doppler angle"
+    ],
+    "respuesta_correcta": [
+        "Increasing Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "In pulsed Doppler imaging, the Nyquist limit (maximum measurable velocity without aliasing) is directly related to the PRF. By increasing the PRF, the system can more accurately measure higher velocities without aliasing.",
+    "explicacion_openai": "Aliasing artifacts occur in pulsed Doppler because its intermittent sampling imposes a Nyquist limit: a threshold above which measured velocities wrap around, leading to incorrect readings. Increasing the Pulse Repetition Frequency (PRF) raises this limit, thereby reducing the chance of aliasing. Although higher PRF can affect other aspects like penetration depth, it is the most direct method to mitigate aliasing in pulsed Doppler."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "10652",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which  adjustments are most effective in reducing aliasing artifacts in a Doppler ultrasound system?",
+    "image": "",
+    "opciones": [
+        "Increase PRF, decrease sample depth, decrease frequency, increase the Doppler angle, use CW Doppler",
+        "Increase PRF, increase sample depth, decrease frequency, decrease the Doppler angle, use Pulsed Doppler",
+        "Decrease PRF, increase sample depth, increase frequency, decrease the Doppler angle, use CW Doppler",
+        "Increase PRF, decrease sample depth, maintain frequency, maintain the Doppler angle, use Pulsed Doppler"
+    ],
+    "respuesta_correcta": [
+        "Increase PRF, decrease sample depth, decrease frequency, increase the Doppler angle, use CW Doppler"
+    ],
+    "concept_to_study": "Several parameter adjustments can be used to reduce aliasing artifacts in Doppler ultrasound systems. Increasing the PRF raises the Nyquist limit, decreasing the sample depth reduces the time delay between samples, decreasing the operating frequency increases the wavelength, increasing the Doppler angle reduces the measured velocity component, and using CW Doppler avoids aliasing by continuously sampling the signal.",
+    "explicacion_openai": "Aliasing in Doppler ultrasound is a consequence of the limited sampling rate inherent in pulsed systems. To minimize aliasing artifacts, one can raise the Pulse Repetition Frequency (PRF) to increase the Nyquist limit, reduce sample depth to shorten the sampling window, lower the transducer frequency to increase the wavelength, and increase the Doppler angle to lower the effective velocity measurement. Additionally, Continuous Wave (CW) Doppler, which continuously samples the signal, does not suffer from aliasing. Combining these adjustments—'Increase PRF, decrease sample depth, decrease frequency, increase the Doppler angle, use CW Doppler'—represents the most effective approach to avoid aliasing."
+},
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following factors increases the Doppler frequency shift (fD) in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Increased blood flow velocity",
+      "Increased transducer transmit frequency",
+      "Decreased Doppler angle",
+      "All are correct"
+    ],
+    "respuesta_correcta": [
+      "All are correct"
+    ],
+    "concept_to_study": "The Doppler frequency shift is defined by the equation fD = (2 * f0 * v * cos(θ)) / c, where f0 is the transmit frequency, v is the blood flow velocity, θ is the insonation angle, and c is the speed of sound. Hence, increasing blood flow velocity, increasing transmit frequency, or decreasing the Doppler angle (which increases cos(θ)) will all contribute to a higher Doppler shift.",
+    "explicacion_openai": "Each parameter in the Doppler equation directly affects the magnitude of the observed frequency shift. Higher blood flow velocity and a higher transmit frequency both produce larger shifts, and a smaller Doppler angle (closer to 0°) increases the cosine factor, yielding a greater Doppler shift. Thus, all options combined effectively increase fD."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which statement best describes the Nyquist limit in pulsed Doppler ultrasound?",
+    "image": "",
+    "opciones": [
+      "The maximum measurable Doppler frequency shift without aliasing",
+      "The minimum measurable Doppler frequency shift",
+      "A fixed value based on the speed of sound",
+      "An average Doppler frequency shift over time"
+    ],
+    "respuesta_correcta": [
+      "The maximum measurable Doppler frequency shift without aliasing"
+    ],
+    "concept_to_study": "The Nyquist limit is determined by the Pulse Repetition Frequency (PRF) and defines the maximum Doppler frequency shift that can be accurately measured in a pulsed Doppler system without causing aliasing.",
+    "explicacion_openai": "In pulsed Doppler ultrasound, the Nyquist limit sets the upper boundary for detectable frequency shifts. When the velocity-induced frequency shift exceeds this limit, aliasing occurs. The Nyquist limit is directly related to the PRF, which essentially determines how often echoes are sampled."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How does increasing the Doppler insonation angle affect the measured Doppler frequency shift in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "It increases the measured frequency shift",
+      "It decreases the measured frequency shift",
+      "It has no effect on the measured frequency shift",
+      "It doubles the measured frequency shift"
+    ],
+    "respuesta_correcta": [
+      "It decreases the measured frequency shift"
+    ],
+    "concept_to_study": "The measured Doppler frequency shift is proportional to the cosine of the insonation angle (θ). As the angle increases, cos(θ) decreases, which results in a lower measured Doppler shift.",
+    "explicacion_openai": "The relationship between the Doppler shift and the insonation angle is given by fD = (2 * f0 * v * cos(θ)) / c. A higher insonation angle means that cos(θ) is smaller; therefore, even if the blood flow velocity and the transmitted frequency remain constant, the detected Doppler shift will be reduced."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter does NOT directly influence the magnitude of the Doppler frequency shift in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Blood flow velocity",
+      "Transducer transmit frequency",
+      "Sample volume depth",
+      "Doppler insonation angle"
+    ],
+    "respuesta_correcta": [
+      "Sample volume depth"
+    ],
+    "concept_to_study": "The Doppler frequency shift depends on the flow velocity, transmit frequency, and the cosine of the insonation angle, while the sample volume depth does not have a direct impact on the magnitude of the frequency shift.",
+    "explicacion_openai": "The Doppler frequency shift is calculated using parameters that include the velocity of the moving scatterers (e.g., red blood cells), the transmit frequency, and the angle between the ultrasound beam and the direction of flow. The sample volume depth affects the location from which signals are received but does not alter the actual frequency shift observed."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Doppler shift frequencies in ultrasound imaging are typically in which frequency range?",
+    "image": "",
+    "opciones": [
+      "Human hearing",
+      "Ultrasound",
+      "Infrasound",
+      "Velocity range"
+    ],
+    "respuesta_correcta": [
+      "Human hearing"
+    ],
+    "concept_to_study": "Although ultrasound systems operate in the megahertz range, the Doppler shift, which is due to the movement of blood, is much smaller. This small shift results in frequencies that fall within the human audible range.",
+    "explicacion_openai": "The Doppler shift is calculated using the equation fD = (2 * f0 * v * cos(θ)) / c. While the transmitted frequency (f0) is in the MHz range, the blood flow velocity (v) is very small compared to the speed of sound (c). This makes the frequency change (fD) a small fraction of f0, placing it within the audio frequency range that humans can hear."
+  }
 ]
