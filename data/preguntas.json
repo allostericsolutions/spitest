@@ -22361,6 +22361,7 @@
         ],
         "concept_to_study": "High specificity (True Negative Rate).",
         "explicacion_openai": "Specificity is the ability of a diagnostic test to correctly identify patients who do not have the disease, meaning that a high specificity test minimizes false positives. This is critical when confirming a disease because a positive result from a test with high specificity is very likely to indicate that the disease is truly present. The formula for specificity is: Specificity = (True Negatives) / (True Negatives + False Positives) × 100%. For example, in the context of diagnosing tuberculosis, a test with high specificity would ensure that few healthy individuals are incorrectly classified as diseased."
+    },    
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": "514",
