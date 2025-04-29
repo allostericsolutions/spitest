@@ -24324,5 +24324,347 @@
     ],
     "concept_to_study": "Interpretation of elastographic maps",
     "explicacion_openai": "In many elastographic systems, color coding is used where warmer colors such as red typically indicate areas of increased stiffness. These regions deform less under compression compared to surrounding softer tissues."
+  },
+ {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What are the effects of increasing PRF on: duty factor, Nyquist limit, pulse duration, and beam width in Doppler imaging?",
+    "image": "",
+    "opciones": [
+        "Increases duty factor, increases Nyquist limit, no effect on pulse duration or beam width",
+        "Decreases duty factor, increases Nyquist limit, shortens pulse duration, no effect on beam width",
+        "No effect on duty factor, decreases Nyquist limit, no effect on pulse duration, increases beam width",
+        "Increases duty factor, decreases Nyquist limit, shortens pulse duration, widens beam width"
+    ],
+    "respuesta_correcta": [
+        "Increases duty factor, increases Nyquist limit, no effect on pulse duration or beam width"
+    ],
+    "concept_to_study": "Effects of increasing PRF on duty factor, Nyquist limit, pulse duration, and beam width.",
+    "explicacion_openai": "When PRF increases:\n1. **Duty Factor:** The interval between pulses decreases, raising the percentage of time the transducer is actively transmitting, so duty factor increases.\n2. **Nyquist Limit:** A higher PRF increases the system's sampling rate, raising the Nyquist limit and allowing higher Doppler frequency shifts to be measured without aliasing.\n3. **Pulse Duration:** Pulse duration remains unaffected as it depends on the transducer's characteristics and not on PRF.\n4. **Beam Width:** Beam width is determined by the transducer design and focusing properties, so it is not influenced by changes in PRF."
+},
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What effect does a higher PRF have on the maximum measurable velocity in a pulsed Doppler system?",
+    "image": "",
+    "opciones": [
+      "It increases the maximum measurable velocity",
+      "It decreases the maximum measurable velocity",
+      "It has no effect on measurable velocity",
+      "It introduces more aliasing artifacts"
+    ],
+    "respuesta_correcta": [
+      "It increases the maximum measurable velocity"
+    ],
+    "concept_to_study": "Effect of higher PRF on maximum measurable velocity.",
+    "explicacion_openai": "The Nyquist limit is directly proportional to the PRF. A higher PRF reduces the interval between pulses, allowing the system to sample signals at a faster rate. This increases the threshold velocity that can be measured without aliasing."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How does decreasing the sample depth affect PRF in Doppler imaging?",
+    "image": "",
+    "opciones": [
+      "It increases PRF by shortening the round-trip travel time of the ultrasound pulse",
+      "It decreases PRF by lengthening the round-trip travel time of the ultrasound pulse",
+      "It has no effect on PRF",
+      "It reduces the transducer bandwidth"
+    ],
+    "respuesta_correcta": [
+      "It increases PRF by shortening the round-trip travel time of the ultrasound pulse"
+    ],
+    "concept_to_study": "Effect of sample depth on PRF in Doppler imaging.",
+    "explicacion_openai": "Sample depth affects the time required for the echoes to return to the transducer. With a shallower sample depth, the echo return time decreases, enabling the system to operate at a higher PRF and sample faster."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In which region of the ultrasound beam does divergence occur?",
+    "image": "",
+    "opciones": [
+      "Fresnel zone",
+      "Fraunhofer zone",
+      "Real time focusing"
+    ],
+    "respuesta_correcta": [
+      "Fraunhofer zone"
+    ],
+    "concept_to_study": "Regions of ultrasound beams and their characteristics.",
+    "explicacion_openai": "Ultrasound beams have two primary zones. Divergence occurs in the Fraunhofer zone (the far field), where sound waves naturally spread outward as the beam propagates. In contrast, the Fresnel zone (the near field) features a concentrated and narrow beam due to constructive and destructive interference."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What determines the extent of beam divergence in the Fraunhofer zone?",
+    "image": "",
+    "opciones": [
+      "Transducer frequency and aperture size",
+      "The speed of sound in the tissue",
+      "The intensity of the ultrasound beam",
+      "The depth of the Fresnel zone"
+    ],
+    "respuesta_correcta": [
+      "Transducer frequency and aperture size"
+    ],
+    "concept_to_study": "Factors influencing beam divergence in the Fraunhofer zone.",
+    "explicacion_openai": "Beam divergence in the Fraunhofer zone is primarily influenced by transducer frequency and aperture size. A higher transducer frequency and a larger aperture size result in less divergence, producing a more focused beam in the far field. Lower frequencies and smaller apertures lead to greater divergence."
+  },
+  [
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter is adjusted to optimize imaging depth?",
+    "image": "",
+    "opciones": [
+      "Pulse repetition frequency",
+      "Overall gain",
+      "Transducer frequency",
+      "Time gain compensation"
+    ],
+    "respuesta_correcta": [
+      "Pulse repetition frequency"
+    ],
+    "concept_to_study": "Imaging depth and how it is adjusted.",
+    "explicacion_openai": "Imaging depth is controlled by the pulse repetition frequency (PRF). Lowering PRF increases the maximum imaging depth as it allows more time for echoes to return from deeper structures."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What does overall gain adjust in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Amplitude of the returning echoes",
+      "The beam's focus",
+      "The depth of imaging",
+      "Frequency of transmitted sound waves"
+    ],
+    "respuesta_correcta": [
+      "Amplitude of the returning echoes"
+    ],
+    "concept_to_study": "Function of overall gain in ultrasound.",
+    "explicacion_openai": "Overall gain amplifies the signal strength of all returning echoes, allowing the sonographer to adjust the brightness of the image globally without affecting specific regions or depths."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which control affects the brightness of echoes at different depths?",
+    "image": "",
+    "opciones": [
+      "Overall gain",
+      "Zoom",
+      "Time gain compensation",
+      "Dynamic range"
+    ],
+    "respuesta_correcta": [
+      "Time gain compensation"
+    ],
+    "concept_to_study": "Time gain compensation and its effect on echoes.",
+    "explicacion_openai": "Time gain compensation (TGC) adjusts the amplification of echoes based on their depth, compensating for attenuation of sound waves as they travel through tissue."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which mode is most effective for measuring cardiac motion?",
+    "image": "",
+    "opciones": [
+      "B-mode",
+      "M-mode",
+      "Harmonic imaging",
+      "Zoom"
+    ],
+    "respuesta_correcta": [
+      "M-mode"
+    ],
+    "concept_to_study": "Modes of ultrasound imaging and their applications.",
+    "explicacion_openai": "M-mode (motion mode) provides a single-dimensional representation of motion over time, making it especially useful for measuring cardiac and other dynamic movements."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the primary advantage of harmonic imaging?",
+    "image": "",
+    "opciones": [
+      "Better visualization of superficial structures",
+      "Enhanced resolution and reduced artifacts",
+      "Improved depth penetration",
+      "Increased dynamic range"
+    ],
+    "respuesta_correcta": [
+      "Enhanced resolution and reduced artifacts"
+    ],
+    "concept_to_study": "Benefits of harmonic imaging in ultrasound.",
+    "explicacion_openai": "Harmonic imaging uses harmonic frequencies generated by tissue to improve image clarity, reducing side-lobe artifacts and enhancing resolution."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How does dynamic range affect the ultrasound image?",
+    "image": "",
+    "opciones": [
+      "By increasing the imaging depth",
+      "By determining the range of echo intensities displayed",
+      "By enhancing the contrast of moving structures",
+      "By adjusting the focus of the beam"
+    ],
+    "respuesta_correcta": [
+      "By determining the range of echo intensities displayed"
+    ],
+    "concept_to_study": "Impact of dynamic range on ultrasound imaging.",
+    "explicacion_openai": "Dynamic range determines how many levels of echo intensity are displayed, affecting the contrast and detail in the image. A narrow dynamic range increases contrast, while a wide dynamic range shows more shades of gray."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which setting minimizes motion artifacts while improving spatial resolution?",
+    "image": "",
+    "opciones": [
+      "Persistence",
+      "Overall gain",
+      "Zoom",
+      "Frequency compounding"
+    ],
+    "respuesta_correcta": [
+      "Persistence"
+    ],
+    "concept_to_study": "Effects of persistence in ultrasound imaging.",
+    "explicacion_openai": "Persistence averages multiple frames over time to reduce noise and artifacts caused by motion, leading to a smoother image and improved spatial resolution."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the purpose of coded excitation in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Improves image resolution while maintaining signal penetration",
+      "Increases the speed of data storage",
+      "Enhances echo amplitude only at shallow depths",
+      "Filters out artifacts caused by motion"
+    ],
+    "respuesta_correcta": [
+      "Improves image resolution while maintaining signal penetration"
+    ],
+    "concept_to_study": "Function of coded excitation in ultrasound.",
+    "explicacion_openai": "Coded excitation uses encoded pulses to improve image resolution while maintaining sufficient penetration for deeper structures. It enables high-quality imaging at varied depths."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the primary application of spatial compounding in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "To increase depth penetration",
+      "To reduce artifacts by combining echoes from multiple angles",
+      "To enhance the resolution of superficial structures",
+      "To improve storage capacity of imaging devices"
+    ],
+    "respuesta_correcta": [
+      "To reduce artifacts by combining echoes from multiple angles"
+    ],
+    "concept_to_study": "Applications of spatial compounding in ultrasound.",
+    "explicacion_openai": "Spatial compounding combines echoes obtained from different angles to reduce artifacts and improve edge definition, enhancing the overall quality of the image."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which mode provides real-time imaging with enhanced contrast and detail?",
+    "image": "",
+    "opciones": [
+      "B-mode",
+      "M-mode",
+      "Harmonic imaging",
+      "Extended field of view"
+    ],
+    "respuesta_correcta": [
+      "B-mode"
+    ],
+    "concept_to_study": "Applications of B-mode imaging.",
+    "explicacion_openai": "B-mode (brightness mode) provides two-dimensional, real-time grayscale imaging, allowing for enhanced contrast and detailed visualization of anatomic structures."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In M-mode imaging, what do the X-axis and Y-axis represent?",
+    "image": "",
+    "opciones": [
+      "X-axis: time, Y-axis: depth",
+      "X-axis: depth, Y-axis: amplitude",
+      "X-axis: distance, Y-axis: motion",
+      "X-axis: amplitude, Y-axis: time"
+    ],
+    "respuesta_correcta": [
+      "X-axis: time, Y-axis: depth"
+    ],
+    "concept_to_study": "Axes representation in M-mode imaging.",
+    "explicacion_openai": "M-mode displays movement over time, with the X-axis representing time and the Y-axis representing depth. This allows dynamic structures such as cardiac motion to be visualized as a one-dimensional trace."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In B-mode imaging, what do the X-axis and Y-axis represent?",
+    "image": "",
+    "opciones": [
+      "X-axis: time, Y-axis: motion",
+      "X-axis: depth, Y-axis: amplitude",
+      "X-axis: distance, Y-axis: depth",
+      "X-axis: amplitude, Y-axis: frequency"
+    ],
+    "respuesta_correcta": [
+      "X-axis: distance, Y-axis: depth"
+    ],
+    "concept_to_study": "Axes representation in B-mode imaging.",
+    "explicacion_openai": "In B-mode (brightness mode), the X-axis represents the lateral position (distance across the field of view), while the Y-axis represents the depth of the structures being imaged, providing a two-dimensional grayscale image."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In spectral Doppler imaging, what do the X-axis and Y-axis typically represent?",
+    "image": "",
+    "opciones": [
+      "X-axis: depth, Y-axis: amplitude",
+      "X-axis: time, Y-axis: velocity",
+      "X-axis: frequency, Y-axis: depth",
+      "X-axis: amplitude, Y-axis: motion"
+    ],
+    "respuesta_correcta": [
+      "X-axis: time, Y-axis: velocity"
+    ],
+    "concept_to_study": "Axes representation in spectral Doppler imaging.",
+    "explicacion_openai": "Spectral Doppler imaging plots blood flow characteristics, with the X-axis representing time and the Y-axis representing velocity. This provides detailed information about the speed and direction of blood flow over time."
+  },
+  {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": "102",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In harmonic imaging, what do the X-axis and Y-axis represent in the processed data?",
+    "image": "",
+    "opciones": [
+      "X-axis: fundamental frequency, Y-axis: harmonic frequency",
+      "X-axis: distance, Y-axis: amplitude",
+      "X-axis: tissue depth, Y-axis: enhanced signal intensity",
+      "X-axis: time, Y-axis: depth"
+    ],
+    "respuesta_correcta": [
+      "X-axis: tissue depth, Y-axis: enhanced signal intensity"
+    ],
+    "concept_to_study": "Axes representation in harmonic imaging.",
+    "explicacion_openai": "In harmonic imaging, processed data typically represents the X-axis as tissue depth and the Y-axis as enhanced signal intensity, emphasizing improved resolution and image quality by utilizing harmonic frequencies."
   }
 ]
