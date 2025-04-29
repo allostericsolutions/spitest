@@ -24648,23 +24648,6 @@
     ],
     "concept_to_study": "Axes representation in spectral Doppler imaging.",
     "explicacion_openai": "Spectral Doppler imaging plots blood flow characteristics, with the X-axis representing time and the Y-axis representing velocity. This provides detailed information about the speed and direction of blood flow over time."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "102",
-    "tipo_pregunta": "multiple_choice",
-    "enunciado": "In harmonic imaging, what do the X-axis and Y-axis represent in the processed data?",
-    "image": "",
-    "opciones": [
-      "X-axis: fundamental frequency, Y-axis: harmonic frequency",
-      "X-axis: distance, Y-axis: amplitude",
-      "X-axis: tissue depth, Y-axis: enhanced signal intensity",
-      "X-axis: time, Y-axis: depth"
-    ],
-    "respuesta_correcta": [
-      "X-axis: tissue depth, Y-axis: enhanced signal intensity"
-    ],
-    "concept_to_study": "Axes representation in harmonic imaging.",
-    "explicacion_openai": "In harmonic imaging, processed data typically represents the X-axis as tissue depth and the Y-axis as enhanced signal intensity, emphasizing improved resolution and image quality by utilizing harmonic frequencies."
-  }
+ }
+]
 ]
