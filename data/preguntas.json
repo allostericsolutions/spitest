@@ -23910,5 +23910,419 @@
   ],
   "concept_to_study": "Attenuation in ultrasound signals",
   "explicacion_openai": "Time gain compensation (TGC) is used in ultrasound imaging to counteract the decrease in echo intensity as the sound waves travel deeper into tissue. This decrease—known as attenuation—causes echoes from deeper structures to appear much weaker compared to those from superficial areas. TGC boosts the signals from these depths, ensuring a more uniform image brightness."
-}
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which ultrasound intensity measurement is employed by the AIUM in its guidelines on in-vivo biological effects in mammals?",
+    "image": "",
+    "opciones": [
+      "SPTA",
+      "SATA",
+      "SPTP",
+      "SATP"
+    ],
+    "respuesta_correcta": [
+      "SPTA"
+    ],
+    "concept_to_study": "Ultrasound intensity metric in AIUM guidelines",
+    "explicacion_openai": "Option A: SPTA (Spatial-Peak Temporal-Average) measures the highest spatial intensity averaged over the pulse cycle and is used by the AIUM. \nOption B: SATA (Spatial-Average Temporal-Average) provides an overall average intensity, which may not capture localized high peaks. \nOption C: SPTP (Spatial-Peak Temporal-Peak) reflects only the instantaneous maximum, ignoring time averaging. \nOption D: SATP (Spatial-Average Temporal-Peak) calculates a spatial average combined with a temporal peak, not fully representing exposure over time."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "5313",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In evaluating the in-vivo biological effects in mammals, which ultrasound intensity measure is cited by the AIUM?",
+    "image": "",
+    "opciones": [
+      "SPTA",
+      "SATA",
+      "SPTP",
+      "SATP"
+    ],
+    "respuesta_correcta": [
+      "SPTA"
+    ],
+    "concept_to_study": "AIUM ultrasound intensity metric",
+    "explicacion_openai": "Option A: SPTA (Spatial-Peak Temporal-Average) is preferred because it averages the peak intensity over the temporal window, reflecting actual exposure. \nOption B: SATA (Spatial-Average Temporal-Average) offers a broad average that might overlook critical peak intensities. \nOption C: SPTP (Spatial-Peak Temporal-Peak) only records the instantaneous maximum value without considering temporal behavior. \nOption D: SATP (Spatial-Average Temporal-Peak) combines spatial averaging with a single-time peak, which does not fully account for exposure duration."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which intensity metric is recommended by the AIUM for assessing the in-vivo bioeffects of ultrasound in mammals?",
+    "image": "",
+    "opciones": [
+      "SPTA",
+      "SATA",
+      "SPTP",
+      "SATP"
+    ],
+    "respuesta_correcta": [
+      "SPTA"
+    ],
+    "concept_to_study": "In-vivo ultrasound intensity assessment",
+    "explicacion_openai": "Option A: SPTA (Spatial-Peak Temporal-Average) is the appropriate measure as it combines the highest spatial intensity with temporal averaging, giving a balanced view of exposure. \nOption B: SATA (Spatial-Average Temporal-Average) may underestimate localized high intensities due to overall averaging. \nOption C: SPTP (Spatial-Peak Temporal-Peak) captures only the momentary maximum, without reflecting continuous exposure. \nOption D: SATP (Spatial-Average Temporal-Peak) represents a compromise between spatial averaging and peak values but lacks the full exposure assessment offered by SPTA."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which practice best reflects generally accepted infection control precautions during ultrasound examinations?",
+    "image": "",
+    "opciones": [
+      "Using sterile probe covers, performing proper hand hygiene, and disinfecting equipment between patients",
+      "Only cleaning the probe with water between patients",
+      "Wearing gloves but not disinfecting equipment",
+      "Relying solely on disposable gel"
+    ],
+    "respuesta_correcta": [
+      "Using sterile probe covers, performing proper hand hygiene, and disinfecting equipment between patients"
+    ],
+    "concept_to_study": "Infection control precautions and disinfectant techniques",
+    "explicacion_openai": "This option encompasses all standard infection control measures used to prevent cross-contamination in ultrasound imaging."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following strategies is most effective for ensuring clear and empathetic communication with patients during an ultrasound exam?",
+    "image": "",
+    "opciones": [
+      "Providing a brief explanation without answering patient questions",
+      "Maintaining clear, empathetic communication and explaining the procedure in understandable terms",
+      "Using technical jargon to impress the patient",
+      "Avoiding communication to save time"
+    ],
+    "respuesta_correcta": [
+      "Maintaining clear, empathetic communication and explaining the procedure in understandable terms"
+    ],
+    "concept_to_study": "Patient communication and care",
+    "explicacion_openai": "Effective patient care involves clear and empathetic communication, which helps reduce anxiety and increases patient cooperation during the exam."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "According to ALARA principles, how should ultrasound output power be managed during an examination?",
+    "image": "",
+    "opciones": [
+      "Maintain the maximum output power at all times for maximum image quality",
+      "Reduce the output power to the minimum necessary while still obtaining adequate image quality",
+      "Use a preset power level regardless of the diagnostic requirement",
+      "Increase power output if deeper structures are not clearly visible"
+    ],
+    "respuesta_correcta": [
+      "Reduce the output power to the minimum necessary while still obtaining adequate image quality"
+    ],
+    "concept_to_study": "ALARA principle and output power modification",
+    "explicacion_openai": "ALARA stands for 'As Low As Reasonably Achievable', meaning that output power should be minimized to reduce potential bioeffects while still achieving the required diagnostic quality."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which index is primarily used to monitor the potential for thermal bioeffects during an ultrasound exam?",
+    "image": "",
+    "opciones": [
+      "Mechanical Index",
+      "Thermal Index",
+      "ALARA Index",
+      "Doppler Index"
+    ],
+    "respuesta_correcta": [
+      "Thermal Index"
+    ],
+    "concept_to_study": "Thermal Index monitoring for bioeffects",
+    "explicacion_openai": "The Thermal Index (TI) indicates the potential for heat deposition in tissues during an exam and is used to assess the risk of thermal bioeffects."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which ultrasound index is used to evaluate the risk of mechanical bioeffects, such as cavitation, during an exam?",
+    "image": "",
+    "opciones": [
+      "Thermal Index",
+      "Mechanical Index",
+      "Exposure Index",
+      "Spatial-Average Intensity"
+    ],
+    "respuesta_correcta": [
+      "Mechanical Index"
+    ],
+    "concept_to_study": "Mechanical Index in safety monitoring",
+    "explicacion_openai": "The Mechanical Index (MI) is used to estimate the likelihood of cavitation (mechanical bioeffects) during an ultrasound exam by quantifying peak rarefaction pressure."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following practices best ensures maintenance of a sterile technique during ultrasound procedures requiring sterile conditions?",
+    "image": "",
+    "opciones": [
+      "Using sterile probe covers, performing proper hand hygiene, and disinfecting all equipment between patients",
+      "Relying solely on disposable gel without further precautions",
+      "Using non-sterile covers if the patient is at low risk",
+      "Skipping the use of sterile gloves to speed up the procedure"
+    ],
+    "respuesta_correcta": [
+      "Using sterile probe covers, performing proper hand hygiene, and disinfecting all equipment between patients"
+    ],
+    "concept_to_study": "Sterile technique in ultrasound procedures",
+    "explicacion_openai": "Maintaining a sterile technique is essential for preventing cross-contamination and infection. Guidelines from organizations like the AIUM and CDC emphasize the use of sterile probe covers, appropriate hand hygiene, and thorough disinfection of ultrasound equipment between patients."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How does reviewing previous imaging studies alongside the clinical history benefit the current ultrasound examination?",
+    "image": "",
+    "opciones": [
+      "It provides context that can help correlate current findings with past diagnostic information",
+      "It unnecessarily complicates the exam without adding diagnostic value",
+      "It delays the exam and increases costs without benefit",
+      "It replaces the need for acquiring current images"
+    ],
+    "respuesta_correcta": [
+      "It provides context that can help correlate current findings with past diagnostic information"
+    ],
+    "concept_to_study": "Integration of imaging findings and clinical history",
+    "explicacion_openai": "Integrating previous imaging studies with the patient’s clinical history is a recognized practice that enhances diagnostic accuracy. This approach allows the practitioner to compare current findings with past data, identify changes over time, and establish trends, as recommended by various radiology and clinical guidelines."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which metrics are traditionally regarded as the gold standard for evaluating the diagnostic accuracy of an imaging modality?",
+    "image": "",
+    "opciones": [
+      "Sensitivity and specificity",
+      "Contrast resolution and penetration depth",
+      "Temporal resolution and spatial resolution",
+      "Signal-to-noise ratio and dynamic range"
+    ],
+    "respuesta_correcta": [
+      "Sensitivity and specificity"
+    ],
+    "concept_to_study": "Gold standards in imaging accuracy",
+    "explicacion_openai": "Sensitivity and specificity are widely recognized as the gold standard metrics for assessing diagnostic accuracy. These parameters provide a clear measure of an imaging modality’s ability to correctly identify both the presence and absence of disease, as described in numerous academic and clinical publications."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter is most critical when performing integrity tests on ultrasound transducer elements?",
+    "image": "",
+    "opciones": [
+      "Electrical impedance measurements across each element",
+      "Color gain settings in Doppler mode",
+      "Brightness uniformity in B-mode imaging",
+      "Frame rate consistency during scanning"
+    ],
+    "respuesta_correcta": [
+      "Electrical impedance measurements across each element"
+    ],
+    "concept_to_study": "Transducer element integrity tests",
+    "explicacion_openai": "Electrical impedance measurements are essential in transducer element integrity tests, as they help identify malfunctioning or degraded elements. Consistency in impedance values across all elements is a key indicator of proper transducer performance, as outlined in technical guidelines and quality assurance protocols."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which type of transducer damage is most likely to result in significant image degradation?",
+    "image": "",
+    "opciones": [
+      "Cracks or damage to the piezoelectric crystal array",
+      "Minor scratches on the outer casing",
+      "Cosmetic blemishes on the transducer housing",
+      "A slightly loose connection cabling outside the probe head"
+    ],
+    "respuesta_correcta": [
+      "Cracks or damage to the piezoelectric crystal array"
+    ],
+    "concept_to_study": "Damage contributing to image degradation",
+    "explicacion_openai": "Damage to the piezoelectric crystal array significantly compromises the transducer's ability to generate and receive ultrasound signals, leading to noticeable degradation in image quality. This is well-documented in quality assurance literature and manufacturer guidelines."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "During an ultrasound exam, if the system displays a Mechanical Index (MI) above recommended levels, which modification should be prioritized?",
+    "image": "",
+    "opciones": [
+      "Proceed without changes if the image quality is excellent",
+      "Adjust scanning parameters or reduce output power to lower the MI",
+      "Switch to a different imaging mode irrespective of diagnostic needs",
+      "Extend the examination time to average out the exposure"
+    ],
+    "respuesta_correcta": [
+      "Adjust scanning parameters or reduce output power to lower the MI"
+    ],
+    "concept_to_study": "Modifying the exam based on the Mechanical Index",
+    "explicacion_openai": "When the MI exceeds safe thresholds, the recommended action is to adjust the scanning settings—typically by reducing the transmitted acoustic power or modifying other parameters—to minimize the risk of cavitation while preserving diagnostic quality."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "If the Thermal Index (TI) shown on an ultrasound system begins to approach critical limits, what is the most appropriate strategy to reduce potential thermal effects?",
+    "image": "",
+    "opciones": [
+      "Increasing the frame rate to finish the exam faster",
+      "Lowering the output power and reducing exam duration",
+      "Switching to higher resolution modes for better visualization",
+      "Making no adjustments since TI values are only advisory"
+    ],
+    "respuesta_correcta": [
+      "Lowering the output power and reducing exam duration"
+    ],
+    "concept_to_study": "Modifying the exam based on the Thermal Index",
+    "explicacion_openai": "A rising TI suggests increased heat deposition. The safest approach is to lower the output power and abbreviate the scanning time, thereby reducing thermal exposure in accordance with ALARA and current safety guidelines."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "When evaluating complex cases, how does integrating findings from other imaging modalities (e.g., CT, MRI, or x-ray) benefit the ultrasound assessment?",
+    "image": "",
+    "opciones": [
+      "It provides a comprehensive context that improves diagnostic accuracy",
+      "It serves as a backup in case the ultrasound image is technically inadequate",
+      "It complicates the process and may lead to overdiagnosis",
+      "It is only necessary when the primary exam is inconclusive"
+    ],
+    "respuesta_correcta": [
+      "It provides a comprehensive context that improves diagnostic accuracy"
+    ],
+    "concept_to_study": "Integration of additional imaging findings",
+    "explicacion_openai": "Correlating ultrasound results with CT, MRI, or x-ray images gives a broader perspective on the pathology, helps identify subtle findings, and enhances overall diagnostic accuracy—a practice respaldado por pautas clínicas y estudios de consenso."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which parameter is most critical for confirming image accuracy during ultrasound quality assurance testing?",
+    "image": "",
+    "opciones": [
+      "Assessment of contrast resolution using histogram analysis",
+      "Evaluation of geometric linearity with tissue-mimicking phantoms",
+      "Measurement of temporal resolution during dynamic studies",
+      "Analysis of the signal-to-noise ratio in color Doppler imaging"
+    ],
+    "respuesta_correcta": [
+      "Evaluation of geometric linearity with tissue-mimicking phantoms"
+    ],
+    "concept_to_study": "Parameters for measuring image accuracy",
+    "explicacion_openai": "Geometric linearity is directly linked to ensuring that spatial measurements in the image are accurate. Quality assurance procedures frequently involve phantom studies to evaluate this parameter, ensuring the system faithfully reproduces anatomical dimensions."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "According to current clinical guidelines, which of the following is an appropriate application of ultrasound contrast agents?",
+    "image": "",
+    "opciones": [
+      "Enhancing visualization of microvascular perfusion in liver lesions",
+      "Quantitatively assessing tissue elasticity for cancer diagnosis",
+      "Improving the detection of osseous structures in musculoskeletal imaging",
+      "Replacing conventional Doppler studies in large vessel evaluations"
+    ],
+    "respuesta_correcta": [
+      "Enhancing visualization of microvascular perfusion in liver lesions"
+    ],
+    "concept_to_study": "Uses of ultrasound contrast agents",
+    "explicacion_openai": "Ultrasound contrast agents are primarily used to enhance the depiction of microvascular flow, particularly in the liver, to better characterize lesions. This application is well supported by clinical research and endorsed in guidelines by professional organizations."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the fundamental principle underlying ultrasound elastography?",
+    "image": "",
+    "opciones": [
+      "It measures ultrasound beam attenuation in tissues.",
+      "It quantifies tissue deformation in response to an applied force.",
+      "It assesses tissue vascularity based on Doppler shifts.",
+      "It calculates acoustic reflectivity from tissue interfaces."
+    ],
+    "respuesta_correcta": [
+      "It quantifies tissue deformation in response to an applied force."
+    ],
+    "concept_to_study": "Basic principles of elastography",
+    "explicacion_openai": "Ultrasound elastography is based on measuring the degree of tissue deformation (or strain) that occurs when a force, either externally applied or internally generated, is exerted on the tissue. This change in shape helps determine tissue stiffness."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which of the following best distinguishes strain elastography from shear wave elastography?",
+    "image": "",
+    "opciones": [
+      "Strain elastography relies on manual compression, whereas shear wave elastography uses acoustic radiation force to generate shear waves.",
+      "Strain elastography measures tissue velocity, while shear wave elastography quantifies tissue deformation.",
+      "Strain elastography requires intravascular contrast, unlike shear wave elastography.",
+      "Both techniques rely exclusively on externally applied pressure."
+    ],
+    "respuesta_correcta": [
+      "Strain elastography relies on manual compression, whereas shear wave elastography uses acoustic radiation force to generate shear waves."
+    ],
+    "concept_to_study": "Types of elastography",
+    "explicacion_openai": "Strain elastography typically uses manual or physiological compression to induce tissue deformation, while shear wave elastography employs an acoustic push pulse to generate shear waves, measuring their velocity to assess tissue stiffness."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In shear wave elastography, tissue stiffness is most accurately assessed by measuring which parameter?",
+    "image": "",
+    "opciones": [
+      "Shear wave velocity",
+      "Tissue strain percentage",
+      "Doppler frequency shift",
+      "Harmonic signal intensity"
+    ],
+    "respuesta_correcta": [
+      "Shear wave velocity"
+    ],
+    "concept_to_study": "Shear wave elastography parameters",
+    "explicacion_openai": "In shear wave elastography, a faster shear wave velocity indicates a stiffer tissue. This direct correlation is key to quantifying tissue elasticity."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Which clinical application is most commonly associated with elastography in ultrasound imaging?",
+    "image": "",
+    "opciones": [
+      "Evaluation of thyroid nodules",
+      "Assessment of hepatic fibrosis",
+      "Characterization of breast lesions",
+      "Detection of musculoskeletal injuries"
+    ],
+    "respuesta_correcta": [
+      "Assessment of hepatic fibrosis"
+    ],
+    "concept_to_study": "Clinical applications of elastography",
+    "explicacion_openai": "Elastography is frequently used in liver imaging to evaluate tissue stiffness, which aids in the noninvasive assessment and staging of hepatic fibrosis in patients with liver disease."
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": "513",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "In an elastographic color map, what does a region depicted in red most commonly indicate?",
+    "image": "",
+    "opciones": [
+      "Increased tissue stiffness (less deformable tissue)",
+      "Reduced tissue stiffness (more deformable tissue)",
+      "An imaging artifact not related to tissue properties",
+      "Regions of increased vascular perfusion"
+    ],
+    "respuesta_correcta": [
+      "Increased tissue stiffness (less deformable tissue)"
+    ],
+    "concept_to_study": "Interpretation of elastographic maps",
+    "explicacion_openai": "In many elastographic systems, color coding is used where warmer colors such as red typically indicate areas of increased stiffness. These regions deform less under compression compared to surrounding softer tissues."
+  }
 ]
