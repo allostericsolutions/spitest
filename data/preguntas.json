@@ -23892,5 +23892,23 @@
     ],
     "concept_to_study": "Refraction and angle change",
     "explicacion_openai": "Refraction is the phenomenon where an ultrasound beam, striking an interface at an oblique angle, changes direction as it enters a new medium due to differences in propagation speeds. The new angle of transmission is determined by Snell's Law, relating the speed mismatch to the change in beam direction."
-  }
+  },
+  {
+  "clasificacion": "Physical Principles",
+  "grupo": "301",
+  "tipo_pregunta": "multiple_choice",
+  "enunciado": "In ultrasound imaging, which factor is primarily addressed by adjusting the time gain compensation?",
+  "image": "",
+  "opciones": [
+    "Q factor",
+    "Refraction",
+    "Reflection",
+    "Attenuation"
+  ],
+  "respuesta_correcta": [
+    "Attenuation"
+  ],
+  "concept_to_study": "Attenuation in ultrasound signals",
+  "explicacion_openai": "Time gain compensation (TGC) is used in ultrasound imaging to counteract the decrease in echo intensity as the sound waves travel deeper into tissue. This decrease—known as attenuation—causes echoes from deeper structures to appear much weaker compared to those from superficial areas. TGC boosts the signals from these depths, ensuring a more uniform image brightness."
+}
 ]
