@@ -24414,7 +24414,6 @@
     "concept_to_study": "Factors influencing beam divergence in the Fraunhofer zone.",
     "explicacion_openai": "Beam divergence in the Fraunhofer zone is primarily influenced by transducer frequency and aperture size. A higher transducer frequency and a larger aperture size result in less divergence, producing a more focused beam in the far field. Lower frequencies and smaller apertures lead to greater divergence."
   },
-  [
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "102",
@@ -24650,4 +24649,4 @@
     "explicacion_openai": "Spectral Doppler imaging plots blood flow characteristics, with the X-axis representing time and the Y-axis representing velocity. This provides detailed information about the speed and direction of blood flow over time."
  }
 ]
-]
+
