@@ -25990,5 +25990,81 @@
         "concept_to_study": "Interpretation of elastographic maps",
         "explicacion_openai": "In many elastographic systems, color coding is used where warmer colors such as red typically indicate areas of increased stiffness. These regions deform less under compression compared to surrounding softer tissues.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": "1",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What is the fundamental trade-off in imaging resolution?",
+    "image": "",
+    "opciones": [
+      "Increasing axial resolution always improves penetration",
+      "Higher frequency enhances axial resolution but reduces penetration",
+      "Lower frequency increases resolution and penetration simultaneously",
+      "Axial resolution does not depend on frequency"
+    ],
+    "respuesta_correcta": [
+      "Higher frequency enhances axial resolution but reduces penetration"
+    ],
+    "concept_to_study": "Trade-offs in imaging frequency selection",
+    "explicacion_openai": "In medical imaging, axial resolution refers to the ability to distinguish between two structures that are close together along the beam’s axis. Increasing frequency improves axial resolution because higher-frequency sound waves generate shorter pulses, reducing pulse duration and thus allowing better differentiation of small details. However, a significant trade-off exists: higher frequency waves are absorbed more quickly by tissue, leading to reduced penetration depth. This means that deeper structures become harder to visualize as frequency increases. Therefore, the selection of frequency must always consider both resolution and penetration, as balancing these two factors is critical in achieving optimal image quality.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "2",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "Why don’t you always use the highest available frequency for imaging?",
+    "image": "",
+    "opciones": [
+      "It decreases lateral resolution",
+      "It reduces imaging depth or penetration",
+      "It makes images blurry",
+      "It has no impact on imaging quality"
+    ],
+    "respuesta_correcta": [
+      "It reduces imaging depth or penetration"
+    ],
+    "concept_to_study": "Limitations of high-frequency imaging",
+    "explicacion_openai": "While higher-frequency ultrasound improves axial resolution by allowing better differentiation of small structures, it comes at the cost of penetration depth. This occurs because high-frequency waves are more readily absorbed by tissues, leading to greater attenuation. As a result, structures located deeper within the body may not be visible when using a very high-frequency transducer. The decision to use a certain frequency depends on the clinical application. For example, shallow structures such as superficial blood vessels or muscles can be imaged with high-frequency probes, whereas deeper organs like the liver or kidneys require lower frequencies to achieve adequate penetration.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "3",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "What do you gain when choosing a lower frequency in medical imaging?",
+    "image": "",
+    "opciones": [
+      "Improved axial resolution",
+      "Reduced imaging depth",
+      "Increased penetration",
+      "Enhanced lateral resolution"
+    ],
+    "respuesta_correcta": [
+      "Increased penetration"
+    ],
+    "concept_to_study": "Benefits of low-frequency imaging",
+    "explicacion_openai": "Lower-frequency ultrasound waves penetrate deeper into tissue because they are less affected by attenuation. This is crucial for imaging deeper structures such as abdominal organs, the heart in transthoracic echocardiography, and fetal assessments. However, the trade-off is that lower frequencies result in reduced axial resolution because the wavelength is longer, causing less differentiation between closely spaced objects. The choice of frequency depends on the anatomical region being studied: while higher frequencies are preferred for superficial imaging, lower frequencies are necessary for deeper structures where resolution must be balanced with depth.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": "4",
+    "tipo_pregunta": "multiple_choice",
+    "enunciado": "How should you choose the appropriate imaging frequency?",
+    "image": "",
+    "opciones": [
+      "Always use the lowest frequency available",
+      "Use the highest possible frequency with adequate penetration",
+      "Select a frequency randomly",
+      "Highest frequency always provides the best images, regardless of depth"
+    ],
+    "respuesta_correcta": [
+      "Use the highest possible frequency with adequate penetration"
+    ],
+    "concept_to_study": "Optimizing frequency selection in imaging",
+    "explicacion_openai": "The optimal frequency selection depends on balancing axial resolution and tissue penetration. The best approach is to use the highest frequency that still provides adequate penetration for the target structure. Superficial structures, such as thyroid and vascular imaging, benefit from high-frequency transducers (e.g., 7-15 MHz), while deeper structures, like the liver or fetus, require lower frequencies (e.g., 2-5 MHz) to ensure visibility. Additionally, factors like patient body habitus and pathology influence the choice, as excessive attenuation from high frequencies in larger patients may necessitate lower-frequency imaging for diagnostic clarity.",
+    "image_explanation": ""
+  }
 ]
