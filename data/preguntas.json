@@ -15087,25 +15087,6 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 134,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What factor most influences the amplitude of the Doppler shift detected by transducer B?",
-        "image": "doppler.png",
-        "opciones": [
-            "Transducer frequency",
-            "Velocity of flow",
-            "Angle between flow direction and transducer",
-            "Length of the vessel"
-        ],
-        "respuesta_correcta": [
-            "Angle between flow direction and transducer"
-        ],
-        "concept_to_study": "Factors Affecting Doppler Shift",
-        "explicacion_openai": "The angle greatly affects the observed Doppler shift amplitude.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
         "grupo": 135,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor is least likely to affect the Doppler signal detected by transducer A?",
@@ -18737,16 +18718,16 @@
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 38,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What role does frequency play in determining resolution?",
+        "enunciado": "What role does frequency play in determining spatial resolution in medical imaging??",
         "image": "",
         "opciones": [
-            "Higher frequency improves resolution",
-            "Higher frequency worsens resolution",
-            "Frequency has no impact on resolution",
-            "Resolution is independent of frequency"
+            "Higher frequency improves spatial resolution",
+            "Higher frequency worsens spatial resolution",
+            "Frequency has no impact on spatial resolution",
+            "Spatial resolution is independent of frequency"
         ],
         "respuesta_correcta": [
-            "Higher frequency improves resolution"
+            "Higher frequency improves spatial resolution"
         ],
         "concept_to_study": "",
         "explicacion_openai": "",
@@ -22011,7 +21992,8 @@
         "opciones": [
             "Fresnel zone",
             "Fraunhofer zone",
-            "Real time focusing"
+            "Real time focusing",
+            "Duplex ultrasound focus"
         ],
         "respuesta_correcta": [
             "Fraunhofer zone"
@@ -24460,7 +24442,7 @@
         "image": "",
         "opciones": [
             "10 mW/cm²",
-            "100 W/cm²",
+            "100 W/km²",
             "1 W/cm²",
             "100 mW/cm²"
         ],
