@@ -959,7 +959,7 @@
             "Electromechanical",
             "Electromagnetic",
             "Mechanical",
-            "None of the above"
+            "ATR 42 bands"
         ],
         "respuesta_correcta": [
             "Mechanical"
@@ -2799,7 +2799,7 @@
         "enunciado": "If only the density of a medium increases, then the:",
         "image": "",
         "opciones": [
-            "None of the above",
+            "Propagation speed equals Nyquist limit",
             "Propagation speed remains the same",
             "Propagation speed decreases",
             "Propagation speed increases"
@@ -2807,8 +2807,8 @@
         "respuesta_correcta": [
             "Propagation speed decreases"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Propagation speed",
+        "explicacion_openai": "The speed of sound in a medium is entirely dependent on the properties of that medium and does not change unless the medium itself changes. It is determined by two key factors: stiffness (bulk modulus) and density. Stiffness refers to how resistant a material is to compression, while density describes how closely packed the particles are. Generally, an increase in stiffness leads to a higher propagation speed, as the medium resists deformation more effectively. Conversely, an increase in density tends to lower the speed of sound because the medium has more mass per unit volume, making it harder for sound waves to travel. However, in many cases, denser materials are also stiffer, which can result in an overall increase in propagation speed. The speed of sound is not affected by frequency or wavelength—it is solely a characteristic of the medium itself. Additionally, each medium has its own impedance value, which measures resistance to wave propagation and is determined by both density and propagation speed.",
         "image_explanation": ""
     },
     {
