@@ -6981,7 +6981,7 @@
         "opciones": [
             "By the width of the sound beam",
             "By the spatial pulse length (SPL)",
-            "By the transducer's damping material",
+            "By the transducer's Power output",
             "By the number of cycles in the lateral direction"
         ],
         "respuesta_correcta": [
