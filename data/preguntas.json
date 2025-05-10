@@ -26238,5 +26238,157 @@
         "concept_to_study": "Negative relationships indicate how intensity diminishes and the corresponding decibel value decreases (attenuation) exponentially.",
         "explicacion_openai": "For intensities below 1, the decibel values become negative following a logarithmic scale. According to the table, an intensity of 1 corresponds to 0 dB, intensity of 1/2 corresponds to -3 dB, 1/4 to -6 dB, 1/10 to -10 dB, 1/100 to -20 dB, and 1/1000 to -30 dB. Thus, the correct negative sequence is: 1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "7",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type has a duty factor of approximately 100%?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Duty Factor in Continuous Wave (CW) vs. Pulsed Wave (PW) ultrasound.",
+        "explicacion_openai": "Duty Factor represents the percentage of time the transducer is actively transmitting ultrasound waves. Continuous Wave (CW) Doppler, as seen in Transducer A, has a duty factor of nearly 100% because it continuously emits sound waves without pauses. Pulsed Wave (PW) Doppler, as seen in Transducer B, has a much lower duty factor since it alternates between transmitting and receiving pulses.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, indicating a duty factor close to 100%."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "8",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type has a lower duty factor due to intermittent pulse transmission?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Duty Factor in Pulsed Wave (PW) ultrasound.",
+        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, has a lower duty factor because it transmits ultrasound pulses intermittently, allowing time for echoes to return before sending the next pulse. This is essential for depth resolution and prevents continuous wave interference. In contrast, Continuous Wave (CW) Doppler has a duty factor close to 100% since it continuously emits sound waves.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, indicating a lower duty factor."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": "9",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How does duty factor affect the ability to measure depth in ultrasound imaging?",
+        "image": "CW.png",
+        "opciones": [
+            "Higher duty factor improves depth resolution",
+            "Lower duty factor improves depth resolution",
+            "Duty factor does not affect depth resolution",
+            "Both high and low duty factors provide equal depth resolution"
+        ],
+        "respuesta_correcta": [
+            "Lower duty factor improves depth resolution"
+        ],
+        "concept_to_study": "Duty Factor and Depth Resolution in Ultrasound Imaging.",
+        "explicacion_openai": "A lower duty factor, as seen in Pulsed Wave (PW) Doppler (Transducer B), improves depth resolution because the system transmits pulses and then waits for echoes to return before sending the next pulse. This allows precise localization of structures at different depths. Continuous Wave (CW) Doppler (Transducer A), with a high duty factor, does not provide depth resolution since it continuously transmits and receives signals.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, demonstrating how lower duty factor improves depth resolution."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "2",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
+        "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
+        "image_explanation": "The image 'CW.png' shows Transducer A emitting continuous waves, while Transducer B emits pulses."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "3",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type is best suited for measuring high-velocity blood flow without aliasing?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Aliasing in Doppler ultrasound.",
+        "explicacion_openai": "Aliasing occurs when the detected Doppler frequency exceeds the Nyquist limit in Pulsed Wave (PW) Doppler. Continuous Wave (CW) Doppler, as seen in Transducer A, does not suffer from aliasing because it continuously samples the signal, making it ideal for measuring high-velocity blood flow, such as in cardiac and vascular applications.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) with continuous waves, allowing high-velocity detection without aliasing."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "4",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type provides depth resolution in Doppler imaging?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Depth resolution in Doppler ultrasound.",
+        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, sends discrete pulses and waits for echoes, allowing the system to determine the depth of the reflecting structures. This enables precise localization of blood flow within a specific vessel. Continuous Wave (CW) Doppler, on the other hand, does not provide depth resolution because it continuously transmits and receives signals.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, allowing depth resolution."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "5",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type is more commonly used in echocardiography for assessing high-speed blood flow?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Clinical applications of CW and PW Doppler.",
+        "explicacion_openai": "Continuous Wave (CW) Doppler, as seen in Transducer A, is commonly used in echocardiography to assess high-speed blood flow, such as in stenotic valves or regurgitant jets. Since CW Doppler does not suffer from aliasing, it is ideal for measuring very high velocities accurately. Pulsed Wave (PW) Doppler, while useful for depth resolution, is limited by aliasing at high speeds.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, which is ideal for high-speed blood flow assessment."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": "6",
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type is limited by the Nyquist limit in Doppler imaging?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
+        "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
     }
 ]
