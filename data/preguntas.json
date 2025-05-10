@@ -21503,8 +21503,8 @@
         "respuesta_correcta": [
             "Pulse repetition frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Pulse repetition frequency adjustment",
+        "explicacion_openai": "Among the listed parameters, only the Pulse Repetition Frequency (PRF) is adjustable by the operator. The wavelength is determined by the ultrasound frequency and the speed of sound in tissues, both of which are fixed during routine operations, while tissue impedance is an intrinsic property of the tissue. Adjusting PRF allows the operator to control factors like Doppler settings, temporal resolution, and penetration depth.",
         "image_explanation": ""
     },
     {
