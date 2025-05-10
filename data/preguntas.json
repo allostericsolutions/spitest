@@ -26278,24 +26278,24 @@
         "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, indicating a lower duty factor."
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": "9",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How does duty factor affect the ability to measure depth in ultrasound imaging?",
-        "image": "CW.png",
-        "opciones": [
-            "Higher duty factor improves depth resolution",
-            "Lower duty factor improves depth resolution",
-            "Duty factor does not affect depth resolution",
-            "Both high and low duty factors provide equal depth resolution"
-        ],
-        "respuesta_correcta": [
-            "Lower duty factor improves depth resolution"
-        ],
-        "concept_to_study": "Duty Factor and Depth Resolution in Ultrasound Imaging.",
-        "explicacion_openai": "A lower duty factor, as seen in Pulsed Wave (PW) Doppler (Transducer B), improves depth resolution because the system transmits pulses and then waits for echoes to return before sending the next pulse. This allows precise localization of structures at different depths. Continuous Wave (CW) Doppler (Transducer A), with a high duty factor, does not provide depth resolution since it continuously transmits and receives signals.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, demonstrating how lower duty factor improves depth resolution."
-    },
+    "clasificacion": "Physical Principles",
+    "grupo": "10",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the wave patterns in the image, which wave has the highest duty factor?",
+    "image": "CW.png",
+    "opciones": [
+        "Wave A",
+        "Wave B",
+        "Both waves have the same duty factor",
+        "Neither wave has a measurable duty factor"
+    ],
+    "respuesta_correcta": [
+        "Wave A"
+    ],
+    "concept_to_study": "Duty Factor in Continuous and Pulsed Ultrasound Waves.",
+    "explicacion_openai": "Duty Factor represents the percentage of time an ultrasound wave is actively transmitting. Observing the image, one of the waves is continuous, meaning it has a duty factor close to 100%. The other wave consists of pulses, meaning it has a lower duty factor because it alternates between transmitting and receiving.",
+    "image_explanation": "The image 'CW.png' shows two different wave patterns. One of them is continuous, meaning it has the highest duty factor."
+   },
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": "2",
