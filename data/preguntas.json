@@ -26376,7 +26376,7 @@
         "clasificacion": "Ultrasound Transducers",
         "grupo": "6",
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type is limited by the Nyquist limit in Doppler imaging?",
+        "enunciado": "Which transducer wave type in this image is limited by the Nyquist limit in Doppler imaging?",
         "image": "CW.png",
         "opciones": [
             "Transducer A (CW)",
