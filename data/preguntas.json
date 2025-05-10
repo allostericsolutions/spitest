@@ -26048,5 +26048,195 @@
     "concept_to_study": "Optimizing frequency selection in imaging",
     "explicacion_openai": "The optimal frequency selection depends on balancing axial resolution and tissue penetration. The best approach is to use the highest frequency that still provides adequate penetration for the target structure. Superficial structures, such as thyroid and vascular imaging, benefit from high-frequency transducers (e.g., 7-15 MHz), while deeper structures, like the liver or fetus, require lower frequencies (e.g., 2-5 MHz) to ensure visibility. Additionally, factors like patient body habitus and pathology influence the choice, as excessive attenuation from high frequencies in larger patients may necessitate lower-frequency imaging for diagnostic clarity.",
     "image_explanation": ""
-  }
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 400,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to intensity when it is multiplied by 2?",
+        "image": "",
+        "opciones": [
+            "Increase by 6 dB",
+            "Decrease by 3 dB",
+            "Increase by 3 dB",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Increase by 3 dB"
+        ],
+        "concept_to_study": "Decibels describe relative intensity changes.",
+        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is doubled, the increase is 3 dB. Example: If the original intensity is 10 units, doubling it makes it 20 units, which corresponds to a 3 dB increase. The formula used is: dB change = 10 × log(final intensity / initial intensity). For doubling: 10 × log(2) ≈ 3 dB.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 401,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does a reduction of 6 dB mean for intensity?",
+        "image": "",
+        "opciones": [
+            "Reduced to 1/2",
+            "Reduced to 1/4",
+            "Reduced to 1/8",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Reduced to 1/4"
+        ],
+        "concept_to_study": "Decibels measure intensity reduction.",
+        "explicacion_openai": "A reduction of 6 dB means the intensity is reduced to 1/4 of its original value. Since decibels follow an exponential scale, every 3 dB reduction halves the intensity. Example: If the initial intensity is 100 units, after a 3 dB reduction, it becomes 50 units. After another 3 dB reduction, it becomes 25 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 6 dB reduction: 100 × (1/2)^2 = 25 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 402,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when intensity is halved?",
+        "image": "",
+        "opciones": [
+            "Increase by 3 dB",
+            "Decrease by 3 dB",
+            "Decrease by 6 dB",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Decrease by 3 dB"
+        ],
+        "concept_to_study": "Decibels describe intensity attenuation.",
+        "explicacion_openai": "Halving the intensity results in a loss of 3 dB. Since decibels follow a logarithmic scale, every 3 dB reduction halves the intensity. Example: If the original intensity is 50 units, reducing it to 25 units corresponds to a decrease of 3 dB. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 50 × (1/2)^1 = 25 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 403,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the half-value layer represent?",
+        "image": "",
+        "opciones": [
+            "Intensity reduced to 1/2",
+            "Intensity increased by 3 dB",
+            "Intensity reduced to 1/4",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity reduced to 1/2"
+        ],
+        "concept_to_study": "Half-value layer describes sound attenuation.",
+        "explicacion_openai": "The half-value layer is the point where sound intensity is reduced to half of its original value, corresponding to a -3 dB change. Example: If sound starts at 80 units, after passing through the half-value layer, it becomes 40 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 80 × (1/2)^1 = 40 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 404,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when overall gain is adjusted from 25 dB to 28 dB?",
+        "image": "",
+        "opciones": [
+            "Intensity is doubled",
+            "Intensity is halved",
+            "Intensity is reduced to 1/4",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity is doubled"
+        ],
+        "concept_to_study": "Decibels describe gain adjustments.",
+        "explicacion_openai": "An increase of 3 dB means the intensity is doubled. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 30 units, increasing the gain by 3 dB makes it 60 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 3 dB increase: 30 × 2^1 = 60 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 405,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does a gain of 6 dB mean for intensity?",
+        "image": "",
+        "opciones": [
+            "Intensity is doubled",
+            "Intensity is quadrupled",
+            "Intensity is halved",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity is quadrupled"
+        ],
+        "concept_to_study": "Decibels describe gain.",
+        "explicacion_openai": "A gain of 6 dB corresponds to intensity being increased to four times its original value. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 10 units, after a 6 dB gain, it becomes 40 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 6 dB increase: 10 × 2^2 = 40 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 406,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the intensity is reduced to 1/10 of its original value, what is the corresponding decibel change?",
+        "image": "",
+        "opciones": [
+            "-3 dB",
+            "-6 dB",
+            "-10 dB",
+            "-20 dB"
+        ],
+        "respuesta_correcta": [
+            "-10 dB"
+        ],
+        "concept_to_study": "Decibels describe intensity reduction logarithmically.",
+        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is reduced to 1/10 of its original value, the corresponding decibel change is -10 dB. Example: If the initial intensity is 100 units, reducing it to 10 units results in a -10 dB change.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 407,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the decibel level when intensity is increased from 1 to 1000?",
+        "image": "",
+        "opciones": [
+            "Increase by 10 dB",
+            "Increase by 20 dB",
+            "Increase by 30 dB",
+            "Increase by 40 dB"
+        ],
+        "respuesta_correcta": [
+            "Increase by 30 dB"
+        ],
+        "concept_to_study": "Decibels describe exponential intensity changes.",
+        "explicacion_openai": "Since decibels follow a logarithmic scale, increasing intensity from 1 to 1000 results in a 30 dB increase. Example: If intensity starts at 1 unit (0 dB) and increases to 1000 units, the decibel level rises to 30 dB.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 413,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which sequence correctly represents the positive intensity-decibel relationships as intensity increases?",
+        "image": "",
+        "opciones": [
+            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30",
+            "1/0, 2/0, 4/6, 10/10, 100/20, 1000/30",
+            "1/0, 2/3, 4/5, 10/10, 100/20, 1000/30",
+            "1/0, 3/3, 4/6, 10/10, 100/20, 1000/30"
+        ],
+        "respuesta_correcta": [
+            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30"
+        ],
+        "concept_to_study": "Positive relationships show how intensity increases and decibels increase exponentially (on a logarithmic scale).",
+        "explicacion_openai": "In the positive sequence, as intensity increases, the decibel level increases according to a logarithmic progression. From the reference table, an intensity of 1 corresponds to 0 dB, doubling to 2 gives 3 dB, doubling again to 4 gives 6 dB, and further increases follow the pattern (10 gives 10 dB, 100 gives 20 dB, and 1000 gives 30 dB). This matches the correct progression: 1/0, 2/3, 4/6, 10/10, 100/20, 1000/30.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 414,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
+        "image": "",
+        "opciones": [
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/-3, 1/4/-5, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-30, 1/1000/-20"
+        ],
+        "respuesta_correcta": [
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30"
+        ],
+        "concept_to_study": "Negative relationships indicate how intensity diminishes and the corresponding decibel value decreases (attenuation) exponentially.",
+        "explicacion_openai": "For intensities below 1, the decibel values become negative following a logarithmic scale. According to the table, an intensity of 1 corresponds to 0 dB, intensity of 1/2 corresponds to -3 dB, 1/4 to -6 dB, 1/10 to -10 dB, 1/100 to -20 dB, and 1/1000 to -30 dB. Thus, the correct negative sequence is: 1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30.",
+        "image_explanation": ""
+    }
 ]
