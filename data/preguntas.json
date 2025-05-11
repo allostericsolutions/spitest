@@ -19965,7 +19965,7 @@
             "To evaluate spatial resolution"
         ],
         "concept_to_study": "Spatial Resolution",
-        "explicacion_openai": "Resolution phantoms are designed with fine, precise structures – such as line pairs or point targets – to challenge an ultrasound system´s ability to differentiate closely spaced objects. They help evaluate both axial and lateral resolution. High spatial resolution is crucial for accurately depicting anatomical details, ensuring that the system produces clear images where subtle structures can be distinguished.",
+        "explicacion_openai": "A resolution phantom is designed to evaluate spatial resolution in ultrasound imaging, which is the ability of the system to differentiate between two closely spaced structures. In this context, spatial resolution includes two main components: axial resolution (also known as depth or longitudinal resolution) and lateral resolution (also referred to as transverse or side resolution). The phantom contains a dedicated section for assessing spatial resolution, which typically features test targets such as closely spaced line pairs or point reflectors arranged at known intervals. These precisely spaced patterns allow the system to determine the smallest separation at which two targets can be resolved separately along the beam direction (axial resolution) and perpendicular to it (lateral resolution), ensuring that the imaging system produces clear and detailed images.",
         "image_explanation": ""
     },
     {
