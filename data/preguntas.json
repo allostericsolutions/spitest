@@ -13844,10 +13844,10 @@
             "1%"
         ],
         "respuesta_correcta": [
-            "1"
+            "100%"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Duty Factor in CW",
+        "explicacion_openai": "In PW (Pulsed Wave) ultrasound, the transducer sends out brief pulses of ultrasound energy and then switches to a listening mode to receive echo signals. Because the system spends most of its cycle in the listening phase (rather than transmitting), the duty factor is very low—typically around 1%, although it can vary depending on the pulse settings. In contrast, in CW (Continuous Wave) Doppler, the transducer is transmitting and receiving continuously, resulting in a 100% duty factor. Note that the duty factor is expressed as a percentage, meaning it is unitless—it simply represents a ratio of the active transmission time to the total cycle time.",
         "image_explanation": ""
     },
     {
