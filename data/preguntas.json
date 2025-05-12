@@ -18254,8 +18254,8 @@
         "respuesta_correcta": [
             "Medium properties"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Speed of sound in a medium",
+        "explicacion_openai": "The speed of sound in a medium is determined by its density and stiffness. When the stiffness (or elasticity) of a medium increases, sound waves travel faster because the material can transmit vibrations more efficiently. Conversely, if the density increases without a corresponding increase in stiffness, the extra mass can slow propagation. For example, typical speeds are: Air ~343 m/s; Lungs (containing air) similar to air; Water ~1480 m/s; Soft tissue (e.g., liver) ~1540 m/s; Blood ~1570 m/s; and Bone over 4000 m/s. This order shows that a higher stiffness results in a faster speed of sound, while changes in density can moderate this effect.",
         "image_explanation": ""
     },
     {
