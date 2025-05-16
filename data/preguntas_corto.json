@@ -795,6 +795,25 @@
         "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
         "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
         "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
-    }
+    },
+    {
+  "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+  "grupo": 46,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Contingency Table:\n-------------------------------------\n|              | Test Positive | Test Negative | Total |\n| Diseased     | 3 (TP)        | 2 (FN)        | 5     |\n| Healthy      | 1 (FP)        | 9 (TN)        | 10    |\n| Total        | 4             | 11            | 15    |\n-------------------------------------\n\nWhich of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+  "image": "",
+  "opciones": [
+      "60%",
+      "75%",
+      "90%",
+      "82%"
+  ],
+  "respuesta_correcta": [
+      "90%"
+  ],
+  "concept_to_study": "",
+  "explicacion_openai": "",
+  "image_explanation": ""
+}
 ]
 
