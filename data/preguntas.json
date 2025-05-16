@@ -16419,7 +16419,7 @@
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 205,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Why is autocorrelation preferred over FFT in color Doppler imaging?",
+        "enunciado": "Why is autocorrelation preferred over Fast Fourier Transform (FFT) in color Doppler imaging?",
         "image": "",
         "opciones": [
             "It is faster and allows real-time imaging",
