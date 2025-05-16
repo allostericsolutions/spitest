@@ -26390,5 +26390,119 @@
         "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
         "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
         "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
-    }
+    },
+    {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which term best describes the systematic and scheduled evaluation of equipment performance in a clinical setting?",
+    "image": "",
+    "opciones": [
+      "Accreditation",
+      "Quality Assurance",
+      "Preventative Maintenance",
+      "Credentialing"
+    ],
+    "respuesta_correcta": [
+      "Quality Assurance"
+    ],
+    "concept_to_study": "Quality Assurance in Medical Equipment Performance",
+    "explicacion_openai": "Quality assurance involves systematic and scheduled evaluations to ensure that equipment consistently performs within accepted standards, thereby protecting patient safety and ensuring reliable outcomes.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following best defines preventative maintenance in a healthcare setting?",
+    "image": "",
+    "opciones": [
+      "Immediate repair after a failure",
+      "Scheduled inspections and adjustments to prevent failures",
+      "Evaluation of operator competency",
+      "Periodic regulatory compliance audits"
+    ],
+    "respuesta_correcta": [
+      "Scheduled inspections and adjustments to prevent failures"
+    ],
+    "concept_to_study": "Preventative Maintenance",
+    "explicacion_openai": "Preventative maintenance refers to scheduled inspections and adjustments made to equipment to prevent malfunctions and ensure optimal performance over time.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which ergonomic practice is recommended during scanning to reduce wrist strain?",
+    "image": "",
+    "opciones": [
+      "Using a radial grip",
+      "Using a palmar grip",
+      "Maximizing wrist extension to 40°",
+      "Applying a tight grip on the device"
+    ],
+    "respuesta_correcta": [
+      "Using a palmar grip"
+    ],
+    "concept_to_study": "Ergonomics in Scanning",
+    "explicacion_openai": "Using a palmar grip supports a neutral wrist position, helping to reduce strain and prevent repetitive stress injuries during scanning procedures.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "According to ergonomic guidelines, what is the maximum wrist extension angle recommended during scanning?",
+    "image": "",
+    "opciones": [
+      "10 degrees",
+      "20 degrees",
+      "30 degrees",
+      "40 degrees"
+    ],
+    "respuesta_correcta": [
+      "20 degrees"
+    ],
+    "concept_to_study": "Ergonomic Guidelines for Wrist Position",
+    "explicacion_openai": "To minimize muscle strain and prevent injury, maintaining wrist extension at no more than 20 degrees during scanning is recommended.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the recommended maximum shoulder abduction angle during scanning to prevent muscle strain?",
+    "image": "",
+    "opciones": [
+      "Greater than 45 degrees",
+      "Between 30 and 45 degrees",
+      "Less than 30 degrees",
+      "No specific limit"
+    ],
+    "respuesta_correcta": [
+      "Less than 30 degrees"
+    ],
+    "concept_to_study": "Ergonomic Principles for Upper Body Posture",
+    "explicacion_openai": "Maintaining shoulder abduction at less than 30 degrees helps prevent muscle strain and fatigue, which is important for safe and effective scanning practices.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 37,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which ergonomic adjustment is most effective for reducing the risk of injury during scanning exams?",
+    "image": "",
+    "opciones": [
+      "Twisting the torso to reach the patient",
+      "Adjusting the height of the exam table and chair",
+      "Positioning the monitor below eye level",
+      "Keeping a rigid, fixed posture throughout the exam"
+    ],
+    "respuesta_correcta": [
+      "Adjusting the height of the exam table and chair"
+    ],
+    "concept_to_study": "Ergonomic Posture and Workstation Setup",
+    "explicacion_openai": "Adjusting the height of the exam table and chair ensures a proper ergonomic posture, reducing muscle strain and the risk of injury during prolonged scanning procedures.",
+    "image_explanation": ""
+  }
 ]
