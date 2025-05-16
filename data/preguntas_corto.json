@@ -800,7 +800,7 @@
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": 46,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Using the contingency table provided above, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+    "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
     "image": "especificidad.png",
     "opciones": [
         "75%",
