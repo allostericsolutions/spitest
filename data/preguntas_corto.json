@@ -795,6 +795,24 @@
         "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
         "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
         "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
-   }
+   },
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 46,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Using the contingency table provided above, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+    "image": "especificidad.png",
+    "opciones": [
+        "75%",
+        "80%",
+        "85%",
+        "90%"
+    ],
+    "respuesta_correcta": [
+        "80%"
+    ],
+    "concept_to_study": "Specificity.",
+    "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
+    "image_explanation": ""
+}
 ]
-
