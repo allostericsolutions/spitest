@@ -18737,7 +18737,7 @@
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 39,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What parameter primarily affects lateral resolution?",
+        "enunciado": "What parameter primarily affects Azimuthal resolution?",
         "image": "",
         "opciones": [
             "Beam width",
