@@ -809,7 +809,7 @@
         "90%"
     ],
     "respuesta_correcta": [
-        "80%"
+        "85%"
     ],
     "concept_to_study": "Specificity.",
     "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
