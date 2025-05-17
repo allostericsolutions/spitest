@@ -26523,5 +26523,100 @@
     "concept_to_study": "Specificity.",
     "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
     "image_explanation": ""
-}
+  },
+  {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+        "image": "especificidad.png",
+        "opciones": [
+            "75%",
+            "80%",
+            "85%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "85%"
+        ],
+        "concept_to_study": "Specificity.",
+        "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). Here, TN = 17 and FP = 3, so Specificity = 17 / (17 + 3) = 17/20 = 85%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the sensitivity of this test?\nNote: Sensitivity = TP / (TP + FN)",
+        "image": "especificidad.png",
+        "opciones": [
+            "60%",
+            "70%",
+            "80%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "70%"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity is determined by dividing the true positives (TP) by the sum of true positives (TP) and false negatives (FN). With TP = 7 and FN = 3, Sensitivity = 7 / (7 + 3) = 7/10 = 70%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the positive predictive value (PPV) of this test?\nNote: PPV = TP / (TP + FP)",
+        "image": "especificidad.png",
+        "opciones": [
+            "60%",
+            "70%",
+            "75%",
+            "80%"
+        ],
+        "respuesta_correcta": [
+            "70%"
+        ],
+        "concept_to_study": "Positive Predictive Value.",
+        "explicacion_openai": "The positive predictive value (PPV) is calculated as the ratio of true positives (TP) to the sum of true positives (TP) and false positives (FP). Here, TP = 7 and FP = 3, so PPV = 7 / (7 + 3) = 7/10 = 70%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the negative predictive value (NPV) of this test?\nNote: NPV = TN / (TN + FN)",
+        "image": "especificidad.png",
+        "opciones": [
+            "70%",
+            "80%",
+            "85%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "85%"
+        ],
+        "concept_to_study": "Negative Predictive Value.",
+        "explicacion_openai": "Negative predictive value (NPV) is calculated by dividing the true negatives (TN) by the sum of true negatives (TN) and false negatives (FN). In this table, TN = 17 and FN = 3, thus NPV = 17 / (17 + 3) = 17/20 = 85%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the overall accuracy of this test?\nNote: Accuracy = (TP + TN) / Total",
+        "image": "especificidad.png",
+        "opciones": [
+            "70%",
+            "75%",
+            "80%",
+            "85%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Accuracy.",
+        "explicacion_openai": "Accuracy is defined as the proportion of correct test results among all tests, calculated as (TP + TN) / Total. With TP = 7 and TN = 17, Accuracy = (7 + 17) / 30 = 24/30 = 80%.",
+        "image_explanation": ""
+    }
 ]
