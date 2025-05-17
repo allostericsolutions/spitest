@@ -26618,5 +26618,168 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy is defined as the proportion of correct test results among all tests, calculated as (TP + TN) / Total. With TP = 7 and TN = 17, Accuracy = (7 + 17) / 30 = 24/30 = 80%.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is true when 200 patients with a known disease were tested, and 140 of them tested positive?",
+        "image": "",
+        "opciones": [
+            "70% Sensitivity",
+            "30% Specificity",
+            "14% Positive Predictive Value",
+            "86% Negative Predictive Value"
+        ],
+        "respuesta_correcta": [
+            "70% Sensitivity"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity measures the test's ability to correctly identify diseased individuals. In this case, Sensitivity = TP / Total Diseased = 140 / 200 = 70%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A screening test was performed on 150 individuals, of which 90 were healthy. The test correctly identified 72 of them as healthy. What is the specificity of the test?",
+        "image": "",
+        "opciones": [
+            "80%",
+            "60%",
+            "90%",
+            "85%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Specificity.",
+        "explicacion_openai": "Specificity is calculated as TN / (TN + FP). Here, TN = 72 and FP = 18, so Specificity = 72 / (72 + 18) = 72/90 = 80%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Out of 120 patients tested, 40 had the disease. Among them, 32 tested positive while 8 tested negative. What is the sensitivity of this test?",
+        "image": "",
+        "opciones": [
+            "66.7%",
+            "80%",
+            "70%",
+            "76%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 32 and FN = 8, Sensitivity = 32 / (32 + 8) = 32/40 = 80%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A diagnostic test was used on 180 individuals, and 60 were truly diseased. Among the diseased, 45 tested positive, while among the healthy, 90 tested negative. What is the positive predictive value (PPV)?",
+        "image": "",
+        "opciones": [
+            "33.3%",
+            "50%",
+            "66.7%",
+            "75%"
+        ],
+        "respuesta_correcta": [
+            "66.7%"
+        ],
+        "concept_to_study": "Positive Predictive Value.",
+        "explicacion_openai": "PPV = TP / (TP + FP). Here, TP = 45 and FP = 15, so PPV = 45 / (45 + 15) = 45/60 = 66.7%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A test was performed on 200 people, of which 50 had the disease. The test identified 40 of them correctly as positive and wrongly classified 20 healthy individuals as diseased. What is the specificity of the test?",
+        "image": "",
+        "opciones": [
+            "90%",
+            "85%",
+            "80%",
+            "75%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Specificity.",
+        "explicacion_openai": "Specificity = TN / (TN + FP). With TN = 120 and FP = 30, Specificity = 120 / (120 + 30) = 120/150 = 80%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A test examined 90 individuals for a disease. Of the 30 diseased patients, 20 tested positive. Of the 60 healthy individuals, 50 tested negative. What is the negative predictive value (NPV)?",
+        "image": "",
+        "opciones": [
+            "83.3%",
+            "80%",
+            "85%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "83.3%"
+        ],
+        "concept_to_study": "Negative Predictive Value.",
+        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 50 and FN = 10, NPV = 50 / (50 + 10) = 50/60 = 83.3%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A hospital tested 250 individuals for a rare condition. 80 were diagnosed with the disease, while 170 were healthy. The test correctly identified 65 diseased individuals. What is the sensitivity?",
+        "image": "",
+        "opciones": [
+            "81.25%",
+            "75%",
+            "70%",
+            "65%"
+        ],
+        "respuesta_correcta": [
+            "81.25%"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 65 and FN = 15, Sensitivity = 65 / (65 + 15) = 65/80 = 81.25%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A new screening test was evaluated on 500 individuals. Out of them, 150 had the disease, and 120 tested positive. What is the sensitivity?",
+        "image": "",
+        "opciones": [
+            "80%",
+            "85%",
+            "75%",
+            "70%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 120 and FN = 30, Sensitivity = 120 / (120 + 30) = 120/150 = 80%."
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 46,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Out of 180 patients tested, 60 had the disease. Among them, 45 tested positive while 15 tested negative. What is the negative predictive value (NPV)?",
+        "image": "",
+        "opciones": [
+            "85%",
+            "90%",
+            "88%",
+            "75%"
+        ],
+        "respuesta_correcta": [
+            "90%"
+        ],
+        "concept_to_study": "Negative Predictive Value.",
+        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 108 and FN = 12, NPV = 108 / (108 + 12) = 108/120 = 90%."
     }
 ]
+
