@@ -26789,5 +26789,138 @@
         "concept_to_study": "Negative Predictive Value.",
         "explicacion_openai": "NPV = TN / (TN + FN). With TN = 108 and FN = 12, NPV = 108 / (108 + 12) = 108/120 = 90%.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 217,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+        "image": "estadista.png",
+        "opciones": [
+            "75%",
+            "80%",
+            "85%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "80%"
+        ],
+        "concept_to_study": "Specificity.",
+        "explicacion_openai": "Specificity measures how well a test correctly identifies healthy individuals. It is calculated as TN / (TN + FP). Here, TN = 16 and FP = 4, so Specificity = 16 / (16 + 4) = 16/20 = 80%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 218,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the sensitivity of this test?\nNote: Sensitivity = TP / (TP + FN)",
+        "image": "estadista.png",
+        "opciones": [
+            "50%",
+            "55%",
+            "60%",
+            "65%"
+        ],
+        "respuesta_correcta": [
+            "60%"
+        ],
+        "concept_to_study": "Sensitivity.",
+        "explicacion_openai": "Sensitivity measures how well a test correctly identifies diseased individuals. It is calculated as TP / (TP + FN). Here, TP = 3 and FN = 2, so Sensitivity = 3 / (3 + 2) = 3/5 = 60%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 219,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the positive predictive value (PPV) of this test?\nNote: PPV = TP / (TP + FP)",
+        "image": "estadista.png",
+        "opciones": [
+            "30%",
+            "40%",
+            "50%",
+            "60%"
+        ],
+        "respuesta_correcta": [
+            "43%"
+        ],
+        "concept_to_study": "Positive Predictive Value.",
+        "explicacion_openai": "PPV measures how often individuals testing positive truly have the disease. It is calculated as TP / (TP + FP). Here, TP = 3 and FP = 4, so PPV = 3 / (3 + 4) = 3/7 ≈ 43%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 220,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the negative predictive value (NPV) of this test?\nNote: NPV = TN / (TN + FN)",
+        "image": "estadista.png",
+        "opciones": [
+            "80%",
+            "85%",
+            "90%",
+            "95%"
+        ],
+        "respuesta_correcta": [
+            "89%"
+        ],
+        "concept_to_study": "Negative Predictive Value.",
+        "explicacion_openai": "NPV measures the likelihood that individuals testing negative truly do not have the disease. It is calculated as TN / (TN + FN). Here, TN = 16 and FN = 2, so NPV = 16 / (16 + 2) = 16/18 ≈ 89%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 221,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the false positive rate (FPR) of this test?\nNote: FPR = FP / (FP + TN)",
+        "image": "estadista.png",
+        "opciones": [
+            "15%",
+            "20%",
+            "25%",
+            "30%"
+        ],
+        "respuesta_correcta": [
+            "20%"
+        ],
+        "concept_to_study": "False Positive Rate.",
+        "explicacion_openai": "FPR measures how often healthy individuals are incorrectly diagnosed as diseased. It is calculated as FP / (FP + TN). Here, FP = 4 and TN = 16, so FPR = 4 / (4 + 16) = 4/20 = 20%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 222,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the false negative rate (FNR) of this test?\nNote: FNR = FN / (TP + FN)",
+        "image": "estadista.png",
+        "opciones": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+        ],
+        "respuesta_correcta": [
+            "40%"
+        ],
+        "concept_to_study": "False Negative Rate.",
+        "explicacion_openai": "FNR measures how often diseased individuals are incorrectly classified as healthy. It is calculated as FN / (TP + FN). Here, FN = 2 and TP = 3, so FNR = 2 / (3 + 2) = 2/5 = 40%.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 223,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the overall accuracy of this test?\nNote: Accuracy = (TP + TN) / Total",
+        "image": "estadista.png",
+        "opciones": [
+            "70%",
+            "75%",
+            "80%",
+            "85%"
+        ],
+        "respuesta_correcta": [
+            "76%"
+        ],
+        "concept_to_study": "Accuracy.",
+        "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
+        "image_explanation": ""
     }
 ]
