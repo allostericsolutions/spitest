@@ -7448,6 +7448,329 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Physical Principles",
+        "grupo": 393,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the fundamental trade-off in imaging resolution?",
+        "image": "",
+        "opciones": [
+            "Increasing axial resolution always improves penetration",
+            "Higher frequency enhances axial resolution but reduces penetration",
+            "Lower frequency increases resolution and penetration simultaneously",
+            "Axial resolution does not depend on frequency"
+        ],
+        "respuesta_correcta": [
+            "Higher frequency enhances axial resolution but reduces penetration"
+        ],
+        "concept_to_study": "Trade-offs in imaging frequency selection",
+        "explicacion_openai": "In medical imaging, axial resolution refers to the ability to distinguish between two structures that are close together along the beam’s axis. Increasing frequency improves axial resolution because higher-frequency sound waves generate shorter pulses, reducing pulse duration and thus allowing better differentiation of small details. However, a significant trade-off exists: higher frequency waves are absorbed more quickly by tissue, leading to reduced penetration depth. This means that deeper structures become harder to visualize as frequency increases. Therefore, the selection of frequency must always consider both resolution and penetration, as balancing these two factors is critical in achieving optimal image quality.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 394,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Why don’t you always use the highest available frequency for imaging?",
+        "image": "",
+        "opciones": [
+            "It decreases lateral resolution",
+            "It reduces imaging depth or penetration",
+            "It makes images blurry",
+            "It has no impact on imaging quality"
+        ],
+        "respuesta_correcta": [
+            "It reduces imaging depth or penetration"
+        ],
+        "concept_to_study": "Limitations of high-frequency imaging",
+        "explicacion_openai": "While higher-frequency ultrasound improves axial resolution by allowing better differentiation of small structures, it comes at the cost of penetration depth. This occurs because high-frequency waves are more readily absorbed by tissues, leading to greater attenuation. As a result, structures located deeper within the body may not be visible when using a very high-frequency transducer. The decision to use a certain frequency depends on the clinical application. For example, shallow structures such as superficial blood vessels or muscles can be imaged with high-frequency probes, whereas deeper organs like the liver or kidneys require lower frequencies to achieve adequate penetration.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 395,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What do you gain when choosing a lower frequency in medical imaging?",
+        "image": "",
+        "opciones": [
+            "Improved axial resolution",
+            "Reduced imaging depth",
+            "Increased penetration",
+            "Enhanced lateral resolution"
+        ],
+        "respuesta_correcta": [
+            "Increased penetration"
+        ],
+        "concept_to_study": "Benefits of low-frequency imaging",
+        "explicacion_openai": "Lower-frequency ultrasound waves penetrate deeper into tissue because they are less affected by attenuation. This is crucial for imaging deeper structures such as abdominal organs, the heart in transthoracic echocardiography, and fetal assessments. However, the trade-off is that lower frequencies result in reduced axial resolution because the wavelength is longer, causing less differentiation between closely spaced objects. The choice of frequency depends on the anatomical region being studied: while higher frequencies are preferred for superficial imaging, lower frequencies are necessary for deeper structures where resolution must be balanced with depth.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 396,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "How should you choose the appropriate imaging frequency?",
+        "image": "",
+        "opciones": [
+            "Always use the lowest frequency available",
+            "Use the highest possible frequency with adequate penetration",
+            "Select a frequency randomly",
+            "Highest frequency always provides the best images, regardless of depth"
+        ],
+        "respuesta_correcta": [
+            "Use the highest possible frequency with adequate penetration"
+        ],
+        "concept_to_study": "Optimizing frequency selection in imaging",
+        "explicacion_openai": "The optimal frequency selection depends on balancing axial resolution and tissue penetration. The best approach is to use the highest frequency that still provides adequate penetration for the target structure. Superficial structures, such as thyroid and vascular imaging, benefit from high-frequency transducers (e.g., 7-15 MHz), while deeper structures, like the liver or fetus, require lower frequencies (e.g., 2-5 MHz) to ensure visibility. Additionally, factors like patient body habitus and pathology influence the choice, as excessive attenuation from high frequencies in larger patients may necessitate lower-frequency imaging for diagnostic clarity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 397,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to intensity when it is multiplied by 2?",
+        "image": "",
+        "opciones": [
+            "Increase by 6 dB",
+            "Decrease by 3 dB",
+            "Increase by 3 dB",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Increase by 3 dB"
+        ],
+        "concept_to_study": "Decibels describe relative intensity changes.",
+        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is doubled, the increase is 3 dB. Example: If the original intensity is 10 units, doubling it makes it 20 units, which corresponds to a 3 dB increase. The formula used is: dB change = 10 × log(final intensity / initial intensity). For doubling: 10 × log(2) ≈ 3 dB.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 398,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does a reduction of 6 dB mean for intensity?",
+        "image": "",
+        "opciones": [
+            "Reduced to 1/2",
+            "Reduced to 1/4",
+            "Reduced to 1/8",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Reduced to 1/4"
+        ],
+        "concept_to_study": "Decibels measure intensity reduction.",
+        "explicacion_openai": "A reduction of 6 dB means the intensity is reduced to 1/4 of its original value. Since decibels follow an exponential scale, every 3 dB reduction halves the intensity. Example: If the initial intensity is 100 units, after a 3 dB reduction, it becomes 50 units. After another 3 dB reduction, it becomes 25 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 6 dB reduction: 100 × (1/2)^2 = 25 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 399,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when intensity is halved?",
+        "image": "",
+        "opciones": [
+            "Increase by 3 dB",
+            "Decrease by 3 dB",
+            "Decrease by 6 dB",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Decrease by 3 dB"
+        ],
+        "concept_to_study": "Decibels describe intensity attenuation.",
+        "explicacion_openai": "Halving the intensity results in a loss of 3 dB. Since decibels follow a logarithmic scale, every 3 dB reduction halves the intensity. Example: If the original intensity is 50 units, reducing it to 25 units corresponds to a decrease of 3 dB. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 50 × (1/2)^1 = 25 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 400,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the half-value layer represent?",
+        "image": "",
+        "opciones": [
+            "Intensity reduced to 1/2",
+            "Intensity increased by 3 dB",
+            "Intensity reduced to 1/4",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity reduced to 1/2"
+        ],
+        "concept_to_study": "Half-value layer describes sound attenuation.",
+        "explicacion_openai": "The half-value layer is the point where sound intensity is reduced to half of its original value, corresponding to a -3 dB change. Example: If sound starts at 80 units, after passing through the half-value layer, it becomes 40 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 80 × (1/2)^1 = 40 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 401,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens when overall gain is adjusted from 25 dB to 28 dB?",
+        "image": "",
+        "opciones": [
+            "Intensity is doubled",
+            "Intensity is halved",
+            "Intensity is reduced to 1/4",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity is doubled"
+        ],
+        "concept_to_study": "Decibels describe gain adjustments.",
+        "explicacion_openai": "An increase of 3 dB means the intensity is doubled. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 30 units, increasing the gain by 3 dB makes it 60 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 3 dB increase: 30 × 2^1 = 60 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 402,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does a gain of 6 dB mean for intensity?",
+        "image": "",
+        "opciones": [
+            "Intensity is doubled",
+            "Intensity is quadrupled",
+            "Intensity is halved",
+            "No change"
+        ],
+        "respuesta_correcta": [
+            "Intensity is quadrupled"
+        ],
+        "concept_to_study": "Decibels describe gain.",
+        "explicacion_openai": "A gain of 6 dB corresponds to intensity being increased to four times its original value. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 10 units, after a 6 dB gain, it becomes 40 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 6 dB increase: 10 × 2^2 = 40 units.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 403,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the intensity is reduced to 1/10 of its original value, what is the corresponding decibel change?",
+        "image": "",
+        "opciones": [
+            "-3 dB",
+            "-6 dB",
+            "-10 dB",
+            "-20 dB"
+        ],
+        "respuesta_correcta": [
+            "-10 dB"
+        ],
+        "concept_to_study": "Decibels describe intensity reduction logarithmically.",
+        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is reduced to 1/10 of its original value, the corresponding decibel change is -10 dB. Example: If the initial intensity is 100 units, reducing it to 10 units results in a -10 dB change.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 404,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the decibel level when intensity is increased from 1 to 1000?",
+        "image": "",
+        "opciones": [
+            "Increase by 10 dB",
+            "Increase by 20 dB",
+            "Increase by 30 dB",
+            "Increase by 40 dB"
+        ],
+        "respuesta_correcta": [
+            "Increase by 30 dB"
+        ],
+        "concept_to_study": "Decibels describe exponential intensity changes.",
+        "explicacion_openai": "Since decibels follow a logarithmic scale, increasing intensity from 1 to 1000 results in a 30 dB increase. Example: If intensity starts at 1 unit (0 dB) and increases to 1000 units, the decibel level rises to 30 dB.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 405,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which sequence correctly represents the positive intensity-decibel relationships as intensity increases?",
+        "image": "",
+        "opciones": [
+            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30",
+            "1/0, 2/0, 4/6, 10/10, 100/20, 1000/30",
+            "1/0, 2/3, 4/5, 10/10, 100/20, 1000/30",
+            "1/0, 3/3, 4/6, 10/10, 100/20, 1000/30"
+        ],
+        "respuesta_correcta": [
+            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30"
+        ],
+        "concept_to_study": "Positive relationships show how intensity increases and decibels increase exponentially (on a logarithmic scale).",
+        "explicacion_openai": "In the positive sequence, as intensity increases, the decibel level increases according to a logarithmic progression. From the reference table, an intensity of 1 corresponds to 0 dB, doubling to 2 gives 3 dB, doubling again to 4 gives 6 dB, and further increases follow the pattern (10 gives 10 dB, 100 gives 20 dB, and 1000 gives 30 dB). This matches the correct progression: 1/0, 2/3, 4/6, 10/10, 100/20, 1000/30.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 406,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
+        "image": "",
+        "opciones": [
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/-3, 1/4/-5, 1/10/-10, 1/100/-20, 1/1000/-30",
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-30, 1/1000/-20"
+        ],
+        "respuesta_correcta": [
+            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30"
+        ],
+        "concept_to_study": "Negative relationships indicate how intensity diminishes and the corresponding decibel value decreases (attenuation) exponentially.",
+        "explicacion_openai": "For intensities below 1, the decibel values become negative following a logarithmic scale. According to the table, an intensity of 1 corresponds to 0 dB, intensity of 1/2 corresponds to -3 dB, 1/4 to -6 dB, 1/10 to -10 dB, 1/100 to -20 dB, and 1/1000 to -30 dB. Thus, the correct negative sequence is: 1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 407,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type has a duty factor of approximately 100%?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Duty Factor in Continuous Wave (CW) vs. Pulsed Wave (PW) ultrasound.",
+        "explicacion_openai": "Duty Factor represents the percentage of time the transducer is actively transmitting ultrasound waves. Continuous Wave (CW) Doppler, as seen in Transducer A, has a duty factor of nearly 100% because it continuously emits sound waves without pauses. Pulsed Wave (PW) Doppler, as seen in Transducer B, has a much lower duty factor since it alternates between transmitting and receiving pulses.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, indicating a duty factor close to 100%."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 408,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type has a lower duty factor due to intermittent pulse transmission?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Duty Factor in Pulsed Wave (PW) ultrasound.",
+        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, has a lower duty factor because it transmits ultrasound pulses intermittently, allowing time for echoes to return before sending the next pulse. This is essential for depth resolution and prevents continuous wave interference. In contrast, Continuous Wave (CW) Doppler has a duty factor close to 100% since it continuously emits sound waves.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, indicating a lower duty factor."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 409,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on the wave patterns in the image, which wave has the highest duty factor?",
+        "image": "CW.png",
+        "opciones": [
+            "Wave A",
+            "Wave B",
+            "Both waves have the same duty factor",
+            "Neither wave has a measurable duty factor"
+        ],
+        "respuesta_correcta": [
+            "Wave A"
+        ],
+        "concept_to_study": "Duty Factor in Continuous and Pulsed Ultrasound Waves.",
+        "explicacion_openai": "Duty Factor represents the percentage of time an ultrasound wave is actively transmitting. Observing the image, one of the waves is continuous, meaning it has a duty factor close to 100%. The other wave consists of pulses, meaning it has a lower duty factor because it alternates between transmitting and receiving.",
+        "image_explanation": "The image 'CW.png' shows two different wave patterns. One of them is continuous, meaning it has the highest duty factor."
+    },
+    {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -7994,9 +8317,9 @@
         "respuesta_correcta": [
             "Frequency "
         ],
-       "concept_to_study": "Acoustic Variables",
-    "explicacion_openai": "Acoustic variables are physical properties that change as a sound wave propagates through a medium. These include pressure, density, and particle motion, as they directly influence how sound travels. However, frequency is not considered an acoustic variable because it describes the number of oscillations per second rather than a changing physical property of the medium.",
-    "image_explanation": ""
+        "concept_to_study": "Acoustic Variables",
+        "explicacion_openai": "Acoustic variables are physical properties that change as a sound wave propagates through a medium. These include pressure, density, and particle motion, as they directly influence how sound travels. However, frequency is not considered an acoustic variable because it describes the number of oscillations per second rather than a changing physical property of the medium.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -12559,6 +12882,101 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 270,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
+        "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
+        "image_explanation": "The image 'CW.png' shows Transducer A emitting continuous waves, while Transducer B emits pulses."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 271,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type is best suited for measuring high-velocity blood flow without aliasing?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Aliasing in Doppler ultrasound.",
+        "explicacion_openai": "Aliasing occurs when the detected Doppler frequency exceeds the Nyquist limit in Pulsed Wave (PW) Doppler. Continuous Wave (CW) Doppler, as seen in Transducer A, does not suffer from aliasing because it continuously samples the signal, making it ideal for measuring high-velocity blood flow, such as in cardiac and vascular applications.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) with continuous waves, allowing high-velocity detection without aliasing."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 272,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type provides depth resolution in Doppler imaging?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Depth resolution in Doppler ultrasound.",
+        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, sends discrete pulses and waits for echoes, allowing the system to determine the depth of the reflecting structures. This enables precise localization of blood flow within a specific vessel. Continuous Wave (CW) Doppler, on the other hand, does not provide depth resolution because it continuously transmits and receives signals.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, allowing depth resolution."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 273,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type is more commonly used in echocardiography for assessing high-speed blood flow?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer A (CW)"
+        ],
+        "concept_to_study": "Clinical applications of CW and PW Doppler.",
+        "explicacion_openai": "Continuous Wave (CW) Doppler, as seen in Transducer A, is commonly used in echocardiography to assess high-speed blood flow, such as in stenotic valves or regurgitant jets. Since CW Doppler does not suffer from aliasing, it is ideal for measuring very high velocities accurately. Pulsed Wave (PW) Doppler, while useful for depth resolution, is limited by aliasing at high speeds.",
+        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, which is ideal for high-speed blood flow assessment."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 274,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which transducer wave type in this image is limited by the Nyquist limit in Doppler imaging?",
+        "image": "CW.png",
+        "opciones": [
+            "Transducer A (CW)",
+            "Transducer B (PW)",
+            "Both transducers",
+            "Neither transducer"
+        ],
+        "respuesta_correcta": [
+            "Transducer B (PW)"
+        ],
+        "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
+        "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
+        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
+    },
+    {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -15087,7 +15505,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 135,
+        "grupo": 134,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor is least likely to affect the Doppler signal detected by transducer A?",
         "image": "doppler.png",
@@ -15106,7 +15524,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 136,
+        "grupo": 135,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In this scenario, which transducers provide the most acceptable and realistic measurement of flow velocity and direction according to Doppler use in a patient?",
         "image": "doppler.png",
@@ -15125,7 +15543,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 137,
+        "grupo": 136,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the flow velocity increases, which transducer will detect the largest POSITIVE change in Doppler shift?",
         "image": "doppler.png",
@@ -15144,7 +15562,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 138,
+        "grupo": 137,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What transducer angle results in no Doppler shift detected?",
         "image": "doppler.png",
@@ -15163,7 +15581,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 139,
+        "grupo": 138,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The Doppler shift frequency is primarily:",
         "image": "",
@@ -15182,7 +15600,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 140,
+        "grupo": 139,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler interrogation angle could result in no Doppler shift being detected?",
         "image": "",
@@ -15201,7 +15619,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 141,
+        "grupo": 140,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What method is used to convert Doppler shift into visual data?",
         "image": "",
@@ -15220,7 +15638,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 142,
+        "grupo": 141,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The maximum frequency sampled without aliasing is known as the:",
         "image": "",
@@ -15239,7 +15657,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 143,
+        "grupo": 142,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT an advantage of Continuous Wave (CW) Doppler?",
         "image": "",
@@ -15258,7 +15676,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 144,
+        "grupo": 143,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the most common artifact in Doppler ultrasound?",
         "image": "",
@@ -15277,7 +15695,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 145,
+        "grupo": 144,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The frequency bandwidth may be determined by which of the following?",
         "image": "",
@@ -15296,7 +15714,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 146,
+        "grupo": 145,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the mathematical technique used to break down the signal and produce a spectral waveform?",
         "image": "",
@@ -15315,7 +15733,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 147,
+        "grupo": 146,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
         "image": "window2.jpg",
@@ -15334,7 +15752,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 148,
+        "grupo": 147,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While evaluating the vessel segment with sample volume C (the region with the depicted atherosclerotic plaque), the Doppler spectral waveform demonstrates an increased peak systolic velocity and spectral broadening. Which of the following statements is *MOST ACCURATE* regarding these findings?",
         "image": "window.jpg",
@@ -15353,7 +15771,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 149,
+        "grupo": 148,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Considering the spectral Doppler waveform presented in the image, which of the sample volumes (A, B, C, or D) is *LEAST LIKELY* to have generated this specific waveform?",
         "image": "window.jpg",
@@ -15372,7 +15790,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 150,
+        "grupo": 149,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to demonstrate primarily laminar flow under normal physiological conditions?",
         "image": "window2.jpg",
@@ -15391,7 +15809,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 151,
+        "grupo": 150,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) would *MOST LIKELY* demonstrate turbulent flow patterns?",
         "image": "window2.jpg",
@@ -15410,7 +15828,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 152,
+        "grupo": 151,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to display a plug flow profile?",
         "image": "window2.jpg",
@@ -15429,7 +15847,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 153,
+        "grupo": 152,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sample volume (A, B, C, or D) is *MOST LIKELY* to show flow reversal or flow separation?",
         "image": "window.jpg",
@@ -15448,7 +15866,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 154,
+        "grupo": 153,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What principle underlies Doppler imaging, allowing the visualization of blood flow?",
         "image": "",
@@ -15467,7 +15885,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 155,
+        "grupo": 154,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which term describes the shift in frequency when sound waves reflect off moving objects?",
         "image": "",
@@ -15486,7 +15904,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 156,
+        "grupo": 155,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the received frequency is higher than the transmitted frequency, what can be determined about the direction of the blood flow?",
         "image": "",
@@ -15505,7 +15923,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 157,
+        "grupo": 156,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What occurs when the Doppler shift exceeds the Nyquist limit?",
         "image": "",
@@ -15524,7 +15942,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 158,
+        "grupo": 157,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What adjustment can be made to correct aliasing in Doppler imaging?",
         "image": "",
@@ -15543,7 +15961,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 159,
+        "grupo": 158,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler technique displays flow information as a color overlay on a grayscale image?",
         "image": "",
@@ -15562,7 +15980,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 160,
+        "grupo": 159,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler method is most sensitive to low flow velocities?",
         "image": "",
@@ -15581,7 +15999,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 161,
+        "grupo": 160,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If an imaging angle of 90 degrees to flow exists when using Doppler ultrasound, what can be determined from the Doppler shift?",
         "image": "",
@@ -15600,7 +16018,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 162,
+        "grupo": 161,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What information does spectral Doppler provide that color Doppler does not?",
         "image": "",
@@ -15619,7 +16037,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 163,
+        "grupo": 162,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In Doppler imaging, what does a wider waveform on the spectral display typically indicate?",
         "image": "",
@@ -15638,7 +16056,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 164,
+        "grupo": 163,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a primary advantage of continuous-wave (CW) Doppler compared to pulsed-wave (PW) Doppler?",
         "image": "",
@@ -15657,7 +16075,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 165,
+        "grupo": 164,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a significant limitation of continuous-wave (CW) Doppler?",
         "image": "",
@@ -15676,7 +16094,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 166,
+        "grupo": 165,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In what clinical scenario is continuous-wave (CW) Doppler MOST useful?",
         "image": "",
@@ -15695,7 +16113,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 167,
+        "grupo": 166,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does continuous-wave (CW) Doppler determine the velocity of blood flow?",
         "image": "",
@@ -15714,7 +16132,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 168,
+        "grupo": 167,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What type of display is typically used with continuous-wave (CW) Doppler to show blood flow velocities?",
         "image": "",
@@ -15733,7 +16151,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 169,
+        "grupo": 168,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact is NOT typically observed with continuous-wave (CW) Doppler?",
         "image": "",
@@ -15752,7 +16170,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 170,
+        "grupo": 169,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a disadvantage of using a large sample volume in continuous-wave (CW) Doppler?",
         "image": "",
@@ -15771,7 +16189,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 171,
+        "grupo": 170,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does the pulse repetition frequency (PRF) affect the operation of continuous-wave (CW) Doppler?",
         "image": "",
@@ -15790,7 +16208,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 172,
+        "grupo": 171,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why may a sonographer use a dedicated, non-imaging probe for a continuous-wave (CW) Doppler exam?",
         "image": "",
@@ -15809,7 +16227,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 173,
+        "grupo": 172,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You are performing a Continuous-wave (CW) Doppler exam on your patient's lower extremities when you notice severe aliasing. What do you do?",
         "image": "",
@@ -15828,7 +16246,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 174,
+        "grupo": 173,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What transducer element configuration is characteristic of continuous-wave (CW) Doppler transducers?",
         "image": "",
@@ -15847,7 +16265,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 175,
+        "grupo": 174,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following best describes the duty factor of a continuous-wave (CW) Doppler?",
         "image": "",
@@ -15866,7 +16284,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 176,
+        "grupo": 175,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the term 'color packet size' refer to in Doppler imaging?",
         "image": "",
@@ -15885,7 +16303,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 177,
+        "grupo": 176,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the color packet size generally affect color Doppler sensitivity?",
         "image": "",
@@ -15904,7 +16322,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 178,
+        "grupo": 177,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a potential disadvantage of increasing the color packet size in Doppler?",
         "image": "",
@@ -15923,7 +16341,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 179,
+        "grupo": 178,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the context of color packet size, what does 'ensemble length' refer to?",
         "image": "",
@@ -15942,7 +16360,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 180,
+        "grupo": 179,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When optimizing color Doppler settings to visualize very slow flow in a small vessel, which adjustment to color packet size is most appropriate?",
         "image": "",
@@ -15961,7 +16379,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 181,
+        "grupo": 180,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary function of the wall filter in spectral Doppler?",
         "image": "",
@@ -15980,7 +16398,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 182,
+        "grupo": 181,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Increasing the wall filter setting in spectral Doppler will:",
         "image": "",
@@ -15999,7 +16417,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 183,
+        "grupo": 182,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A wall filter that is set too high can result in:",
         "image": "",
@@ -16018,7 +16436,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 184,
+        "grupo": 183,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the effect of the wall filter on color Doppler imaging?",
         "image": "",
@@ -16037,7 +16455,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 185,
+        "grupo": 184,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You are imaging a small vessel with slow flow. If the wall filter is set too high, what might you observe?",
         "image": "",
@@ -16056,7 +16474,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 186,
+        "grupo": 185,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In color Doppler, increasing the wall filter will have what effect on the displayed color?",
         "image": "",
@@ -16075,7 +16493,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 187,
+        "grupo": 186,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You are evaluating a spectral Doppler waveform and notice excessive clutter near the baseline. What adjustment is MOST appropriate to reduce this artifact?",
         "image": "",
@@ -16094,7 +16512,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 188,
+        "grupo": 187,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the potential disadvantage of using a very low wall filter setting?",
         "image": "",
@@ -16113,7 +16531,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 189,
+        "grupo": 188,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT affected by the wall filter?",
         "image": "",
@@ -16132,7 +16550,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 190,
+        "grupo": 189,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary effect of increasing the spectral Doppler gain?",
         "image": "",
@@ -16151,7 +16569,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 191,
+        "grupo": 190,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the spectral Doppler signal is weak, what adjustment should you make FIRST?",
         "image": "",
@@ -16170,7 +16588,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 192,
+        "grupo": 191,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Excessive spectral Doppler gain can result in:",
         "image": "",
@@ -16189,7 +16607,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 193,
+        "grupo": 192,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is LEAST affected by the spectral Doppler gain setting?",
         "image": "",
@@ -16208,7 +16626,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 194,
+        "grupo": 193,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You are evaluating a spectral Doppler waveform and notice that it is barely visible. What should you adjust to improve its visibility?",
         "image": "",
@@ -16227,7 +16645,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 195,
+        "grupo": 194,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does the gain setting affect the appearance of noise on the spectral Doppler display?",
         "image": "",
@@ -16246,7 +16664,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 196,
+        "grupo": 195,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the potential consequence of having the spectral Doppler gain set too low?",
         "image": "",
@@ -16265,7 +16683,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 197,
+        "grupo": 196,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is most likely to require a HIGHER spectral Doppler gain setting?",
         "image": "",
@@ -16284,7 +16702,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 198,
+        "grupo": 197,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You adjust the spectral Doppler gain and notice the baseline noise level increases significantly. What does this indicate?",
         "image": "",
@@ -16303,7 +16721,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 199,
+        "grupo": 198,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the optimal goal when adjusting spectral Doppler gain?",
         "image": "",
@@ -16322,7 +16740,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 200,
+        "grupo": 199,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the role of phase quadrature in Doppler ultrasound?",
         "image": "",
@@ -16341,7 +16759,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 201,
+        "grupo": 200,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary purpose of the Fast Fourier Transform (FFT) in spectral Doppler?",
         "image": "",
@@ -16360,7 +16778,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 202,
+        "grupo": 201,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In color Doppler imaging, what does autocorrelation measure?",
         "image": "",
@@ -16379,7 +16797,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 203,
+        "grupo": 202,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is phase quadrature important in Doppler signal processing?",
         "image": "",
@@ -16398,7 +16816,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 204,
+        "grupo": 203,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the spectral display in Doppler ultrasound represent?",
         "image": "",
@@ -16417,7 +16835,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 205,
+        "grupo": 204,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is autocorrelation preferred over Fast Fourier Transform (FFT) in color Doppler imaging?",
         "image": "",
@@ -16436,7 +16854,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 206,
+        "grupo": 205,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What artifact might occur if phase quadrature fails to process signals accurately?",
         "image": "",
@@ -16455,7 +16873,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 207,
+        "grupo": 206,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a wide spectral bandwidth in Doppler indicate?",
         "image": "",
@@ -16474,7 +16892,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 208,
+        "grupo": 207,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a key limitation of autocorrelation in Doppler imaging?",
         "image": "",
@@ -16493,7 +16911,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 209,
+        "grupo": 208,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does phase quadrature improve Doppler accuracy?",
         "image": "",
@@ -16512,7 +16930,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 210,
+        "grupo": 209,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the Nyquist limit in Doppler ultrasound?",
         "image": "",
@@ -16531,7 +16949,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 211,
+        "grupo": 210,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is the Nyquist limit mathematically calculated?",
         "image": "",
@@ -16550,7 +16968,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 212,
+        "grupo": 211,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens if the Doppler frequency shift exceeds the Nyquist limit?",
         "image": "",
@@ -16569,7 +16987,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 213,
+        "grupo": 212,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What adjustment can increase the Nyquist limit?",
         "image": "",
@@ -16588,7 +17006,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 214,
+        "grupo": 213,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why does shallow sample depth increase the Nyquist limit?",
         "image": "",
@@ -16607,7 +17025,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 215,
+        "grupo": 214,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a clear spectral window (B) indicate about the flow within the vessel?",
         "image": "ventana.png",
@@ -16626,7 +17044,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 216,
+        "grupo": 215,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the 'A' marked on the Doppler spectral waveform represent?",
         "image": "ventana.png",
@@ -16645,7 +17063,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 217,
+        "grupo": 216,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the type of spectral window observed (B), where is the Doppler sample most likely taken?",
         "image": "ventana.png",
@@ -16664,7 +17082,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 218,
+        "grupo": 217,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the clean spectral window observed in this image (B), what type of flow is most likely present?",
         "image": "ventana.png",
@@ -16683,7 +17101,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 219,
+        "grupo": 218,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What mathematical technique is used to generate the spectral Doppler waveform?",
         "image": "",
@@ -16702,7 +17120,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 220,
+        "grupo": 219,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is flow direction displayed on the spectral Doppler graph?",
         "image": "",
@@ -16721,7 +17139,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 221,
+        "grupo": 220,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler measurement is commonly used to evaluate organ transplants like the liver and kidneys?",
         "image": "",
@@ -16740,7 +17158,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 222,
+        "grupo": 221,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the brightness of the dots on the spectral Doppler display represent?",
         "image": "",
@@ -16759,7 +17177,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 223,
+        "grupo": 222,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is set to 6 kHz and the Doppler shift is 4 kHz, will aliasing occur?",
         "image": "",
@@ -16778,7 +17196,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 224,
+        "grupo": 223,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 8 kHz and the Doppler shift is 3 kHz, will aliasing occur?",
         "image": "",
@@ -16797,7 +17215,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 225,
+        "grupo": 224,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 10 kHz and the Doppler shift is 5 kHz, will aliasing occur?",
         "image": "",
@@ -16816,7 +17234,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 226,
+        "grupo": 225,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 4 kHz and the Doppler shift is 6 kHz, will aliasing occur?",
         "image": "",
@@ -16835,7 +17253,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 227,
+        "grupo": 226,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the Nyquist limit if the PRF is set to 12 kHz?",
         "image": "",
@@ -16854,7 +17272,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 228,
+        "grupo": 227,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 6 kHz and the Doppler shift is 2 kHz, will aliasing occur?",
         "image": "",
@@ -16873,7 +17291,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 229,
+        "grupo": 228,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What adjustment would prevent aliasing if the PRF is 6 kHz and the Doppler shift is 4 kHz?",
         "image": "",
@@ -16892,7 +17310,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 230,
+        "grupo": 229,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 15 kHz and the Doppler shift is 7 kHz, will aliasing occur?",
         "image": "",
@@ -16911,7 +17329,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 231,
+        "grupo": 230,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 20 kHz and the Doppler shift is 11 kHz, will aliasing occur?",
         "image": "",
@@ -16930,7 +17348,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 232,
+        "grupo": 231,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You are unable to eliminate aliasing in a pulsed-wave Doppler spectrum using PRF adjustments and transducer frequency changes. What alternative technique could you try?",
         "image": "",
@@ -16949,7 +17367,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 233,
+        "grupo": 232,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How can you minimize aliasing in pulsed-wave Doppler aside from increasing PRF?",
         "image": "",
@@ -16968,7 +17386,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 234,
+        "grupo": 233,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a key advantage of continuous wave Doppler over pulsed-wave Doppler?",
         "image": "",
@@ -16987,7 +17405,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 235,
+        "grupo": 234,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the Nyquist limit represent in Doppler imaging?",
         "image": "",
@@ -17006,7 +17424,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 236,
+        "grupo": 235,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens when the Doppler shift exceeds the Nyquist limit?",
         "image": "",
@@ -17025,7 +17443,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 237,
+        "grupo": 236,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What adjustment can reduce aliasing in pulsed-wave Doppler?",
         "image": "",
@@ -17044,7 +17462,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 238,
+        "grupo": 237,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is the Nyquist limit lower for deeper sample volumes in pulsed-wave Doppler?",
         "image": "",
@@ -17063,7 +17481,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 239,
+        "grupo": 238,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What technique helps visualize blood flow in deeper vessels without aliasing?",
         "image": "",
@@ -17082,7 +17500,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 240,
+        "grupo": 239,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler mode is most affected by the Nyquist limit?",
         "image": "",
@@ -17101,7 +17519,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 241,
+        "grupo": 240,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the impact of increasing the pulse repetition frequency (PRF) on the Nyquist limit?",
         "image": "",
@@ -17120,7 +17538,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 242,
+        "grupo": 241,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the role of the wall filter in Doppler imaging?",
         "image": "",
@@ -17139,7 +17557,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 243,
+        "grupo": 242,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor does NOT affect the Nyquist limit in pulsed-wave Doppler?",
         "image": "",
@@ -17158,7 +17576,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 244,
+        "grupo": 243,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In Doppler ultrasound, aliasing is most likely to occur when:",
         "image": "",
@@ -17177,7 +17595,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 245,
+        "grupo": 244,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What parameter can be adjusted to minimize aliasing, apart from increasing PRF?",
         "image": "",
@@ -17196,7 +17614,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 246,
+        "grupo": 245,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which Doppler technique is less susceptible to aliasing and is often used to evaluate high velocity jets in the heart?",
         "image": "",
@@ -17215,7 +17633,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 247,
+        "grupo": 246,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the main limitation of pulsed-wave Doppler when evaluating high velocity flows?",
         "image": "",
@@ -17234,7 +17652,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 248,
+        "grupo": 247,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does adjusting the Doppler angle affect the measured velocity?",
         "image": "",
@@ -17253,7 +17671,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 249,
+        "grupo": 248,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statement is true regarding continuous wave Doppler and aliasing?",
         "image": "",
@@ -17272,7 +17690,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 250,
+        "grupo": 249,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter does NOT influence the occurrence of aliasing in Doppler measurements?",
         "image": "",
@@ -17291,7 +17709,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 251,
+        "grupo": 250,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In color Doppler, what does a mosaic pattern typically indicate?",
         "image": "",
@@ -17310,7 +17728,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 252,
+        "grupo": 251,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In Doppler imaging, why might reducing the depth of the sample volume help reduce aliasing?",
         "image": "",
@@ -17329,7 +17747,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 253,
+        "grupo": 252,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What effect does increasing the transducer frequency have on the Doppler signal?",
         "image": "",
@@ -17348,7 +17766,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 254,
+        "grupo": 253,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is a common method to verify the presence of aliasing in a Doppler study?",
         "image": "",
@@ -17367,7 +17785,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 255,
+        "grupo": 254,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How can adjusting the baseline shift help identify aliasing?",
         "image": "",
@@ -17386,7 +17804,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 256,
+        "grupo": 255,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why might power Doppler be preferred over color Doppler in detecting low flow states?",
         "image": "",
@@ -17405,7 +17823,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 257,
+        "grupo": 256,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Given a PRF of 5 kHz (Nyquist limit = 2.5 kHz), if the measured Doppler shift is 3 kHz, will aliasing occur?",
         "image": "",
@@ -17424,7 +17842,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 258,
+        "grupo": 257,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 5 kHz (Nyquist = 2.5 kHz), will aliasing occur if the Doppler shift is 2 kHz?",
         "image": "",
@@ -17443,7 +17861,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 259,
+        "grupo": 258,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 8 kHz (Nyquist = 4 kHz) and a Doppler shift of 4.5 kHz is detected, will aliasing occur?",
         "image": "",
@@ -17462,7 +17880,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 260,
+        "grupo": 259,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 8 kHz (Nyquist = 4 kHz), does aliasing occur if the Doppler shift is 3.5 kHz?",
         "image": "",
@@ -17481,7 +17899,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 261,
+        "grupo": 260,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is 10 kHz (Nyquist = 5 kHz) and the measured Doppler shift is exactly 5 kHz, will aliasing occur?",
         "image": "",
@@ -17500,7 +17918,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 262,
+        "grupo": 261,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 6 kHz (Nyquist = 3 kHz), if a Doppler shift of 3.2 kHz is measured, will aliasing be present?",
         "image": "",
@@ -17519,7 +17937,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 263,
+        "grupo": 262,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 6 kHz (Nyquist = 3 kHz), will aliasing occur if the Doppler shift is 2.7 kHz?",
         "image": "",
@@ -17538,7 +17956,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 264,
+        "grupo": 263,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is doubled from 4 kHz to 8 kHz, what will be the new Nyquist limit?",
         "image": "",
@@ -17557,7 +17975,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 265,
+        "grupo": 264,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If a transducer operates at a PRF of 7 kHz, the Nyquist limit is 3.5 kHz. Will aliasing occur if the measured Doppler shift is 3.5 kHz?",
         "image": "",
@@ -17576,7 +17994,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 266,
+        "grupo": 265,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 7 kHz (Nyquist = 3.5 kHz), if a Doppler shift of 3.8 kHz is registered, does aliasing occur?",
         "image": "",
@@ -17595,7 +18013,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 267,
+        "grupo": 266,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If a PRF of 12 kHz is set, what is the Nyquist limit?",
         "image": "",
@@ -17614,7 +18032,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 268,
+        "grupo": 267,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 12 kHz (Nyquist = 6 kHz), if a Doppler shift of 6.5 kHz is registered, will aliasing occur?",
         "image": "",
@@ -17633,7 +18051,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 269,
+        "grupo": 268,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "For a PRF of 9 kHz (Nyquist = 4.5 kHz), does aliasing occur if a Doppler shift of 4.4 kHz is detected?",
         "image": "",
@@ -17652,7 +18070,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 270,
+        "grupo": 269,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 9 kHz (Nyquist = 4.5 kHz), if a Doppler shift of 5.0 kHz is recorded, does aliasing occur?",
         "image": "",
@@ -17671,7 +18089,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 271,
+        "grupo": 270,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If a system sets the PRF to 15 kHz (Nyquist = 7.5 kHz) and a Doppler shift of 7.5 kHz is recorded, is aliasing observed?",
         "image": "",
@@ -17690,7 +18108,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 272,
+        "grupo": 271,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 15 kHz (Nyquist = 7.5 kHz), if a Doppler shift of 8.1 kHz is recorded, would aliasing occur?",
         "image": "",
@@ -17709,7 +18127,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 273,
+        "grupo": 272,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In a system with a PRF of 20 kHz (Nyquist = 10 kHz), if a Doppler shift of 10 kHz is recorded, will aliasing be present?",
         "image": "",
@@ -17728,7 +18146,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 274,
+        "grupo": 273,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 20 kHz (Nyquist = 10 kHz), if a Doppler shift of 10.5 kHz is recorded, does aliasing occur?",
         "image": "",
@@ -17747,7 +18165,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 275,
+        "grupo": 274,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the PRF is set to 16 kHz, the Nyquist limit will be 8 kHz. Will aliasing occur if a Doppler shift of 7.2 kHz is observed?",
         "image": "",
@@ -17766,7 +18184,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 276,
+        "grupo": 275,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "With a PRF of 16 kHz (Nyquist = 8 kHz), if the Doppler shift is 8.5 kHz, is aliasing observed?",
         "image": "",
@@ -17785,7 +18203,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 277,
+        "grupo": 276,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "How does increasing the Pulse Repetition Frequency (PRF) in pulsed Doppler imaging affect aliasing?",
         "image": "",
@@ -17804,7 +18222,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
+        "grupo": 277,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which factor primarily influences the accuracy of Doppler velocity measurements due to the cosine dependency in the Doppler equation?",
         "image": "",
@@ -17823,7 +18241,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 279,
+        "grupo": 278,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What is the key difference between pulsed Doppler and continuous wave Doppler regarding range resolution and aliasing?",
         "image": "",
@@ -17842,7 +18260,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 280,
+        "grupo": 279,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which adjustment in a pulsed Doppler system most effectively increases the Nyquist limit to reduce aliasing artifacts?",
         "image": "",
@@ -17861,7 +18279,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 281,
+        "grupo": 280,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which  adjustments are most effective in reducing aliasing artifacts in a Doppler ultrasound system?",
         "image": "",
@@ -17880,7 +18298,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 282,
+        "grupo": 281,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following factors increases the Doppler frequency shift (fD) in ultrasound imaging?",
         "image": "",
@@ -17899,7 +18317,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 283,
+        "grupo": 282,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which statement best describes the Nyquist limit in pulsed Doppler ultrasound?",
         "image": "",
@@ -17918,7 +18336,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 284,
+        "grupo": 283,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "How does increasing the Doppler insonation angle affect the measured Doppler frequency shift in ultrasound imaging?",
         "image": "",
@@ -17937,7 +18355,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 285,
+        "grupo": 284,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which parameter does NOT directly influence the magnitude of the Doppler frequency shift in ultrasound imaging?",
         "image": "",
@@ -17956,7 +18374,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 286,
+        "grupo": 285,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Doppler shift frequencies in ultrasound imaging are typically in which frequency range?",
         "image": "",
@@ -17975,7 +18393,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 287,
+        "grupo": 286,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What are the effects of increasing PRF on: duty factor, Nyquist limit, pulse duration, and beam width in Doppler imaging?",
         "image": "",
@@ -17994,7 +18412,7 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 288,
+        "grupo": 287,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What effect does a higher PRF have on the maximum measurable velocity in a pulsed Doppler system?",
         "image": "",
@@ -25974,559 +26392,141 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Physical Principles",
-    "grupo": "1",
-    "tipo_pregunta": "multiple_choice",
-    "enunciado": "What is the fundamental trade-off in imaging resolution?",
-    "image": "",
-    "opciones": [
-      "Increasing axial resolution always improves penetration",
-      "Higher frequency enhances axial resolution but reduces penetration",
-      "Lower frequency increases resolution and penetration simultaneously",
-      "Axial resolution does not depend on frequency"
-    ],
-    "respuesta_correcta": [
-      "Higher frequency enhances axial resolution but reduces penetration"
-    ],
-    "concept_to_study": "Trade-offs in imaging frequency selection",
-    "explicacion_openai": "In medical imaging, axial resolution refers to the ability to distinguish between two structures that are close together along the beam’s axis. Increasing frequency improves axial resolution because higher-frequency sound waves generate shorter pulses, reducing pulse duration and thus allowing better differentiation of small details. However, a significant trade-off exists: higher frequency waves are absorbed more quickly by tissue, leading to reduced penetration depth. This means that deeper structures become harder to visualize as frequency increases. Therefore, the selection of frequency must always consider both resolution and penetration, as balancing these two factors is critical in achieving optimal image quality.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "2",
-    "tipo_pregunta": "multiple_choice",
-    "enunciado": "Why don’t you always use the highest available frequency for imaging?",
-    "image": "",
-    "opciones": [
-      "It decreases lateral resolution",
-      "It reduces imaging depth or penetration",
-      "It makes images blurry",
-      "It has no impact on imaging quality"
-    ],
-    "respuesta_correcta": [
-      "It reduces imaging depth or penetration"
-    ],
-    "concept_to_study": "Limitations of high-frequency imaging",
-    "explicacion_openai": "While higher-frequency ultrasound improves axial resolution by allowing better differentiation of small structures, it comes at the cost of penetration depth. This occurs because high-frequency waves are more readily absorbed by tissues, leading to greater attenuation. As a result, structures located deeper within the body may not be visible when using a very high-frequency transducer. The decision to use a certain frequency depends on the clinical application. For example, shallow structures such as superficial blood vessels or muscles can be imaged with high-frequency probes, whereas deeper organs like the liver or kidneys require lower frequencies to achieve adequate penetration.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "3",
-    "tipo_pregunta": "multiple_choice",
-    "enunciado": "What do you gain when choosing a lower frequency in medical imaging?",
-    "image": "",
-    "opciones": [
-      "Improved axial resolution",
-      "Reduced imaging depth",
-      "Increased penetration",
-      "Enhanced lateral resolution"
-    ],
-    "respuesta_correcta": [
-      "Increased penetration"
-    ],
-    "concept_to_study": "Benefits of low-frequency imaging",
-    "explicacion_openai": "Lower-frequency ultrasound waves penetrate deeper into tissue because they are less affected by attenuation. This is crucial for imaging deeper structures such as abdominal organs, the heart in transthoracic echocardiography, and fetal assessments. However, the trade-off is that lower frequencies result in reduced axial resolution because the wavelength is longer, causing less differentiation between closely spaced objects. The choice of frequency depends on the anatomical region being studied: while higher frequencies are preferred for superficial imaging, lower frequencies are necessary for deeper structures where resolution must be balanced with depth.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "4",
-    "tipo_pregunta": "multiple_choice",
-    "enunciado": "How should you choose the appropriate imaging frequency?",
-    "image": "",
-    "opciones": [
-      "Always use the lowest frequency available",
-      "Use the highest possible frequency with adequate penetration",
-      "Select a frequency randomly",
-      "Highest frequency always provides the best images, regardless of depth"
-    ],
-    "respuesta_correcta": [
-      "Use the highest possible frequency with adequate penetration"
-    ],
-    "concept_to_study": "Optimizing frequency selection in imaging",
-    "explicacion_openai": "The optimal frequency selection depends on balancing axial resolution and tissue penetration. The best approach is to use the highest frequency that still provides adequate penetration for the target structure. Superficial structures, such as thyroid and vascular imaging, benefit from high-frequency transducers (e.g., 7-15 MHz), while deeper structures, like the liver or fetus, require lower frequencies (e.g., 2-5 MHz) to ensure visibility. Additionally, factors like patient body habitus and pathology influence the choice, as excessive attenuation from high frequencies in larger patients may necessitate lower-frequency imaging for diagnostic clarity.",
-    "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 400,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens to intensity when it is multiplied by 2?",
-        "image": "",
-        "opciones": [
-            "Increase by 6 dB",
-            "Decrease by 3 dB",
-            "Increase by 3 dB",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Increase by 3 dB"
-        ],
-        "concept_to_study": "Decibels describe relative intensity changes.",
-        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is doubled, the increase is 3 dB. Example: If the original intensity is 10 units, doubling it makes it 20 units, which corresponds to a 3 dB increase. The formula used is: dB change = 10 × log(final intensity / initial intensity). For doubling: 10 × log(2) ≈ 3 dB.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 401,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What does a reduction of 6 dB mean for intensity?",
-        "image": "",
-        "opciones": [
-            "Reduced to 1/2",
-            "Reduced to 1/4",
-            "Reduced to 1/8",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Reduced to 1/4"
-        ],
-        "concept_to_study": "Decibels measure intensity reduction.",
-        "explicacion_openai": "A reduction of 6 dB means the intensity is reduced to 1/4 of its original value. Since decibels follow an exponential scale, every 3 dB reduction halves the intensity. Example: If the initial intensity is 100 units, after a 3 dB reduction, it becomes 50 units. After another 3 dB reduction, it becomes 25 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 6 dB reduction: 100 × (1/2)^2 = 25 units.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 402,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens when intensity is halved?",
-        "image": "",
-        "opciones": [
-            "Increase by 3 dB",
-            "Decrease by 3 dB",
-            "Decrease by 6 dB",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Decrease by 3 dB"
-        ],
-        "concept_to_study": "Decibels describe intensity attenuation.",
-        "explicacion_openai": "Halving the intensity results in a loss of 3 dB. Since decibels follow a logarithmic scale, every 3 dB reduction halves the intensity. Example: If the original intensity is 50 units, reducing it to 25 units corresponds to a decrease of 3 dB. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 50 × (1/2)^1 = 25 units.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 403,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What does the half-value layer represent?",
-        "image": "",
-        "opciones": [
-            "Intensity reduced to 1/2",
-            "Intensity increased by 3 dB",
-            "Intensity reduced to 1/4",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Intensity reduced to 1/2"
-        ],
-        "concept_to_study": "Half-value layer describes sound attenuation.",
-        "explicacion_openai": "The half-value layer is the point where sound intensity is reduced to half of its original value, corresponding to a -3 dB change. Example: If sound starts at 80 units, after passing through the half-value layer, it becomes 40 units. Formula: Final intensity = Initial intensity × (1/2)^(dB change / 3). For 3 dB reduction: 80 × (1/2)^1 = 40 units.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 404,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens when overall gain is adjusted from 25 dB to 28 dB?",
-        "image": "",
-        "opciones": [
-            "Intensity is doubled",
-            "Intensity is halved",
-            "Intensity is reduced to 1/4",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Intensity is doubled"
-        ],
-        "concept_to_study": "Decibels describe gain adjustments.",
-        "explicacion_openai": "An increase of 3 dB means the intensity is doubled. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 30 units, increasing the gain by 3 dB makes it 60 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 3 dB increase: 30 × 2^1 = 60 units.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 405,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What does a gain of 6 dB mean for intensity?",
-        "image": "",
-        "opciones": [
-            "Intensity is doubled",
-            "Intensity is quadrupled",
-            "Intensity is halved",
-            "No change"
-        ],
-        "respuesta_correcta": [
-            "Intensity is quadrupled"
-        ],
-        "concept_to_study": "Decibels describe gain.",
-        "explicacion_openai": "A gain of 6 dB corresponds to intensity being increased to four times its original value. Since decibels follow an exponential scale, every 3 dB increase doubles the intensity. Example: If the initial intensity is 10 units, after a 6 dB gain, it becomes 40 units. Formula: Final intensity = Initial intensity × 2^(dB change / 3). For 6 dB increase: 10 × 2^2 = 40 units.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 406,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the intensity is reduced to 1/10 of its original value, what is the corresponding decibel change?",
-        "image": "",
-        "opciones": [
-            "-3 dB",
-            "-6 dB",
-            "-10 dB",
-            "-20 dB"
-        ],
-        "respuesta_correcta": [
-            "-10 dB"
-        ],
-        "concept_to_study": "Decibels describe intensity reduction logarithmically.",
-        "explicacion_openai": "Decibels follow a logarithmic scale, meaning intensity changes exponentially. When intensity is reduced to 1/10 of its original value, the corresponding decibel change is -10 dB. Example: If the initial intensity is 100 units, reducing it to 10 units results in a -10 dB change.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 407,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens to the decibel level when intensity is increased from 1 to 1000?",
-        "image": "",
-        "opciones": [
-            "Increase by 10 dB",
-            "Increase by 20 dB",
-            "Increase by 30 dB",
-            "Increase by 40 dB"
-        ],
-        "respuesta_correcta": [
-            "Increase by 30 dB"
-        ],
-        "concept_to_study": "Decibels describe exponential intensity changes.",
-        "explicacion_openai": "Since decibels follow a logarithmic scale, increasing intensity from 1 to 1000 results in a 30 dB increase. Example: If intensity starts at 1 unit (0 dB) and increases to 1000 units, the decibel level rises to 30 dB.\n\nReference Table:\nIntensity | Decibels\n1000 | 30\n100 | 20\n10 | 10\n4 | 6\n2 | 3\n1 | 0\n1/2 | -3\n1/4 | -6\n1/10 | -10\n1/100 | -20\n1/1000 | -30",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 413,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which sequence correctly represents the positive intensity-decibel relationships as intensity increases?",
-        "image": "",
-        "opciones": [
-            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30",
-            "1/0, 2/0, 4/6, 10/10, 100/20, 1000/30",
-            "1/0, 2/3, 4/5, 10/10, 100/20, 1000/30",
-            "1/0, 3/3, 4/6, 10/10, 100/20, 1000/30"
-        ],
-        "respuesta_correcta": [
-            "1/0, 2/3, 4/6, 10/10, 100/20, 1000/30"
-        ],
-        "concept_to_study": "Positive relationships show how intensity increases and decibels increase exponentially (on a logarithmic scale).",
-        "explicacion_openai": "In the positive sequence, as intensity increases, the decibel level increases according to a logarithmic progression. From the reference table, an intensity of 1 corresponds to 0 dB, doubling to 2 gives 3 dB, doubling again to 4 gives 6 dB, and further increases follow the pattern (10 gives 10 dB, 100 gives 20 dB, and 1000 gives 30 dB). This matches the correct progression: 1/0, 2/3, 4/6, 10/10, 100/20, 1000/30.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 414,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
-        "image": "",
-        "opciones": [
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/-3, 1/4/-5, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-30, 1/1000/-20"
-        ],
-        "respuesta_correcta": [
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30"
-        ],
-        "concept_to_study": "Negative relationships indicate how intensity diminishes and the corresponding decibel value decreases (attenuation) exponentially.",
-        "explicacion_openai": "For intensities below 1, the decibel values become negative following a logarithmic scale. According to the table, an intensity of 1 corresponds to 0 dB, intensity of 1/2 corresponds to -3 dB, 1/4 to -6 dB, 1/10 to -10 dB, 1/100 to -20 dB, and 1/1000 to -30 dB. Thus, the correct negative sequence is: 1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": "7",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type has a duty factor of approximately 100%?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer A (CW)"
-        ],
-        "concept_to_study": "Duty Factor in Continuous Wave (CW) vs. Pulsed Wave (PW) ultrasound.",
-        "explicacion_openai": "Duty Factor represents the percentage of time the transducer is actively transmitting ultrasound waves. Continuous Wave (CW) Doppler, as seen in Transducer A, has a duty factor of nearly 100% because it continuously emits sound waves without pauses. Pulsed Wave (PW) Doppler, as seen in Transducer B, has a much lower duty factor since it alternates between transmitting and receiving pulses.",
-        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, indicating a duty factor close to 100%."
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": "8",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type has a lower duty factor due to intermittent pulse transmission?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer B (PW)"
-        ],
-        "concept_to_study": "Duty Factor in Pulsed Wave (PW) ultrasound.",
-        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, has a lower duty factor because it transmits ultrasound pulses intermittently, allowing time for echoes to return before sending the next pulse. This is essential for depth resolution and prevents continuous wave interference. In contrast, Continuous Wave (CW) Doppler has a duty factor close to 100% since it continuously emits sound waves.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, indicating a lower duty factor."
-    },
-    {
-    "clasificacion": "Physical Principles",
-    "grupo": "10",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Based on the wave patterns in the image, which wave has the highest duty factor?",
-    "image": "CW.png",
-    "opciones": [
-        "Wave A",
-        "Wave B",
-        "Both waves have the same duty factor",
-        "Neither wave has a measurable duty factor"
-    ],
-    "respuesta_correcta": [
-        "Wave A"
-    ],
-    "concept_to_study": "Duty Factor in Continuous and Pulsed Ultrasound Waves.",
-    "explicacion_openai": "Duty Factor represents the percentage of time an ultrasound wave is actively transmitting. Observing the image, one of the waves is continuous, meaning it has a duty factor close to 100%. The other wave consists of pulses, meaning it has a lower duty factor because it alternates between transmitting and receiving.",
-    "image_explanation": "The image 'CW.png' shows two different wave patterns. One of them is continuous, meaning it has the highest duty factor."
-   },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "2",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer A (CW)"
-        ],
-        "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
-        "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
-        "image_explanation": "The image 'CW.png' shows Transducer A emitting continuous waves, while Transducer B emits pulses."
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "3",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type is best suited for measuring high-velocity blood flow without aliasing?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer A (CW)"
-        ],
-        "concept_to_study": "Aliasing in Doppler ultrasound.",
-        "explicacion_openai": "Aliasing occurs when the detected Doppler frequency exceeds the Nyquist limit in Pulsed Wave (PW) Doppler. Continuous Wave (CW) Doppler, as seen in Transducer A, does not suffer from aliasing because it continuously samples the signal, making it ideal for measuring high-velocity blood flow, such as in cardiac and vascular applications.",
-        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) with continuous waves, allowing high-velocity detection without aliasing."
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "4",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type provides depth resolution in Doppler imaging?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer B (PW)"
-        ],
-        "concept_to_study": "Depth resolution in Doppler ultrasound.",
-        "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, sends discrete pulses and waits for echoes, allowing the system to determine the depth of the reflecting structures. This enables precise localization of blood flow within a specific vessel. Continuous Wave (CW) Doppler, on the other hand, does not provide depth resolution because it continuously transmits and receives signals.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, allowing depth resolution."
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "5",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type is more commonly used in echocardiography for assessing high-speed blood flow?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer A (CW)"
-        ],
-        "concept_to_study": "Clinical applications of CW and PW Doppler.",
-        "explicacion_openai": "Continuous Wave (CW) Doppler, as seen in Transducer A, is commonly used in echocardiography to assess high-speed blood flow, such as in stenotic valves or regurgitant jets. Since CW Doppler does not suffer from aliasing, it is ideal for measuring very high velocities accurately. Pulsed Wave (PW) Doppler, while useful for depth resolution, is limited by aliasing at high speeds.",
-        "image_explanation": "The image 'CW.png' shows CW Doppler (Transducer A) emitting continuous waves, which is ideal for high-speed blood flow assessment."
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "6",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer wave type in this image is limited by the Nyquist limit in Doppler imaging?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer B (PW)"
-        ],
-        "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
-        "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
-        "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
-    },
-    {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which term best describes the systematic and scheduled evaluation of equipment performance in a clinical setting?",
-    "image": "",
-    "opciones": [
-      "Accreditation",
-      "Quality Assurance",
-      "Preventative Maintenance",
-      "Credentialing"
-    ],
-    "respuesta_correcta": [
-      "Quality Assurance"
-    ],
-    "concept_to_study": "Quality Assurance in Medical Equipment Performance",
-    "explicacion_openai": "Quality assurance involves systematic and scheduled evaluations to ensure that equipment consistently performs within accepted standards, thereby protecting patient safety and ensuring reliable outcomes.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following best defines preventative maintenance in a healthcare setting?",
-    "image": "",
-    "opciones": [
-      "Immediate repair after a failure",
-      "Scheduled inspections and adjustments to prevent failures",
-      "Evaluation of operator competency",
-      "Periodic regulatory compliance audits"
-    ],
-    "respuesta_correcta": [
-      "Scheduled inspections and adjustments to prevent failures"
-    ],
-    "concept_to_study": "Preventative Maintenance",
-    "explicacion_openai": "Preventative maintenance refers to scheduled inspections and adjustments made to equipment to prevent malfunctions and ensure optimal performance over time.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which ergonomic practice is recommended during scanning to reduce wrist strain?",
-    "image": "",
-    "opciones": [
-      "Using a radial grip",
-      "Using a palmar grip",
-      "Maximizing wrist extension to 40°",
-      "Applying a tight grip on the device"
-    ],
-    "respuesta_correcta": [
-      "Using a palmar grip"
-    ],
-    "concept_to_study": "Ergonomics in Scanning",
-    "explicacion_openai": "Using a palmar grip supports a neutral wrist position, helping to reduce strain and prevent repetitive stress injuries during scanning procedures.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "According to ergonomic guidelines, what is the maximum wrist extension angle recommended during scanning?",
-    "image": "",
-    "opciones": [
-      "10 degrees",
-      "20 degrees",
-      "30 degrees",
-      "40 degrees"
-    ],
-    "respuesta_correcta": [
-      "20 degrees"
-    ],
-    "concept_to_study": "Ergonomic Guidelines for Wrist Position",
-    "explicacion_openai": "To minimize muscle strain and prevent injury, maintaining wrist extension at no more than 20 degrees during scanning is recommended.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the recommended maximum shoulder abduction angle during scanning to prevent muscle strain?",
-    "image": "",
-    "opciones": [
-      "Greater than 45 degrees",
-      "Between 30 and 45 degrees",
-      "Less than 30 degrees",
-      "No specific limit"
-    ],
-    "respuesta_correcta": [
-      "Less than 30 degrees"
-    ],
-    "concept_to_study": "Ergonomic Principles for Upper Body Posture",
-    "explicacion_openai": "Maintaining shoulder abduction at less than 30 degrees helps prevent muscle strain and fatigue, which is important for safe and effective scanning practices.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 37,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which ergonomic adjustment is most effective for reducing the risk of injury during scanning exams?",
-    "image": "",
-    "opciones": [
-      "Twisting the torso to reach the patient",
-      "Adjusting the height of the exam table and chair",
-      "Positioning the monitor below eye level",
-      "Keeping a rigid, fixed posture throughout the exam"
-    ],
-    "respuesta_correcta": [
-      "Adjusting the height of the exam table and chair"
-    ],
-    "concept_to_study": "Ergonomic Posture and Workstation Setup",
-    "explicacion_openai": "Adjusting the height of the exam table and chair ensures a proper ergonomic posture, reducing muscle strain and the risk of injury during prolonged scanning procedures.",
-    "image_explanation": ""
-  },
-   {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 46,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
-    "image": "especificidad.png",
-    "opciones": [
-        "75%",
-        "80%",
-        "85%",
-        "90%"
-    ],
-    "respuesta_correcta": [
-        "85%"
-    ],
-    "concept_to_study": "Specificity.",
-    "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
-    "image_explanation": ""
-  },
-  {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 196,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which term best describes the systematic and scheduled evaluation of equipment performance in a clinical setting?",
+        "image": "",
+        "opciones": [
+            "Accreditation",
+            "Quality Assurance",
+            "Preventative Maintenance",
+            "Credentialing"
+        ],
+        "respuesta_correcta": [
+            "Quality Assurance"
+        ],
+        "concept_to_study": "Quality Assurance in Medical Equipment Performance",
+        "explicacion_openai": "Quality assurance involves systematic and scheduled evaluations to ensure that equipment consistently performs within accepted standards, thereby protecting patient safety and ensuring reliable outcomes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 197,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following best defines preventative maintenance in a healthcare setting?",
+        "image": "",
+        "opciones": [
+            "Immediate repair after a failure",
+            "Scheduled inspections and adjustments to prevent failures",
+            "Evaluation of operator competency",
+            "Periodic regulatory compliance audits"
+        ],
+        "respuesta_correcta": [
+            "Scheduled inspections and adjustments to prevent failures"
+        ],
+        "concept_to_study": "Preventative Maintenance",
+        "explicacion_openai": "Preventative maintenance refers to scheduled inspections and adjustments made to equipment to prevent malfunctions and ensure optimal performance over time.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 198,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ergonomic practice is recommended during scanning to reduce wrist strain?",
+        "image": "",
+        "opciones": [
+            "Using a radial grip",
+            "Using a palmar grip",
+            "Maximizing wrist extension to 40°",
+            "Applying a tight grip on the device"
+        ],
+        "respuesta_correcta": [
+            "Using a palmar grip"
+        ],
+        "concept_to_study": "Ergonomics in Scanning",
+        "explicacion_openai": "Using a palmar grip supports a neutral wrist position, helping to reduce strain and prevent repetitive stress injuries during scanning procedures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 199,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to ergonomic guidelines, what is the maximum wrist extension angle recommended during scanning?",
+        "image": "",
+        "opciones": [
+            "10 degrees",
+            "20 degrees",
+            "30 degrees",
+            "40 degrees"
+        ],
+        "respuesta_correcta": [
+            "20 degrees"
+        ],
+        "concept_to_study": "Ergonomic Guidelines for Wrist Position",
+        "explicacion_openai": "To minimize muscle strain and prevent injury, maintaining wrist extension at no more than 20 degrees during scanning is recommended.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 200,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the recommended maximum shoulder abduction angle during scanning to prevent muscle strain?",
+        "image": "",
+        "opciones": [
+            "Greater than 45 degrees",
+            "Between 30 and 45 degrees",
+            "Less than 30 degrees",
+            "No specific limit"
+        ],
+        "respuesta_correcta": [
+            "Less than 30 degrees"
+        ],
+        "concept_to_study": "Ergonomic Principles for Upper Body Posture",
+        "explicacion_openai": "Maintaining shoulder abduction at less than 30 degrees helps prevent muscle strain and fatigue, which is important for safe and effective scanning practices.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 201,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ergonomic adjustment is most effective for reducing the risk of injury during scanning exams?",
+        "image": "",
+        "opciones": [
+            "Twisting the torso to reach the patient",
+            "Adjusting the height of the exam table and chair",
+            "Positioning the monitor below eye level",
+            "Keeping a rigid, fixed posture throughout the exam"
+        ],
+        "respuesta_correcta": [
+            "Adjusting the height of the exam table and chair"
+        ],
+        "concept_to_study": "Ergonomic Posture and Workstation Setup",
+        "explicacion_openai": "Adjusting the height of the exam table and chair ensures a proper ergonomic posture, reducing muscle strain and the risk of injury during prolonged scanning procedures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 202,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
+        "image": "especificidad.png",
+        "opciones": [
+            "75%",
+            "80%",
+            "85%",
+            "90%"
+        ],
+        "respuesta_correcta": [
+            "85%"
+        ],
+        "concept_to_study": "Specificity.",
+        "explicacion_openai": "Specificity is calculated by dividing the number of true negatives (TN) by the sum of true negatives (TN) and false positives (FP). In formula terms, Specificity = TN / (TN + FP).\n\nFor example, if a test correctly identifies 9 healthy individuals (TN = 9) and incorrectly labels 1 healthy individual as diseased (FP = 1), the calculation becomes 9 / (9 + 1) = 9/10 = 90%, meaning that the test has a 90% specificity.\n\nIn the context of this question, the provided contingency table (shown in the image 'especificidad.png') contains the values needed for the calculation, and the correct specificity is determined to be 80%. This indicates that 80% of healthy individuals are correctly classified as non-diseased by this test.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 203,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Using the contingency table provided, which of the following options represents the specificity of this test?\nNote: Specificity = TN / (TN + FP)",
         "image": "especificidad.png",
@@ -26545,7 +26545,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 204,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Using the contingency table provided, which of the following options represents the sensitivity of this test?\nNote: Sensitivity = TP / (TP + FN)",
         "image": "especificidad.png",
@@ -26564,7 +26564,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 205,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Using the contingency table provided, which of the following options represents the positive predictive value (PPV) of this test?\nNote: PPV = TP / (TP + FP)",
         "image": "especificidad.png",
@@ -26583,7 +26583,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 206,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Using the contingency table provided, which of the following options represents the negative predictive value (NPV) of this test?\nNote: NPV = TN / (TN + FN)",
         "image": "especificidad.png",
@@ -26602,7 +26602,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 207,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Using the contingency table provided, which of the following options represents the overall accuracy of this test?\nNote: Accuracy = (TP + TN) / Total",
         "image": "especificidad.png",
@@ -26621,7 +26621,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 208,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is true when 200 patients with a known disease were tested, and 140 of them tested positive?",
         "image": "",
@@ -26635,11 +26635,12 @@
             "70% Sensitivity"
         ],
         "concept_to_study": "Sensitivity.",
-        "explicacion_openai": "Sensitivity measures the test's ability to correctly identify diseased individuals. In this case, Sensitivity = TP / Total Diseased = 140 / 200 = 70%."
+        "explicacion_openai": "Sensitivity measures the test's ability to correctly identify diseased individuals. In this case, Sensitivity = TP / Total Diseased = 140 / 200 = 70%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 209,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A screening test was performed on 150 individuals, of which 90 were healthy. The test correctly identified 72 of them as healthy. What is the specificity of the test?",
         "image": "",
@@ -26653,11 +26654,12 @@
             "80%"
         ],
         "concept_to_study": "Specificity.",
-        "explicacion_openai": "Specificity is calculated as TN / (TN + FP). Here, TN = 72 and FP = 18, so Specificity = 72 / (72 + 18) = 72/90 = 80%."
+        "explicacion_openai": "Specificity is calculated as TN / (TN + FP). Here, TN = 72 and FP = 18, so Specificity = 72 / (72 + 18) = 72/90 = 80%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 210,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Out of 120 patients tested, 40 had the disease. Among them, 32 tested positive while 8 tested negative. What is the sensitivity of this test?",
         "image": "",
@@ -26671,11 +26673,12 @@
             "80%"
         ],
         "concept_to_study": "Sensitivity.",
-        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 32 and FN = 8, Sensitivity = 32 / (32 + 8) = 32/40 = 80%."
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 32 and FN = 8, Sensitivity = 32 / (32 + 8) = 32/40 = 80%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 211,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A diagnostic test was used on 180 individuals, and 60 were truly diseased. Among the diseased, 45 tested positive, while among the healthy, 90 tested negative. What is the positive predictive value (PPV)?",
         "image": "",
@@ -26689,11 +26692,12 @@
             "66.7%"
         ],
         "concept_to_study": "Positive Predictive Value.",
-        "explicacion_openai": "PPV = TP / (TP + FP). Here, TP = 45 and FP = 15, so PPV = 45 / (45 + 15) = 45/60 = 66.7%."
+        "explicacion_openai": "PPV = TP / (TP + FP). Here, TP = 45 and FP = 15, so PPV = 45 / (45 + 15) = 45/60 = 66.7%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 212,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A test was performed on 200 people, of which 50 had the disease. The test identified 40 of them correctly as positive and wrongly classified 20 healthy individuals as diseased. What is the specificity of the test?",
         "image": "",
@@ -26707,11 +26711,12 @@
             "80%"
         ],
         "concept_to_study": "Specificity.",
-        "explicacion_openai": "Specificity = TN / (TN + FP). With TN = 120 and FP = 30, Specificity = 120 / (120 + 30) = 120/150 = 80%."
+        "explicacion_openai": "Specificity = TN / (TN + FP). With TN = 120 and FP = 30, Specificity = 120 / (120 + 30) = 120/150 = 80%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 213,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A test examined 90 individuals for a disease. Of the 30 diseased patients, 20 tested positive. Of the 60 healthy individuals, 50 tested negative. What is the negative predictive value (NPV)?",
         "image": "",
@@ -26725,11 +26730,12 @@
             "83.3%"
         ],
         "concept_to_study": "Negative Predictive Value.",
-        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 50 and FN = 10, NPV = 50 / (50 + 10) = 50/60 = 83.3%."
+        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 50 and FN = 10, NPV = 50 / (50 + 10) = 50/60 = 83.3%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 214,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A hospital tested 250 individuals for a rare condition. 80 were diagnosed with the disease, while 170 were healthy. The test correctly identified 65 diseased individuals. What is the sensitivity?",
         "image": "",
@@ -26743,11 +26749,12 @@
             "81.25%"
         ],
         "concept_to_study": "Sensitivity.",
-        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 65 and FN = 15, Sensitivity = 65 / (65 + 15) = 65/80 = 81.25%."
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 65 and FN = 15, Sensitivity = 65 / (65 + 15) = 65/80 = 81.25%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 215,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A new screening test was evaluated on 500 individuals. Out of them, 150 had the disease, and 120 tested positive. What is the sensitivity?",
         "image": "",
@@ -26761,11 +26768,12 @@
             "80%"
         ],
         "concept_to_study": "Sensitivity.",
-        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 120 and FN = 30, Sensitivity = 120 / (120 + 30) = 120/150 = 80%."
+        "explicacion_openai": "Sensitivity = TP / (TP + FN). With TP = 120 and FN = 30, Sensitivity = 120 / (120 + 30) = 120/150 = 80%.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 46,
+        "grupo": 216,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Out of 180 patients tested, 60 had the disease. Among them, 45 tested positive while 15 tested negative. What is the negative predictive value (NPV)?",
         "image": "",
@@ -26779,7 +26787,7 @@
             "90%"
         ],
         "concept_to_study": "Negative Predictive Value.",
-        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 108 and FN = 12, NPV = 108 / (108 + 12) = 108/120 = 90%."
+        "explicacion_openai": "NPV = TN / (TN + FN). With TN = 108 and FN = 12, NPV = 108 / (108 + 12) = 108/120 = 90%.",
+        "image_explanation": ""
     }
 ]
-
