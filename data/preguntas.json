@@ -12888,13 +12888,13 @@
         "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Transducer A"
         ],
         "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
         "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
@@ -12907,13 +12907,13 @@
         "enunciado": "Which transducer wave type is best suited for measuring high-velocity blood flow without aliasing?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Transducer A"
         ],
         "concept_to_study": "Aliasing in Doppler ultrasound.",
         "explicacion_openai": "Aliasing occurs when the detected Doppler frequency exceeds the Nyquist limit in Pulsed Wave (PW) Doppler. Continuous Wave (CW) Doppler, as seen in Transducer A, does not suffer from aliasing because it continuously samples the signal, making it ideal for measuring high-velocity blood flow, such as in cardiac and vascular applications.",
@@ -12926,13 +12926,13 @@
         "enunciado": "Which transducer wave type provides depth resolution in Doppler imaging?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer B (PW)"
+            "Transducer B"
         ],
         "concept_to_study": "Depth resolution in Doppler ultrasound.",
         "explicacion_openai": "Pulsed Wave (PW) Doppler, as seen in Transducer B, sends discrete pulses and waits for echoes, allowing the system to determine the depth of the reflecting structures. This enables precise localization of blood flow within a specific vessel. Continuous Wave (CW) Doppler, on the other hand, does not provide depth resolution because it continuously transmits and receives signals.",
@@ -12945,13 +12945,13 @@
         "enunciado": "Which transducer wave type is more commonly used in echocardiography for assessing high-speed blood flow?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Transducer A"
         ],
         "concept_to_study": "Clinical applications of CW and PW Doppler.",
         "explicacion_openai": "Continuous Wave (CW) Doppler, as seen in Transducer A, is commonly used in echocardiography to assess high-speed blood flow, such as in stenotic valves or regurgitant jets. Since CW Doppler does not suffer from aliasing, it is ideal for measuring very high velocities accurately. Pulsed Wave (PW) Doppler, while useful for depth resolution, is limited by aliasing at high speeds.",
@@ -12964,13 +12964,13 @@
         "enunciado": "Which transducer wave type in this image is limited by the Nyquist limit in Doppler imaging?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer B (PW)"
+            "Transducer B"
         ],
         "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
         "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
