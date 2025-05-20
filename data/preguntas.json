@@ -26922,5 +26922,81 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 92,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the provided spectral Doppler image, what adjustment is most likely responsible for making the left panel (marked with a yellow star) display a cleaner baseline compared to the right panel (marked with a blue star)?",
+    "image": "wall_filter.png",
+    "opciones": [
+      "Increasing the wall filter threshold to remove low-frequency signals",
+      "Decreasing the wall filter threshold to allow more low-frequency signals",
+      "Increasing overall Doppler gain",
+      "Lowering the pulse repetition frequency"
+    ],
+    "respuesta_correcta": [
+      "Increasing the wall filter threshold to remove low-frequency signals"
+    ],
+    "concept_to_study": "Wall filter application",
+    "explicacion_openai": "In spectral Doppler imaging, a higher wall filter threshold eliminates low-frequency signals such as those from vessel wall motion, resulting in a clearer baseline. The left panel (yellow star) shows this advantage compared to the right panel (blue star), which exhibits more low-intensity echoes.",
+    "image_explanation": "The image contrasts two panels: the left (yellow star) has a clean baseline due to the wall filter eliminating low-frequency noise, while the right (blue star) shows residual low-frequency echoes."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 92,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided spectral Doppler image, which panel shows the presence of low-intensity echoes that are typically observed when a wall filter is not applied? (Refer to the star indicators.)",
+    "image": "wall_filter.png",
+    "opciones": [
+      "Left panel (yellow star)",
+      "Right panel (blue star)",
+      "Both panels",
+      "Neither panel"
+    ],
+    "respuesta_correcta": [
+      "Right panel (blue star)"
+    ],
+    "concept_to_study": "Wall filter application",
+    "explicacion_openai": "The right panel, marked by the blue star, exhibits low-intensity echoes, which is characteristic of a display without the wall filter actively removing low-frequency signals. In contrast, the left panel with the yellow star shows a cleaner baseline.",
+    "image_explanation": "Notice that the right side of the image (blue star) reveals more low-frequency echo signals, indicating the absence of wall filtering, as opposed to the left side (yellow star)."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 92,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Using the provided image, what is the key diagnostic advantage provided by the wall filter application seen in the panel with the yellow star?",
+    "image": "wall_filter.png",
+    "opciones": [
+      "It removes low-frequency noise to produce a cleaner baseline",
+      "It amplifies both low- and high-frequency signals indiscriminately",
+      "It increases overall signal sensitivity, leading to more clutter",
+      "It reduces the sampling rate of the Doppler signal"
+    ],
+    "respuesta_correcta": [
+      "It removes low-frequency noise to produce a cleaner baseline"
+    ],
+    "concept_to_study": "Wall filter application",
+    "explicacion_openai": "The wall filter's main advantage is its ability to eliminate low-frequency signals that can obscure true blood flow data, resulting in a clearer and more interpretable spectral display. This is exemplified by the clean baseline in the left panel (yellow star) compared to the cluttered appearance in the right panel (blue star).",
+    "image_explanation": "The left panel (yellow star) illustrates the beneficial effect of the wall filter, which removes low-frequency clutter and enhances the detection of actual flow signals, as opposed to the right panel where such echoes are visible."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 92,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Using the provided spectral Doppler image, what is a potential disadvantage of applying an excessively high wall filter setting, as suggested by the panel marked with the yellow star?",
+    "image": "wall_filter.png",
+    "opciones": [
+      "It may eliminate important low-velocity flow information, hindering proper diagnosis.",
+      "It can increase high-frequency noise, causing signal oversaturation.",
+      "It results in an artificially cluttered baseline.",
+      "It decreases overall Doppler gain, reducing image brightness."
+    ],
+    "respuesta_correcta": [
+      "It may eliminate important low-velocity flow information, hindering proper diagnosis."
+    ],
+    "concept_to_study": "Wall filter over-application",
+    "explicacion_openai": "An excessively high wall filter setting can remove not only unwanted low-frequency noise but also valuable low-velocity blood flow signals. This loss of slow flow information can lead to an underestimation of blood flow, which is critical for accurate diagnosis. The panel marked with the yellow star in the image demonstrates a very clean baseline, which, if too pronounced, may indicate that essential diagnostic details are being filtered out.",
+    "image_explanation": "The image contrasts two panels: the left panel (yellow star) displays an overly clean baseline due to a high wall filter setting, while the right panel (blue star) shows visible low-frequency echoes. This comparison helps illustrate the potential downside of an excessive wall filter setting."
+  }
 ]
