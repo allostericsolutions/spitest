@@ -25312,7 +25312,7 @@
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 139,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A high MI reading on the ultrasound system display indicates:",
+        "enunciado": "A high MI (Mechanical Index) reading on the ultrasound system display indicates:",
         "image": "",
         "opciones": [
             "Increased risk of thermal effects.",
@@ -25323,8 +25323,8 @@
         "respuesta_correcta": [
             "Increased risk of cavitation."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Cavitation and Mechanical Index",
+        "explicacion_openai": "The Mechanical Index (MI) measures the ultrasound system’s potential to induce cavitation, particularly inertial (transient) cavitation. A high MI indicates elevated acoustic pressure relative to the ultrasound frequency, which increases the likelihood of bubble formation and violent collapse, potentially causing tissue damage.",
         "image_explanation": ""
     },
     {
