@@ -7717,16 +7717,16 @@
         "clasificacion": "Physical Principles",
         "grupo": 407,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type has a duty factor of approximately 100%?",
+        "enunciado": "Which transducer type has a duty factor of 100%?",
         "image": "CW.png",
         "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
+            "Transducer A",
+            "Transducer B",
             "Both transducers",
             "Neither transducer"
         ],
         "respuesta_correcta": [
-            "Transducer A (CW)"
+            "Transducer A"
         ],
         "concept_to_study": "Duty Factor in Continuous Wave (CW) vs. Pulsed Wave (PW) ultrasound.",
         "explicacion_openai": "Duty Factor represents the percentage of time the transducer is actively transmitting ultrasound waves. Continuous Wave (CW) Doppler, as seen in Transducer A, has a duty factor of nearly 100% because it continuously emits sound waves without pauses. Pulsed Wave (PW) Doppler, as seen in Transducer B, has a much lower duty factor since it alternates between transmitting and receiving pulses.",
