@@ -26998,5 +26998,62 @@
     "concept_to_study": "Wall filter over-application",
     "explicacion_openai": "An excessively high wall filter setting can remove not only unwanted low-frequency noise but also valuable low-velocity blood flow signals. This loss of slow flow information can lead to an underestimation of blood flow, which is critical for accurate diagnosis. The panel marked with the yellow star in the image demonstrates a very clean baseline, which, if too pronounced, may indicate that essential diagnostic details are being filtered out.",
     "image_explanation": "The image contrasts two panels: the left panel (yellow star) displays an overly clean baseline due to a high wall filter setting, while the right panel (blue star) shows visible low-frequency echoes. This comparison helps illustrate the potential downside of an excessive wall filter setting."
-  }
+  },
+  {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best lateral resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best lateral resolution.",
+        "explicacion_openai": "The best lateral resolution is achieved at the focal point (B) because the ultrasound beam is narrowest at that location. Lateral resolution is also referred to as azimuthal, transverse, and angular resolution, collectively abbreviated as **LATA**. This abbreviation represents all terms used to describe resolution in the lateral axis, which is crucial for distinguishing closely spaced objects that are side-by-side. At the focal point, the beam width is minimized, leading to the highest image clarity and separation of adjacent structures.",
+        "image_explanation": "The image displays an ultrasound beam converging toward point B."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best azimuthal resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best azimuthal resolution.",
+        "explicacion_openai": "The best azimuthal resolution is achieved at the focal point (B). Azimuthal resolution is synonymous with lateral, transverse, and angular resolution, collectively abbreviated as **LATA**. These terms describe the ability of the ultrasound system to differentiate between objects positioned side-by-side. Since the beam narrows at the focal point, azimuthal resolution is optimal there, allowing for greater accuracy in separating close structures.",
+        "image_explanation": "The image shows an ultrasound beam converging to point B, indicating optimal resolution."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best angular resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best angular resolution.",
+        "explicacion_openai": "Angular resolution is optimal at the focal point (B), where the ultrasound beam reaches its narrowest width. Angular resolution, like azimuthal, transverse, and lateral resolution, belongs to the **LATA** group, which describes the system’s ability to differentiate objects in the lateral axis. The focal point is ideal because the beam is most concentrated, maximizing resolution and minimizing distortion.",
+        "image_explanation": "The provided image illustrates an ultrasound beam focusing at point B."
+    }
 ]
