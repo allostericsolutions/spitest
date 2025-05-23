@@ -21047,8 +21047,8 @@
         "respuesta_correcta": [
             "Pulser"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound system components and energy transmission, PULSER",
+        "explicacion_openai": "The pulser in an ultrasound system is responsible for generating electrical signals that are sent to the transducer to produce sound waves. However, the pulser itself does not directly influence the amount of energy delivered to the patient. The energy delivered is mainly determined by components like the transmitter and beam former, which shape and control the ultrasound waves. The receiver processes the returning echoes, but it does not affect the transmission of energy either.",
         "image_explanation": ""
     },
     {
@@ -21066,8 +21066,8 @@
         "respuesta_correcta": [
             "Two"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Bit depth and grayscale representation",
+        "explicacion_openai": "In digital imaging, the bit depth determines the number of possible shades of gray in an image. An image with 1-bit memory per pixel can only have two possible states: 0 and 1, typically representing black and white. Since a single bit only allows these two values, the number of possible shades of gray is exactly two. More bits per pixel would increase the number of shades: 2 bits allow four shades, 8 bits allow 256 shades, and 24 bits provide millions of colors in RGB images.",
         "image_explanation": ""
     },
     {
@@ -21085,8 +21085,8 @@
         "respuesta_correcta": [
             "Master synchronizer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Pulse timing and synchronization in imaging systems",
+        "explicacion_openai": "The Master Synchronizer is the component responsible for coordinating the timing of pulse emissions and receptions in an imaging system. It ensures that signals are transmitted and received in the correct sequence, allowing accurate determination of pulse locations. Without proper synchronization, the imaging system would be unable to generate a coherent representation of structures, as timing discrepancies could result in spatial inaccuracies.",
         "image_explanation": ""
     },
     {
@@ -21123,8 +21123,8 @@
         "respuesta_correcta": [
             "The machine assumes 1540 m/s for all tissue"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Propagation speed and imaging artifacts",
+        "explicacion_openai": "Artifacts related to propagation speed occur because ultrasound machines universally assume that sound travels through all tissues at a constant speed of 1540 m/s. However, in reality, different tissues have varying propagation speeds—for example, fat, muscle, and bone all transmit sound at different velocities. When the actual speed differs from the assumed speed, errors in positioning and depth estimation can occur, leading to propagation speed artifacts. These artifacts can manifest as incorrect placement of structures or distortion of image depth, affecting diagnostic accuracy.",
         "image_explanation": ""
     },
     {
