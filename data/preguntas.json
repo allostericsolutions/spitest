@@ -5452,26 +5452,7 @@
         "explicacion_openai": "Mirror artifacts do not result in the acoustic shadowing that real structures often produce, which helps differentiate them.",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 288,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What feature suggests that the artifact in the image is not a comet tail artifact?",
-        "image": "mirrow.png",
-        "opciones": [
-            "Regularly spaced bright echoes",
-            "Lack of rapid tapering",
-            "Appears as multiple parallel lines",
-            "Presence of shadowing"
-        ],
-        "respuesta_correcta": [
-            "Lack of rapid tapering"
-        ],
-        "concept_to_study": "Comet tail",
-        "explicacion_openai": "An artifact that lacks the tapered appearance of rapidly diminishing echoes is not a comet tail artifact, which typically shows bright, tightly spaced, tapering echoes.",
-        "image_explanation": ""
-    },
-    {
+        {
         "clasificacion": "Physical Principles",
         "grupo": 289,
         "tipo_pregunta": "opcion_multiple",
