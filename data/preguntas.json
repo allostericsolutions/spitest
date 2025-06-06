@@ -27055,5 +27055,119 @@
         "concept_to_study": "Identify the point of best angular resolution.",
         "explicacion_openai": "Angular resolution is optimal at the focal point (B), where the ultrasound beam reaches its narrowest width. Angular resolution, like azimuthal, transverse, and lateral resolution, belongs to the **LATA** group, which describes the system’s ability to differentiate objects in the lateral axis. The focal point is ideal because the beam is most concentrated, maximizing resolution and minimizing distortion.",
         "image_explanation": "The provided image illustrates an ultrasound beam focusing at point B."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 1,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the best method or the most appropriate approach to improve this artifact?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Decrease PRF/scale",
+            "c) Increase the Doppler gain",
+            "d) Lower the wall filter settings"
+        ],
+        "respuesta_correcta": [
+            "a) Increase PRF/scale"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "Increasing the PRF (Pulse Repetition Frequency) or the velocity scale effectively broadens the Nyquist limit, reducing aliasing artifacts. This adjustment allows for a more accurate depiction of higher blood flow velocities, while the other options may exacerbate the issue.",
+        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. Aliasing occurs when high blood flow velocities exceed the system’s Nyquist limit, often due to low PRF settings or suboptimal insonation angles."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 2,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following methods cannot resolve the aliasing artifact?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Reposition the sample volume",
+            "c) Adjust the insonation angle",
+            "d) Increase the Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "d) Increase the Doppler gain"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "While increasing the PRF/scale, repositioning the sample volume, and adjusting the insonation angle can effectively reduce aliasing, increasing the Doppler gain simply amplifies the signal without correcting the underlying sampling issues.",
+        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. The artifact is due to limitations such as low PRF or unsuitable insonation angles that cause high-velocity signals to wrap around the display."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 3,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "All of the following elements can resolve this artifact except:",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Reposition the sample volume",
+            "c) Adjust the insonation angle",
+            "d) Increase the Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "d) Increase the Doppler gain"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, repositioning the sample volume and adjusting the insonation angle optimize flow measurement—all of which help reduce aliasing. However, increasing the Doppler gain only amplifies the signal, including any aliasing artifacts, without eliminating the cause.",
+        "image_explanation": "This image is a color Doppler ultrasound view that shows aliasing. The artifact results from high velocities exceeding the Nyquist limit due to factors like low PRF and an inappropriate insonation angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 4,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "All of the following elements would prevent the aliasing artifact shown in this image:",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle",
+            "b) Decrease PRF/scale, maintain the current sample volume, keep the insonation angle unchanged",
+            "c) Increase the Doppler gain, leave PRF/scale unchanged, do not reposition the sample volume",
+            "d) Lower the wall filter settings, keep PRF/scale constant, make no adjustment to the insonation angle"
+        ],
+        "respuesta_correcta": [
+            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle"
+        ],
+        "concept_to_study": "Prevention of Doppler aliasing artifacts",
+        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, while repositioning the sample volume and adjusting the insonation angle optimize beam alignment with the direction of blood flow. These adjustments help prevent aliasing by ensuring high flow velocities are accurately sampled. The other options either lower the Nyquist limit or simply amplify the aliasing artifact instead of preventing it.",
+        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. Aliasing occurs when high blood flow velocities exceed the system's Nyquist limit, often due to low PRF settings or an inappropriate insonation angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 5,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which underlying physical principle is responsible for the artifact observed in the provided Doppler ultrasound image?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)",
+            "b) Signal attenuation from deep tissue imaging",
+            "c) Excessive wall filter settings removing high-frequency components",
+            "d) Overamplification caused by a high Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)"
+        ],
+        "concept_to_study": "Fundamental physics behind Doppler aliasing",
+        "explicacion_openai": "Aliasing in Doppler ultrasound occurs when the actual Doppler frequency shift exceeds the Nyquist limit, which is determined by the PRF. When the PRF is too low, high-velocity blood flow generates shifts that wrap around the display, resulting in the aliasing artifact. The other factors do not directly account for this phenomenon.",
+        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. The artifact arises because high flow velocities exceed the system's Nyquist limit, a direct consequence of low PRF settings."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 6,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "How does adjusting the insonation angle affect the likelihood of this image in Doppler ultrasound imaging?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it",
+            "b) A smaller insonation angle decreases the measured velocity and reduces aliasing, while a larger angle increases it",
+            "c) Changing the insonation angle has minimal impact on aliasing occurrence",
+            "d) The insonation angle affects only spatial resolution, not the Doppler shift"
+        ],
+        "respuesta_correcta": [
+            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it"
+        ],
+        "concept_to_study": "Effect of insonation angle on Doppler aliasing",
+        "explicacion_openai": "The Doppler frequency shift is proportional to the cosine of the insonation angle. With a smaller angle (more parallel to blood flow), the cosine value is higher, resulting in a higher measured velocity that is more likely to exceed the Nyquist limit, thereby causing aliasing. In contrast, a larger angle decreases the effective velocity measurement and reduces aliasing, though it may also lower the signal intensity.",
+        "image_explanation": "This image is a color Doppler ultrasound view demonstrating aliasing. The artifact is influenced by the Doppler angle, which affects the magnitude of the measured velocity and, consequently, the appearance of aliasing."
     }
 ]
