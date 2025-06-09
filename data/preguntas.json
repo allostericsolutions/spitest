@@ -26129,7 +26129,7 @@
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 183,
         "tipo_pregunta": "multiple_choice",
-        "enunciado": "Which metrics are traditionally regarded as the gold standard for evaluating the diagnostic accuracy of an imaging modality?",
+        "enunciado": "What is the primary and most widely used metrics for determining diagnostic accuracy of the image based on distinguishing between positive and negative predictive values?",
         "image": "",
         "opciones": [
             "Sensitivity and specificity",
