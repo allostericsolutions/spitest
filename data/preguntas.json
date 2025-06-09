@@ -27136,7 +27136,7 @@
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 6,
         "tipo_pregunta": "multiple_choice",
-        "enunciado": "How does adjusting the insonation angle affect the likelihood of this image in Doppler ultrasound imaging?",
+        "enunciado": "In this color Doppler image, aliasing is observed in a blood vessel. Which of the following statements best explains how changing the insonation angle affects the measured Doppler shift—and thus the occurrence of aliasing?",
         "image": "doppler_aliasing.png",
         "opciones": [
             "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it",
