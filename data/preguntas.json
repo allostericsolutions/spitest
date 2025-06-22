@@ -25486,8 +25486,8 @@
         "enunciado": "What does the horizontal arrangement of pins under letter B assess in the phantom?",
         "image": "phantom.png",
         "opciones": [
-            "Spatial resolution",
-            "Axial resolution",
+            "Temporal resolution",
+            "Contrast resolution",
             "Lateral resolution",
             "Grey scale uniformity"
         ],
