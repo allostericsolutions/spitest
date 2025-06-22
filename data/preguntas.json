@@ -17030,7 +17030,7 @@
         "enunciado": "What does the 'A' marked on the Doppler spectral waveform represent?",
         "image": "ventana.png",
         "opciones": [
-            "The spectral window showing laminar flow",
+            "The spectral window showing turbulence",
             "The envelope showing the peak velocities at a given time",
             "The area representing aliasing",
             "The baseline separating positive and negative flows"
