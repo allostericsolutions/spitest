@@ -27150,5 +27150,62 @@
         "concept_to_study": "Effect of insonation angle on Doppler aliasing",
         "explicacion_openai": "The Doppler frequency shift is proportional to the cosine of the insonation angle. With a smaller angle (more parallel to blood flow), the cosine value is higher, resulting in a higher measured velocity that is more likely to exceed the Nyquist limit, thereby causing aliasing. In contrast, a larger angle decreases the effective velocity measurement and reduces aliasing, though it may also lower the signal intensity.",
         "image_explanation": "This image is a color Doppler ultrasound view demonstrating aliasing. The artifact is influenced by the Doppler angle, which affects the magnitude of the measured velocity and, consequently, the appearance of aliasing."
-    }
+    },
+    {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "how do you fix this image ? (the color box is blue for easier identification)",
+  "image": "dopplersteer.png",
+  "opciones": [
+    "Steer to the left",
+    "Steer to the right",
+    "Do not adjust",
+    "Reverse the Doppler color"
+  ],
+  "respuesta_correcta": [
+    "Steer to the right"
+  ],
+  "concept_to_study": "Color Doppler Steering.",
+  "explicacion_openai": "In the provided image, the Doppler color box (highlighted in blue) is misaligned with the direction of blood flow. This results in suboptimal insonation angles and color aliasing. The goal in Doppler imaging is to orient the beam as parallel as possible to the flow. Steering the beam to the right improves angle alignment, optimizing signal detection and ensuring accurate velocity representation.",
+  "image_explanation": "The misalignment between the Doppler beam and vessel axis produces flow dropout and color confusion. Steering the beam right brings the insonation angle closer to parallel with the flow path, correcting the issue."
+},
+    {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What does the misalignment between the Doppler box and vessel suggest in this image?",
+  "image": "dopplersteer.png",
+  "opciones": [
+    "The vessel is occluded",
+    "The beam angle is suboptimal for Doppler analysis",
+    "The gain is too high",
+    "There is aliasing in the spectral waveform"
+  ],
+  "respuesta_correcta": [
+    "The beam angle is suboptimal for Doppler analysis"
+  ],
+  "concept_to_study": "Angle optimization in Doppler ultrasound.",
+  "explicacion_openai": "The Doppler box is not aligned with the vessel's direction, suggesting an improper angle of insonation. This can result in inaccurate velocity readings and poor Doppler signal quality.",
+  "image_explanation" : ""  
+},
+    {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What is wrong with this image (the color box is blue for easier identification)?",
+  "image": "dopplersteer.png",
+  "opciones": [
+    "Incorrect steering",
+    "Reversed color coding",
+    "Excessive Doppler gain",
+    "Misplaced focal zone"
+  ],
+  "respuesta_correcta": [
+    "Incorrect steering"
+  ],
+  "concept_to_study": "Color Doppler Steering.",
+  "explicacion_openai": "The Doppler color box isn’t aligned with the vessel’s axis, indicating incorrect beam steering and resulting in suboptimal velocity measurements.",
+  "image_explanation": "Notice the asymmetric color fill—this shows the beam is angled improperly. Proper steering realigns the beam parallel to flow."
+}
 ]
