@@ -15717,7 +15717,7 @@
         "grupo": 146,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
-        "image": "window2.jpg",
+        "image": "window2.png",
         "opciones": [
             "Sample A",
             "Sample B",
@@ -15736,7 +15736,7 @@
         "grupo": 147,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While evaluating the vessel segment with sample volume C (the region with the depicted atherosclerotic plaque), the Doppler spectral waveform demonstrates an increased peak systolic velocity and spectral broadening. Which of the following statements is *MOST ACCURATE* regarding these findings?",
-        "image": "window.jpg",
+        "image": "window.png",
         "opciones": [
             "The spectral broadening indicates normal laminar flow within the stenosis.",
             "The increased peak systolic velocity is inconsistent with the presence of a stenosis.",
@@ -15755,7 +15755,7 @@
         "grupo": 148,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Considering the spectral Doppler waveform presented in the image, which of the sample volumes (A, B, C, or D) is *LEAST LIKELY* to have generated this specific waveform?",
-        "image": "window.jpg",
+        "image": "window.png",
         "opciones": [
             "Sample A",
             "Sample B",
@@ -15774,7 +15774,7 @@
         "grupo": 149,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to demonstrate primarily laminar flow under normal physiological conditions?",
-        "image": "window2.jpg",
+        "image": "window2.png",
         "opciones": [
             "Sample A",
             "Sample B",
@@ -15793,7 +15793,7 @@
         "grupo": 150,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) would *MOST LIKELY* demonstrate turbulent flow patterns?",
-        "image": "window2.jpg",
+        "image": "window2.png",
         "opciones": [
             "Sample A",
             "Sample B",
@@ -15812,7 +15812,7 @@
         "grupo": 151,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the sample volumes (A, B, C, or D) is *MOST LIKELY* to display a plug flow profile?",
-        "image": "window2.jpg",
+        "image": "window2.png",
         "opciones": [
             "Sample A",
             "Sample B",
@@ -15831,7 +15831,7 @@
         "grupo": 152,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sample volume (A, B, C, or D) is *MOST LIKELY* to show flow reversal or flow separation?",
-        "image": "window.jpg",
+        "image": "window.png",
         "opciones": [
             "Sample A",
             "Sample B",
