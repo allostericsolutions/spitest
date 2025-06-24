@@ -27207,5 +27207,43 @@
   "concept_to_study": "Color Doppler Steering.",
   "explicacion_openai": "The Doppler color box isn’t aligned with the vessel’s axis, indicating incorrect beam steering and resulting in suboptimal velocity measurements.",
   "image_explanation": "Notice the asymmetric color fill—this shows the beam is angled improperly. Proper steering realigns the beam parallel to flow."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "How do you fix this image?",
+  "image": "dopplersteer2.png",
+  "opciones": [
+    "Steer to the left",
+    "Steer to the right",
+    "Do not adjust",
+    "Reverse the Doppler color"
+  ],
+  "respuesta_correcta": [
+    "Steer to the left"
+  ],
+  "concept_to_study": "Color Doppler Steering.",
+  "explicacion_openai": "The Doppler color box is misaligned to the right of the vessel’s axis, causing suboptimal insonation. By steering the box to the left, the ultrasound beam aligns parallel to flow, ensuring accurate velocity assessment.",
+  "image_explanation": "The uneven color distribution shifted to the right indicates poor beam–flow alignment; steering left recenters the box over the vessel."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What is wrong with this image?",
+  "image": "dopplersteer2.png",
+  "opciones": [
+    "Incorrect steering",
+    "Reversed color coding",
+    "Excessive Doppler gain",
+    "Misplaced focal zone"
+  ],
+  "respuesta_correcta": [
+    "Incorrect steering"
+  ],
+  "concept_to_study": "Color Doppler Steering.",
+  "explicacion_openai": "In the original image you saw a straight vessel with the blue Doppler box shifted off to the vessel’s right side, causing the beam to hit at an oblique angle. Because Doppler steering must align the ultrasound beam as parallel as possible to the vessel’s axis, the control should be moved left until the box is centered over the lumen. That realignment minimizes the insonation angle and ensures accurate flow velocity readings.",
+  "image_explanation": "Notice the asymmetric color distribution shifted right; this shows the beam is misaligned and needs to be steered to the left."
 }
 ]
