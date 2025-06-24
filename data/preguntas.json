@@ -4,7 +4,7 @@
         "grupo": 229,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Observe the ultrasound image. What is the name of the artifact indicated by the increased echogenicity behind the fluid-filled structure?",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Acoustic shadowing",
             "Reverberation artifact",
@@ -42,7 +42,7 @@
         "grupo": 231,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A patient with a known liver cyst undergoes an ultrasound examination. The area deep to the cyst appears brighter than the surrounding tissue. What is the cause of this increased brightness?",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Increased attenuation of sound waves",
             "Reduced speed of sound in the cyst",
@@ -156,7 +156,7 @@
         "grupo": 239,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In ultrasonography, posterior enhancement is often observed behind:",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Bones",
             "Air-filled structures",
@@ -194,7 +194,7 @@
         "grupo": 242,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While performing a FAST exam, you see increased echogenicity behind the free fluid in Morrison's pouch.  This artifact is called:",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Mirror Image",
             "Reverberation",
@@ -403,7 +403,7 @@
         "grupo": 253,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the artifact you see in this image, what type of tissue interface is LEAST likely to be present immediately anterior to the bright region?",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Fluid-soft tissue",
             "Soft tissue-bone",
@@ -460,7 +460,7 @@
         "grupo": 256,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Given what you see in this image, is it possible to determine the *exact* depth of the structure causing the enhancement, using *only* this B-mode image?",
-        "image": "enhacement2.png",
+        "image": "enhacement.png",
         "opciones": [
             "Yes, by measuring the distance on the screen.",
             "Yes, by using the time-gain compensation (TGC) curve.",
