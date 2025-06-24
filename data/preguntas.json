@@ -27245,5 +27245,24 @@
   "concept_to_study": "Color Doppler Steering.",
   "explicacion_openai": "In the original image you saw a straight vessel with the blue Doppler box shifted off to the vessel’s right side, causing the beam to hit at an oblique angle. Because Doppler steering must align the ultrasound beam as parallel as possible to the vessel’s axis, the control should be moved left until the box is centered over the lumen. That realignment minimizes the insonation angle and ensures accurate flow velocity readings.",
   "image_explanation": "Notice the asymmetric color distribution shifted right; this shows the beam is misaligned and needs to be steered to the left."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "All of the following statements about this image are true, EXCEPT:",
+  "image": "dopplersteer2.png",
+  "opciones": [
+    "The Doppler color box is shifted to the vessel’s right, indicating misalignment",
+    "Steering the box to the left will center it over the lumen and optimize the insonation angle",
+    "This misalignment can lead to color dropout artifacts where flow is under-sampled",
+    "The Doppler box is properly aligned along the vessel’s axis"
+  ],
+  "respuesta_correcta": [
+    "The Doppler box is properly aligned along the vessel’s axis"
+  ],
+  "concept_to_study": "Identifying false statements in Doppler steering.",
+  "explicacion_openai": "In the original image you noted a straight vessel with the blue Doppler box displaced to the right, creating an oblique insonation angle and patchy flow signal. Steering left realigns the beam parallel to the vessel and avoids dropout. Only the statement claiming proper alignment is incorrect.",
+  "image_explanation": "The uneven color distribution on one side of the vessel reveals misalignment; centering the box by steering left corrects the angle."
 }
 ]
