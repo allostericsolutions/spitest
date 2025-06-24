@@ -27264,5 +27264,81 @@
   "concept_to_study": "Identifying false statements in Doppler steering.",
   "explicacion_openai": "In the original image you noted a straight vessel with the blue Doppler box displaced to the right, creating an oblique insonation angle and patchy flow signal. Steering left realigns the beam parallel to the vessel and avoids dropout. Only the statement claiming proper alignment is incorrect.",
   "image_explanation": "The uneven color distribution on one side of the vessel reveals misalignment; centering the box by steering left corrects the angle."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "How do you fix this image?",
+  "image": "dopplercolorgain.png",
+  "opciones": [
+    "Decrease color gain",
+    "Increase color gain",
+    "Increase PRF",
+    "Reduce wall filter"
+  ],
+  "respuesta_correcta": [
+    "Increase color gain"
+  ],
+  "concept_to_study": "Color Doppler Gain Optimization.",
+  "explicacion_openai": "In the original image you saw a vessel lumen with only sparse green speckles and dark gaps along the wall—classic signs of under‐gained color Doppler. To correct this, the sonographer should increase the color gain until the lumen fills uniformly without extraneous noise outside the vessel.",
+  "image_explanation": "Weak, patchy color within the vessel indicates the gain is too low. Raising the gain amplifies true flow signals and fills in the gaps."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "All of the following statements about this image are true, except:",
+  "image": "dopplercolorgain.png",
+  "opciones": [
+    "The patchy appearance of flow is due to insufficient color gain",
+    "Increasing color gain will produce a more continuous color fill of the lumen",
+    "Reducing the wall filter will correct the under‐gained signal",
+    "Under‐gaining leads to loss of low‐velocity flow signals at the vessel wall"
+  ],
+  "respuesta_correcta": [
+    "Reducing the wall filter will correct the under‐gained signal"
+  ],
+  "concept_to_study": "Differentiating color Doppler adjustments.",
+  "explicacion_openai": "You noted that the flow in the lumen looked broken and incomplete because the gain was set too low. While boosting gain directly addresses that, changing the wall filter affects clutter suppression of very low velocities and won’t restore a weak color signal caused by under‐gaining.",
+  "image_explanation": "Only gain adjustment can fill the gaps; wall‐filter reduction doesn’t amplify the true Doppler signal."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which of the following actions would worsen this condition?",
+  "image": "dopplercolorgain.png",
+  "opciones": [
+    "Decrease color gain",
+    "Increase PRF",
+    "Reduce wall filter",
+    "Steer the Doppler box"
+  ],
+  "respuesta_correcta": [
+    "Increase PRF"
+  ],
+  "concept_to_study": "Color Doppler PRF Effects.",
+  "explicacion_openai": "In a low‐gain scenario, raising the PRF only makes the system less sensitive to slow flow, further reducing the already weak signal and worsening the patchy color display. The correct fix remains to amplify the gain, not increase PRF.",
+  "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, deepening the gaps in the flow signal."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 173,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which of the following actions would worsen this condition?",
+  "image": "dopplercolorgain.png",
+  "opciones": [
+    "Increase color gain",
+    "Increase PRF",
+    "Reduce wall filter",
+    "Steer the Doppler box"
+  ],
+  "respuesta_correcta": [
+    "Increase PRF"
+  ],
+  "concept_to_study": "Color Doppler PRF Effects.",
+  "explicacion_openai": "With the gain already too low—manifested by sparse, patchy color—increasing PRF further raises the minimum detectable velocity. This reduces sensitivity to slow flow and deepens the gaps. In contrast, increasing gain, reducing the wall filter, or proper steering would either improve or not worsen the display.",
+  "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, exacerbating the under-gained appearance."
 }
 ]
