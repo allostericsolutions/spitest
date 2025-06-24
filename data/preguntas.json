@@ -5452,9 +5452,9 @@
         "explicacion_openai": "Mirror artifacts do not result in the acoustic shadowing that real structures often produce, which helps differentiate them.",
         "image_explanation": ""
     },
-        {
+    {
         "clasificacion": "Physical Principles",
-        "grupo": 289,
+        "grupo": 288,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the key feature of the artifact shown in the image?",
         "image": "mirrow.png",
@@ -5473,7 +5473,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 290,
+        "grupo": 289,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of resolution is being demonstrated in the image if it refers to the ability to distinguish structures along the path of the ultrasound beam?",
         "image": "axial.png",
@@ -5492,7 +5492,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 291,
+        "grupo": 290,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "This type of resolution is directly associated with which characteristic of the spatial pulse length (SPL)?",
         "image": "axial.png",
@@ -5511,7 +5511,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 292,
+        "grupo": 291,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A synonym for this type of resolution is:",
         "image": "axial.png",
@@ -5530,7 +5530,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 293,
+        "grupo": 292,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor primarily influences the resolution depicted in this image?",
         "image": "axial.png",
@@ -5549,7 +5549,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 294,
+        "grupo": 293,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "To improve this type of resolution, which change should be considered?",
         "image": "axial.png",
@@ -5568,7 +5568,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 295,
+        "grupo": 294,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The resolution type shown in the image is crucial for distinguishing structures that are:",
         "image": "axial.png",
@@ -5587,7 +5587,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 296,
+        "grupo": 295,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The artifact demonstrated in the image is primarily caused by which of the following factors?",
         "image": "Slicethickness.png",
@@ -5606,7 +5606,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 297,
+        "grupo": 296,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The artifact shown in the image is also known by which of the following terms?",
         "image": "Slicethickness.png",
@@ -5625,7 +5625,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 298,
+        "grupo": 297,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The presence of this artifact can lead to which of the following errors in image interpretation?",
         "image": "Slicethickness.png",
@@ -5644,7 +5644,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 299,
+        "grupo": 298,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following transducer characteristics would *MOST* effectively reduce the appearance of the artifact seen in the image?",
         "image": "Slicethickness.png",
@@ -5663,7 +5663,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 300,
+        "grupo": 299,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the context of this artifact, the term 'elevational resolution' refers to the ability to:",
         "image": "Slicethickness.png",
@@ -5682,7 +5682,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 301,
+        "grupo": 300,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following techniques would *MOST* effectively minimize the appearance of the artifact seen in the image?",
         "image": "Slicethickness.png",
@@ -5701,7 +5701,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 302,
+        "grupo": 301,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "To optimize visualization and minimize artifacts in a structure suspected of being affected by slice thickness, which of the following actions is *MOST* appropriate?",
         "image": "Slicethickness.png",
@@ -5720,7 +5720,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 303,
+        "grupo": 302,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When imaging a small, fluid-filled structure that may be affected by slice thickness artifact, which of the following would *MOST* improve the accuracy of its size and shape?",
         "image": "Slicethickness.png",
@@ -5739,7 +5739,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 304,
+        "grupo": 303,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What type of resolution is indicated by the arrow in the image?",
         "image": "axial.png",
@@ -5758,7 +5758,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 305,
+        "grupo": 304,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the most important factor determining the type of resolution indicated by the arrow?",
         "image": "axial.png",
@@ -5777,7 +5777,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 306,
+        "grupo": 305,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "These are synonyms of the type of resolution shown by the arrow, except:",
         "image": "axial.png",
@@ -5796,7 +5796,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 307,
+        "grupo": 306,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Improving the type of resolution indicated by the arrow can be achieved by:",
         "image": "axial.png",
@@ -5815,7 +5815,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 308,
+        "grupo": 307,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In what clinical scenario is the type of resolution indicated by the arrow most important?",
         "image": "axial.png",
@@ -5834,7 +5834,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 309,
+        "grupo": 308,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Considering the type of resolution indicated by the arrow, what most affects this resolution in the far field?",
         "image": "lateral.png",
@@ -5853,7 +5853,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 310,
+        "grupo": 309,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What adjustment could be made to improve the resolution indicated by the arrow in the near field?",
         "image": "lateral.png",
@@ -5872,7 +5872,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 311,
+        "grupo": 310,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the image, the resolution the arrow points to is best described as the ability to differentiate:",
         "image": "lateral.png",
@@ -5891,7 +5891,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 312,
+        "grupo": 311,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The structures in the image appear wider than they actually are due to:",
         "image": "lateral.png",
@@ -5910,7 +5910,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 313,
+        "grupo": 312,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "From the image, which factor most directly impacts the degradation of the indicated resolution with depth?",
         "image": "lateral.png",
@@ -5929,7 +5929,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 314,
+        "grupo": 313,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What effect does moving the focal zone deeper into the imaging field have on the indicated resolution?",
         "image": "lateral.png",
@@ -5948,7 +5948,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 315,
+        "grupo": 314,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does the width of the ultrasound beam affect lateral resolution, as illustrated in the image?",
         "image": "lateral.png",
@@ -5967,7 +5967,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 316,
+        "grupo": 315,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following terms is NOT a synonym for the resolution indicated by the arrow?",
         "image": "lateral.png",
@@ -5986,7 +5986,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 317,
+        "grupo": 316,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What type of wave is sound classified as?",
         "image": "",
@@ -6005,7 +6005,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 318,
+        "grupo": 317,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to sound in the absence of a medium?",
         "image": "",
@@ -6024,7 +6024,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 319,
+        "grupo": 318,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Through which forms of matter can sound propagate?",
         "image": "",
@@ -6043,7 +6043,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 320,
+        "grupo": 319,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the movement of molecules called in a sound wave?",
         "image": "",
@@ -6062,7 +6062,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 321,
+        "grupo": 320,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the orientation of molecule vibration relative to the wave's direction in sound waves?",
         "image": "",
@@ -6081,7 +6081,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 322,
+        "grupo": 321,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the frequency range of audible sound for the human ear?",
         "image": "",
@@ -6100,7 +6100,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 323,
+        "grupo": 322,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What type of sound waves have frequencies below 20 Hz?",
         "image": "",
@@ -6119,7 +6119,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 324,
+        "grupo": 323,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following represents a typical frequency used in medical ultrasound imaging?",
         "image": "",
@@ -6138,7 +6138,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 325,
+        "grupo": 324,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the typical wavelength of audible sound in air at a frequency of 1,000 Hz, given that the speed of sound in air is approximately 340 m/s?",
         "image": "",
@@ -6157,7 +6157,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 326,
+        "grupo": 325,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the sound intensity level in decibels (dB) of a sound wave with an intensity of 10⁻⁶ W/m², given that the reference intensity is 10⁻¹² W/m²?",
         "image": "",
@@ -6176,7 +6176,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 327,
+        "grupo": 326,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is amplitude in the context of sound waves?",
         "image": "",
@@ -6195,7 +6195,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 328,
+        "grupo": 327,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which unit is used to measure the pressure amplitude in sound waves?",
         "image": "",
@@ -6214,7 +6214,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 329,
+        "grupo": 328,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is power defined in relation to sound waves?",
         "image": "",
@@ -6233,7 +6233,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 330,
+        "grupo": 329,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the relationship between amplitude and power in sound waves?",
         "image": "",
@@ -6252,7 +6252,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 331,
+        "grupo": 330,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is intensity in the context of sound waves?",
         "image": "",
@@ -6271,7 +6271,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 332,
+        "grupo": 331,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What unit is used to measure intensity in sound waves?",
         "image": "",
@@ -6290,7 +6290,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 333,
+        "grupo": 332,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is intensity related to power?",
         "image": "",
@@ -6309,7 +6309,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 334,
+        "grupo": 333,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is intensity measured per unit area?",
         "image": "",
@@ -6328,7 +6328,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 335,
+        "grupo": 334,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to intensity when the area over which power is distributed increases?",
         "image": "",
@@ -6347,7 +6347,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 336,
+        "grupo": 335,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does amplitude affect the energy of a sound wave?",
         "image": "",
@@ -6366,7 +6366,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 337,
+        "grupo": 336,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "According to the '13 µs rule', how long does it take for sound to travel 1 cm (round-trip) in soft tissue?",
         "image": "",
@@ -6385,7 +6385,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 338,
+        "grupo": 337,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "If a round-trip time of 26 µs is measured, what is the distance to the reflector using the equation d = 0.77t?",
         "image": "",
@@ -6404,7 +6404,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 339,
+        "grupo": 338,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is an assumption the ultrasound machine makes about the transmission of sound beams?",
         "image": "",
@@ -6423,7 +6423,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 340,
+        "grupo": 339,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What propagation speed does the ultrasound machine assume for sound traveling through the body?",
         "image": "",
@@ -6442,7 +6442,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 341,
+        "grupo": 340,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "According to ultrasound assumptions, any reflection returning to the transducer must have followed which path?",
         "image": "",
@@ -6461,7 +6461,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 342,
+        "grupo": 341,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the common artifact created by multiple reflections between two closely spaced strong specular reflectors?",
         "image": "",
@@ -6480,7 +6480,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 343,
+        "grupo": 342,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What distinguishes a comet tail artifact from a ring-down artifact in ultrasound imaging?",
         "image": "",
@@ -6499,7 +6499,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 344,
+        "grupo": 343,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact occurs when a large specular reflector, such as the diaphragm, deviates part of the sound beam, creating a duplicate image that appears deeper than the actual structure?",
         "image": "",
@@ -6518,7 +6518,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 345,
+        "grupo": 344,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Artifacts such as side lobes or grating lobes occur because the ultrasound machine assumes which of the following about sound energy?",
         "image": "",
@@ -6537,7 +6537,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 346,
+        "grupo": 345,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT an assumption made by the ultrasound machine?",
         "image": "",
@@ -6556,7 +6556,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 347,
+        "grupo": 346,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is spatial compounding in ultrasound imaging?",
         "image": "",
@@ -6575,7 +6575,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 348,
+        "grupo": 347,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact is most significantly improved by spatial compounding?",
         "image": "",
@@ -6594,7 +6594,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 349,
+        "grupo": 348,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is one major benefit of spatial compounding in ultrasound imaging?",
         "image": "",
@@ -6613,7 +6613,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 350,
+        "grupo": 349,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is a potential limitation of spatial compounding?",
         "image": "",
@@ -6632,7 +6632,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 351,
+        "grupo": 350,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Spatial compounding can be performed using which of the following methods?",
         "image": "",
@@ -6651,7 +6651,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 352,
+        "grupo": 351,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the definition of Spatial Pulse Length (SPL) in ultrasound imaging?",
         "image": "",
@@ -6670,7 +6670,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 353,
+        "grupo": 352,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does an increase in wavelength affect the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6689,7 +6689,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 354,
+        "grupo": 353,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the number of cycles in a pulse influence the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6708,7 +6708,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 355,
+        "grupo": 354,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the effect of damping on the Spatial Pulse Length (SPL) and Pulse Duration (PD)?",
         "image": "",
@@ -6727,7 +6727,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 356,
+        "grupo": 355,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How do higher ultrasound frequencies affect the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6746,7 +6746,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 357,
+        "grupo": 356,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the definition of frequency compounding in ultrasound imaging?",
         "image": "",
@@ -6765,7 +6765,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 358,
+        "grupo": 357,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of resolution is improved through frequency compounding?",
         "image": "",
@@ -6784,7 +6784,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 359,
+        "grupo": 358,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which resolution is NOT improved by frequency compounding?",
         "image": "",
@@ -6803,7 +6803,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 360,
+        "grupo": 359,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does frequency compounding improve the signal-to-noise ratio (SNR) in ultrasound imaging?",
         "image": "",
@@ -6822,7 +6822,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 361,
+        "grupo": 360,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary way frequency compounding reduces speckle noise?",
         "image": "",
@@ -6841,7 +6841,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 362,
+        "grupo": 361,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the final result of frequency compounding in ultrasound imaging?",
         "image": "",
@@ -6860,7 +6860,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 363,
+        "grupo": 362,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT an advantage of harmonic ultrasound imaging?",
         "image": "",
@@ -6879,7 +6879,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 364,
+        "grupo": 363,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which relationship best explains the improvement of axial resolution in ultrasound imaging?",
         "image": "",
@@ -6898,7 +6898,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 365,
+        "grupo": 364,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following does not change with increasing imaging depth?",
         "image": "",
@@ -6917,7 +6917,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 366,
+        "grupo": 365,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What does LARD stand for in ultrasound imaging, and how does it relate to axial resolution?",
         "image": "",
@@ -6936,7 +6936,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 367,
+        "grupo": 366,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What does LATA stand for in ultrasound imaging, and how does it relate to lateral resolution?",
         "image": "",
@@ -6955,7 +6955,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 368,
+        "grupo": 367,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "How is LARD (axial resolution) most directly influenced in ultrasound imaging?",
         "image": "",
@@ -6974,7 +6974,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 369,
+        "grupo": 368,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which factor most strongly determines LATA (lateral resolution) in ultrasound imaging?",
         "image": "",
@@ -6993,7 +6993,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 370,
+        "grupo": 369,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters is determined by the medium?",
         "image": "",
@@ -7012,7 +7012,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 371,
+        "grupo": 370,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters is determined by the medium?",
         "image": "",
@@ -7031,7 +7031,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 372,
+        "grupo": 371,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters, defined as the time duration of one complete cycle, is determined solely by the source?",
         "image": "",
@@ -7050,7 +7050,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 373,
+        "grupo": 372,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters, defined as the number of cycles per second, is determined solely by the source?",
         "image": "",
@@ -7069,7 +7069,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 374,
+        "grupo": 373,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters, representing the maximum variation in pressure or displacement, is determined solely by the source?",
         "image": "",
@@ -7088,7 +7088,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 375,
+        "grupo": 374,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters, representing the energy transmitted per unit time, is determined solely by the source?",
         "image": "",
@@ -7107,7 +7107,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 376,
+        "grupo": 375,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following sound wave parameters, defined as the acoustic power per unit area, is determined solely by the source (considering its initial value)?",
         "image": "",
@@ -7126,7 +7126,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 377,
+        "grupo": 376,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following pulsed sound wave parameters represents the active emission time of an ultrasound pulse, determined solely by the source?",
         "image": "",
@@ -7145,7 +7145,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 378,
+        "grupo": 377,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Identify the parameter that defines the length of time an ultrasound pulse remains on, set exclusively by the ultrasound source.",
         "image": "",
@@ -7164,7 +7164,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 379,
+        "grupo": 378,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which parameter, calculated as the ratio of pulse duration to pulse repetition period, represents the fraction of time the ultrasound system is active?",
         "image": "",
@@ -7183,7 +7183,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 380,
+        "grupo": 379,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Select the parameter that indicates the percentage of time an ultrasound system is transmitting, determined exclusively by the source.",
         "image": "",
@@ -7202,7 +7202,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 381,
+        "grupo": 380,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which parameter denotes the time interval between the start of one ultrasound pulse and the start of the next, determined solely by the source?",
         "image": "",
@@ -7221,7 +7221,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 382,
+        "grupo": 381,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Identify the parameter that measures the time span between the start of consecutive ultrasound pulses, set by the source.",
         "image": "",
@@ -7240,7 +7240,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 383,
+        "grupo": 382,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which parameter, defined as the number of ultrasound pulses emitted per second, is determined solely by the source?",
         "image": "",
@@ -7259,7 +7259,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 384,
+        "grupo": 383,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Select the parameter representing the count of ultrasound pulses emitted per second, defined exclusively by the source.",
         "image": "",
@@ -7278,7 +7278,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 385,
+        "grupo": 384,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which parameter is defined as the product of the pulse duration and the speed of sound in the medium, making it dependent on both the source and the medium?",
         "image": "",
@@ -7297,7 +7297,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 386,
+        "grupo": 385,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Identify the parameter that describes the physical length an ultrasound pulse occupies in space, which depends on the source's pulse duration and the medium's propagation speed.",
         "image": "",
@@ -7316,7 +7316,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 387,
+        "grupo": 386,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "When an ultrasound wave encounters an interface at normal (perpendicular) incidence, the ratio of sound energy reflected versus transmitted is primarily determined by which factor?",
         "image": "",
@@ -7335,7 +7335,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 388,
+        "grupo": 387,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "For an ultrasound wave striking an interface perpendicularly, which parameter directly influences the intensity of the reflected and transmitted waves?",
         "image": "",
@@ -7354,7 +7354,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 389,
+        "grupo": 388,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "When an ultrasound wave strikes an interface at an oblique angle, the bending of the wave (refraction) is primarily due to:",
         "image": "",
@@ -7373,7 +7373,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 390,
+        "grupo": 389,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which phenomenon describes the change in the transmitted ultrasound beam’s angle as it passes from one medium into another at an oblique angle?",
         "image": "",
@@ -7392,7 +7392,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 391,
+        "grupo": 390,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "In ultrasound imaging, which factor is primarily addressed by adjusting the time gain compensation?",
         "image": "",
@@ -7411,7 +7411,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 392,
+        "grupo": 391,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "How does decreasing the sample depth affect PRF in Doppler imaging?",
         "image": "",
@@ -7430,7 +7430,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 393,
+        "grupo": 392,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What is the fundamental trade-off in imaging resolution?",
         "image": "",
@@ -7449,7 +7449,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 394,
+        "grupo": 393,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Why don’t you always use the highest available frequency for imaging?",
         "image": "",
@@ -7468,7 +7468,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 395,
+        "grupo": 394,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What do you gain when choosing a lower frequency in medical imaging?",
         "image": "",
@@ -7487,7 +7487,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 396,
+        "grupo": 395,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "How should you choose the appropriate imaging frequency?",
         "image": "",
@@ -7506,7 +7506,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 397,
+        "grupo": 396,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to intensity when it is multiplied by 2?",
         "image": "",
@@ -7525,7 +7525,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 398,
+        "grupo": 397,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a reduction of 6 dB mean for intensity?",
         "image": "",
@@ -7544,7 +7544,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 399,
+        "grupo": 398,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens when intensity is halved?",
         "image": "",
@@ -7563,7 +7563,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 400,
+        "grupo": 399,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the half-value layer represent?",
         "image": "",
@@ -7582,7 +7582,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 401,
+        "grupo": 400,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens when overall gain is adjusted from 25 dB to 28 dB?",
         "image": "",
@@ -7601,7 +7601,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 402,
+        "grupo": 401,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a gain of 6 dB mean for intensity?",
         "image": "",
@@ -7620,7 +7620,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 403,
+        "grupo": 402,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the intensity is reduced to 1/10 of its original value, what is the corresponding decibel change?",
         "image": "",
@@ -7639,7 +7639,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 404,
+        "grupo": 403,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to the decibel level when intensity is increased from 1 to 1000?",
         "image": "",
@@ -7658,7 +7658,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 405,
+        "grupo": 404,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sequence correctly represents the positive intensity-decibel relationships as intensity increases?",
         "image": "",
@@ -7677,7 +7677,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 406,
+        "grupo": 405,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
         "image": "",
@@ -7696,7 +7696,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 407,
+        "grupo": 406,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer type has a duty factor of 100%?",
         "image": "CW.png",
@@ -7715,7 +7715,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 408,
+        "grupo": 407,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer type has a lower duty factor due to intermittent pulse transmission?",
         "image": "CW.png",
@@ -7734,7 +7734,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 409,
+        "grupo": 408,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the wave patterns in the image, which wave has the highest duty factor?",
         "image": "CW.png",
@@ -7750,6 +7750,63 @@
         "concept_to_study": "Duty Factor in Continuous and Pulsed Ultrasound Waves.",
         "explicacion_openai": "Duty Factor represents the percentage of time an ultrasound wave is actively transmitting. Observing the image, one of the waves is continuous, meaning it has a duty factor close to 100%. The other wave consists of pulses, meaning it has a lower duty factor because it alternates between transmitting and receiving.",
         "image_explanation": "The image 'CW.png' shows two different wave patterns. One of them is continuous, meaning it has the highest duty factor."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 409,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best lateral resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best lateral resolution.",
+        "explicacion_openai": "The best lateral resolution is achieved at the focal point (B) because the ultrasound beam is narrowest at that location. Lateral resolution is also referred to as azimuthal, transverse, and angular resolution, collectively abbreviated as **LATA**. This abbreviation represents all terms used to describe resolution in the lateral axis, which is crucial for distinguishing closely spaced objects that are side-by-side. At the focal point, the beam width is minimized, leading to the highest image clarity and separation of adjacent structures.",
+        "image_explanation": "The image displays an ultrasound beam converging toward point B."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 410,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best azimuthal resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best azimuthal resolution.",
+        "explicacion_openai": "The best azimuthal resolution is achieved at the focal point (B). Azimuthal resolution is synonymous with lateral, transverse, and angular resolution, collectively abbreviated as **LATA**. These terms describe the ability of the ultrasound system to differentiate between objects positioned side-by-side. Since the beam narrows at the focal point, azimuthal resolution is optimal there, allowing for greater accuracy in separating close structures.",
+        "image_explanation": "The image shows an ultrasound beam converging to point B, indicating optimal resolution."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 411,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound beam image, at which point is the best angular resolution achieved?",
+        "image": "focal_point.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "respuesta_correcta": [
+            "B"
+        ],
+        "concept_to_study": "Identify the point of best angular resolution.",
+        "explicacion_openai": "Angular resolution is optimal at the focal point (B), where the ultrasound beam reaches its narrowest width. Angular resolution, like azimuthal, transverse, and lateral resolution, belongs to the **LATA** group, which describes the system’s ability to differentiate objects in the lateral axis. The focal point is ideal because the beam is most concentrated, maximizing resolution and minimizing distortion.",
+        "image_explanation": "The provided image illustrates an ultrasound beam focusing at point B."
     },
     {
         "clasificacion": "Ultrasound Transducers",
@@ -18411,6 +18468,386 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 288,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on the provided spectral Doppler image, what adjustment is most likely responsible for making the left panel (marked with a yellow star) display a cleaner baseline compared to the right panel (marked with a blue star)?",
+        "image": "wall_filter.png",
+        "opciones": [
+            "Increasing the wall filter threshold to remove low-frequency signals",
+            "Decreasing the wall filter threshold to allow more low-frequency signals",
+            "Increasing overall Doppler gain",
+            "Lowering the pulse repetition frequency"
+        ],
+        "respuesta_correcta": [
+            "Increasing the wall filter threshold to remove low-frequency signals"
+        ],
+        "concept_to_study": "Wall filter application",
+        "explicacion_openai": "In spectral Doppler imaging, a higher wall filter threshold eliminates low-frequency signals such as those from vessel wall motion, resulting in a clearer baseline. The left panel (yellow star) shows this advantage compared to the right panel (blue star), which exhibits more low-intensity echoes.",
+        "image_explanation": "The image contrasts two panels: the left (yellow star) has a clean baseline due to the wall filter eliminating low-frequency noise, while the right (blue star) shows residual low-frequency echoes."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 289,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided spectral Doppler image, which panel shows the presence of low-intensity echoes that are typically observed when a wall filter is not applied? (Refer to the star indicators.)",
+        "image": "wall_filter.png",
+        "opciones": [
+            "Left panel (yellow star)",
+            "Right panel (blue star)",
+            "Both panels",
+            "Neither panel"
+        ],
+        "respuesta_correcta": [
+            "Right panel (blue star)"
+        ],
+        "concept_to_study": "Wall filter application",
+        "explicacion_openai": "The right panel, marked by the blue star, exhibits low-intensity echoes, which is characteristic of a display without the wall filter actively removing low-frequency signals. In contrast, the left panel with the yellow star shows a cleaner baseline.",
+        "image_explanation": "Notice that the right side of the image (blue star) reveals more low-frequency echo signals, indicating the absence of wall filtering, as opposed to the left side (yellow star)."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 290,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the provided image, what is the key diagnostic advantage provided by the wall filter application seen in the panel with the yellow star?",
+        "image": "wall_filter.png",
+        "opciones": [
+            "It removes low-frequency noise to produce a cleaner baseline",
+            "It amplifies both low- and high-frequency signals indiscriminately",
+            "It increases overall signal sensitivity, leading to more clutter",
+            "It reduces the sampling rate of the Doppler signal"
+        ],
+        "respuesta_correcta": [
+            "It removes low-frequency noise to produce a cleaner baseline"
+        ],
+        "concept_to_study": "Wall filter application",
+        "explicacion_openai": "The wall filter's main advantage is its ability to eliminate low-frequency signals that can obscure true blood flow data, resulting in a clearer and more interpretable spectral display. This is exemplified by the clean baseline in the left panel (yellow star) compared to the cluttered appearance in the right panel (blue star).",
+        "image_explanation": "The left panel (yellow star) illustrates the beneficial effect of the wall filter, which removes low-frequency clutter and enhances the detection of actual flow signals, as opposed to the right panel where such echoes are visible."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 291,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Using the provided spectral Doppler image, what is a potential disadvantage of applying an excessively high wall filter setting, as suggested by the panel marked with the yellow star?",
+        "image": "wall_filter.png",
+        "opciones": [
+            "It may eliminate important low-velocity flow information, hindering proper diagnosis.",
+            "It can increase high-frequency noise, causing signal oversaturation.",
+            "It results in an artificially cluttered baseline.",
+            "It decreases overall Doppler gain, reducing image brightness."
+        ],
+        "respuesta_correcta": [
+            "It may eliminate important low-velocity flow information, hindering proper diagnosis."
+        ],
+        "concept_to_study": "Wall filter over-application",
+        "explicacion_openai": "An excessively high wall filter setting can remove not only unwanted low-frequency noise but also valuable low-velocity blood flow signals. This loss of slow flow information can lead to an underestimation of blood flow, which is critical for accurate diagnosis. The panel marked with the yellow star in the image demonstrates a very clean baseline, which, if too pronounced, may indicate that essential diagnostic details are being filtered out.",
+        "image_explanation": "The image contrasts two panels: the left panel (yellow star) displays an overly clean baseline due to a high wall filter setting, while the right panel (blue star) shows visible low-frequency echoes. This comparison helps illustrate the potential downside of an excessive wall filter setting."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 292,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "What is the best method or the most appropriate approach to improve this artifact?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Decrease PRF/scale",
+            "c) Increase the Doppler gain",
+            "d) Lower the wall filter settings"
+        ],
+        "respuesta_correcta": [
+            "a) Increase PRF/scale"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "Increasing the PRF (Pulse Repetition Frequency) or the velocity scale effectively broadens the Nyquist limit, reducing aliasing artifacts. This adjustment allows for a more accurate depiction of higher blood flow velocities, while the other options may exacerbate the issue.",
+        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. Aliasing occurs when high blood flow velocities exceed the system’s Nyquist limit, often due to low PRF settings or suboptimal insonation angles."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 293,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which of the following methods cannot resolve the aliasing artifact?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Reposition the sample volume",
+            "c) Adjust the insonation angle",
+            "d) Increase the Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "d) Increase the Doppler gain"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "While increasing the PRF/scale, repositioning the sample volume, and adjusting the insonation angle can effectively reduce aliasing, increasing the Doppler gain simply amplifies the signal without correcting the underlying sampling issues.",
+        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. The artifact is due to limitations such as low PRF or unsuitable insonation angles that cause high-velocity signals to wrap around the display."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 294,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "All of the following elements can resolve this artifact except:",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale",
+            "b) Reposition the sample volume",
+            "c) Adjust the insonation angle",
+            "d) Increase the Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "d) Increase the Doppler gain"
+        ],
+        "concept_to_study": "Improvement of artifacts in Doppler imaging",
+        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, repositioning the sample volume and adjusting the insonation angle optimize flow measurement—all of which help reduce aliasing. However, increasing the Doppler gain only amplifies the signal, including any aliasing artifacts, without eliminating the cause.",
+        "image_explanation": "This image is a color Doppler ultrasound view that shows aliasing. The artifact results from high velocities exceeding the Nyquist limit due to factors like low PRF and an inappropriate insonation angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 295,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "All of the following elements would prevent the aliasing artifact shown in this image:",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle",
+            "b) Decrease PRF/scale, maintain the current sample volume, keep the insonation angle unchanged",
+            "c) Increase the Doppler gain, leave PRF/scale unchanged, do not reposition the sample volume",
+            "d) Lower the wall filter settings, keep PRF/scale constant, make no adjustment to the insonation angle"
+        ],
+        "respuesta_correcta": [
+            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle"
+        ],
+        "concept_to_study": "Prevention of Doppler aliasing artifacts",
+        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, while repositioning the sample volume and adjusting the insonation angle optimize beam alignment with the direction of blood flow. These adjustments help prevent aliasing by ensuring high flow velocities are accurately sampled. The other options either lower the Nyquist limit or simply amplify the aliasing artifact instead of preventing it.",
+        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. Aliasing occurs when high blood flow velocities exceed the system's Nyquist limit, often due to low PRF settings or an inappropriate insonation angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 296,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "Which underlying physical principle is responsible for the artifact observed in the provided Doppler ultrasound image?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)",
+            "b) Signal attenuation from deep tissue imaging",
+            "c) Excessive wall filter settings removing high-frequency components",
+            "d) Overamplification caused by a high Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)"
+        ],
+        "concept_to_study": "Fundamental physics behind Doppler aliasing",
+        "explicacion_openai": "Aliasing in Doppler ultrasound occurs when the actual Doppler frequency shift exceeds the Nyquist limit, which is determined by the PRF. When the PRF is too low, high-velocity blood flow generates shifts that wrap around the display, resulting in the aliasing artifact. The other factors do not directly account for this phenomenon.",
+        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. The artifact arises because high flow velocities exceed the system's Nyquist limit, a direct consequence of low PRF settings."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 297,
+        "tipo_pregunta": "multiple_choice",
+        "enunciado": "In this color Doppler image, aliasing is observed in a blood vessel. Which of the following statements best explains how changing the insonation angle affects the measured Doppler shift—and thus the occurrence of aliasing?",
+        "image": "doppler_aliasing.png",
+        "opciones": [
+            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it",
+            "b) A smaller insonation angle decreases the measured velocity and reduces aliasing, while a larger angle increases it",
+            "c) Changing the insonation angle has minimal impact on aliasing occurrence",
+            "d) The insonation angle affects only spatial resolution, not the Doppler shift"
+        ],
+        "respuesta_correcta": [
+            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it"
+        ],
+        "concept_to_study": "Effect of insonation angle on Doppler aliasing",
+        "explicacion_openai": "The Doppler frequency shift is proportional to the cosine of the insonation angle. With a smaller angle (more parallel to blood flow), the cosine value is higher, resulting in a higher measured velocity that is more likely to exceed the Nyquist limit, thereby causing aliasing. In contrast, a larger angle decreases the effective velocity measurement and reduces aliasing, though it may also lower the signal intensity.",
+        "image_explanation": "This image is a color Doppler ultrasound view demonstrating aliasing. The artifact is influenced by the Doppler angle, which affects the magnitude of the measured velocity and, consequently, the appearance of aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 298,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "how do you fix this image ? (the color box is blue for easier identification)",
+        "image": "dopplersteer.png",
+        "opciones": [
+            "Steer to the left",
+            "Steer to the right",
+            "Do not adjust",
+            "Reverse the Doppler color"
+        ],
+        "respuesta_correcta": [
+            "Steer to the right"
+        ],
+        "concept_to_study": "Color Doppler Steering.",
+        "explicacion_openai": "In the provided image, the Doppler color box (highlighted in blue) is misaligned with the direction of blood flow. This results in suboptimal insonation angles and color aliasing. The goal in Doppler imaging is to orient the beam as parallel as possible to the flow. Steering the beam to the right improves angle alignment, optimizing signal detection and ensuring accurate velocity representation.",
+        "image_explanation": "The misalignment between the Doppler beam and vessel axis produces flow dropout and color confusion. Steering the beam right brings the insonation angle closer to parallel with the flow path, correcting the issue."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 299,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the misalignment between the Doppler box and vessel suggest in this image?",
+        "image": "dopplersteer.png",
+        "opciones": [
+            "The vessel is occluded",
+            "The beam angle is suboptimal for Doppler analysis",
+            "The gain is too high",
+            "There is aliasing in the spectral waveform"
+        ],
+        "respuesta_correcta": [
+            "The beam angle is suboptimal for Doppler analysis"
+        ],
+        "concept_to_study": "Angle optimization in Doppler ultrasound.",
+        "explicacion_openai": "The Doppler box is not aligned with the vessel's direction, suggesting an improper angle of insonation. This can result in inaccurate velocity readings and poor Doppler signal quality.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 300,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is wrong with this image (the color box is blue for easier identification)?",
+        "image": "dopplersteer.png",
+        "opciones": [
+            "Incorrect steering",
+            "Reversed color coding",
+            "Excessive Doppler gain",
+            "Misplaced focal zone"
+        ],
+        "respuesta_correcta": [
+            "Incorrect steering"
+        ],
+        "concept_to_study": "Color Doppler Steering.",
+        "explicacion_openai": "The Doppler color box isn’t aligned with the vessel’s axis, indicating incorrect beam steering and resulting in suboptimal velocity measurements.",
+        "image_explanation": "Notice the asymmetric color fill—this shows the beam is angled improperly. Proper steering realigns the beam parallel to flow."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 301,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How do you fix this image?",
+        "image": "dopplersteer2.png",
+        "opciones": [
+            "Steer to the left",
+            "Steer to the right",
+            "Do not adjust",
+            "Reverse the Doppler color"
+        ],
+        "respuesta_correcta": [
+            "Steer to the left"
+        ],
+        "concept_to_study": "Color Doppler Steering.",
+        "explicacion_openai": "The Doppler color box is misaligned to the right of the vessel’s axis, causing suboptimal insonation. By steering the box to the left, the ultrasound beam aligns parallel to flow, ensuring accurate velocity assessment.",
+        "image_explanation": "The uneven color distribution shifted to the right indicates poor beam–flow alignment; steering left recenters the box over the vessel."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 302,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is wrong with this image?",
+        "image": "dopplersteer2.png",
+        "opciones": [
+            "Incorrect steering",
+            "Reversed color coding",
+            "Excessive Doppler gain",
+            "Misplaced focal zone"
+        ],
+        "respuesta_correcta": [
+            "Incorrect steering"
+        ],
+        "concept_to_study": "Color Doppler Steering.",
+        "explicacion_openai": "In the original image you saw a straight vessel with the blue Doppler box shifted off to the vessel’s right side, causing the beam to hit at an oblique angle. Because Doppler steering must align the ultrasound beam as parallel as possible to the vessel’s axis, the control should be moved left until the box is centered over the lumen. That realignment minimizes the insonation angle and ensures accurate flow velocity readings.",
+        "image_explanation": "Notice the asymmetric color distribution shifted right; this shows the beam is misaligned and needs to be steered to the left."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 303,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following statements about this image are true, EXCEPT:",
+        "image": "dopplersteer2.png",
+        "opciones": [
+            "The Doppler color box is shifted to the vessel’s right, indicating misalignment",
+            "Steering the box to the left will center it over the lumen and optimize the insonation angle",
+            "This misalignment can lead to color dropout artifacts where flow is under-sampled",
+            "The Doppler box is properly aligned along the vessel’s axis"
+        ],
+        "respuesta_correcta": [
+            "The Doppler box is properly aligned along the vessel’s axis"
+        ],
+        "concept_to_study": "Identifying false statements in Doppler steering.",
+        "explicacion_openai": "In the original image you noted a straight vessel with the blue Doppler box displaced to the right, creating an oblique insonation angle and patchy flow signal. Steering left realigns the beam parallel to the vessel and avoids dropout. Only the statement claiming proper alignment is incorrect.",
+        "image_explanation": "The uneven color distribution on one side of the vessel reveals misalignment; centering the box by steering left corrects the angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 304,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How do you fix this image?",
+        "image": "dopplercolorgain.png",
+        "opciones": [
+            "Decrease color gain",
+            "Increase color gain",
+            "Increase PRF",
+            "Reduce wall filter"
+        ],
+        "respuesta_correcta": [
+            "Increase color gain"
+        ],
+        "concept_to_study": "Color Doppler Gain Optimization.",
+        "explicacion_openai": "In the original image you saw a vessel lumen with only sparse green speckles and dark gaps along the wall—classic signs of under‐gained color Doppler. To correct this, the sonographer should increase the color gain until the lumen fills uniformly without extraneous noise outside the vessel.",
+        "image_explanation": "Weak, patchy color within the vessel indicates the gain is too low. Raising the gain amplifies true flow signals and fills in the gaps."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 305,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following statements about this image are true, except:",
+        "image": "dopplercolorgain.png",
+        "opciones": [
+            "The patchy appearance of flow is due to insufficient color gain",
+            "Increasing color gain will produce a more continuous color fill of the lumen",
+            "Reducing the wall filter will correct the under‐gained signal",
+            "Under‐gaining leads to loss of low‐velocity flow signals at the vessel wall"
+        ],
+        "respuesta_correcta": [
+            "Reducing the wall filter will correct the under‐gained signal"
+        ],
+        "concept_to_study": "Differentiating color Doppler adjustments.",
+        "explicacion_openai": "You noted that the flow in the lumen looked broken and incomplete because the gain was set too low. While boosting gain directly addresses that, changing the wall filter affects clutter suppression of very low velocities and won’t restore a weak color signal caused by under‐gaining.",
+        "image_explanation": "Only gain adjustment can fill the gaps; wall‐filter reduction doesn’t amplify the true Doppler signal."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 306,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following actions would worsen this condition?",
+        "image": "dopplercolorgain.png",
+        "opciones": [
+            "Decrease color gain",
+            "Increase PRF",
+            "Reduce wall filter",
+            "Steer the Doppler box"
+        ],
+        "respuesta_correcta": [
+            "Increase PRF"
+        ],
+        "concept_to_study": "Color Doppler PRF Effects.",
+        "explicacion_openai": "In a low‐gain scenario, raising the PRF only makes the system less sensitive to slow flow, further reducing the already weak signal and worsening the patchy color display. The correct fix remains to amplify the gain, not increase PRF.",
+        "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, deepening the gaps in the flow signal."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 307,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following actions would worsen this condition?",
+        "image": "dopplercolorgain.png",
+        "opciones": [
+            "Increase color gain",
+            "Increase PRF",
+            "Reduce wall filter",
+            "Steer the Doppler box"
+        ],
+        "respuesta_correcta": [
+            "Increase PRF"
+        ],
+        "concept_to_study": "Color Doppler PRF Effects.",
+        "explicacion_openai": "With the gain already too low—manifested by sparse, patchy color—increasing PRF further raises the minimum detectable velocity. This reduces sensitivity to slow flow and deepens the gaps. In contrast, increasing gain, reducing the wall filter, or proper steering would either improve or not worsen the display.",
+        "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, exacerbating the under-gained appearance."
+    },
+    {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -26903,442 +27340,5 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
         "image_explanation": ""
-    },
-    {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 92,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Based on the provided spectral Doppler image, what adjustment is most likely responsible for making the left panel (marked with a yellow star) display a cleaner baseline compared to the right panel (marked with a blue star)?",
-    "image": "wall_filter.png",
-    "opciones": [
-      "Increasing the wall filter threshold to remove low-frequency signals",
-      "Decreasing the wall filter threshold to allow more low-frequency signals",
-      "Increasing overall Doppler gain",
-      "Lowering the pulse repetition frequency"
-    ],
-    "respuesta_correcta": [
-      "Increasing the wall filter threshold to remove low-frequency signals"
-    ],
-    "concept_to_study": "Wall filter application",
-    "explicacion_openai": "In spectral Doppler imaging, a higher wall filter threshold eliminates low-frequency signals such as those from vessel wall motion, resulting in a clearer baseline. The left panel (yellow star) shows this advantage compared to the right panel (blue star), which exhibits more low-intensity echoes.",
-    "image_explanation": "The image contrasts two panels: the left (yellow star) has a clean baseline due to the wall filter eliminating low-frequency noise, while the right (blue star) shows residual low-frequency echoes."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 92,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided spectral Doppler image, which panel shows the presence of low-intensity echoes that are typically observed when a wall filter is not applied? (Refer to the star indicators.)",
-    "image": "wall_filter.png",
-    "opciones": [
-      "Left panel (yellow star)",
-      "Right panel (blue star)",
-      "Both panels",
-      "Neither panel"
-    ],
-    "respuesta_correcta": [
-      "Right panel (blue star)"
-    ],
-    "concept_to_study": "Wall filter application",
-    "explicacion_openai": "The right panel, marked by the blue star, exhibits low-intensity echoes, which is characteristic of a display without the wall filter actively removing low-frequency signals. In contrast, the left panel with the yellow star shows a cleaner baseline.",
-    "image_explanation": "Notice that the right side of the image (blue star) reveals more low-frequency echo signals, indicating the absence of wall filtering, as opposed to the left side (yellow star)."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 92,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Using the provided image, what is the key diagnostic advantage provided by the wall filter application seen in the panel with the yellow star?",
-    "image": "wall_filter.png",
-    "opciones": [
-      "It removes low-frequency noise to produce a cleaner baseline",
-      "It amplifies both low- and high-frequency signals indiscriminately",
-      "It increases overall signal sensitivity, leading to more clutter",
-      "It reduces the sampling rate of the Doppler signal"
-    ],
-    "respuesta_correcta": [
-      "It removes low-frequency noise to produce a cleaner baseline"
-    ],
-    "concept_to_study": "Wall filter application",
-    "explicacion_openai": "The wall filter's main advantage is its ability to eliminate low-frequency signals that can obscure true blood flow data, resulting in a clearer and more interpretable spectral display. This is exemplified by the clean baseline in the left panel (yellow star) compared to the cluttered appearance in the right panel (blue star).",
-    "image_explanation": "The left panel (yellow star) illustrates the beneficial effect of the wall filter, which removes low-frequency clutter and enhances the detection of actual flow signals, as opposed to the right panel where such echoes are visible."
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 92,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Using the provided spectral Doppler image, what is a potential disadvantage of applying an excessively high wall filter setting, as suggested by the panel marked with the yellow star?",
-    "image": "wall_filter.png",
-    "opciones": [
-      "It may eliminate important low-velocity flow information, hindering proper diagnosis.",
-      "It can increase high-frequency noise, causing signal oversaturation.",
-      "It results in an artificially cluttered baseline.",
-      "It decreases overall Doppler gain, reducing image brightness."
-    ],
-    "respuesta_correcta": [
-      "It may eliminate important low-velocity flow information, hindering proper diagnosis."
-    ],
-    "concept_to_study": "Wall filter over-application",
-    "explicacion_openai": "An excessively high wall filter setting can remove not only unwanted low-frequency noise but also valuable low-velocity blood flow signals. This loss of slow flow information can lead to an underestimation of blood flow, which is critical for accurate diagnosis. The panel marked with the yellow star in the image demonstrates a very clean baseline, which, if too pronounced, may indicate that essential diagnostic details are being filtered out.",
-    "image_explanation": "The image contrasts two panels: the left panel (yellow star) displays an overly clean baseline due to a high wall filter setting, while the right panel (blue star) shows visible low-frequency echoes. This comparison helps illustrate the potential downside of an excessive wall filter setting."
-  },
-  {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In the provided ultrasound beam image, at which point is the best lateral resolution achieved?",
-        "image": "focal_point.png",
-        "opciones": [
-            "A",
-            "B",
-            "C",
-            "D"
-        ],
-        "respuesta_correcta": [
-            "B"
-        ],
-        "concept_to_study": "Identify the point of best lateral resolution.",
-        "explicacion_openai": "The best lateral resolution is achieved at the focal point (B) because the ultrasound beam is narrowest at that location. Lateral resolution is also referred to as azimuthal, transverse, and angular resolution, collectively abbreviated as **LATA**. This abbreviation represents all terms used to describe resolution in the lateral axis, which is crucial for distinguishing closely spaced objects that are side-by-side. At the focal point, the beam width is minimized, leading to the highest image clarity and separation of adjacent structures.",
-        "image_explanation": "The image displays an ultrasound beam converging toward point B."
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In the provided ultrasound beam image, at which point is the best azimuthal resolution achieved?",
-        "image": "focal_point.png",
-        "opciones": [
-            "A",
-            "B",
-            "C",
-            "D"
-        ],
-        "respuesta_correcta": [
-            "B"
-        ],
-        "concept_to_study": "Identify the point of best azimuthal resolution.",
-        "explicacion_openai": "The best azimuthal resolution is achieved at the focal point (B). Azimuthal resolution is synonymous with lateral, transverse, and angular resolution, collectively abbreviated as **LATA**. These terms describe the ability of the ultrasound system to differentiate between objects positioned side-by-side. Since the beam narrows at the focal point, azimuthal resolution is optimal there, allowing for greater accuracy in separating close structures.",
-        "image_explanation": "The image shows an ultrasound beam converging to point B, indicating optimal resolution."
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In the provided ultrasound beam image, at which point is the best angular resolution achieved?",
-        "image": "focal_point.png",
-        "opciones": [
-            "A",
-            "B",
-            "C",
-            "D"
-        ],
-        "respuesta_correcta": [
-            "B"
-        ],
-        "concept_to_study": "Identify the point of best angular resolution.",
-        "explicacion_openai": "Angular resolution is optimal at the focal point (B), where the ultrasound beam reaches its narrowest width. Angular resolution, like azimuthal, transverse, and lateral resolution, belongs to the **LATA** group, which describes the system’s ability to differentiate objects in the lateral axis. The focal point is ideal because the beam is most concentrated, maximizing resolution and minimizing distortion.",
-        "image_explanation": "The provided image illustrates an ultrasound beam focusing at point B."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 1,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "What is the best method or the most appropriate approach to improve this artifact?",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) Increase PRF/scale",
-            "b) Decrease PRF/scale",
-            "c) Increase the Doppler gain",
-            "d) Lower the wall filter settings"
-        ],
-        "respuesta_correcta": [
-            "a) Increase PRF/scale"
-        ],
-        "concept_to_study": "Improvement of artifacts in Doppler imaging",
-        "explicacion_openai": "Increasing the PRF (Pulse Repetition Frequency) or the velocity scale effectively broadens the Nyquist limit, reducing aliasing artifacts. This adjustment allows for a more accurate depiction of higher blood flow velocities, while the other options may exacerbate the issue.",
-        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. Aliasing occurs when high blood flow velocities exceed the system’s Nyquist limit, often due to low PRF settings or suboptimal insonation angles."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 2,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "Which of the following methods cannot resolve the aliasing artifact?",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) Increase PRF/scale",
-            "b) Reposition the sample volume",
-            "c) Adjust the insonation angle",
-            "d) Increase the Doppler gain"
-        ],
-        "respuesta_correcta": [
-            "d) Increase the Doppler gain"
-        ],
-        "concept_to_study": "Improvement of artifacts in Doppler imaging",
-        "explicacion_openai": "While increasing the PRF/scale, repositioning the sample volume, and adjusting the insonation angle can effectively reduce aliasing, increasing the Doppler gain simply amplifies the signal without correcting the underlying sampling issues.",
-        "image_explanation": "This image is a color Doppler ultrasound view displaying aliasing. The artifact is due to limitations such as low PRF or unsuitable insonation angles that cause high-velocity signals to wrap around the display."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 3,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "All of the following elements can resolve this artifact except:",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) Increase PRF/scale",
-            "b) Reposition the sample volume",
-            "c) Adjust the insonation angle",
-            "d) Increase the Doppler gain"
-        ],
-        "respuesta_correcta": [
-            "d) Increase the Doppler gain"
-        ],
-        "concept_to_study": "Improvement of artifacts in Doppler imaging",
-        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, repositioning the sample volume and adjusting the insonation angle optimize flow measurement—all of which help reduce aliasing. However, increasing the Doppler gain only amplifies the signal, including any aliasing artifacts, without eliminating the cause.",
-        "image_explanation": "This image is a color Doppler ultrasound view that shows aliasing. The artifact results from high velocities exceeding the Nyquist limit due to factors like low PRF and an inappropriate insonation angle."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 4,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "All of the following elements would prevent the aliasing artifact shown in this image:",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle",
-            "b) Decrease PRF/scale, maintain the current sample volume, keep the insonation angle unchanged",
-            "c) Increase the Doppler gain, leave PRF/scale unchanged, do not reposition the sample volume",
-            "d) Lower the wall filter settings, keep PRF/scale constant, make no adjustment to the insonation angle"
-        ],
-        "respuesta_correcta": [
-            "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle"
-        ],
-        "concept_to_study": "Prevention of Doppler aliasing artifacts",
-        "explicacion_openai": "Increasing the PRF/scale raises the Nyquist limit, while repositioning the sample volume and adjusting the insonation angle optimize beam alignment with the direction of blood flow. These adjustments help prevent aliasing by ensuring high flow velocities are accurately sampled. The other options either lower the Nyquist limit or simply amplify the aliasing artifact instead of preventing it.",
-        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. Aliasing occurs when high blood flow velocities exceed the system's Nyquist limit, often due to low PRF settings or an inappropriate insonation angle."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 5,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "Which underlying physical principle is responsible for the artifact observed in the provided Doppler ultrasound image?",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)",
-            "b) Signal attenuation from deep tissue imaging",
-            "c) Excessive wall filter settings removing high-frequency components",
-            "d) Overamplification caused by a high Doppler gain"
-        ],
-        "respuesta_correcta": [
-            "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)"
-        ],
-        "concept_to_study": "Fundamental physics behind Doppler aliasing",
-        "explicacion_openai": "Aliasing in Doppler ultrasound occurs when the actual Doppler frequency shift exceeds the Nyquist limit, which is determined by the PRF. When the PRF is too low, high-velocity blood flow generates shifts that wrap around the display, resulting in the aliasing artifact. The other factors do not directly account for this phenomenon.",
-        "image_explanation": "This image is a color Doppler ultrasound view showing aliasing. The artifact arises because high flow velocities exceed the system's Nyquist limit, a direct consequence of low PRF settings."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 6,
-        "tipo_pregunta": "multiple_choice",
-        "enunciado": "In this color Doppler image, aliasing is observed in a blood vessel. Which of the following statements best explains how changing the insonation angle affects the measured Doppler shift—and thus the occurrence of aliasing?",
-        "image": "doppler_aliasing.png",
-        "opciones": [
-            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it",
-            "b) A smaller insonation angle decreases the measured velocity and reduces aliasing, while a larger angle increases it",
-            "c) Changing the insonation angle has minimal impact on aliasing occurrence",
-            "d) The insonation angle affects only spatial resolution, not the Doppler shift"
-        ],
-        "respuesta_correcta": [
-            "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it"
-        ],
-        "concept_to_study": "Effect of insonation angle on Doppler aliasing",
-        "explicacion_openai": "The Doppler frequency shift is proportional to the cosine of the insonation angle. With a smaller angle (more parallel to blood flow), the cosine value is higher, resulting in a higher measured velocity that is more likely to exceed the Nyquist limit, thereby causing aliasing. In contrast, a larger angle decreases the effective velocity measurement and reduces aliasing, though it may also lower the signal intensity.",
-        "image_explanation": "This image is a color Doppler ultrasound view demonstrating aliasing. The artifact is influenced by the Doppler angle, which affects the magnitude of the measured velocity and, consequently, the appearance of aliasing."
-    },
-    {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "how do you fix this image ? (the color box is blue for easier identification)",
-  "image": "dopplersteer.png",
-  "opciones": [
-    "Steer to the left",
-    "Steer to the right",
-    "Do not adjust",
-    "Reverse the Doppler color"
-  ],
-  "respuesta_correcta": [
-    "Steer to the right"
-  ],
-  "concept_to_study": "Color Doppler Steering.",
-  "explicacion_openai": "In the provided image, the Doppler color box (highlighted in blue) is misaligned with the direction of blood flow. This results in suboptimal insonation angles and color aliasing. The goal in Doppler imaging is to orient the beam as parallel as possible to the flow. Steering the beam to the right improves angle alignment, optimizing signal detection and ensuring accurate velocity representation.",
-  "image_explanation": "The misalignment between the Doppler beam and vessel axis produces flow dropout and color confusion. Steering the beam right brings the insonation angle closer to parallel with the flow path, correcting the issue."
-},
-    {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "What does the misalignment between the Doppler box and vessel suggest in this image?",
-  "image": "dopplersteer.png",
-  "opciones": [
-    "The vessel is occluded",
-    "The beam angle is suboptimal for Doppler analysis",
-    "The gain is too high",
-    "There is aliasing in the spectral waveform"
-  ],
-  "respuesta_correcta": [
-    "The beam angle is suboptimal for Doppler analysis"
-  ],
-  "concept_to_study": "Angle optimization in Doppler ultrasound.",
-  "explicacion_openai": "The Doppler box is not aligned with the vessel's direction, suggesting an improper angle of insonation. This can result in inaccurate velocity readings and poor Doppler signal quality.",
-  "image_explanation" : ""  
-},
-    {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "What is wrong with this image (the color box is blue for easier identification)?",
-  "image": "dopplersteer.png",
-  "opciones": [
-    "Incorrect steering",
-    "Reversed color coding",
-    "Excessive Doppler gain",
-    "Misplaced focal zone"
-  ],
-  "respuesta_correcta": [
-    "Incorrect steering"
-  ],
-  "concept_to_study": "Color Doppler Steering.",
-  "explicacion_openai": "The Doppler color box isn’t aligned with the vessel’s axis, indicating incorrect beam steering and resulting in suboptimal velocity measurements.",
-  "image_explanation": "Notice the asymmetric color fill—this shows the beam is angled improperly. Proper steering realigns the beam parallel to flow."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "How do you fix this image?",
-  "image": "dopplersteer2.png",
-  "opciones": [
-    "Steer to the left",
-    "Steer to the right",
-    "Do not adjust",
-    "Reverse the Doppler color"
-  ],
-  "respuesta_correcta": [
-    "Steer to the left"
-  ],
-  "concept_to_study": "Color Doppler Steering.",
-  "explicacion_openai": "The Doppler color box is misaligned to the right of the vessel’s axis, causing suboptimal insonation. By steering the box to the left, the ultrasound beam aligns parallel to flow, ensuring accurate velocity assessment.",
-  "image_explanation": "The uneven color distribution shifted to the right indicates poor beam–flow alignment; steering left recenters the box over the vessel."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "What is wrong with this image?",
-  "image": "dopplersteer2.png",
-  "opciones": [
-    "Incorrect steering",
-    "Reversed color coding",
-    "Excessive Doppler gain",
-    "Misplaced focal zone"
-  ],
-  "respuesta_correcta": [
-    "Incorrect steering"
-  ],
-  "concept_to_study": "Color Doppler Steering.",
-  "explicacion_openai": "In the original image you saw a straight vessel with the blue Doppler box shifted off to the vessel’s right side, causing the beam to hit at an oblique angle. Because Doppler steering must align the ultrasound beam as parallel as possible to the vessel’s axis, the control should be moved left until the box is centered over the lumen. That realignment minimizes the insonation angle and ensures accurate flow velocity readings.",
-  "image_explanation": "Notice the asymmetric color distribution shifted right; this shows the beam is misaligned and needs to be steered to the left."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "All of the following statements about this image are true, EXCEPT:",
-  "image": "dopplersteer2.png",
-  "opciones": [
-    "The Doppler color box is shifted to the vessel’s right, indicating misalignment",
-    "Steering the box to the left will center it over the lumen and optimize the insonation angle",
-    "This misalignment can lead to color dropout artifacts where flow is under-sampled",
-    "The Doppler box is properly aligned along the vessel’s axis"
-  ],
-  "respuesta_correcta": [
-    "The Doppler box is properly aligned along the vessel’s axis"
-  ],
-  "concept_to_study": "Identifying false statements in Doppler steering.",
-  "explicacion_openai": "In the original image you noted a straight vessel with the blue Doppler box displaced to the right, creating an oblique insonation angle and patchy flow signal. Steering left realigns the beam parallel to the vessel and avoids dropout. Only the statement claiming proper alignment is incorrect.",
-  "image_explanation": "The uneven color distribution on one side of the vessel reveals misalignment; centering the box by steering left corrects the angle."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "How do you fix this image?",
-  "image": "dopplercolorgain.png",
-  "opciones": [
-    "Decrease color gain",
-    "Increase color gain",
-    "Increase PRF",
-    "Reduce wall filter"
-  ],
-  "respuesta_correcta": [
-    "Increase color gain"
-  ],
-  "concept_to_study": "Color Doppler Gain Optimization.",
-  "explicacion_openai": "In the original image you saw a vessel lumen with only sparse green speckles and dark gaps along the wall—classic signs of under‐gained color Doppler. To correct this, the sonographer should increase the color gain until the lumen fills uniformly without extraneous noise outside the vessel.",
-  "image_explanation": "Weak, patchy color within the vessel indicates the gain is too low. Raising the gain amplifies true flow signals and fills in the gaps."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "All of the following statements about this image are true, except:",
-  "image": "dopplercolorgain.png",
-  "opciones": [
-    "The patchy appearance of flow is due to insufficient color gain",
-    "Increasing color gain will produce a more continuous color fill of the lumen",
-    "Reducing the wall filter will correct the under‐gained signal",
-    "Under‐gaining leads to loss of low‐velocity flow signals at the vessel wall"
-  ],
-  "respuesta_correcta": [
-    "Reducing the wall filter will correct the under‐gained signal"
-  ],
-  "concept_to_study": "Differentiating color Doppler adjustments.",
-  "explicacion_openai": "You noted that the flow in the lumen looked broken and incomplete because the gain was set too low. While boosting gain directly addresses that, changing the wall filter affects clutter suppression of very low velocities and won’t restore a weak color signal caused by under‐gaining.",
-  "image_explanation": "Only gain adjustment can fill the gaps; wall‐filter reduction doesn’t amplify the true Doppler signal."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which of the following actions would worsen this condition?",
-  "image": "dopplercolorgain.png",
-  "opciones": [
-    "Decrease color gain",
-    "Increase PRF",
-    "Reduce wall filter",
-    "Steer the Doppler box"
-  ],
-  "respuesta_correcta": [
-    "Increase PRF"
-  ],
-  "concept_to_study": "Color Doppler PRF Effects.",
-  "explicacion_openai": "In a low‐gain scenario, raising the PRF only makes the system less sensitive to slow flow, further reducing the already weak signal and worsening the patchy color display. The correct fix remains to amplify the gain, not increase PRF.",
-  "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, deepening the gaps in the flow signal."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 173,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which of the following actions would worsen this condition?",
-  "image": "dopplercolorgain.png",
-  "opciones": [
-    "Increase color gain",
-    "Increase PRF",
-    "Reduce wall filter",
-    "Steer the Doppler box"
-  ],
-  "respuesta_correcta": [
-    "Increase PRF"
-  ],
-  "concept_to_study": "Color Doppler PRF Effects.",
-  "explicacion_openai": "With the gain already too low—manifested by sparse, patchy color—increasing PRF further raises the minimum detectable velocity. This reduces sensitivity to slow flow and deepens the gaps. In contrast, increasing gain, reducing the wall filter, or proper steering would either improve or not worsen the display.",
-  "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, exacerbating the under-gained appearance."
-}
+    }
 ]
