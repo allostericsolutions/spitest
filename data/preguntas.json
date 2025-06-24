@@ -4602,7 +4602,7 @@
         "grupo": 243,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Observing the ultrasound image, what characteristic of the structure *anterior* to the bright region contributes to the artifact seen?",
-        "image": "enhacement4.jpg",
+        "image": "enhacement4.png",
         "opciones": [
             "High reflectivity",
             "Low attenuation",
@@ -4621,7 +4621,7 @@
         "grupo": 244,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Looking at the displayed ultrasound image, how would you describe the echogenicity of the region *distal* to the anechoic area?",
-        "image": "enhacement4.jpg",
+        "image": "enhacement4.png",
         "opciones": [
             "Hypoechoic",
             "Hyperechoic",
@@ -4678,7 +4678,7 @@
         "grupo": 247,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If you were to increase the overall gain while viewing this image, what would happen to the region of posterior enhancement?",
-        "image": "enhacement4.jpg",
+        "image": "enhacement4.png",
         "opciones": [
             "It would become less noticeable.",
             "It would become more pronounced.",
@@ -14881,7 +14881,7 @@
         "grupo": 102,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "You observe the following artifact in a pulsed-wave Doppler spectral display. What is the FIRST adjustment you should make to attempt to eliminate it?",
-        "image": "aliasing.jpg",
+        "image": "aliasing.png",
         "opciones": [
             "Increase PRF (Scale) setting",
             "Decrease the sample depth",
@@ -15204,7 +15204,7 @@
         "grupo": 119,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "The spectral Doppler tracing shows wraparound of the waveform. What is the underlying cause of this appearance?",
-        "image": "aliasing.jpg",
+        "image": "aliasing.png",
         "opciones": [
             "The Doppler shift exceeds the Nyquist limit.",
             "The Doppler gain is set too high.",
@@ -15242,7 +15242,7 @@
         "grupo": 121,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What technical parameter is directly related to the maximum Doppler shift frequency that can be displayed without the artifact seen in this image?",
-        "image": "aliasing.jpg",
+        "image": "aliasing.png",
         "opciones": [
             "Transmit frequency",
             "Pulse Repetition Frequency (PRF)",
@@ -15280,7 +15280,7 @@
         "grupo": 123,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While attempting to eliminate the artifact present in this spectral Doppler image, which of the following actions is MOST likely to be successful if applied individually?",
-        "image": "aliasing.jpg",
+        "image": "aliasing.png",
         "opciones": [
             "Switching to a lower frequency transducer.",
             "Increasing the Doppler angle to 60 degrees.",
@@ -15299,7 +15299,7 @@
         "grupo": 124,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If you were unable to eliminate this artifact using conventional pulsed-wave Doppler techniques, which Doppler modality would be the BEST alternative to obtain accurate velocity measurements?",
-        "image": "aliasing.jpg",
+        "image": "aliasing.png",
         "opciones": [
             "Power Doppler",
             "Color Flow Doppler",
