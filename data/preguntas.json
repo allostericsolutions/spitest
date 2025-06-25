@@ -27340,5 +27340,176 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
         "image_explanation": ""
-    }
+    },
+    {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 175,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "How can this spectral waveform be corrected?",
+  "image": "aliasingbaseline.png",
+  "opciones": [
+    "Increase the wall filter",
+    "Lower the baseline",
+    "Reverse flow direction",
+    "Reduce Doppler gain"
+  ],
+  "respuesta_correcta": [
+    "Lower the baseline"
+  ],
+  "concept_to_study": "Spectral Doppler baseline adjustment.",
+  "explicacion_openai": "In the original image, the spectral waveform appears compressed against the top of the Doppler scale, with systolic peaks truncated or aliasing into the opposite direction. This occurs when the baseline is set too high. Lowering the baseline re-centers the waveform into the display window, allowing full visualization of the flow envelope and preventing misinterpretation of reversed flow or clipping.",
+  "image_explanation": "The top-edge cutoff of the waveform suggests inadequate display space; shifting the baseline downward improves visibility and diagnostic clarity."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 176,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "This spectral waveform abnormality can be corrected using all of the following techniques, except:",
+  "image": "aliasingbaseline.png",
+  "opciones": [
+    "Lower the baseline",
+    "Increase the pulse repetition frequency (PRF)",
+    "Invert the color scale",
+    "Use a lower frequency transducer"
+  ],
+  "respuesta_correcta": [
+    "Invert the color scale"
+  ],
+  "concept_to_study": "Spectral Doppler artifact correction techniques.",
+  "explicacion_openai": "In the original image, the spectral waveform is truncated against the top of the display window, typical of aliasing or poorly placed baseline. Lowering the baseline, raising PRF, or using a lower-frequency transducer all expand the measurable velocity range. However, inverting the color scale only changes how flow direction is displayed—it doesn’t resolve aliasing.",
+  "image_explanation": "The waveform's aliasing can be corrected by adjusting baseline or PRF; color scale inversion has no effect on spectral aliasing."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 177,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What Doppler artifact is demonstrated in this spectral waveform image?",
+  "image": "aliasingbaseline.png",
+  "opciones": [
+    "Spectral broadening",
+    "Aliasing",
+    "Mirror artifact",
+    "Wall filter saturation"
+  ],
+  "respuesta_correcta": [
+    "Aliasing"
+  ],
+  "concept_to_study": "Spectral aliasing recognition.",
+  "explicacion_openai": "In this image, the Doppler waveform exceeds the upper velocity scale and wraps around to the opposite side, a classic signature of aliasing. This occurs when the pulse repetition frequency (PRF) is too low to accurately display high velocities within the Nyquist limit.",
+  "image_explanation": "The waveform appears cut off and folds downward—typical of aliasing due to velocity exceeding the measurable range."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 178,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "A 65-year-old woman with hypertension is referred for a carotid Doppler. The spectral tracing of her internal carotid artery shows waveform folding as seen in the image. Which parameter adjustment would best increase the Nyquist limit and eliminate this artifact?",
+  "image": "aliasingbaseline.png",
+  "opciones": [
+    "Lower the baseline",
+    "Increase the pulse repetition frequency (PRF)",
+    "Reduce the Doppler gain",
+    "Use a higher-frequency transducer"
+  ],
+  "respuesta_correcta": [
+    "Increase the pulse repetition frequency (PRF)"
+  ],
+  "concept_to_study": "Nyquist limit adjustment in spectral Doppler.",
+  "explicacion_openai": "The folded waveform indicates aliasing due to velocities exceeding the Nyquist limit. Raising the PRF directly increases that limit, allowing high-velocity signals to be displayed correctly without wrap-around. Lowering the baseline merely shifts the display window, while gain or transducer frequency changes don’t address the sampling rate.",
+  "image_explanation": "Notice the waveform folds downward once it reaches the top of the display—raising PRF prevents this by expanding the measurable velocity range."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 179,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "What do the arrows in this spectral Doppler image indicate?",
+  "image": "wallfilter2.png",
+  "opciones": [
+    "Aliased flow signals",
+    "Spectral broadening due to turbulence",
+    "Signals suppressed by the wall filter",
+    "Mirror image artifact below the baseline"
+  ],
+  "respuesta_correcta": [
+    "Signals suppressed by the wall filter"
+  ],
+  "concept_to_study": "Wall filter function in spectral Doppler.",
+  "explicacion_openai": "In spectral Doppler imaging, the wall filter suppresses low-frequency signals typically associated with slow-moving structures like vessel walls. In this image, the arrows point to the absence of expected low-velocity flow near the baseline, which has been eliminated by the wall filter—intentionally or excessively—resulting in a 'cleared' zone without traceable signal.",
+  "image_explanation": "The lack of signal at or near the baseline beneath the arrows reflects the removal of low-velocity echoes by the wall filter settings."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 180,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which potential drawback may occur if the wall filter setting is too high, as suggested by this image?",
+  "image": "wallfilter2.png",
+  "opciones": [
+    "Increased aliasing artifacts",
+    "Loss of low-velocity flow information",
+    "Overestimation of peak systolic velocity",
+    "Inversion of spectral waveform direction"
+  ],
+  "respuesta_correcta": [
+    "Loss of low-velocity flow information"
+  ],
+  "concept_to_study": "Clinical consequences of excessive wall filter settings.",
+  "explicacion_openai": "A high wall filter removes low-frequency Doppler signals, which may include physiologically important slow-flow components. This could lead to underdiagnosis of conditions like partial stenosis or venous flow alterations. The image shows signal dropout near the baseline, indicating low-velocity echoes were filtered out.",
+  "image_explanation": "The clear zone near the baseline shows where low-velocity signals were eliminated by an elevated wall filter threshold."
+},
+ {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 181,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "How can the operator reduce the likelihood of this Color Doppler artifact appearing in the image?",
+  "image": "mirrowdoppler.png",
+  "opciones": [
+    "Increase Doppler angle",
+    "Decrease Doppler gain or insonation angle",
+    "Lower the wall filter",
+    "Use a higher-frequency transducer"
+  ],
+  "respuesta_correcta": [
+    "Decrease Doppler gain or insonation angle"
+  ],
+  "concept_to_study": "Mirror artifact reduction techniques in color Doppler.",
+  "explicacion_openai": "Mirror artifacts in color Doppler imaging occur when strong signals reflect off highly reflective interfaces, such as vessel walls, and are misinterpreted as flow in mirror symmetry. This can happen if the gain is set too high or if the insonation angle is too perpendicular, increasing reflectivity. Reducing gain or adjusting the angle of insonation can minimize these duplicate signals.",
+  "image_explanation": "The image displays symmetrical flow signals below and above the reflective interface—classic appearance of a mirror artifact that can be mitigated by tuning gain and insonation angle."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 182,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "All of the following statements about mirror artifacts in color Doppler imaging are true, except:",
+  "image": "mirrowdoppler.png",
+  "opciones": [
+    "They appear as duplicated flow signals on the opposite side of a strong reflector",
+    "They result from ultrasound reverberation between the transducer and a highly reflective interface",
+    "They can be minimized by decreasing Doppler gain or adjusting the insonation angle",
+    "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
+  ],
+  "respuesta_correcta": [
+    "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
+  ],
+  "concept_to_study": "Mirror artifact origins and mitigation in color Doppler",
+  "explicacion_openai": "Mirror artifacts occur when the ultrasound beam reverberates between a strong reflector and the transducer, creating a duplicated flow image. Adjusting gain or angle reduces these reflections. Aliasing, by contrast, is a sampling issue in spectral Doppler when velocities exceed the Nyquist limit and is not responsible for mirror artifacts.",
+  "image_explanation": "The paired color flow signals on either side of the reflective boundary illustrate a classic reverberation-based mirror artifact."
+},
+{
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 183,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which diagnostic pitfall may occur if the mirror artifact in this color Doppler image is not recognized?",
+  "image": "mirrowdoppler.png",
+  "opciones": [
+    "Overestimating peak systolic velocity due to signal duplication",
+    "Confusing a mirrored flow signal for an additional vessel branch",
+    "Misidentifying wall filter settings as the cause of signal dropout",
+    "Attributing low‐velocity signals to aliasing"
+  ],
+  "respuesta_correcta": [
+    "Confusing a mirrored flow signal for an additional vessel branch"
+  ],
+  "concept_to_study": "Clinical implications of mirror artifacts in Doppler",
+  "explicacion_openai": "When mirror artifacts are overlooked, the duplicated flow signal can be misinterpreted as a second vessel or branch. Recognizing that this is a reverberation phenomenon prevents false diagnoses of vascular anomalies.",
+  "image_explanation": "The symmetrical color flow on both sides of the reflector may mimic two separate vessels, but it represents a single vessel producing a mirror artifact."
+}
 ]
