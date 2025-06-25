@@ -4887,7 +4887,7 @@
         "grupo": 258,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Observing the ultrasound image, what is the primary cause of the dark area seen distal to the echogenic structure?",
-        "image": "shadowing.png",
+        "image": "shadowing2.png",
         "opciones": [
             "High reflection and absorption of ultrasound waves",
             "Low attenuation of ultrasound waves",
@@ -4906,7 +4906,7 @@
         "grupo": 259,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the ultrasound image, how would you describe the echogenicity of the region directly beneath the bright, rounded structure?",
-        "image": "shadowing.png",
+        "image": "shadowing3.png",
         "opciones": [
             "Hyperechoic",
             "Isoechoic",
@@ -4925,7 +4925,7 @@
         "grupo": 260,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the ultrasound image, what can you infer about the composition of the structure causing the acoustic shadowing?",
-        "image": "shadowing.png",
+        "image": "shadowing3.png",
         "opciones": [
             "It is likely fluid-filled.",
             "It is likely composed of soft tissue.",
@@ -4944,7 +4944,7 @@
         "grupo": 261,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Looking at the image, how does the presence of acoustic shadowing affect your ability to visualize structures deep to the shadowing object?",
-        "image": "shadowing.png",
+        "image": "shadowing3.png",
         "opciones": [
             "It improves visualization.",
             "It has no effect.",
@@ -4963,7 +4963,7 @@
         "grupo": 262,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If you were to change the frequency of the transducer while examining this shadowing artifact, what would you *most likely* observe?",
-        "image": "shadowing.png",
+        "image": "shadowing3.png",
         "opciones": [
             "The shadow would disappear.",
             "The shadow would become wider with a higher frequency.",
@@ -4982,7 +4982,7 @@
         "grupo": 263,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Observing the image, what shape best describes the region of acoustic shadowing?",
-        "image": "shadowing.png",
+        "image": "shadowing2.png",
         "opciones": [
             "Circular",
             "Triangular",
@@ -5001,7 +5001,7 @@
         "grupo": 264,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the ultrasound image, what is the term used to describe the dark area distal to the highly attenuating structure?",
-        "image": "shadowing.png",
+        "image": "shadowing2.png",
         "opciones": [
             "Posterior enhancement",
             "Acoustic shadowing",
@@ -5020,7 +5020,7 @@
         "grupo": 265,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on your observation of the image, how does the size of the shadowing object relate to the width of the shadow at its origin?",
-        "image": "shadowing.png",
+        "image": "shadowing3.png",
         "opciones": [
             "The shadow is wider than the object.",
             "The shadow is narrower than the object.",
@@ -5039,7 +5039,7 @@
         "grupo": 266,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Looking at the ultrasound image, is the shadowing 'clean' or 'dirty'?",
-        "image": "shadowing.png",
+        "image": "shadowing2.png",
         "opciones": [
             "Clean",
             "Dirty",
