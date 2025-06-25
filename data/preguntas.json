@@ -6155,26 +6155,7 @@
         "concept_to_study": "Wavelength of audible sound",
         "explicacion_openai": "The wavelength of sound is calculated as the speed of sound divided by the frequency. At 1,000 Hz and a speed of 340 m/s, the wavelength is 0.34 meters. Wavelengths help in understanding sound propagation and its interaction with materials."
     },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 325,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is the sound intensity level in decibels (dB) of a sound wave with an intensity of 10⁻⁶ W/m², given that the reference intensity is 10⁻¹² W/m²?",
-        "image": "",
-        "image_explanation": "",
-        "opciones": [
-            "30 dB",
-            "50 dB",
-            "60 dB",
-            "70 dB"
-        ],
-        "respuesta_correcta": [
-            "60 dB"
-        ],
-        "concept_to_study": "Quick mental calculation for sound intensity level",
-        "explicacion_openai": "To calculate the sound intensity level in decibels (dB), use the formula 10 × log10(I/I₀), where I is the intensity and I₀ is the reference intensity. Since I = 10⁻⁶ W/m² and I₀ = 10⁻¹² W/m², the ratio is 10⁶. The log10 of 10⁶ is 6, so the calculation simplifies to 10 × 6 = 60 dB. Quick tip: When the intensity is a power of 10 difference from the reference, the result is simply the exponent multiplied by 10 (e.g., 10⁶ → 6 × 10 = 60 dB). No calculator needed!"
-    },
-    {
+       {
         "clasificacion": "Physical Principles",
         "grupo": 326,
         "tipo_pregunta": "opcion_multiple",
@@ -22267,25 +22248,7 @@
         "explicacion_openai": "",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 181,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In a grayscale of 32 shades, what binary number represents an echo intensity?",
-        "image": "",
-        "opciones": [
-            "111000",
-            "011111",
-            "100000",
-            "101010"
-        ],
-        "respuesta_correcta": [
-            "100000"
-        ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
-        "image_explanation": ""
-    },
+   
     {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 182,
