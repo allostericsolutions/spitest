@@ -14938,7 +14938,7 @@
         "grupo": 103,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
-        "image": "aliasing2.jpg",
+        "image": "aliasing2.png",
         "opciones": [
             "Decrease the sample depth",
             "Increase the Doppler angle",
@@ -15204,7 +15204,7 @@
         "grupo": 117,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the artifact displayed in this image?",
-        "image": "aliasing2.jpg",
+        "image": "aliasing2.png",
         "opciones": [
             "Mirror image artifact",
             "Aliasing",
@@ -15299,7 +15299,7 @@
         "grupo": 122,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In a pulsed-wave Doppler system, what is the relationship between the artifact observed in the image and the pulse repetition frequency (PRF)?",
-        "image": "aliasing2.jpg",
+        "image": "aliasing2.png",
         "opciones": [
             "The artifact is unrelated to the PRF.",
             "The artifact occurs when the Doppler shift exceeds twice the PRF.",
