@@ -18529,7 +18529,7 @@
         "grupo": 292,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "What is the best method or the most appropriate approach to improve this artifact?",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) Increase PRF/scale",
             "b) Decrease PRF/scale",
@@ -18548,7 +18548,7 @@
         "grupo": 293,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which of the following methods cannot resolve the aliasing artifact?",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) Increase PRF/scale",
             "b) Reposition the sample volume",
@@ -18567,7 +18567,7 @@
         "grupo": 294,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "All of the following elements can resolve this artifact except:",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) Increase PRF/scale",
             "b) Reposition the sample volume",
@@ -18586,7 +18586,7 @@
         "grupo": 295,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "All of the following elements would prevent the aliasing artifact shown in this image:",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) Increase PRF/scale, reposition the sample volume, adjust the insonation angle",
             "b) Decrease PRF/scale, maintain the current sample volume, keep the insonation angle unchanged",
@@ -18605,7 +18605,7 @@
         "grupo": 296,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "Which underlying physical principle is responsible for the artifact observed in the provided Doppler ultrasound image?",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) Exceeding the Nyquist limit due to a low Pulse Repetition Frequency (PRF)",
             "b) Signal attenuation from deep tissue imaging",
@@ -18624,7 +18624,7 @@
         "grupo": 297,
         "tipo_pregunta": "multiple_choice",
         "enunciado": "In this color Doppler image, aliasing is observed in a blood vessel. Which of the following statements best explains how changing the insonation angle affects the measured Doppler shift—and thus the occurrence of aliasing?",
-        "image": "doppler_aliasing.png",
+        "image": "doppler_aliasing2.png",
         "opciones": [
             "a) A smaller insonation angle (closer to 0°) increases the measured velocity and contributes to aliasing, while a larger angle (closer to 90°) reduces it",
             "b) A smaller insonation angle decreases the measured velocity and reduces aliasing, while a larger angle increases it",
