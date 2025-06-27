@@ -4126,16 +4126,16 @@
         "clasificacion": "Physical Principles",
         "grupo": 218,
         "tipo_pregunta": "calculo",
-        "enunciado": "If the round-trip time of flight of an ultrasound pulse is 91 µs in soft tissue, what is the distance to the reflecting structure?",
+        "enunciado": "An ultrasound pulse has a total round-trip-of-flight of 39 µs in soft tissue. What is the distance to the reflecting structure?",
         "image": "",
         "opciones": [
-            "4.5 cm",
-            "5 cm",
+            "5.0 cm",
+            "3.0 cm",
             "6.5 cm",
             "7 cm"
         ],
         "respuesta_correcta": [
-            "7 cm"
+            "3.0 cm"
         ],
         "concept_to_study": "",
         "explicacion_openai": "",
