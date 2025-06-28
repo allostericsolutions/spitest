@@ -27327,7 +27327,7 @@
   "clasificacion": "Doppler Imaging Concepts",
   "grupo": 176,
   "tipo_pregunta": "opcion_multiple",
-  "enunciado": "This spectral waveform abnormality can be corrected using all of the following techniques, except:",
+  "enunciado": "This spectral waveform abnormality can be corrected using all of the following techniques,EXCEPT:",
   "image": "aliasingbaseline.png",
   "opciones": [
     "Lower the baseline",
