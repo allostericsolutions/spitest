@@ -17619,9 +17619,9 @@
         "enunciado": "What parameter can be adjusted to minimize aliasing, apart from increasing PRF?",
         "image": "",
         "opciones": [
-            "Using a steeper Doppler angle.",
+            "Reduce the insonation angle.",
             "Decreasing the transducer frequency.",
-            "Decreasing the sample volume depth.",
+            "increasing the sample volume depth.",
             "Increasing the color gain."
         ],
         "respuesta_correcta": [
