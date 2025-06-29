@@ -1465,7 +1465,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 78,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact is characterized by the appearance of a duplicate structure on the opposite side of a strong reflector?",
         "image": "",
         "opciones": [
@@ -1484,7 +1484,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 79,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary cause of aliasing in Doppler ultrasound?",
         "image": "",
         "opciones": [
@@ -1503,7 +1503,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 80,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact results from the presence of strong reflectors causing multiple reflections?",
         "image": "",
         "opciones": [
@@ -1522,7 +1522,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 81,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the effect of clutter in Doppler ultrasound?",
         "image": "",
         "opciones": [
@@ -2225,7 +2225,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 118,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "As sound travels through the human body, its intensity decreases because of:",
         "image": "",
         "opciones": [
@@ -2244,7 +2244,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 119,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the total attenuation if a 6.0-MHz ultrasound beam travels through 4 cm of soft tissue?",
         "image": "",
         "opciones": [
@@ -2263,7 +2263,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 120,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "When imaging depth increases, the Pulse Repetition Period (PRP):",
         "image": "",
         "opciones": [
@@ -2282,7 +2282,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 121,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Duty Factor (DF) is measured in:",
         "image": "",
         "opciones": [
@@ -2301,7 +2301,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 122,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "The percentage of time an ultrasound system transmits pulses is described by the:",
         "image": "",
         "opciones": [
@@ -3764,7 +3764,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 199,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Doubling the intensity results in what change to power?",
         "image": "",
         "opciones": [
@@ -3783,7 +3783,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 200,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the unit for spatial pulse length?",
         "image": "",
         "opciones": [
@@ -3802,7 +3802,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 201,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What principle explains that sound waves result from the interference of multiple wavelets from the transducer surface?",
         "image": "",
         "opciones": [
@@ -3821,7 +3821,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 202,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Axial resolution can be enhanced by:",
         "image": "",
         "opciones": [
@@ -3992,7 +3992,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 211,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "An ultrasound pulse takes 26 µs to travel to and from a reflector in soft tissue. What is the depth of the reflector?",
         "image": "",
         "opciones": [
@@ -4011,7 +4011,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 212,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the time of flight (round trip) of an ultrasound pulse in soft tissue is 52 µs, what is the distance from the transducer to the reflector?",
         "image": "",
         "opciones": [
@@ -4030,7 +4030,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 213,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A reflector is located 3 cm deep in soft tissue. What is the round-trip time of flight of the ultrasound pulse?",
         "image": "",
         "opciones": [
@@ -4049,7 +4049,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 214,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A reflector is located 5 cm deep. What will be the total (round-trip) time of flight of the pulse in soft tissue?",
         "image": "",
         "opciones": [
@@ -4068,7 +4068,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 215,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the time of flight (round trip) is 13 µs in soft tissue, what is the distance to the reflector?",
         "image": "",
         "opciones": [
@@ -4087,7 +4087,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 216,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In soft tissue, an ultrasound pulse travels to a reflector and back in 6.5 µs. How far is the reflector?",
         "image": "",
         "opciones": [
@@ -4106,7 +4106,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 217,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A reflector is located 10 cm deep in soft tissue. How long will it take for the ultrasound pulse to return to the transducer (total time of flight)?",
         "image": "",
         "opciones": [
@@ -4125,7 +4125,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 218,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "An ultrasound pulse has a total round-trip-of-flight of 39 µs in soft tissue. What is the distance to the reflecting structure?",
         "image": "",
         "opciones": [
@@ -4144,7 +4144,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 219,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "An ultrasound pulse is sent through soft tissue. If the reflector is 1.5 cm deep, what is the time of flight (round trip)?",
         "image": "",
         "opciones": [
@@ -4163,7 +4163,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 220,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "The time of flight (round trip) of an ultrasound pulse in soft tissue is 104 µs. What is the depth of the reflector?",
         "image": "",
         "opciones": [
@@ -4182,7 +4182,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 221,
-        "tipo_pregunta": "calculo",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A reflector in soft tissue is located 8.5 cm from the transducer. What is the total time of flight of the ultrasound pulse?",
         "image": "",
         "opciones": [
@@ -4220,7 +4220,7 @@
     {
         "clasificacion": "Physical Principles",
         "grupo": 223,
-        "tipo_pregunta": "calculation",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A reflector is detected at a depth of 2.5 cm in soft tissue. Determine the time of flight (round trip) of the ultrasound pulse.",
         "image": "",
         "opciones": [
@@ -6155,9 +6155,9 @@
         "concept_to_study": "Wavelength of audible sound",
         "explicacion_openai": "The wavelength of sound is calculated as the speed of sound divided by the frequency. At 1,000 Hz and a speed of 340 m/s, the wavelength is 0.34 meters. Wavelengths help in understanding sound propagation and its interaction with materials."
     },
-       {
+    {
         "clasificacion": "Physical Principles",
-        "grupo": 326,
+        "grupo": 325,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is amplitude in the context of sound waves?",
         "image": "",
@@ -6176,7 +6176,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 327,
+        "grupo": 326,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which unit is used to measure the pressure amplitude in sound waves?",
         "image": "",
@@ -6195,7 +6195,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 328,
+        "grupo": 327,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is power defined in relation to sound waves?",
         "image": "",
@@ -6214,7 +6214,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 329,
+        "grupo": 328,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the relationship between amplitude and power in sound waves?",
         "image": "",
@@ -6233,7 +6233,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 330,
+        "grupo": 329,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is intensity in the context of sound waves?",
         "image": "",
@@ -6252,7 +6252,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 331,
+        "grupo": 330,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What unit is used to measure intensity in sound waves?",
         "image": "",
@@ -6271,7 +6271,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 332,
+        "grupo": 331,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is intensity related to power?",
         "image": "",
@@ -6290,7 +6290,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 333,
+        "grupo": 332,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why is intensity measured per unit area?",
         "image": "",
@@ -6309,7 +6309,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 334,
+        "grupo": 333,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to intensity when the area over which power is distributed increases?",
         "image": "",
@@ -6328,7 +6328,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 335,
+        "grupo": 334,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does amplitude affect the energy of a sound wave?",
         "image": "",
@@ -6347,8 +6347,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 336,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 335,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "According to the '13 µs rule', how long does it take for sound to travel 1 cm (round-trip) in soft tissue?",
         "image": "",
         "opciones": [
@@ -6366,8 +6366,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 337,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 336,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "If a round-trip time of 26 µs is measured, what is the distance to the reflector using the equation d = 0.77t?",
         "image": "",
         "opciones": [
@@ -6385,7 +6385,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 338,
+        "grupo": 337,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is an assumption the ultrasound machine makes about the transmission of sound beams?",
         "image": "",
@@ -6404,7 +6404,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 339,
+        "grupo": 338,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What propagation speed does the ultrasound machine assume for sound traveling through the body?",
         "image": "",
@@ -6423,7 +6423,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 340,
+        "grupo": 339,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "According to ultrasound assumptions, any reflection returning to the transducer must have followed which path?",
         "image": "",
@@ -6442,7 +6442,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 341,
+        "grupo": 340,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the common artifact created by multiple reflections between two closely spaced strong specular reflectors?",
         "image": "",
@@ -6461,7 +6461,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 342,
+        "grupo": 341,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What distinguishes a comet tail artifact from a ring-down artifact in ultrasound imaging?",
         "image": "",
@@ -6480,7 +6480,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 343,
+        "grupo": 342,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact occurs when a large specular reflector, such as the diaphragm, deviates part of the sound beam, creating a duplicate image that appears deeper than the actual structure?",
         "image": "",
@@ -6499,7 +6499,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 344,
+        "grupo": 343,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Artifacts such as side lobes or grating lobes occur because the ultrasound machine assumes which of the following about sound energy?",
         "image": "",
@@ -6518,7 +6518,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 345,
+        "grupo": 344,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT an assumption made by the ultrasound machine?",
         "image": "",
@@ -6537,7 +6537,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 346,
+        "grupo": 345,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is spatial compounding in ultrasound imaging?",
         "image": "",
@@ -6556,7 +6556,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 347,
+        "grupo": 346,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which artifact is most significantly improved by spatial compounding?",
         "image": "",
@@ -6575,7 +6575,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 348,
+        "grupo": 347,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is one major benefit of spatial compounding in ultrasound imaging?",
         "image": "",
@@ -6594,7 +6594,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 349,
+        "grupo": 348,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is a potential limitation of spatial compounding?",
         "image": "",
@@ -6613,7 +6613,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 350,
+        "grupo": 349,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Spatial compounding can be performed using which of the following methods?",
         "image": "",
@@ -6632,7 +6632,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 351,
+        "grupo": 350,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the definition of Spatial Pulse Length (SPL) in ultrasound imaging?",
         "image": "",
@@ -6651,7 +6651,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 352,
+        "grupo": 351,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does an increase in wavelength affect the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6670,7 +6670,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 353,
+        "grupo": 352,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the number of cycles in a pulse influence the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6689,7 +6689,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 354,
+        "grupo": 353,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the effect of damping on the Spatial Pulse Length (SPL) and Pulse Duration (PD)?",
         "image": "",
@@ -6708,7 +6708,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 355,
+        "grupo": 354,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How do higher ultrasound frequencies affect the Spatial Pulse Length (SPL)?",
         "image": "",
@@ -6727,7 +6727,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 356,
+        "grupo": 355,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the definition of frequency compounding in ultrasound imaging?",
         "image": "",
@@ -6746,7 +6746,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 357,
+        "grupo": 356,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of resolution is improved through frequency compounding?",
         "image": "",
@@ -6765,7 +6765,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 358,
+        "grupo": 357,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which resolution is NOT improved by frequency compounding?",
         "image": "",
@@ -6784,7 +6784,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 359,
+        "grupo": 358,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does frequency compounding improve the signal-to-noise ratio (SNR) in ultrasound imaging?",
         "image": "",
@@ -6803,7 +6803,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 360,
+        "grupo": 359,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary way frequency compounding reduces speckle noise?",
         "image": "",
@@ -6822,7 +6822,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 361,
+        "grupo": 360,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the final result of frequency compounding in ultrasound imaging?",
         "image": "",
@@ -6841,7 +6841,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 362,
+        "grupo": 361,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is NOT an advantage of harmonic ultrasound imaging?",
         "image": "",
@@ -6860,7 +6860,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 363,
+        "grupo": 362,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which relationship best explains the improvement of axial resolution in ultrasound imaging?",
         "image": "",
@@ -6879,7 +6879,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 364,
+        "grupo": 363,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following does not change with increasing imaging depth?",
         "image": "",
@@ -6898,8 +6898,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 365,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 364,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does LARD stand for in ultrasound imaging, and how does it relate to axial resolution?",
         "image": "",
         "opciones": [
@@ -6917,8 +6917,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 366,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 365,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does LATA stand for in ultrasound imaging, and how does it relate to lateral resolution?",
         "image": "",
         "opciones": [
@@ -6936,8 +6936,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 367,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 366,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How is LARD (axial resolution) most directly influenced in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -6955,8 +6955,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 368,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 367,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor most strongly determines LATA (lateral resolution) in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -6974,8 +6974,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 369,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 368,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters is determined by the medium?",
         "image": "",
         "opciones": [
@@ -6993,8 +6993,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 370,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 369,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters is determined by the medium?",
         "image": "",
         "opciones": [
@@ -7012,8 +7012,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 371,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 370,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters, defined as the time duration of one complete cycle, is determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7031,8 +7031,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 372,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 371,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters, defined as the number of cycles per second, is determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7050,8 +7050,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 373,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 372,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters, representing the maximum variation in pressure or displacement, is determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7069,8 +7069,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 374,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 373,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters, representing the energy transmitted per unit time, is determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7088,8 +7088,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 375,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 374,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following sound wave parameters, defined as the acoustic power per unit area, is determined solely by the source (considering its initial value)?",
         "image": "",
         "opciones": [
@@ -7107,8 +7107,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 376,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 375,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following pulsed sound wave parameters represents the active emission time of an ultrasound pulse, determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7126,8 +7126,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 377,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 376,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Identify the parameter that defines the length of time an ultrasound pulse remains on, set exclusively by the ultrasound source.",
         "image": "",
         "opciones": [
@@ -7145,8 +7145,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 378,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 377,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter, calculated as the ratio of pulse duration to pulse repetition period, represents the fraction of time the ultrasound system is active?",
         "image": "",
         "opciones": [
@@ -7164,8 +7164,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 379,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 378,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Select the parameter that indicates the percentage of time an ultrasound system is transmitting, determined exclusively by the source.",
         "image": "",
         "opciones": [
@@ -7183,8 +7183,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 380,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 379,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter denotes the time interval between the start of one ultrasound pulse and the start of the next, determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7202,8 +7202,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 381,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 380,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Identify the parameter that measures the time span between the start of consecutive ultrasound pulses, set by the source.",
         "image": "",
         "opciones": [
@@ -7221,8 +7221,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 382,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 381,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter, defined as the number of ultrasound pulses emitted per second, is determined solely by the source?",
         "image": "",
         "opciones": [
@@ -7240,8 +7240,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 383,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 382,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Select the parameter representing the count of ultrasound pulses emitted per second, defined exclusively by the source.",
         "image": "",
         "opciones": [
@@ -7259,8 +7259,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 384,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 383,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter is defined as the product of the pulse duration and the speed of sound in the medium, making it dependent on both the source and the medium?",
         "image": "",
         "opciones": [
@@ -7278,8 +7278,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 385,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 384,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Identify the parameter that describes the physical length an ultrasound pulse occupies in space, which depends on the source's pulse duration and the medium's propagation speed.",
         "image": "",
         "opciones": [
@@ -7297,8 +7297,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 386,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 385,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "When an ultrasound wave encounters an interface at normal (perpendicular) incidence, the ratio of sound energy reflected versus transmitted is primarily determined by which factor?",
         "image": "",
         "opciones": [
@@ -7316,8 +7316,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 387,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 386,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "For an ultrasound wave striking an interface perpendicularly, which parameter directly influences the intensity of the reflected and transmitted waves?",
         "image": "",
         "opciones": [
@@ -7335,8 +7335,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 388,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 387,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "When an ultrasound wave strikes an interface at an oblique angle, the bending of the wave (refraction) is primarily due to:",
         "image": "",
         "opciones": [
@@ -7354,8 +7354,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 389,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 388,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which phenomenon describes the change in the transmitted ultrasound beam’s angle as it passes from one medium into another at an oblique angle?",
         "image": "",
         "opciones": [
@@ -7373,8 +7373,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 390,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 389,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In ultrasound imaging, which factor is primarily addressed by adjusting the time gain compensation?",
         "image": "",
         "opciones": [
@@ -7392,8 +7392,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 391,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 390,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does decreasing the sample depth affect PRF in Doppler imaging?",
         "image": "",
         "opciones": [
@@ -7411,8 +7411,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 392,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 391,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the fundamental trade-off in imaging resolution?",
         "image": "",
         "opciones": [
@@ -7430,8 +7430,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 393,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 392,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Why don’t you always use the highest available frequency for imaging?",
         "image": "",
         "opciones": [
@@ -7449,8 +7449,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 394,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 393,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What do you gain when choosing a lower frequency in medical imaging?",
         "image": "",
         "opciones": [
@@ -7468,8 +7468,8 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 395,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 394,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How should you choose the appropriate imaging frequency?",
         "image": "",
         "opciones": [
@@ -7487,7 +7487,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 396,
+        "grupo": 395,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to intensity when it is multiplied by 2?",
         "image": "",
@@ -7506,7 +7506,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 397,
+        "grupo": 396,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a reduction of 6 dB mean for intensity?",
         "image": "",
@@ -7525,7 +7525,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 398,
+        "grupo": 397,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens when intensity is halved?",
         "image": "",
@@ -7544,7 +7544,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 399,
+        "grupo": 398,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the half-value layer represent?",
         "image": "",
@@ -7563,7 +7563,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 400,
+        "grupo": 399,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens when overall gain is adjusted from 25 dB to 28 dB?",
         "image": "",
@@ -7582,7 +7582,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 401,
+        "grupo": 400,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does a gain of 6 dB mean for intensity?",
         "image": "",
@@ -7601,7 +7601,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 402,
+        "grupo": 401,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the intensity is reduced to 1/10 of its original value, what is the corresponding decibel change?",
         "image": "",
@@ -7620,7 +7620,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 403,
+        "grupo": 402,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to the decibel level when intensity is increased from 1 to 1000?",
         "image": "",
@@ -7639,7 +7639,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 404,
+        "grupo": 403,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sequence correctly represents the positive intensity-decibel relationships as intensity increases?",
         "image": "",
@@ -7658,7 +7658,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 405,
+        "grupo": 404,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
         "image": "",
@@ -7677,7 +7677,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 406,
+        "grupo": 405,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer type has a duty factor of 100%?",
         "image": "CW.png",
@@ -7696,7 +7696,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 407,
+        "grupo": 406,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer type has a lower duty factor due to intermittent pulse transmission?",
         "image": "CW.png",
@@ -7715,7 +7715,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 408,
+        "grupo": 407,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Based on the wave patterns in the image, which wave has the highest duty factor?",
         "image": "CW.png",
@@ -7734,7 +7734,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 409,
+        "grupo": 408,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the provided ultrasound beam image, at which point is the best lateral resolution achieved?",
         "image": "focal_point.png",
@@ -7753,7 +7753,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 410,
+        "grupo": 409,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the provided ultrasound beam image, at which point is the best azimuthal resolution achieved?",
         "image": "focal_point.png",
@@ -7772,7 +7772,7 @@
     },
     {
         "clasificacion": "Physical Principles",
-        "grupo": 411,
+        "grupo": 410,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "In the provided ultrasound beam image, at which point is the best angular resolution achieved?",
         "image": "focal_point.png",
@@ -9559,7 +9559,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 94,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which component reduces unwanted vibrations in the piezoelectric element?",
         "image": "",
         "opciones": [
@@ -9578,7 +9578,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 95,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "The impedance mismatch is reduced by which component in the transducer?",
         "image": "",
         "opciones": [
@@ -9597,7 +9597,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 96,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does an acoustic lens do in a transducer?",
         "image": "",
         "opciones": [
@@ -9616,7 +9616,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 97,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which material property is crucial for a transducer's piezoelectric element?",
         "image": "",
         "opciones": [
@@ -9635,7 +9635,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 98,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What component of the transducer helps in the transmission of electrical signals?",
         "image": "",
         "opciones": [
@@ -9654,7 +9654,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 99,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What role does the backing material play in a transducer?",
         "image": "",
         "opciones": [
@@ -9673,7 +9673,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 100,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which part of the transducer is responsible for forming the ultrasound beam?",
         "image": "",
         "opciones": [
@@ -9692,7 +9692,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 101,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What determines the natural operating frequency of a transducer?",
         "image": "",
         "opciones": [
@@ -10186,7 +10186,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 127,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How can you optimize imaging for moving objects?",
         "image": "",
         "opciones": [
@@ -10205,7 +10205,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 128,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Decreasing frame rate affects temporal resolution in what way?",
         "image": "",
         "opciones": [
@@ -10224,7 +10224,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 129,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What primarily controls the number of images produced per second in ultrasound?",
         "image": "",
         "opciones": [
@@ -10243,7 +10243,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 130,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "A higher temporal resolution is necessary for imaging:",
         "image": "",
         "opciones": [
@@ -10262,7 +10262,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 131,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which aspect of real-time scanning is critical for dynamic examinations?",
         "image": "",
         "opciones": [
@@ -10395,7 +10395,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 138,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the main advantage of using a phased array transducer in echocardiography?",
         "image": "",
         "opciones": [
@@ -10414,7 +10414,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 139,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of transducer element arrangement is used in a sector scanner?",
         "image": "",
         "opciones": [
@@ -10433,7 +10433,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 140,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer uses a motor to steer the beam?",
         "image": "",
         "opciones": [
@@ -10452,7 +10452,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 141,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What kind of resolution is primarily improved by using a high-frequency linear transducer?",
         "image": "",
         "opciones": [
@@ -10471,7 +10471,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 142,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In which scenario is a sector scanner most beneficial?",
         "image": "",
         "opciones": [
@@ -10490,7 +10490,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 143,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which ultrasound transducer type is best for neonatal imaging?",
         "image": "",
         "opciones": [
@@ -10509,7 +10509,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 144,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a key advantage of a linear sequential array transducer?",
         "image": "",
         "opciones": [
@@ -10547,7 +10547,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 146,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer type is equipped for intracavitary exams?",
         "image": "",
         "opciones": [
@@ -10566,7 +10566,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 147,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which configuration does a mechanical transducer typically use?",
         "image": "",
         "opciones": [
@@ -10585,7 +10585,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 148,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a key feature of a vector array transducer?",
         "image": "",
         "opciones": [
@@ -10604,7 +10604,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 149,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which array type allows for electronic focusing and steering?",
         "image": "",
         "opciones": [
@@ -10623,7 +10623,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 150,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of transducer array uses piezoelectric elements arranged in concentric rings?",
         "image": "",
         "opciones": [
@@ -10642,7 +10642,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 151,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which transducer array is particularly useful for vascular imaging?",
         "image": "",
         "opciones": [
@@ -10756,7 +10756,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 157,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the most effective way to enhance axial resolution?",
         "image": "",
         "opciones": [
@@ -10775,7 +10775,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 158,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Increasing frequency impacts resolution by:",
         "image": "",
         "opciones": [
@@ -10794,7 +10794,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 159,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor is inversely proportional to frequency affecting spatial resolution?",
         "image": "",
         "opciones": [
@@ -10813,7 +10813,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 160,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Reducing which parameter primarily affects lateral resolution?",
         "image": "",
         "opciones": [
@@ -10832,7 +10832,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 161,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which resolution is least affected by imaging depth?",
         "image": "",
         "opciones": [
@@ -10851,7 +10851,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 162,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Axial resolution is determined by:",
         "image": "",
         "opciones": [
@@ -10870,7 +10870,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 163,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "The ability to distinguish closely spaced structures is defined as:",
         "image": "",
         "opciones": [
@@ -10889,7 +10889,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 164,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Improvements in temporal resolution can be achieved by?",
         "image": "",
         "opciones": [
@@ -10908,7 +10908,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 165,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Focusing primarily enhances which type of resolution?",
         "image": "",
         "opciones": [
@@ -10927,7 +10927,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 166,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Sound with a short pulse duration improves which resolution?",
         "image": "",
         "opciones": [
@@ -10946,7 +10946,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 167,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What directly affects spatial resolution?",
         "image": "",
         "opciones": [
@@ -11763,7 +11763,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 210,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Temporal resolution is related to which aspect?",
         "image": "",
         "opciones": [
@@ -11782,7 +11782,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 211,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following may also be referred to as the far zone?",
         "image": "",
         "opciones": [
@@ -11801,7 +11801,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 212,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What states that waves are the result of the interference of many wavelets produced at the face of the transducer?",
         "image": "",
         "opciones": [
@@ -11820,7 +11820,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 213,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is the resolution in the third dimension of the beam?",
         "image": "",
         "opciones": [
@@ -11839,7 +11839,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 214,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is true concerning the frequency and the near-zone length, assuming a single-element, unfocused transducer?",
         "image": "",
         "opciones": [
@@ -12580,7 +12580,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 253,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which device measures acoustic output (intensity) levels?",
         "image": "",
         "opciones": [
@@ -12599,7 +12599,7 @@
     {
         "clasificacion": "Ultrasound Transducers",
         "grupo": 254,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What determines the radial resolution of an ultrasound system?",
         "image": "",
         "opciones": [
@@ -13568,7 +13568,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 31,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which index is used to assess the likelihood of cavitation?",
         "image": "",
         "opciones": [
@@ -13587,7 +13587,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 32,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary concern of ultrasound exposure during pregnancy?",
         "image": "",
         "opciones": [
@@ -13606,7 +13606,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 33,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is a confirmed bioeffect of diagnostic ultrasound?",
         "image": "",
         "opciones": [
@@ -14651,7 +14651,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 88,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What term refers to the number of pulses emitted per second?",
         "image": "",
         "opciones": [
@@ -14670,7 +14670,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 89,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "On a spectral Doppler waveform, what is plotted along the x-axis?",
         "image": "",
         "opciones": [
@@ -18223,7 +18223,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 276,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the Pulse Repetition Frequency (PRF) in pulsed Doppler imaging affect aliasing?",
         "image": "",
         "opciones": [
@@ -18242,7 +18242,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 277,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which factor primarily influences the accuracy of Doppler velocity measurements due to the cosine dependency in the Doppler equation?",
         "image": "",
         "opciones": [
@@ -18261,7 +18261,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 278,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the key difference between pulsed Doppler and continuous wave Doppler regarding range resolution and aliasing?",
         "image": "",
         "opciones": [
@@ -18280,7 +18280,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 279,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which adjustment in a pulsed Doppler system most effectively increases the Nyquist limit to reduce aliasing artifacts?",
         "image": "",
         "opciones": [
@@ -18299,7 +18299,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 280,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which  adjustments are most effective in reducing aliasing artifacts in a Doppler ultrasound system?",
         "image": "",
         "opciones": [
@@ -18318,7 +18318,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 281,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following factors increases the Doppler frequency shift (fD) in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -18337,7 +18337,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 282,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statement best describes the Nyquist limit in pulsed Doppler ultrasound?",
         "image": "",
         "opciones": [
@@ -18356,7 +18356,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 283,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing the Doppler insonation angle affect the measured Doppler frequency shift in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -18375,7 +18375,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 284,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter does NOT directly influence the magnitude of the Doppler frequency shift in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -18394,7 +18394,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 285,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Doppler shift frequencies in ultrasound imaging are typically in which frequency range?",
         "image": "",
         "opciones": [
@@ -18413,7 +18413,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 286,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What are the effects of increasing PRF on: duty factor, Nyquist limit, pulse duration, and beam width in Doppler imaging?",
         "image": "",
         "opciones": [
@@ -18432,7 +18432,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 287,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What effect does a higher PRF have on the maximum measurable velocity in a pulsed Doppler system?",
         "image": "",
         "opciones": [
@@ -18527,7 +18527,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 292,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the best method or the most appropriate approach to improve this artifact?",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18546,7 +18546,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 293,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following methods cannot resolve the aliasing artifact?",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18565,7 +18565,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 294,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "All of the following elements can resolve this artifact except:",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18584,7 +18584,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 295,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "All of the following elements would prevent the aliasing artifact shown in this image:",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18603,7 +18603,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 296,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which underlying physical principle is responsible for the artifact observed in the provided Doppler ultrasound image?",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18622,7 +18622,7 @@
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 297,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In this color Doppler image, aliasing is observed in a blood vessel. Which of the following statements best explains how changing the insonation angle affects the measured Doppler shift—and thus the occurrence of aliasing?",
         "image": "doppler_aliasing2.png",
         "opciones": [
@@ -18827,6 +18827,557 @@
         "concept_to_study": "Color Doppler PRF Effects.",
         "explicacion_openai": "With the gain already too low—manifested by sparse, patchy color—increasing PRF further raises the minimum detectable velocity. This reduces sensitivity to slow flow and deepens the gaps. In contrast, increasing gain, reducing the wall filter, or proper steering would either improve or not worsen the display.",
         "image_explanation": "Higher PRF thresholds reject more low‐velocity echoes, exacerbating the under-gained appearance."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 308,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can this spectral waveform be corrected?",
+        "image": "aliasingbaseline.png",
+        "opciones": [
+            "Increase the wall filter",
+            "Lower the baseline",
+            "Reverse flow direction",
+            "Reduce Doppler gain"
+        ],
+        "respuesta_correcta": [
+            "Lower the baseline"
+        ],
+        "concept_to_study": "Spectral Doppler baseline adjustment.",
+        "explicacion_openai": "In the original image, the spectral waveform appears compressed against the top of the Doppler scale, with systolic peaks truncated or aliasing into the opposite direction. This occurs when the baseline is set too high. Lowering the baseline re-centers the waveform into the display window, allowing full visualization of the flow envelope and preventing misinterpretation of reversed flow or clipping.",
+        "image_explanation": "The top-edge cutoff of the waveform suggests inadequate display space; shifting the baseline downward improves visibility and diagnostic clarity."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 309,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "This spectral waveform abnormality can be corrected using all of the following techniques,EXCEPT:",
+        "image": "aliasingbaseline.png",
+        "opciones": [
+            "Lower the baseline",
+            "Increase the pulse repetition frequency (PRF)",
+            "Invert the color scale",
+            "Use a lower frequency transducer"
+        ],
+        "respuesta_correcta": [
+            "Invert the color scale"
+        ],
+        "concept_to_study": "Spectral Doppler artifact correction techniques.",
+        "explicacion_openai": "In the original image, the spectral waveform is truncated against the top of the display window, typical of aliasing or poorly placed baseline. Lowering the baseline, raising PRF, or using a lower-frequency transducer all expand the measurable velocity range. However, inverting the color scale only changes how flow direction is displayed—it doesn’t resolve aliasing.",
+        "image_explanation": "The waveform's aliasing can be corrected by adjusting baseline or PRF; color scale inversion has no effect on spectral aliasing."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 310,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What Doppler artifact is demonstrated in this spectral waveform image?",
+        "image": "aliasingbaseline.png",
+        "opciones": [
+            "Spectral broadening",
+            "Aliasing",
+            "Mirror artifact",
+            "Wall filter saturation"
+        ],
+        "respuesta_correcta": [
+            "Aliasing"
+        ],
+        "concept_to_study": "Spectral aliasing recognition.",
+        "explicacion_openai": "In this image, the Doppler waveform exceeds the upper velocity scale and wraps around to the opposite side, a classic signature of aliasing. This occurs when the pulse repetition frequency (PRF) is too low to accurately display high velocities within the Nyquist limit.",
+        "image_explanation": "The waveform appears cut off and folds downward—typical of aliasing due to velocity exceeding the measurable range."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 311,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A 65-year-old woman with hypertension is referred for a carotid Doppler. The spectral tracing of her internal carotid artery shows waveform folding as seen in the image. Which parameter adjustment would best increase the Nyquist limit and eliminate this artifact?",
+        "image": "aliasingbaseline.png",
+        "opciones": [
+            "Lower the baseline",
+            "Increase the pulse repetition frequency (PRF)",
+            "Reduce the Doppler gain",
+            "Use a higher-frequency transducer"
+        ],
+        "respuesta_correcta": [
+            "Increase the pulse repetition frequency (PRF)"
+        ],
+        "concept_to_study": "Nyquist limit adjustment in spectral Doppler.",
+        "explicacion_openai": "The folded waveform indicates aliasing due to velocities exceeding the Nyquist limit. Raising the PRF directly increases that limit, allowing high-velocity signals to be displayed correctly without wrap-around. Lowering the baseline merely shifts the display window, while gain or transducer frequency changes don’t address the sampling rate.",
+        "image_explanation": "Notice the waveform folds downward once it reaches the top of the display—raising PRF prevents this by expanding the measurable velocity range."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 312,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What do the arrows in this spectral Doppler image indicate?",
+        "image": "wallfilter2.png",
+        "opciones": [
+            "Aliased flow signals",
+            "Spectral broadening due to turbulence",
+            "Signals suppressed by the wall filter",
+            "Mirror image artifact below the baseline"
+        ],
+        "respuesta_correcta": [
+            "Signals suppressed by the wall filter"
+        ],
+        "concept_to_study": "Wall filter function in spectral Doppler.",
+        "explicacion_openai": "In spectral Doppler imaging, the wall filter suppresses low-frequency signals typically associated with slow-moving structures like vessel walls. In this image, the arrows point to the absence of expected low-velocity flow near the baseline, which has been eliminated by the wall filter—intentionally or excessively—resulting in a 'cleared' zone without traceable signal.",
+        "image_explanation": "The lack of signal at or near the baseline beneath the arrows reflects the removal of low-velocity echoes by the wall filter settings."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 313,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which potential drawback may occur if the wall filter setting is too high, as suggested by this image?",
+        "image": "wallfilter2.png",
+        "opciones": [
+            "Increased aliasing artifacts",
+            "Loss of low-velocity flow information",
+            "Overestimation of peak systolic velocity",
+            "Inversion of spectral waveform direction"
+        ],
+        "respuesta_correcta": [
+            "Loss of low-velocity flow information"
+        ],
+        "concept_to_study": "Clinical consequences of excessive wall filter settings.",
+        "explicacion_openai": "A high wall filter removes low-frequency Doppler signals, which may include physiologically important slow-flow components. This could lead to underdiagnosis of conditions like partial stenosis or venous flow alterations. The image shows signal dropout near the baseline, indicating low-velocity echoes were filtered out.",
+        "image_explanation": "The clear zone near the baseline shows where low-velocity signals were eliminated by an elevated wall filter threshold."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 314,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How can the operator reduce the likelihood of this Color Doppler artifact appearing in the image?",
+        "image": "mirrowdoppler.png",
+        "opciones": [
+            "Increase Doppler angle",
+            "Decrease Doppler gain or insonation angle",
+            "Lower the wall filter",
+            "Use a higher-frequency transducer"
+        ],
+        "respuesta_correcta": [
+            "Decrease Doppler gain or insonation angle"
+        ],
+        "concept_to_study": "Mirror artifact reduction techniques in color Doppler.",
+        "explicacion_openai": "Mirror artifacts in color Doppler imaging occur when strong signals reflect off highly reflective interfaces, such as vessel walls, and are misinterpreted as flow in mirror symmetry. This can happen if the gain is set too high or if the insonation angle is too perpendicular, increasing reflectivity. Reducing gain or adjusting the angle of insonation can minimize these duplicate signals.",
+        "image_explanation": "The image displays symmetrical flow signals below and above the reflective interface—classic appearance of a mirror artifact that can be mitigated by tuning gain and insonation angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 315,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following statements about mirror artifacts in color Doppler imaging are true, except:",
+        "image": "mirrowdoppler.png",
+        "opciones": [
+            "They appear as duplicated flow signals on the opposite side of a strong reflector",
+            "They result from ultrasound reverberation between the transducer and a highly reflective interface",
+            "They can be minimized by decreasing Doppler gain or adjusting the insonation angle",
+            "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
+        ],
+        "respuesta_correcta": [
+            "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
+        ],
+        "concept_to_study": "Mirror artifact origins and mitigation in color Doppler",
+        "explicacion_openai": "Mirror artifacts occur when the ultrasound beam reverberates between a strong reflector and the transducer, creating a duplicated flow image. Adjusting gain or angle reduces these reflections. Aliasing, by contrast, is a sampling issue in spectral Doppler when velocities exceed the Nyquist limit and is not responsible for mirror artifacts.",
+        "image_explanation": "The paired color flow signals on either side of the reflective boundary illustrate a classic reverberation-based mirror artifact."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 316,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which diagnostic pitfall may occur if the mirror artifact in this color Doppler image is not recognized?",
+        "image": "mirrowdoppler.png",
+        "opciones": [
+            "Overestimating peak systolic velocity due to signal duplication",
+            "Confusing a mirrored flow signal for an additional vessel branch",
+            "Misidentifying wall filter settings as the cause of signal dropout",
+            "Attributing low‐velocity signals to aliasing"
+        ],
+        "respuesta_correcta": [
+            "Confusing a mirrored flow signal for an additional vessel branch"
+        ],
+        "concept_to_study": "Clinical implications of mirror artifacts in Doppler",
+        "explicacion_openai": "When mirror artifacts are overlooked, the duplicated flow signal can be misinterpreted as a second vessel or branch. Recognizing that this is a reverberation phenomenon prevents false diagnoses of vascular anomalies.",
+        "image_explanation": "The symmetrical color flow on both sides of the reflector may mimic two separate vessels, but it represents a single vessel producing a mirror artifact."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 317,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the standard Doppler equation, why is the factor \"2\" included?",
+        "image": "",
+        "opciones": [
+            "The ultrasound machine doubles the frequency shift.",
+            "A CW Doppler probe has two transducers.",
+            "The ultrasound wave travels to and from the moving blood cells.",
+            "The speed of sound doubles in blood."
+        ],
+        "respuesta_correcta": [
+            "The ultrasound wave travels to and from the moving blood cells."
+        ],
+        "concept_to_study": "Doppler shift, Doppler equation, Physical basis of Doppler",
+        "explicacion_openai": "The factor of 2 in the Doppler equation is included because the ultrasound wave travels to the moving blood cells and then back to the transducer. This two-way path results in the frequency shift being affected by the motion of the blood cells twice.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 318,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Doppler imaging, what happens to the detected frequency when there is no relative motion between the transducer and the moving blood cells?",
+        "image": "",
+        "opciones": [
+            "It changes.",
+            "It increases.",
+            "It decreases.",
+            "It does not change."
+        ],
+        "respuesta_correcta": [
+            "It does not change."
+        ],
+        "concept_to_study": "Doppler effect",
+        "explicacion_openai": "If there is no change in distance (no relative motion) between the transducer and the moving blood cells, the Doppler shift is zero and the detected frequency remains unchanged.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 319,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The correct formula for the Doppler frequency shift (in Hz) is:",
+        "image": "",
+        "opciones": [
+            "transmitted frequency – reflected frequency",
+            "reflected frequency – transmitted frequency",
+            "received frequency – reflected frequency",
+            "propagated frequency – transmitted"
+        ],
+        "respuesta_correcta": [
+            "reflected frequency – transmitted frequency"
+        ],
+        "concept_to_study": "Doppler shift",
+        "explicacion_openai": "The Doppler shift is defined as the difference between the received (reflected) frequency and the transmitted frequency. Positive when reflector moves toward the transducer, negative when moving away.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 320,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the Doppler calculation, the presence of the number \"2\" is due to:",
+        "image": "",
+        "opciones": [
+            "It multiplies the cosine of the angle.",
+            "There are two transducer frequencies.",
+            "Two Doppler frequency shifts occur.",
+            "There are two propagation speeds."
+        ],
+        "respuesta_correcta": [
+            "Two Doppler frequency shifts occur."
+        ],
+        "concept_to_study": "Doppler equation",
+        "explicacion_openai": "The factor of 2 appears because the Doppler shift occurs twice: once when the ultrasound wave strikes moving blood cells and again when the shifted echo returns to the transducer.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 321,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As blood flow velocity increases, what happens to the Doppler frequency shift?",
+        "image": "",
+        "opciones": [
+            "It decreases.",
+            "It increases.",
+            "It is unrelated.",
+            "It doubles the speed."
+        ],
+        "respuesta_correcta": [
+            "It increases."
+        ],
+        "concept_to_study": "Doppler Shift and Blood Cell Velocity",
+        "explicacion_openai": "In Doppler ultrasound, blood flow velocity and frequency shift are directly proportional. A faster velocity produces a greater Doppler frequency shift, while a slower velocity yields a smaller shift.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 322,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the flow velocity is halved, what happens to the Doppler frequency shift?",
+        "image": "",
+        "opciones": [
+            "It doubles.",
+            "It is halved.",
+            "It quadruples.",
+            "There is no change."
+        ],
+        "respuesta_correcta": [
+            "It is halved."
+        ],
+        "concept_to_study": "Doppler Shift and Blood Cell Velocity",
+        "explicacion_openai": "The Doppler shift is directly proportional to flow velocity. If velocity is halved, the Doppler frequency shift is halved; if velocity doubles, the shift doubles.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 323,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the Doppler frequency shift if the transmitted frequency is doubled?",
+        "image": "",
+        "opciones": [
+            "It is halved.",
+            "It is doubled.",
+            "It is squared.",
+            "It is unaffected."
+        ],
+        "respuesta_correcta": [
+            "It is doubled."
+        ],
+        "concept_to_study": "Doppler Shift and Frequency",
+        "explicacion_openai": "The Doppler shift is directly proportional to the transmitted frequency. If the frequency is Doubled, the Doppler frequency shift is doubled.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 324,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To obtain an accurate velocity measurement, how should blood cells move with respect to the sound beam?",
+        "image": "",
+        "opciones": [
+            "Perpendicular; the reduced velocity is measured.",
+            "Parallel; the reduced velocity is measured.",
+            "Perpendicular; the true velocity is measured.",
+            "Parallel; the true velocity is measured."
+        ],
+        "respuesta_correcta": [
+            "Parallel; the true velocity is measured."
+        ],
+        "concept_to_study": "Sound Beam Direction vs. Flow Direction",
+        "explicacion_openai": "If flow is parallel to the beam (0° angle or 180° angle), the entire (“true”) velocity is measured. When flow is not parallel, only the component along the beam is detected, yielding a reduced velocity (Vₘₑₐₛ = Vₜᵣᵤₑ × cos θ).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 325,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Blood flow is parallel to the ultrasound beam at angles of:",
+        "image": "",
+        "opciones": [
+            "0° and 90°",
+            "180° and 90°",
+            "0° and 180°",
+            "0° and 60°"
+        ],
+        "respuesta_correcta": [
+            "0° and 180°"
+        ],
+        "concept_to_study": "Doppler Effect",
+        "explicacion_openai": "Flow is parallel to the beam at 0° (angle) (toward the transducer) and at 180° (angle) (away from the transducer), giving the maximal Doppler shift (cos 0° = 1; cos 180° = –1).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 326,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The cosine of 0° is equal to:",
+        "image": "",
+        "opciones": [
+            "0.5",
+            "1",
+            "0",
+            "–1"
+        ],
+        "respuesta_correcta": [
+            "1"
+        ],
+        "concept_to_study": "Doppler Shift and Angle Correction",
+        "explicacion_openai": "cos 0° (angle) = 1, so when flow is parallel to the ultrasound beam, the measured Doppler shift equals the true velocity (maximum shift).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 327,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the value of the cosine of 90 degrees?",
+        "image": "",
+        "opciones": [
+            "1",
+            "0.5",
+            "0",
+            "–1"
+        ],
+        "respuesta_correcta": [
+            "0"
+        ],
+        "concept_to_study": "Doppler Shift and Angle Correction",
+        "explicacion_openai": "cos 90° (angle) = 0, meaning flow perpendicular to the beam produces no Doppler frequency shift.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 328,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the cosine of 60°?",
+        "image": "",
+        "opciones": [
+            "–1",
+            "1",
+            "0",
+            "0.5"
+        ],
+        "respuesta_correcta": [
+            "0.5"
+        ],
+        "concept_to_study": "Doppler shift and angle correction",
+        "explicacion_openai": "The cosine of 60° is 0.5. In Doppler ultrasound, the measured velocity at a 60° insonation angle equals the true velocity multiplied by cos 60°, i.e., half the true velocity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 329,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "At which insonation angle is the Doppler shift highest?",
+        "image": "",
+        "opciones": [
+            "60°",
+            "90°",
+            "45°",
+            "0°"
+        ],
+        "respuesta_correcta": [
+            "0°"
+        ],
+        "concept_to_study": "Angle dependence of Doppler shift",
+        "explicacion_openai": "A 0° angle (flow parallel to the beam) produces the maximum Doppler shift (cos 0° = 1), because the entire velocity vector aligns with the ultrasound beam.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 330,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The primary benefit of Continuous Wave Doppler is its:",
+        "image": "",
+        "opciones": [
+            "Ability to precisely locate moving blood cells.",
+            "Range ambiguity.",
+            "Ability to measure very high velocities accurately.",
+            "Requirement of a single crystal."
+        ],
+        "respuesta_correcta": [
+            "Ability to measure very high velocities accurately."
+        ],
+        "concept_to_study": "Continuous wave Doppler",
+        "explicacion_openai": "Continuous wave (CW) Doppler continuously emits and receives ultrasound, allowing unaliased measurement of very high velocities. It lacks range resolution because it samples along the entire beam path.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 331,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "With which type of Doppler does aliasing artifact exclusively occur?",
+        "image": "",
+        "opciones": [
+            "Continuous Wave Doppler.",
+            "Power Doppler.",
+            "Energy Doppler.",
+            "Pulsed Wave Doppler."
+        ],
+        "respuesta_correcta": [
+            "Pulsed Wave Doppler."
+        ],
+        "concept_to_study": "Pulsed wave Doppler and aliasing",
+        "explicacion_openai": "Aliasing appears when the Doppler frequency shift exceeds half the PRF in pulsed-wave Doppler. Continuous wave, power, and energy Doppler are not subject to the Nyquist limit and therefore do not alias.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 332,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Color Doppler primarily represents:",
+        "image": "",
+        "opciones": [
+            "FFT",
+            "Peak velocity",
+            "Building blocks",
+            "Mean velocity"
+        ],
+        "respuesta_correcta": [
+            "Mean velocity"
+        ],
+        "concept_to_study": "Color flow Doppler",
+        "explicacion_openai": "Color Doppler encodes the mean (average) velocity of blood flow within a region of interest, using color to display both direction and average speed based on the Doppler shift over multiple pulses.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 333,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In Color Doppler, what does the central black region on the color map indicate?",
+        "image": "",
+        "opciones": [
+            "Positive Doppler shift.",
+            "No Doppler shift.",
+            "Negative Doppler shift.",
+            "Faster velocities moving away from the transducer."
+        ],
+        "respuesta_correcta": [
+            "No Doppler shift."
+        ],
+        "concept_to_study": "Color Doppler baseline and wall-filter",
+        "explicacion_openai": "The black line at the center of a color Doppler map is the baseline—where the Doppler shift is zero. Flow toward the transducer appears above this line (positive shift), flow away below (negative shift).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 334,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "On a velocity-mode color map, along which axis is the velocity magnitude represented?",
+        "image": "",
+        "opciones": [
+            "Side to side.",
+            "Side to side, and up and down.",
+            "Up and down.",
+            "From laminar to turbulent."
+        ],
+        "respuesta_correcta": [
+            "Up and down."
+        ],
+        "concept_to_study": "Color map orientation in velocity mode",
+        "explicacion_openai": "In velocity mode, the vertical axis of the color bar corresponds to Doppler shift (and thus flow velocity). The higher on the map, the greater the velocity (toward or away, depending on color).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 335,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following does NOT produce aliasing?",
+        "image": "",
+        "opciones": [
+            "Pulsed Wave Doppler.",
+            "Color Doppler.",
+            "Decreasing the PRF.",
+            "Power Doppler."
+        ],
+        "respuesta_correcta": [
+            "Power Doppler."
+        ],
+        "concept_to_study": "Aliasing artifact in Doppler ultrasound",
+        "explicacion_openai": "Aliasing arises when the Doppler frequency shift exceeds the Nyquist limit in pulsed systems. Power Doppler displays signal amplitude (power), not frequency shift, so it does not alias.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 336,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement(s) correctly defines the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "One-half of the pulse repetition frequency.",
+            "The highest Doppler frequency measurable without aliasing.",
+            "A situation where the sampling rate is too low relative to blood velocities.",
+            "Both a and b."
+        ],
+        "respuesta_correcta": [
+            "Both a and b."
+        ],
+        "concept_to_study": "Definition of the Nyquist limit",
+        "explicacion_openai": "The Nyquist limit is half the PRF and represents the maximum Doppler shift measurable without aliasing. Option c describes aliasing itself, not the limit.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -22248,10 +22799,9 @@
         "explicacion_openai": "",
         "image_explanation": ""
     },
-   
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 182,
+        "grupo": 181,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does preprocessing do to the information sent to the scan converter?",
         "image": "",
@@ -22270,7 +22820,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 183,
+        "grupo": 182,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Grayscale systems typically use what for signal dynamic range reduction?",
         "image": "",
@@ -22289,7 +22839,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 184,
+        "grupo": 183,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter can an operator adjust?",
         "image": "",
@@ -22308,8 +22858,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 185,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 184,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In tissue harmonic imaging, the utilized frequency is:",
         "image": "",
         "opciones": [
@@ -22327,8 +22877,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 186,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 185,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In B-mode imaging, where is amplitude represented?",
         "image": "",
         "opciones": [
@@ -22346,7 +22896,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 187,
+        "grupo": 186,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A display limited to only black and white without shades of gray is known as:",
         "image": "",
@@ -22365,7 +22915,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 188,
+        "grupo": 187,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which method maintains pixel density when enlarging an image?",
         "image": "",
@@ -22384,7 +22934,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 189,
+        "grupo": 188,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer is performing an abdominal ultrasound examination.  The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
         "image": "",
@@ -22403,8 +22953,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 190,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 189,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which method maintains pixel density when enlarging an image?",
         "image": "",
         "opciones": [
@@ -22422,8 +22972,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 191,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 190,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary advantage of write magnification over read magnification?",
         "image": "",
         "opciones": [
@@ -22441,8 +22991,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 192,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 191,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Read magnification is performed during which stage of image processing?",
         "image": "",
         "opciones": [
@@ -22460,8 +23010,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 193,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 192,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of magnification re-scans the region of interest with a higher pixel density?",
         "image": "",
         "opciones": [
@@ -22479,8 +23029,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 194,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 193,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What happens to the original data when using read magnification?",
         "image": "",
         "opciones": [
@@ -22498,8 +23048,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 195,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 194,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which magnification technique can improve the appearance of a noisy image without rescanning?",
         "image": "",
         "opciones": [
@@ -22517,7 +23067,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 196,
+        "grupo": 195,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Write magnification is a form of:",
         "image": "",
@@ -22536,7 +23086,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 197,
+        "grupo": 196,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Applying read magnification to an ultrasound image will:",
         "image": "",
@@ -22555,7 +23105,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 198,
+        "grupo": 197,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is a potential disadvantage of using read magnification extensively?",
         "image": "",
@@ -22574,7 +23124,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 199,
+        "grupo": 198,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Compared to read magnification, write magnification offers:",
         "image": "",
@@ -22593,7 +23143,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 200,
+        "grupo": 199,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "When using write magnification, what happens to the frame rate compared to the original, unmagnified image?",
         "image": "",
@@ -22612,7 +23162,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 201,
+        "grupo": 200,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which statement BEST describes the difference between pre-processing and post-processing in ultrasound?",
         "image": "",
@@ -22631,7 +23181,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 202,
+        "grupo": 201,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A sonographer wants to magnify a specific area of a stored ultrasound image without rescanning. Which technique should they use?",
         "image": "",
@@ -22650,7 +23200,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 203,
+        "grupo": 202,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the correct order of processing the return echo in a receiver?",
         "image": "",
@@ -22669,7 +23219,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 204,
+        "grupo": 203,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which component is responsible for processing the return echo through amplification, compensation, compression, demodulation, and reject?",
         "image": "",
@@ -22688,7 +23238,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 205,
+        "grupo": 204,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which system generates the voltage that drives the transducer and directly controls the amount of power entering the patient?",
         "image": "",
@@ -22707,7 +23257,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 206,
+        "grupo": 205,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which component of the ultrasound system is responsible for controlling the timing of the elements to shape and steer the beam, as well as managing apodization?",
         "image": "",
@@ -22726,7 +23276,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 207,
+        "grupo": 206,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following are functions of the beam former in an ultrasound system?",
         "image": "",
@@ -22746,7 +23296,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 208,
+        "grupo": 207,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which component ensures the electrical signals travel in the correct direction and that pulser voltages from the transducer go to the signal processor?",
         "image": "",
@@ -22765,7 +23315,7 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 209,
+        "grupo": 208,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following is one function of the transmit/receive switch in an ultrasound system?",
         "image": "",
@@ -22784,8 +23334,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 210,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 209,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In which region of the ultrasound beam does divergence occur?",
         "image": "",
         "opciones": [
@@ -22803,8 +23353,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 211,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 210,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What determines the extent of beam divergence in the Fraunhofer zone?",
         "image": "",
         "opciones": [
@@ -22822,8 +23372,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 212,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 211,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter is adjusted to optimize imaging depth?",
         "image": "",
         "opciones": [
@@ -22841,8 +23391,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 213,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 212,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does overall gain adjust in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -22860,8 +23410,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 214,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 213,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which control affects the brightness of echoes at different depths?",
         "image": "",
         "opciones": [
@@ -22879,8 +23429,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 215,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 214,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which mode is most effective for measuring cardiac motion?",
         "image": "",
         "opciones": [
@@ -22898,8 +23448,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 216,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 215,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary advantage of harmonic imaging?",
         "image": "",
         "opciones": [
@@ -22917,8 +23467,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 217,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 216,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does dynamic range affect the ultrasound image?",
         "image": "",
         "opciones": [
@@ -22936,8 +23486,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 218,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 217,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which setting minimizes motion artifacts while improving spatial resolution?",
         "image": "",
         "opciones": [
@@ -22955,8 +23505,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 219,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 218,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the purpose of coded excitation in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -22974,8 +23524,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 220,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 219,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary application of spatial compounding in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -22993,8 +23543,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 221,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 220,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which mode provides real-time imaging with enhanced contrast and detail?",
         "image": "",
         "opciones": [
@@ -23012,8 +23562,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 222,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 221,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In M-mode imaging, what do the X-axis and Y-axis represent?",
         "image": "",
         "opciones": [
@@ -23031,8 +23581,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 223,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 222,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In B-mode imaging, what do the X-axis and Y-axis represent?",
         "image": "",
         "opciones": [
@@ -23050,8 +23600,8 @@
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 224,
-        "tipo_pregunta": "multiple_choice",
+        "grupo": 223,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In spectral Doppler imaging, what do the X-axis and Y-axis typically represent?",
         "image": "",
         "opciones": [
@@ -25540,7 +26090,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 131,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "During a fetal ultrasound, the sonographer observes a high mechanical index (MI). Which action is MOST appropriate to address this?",
         "image": "",
         "opciones": [
@@ -25559,7 +26109,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 132,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "To reduce the risk of cavitation bioeffects indicated by a high MI, the sonographer should primarily:",
         "image": "",
         "opciones": [
@@ -25578,7 +26128,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 133,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the mechanical index (MI) exceeds acceptable limits during an exam, what is the FIRST adjustment a sonographer should make?",
         "image": "",
         "opciones": [
@@ -25597,7 +26147,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 134,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter is MOST directly related to the mechanical index (MI) in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -25616,7 +26166,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 135,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "An elevated mechanical index (MI) reading suggests an increased risk of:",
         "image": "",
         "opciones": [
@@ -25635,7 +26185,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 136,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What action BEST reduces the likelihood of exceeding the recommended mechanical index (MI) during an ultrasound examination?",
         "image": "",
         "opciones": [
@@ -26338,7 +26888,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 173,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which ultrasound intensity measurement is employed by the AIUM in its guidelines on in-vivo biological effects in mammals?",
         "image": "",
         "opciones": [
@@ -26357,7 +26907,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 174,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In evaluating the in-vivo biological effects in mammals, which ultrasound intensity measure is cited by the AIUM?",
         "image": "",
         "opciones": [
@@ -26376,7 +26926,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 175,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which intensity metric is recommended by the AIUM for assessing the in-vivo bioeffects of ultrasound in mammals?",
         "image": "",
         "opciones": [
@@ -26395,7 +26945,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 176,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which practice best reflects generally accepted infection control precautions during ultrasound examinations?",
         "image": "",
         "opciones": [
@@ -26414,7 +26964,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 177,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following strategies is most effective for ensuring clear and empathetic communication with patients during an ultrasound exam?",
         "image": "",
         "opciones": [
@@ -26433,7 +26983,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 178,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "According to ALARA principles, how should ultrasound output power be managed during an examination?",
         "image": "",
         "opciones": [
@@ -26452,7 +27002,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 179,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which index is primarily used to monitor the potential for thermal bioeffects during an ultrasound exam?",
         "image": "",
         "opciones": [
@@ -26471,7 +27021,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 180,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which ultrasound index is used to evaluate the risk of mechanical bioeffects, such as cavitation, during an exam?",
         "image": "",
         "opciones": [
@@ -26490,7 +27040,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 181,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following practices best ensures maintenance of a sterile technique during ultrasound procedures requiring sterile conditions?",
         "image": "",
         "opciones": [
@@ -26509,7 +27059,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 182,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does reviewing previous imaging studies alongside the clinical history benefit the current ultrasound examination?",
         "image": "",
         "opciones": [
@@ -26528,7 +27078,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 183,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the primary and most widely used metrics for determining diagnostic accuracy of the image based on distinguishing between positive and negative predictive values?",
         "image": "",
         "opciones": [
@@ -26547,7 +27097,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 184,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter is most critical when performing integrity tests on ultrasound transducer elements?",
         "image": "",
         "opciones": [
@@ -26566,7 +27116,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 185,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which type of transducer damage is most likely to result in significant image degradation?",
         "image": "",
         "opciones": [
@@ -26585,7 +27135,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 186,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "During an ultrasound exam, if the system displays a Mechanical Index (MI) above recommended levels, which modification should be prioritized?",
         "image": "",
         "opciones": [
@@ -26604,7 +27154,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 187,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "If the Thermal Index (TI) shown on an ultrasound system begins to approach critical limits, what is the most appropriate strategy to reduce potential thermal effects?",
         "image": "",
         "opciones": [
@@ -26623,7 +27173,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 188,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "When evaluating complex cases, how does integrating findings from other imaging modalities (e.g., CT, MRI, or x-ray) benefit the ultrasound assessment?",
         "image": "",
         "opciones": [
@@ -26642,7 +27192,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 189,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which parameter is most critical for confirming image accuracy during ultrasound quality assurance testing?",
         "image": "",
         "opciones": [
@@ -26661,7 +27211,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 190,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "According to current clinical guidelines, which of the following is an appropriate application of ultrasound contrast agents?",
         "image": "",
         "opciones": [
@@ -26680,7 +27230,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 191,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "What is the fundamental principle underlying ultrasound elastography?",
         "image": "",
         "opciones": [
@@ -26699,7 +27249,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 192,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following best distinguishes strain elastography from shear wave elastography?",
         "image": "",
         "opciones": [
@@ -26718,7 +27268,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 193,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In shear wave elastography, tissue stiffness is most accurately assessed by measuring which parameter?",
         "image": "",
         "opciones": [
@@ -26737,7 +27287,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 194,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which clinical application is most commonly associated with elastography in ultrasound imaging?",
         "image": "",
         "opciones": [
@@ -26756,7 +27306,7 @@
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
         "grupo": 195,
-        "tipo_pregunta": "multiple_choice",
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "In an elastographic color map, what does a region depicted in red most commonly indicate?",
         "image": "",
         "opciones": [
@@ -27303,176 +27853,5 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
         "image_explanation": ""
-    },
-    {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 175,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "How can this spectral waveform be corrected?",
-  "image": "aliasingbaseline.png",
-  "opciones": [
-    "Increase the wall filter",
-    "Lower the baseline",
-    "Reverse flow direction",
-    "Reduce Doppler gain"
-  ],
-  "respuesta_correcta": [
-    "Lower the baseline"
-  ],
-  "concept_to_study": "Spectral Doppler baseline adjustment.",
-  "explicacion_openai": "In the original image, the spectral waveform appears compressed against the top of the Doppler scale, with systolic peaks truncated or aliasing into the opposite direction. This occurs when the baseline is set too high. Lowering the baseline re-centers the waveform into the display window, allowing full visualization of the flow envelope and preventing misinterpretation of reversed flow or clipping.",
-  "image_explanation": "The top-edge cutoff of the waveform suggests inadequate display space; shifting the baseline downward improves visibility and diagnostic clarity."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 176,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "This spectral waveform abnormality can be corrected using all of the following techniques,EXCEPT:",
-  "image": "aliasingbaseline.png",
-  "opciones": [
-    "Lower the baseline",
-    "Increase the pulse repetition frequency (PRF)",
-    "Invert the color scale",
-    "Use a lower frequency transducer"
-  ],
-  "respuesta_correcta": [
-    "Invert the color scale"
-  ],
-  "concept_to_study": "Spectral Doppler artifact correction techniques.",
-  "explicacion_openai": "In the original image, the spectral waveform is truncated against the top of the display window, typical of aliasing or poorly placed baseline. Lowering the baseline, raising PRF, or using a lower-frequency transducer all expand the measurable velocity range. However, inverting the color scale only changes how flow direction is displayed—it doesn’t resolve aliasing.",
-  "image_explanation": "The waveform's aliasing can be corrected by adjusting baseline or PRF; color scale inversion has no effect on spectral aliasing."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 177,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "What Doppler artifact is demonstrated in this spectral waveform image?",
-  "image": "aliasingbaseline.png",
-  "opciones": [
-    "Spectral broadening",
-    "Aliasing",
-    "Mirror artifact",
-    "Wall filter saturation"
-  ],
-  "respuesta_correcta": [
-    "Aliasing"
-  ],
-  "concept_to_study": "Spectral aliasing recognition.",
-  "explicacion_openai": "In this image, the Doppler waveform exceeds the upper velocity scale and wraps around to the opposite side, a classic signature of aliasing. This occurs when the pulse repetition frequency (PRF) is too low to accurately display high velocities within the Nyquist limit.",
-  "image_explanation": "The waveform appears cut off and folds downward—typical of aliasing due to velocity exceeding the measurable range."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 178,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "A 65-year-old woman with hypertension is referred for a carotid Doppler. The spectral tracing of her internal carotid artery shows waveform folding as seen in the image. Which parameter adjustment would best increase the Nyquist limit and eliminate this artifact?",
-  "image": "aliasingbaseline.png",
-  "opciones": [
-    "Lower the baseline",
-    "Increase the pulse repetition frequency (PRF)",
-    "Reduce the Doppler gain",
-    "Use a higher-frequency transducer"
-  ],
-  "respuesta_correcta": [
-    "Increase the pulse repetition frequency (PRF)"
-  ],
-  "concept_to_study": "Nyquist limit adjustment in spectral Doppler.",
-  "explicacion_openai": "The folded waveform indicates aliasing due to velocities exceeding the Nyquist limit. Raising the PRF directly increases that limit, allowing high-velocity signals to be displayed correctly without wrap-around. Lowering the baseline merely shifts the display window, while gain or transducer frequency changes don’t address the sampling rate.",
-  "image_explanation": "Notice the waveform folds downward once it reaches the top of the display—raising PRF prevents this by expanding the measurable velocity range."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 179,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "What do the arrows in this spectral Doppler image indicate?",
-  "image": "wallfilter2.png",
-  "opciones": [
-    "Aliased flow signals",
-    "Spectral broadening due to turbulence",
-    "Signals suppressed by the wall filter",
-    "Mirror image artifact below the baseline"
-  ],
-  "respuesta_correcta": [
-    "Signals suppressed by the wall filter"
-  ],
-  "concept_to_study": "Wall filter function in spectral Doppler.",
-  "explicacion_openai": "In spectral Doppler imaging, the wall filter suppresses low-frequency signals typically associated with slow-moving structures like vessel walls. In this image, the arrows point to the absence of expected low-velocity flow near the baseline, which has been eliminated by the wall filter—intentionally or excessively—resulting in a 'cleared' zone without traceable signal.",
-  "image_explanation": "The lack of signal at or near the baseline beneath the arrows reflects the removal of low-velocity echoes by the wall filter settings."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 180,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which potential drawback may occur if the wall filter setting is too high, as suggested by this image?",
-  "image": "wallfilter2.png",
-  "opciones": [
-    "Increased aliasing artifacts",
-    "Loss of low-velocity flow information",
-    "Overestimation of peak systolic velocity",
-    "Inversion of spectral waveform direction"
-  ],
-  "respuesta_correcta": [
-    "Loss of low-velocity flow information"
-  ],
-  "concept_to_study": "Clinical consequences of excessive wall filter settings.",
-  "explicacion_openai": "A high wall filter removes low-frequency Doppler signals, which may include physiologically important slow-flow components. This could lead to underdiagnosis of conditions like partial stenosis or venous flow alterations. The image shows signal dropout near the baseline, indicating low-velocity echoes were filtered out.",
-  "image_explanation": "The clear zone near the baseline shows where low-velocity signals were eliminated by an elevated wall filter threshold."
-},
- {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 181,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "How can the operator reduce the likelihood of this Color Doppler artifact appearing in the image?",
-  "image": "mirrowdoppler.png",
-  "opciones": [
-    "Increase Doppler angle",
-    "Decrease Doppler gain or insonation angle",
-    "Lower the wall filter",
-    "Use a higher-frequency transducer"
-  ],
-  "respuesta_correcta": [
-    "Decrease Doppler gain or insonation angle"
-  ],
-  "concept_to_study": "Mirror artifact reduction techniques in color Doppler.",
-  "explicacion_openai": "Mirror artifacts in color Doppler imaging occur when strong signals reflect off highly reflective interfaces, such as vessel walls, and are misinterpreted as flow in mirror symmetry. This can happen if the gain is set too high or if the insonation angle is too perpendicular, increasing reflectivity. Reducing gain or adjusting the angle of insonation can minimize these duplicate signals.",
-  "image_explanation": "The image displays symmetrical flow signals below and above the reflective interface—classic appearance of a mirror artifact that can be mitigated by tuning gain and insonation angle."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 182,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "All of the following statements about mirror artifacts in color Doppler imaging are true, except:",
-  "image": "mirrowdoppler.png",
-  "opciones": [
-    "They appear as duplicated flow signals on the opposite side of a strong reflector",
-    "They result from ultrasound reverberation between the transducer and a highly reflective interface",
-    "They can be minimized by decreasing Doppler gain or adjusting the insonation angle",
-    "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
-  ],
-  "respuesta_correcta": [
-    "They are caused by aliasing when the Doppler velocity exceeds the Nyquist limit"
-  ],
-  "concept_to_study": "Mirror artifact origins and mitigation in color Doppler",
-  "explicacion_openai": "Mirror artifacts occur when the ultrasound beam reverberates between a strong reflector and the transducer, creating a duplicated flow image. Adjusting gain or angle reduces these reflections. Aliasing, by contrast, is a sampling issue in spectral Doppler when velocities exceed the Nyquist limit and is not responsible for mirror artifacts.",
-  "image_explanation": "The paired color flow signals on either side of the reflective boundary illustrate a classic reverberation-based mirror artifact."
-},
-{
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 183,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which diagnostic pitfall may occur if the mirror artifact in this color Doppler image is not recognized?",
-  "image": "mirrowdoppler.png",
-  "opciones": [
-    "Overestimating peak systolic velocity due to signal duplication",
-    "Confusing a mirrored flow signal for an additional vessel branch",
-    "Misidentifying wall filter settings as the cause of signal dropout",
-    "Attributing low‐velocity signals to aliasing"
-  ],
-  "respuesta_correcta": [
-    "Confusing a mirrored flow signal for an additional vessel branch"
-  ],
-  "concept_to_study": "Clinical implications of mirror artifacts in Doppler",
-  "explicacion_openai": "When mirror artifacts are overlooked, the duplicated flow signal can be misinterpreted as a second vessel or branch. Recognizing that this is a reverberation phenomenon prevents false diagnoses of vascular anomalies.",
-  "image_explanation": "The symmetrical color flow on both sides of the reflector may mimic two separate vessels, but it represents a single vessel producing a mirror artifact."
-}
+    }
 ]
