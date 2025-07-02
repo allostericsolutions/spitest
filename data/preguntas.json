@@ -23583,20 +23583,20 @@
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 222,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In B-mode imaging, what do the X-axis and Y-axis represent?",
+        "enunciado": "In B-mode imaging, what do the X-axis represents?",
         "image": "",
         "opciones": [
-            "X-axis: time, Y-axis: motion",
-            "X-axis: depth, Y-axis: amplitude",
-            "X-axis: distance, Y-axis: depth",
-            "X-axis: amplitude, Y-axis: frequency"
+            "Time",
+            "Depth",
+            "Distance",
+            "Amplitude"
         ],
         "respuesta_correcta": [
-            "X-axis: distance, Y-axis: depth"
+            "Depth"
         ],
         "concept_to_study": "Axes representation in B-mode imaging.",
-        "explicacion_openai": "In B-mode (brightness mode), the X-axis represents the lateral position (distance across the field of view), while the Y-axis represents the depth of the structures being imaged, providing a two-dimensional grayscale image.",
-        "image_explanation": ""
+        "explicacion_openai": "In B-mode (brightness mode), the X-axis represents Depth, abd Z-axis represents Amplitude and there is no Y-axis.",
+        "image_explanation": "
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
