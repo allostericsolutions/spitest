@@ -23596,7 +23596,7 @@
         ],
         "concept_to_study": "Axes representation in B-mode imaging.",
         "explicacion_openai": "In B-mode (brightness mode), the X-axis represents Depth, abd Z-axis represents Amplitude and there is no Y-axis.",
-        "image_explanation": "
+        "image_explanation": ""
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
