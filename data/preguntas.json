@@ -15801,7 +15801,7 @@
             "Sample D"
         ],
         "respuesta_correcta": [
-            "Sample C"
+            "Sample B"
         ],
         "concept_to_study": "Correlation between spectral Doppler waveforms and sample volume placement.",
         "explicacion_openai": "Given the image showing relatively narrow spectral window and clear outline, sample volume C, which is placed within a vessel with significant stenosis and associated flow disturbances, is least likely to generate this type of waveform. Stenosis typically results in spectral broadening.",
