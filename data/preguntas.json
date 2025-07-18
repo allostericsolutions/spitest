@@ -15321,7 +15321,7 @@
         "image": "aliasing.png",
         "opciones": [
             "Switching to a lower frequency transducer.",
-            "Increasing the Doppler angle to 60 degrees.",
+            "Decreasing the Doppler angle to 10 degrees.",
             "Decreasing the scale (PRF) setting.",
             "Increasing the sample volume size."
         ],
