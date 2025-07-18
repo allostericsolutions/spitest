@@ -4740,10 +4740,10 @@
             "Yes, it could be misinterpreted as increased tissue density.",
             "Yes, it could be mistaken for a solid mass.",
             "No, it is always a benign artifact.",
-            "It depends on the specific clinical context."
+            "It depends on the clinical context and varies from patient to patient."
         ],
         "respuesta_correcta": [
-            "It depends on the specific clinical context."
+            "It depends on the clinical context and varies from patient to patient."
         ],
         "concept_to_study": "",
         "explicacion_openai": "",
