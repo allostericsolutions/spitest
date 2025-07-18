@@ -7660,19 +7660,19 @@
         "clasificacion": "Physical Principles",
         "grupo": 404,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which sequence correctly represents the negative intensity-decibel relationships as intensity decreases below 1?",
+        "enunciado": "Which are the dB values for relative intensities of 1, ½, and 1/10?",
         "image": "",
         "opciones": [
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/-3, 1/4/-5, 1/10/-10, 1/100/-20, 1/1000/-30",
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-30, 1/1000/-20"
+            "0, –3, –10",
+            "0, –6, –10",
+            "0, –3, –6",
+            "1, -3, -10"
         ],
         "respuesta_correcta": [
-            "1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30"
+            "0, –3, –10"
         ],
-        "concept_to_study": "Negative relationships indicate how intensity diminishes and the corresponding decibel value decreases (attenuation) exponentially.",
-        "explicacion_openai": "For intensities below 1, the decibel values become negative following a logarithmic scale. According to the table, an intensity of 1 corresponds to 0 dB, intensity of 1/2 corresponds to -3 dB, 1/4 to -6 dB, 1/10 to -10 dB, 1/100 to -20 dB, and 1/1000 to -30 dB. Thus, the correct negative sequence is: 1/0, 1/2/-3, 1/4/-6, 1/10/-10, 1/100/-20, 1/1000/-30.",
+        "concept_to_study": "",
+        "explicacion_openai": "",
         "image_explanation": ""
     },
     {
