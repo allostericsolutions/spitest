@@ -77,7 +77,7 @@
     "grupo": "1",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
-    "image": "aliasing.jpg",
+    "image": "aliasing.png",
     "opciones": [
       "Decrease the sample depth",
       "Increase the Doppler angle",
