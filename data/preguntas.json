@@ -24884,10 +24884,10 @@
             "Hepatitis A"
         ],
         "respuesta_correcta": [
-            "Methicillin-resistant Staphylococcus aureus"
+            "Hepatitis A"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Modes of transmission for common healthcare-associated pathogens.",
+        "explicacion_openai": "Hepatitis A (HAV) Transmission: The Hepatitis A virus is transmitted almost exclusively through the fecal-oral route. This means a person gets infected by ingesting microscopic amounts of fecal matter from an infected person, typically through contaminated food, water, or direct person-to-person contact where hygiene is poor. It is not a bloodborne pathogen.Hepatitis B (HBV) and Hepatitis C (HCV) Transmission: Both are bloodborne viruses. Healthcare workers are at a direct occupational risk of exposure through incidents like needlestick injuries, cuts from other sharp instruments, or when infected blood comes into contact with mucous membranes or non-intact skin.MRSA Transmission: This bacterium spreads through direct contact. Healthcare workers can easily come into contact with MRSA by touching a patient with an MRSA infection or by touching contaminated surfaces and equipment. Given its high prevalence in hospital environments, contact with MRSA is a frequent and well-recognized risk.",
         "image_explanation": ""
     },
     {
