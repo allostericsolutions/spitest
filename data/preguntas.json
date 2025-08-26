@@ -21850,23 +21850,23 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 131,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What term refers to the smallest unit of digital storage?",
-        "image": "",
-        "opciones": [
-            "The bit",
-            "The pixel",
-            "The byte",
-            "The fractal"
-        ],
-        "respuesta_correcta": [
-            "Bit"
-        ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
-        "image_explanation": ""
+  "clasificacion": "Imaging Principles and Instrumentation",
+  "grupo": 131,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which of the following terms refers to the smallest unit of digital information?",
+  "image": "",
+  "opciones": [
+    "Bit",
+    "Byte",
+    "Pixel",
+    "Nibble"
+  ],
+  "respuesta_correcta": [
+    "Bit"
+  ],
+  "concept_to_study": "Fundamentals of digital storage units",
+  "explicacion_openai": "A bit (binary digit) is the most fundamental unit of digital information, representing a state of 0 or 1. A byte is made up of 8 bits, a nibble equals 4 bits, and a pixel is the smallest element of a digital image, not a storage unit.",
+  "image_explanation": ""
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
