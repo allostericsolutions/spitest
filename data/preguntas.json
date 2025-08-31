@@ -8334,7 +8334,7 @@
             "Particle Motion"
         ],
         "respuesta_correcta": [
-            "Frequency "
+            "Frequency"
         ],
         "concept_to_study": "Acoustic Variables",
         "explicacion_openai": "Acoustic variables are physical properties that change as a sound wave propagates through a medium. These include pressure, density, and particle motion, as they directly influence how sound travels. However, frequency is not considered an acoustic variable because it describes the number of oscillations per second rather than a changing physical property of the medium.",
