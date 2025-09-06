@@ -21850,23 +21850,23 @@
         "image_explanation": ""
     },
     {
-  "clasificacion": "Imaging Principles and Instrumentation",
-  "grupo": 131,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which of the following terms refers to the smallest unit of digital information?",
-  "image": "",
-  "opciones": [
-    "Bit",
-    "Byte",
-    "Pixel",
-    "Nibble"
-  ],
-  "respuesta_correcta": [
-    "Bit"
-  ],
-  "concept_to_study": "Fundamentals of digital storage units",
-  "explicacion_openai": "A bit (binary digit) is the most fundamental unit of digital information, representing a state of 0 or 1. A byte is made up of 8 bits, a nibble equals 4 bits, and a pixel is the smallest element of a digital image, not a storage unit.",
-  "image_explanation": ""
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 131,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following terms refers to the smallest unit of digital information?",
+        "image": "",
+        "opciones": [
+            "Bit",
+            "Byte",
+            "Pixel",
+            "Nibble"
+        ],
+        "respuesta_correcta": [
+            "Bit"
+        ],
+        "concept_to_study": "Fundamentals of digital storage units",
+        "explicacion_openai": "A bit (binary digit) is the most fundamental unit of digital information, representing a state of 0 or 1. A byte is made up of 8 bits, a nibble equals 4 bits, and a pixel is the smallest element of a digital image, not a storage unit.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -27853,5 +27853,113 @@
         "concept_to_study": "Accuracy.",
         "explicacion_openai": "Accuracy measures the proportion of correct test results among all tests. It is calculated as (TP + TN) / Total. Here, TP = 3 and TN = 16, so Accuracy = (3 + 16) / 25 = 19/25 = 76%.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 125,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Refer to the spectral Doppler tracing shown. Which technical factor most likely explains the marked spectral broadening?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Sample gate encompassing the entire vessel lumen",
+            "Excessive wall filter setting",
+            "Insufficient Doppler angle correction",
+            "Low PRF leading to aliasing"
+        ],
+        "respuesta_correcta": [
+            "Sample gate encompassing the entire vessel lumen"
+        ],
+        "concept_to_study": "Spectral Broadening",
+        "explicacion_openai": "The image shows a longitudinal ultrasound view of a vessel with a large rectangular Doppler sample gate spanning the entire lumen. The accompanying spectral display has a thick, densely filled envelope indicating a wide spread of Doppler shifts from low velocities at the wall to high velocities in the center. This pronounced spectral broadening occurs because the oversized gate captures the full range of velocity gradients across the vessel in one sample volume, mixing slower edge flow with faster central flow."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 126,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Refer to the spectral Doppler tracing shown. What effect does increasing the Doppler sample gate length have on the spectral display?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Increases spectral broadening",
+            "Improves spectral windowing",
+            "Reduces aliasing",
+            "Increases Doppler sensitivity"
+        ],
+        "respuesta_correcta": [
+            "Increases spectral broadening"
+        ],
+        "concept_to_study": "Spectral Broadening",
+        "explicacion_openai": "The image depicts a Doppler gate spanning the entire lumen and a filled-in spectral envelope. By extending the sample gate length, you include a wider range of velocities—from faster central flow to slower peripheral flow—within a single sample volume. This wide velocity gradient produces the broadened spectrum observed."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 127,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment to the Doppler sample gate will most effectively reduce spectral broadening without altering the insonation angle?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Shorten the gate length",
+            "Increase the wall filter",
+            "Raise the PRF",
+            "Shift the baseline"
+        ],
+        "respuesta_correcta": [
+            "Shorten the gate length"
+        ],
+        "concept_to_study": "Spectral Broadening",
+        "explicacion_openai": "The figure shows a large sample gate over the vessel and a wide Doppler spectrum. By shortening the gate length, you limit the range of velocities sampled, excluding slower edge flow and thus narrowing the spectral envelope without changing the Doppler angle."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 128,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In spectral Doppler instrumentation, which parameter defines the axial (depth) dimension of the sample volume?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Gate length",
+            "Gate width",
+            "Wall filter setting",
+            "PRF"
+        ],
+        "respuesta_correcta": [
+            "Gate length"
+        ],
+        "concept_to_study": "Spectral Broadening",
+        "explicacion_openai": "The ultrasound image displays a long rectangular gate covering the vessel. The gate length determines how much depth is sampled. A longer gate length spans a greater range of depths and velocities, leading to broader spectral envelopes when velocity gradients exist."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 130,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A student inadvertently widens the Doppler sample gate so that it includes the vessel wall. Which artifact is shown on the spectral display?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Spectral broadening",
+            "Mirror imaging",
+            "Flash artifact",
+            "Clutter"
+        ],
+        "respuesta_correcta": [
+            "Spectral broadening"
+        ],
+        "concept_to_study": "Spectral Broadening",
+        "explicacion_openai": "The image shows a gate that spans the entire lumen, touching the walls, and a thick spectral envelope. Including wall-adjacent slow flow with central high velocity increases the velocity spread in the sample volume, producing spectral broadening."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 131,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Based on the size and placement of the Doppler sample gate shown, which flow type will NOT be accurately represented in the spectral display?",
+        "image": "doopler_gate_open.png",
+        "opciones": [
+            "Turbulent flow",
+            "Disturbed flow",
+            "Plug flow",
+            "Laminar flow"
+        ],
+        "respuesta_correcta": [
+            "Laminar flow"
+        ],
+        "concept_to_study": "Flow Patterns",
+        "explicacion_openai": "The image depicts a longitudinal view of a vessel with a wide Doppler gate spanning the entire lumen. Because the gate captures velocities from the vessel wall (slow, disturbed flow) through the center (high-velocity flow), the spectral display will include turbulent, disturbed, and plug‐like components. Pure laminar flow, characterized by a smooth, parabolic velocity profile isolated at the center, cannot be individually resolved when the entire lumen is sampled in one volume."
     }
 ]
