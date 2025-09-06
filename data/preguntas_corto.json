@@ -878,7 +878,7 @@
         "image": "doopler_gate_open.png",
         "opciones": [
             "Gate length",
-            "Gate width",
+            "Gate persistance",
             "Wall filter setting",
             "PRF"
         ],
