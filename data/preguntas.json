@@ -27916,7 +27916,7 @@
         "image": "doopler_gate_open.png",
         "opciones": [
             "Gate length",
-            "Gate width",
+            "Gate flux",
             "Wall filter setting",
             "PRF"
         ],
