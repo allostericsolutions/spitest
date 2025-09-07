@@ -27961,5 +27961,43 @@
         ],
         "concept_to_study": "Flow Patterns",
         "explicacion_openai": "The image depicts a longitudinal view of a vessel with a wide Doppler gate spanning the entire lumen. Because the gate captures velocities from the vessel wall (slow, disturbed flow) through the center (high-velocity flow), the spectral display will include turbulent, disturbed, and plug‐like components. Pure laminar flow, characterized by a smooth, parabolic velocity profile isolated at the center, cannot be individually resolved when the entire lumen is sampled in one volume."
-    }
+    },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 132,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "On a spectral Doppler display, what quantity is represented along the horizontal (X) axis?",
+    "image": "",
+    "opciones": [
+      "Time",
+      "Depth",
+      "Velocity",
+      "Frequency shift"
+    ],
+    "respuesta_correcta": [
+      "Time"
+    ],
+    "concept_to_study": "Spectral Doppler Display Axes",
+    "explicacion_openai": "The horizontal axis of a spectral Doppler trace represents time, showing how the Doppler signal changes over successive pulses and cardiac cycles."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 133,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "On a spectral Doppler display, what quantity is represented along the vertical (Y) axis?",
+    "image": "",
+    "opciones": [
+      "Velocity",
+      "Time",
+      "Power",
+      "Depth"
+    ],
+    "respuesta_correcta": [
+      "Velocity"
+    ],
+    "concept_to_study": "Spectral Doppler Display Axes",
+    "explicacion_openai": "The vertical axis of a spectral Doppler trace represents Doppler velocity (or frequency shift proportional to velocity), indicating the speed of blood flow at each moment in time."
+  }
 ]
+
+
