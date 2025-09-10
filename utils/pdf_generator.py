@@ -84,7 +84,7 @@ def get_feedback(percent: float) -> str:
     """
     Devuelve el comentario de retroalimentación basado en el porcentaje.
     """
-    if percent >= 95:
+    if percent >= 94.01:
         return "Excellent"
     elif 80 <= percent <= 94:
         return "Satisfactory"
