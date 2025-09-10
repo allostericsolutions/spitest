@@ -8657,7 +8657,7 @@
             "Curie's principle"
         ],
         "respuesta_correcta": [
-            "Huygens principle"
+            "Huygens' principle"
         ],
         "concept_to_study": "",
         "explicacion_openai": "",
@@ -14975,7 +14975,7 @@
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 105,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Increasing the Doppler angle (away from 0 degrees) will have what effect on aliasing?",
+        "enunciado": "Decreasing the Doppler angle (towards 0)  will have what effect on aliasing?",
         "image": "",
         "opciones": [
             "It will always eliminate aliasing.",
