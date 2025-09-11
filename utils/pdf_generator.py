@@ -88,7 +88,7 @@ def get_feedback(percent: float) -> str:
         return "Excellent"
     elif 80 <= percent <= 94:
         return "Satisfactory"
-    elif 61 <= percent <= 79:
+    elif 60.001<= percent <= 79:
         return "May Require Further Study"
     elif percent <= 60:
         return "Requires Further Study"
