@@ -15227,11 +15227,11 @@
         "opciones": [
             "Increasing the PRF",
             "Decreasing the sample volume depth",
-            "Increasing the Doppler angle",
+            "Decreasing the Doppler angle",
             "Lowering the transducer frequency"
         ],
         "respuesta_correcta": [
-            "Increasing the Doppler angle"
+            "Decreasing the Doppler angle"
         ],
         "concept_to_study": "Aliasing Correction",
         "explicacion_openai": "Increasing the Doppler angle *increases* the Doppler shift, making aliasing *worse*.  The other options all help to *increase* the Nyquist limit or *decrease* the Doppler shift.",
