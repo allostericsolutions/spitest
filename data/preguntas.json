@@ -573,7 +573,7 @@
         "clasificacion": "Physical Principles",
         "grupo": 31,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How does an increase in acoustic impedance affect reflection?",
+        "enunciado": "How does increasing the acoustic impedance mismatch between two media affect the reflection coefficient at their interface?",
         "image": "",
         "opciones": [
             "Increases reflection",
