@@ -63,19 +63,9 @@ def calculate_score():
     """
     questions = st.session_state.selected_questions
     total_questions = len(questions)
-    if total_questions == 0:
-        return 0
-
-    correct_count = 0
-    # ──────────────────────────────────────────────────────────
-    # Contadores de aciertos por clasificación
-    # ──────────────────────────────────────────────────────────
-    classification_stats = {}
-
+    
     # --- INICIO: Obtener datos del usuario para el log ---
-    # Accedemos a st.session_state para obtener solo el email del usuario
     user_email = st.session_state.user_data.get('email', 'N/A')
-    # Creamos un prefijo común para todos los mensajes de log con solo el email
     log_prefix = f"User: {user_email} | "
     # --- FIN: Obtener datos del usuario para el log ---
 
@@ -83,71 +73,85 @@ def calculate_score():
     print(f"{log_prefix}Starting detailed score calculation for {total_questions} questions.")
     # --- FIN: Log para el inicio del cálculo detallado ---
 
-    for idx, question in enumerate(questions):
-        # Inicializar conteo para la clasificación de la pregunta
-        clasif = question.get("clasificacion", "Other")
-        if clasif not in classification_stats:
-            classification_stats[clasif] = {"correct": 0, "total": 0}
-        classification_stats[clasif]["total"] += 1
+    # --- ADDED: Initialize final_score to a default value ---
+    # This ensures final_score always has a value, preventing UnboundLocalError.
+    final_score = 0
+    # --- END ADDED ---
 
-        user_answer = st.session_state.answers.get(str(idx), None)
+    correct_count = 0 # Initialize correct_count
+    classification_stats = {} # Initialize classification_stats
+
+    # --- RESTRUCTURADO: Procesar solo si hay preguntas ---
+    if total_questions > 0:
+        # ──────────────────────────────────────────────────────────
+        # Contadores de aciertos por clasificación
+        # ──────────────────────────────────────────────────────────
         
-        # Formatear opciones para mostrar con letras (a, b, c...)
-        options_str = ", ".join([f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])])
+        for idx, question in enumerate(questions):
+            # Inicializar conteo para la clasificación de la pregunta
+            clasif = question.get("clasificacion", "Other")
+            if clasif not in classification_stats:
+                classification_stats[clasif] = {"correct": 0, "total": 0}
+            classification_stats[clasif]["total"] += 1
 
-        # --- MODIFICACIÓN: Log detallado para CADA pregunta ---
-        # Imprime enunciado, opciones, respuesta del usuario y respuesta correcta
-        print(f"{log_prefix}--- Question {idx + 1} ---") # Número de pregunta amigable para el usuario (empezando en 1)
-        print(f"{log_prefix}  Statement: {question['enunciado']}")
-        print(f"{log_prefix}  Options: {options_str}")
-        print(f"{log_prefix}  User Answer: '{user_answer}'")
-        print(f"{log_prefix}  Correct Answer(s): '{question['respuesta_correcta']}'")
+            user_answer = st.session_state.answers.get(str(idx), None)
+            
+            # Formatear opciones para mostrar con letras (a, b, c...)
+            options_str = ", ".join([f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])])
 
-        is_correct = False
-        if user_answer is not None and user_answer in question["respuesta_correcta"]:
-            correct_count += 1
-            classification_stats[clasif]["correct"] += 1
-            is_correct = True
-            print(f"{log_prefix}  Result: CORRECT")
-        elif user_answer is not None: # El usuario respondió, pero fue incorrecta
-            # Guardamos la información de la respuesta incorrecta para uso posterior (PDF, explicaciones)
-            # Solo incluimos lo necesario, excluyendo imagen, explicacion_openai, concept_to_study
-            incorrect_info = {
-                "pregunta": {
-                    "enunciado": question["enunciado"],
-                    "opciones": question["opciones"],
-                    "respuesta_correcta": question["respuesta_correcta"],
-                    # No incluimos 'image', 'explicacion_openai', 'concept_to_study' aquí
-                },
-                "respuesta_usuario": user_answer,
-                "indice_pregunta": idx
-            }
-            st.session_state.incorrect_answers.append(incorrect_info)
-            print(f"{log_prefix}  Result: INCORRECT")
-        else: # El usuario no respondió
-            print(f"{log_prefix}  Result: NOT ANSWERED")
-        # --- FIN MODIFICACIÓN: Log detallado para CADA pregunta ---
+            # --- MODIFICACIÓN: Log detallado para CADA pregunta ---
+            print(f"{log_prefix}--- Question {idx + 1} ---") # Número de pregunta amigable para el usuario (empezando en 1)
+            print(f"{log_prefix}  Statement: {question['enunciado']}")
+            print(f"{log_prefix}  Options: {options_str}")
+            print(f"{log_prefix}  User Answer: '{user_answer}'")
+            print(f"{log_prefix}  Correct Answer(s): '{question['respuesta_correcta']}'")
+
+            is_correct = False
+            if user_answer is not None and user_answer in question["respuesta_correcta"]:
+                correct_count += 1
+                classification_stats[clasif]["correct"] += 1
+                is_correct = True
+                print(f"{log_prefix}  Result: CORRECT")
+            elif user_answer is not None: # El usuario respondió, pero fue incorrecta
+                # Guardamos la información de la respuesta incorrecta para uso posterior (PDF, explicaciones)
+                # Solo incluimos lo necesario, excluyendo imagen, explicacion_openai, concept_to_study
+                incorrect_info = {
+                    "pregunta": {
+                        "enunciado": question["enunciado"],
+                        "opciones": question["opciones"],
+                        "respuesta_correcta": question["respuesta_correcta"],
+                        # No incluimos 'image', 'explicacion_openai', 'concept_to_study' aquí
+                    },
+                    "respuesta_usuario": user_answer,
+                    "indice_pregunta": idx
+                }
+                st.session_state.incorrect_answers.append(incorrect_info)
+                print(f"{log_prefix}  Result: INCORRECT")
+            else: # El usuario no respondió
+                print(f"{log_prefix}  Result: NOT ANSWERED")
+            # --- FIN MODIFICACIÓN: Log detallado para CADA pregunta ---
+
+        # Lógica de cálculo de puntuación (solo si hay preguntas)
+        x = correct_count / total_questions
+        if x <= 0:
+            final_score = 0
+        elif x <= 0.75:
+            slope1 = 555 / 0.75
+            final_score = slope1 * x
+        else: # This covers x > 0.75
+            slope2 = (700 - 555) / (1 - 0.75)
+            final_score = slope2 * (x - 0.75) + 555
+        
+        # Guardar la estadística de clasificaciones
+        st.session_state.classification_stats = classification_stats
+    # --- FIN RESTRUCTURADO ---
 
     # --- MODIFICACIÓN: Log resumen al final ---
-    # Estos prints se ejecutarán una vez al final del cálculo, mostrando el total de aciertos.
+    # Estos prints se ejecutarán siempre, mostrando el total de aciertos y el score final.
+    # Si total_questions era 0, final_score seguirá siendo 0 (su valor inicial).
     print(f"{log_prefix}Total correct answers: {correct_count} / {total_questions}")
-    # Se elimina el print de la lista completa de respuestas incorrectas, ya que ahora se detalla cada una.
     print(f"{log_prefix}Calculated final score: {int(final_score)}")
     # --- FIN MODIFICACIÓN: Log resumen al final ---
-
-    # Guardar la estadística de clasificaciones
-    st.session_state.classification_stats = classification_stats
-
-    # Lógica de cálculo de puntuación (sin modificar)
-    x = correct_count / total_questions
-    if x <= 0:
-        final_score = 0
-    elif x <= 0.75:
-        slope1 = 555 / 0.75
-        final_score = slope1 * x
-    else:
-        slope2 = (700 - 555) / (1 - 0.75)
-        final_score = slope2 * (x - 0.75) + 555
 
     return int(final_score)
 
