@@ -86,9 +86,9 @@ def authentication_screen():
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
     if st.session_state.marked:
-        # --- MODIFICACIÓN: Añadir título en inglés ---
+        # --- Título en inglés ---
         st.sidebar.subheader("Marked Questions")
-        # --- FIN MODIFICACIÓN ---
+        # --- Fin Título ---
 
         st.markdown("""
         <style>
@@ -118,7 +118,7 @@ def display_marked_questions_sidebar():
                     st.session_state.marked.remove(index)
                     st.rerun()
 
-# --- NUEVA FUNCIÓN PARA MOSTRAR PREGUNTAS SIN RESPONDER ---
+# --- FUNCIÓN PARA MOSTRAR PREGUNTAS SIN RESPONDER ---
 def display_unanswered_questions_sidebar():
     """
     Muestra una lista de preguntas sin responder en la barra lateral.
@@ -142,9 +142,9 @@ def display_unanswered_questions_sidebar():
 
     # Si hay preguntas sin responder, mostrarlas en la barra lateral
     if unanswered_indices:
-        # --- MODIFICACIÓN: Cambiar título a inglés ---
+        # --- Título en inglés ---
         st.sidebar.subheader("Unanswered Questions")
-        # --- FIN MODIFICACIÓN ---
+        # --- Fin Título ---
         
         # Mostrar cada número de pregunta sin responder como un botón interactivo
         for index in unanswered_indices:
@@ -156,7 +156,7 @@ def display_unanswered_questions_sidebar():
                 if st.button(f"Q {question_number}", key=f"goto_unanswered_{index}"):
                     st.session_state.current_question_index = index
                     st.rerun() # Recarga la aplicación para mostrar la pregunta seleccionada
-# --- FIN NUEVA FUNCIÓN ---
+# --- FIN FUNCIÓN ---
 
 
 def exam_screen():
@@ -166,20 +166,15 @@ def exam_screen():
     nombre = st.session_state.user_data.get('nombre', '')
     email = st.session_state.user_data.get('email', '')
 
-    # Mostramos Name y Email en la barra lateral
     with st.sidebar:
         st.write("User Information")
         st.text_input("Name", value=nombre, disabled=True)
         st.text_input("Email", value=email, disabled=True)
 
-        # --- NUEVA SECCIÓN: Panel de preguntas sin responder ---
-        # Llama a la función que hemos creado para mostrar el panel
+        # --- REORDENAMIENTO: Primero preguntas marcadas, luego sin responder ---
+        display_marked_questions_sidebar()
         display_unanswered_questions_sidebar()
-        # --- FIN NUEVA SECCIÓN ---
-
-        # Mostrar preguntas marcadas (ya existente)
-        display_marked_questions_sidebar() # Asegúrate de que esta llamada esté aquí y no fuera del bloque 'with st.sidebar:'
-
+        # --- FIN REORDENAMIENTO ---
 
     # Resto de la pantalla principal: tiempo, preguntas, etc.
     # --- DETERMINAR TIEMPO LÍMITE SEGÚN TIPO DE EXAMEN ---
