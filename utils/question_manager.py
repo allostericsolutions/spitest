@@ -64,94 +64,83 @@ def calculate_score():
     questions = st.session_state.selected_questions
     total_questions = len(questions)
     
-    # --- INICIO: Obtener datos del usuario para el log ---
+    # --- ADDED: Get user email and create log prefix ---
+    # Obtiene el email del usuario del session state, o 'N/A' si no está disponible.
     user_email = st.session_state.user_data.get('email', 'N/A')
+    # Crea el prefijo que se añadirá a todas las líneas de log.
     log_prefix = f"User: {user_email} | "
-    # --- FIN: Obtener datos del usuario para el log ---
-
-    # --- INICIO: Log para el inicio del cálculo detallado ---
-    print(f"{log_prefix}Starting detailed score calculation for {total_questions} questions.")
-    # --- FIN: Log para el inicio del cálculo detallado ---
-
-    # --- ADDED: Initialize final_score to a default value ---
-    # This ensures final_score always has a value, preventing UnboundLocalError.
-    final_score = 0
     # --- END ADDED ---
 
-    correct_count = 0 # Initialize correct_count
-    classification_stats = {} # Initialize classification_stats
+    if total_questions == 0:
+        # Si no hay preguntas, retorna 0 y no ejecuta el resto del código,
+        # manteniendo el comportamiento original.
+        return 0
 
-    # --- RESTRUCTURADO: Procesar solo si hay preguntas ---
-    if total_questions > 0:
-        # ──────────────────────────────────────────────────────────
-        # Contadores de aciertos por clasificación
-        # ──────────────────────────────────────────────────────────
+    correct_count = 0
+    # ──────────────────────────────────────────────────────────
+    # Contadores de aciertos por clasificación
+    # ──────────────────────────────────────────────────────────
+    classification_stats = {}
+
+    for idx, question in enumerate(questions):
+        # Inicializar conteo para la clasificación de la pregunta
+        clasif = question.get("clasificacion", "Other")
+        if clasif not in classification_stats:
+            classification_stats[clasif] = {"correct": 0, "total": 0}
+        classification_stats[clasif]["total"] += 1
+
+        user_answer = st.session_state.answers.get(str(idx), None)
         
-        for idx, question in enumerate(questions):
-            # Inicializar conteo para la clasificación de la pregunta
-            clasif = question.get("clasificacion", "Other")
-            if clasif not in classification_stats:
-                classification_stats[clasif] = {"correct": 0, "total": 0}
-            classification_stats[clasif]["total"] += 1
+        # --- MODIFIED: Prepend prefix to original print ---
+        # Añade el prefijo a la línea de log original.
+        print(f"{log_prefix}Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
 
-            user_answer = st.session_state.answers.get(str(idx), None)
-            
-            # Formatear opciones para mostrar con letras (a, b, c...)
-            options_str = ", ".join([f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])])
+        if user_answer is not None and user_answer in question["respuesta_correcta"]:
+            correct_count += 1
+            classification_stats[clasif]["correct"] += 1
+        elif user_answer is not None:  # Solo registra si el usuario respondió
+            # Construimos la info de respuesta incorrecta
+            incorrect_info = {
+                "pregunta": {
+                    "enunciado": question["enunciado"],
+                    "opciones": question["opciones"],
+                    "respuesta_correcta": question["respuesta_correcta"],
+                    "image": question.get("image"),
+                    "explicacion_openai": question.get("explicacion_openai", ""),
+                    "concept_to_study": question.get("concept_to_study", "")
+                },
+                "respuesta_usuario": user_answer,
+                "indice_pregunta": idx
+            }
+            st.session_state.incorrect_answers.append(incorrect_info)
+            # --- MODIFIED: Prepend prefix to original print ---
+            # Añade el prefijo a la línea de log original.
+            print(f"{log_prefix}Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
 
-            # --- MODIFICACIÓN: Log detallado para CADA pregunta ---
-            print(f"{log_prefix}--- Question {idx + 1} ---") # Número de pregunta amigable para el usuario (empezando en 1)
-            print(f"{log_prefix}  Statement: {question['enunciado']}")
-            print(f"{log_prefix}  Options: {options_str}")
-            print(f"{log_prefix}  User Answer: '{user_answer}'")
-            print(f"{log_prefix}  Correct Answer(s): '{question['respuesta_correcta']}'")
+    # --- MODIFIED: Prepend prefix to original prints ---
+    # Añade el prefijo a las líneas de log originales.
+    print(f"{log_prefix}Total de respuestas correctas: {correct_count}")  # DEBUG
+    print(f"{log_prefix}Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
+    # --- END MODIFIED ---
 
-            is_correct = False
-            if user_answer is not None and user_answer in question["respuesta_correcta"]:
-                correct_count += 1
-                classification_stats[clasif]["correct"] += 1
-                is_correct = True
-                print(f"{log_prefix}  Result: CORRECT")
-            elif user_answer is not None: # El usuario respondió, pero fue incorrecta
-                # Guardamos la información de la respuesta incorrecta para uso posterior (PDF, explicaciones)
-                # Solo incluimos lo necesario, excluyendo imagen, explicacion_openai, concept_to_study
-                incorrect_info = {
-                    "pregunta": {
-                        "enunciado": question["enunciado"],
-                        "opciones": question["opciones"],
-                        "respuesta_correcta": question["respuesta_correcta"],
-                        # No incluimos 'image', 'explicacion_openai', 'concept_to_study' aquí
-                    },
-                    "respuesta_usuario": user_answer,
-                    "indice_pregunta": idx
-                }
-                st.session_state.incorrect_answers.append(incorrect_info)
-                print(f"{log_prefix}  Result: INCORRECT")
-            else: # El usuario no respondió
-                print(f"{log_prefix}  Result: NOT ANSWERED")
-            # --- FIN MODIFICACIÓN: Log detallado para CADA pregunta ---
+    # Guardar la estadística de clasificaciones
+    st.session_state.classification_stats = classification_stats
 
-        # Lógica de cálculo de puntuación (solo si hay preguntas)
-        x = correct_count / total_questions
-        if x <= 0:
-            final_score = 0
-        elif x <= 0.75:
-            slope1 = 555 / 0.75
-            final_score = slope1 * x
-        else: # This covers x > 0.75
-            slope2 = (700 - 555) / (1 - 0.75)
-            final_score = slope2 * (x - 0.75) + 555
-        
-        # Guardar la estadística de clasificaciones
-        st.session_state.classification_stats = classification_stats
-    # --- FIN RESTRUCTURADO ---
+    # Cálculo de la puntuación (sin modificar la lógica)
+    x = correct_count / total_questions
+    if x <= 0:
+        final_score = 0
+    elif x <= 0.75:
+        slope1 = 555 / 0.75
+        final_score = slope1 * x
+    else: # Esto cubre x > 0.75
+        slope2 = (700 - 555) / (1 - 0.75)
+        final_score = slope2 * (x - 0.75) + 555
 
-    # --- MODIFICACIÓN: Log resumen al final ---
-    # Estos prints se ejecutarán siempre, mostrando el total de aciertos y el score final.
-    # Si total_questions era 0, final_score seguirá siendo 0 (su valor inicial).
-    print(f"{log_prefix}Total correct answers: {correct_count} / {total_questions}")
+    # --- ADDED: Print the calculated final score with prefix ---
+    # Nueva línea de log para mostrar el score final calculado, con el prefijo.
     print(f"{log_prefix}Calculated final score: {int(final_score)}")
-    # --- FIN MODIFICACIÓN: Log resumen al final ---
+    # --- END ADDED ---
 
     return int(final_score)
 
