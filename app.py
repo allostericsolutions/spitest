@@ -118,10 +118,10 @@ def display_marked_questions_sidebar():
                     st.session_state.marked.remove(index)
                     st.rerun()
 
-# --- FUNCIÓN PARA MOSTRAR PREGUNTAS SIN RESPONDER ---
+# --- FUNCIÓN ACTUALIZADA PARA MOSTRAR PREGUNTAS SIN RESPONDER EN FILAS DE 3 ---
 def display_unanswered_questions_sidebar():
     """
-    Muestra una lista de preguntas sin responder en la barra lateral.
+    Muestra una lista de preguntas sin responder en la barra lateral, organizadas en filas de 3 columnas.
     Cada pregunta sin responder se presenta como un botón para navegar a ella.
     """
     unanswered_indices = []
@@ -146,17 +146,24 @@ def display_unanswered_questions_sidebar():
         st.sidebar.subheader("Unanswered Questions")
         # --- Fin Título ---
         
-        # Mostrar cada número de pregunta sin responder como un botón interactivo
-        for index in unanswered_indices:
-            question_number = index + 1
-            # Usamos columnas para alinear el botón de pregunta, similar a como se hace para las preguntas marcadas
-            col1, col2 = st.sidebar.columns([3, 1]) # Ajusta el ratio si es necesario
-            with col1:
-                # El botón permite navegar directamente a la pregunta
-                if st.button(f"Q {question_number}", key=f"goto_unanswered_{index}"):
-                    st.session_state.current_question_index = index
-                    st.rerun() # Recarga la aplicación para mostrar la pregunta seleccionada
-# --- FIN FUNCIÓN ---
+        # Procesar las preguntas sin responder en grupos de 3 para filas
+        # Usamos un bucle que avanza de 3 en 3
+        for i in range(0, len(unanswered_indices), 3):
+            # Tomamos un grupo de hasta 3 índices
+            current_group_indices = unanswered_indices[i:i+3]
+            
+            # Creamos 3 columnas para esta fila
+            cols = st.sidebar.columns(3)
+            
+            # Iteramos sobre las columnas y los índices del grupo actual
+            for j, index in enumerate(current_group_indices):
+                question_number = index + 1
+                # Colocamos el botón en la columna correspondiente (cols[j])
+                with cols[j]:
+                    if st.button(f"Q {question_number}", key=f"goto_unanswered_{index}"):
+                        st.session_state.current_question_index = index
+                        st.rerun() # Recarga la aplicación para mostrar la pregunta seleccionada
+# --- FIN FUNCIÓN ACTUALIZADA ---
 
 
 def exam_screen():
@@ -173,7 +180,7 @@ def exam_screen():
 
         # --- REORDENAMIENTO: Primero preguntas marcadas, luego sin responder ---
         display_marked_questions_sidebar()
-        display_unanswered_questions_sidebar()
+        display_unanswered_questions_sidebar() # Ahora usa la versión con columnas
         # --- FIN REORDENAMIENTO ---
 
     # Resto de la pantalla principal: tiempo, preguntas, etc.
