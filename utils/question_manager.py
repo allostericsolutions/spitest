@@ -1,4 +1,3 @@
-# utils/question_manager.py
 import json
 import random
 import streamlit as st
@@ -16,11 +15,11 @@ def select_random_questions(total=120):
     """
     preguntas = load_questions()
     classification_percentages = {
-        "Physical Principles": 15,
-        "Ultrasound Transducers": 16,
-        "Doppler Imaging Concepts": 31,
-        "Imaging Principles and Instrumentation": 28,
-        "Clinical Safety, Patient Care, and Quality Assurance": 10,
+       "Physical Principles": 15,
+       "Ultrasound Transducers": 16,
+       "Doppler Imaging Concepts": 31,
+       "Imaging Principles and Instrumentation": 28,
+       "Clinical Safety, Patient Care, and Quality Assurance": 10,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
@@ -63,17 +62,7 @@ def calculate_score():
     """
     questions = st.session_state.selected_questions
     total_questions = len(questions)
-    
-    # --- ADDED: Get user email and create log prefix ---
-    # Obtiene el email del usuario del session state, o 'N/A' si no está disponible.
-    user_email = st.session_state.user_data.get('email', 'N/A')
-    # Crea el prefijo que se añadirá a todas las líneas de log.
-    log_prefix = f"User: {user_email} | "
-    # --- END ADDED ---
-
     if total_questions == 0:
-        # Si no hay preguntas, retorna 0 y no ejecuta el resto del código,
-        # manteniendo el comportamiento original.
         return 0
 
     correct_count = 0
@@ -90,10 +79,7 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
-        
-        # --- MODIFIED: Prepend prefix to original print ---
-        # Añade el prefijo a la línea de log original.
-        print(f"{log_prefix}Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
+        print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
@@ -113,34 +99,23 @@ def calculate_score():
                 "indice_pregunta": idx
             }
             st.session_state.incorrect_answers.append(incorrect_info)
-            # --- MODIFIED: Prepend prefix to original print ---
-            # Añade el prefijo a la línea de log original.
-            print(f"{log_prefix}Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
+            print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
 
-    # --- MODIFIED: Prepend prefix to original prints ---
-    # Añade el prefijo a las líneas de log originales.
-    print(f"{log_prefix}Total de respuestas correctas: {correct_count}")  # DEBUG
-    print(f"{log_prefix}Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
-    # --- END MODIFIED ---
+    print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
+    print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
 
     # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
 
-    # Cálculo de la puntuación (sin modificar la lógica)
     x = correct_count / total_questions
     if x <= 0:
         final_score = 0
     elif x <= 0.75:
         slope1 = 555 / 0.75
         final_score = slope1 * x
-    else: # Esto cubre x > 0.75
+    else:
         slope2 = (700 - 555) / (1 - 0.75)
         final_score = slope2 * (x - 0.75) + 555
-
-    # --- ADDED: Print the calculated final score with prefix ---
-    # Nueva línea de log para mostrar el score final calculado, con el prefijo.
-    print(f"{log_prefix}Calculated final score: {int(final_score)}")
-    # --- END ADDED ---
 
     return int(final_score)
 
