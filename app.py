@@ -11,7 +11,6 @@ from components.question_display import display_question
 from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
 from screens.user_data_input import user_data_input # Se importa la función extraída
-from utils.logger import log_exam_activity # Asegurarse de importar la función de log
 
 # ─────────────────────────────────────────────────────────────
 # NUEVO IMPORT para las instrucciones
@@ -67,10 +66,6 @@ def initialize_session():
     # Inicializar para el nuevo panel (ya estaba, pero lo confirmo)
     if 'unanswered_questions' not in st.session_state:
         st.session_state.unanswered_questions = []
-    # --- NUEVO: Bandera para controlar el log y la finalización ---
-    if 'exam_finalized_logged' not in st.session_state:
-        st.session_state.exam_finalized_logged = False
-    # --- FIN NUEVO ---
 
 
 def authentication_screen():
@@ -213,16 +208,12 @@ def exam_screen():
     if remaining_time <= config["warning_time_seconds"] and remaining_time > 0:
         st.warning("The exam will end in 10 minutes!")
 
-    # --- LÓGICA DE FINALIZACIÓN POR TIEMPO AGOTADO ---
     if remaining_time <= 0 and not st.session_state.end_exam:
-        st.session_state.end_exam = True # Marcar como finalizado
+        st.session_state.end_exam = True
         st.success("Time is up. The exam will be finalized now.")
-        # Llamar a finalize_exam() para procesar, loguear y mostrar resultados.
-        # La bandera exam_finalized_logged en finalize_exam() se encargará de que solo se ejecute una vez.
         finalize_exam()
-        return # Detener la ejecución de exam_screen para este rerun
+        return
 
-    # --- LÓGICA DE FINALIZACIÓN POR BOTÓN DEL USUARIO ---
     if not st.session_state.end_exam:
         current_index = st.session_state.current_question_index
         question = st.session_state.selected_questions[current_index]
@@ -241,28 +232,18 @@ def exam_screen():
         if st.button("Finish Exam"):
             if st.session_state.confirm_finish:
                 st.info("⏳ Please wait a few seconds while we prepare your score and performance report. When ready, you will see 'Results generated in PDF' and be able to download your report.") # <---- MENSAJE DE ESPERA CON ICONO ⏳
-                st.session_state.end_exam = True # Marcar como finalizado
-                # Llamar a finalize_exam() para procesar, loguear y mostrar resultados.
-                # La bandera exam_finalized_logged en finalize_exam() se encargará de que solo se ejecute una vez.
+                st.session_state.end_exam = True
                 finalize_exam()
             else:
                 st.warning("Please confirm completion using the button above.")
+
         # --- FIN DEL BLOQUE CON FORMULARIO ---
 
 def finalize_exam():
     """
-    Marks the exam as finished, displays results, generates the PDF, and logs the activity.
-    Ensures logging happens only once.
+    Marks the exam as finished, displays results, and generates the PDF.
     """
-    # --- EVITAR EJECUCIÓN Y LOGGING DUPLICADO ---
-    if st.session_state.exam_finalized_logged:
-        # Si ya se procesó y se logueó, simplemente salimos.
-        # Esto es crucial para evitar la duplicación de logs y resultados.
-        return
-    # --- FIN EVITAR DUPLICADO ---
-
-    st.session_state.end_exam = True # Asegurarse de que el estado final sea True
-
+    st.session_state.end_exam = True
     score = calculate_score()
 
     if score >= config["passing_score"]:
@@ -294,10 +275,7 @@ def finalize_exam():
     # st.sidebar.write("Respuestas incorrectas:", st.session_state.incorrect_answers)
     # st.sidebar.write("Explicaciones de OpenAI:", st.session_state.explanations)
 
-    # --- GENERAR PDF CON INDICADOR DE PROGRESO ---
-    with st.spinner("Generating PDF report..."):
-        pdf_path = generate_pdf(st.session_state.user_data, score, status)
-    # El código que sigue se ejecutará después de que el spinner termine
+    pdf_path = generate_pdf(st.session_state.user_data, score, status)
     st.success("Results generated in PDF.")
 
     with open(pdf_path, "rb") as f:
@@ -307,20 +285,6 @@ def finalize_exam():
             file_name=os.path.basename(pdf_path),
             mime="application/pdf"
         )
-    # --- FIN GENERAR PDF ---
-
-    # --- REGISTRAR ACTIVIDAD EN EL LOG FORMAL (AHORA EN CONSOLA) ---
-    # Asegurarse de que user_data esté disponible antes de loguear
-    if st.session_state.user_data:
-        log_exam_activity(st.session_state.user_data, score, status)
-        # --- MARCAR COMO LOGUEADO Y FINALIZADO ---
-        st.session_state.exam_finalized_logged = True
-        # --- FIN MARCAR ---
-    else:
-        # Manejar caso donde user_data no esté disponible (aunque debería estar)
-        st.warning("User data not found. Cannot log exam activity.")
-        st.session_state.exam_finalized_logged = True # Marcar como procesado para evitar bucles
-
 
 def main_screen():
     """
@@ -366,16 +330,9 @@ def main():
     elif not st.session_state.user_data:
         user_data_input()
     elif not st.session_state.end_exam:
-        # Si el examen no ha terminado, mostrar la pantalla del examen
         main_screen()
     else:
-        # Si el examen ya terminó (end_exam es True), mostrar los resultados.
-        # finalize_exam() ya se llamó cuando end_exam se puso a True (ya sea por tiempo o por botón).
-        # La bandera exam_finalized_logged asegura que el log y el procesamiento solo ocurran una vez.
-        # Si el estado es end_exam=True, simplemente mostramos los resultados que ya fueron preparados.
-        # La llamada a finalize_exam() aquí es segura debido a la bandera exam_finalized_logged.
         finalize_exam()
-
 
 if __name__ == "__main__":
     main()
