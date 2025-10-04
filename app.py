@@ -63,7 +63,7 @@ def initialize_session():
         st.session_state.incorrect_answers = []
     if 'explanations' not in st.session_state:
         st.session_state.explanations = {}
-    # Inicializar para el nuevo panel
+    # Inicializar para el nuevo panel (ya estaba, pero lo confirmo)
     if 'unanswered_questions' not in st.session_state:
         st.session_state.unanswered_questions = []
 
@@ -86,6 +86,10 @@ def authentication_screen():
 def display_marked_questions_sidebar():
     """Displays the sidebar with marked questions."""
     if st.session_state.marked:
+        # --- MODIFICACIÓN: Añadir título en inglés ---
+        st.sidebar.subheader("Marked Questions")
+        # --- FIN MODIFICACIÓN ---
+
         st.markdown("""
         <style>
         .title {
@@ -138,7 +142,9 @@ def display_unanswered_questions_sidebar():
 
     # Si hay preguntas sin responder, mostrarlas en la barra lateral
     if unanswered_indices:
-        st.sidebar.subheader("Preguntas sin responder")
+        # --- MODIFICACIÓN: Cambiar título a inglés ---
+        st.sidebar.subheader("Unanswered Questions")
+        # --- FIN MODIFICACIÓN ---
         
         # Mostrar cada número de pregunta sin responder como un botón interactivo
         for index in unanswered_indices:
