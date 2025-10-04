@@ -73,18 +73,15 @@ def calculate_score():
     classification_stats = {}
 
     # --- INICIO: Obtener datos del usuario para el log ---
-    # Accedemos a st.session_state para obtener la información del usuario y tipo de examen
-    user_name = st.session_state.user_data.get('nombre', 'N/A')
+    # Accedemos a st.session_state para obtener solo el email del usuario
     user_email = st.session_state.user_data.get('email', 'N/A')
-    exam_type = st.session_state.get('exam_type', 'N/A')
-    # Creamos un prefijo común para todos los mensajes de log
-    log_prefix = f"[{exam_type.upper()}] User: {user_name} ({user_email}) | "
+    # Creamos un prefijo común para todos los mensajes de log con solo el email
+    log_prefix = f"User: {user_email} | "
     # --- FIN: Obtener datos del usuario para el log ---
 
-    # --- INICIO: Log para el inicio del cálculo ---
-    # Este print se ejecutará una vez al inicio del cálculo de puntuación
-    print(f"{log_prefix}Starting score calculation for {total_questions} questions.")
-    # --- FIN: Log para el inicio del cálculo ---
+    # --- INICIO: Log para el inicio del cálculo detallado ---
+    print(f"{log_prefix}Starting detailed score calculation for {total_questions} questions.")
+    # --- FIN: Log para el inicio del cálculo detallado ---
 
     for idx, question in enumerate(questions):
         # Inicializar conteo para la clasificación de la pregunta
@@ -94,40 +91,49 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
-        # --- MODIFICACIÓN: Log detallado por pregunta ---
-        # Este print se ejecutará para CADA pregunta, mostrando la respuesta del usuario y la correcta
-        print(f"{log_prefix}Q{idx}: User Ans='{user_answer}', Correct Ans='{question['respuesta_correcta']}'")
-        # --- FIN MODIFICACIÓN ---
+        
+        # Formatear opciones para mostrar con letras (a, b, c...)
+        options_str = ", ".join([f"{chr(97 + i)}) {option}" for i, option in enumerate(question['opciones'])])
 
+        # --- MODIFICACIÓN: Log detallado para CADA pregunta ---
+        # Imprime enunciado, opciones, respuesta del usuario y respuesta correcta
+        print(f"{log_prefix}--- Question {idx + 1} ---") # Número de pregunta amigable para el usuario (empezando en 1)
+        print(f"{log_prefix}  Statement: {question['enunciado']}")
+        print(f"{log_prefix}  Options: {options_str}")
+        print(f"{log_prefix}  User Answer: '{user_answer}'")
+        print(f"{log_prefix}  Correct Answer(s): '{question['respuesta_correcta']}'")
+
+        is_correct = False
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
             classification_stats[clasif]["correct"] += 1
-        elif user_answer is not None:  # Solo registra si el usuario respondió y fue incorrecta
-            # Construimos la info de respuesta incorrecta
+            is_correct = True
+            print(f"{log_prefix}  Result: CORRECT")
+        elif user_answer is not None: # El usuario respondió, pero fue incorrecta
+            # Guardamos la información de la respuesta incorrecta para uso posterior (PDF, explicaciones)
+            # Solo incluimos lo necesario, excluyendo imagen, explicacion_openai, concept_to_study
             incorrect_info = {
                 "pregunta": {
                     "enunciado": question["enunciado"],
                     "opciones": question["opciones"],
                     "respuesta_correcta": question["respuesta_correcta"],
-                    "image": question.get("image"),
-                    "explicacion_openai": question.get("explicacion_openai", ""),
-                    "concept_to_study": question.get("concept_to_study", "")
+                    # No incluimos 'image', 'explicacion_openai', 'concept_to_study' aquí
                 },
                 "respuesta_usuario": user_answer,
                 "indice_pregunta": idx
             }
             st.session_state.incorrect_answers.append(incorrect_info)
-            # --- MODIFICACIÓN: Log al añadir respuesta incorrecta ---
-            # Este print se ejecutará SOLO si la respuesta es incorrecta
-            print(f"{log_prefix}Added incorrect answer for Q{idx}. User='{user_answer}', Correct='{question['respuesta_correcta']}'")
-            # --- FIN MODIFICACIÓN ---
+            print(f"{log_prefix}  Result: INCORRECT")
+        else: # El usuario no respondió
+            print(f"{log_prefix}  Result: NOT ANSWERED")
+        # --- FIN MODIFICACIÓN: Log detallado para CADA pregunta ---
 
     # --- MODIFICACIÓN: Log resumen al final ---
     # Estos prints se ejecutarán una vez al final del cálculo, mostrando el total de aciertos.
     print(f"{log_prefix}Total correct answers: {correct_count} / {total_questions}")
-    # Opcional: Si la lista de incorrectas es muy larga, podrías comentarla o resumirla para no saturar la consola.
-    # print(f"{log_prefix}Final list of incorrect answers: {st.session_state.incorrect_answers}")
-    # --- FIN MODIFICACIÓN ---
+    # Se elimina el print de la lista completa de respuestas incorrectas, ya que ahora se detalla cada una.
+    print(f"{log_prefix}Calculated final score: {int(final_score)}")
+    # --- FIN MODIFICACIÓN: Log resumen al final ---
 
     # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
@@ -142,11 +148,6 @@ def calculate_score():
     else:
         slope2 = (700 - 555) / (1 - 0.75)
         final_score = slope2 * (x - 0.75) + 555
-
-    # --- MODIFICACIÓN: Log del score final ---
-    # Este print muestra el score final calculado.
-    print(f"{log_prefix}Calculated final score: {int(final_score)}")
-    # --- FIN MODIFICACIÓN ---
 
     return int(final_score)
 
