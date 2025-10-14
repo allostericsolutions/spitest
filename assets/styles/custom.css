@@ -2,88 +2,125 @@
 
 /* Reducir márgenes generales (con cuidado) */
 body {
-  margin: 0;
-  padding: 0;
+ margin: 0;
+ padding: 0;
 }
 
 /* Ajustes específicos para la imagen de fondo */
 body {
-  background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center top;
-  background-attachment: fixed; /* Imagen fija */
+ background-image: url("https://storage.googleapis.com/allostericsolutionsr/Allosteric_Solutions.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center top;
+ background-attachment: fixed; /* Imagen fija */
 }
 
 /* Reducir márgenes superiores e inferiores de los títulos */
 h1 {
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-  text-align: center;
+ margin-top: 10px !important;
+ margin-bottom: 10px !important;
+ text-align: center;
 }
 
 /* Reducir márgenes de los inputs de texto */
 .stTextInput > div > div > input {
-  color: black !important;
-  margin-bottom: 5px !important;
+ color: black !important;
+ margin-bottom: 5px !important;
 }
 
 /* Contenedor de autenticación (para agrupar) */
 .auth-container {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
 }
 
 /* Contenedor de datos de usuario (para agrupar) */
 .user-data-container {
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+ padding: 15px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
 }
 
 /* Estilos para la pantalla de preguntas */
 .question-container {
-  /* Puedes agregar estilos generales aquí si es necesario */
+ /* Puedes agregar estilos generales aquí si es necesario */
 }
 
 .options-container {
-  /*
-  max-height: 200px; Ajusta este valor según tus necesidades
-  overflow-y: auto; Scroll vertical solo para las opciones
-  */
+ /*
+ max-height: 200px; Ajusta este valor según tus necesidades
+ overflow-y: auto; Scroll vertical solo para las opciones
+ */
 }
 
 /* --- ESTILOS PARA LAS IMÁGENES DE LAS PREGUNTAS --- */
 .image-container {
-  display: flex;    /* Usa Flexbox para centrar */
-  justify-content: center;   /* Centra horizontalmente */
-  align-items: center;    /* Centra verticalmente */
-  max-height: 50px;  /* ALTURA MÁXIMA REDUCIDA EN UN 35% (Antes 200px) */
-  overflow: hidden;   /* Oculta si se sale del contenedor */
+ display: flex;    /* Usa Flexbox para centrar */
+ justify-content: center;    /* Centra horizontalmente */
+ align-items: center;    /* Centra verticalmente */
+ max-height: 50px;    /* ALTURA MÁXIMA REDUCIDA EN UN 35% (Antes 200px) */
+ overflow: hidden;    /* Oculta si se sale del contenedor */
 }
 
 .image-container img {
-  max-width: 30%;  /* Nunca más ancha que el contenedor */
-  max-height: 30%;  /* Nunca más alta que el contenedor */
-  width: auto;    /* Ancho automático (mantiene proporción) */
-  height: auto;   /* Altura automática (mantiene proporción) */
-  object-fit: contain; /* Mantiene la relación de aspecto */
+ max-width: 30%;    /* Nunca más ancha que el contenedor */
+ max-height: 30%;    /* Nunca más alta que el contenedor */
+ width: auto;      /* Ancho automático (mantiene proporción) */
+ height: auto;      /* Altura automática (mantiene proporción) */
+ object-fit: contain; /* Mantiene la relación de aspecto */
 }
 /* --- FIN DE ESTILOS PARA LAS IMÁGENES --- */
 
 /* --- TAMAÑO DE FUENTE (VARIABLES CSS) --- */
 :root {
-  --base-font-size: 18px; /* Tamaño base predeterminado */
-  --question-text-size: calc(var(--base-font-size) * 1.2); /* Enunciado - 20% más grande */
-  --option-text-size: calc(var(--base-font-size) * 1.1); /* Opciones - 10% más grande */
+ --base-font-size: 18px; /* Tamaño base predeterminado */
+ --question-text-size: calc(var(--base-font-size) * 1.2); /* Enunciado - 20% más grande */
+ --option-text-size: calc(var(--base-font-size) * 1.1); /* Opciones - 10% más grande */
 }
 
 /* --- SELECTORES (CORREGIDOS) --- */
 .stRadio > div > label > span { /* Para las opciones de respuesta (incluye incisos) */
-  font-size: var(--option-text-size) !important; /*AQUI EL CAMBIO*/
+ font-size: var(--option-text-size) !important; /*AQUI EL CAMBIO*/
 }
 
 .stMarkdown p { /* Para el texto del enunciado */
-  font-size: var(--question-text-size);
+ font-size: var(--question-text-size);
 }
+
+/* --- Estilos para hacer el botón de la barra lateral más visible --- */
+
+/*
+  Selector más robusto usando data-testid.
+  Apuntamos al botón que contiene el icono de la barra lateral.
+  NOTA: Los selectores CSS internos de Streamlit pueden cambiar entre versiones.
+  Si esto no funciona, será necesario inspeccionar el HTML de la aplicación
+  en tu navegador para encontrar el selector correcto para tu versión específica.
+*/
+button[data-testid="stSidebarNavButton"] svg {
+    fill: red !important; /* Hace el icono (SVG) de color rojo */
+    width: 1.8em !important; /* Aumenta el ancho del icono */
+    height: 1.8em !important; /* Aumenta la altura del icono */
+    /* font-size no es efectivo en SVGs, width/height son las propiedades correctas */
+}
+
+/* Estilos para el botón en sí, para hacerlo más prominente */
+button[data-testid="stSidebarNavButton"] {
+    background-color: rgba(255, 255, 255, 0.8) !important; /* Fondo blanco semitransparente */
+    border-radius: 5px !important; /* Bordes redondeados */
+    padding: 5px !important; /* Un poco más de espacio interno */
+    margin-right: 10px !important; /* Espacio a la derecha */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important; /* Sombra sutil */
+    transition: all 0.3s ease !important; /* Transición suave para efectos */
+    /* Asegurarse de que el botón esté por encima de otros elementos si es necesario */
+    position: relative !important;
+    z-index: 1000 !important;
+}
+
+/* Efecto al pasar el ratón por encima del botón */
+button[data-testid="stSidebarNavButton"]:hover {
+    background-color: rgba(255, 255, 255, 1) !important; /* Fondo blanco opaco al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; /* Sombra más pronunciada */
+}
+
+/* --- Fin de estilos para el botón de la barra lateral --- */
