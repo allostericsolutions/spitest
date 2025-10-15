@@ -1,6 +1,7 @@
+# utils/question_manager.py
 import json
 import random
-import streamlit as st
+import streamlit as st # Asegurarse de que streamlit esté importado
 
 def load_questions():
     """
@@ -15,11 +16,11 @@ def select_random_questions(total=120):
     """
     preguntas = load_questions()
     classification_percentages = {
-       "Physical Principles": 15,
-       "Ultrasound Transducers": 16,
-       "Doppler Imaging Concepts": 31,
-       "Imaging Principles and Instrumentation": 28,
-       "Clinical Safety, Patient Care, and Quality Assurance": 10,
+        "Physical Principles": 15,
+        "Ultrasound Transducers": 16,
+        "Doppler Imaging Concepts": 31,
+        "Imaging Principles and Instrumentation": 28,
+        "Clinical Safety, Patient Care, and Quality Assurance": 10,
     }
     total_percentage = sum(classification_percentages.values())
     if total_percentage != 100:
@@ -71,6 +72,14 @@ def calculate_score():
     # ──────────────────────────────────────────────────────────
     classification_stats = {}
 
+    # --- Obtener datos del usuario para el prefijo de depuración ---
+    user_data = st.session_state.get("user_data", {})
+    user_name = user_data.get("nombre", "N/A")
+    user_email = user_data.get("email", "N/A")
+    user_info_prefix = f"[USER: {user_name} ({user_email})]"
+    # --- Fin de obtención de datos del usuario ---
+
+
     for idx, question in enumerate(questions):
         # Inicializar conteo para la clasificación de la pregunta
         clasif = question.get("clasificacion", "Other")
@@ -79,7 +88,9 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
-        print(f"Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
+        # --- MODIFICACIÓN: Añadir prefijo de usuario a los prints de depuración ---
+        print(f"{user_info_prefix} Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")
+        # --- FIN MODIFICACIÓN ---
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
@@ -98,11 +109,19 @@ def calculate_score():
                 "respuesta_usuario": user_answer,
                 "indice_pregunta": idx
             }
+            # --- MODIFICACIÓN: Añadir prefijo de usuario a los prints de depuración ---
+            print(f"{user_info_prefix} Añadida respuesta incorrecta a la lista: {incorrect_info}")
+            # --- FIN MODIFICACIÓN ---
             st.session_state.incorrect_answers.append(incorrect_info)
-            print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
+            # print(f"Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG original
 
-    print(f"Total de respuestas correctas: {correct_count}")  # DEBUG
-    print(f"Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
+    # --- MODIFICACIÓN: Añadir prefijo de usuario a los prints de depuración ---
+    print(f"{user_info_prefix} Total de respuestas correctas: {correct_count}")
+    # --- FIN MODIFICACIÓN ---
+
+    # --- MODIFICACIÓN: Añadir prefijo de usuario a los prints de depuración ---
+    print(f"{user_info_prefix} Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")
+    # --- FIN MODIFICACIÓN ---
 
     # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
