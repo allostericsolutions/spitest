@@ -71,8 +71,10 @@ def calculate_score():
     # ──────────────────────────────────────────────────────────
     classification_stats = {}
 
-    # Obtener el nombre del usuario para el log
-    user_name = st.session_state.user_data.get('nombre', 'Unknown User')
+    # --- CAMBIO AQUÍ: Acceso más robusto al nombre del usuario ---
+    # Aseguramos que user_data exista y luego obtenemos el nombre, con un fallback 'Unknown User'
+    user_name = st.session_state.get('user_data', {}).get('nombre', 'Unknown User')
+    # --- FIN DEL CAMBIO ---
 
     for idx, question in enumerate(questions):
         # Inicializar conteo para la clasificación de la pregunta
@@ -82,9 +84,8 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
-        # --- CAMBIO AQUÍ: Añadir el nombre del usuario al print ---
+        # Añadir el nombre del usuario al print
         print(f"[{user_name}] Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
-        # --- FIN DEL CAMBIO ---
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
@@ -104,14 +105,12 @@ def calculate_score():
                 "indice_pregunta": idx
             }
             st.session_state.incorrect_answers.append(incorrect_info)
-            # --- CAMBIO AQUÍ: Añadir el nombre del usuario al print ---
+            # Añadir el nombre del usuario al print
             print(f"[{user_name}] Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
-            # --- FIN DEL CAMBIO ---
 
-    # --- CAMBIO AQUÍ: Añadir el nombre del usuario al print ---
+    # Añadir el nombre del usuario al print
     print(f"[{user_name}] Total de respuestas correctas: {correct_count}")  # DEBUG
     print(f"[{user_name}] Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
-    # --- FIN DEL CAMBIO ---
 
     # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
