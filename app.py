@@ -1,3 +1,4 @@
+# app.py
 import streamlit as st
 import json
 import time
@@ -251,6 +252,12 @@ def finalize_exam():
         status = "Passed"
     else:
         status = "Not Passed"
+
+    # --- DEBUG: Mostrar user_data justo antes de llamar a log_exam_activity ---
+    st.write("--- DEBUG START ---")
+    st.write("DEBUG: User data before log call:", st.session_state.user_data)
+    st.write("--- DEBUG END ---")
+    # --- FIN DEBUG ---
 
     # --- LLAMADA A LA FUNCIÓN DE LOG ---
     # Asegurarse de que user_data existe y tiene información antes de llamar al log
