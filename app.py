@@ -7,6 +7,7 @@ import os
 from utils.auth import verify_password
 from utils.question_manager import select_random_questions, shuffle_options, calculate_score
 from utils.pdf_generator import generate_pdf
+from utils.logger import log_exam_activity # <-- SE AÑADIÓ ESTA LÍNEA
 from components.question_display import display_question
 from components.navigation import display_navigation
 from openai_utils.explanations import get_openai_explanation
@@ -250,6 +251,12 @@ def finalize_exam():
         status = "Passed"
     else:
         status = "Not Passed"
+
+    # --- LLAMADA A LA FUNCIÓN DE LOG ---
+    # Asegurarse de que user_data existe y tiene información antes de llamar al log
+    if 'user_data' in st.session_state and st.session_state.user_data:
+        log_exam_activity(st.session_state.user_data, score, status)
+    # --- FIN DE LA LLAMADA A LA FUNCIÓN DE LOG ---
 
     st.header("Exam Results")
     st.write(f"Score Obtained: {score}")
