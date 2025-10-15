@@ -33,12 +33,6 @@ def user_data_input():
                         "email": email.strip()
                     }
                     st.success("Data registered. Preparing the exam...")
-                    
-                    # --- DEBUG: Mostrar user_data justo después de ser guardado ---
-                    st.write("--- DEBUG START ---")
-                    st.write("DEBUG: User data set in session_state:", st.session_state.user_data)
-                    st.write("--- DEBUG END ---")
-                    # --- FIN DEBUG ---
 
                     # ───────────────────────────────────────────────
                     # BLOQUE IMPORTANTE: SELECCIÓN DE MODO DE EXAMEN
