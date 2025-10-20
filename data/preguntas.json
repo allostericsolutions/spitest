@@ -28510,5 +28510,24 @@
         "concept_to_study": "Doppler color scale",
         "explicacion_openai": "The color scale indicates the velocity and direction of blood flow. Negative values (blue) show flow away from the transducer, while positive values (red) show flow toward it. This helps identify aliasing and flow reversal.",
         "image_explanation": ""
-    }
+    },
+     {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An operator is examining a Doppler spectral display (similar to image **A**), showing many compressed waveforms. To perform a detailed analysis and obtain precise measurements of specific points like peak systolic and end-diastolic velocities within a single heartbeat, transitioning to a more expanded view resembling image **B**, what control should be adjusted, and what is the practical advantage for diagnosis?",
+    "image": "sweep_adjust.png",
+    "opciones": [
+      "Decrease the gain to enhance contrast for velocity differentiation.",
+      "Increase the wall filter to remove low-frequency noise.",
+      "Increase the time display rate  (sweep speed control) to expand the waveform, allowing for precise measurements.",
+      "Adjust the sample volume size to encompass more flow."
+    ],
+    "respuesta_correcta": [
+      "Increase the time display rate  (sweep speed control) to expand the waveform, allowing for precise measurements."
+    ],
+    "concept_to_study": "Adjusting time display rate for waveform detail and precise measurements",
+    "explicacion_openai": "When a waveform is compressed (many cycles on screen), detailed analysis and accurate measurement of specific points, such as peak systolic and end-diastolic velocities, become challenging. Increasing the time display rate 'stretches' the waveform horizontally, dedicating more screen space to each individual cardiac cycle. This expanded view provides crucial magnification, making it significantly easier for the operator to place calipers accurately, thus improving the precision of quantitative measurements vital for diagnostic assessment of blood flow dynamics.",
+    "image_explanation": "The question asks how to go from compressed waveforms (A) to expanded waveforms (B) for detailed measurements, linking this to the time display rate control."
+  }
 ]
