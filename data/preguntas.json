@@ -28529,5 +28529,24 @@
     "concept_to_study": "Adjusting time display rate for waveform detail and precise measurements",
     "explicacion_openai": "When a waveform is compressed (many cycles on screen), detailed analysis and accurate measurement of specific points, such as peak systolic and end-diastolic velocities, become challenging. Increasing the time display rate 'stretches' the waveform horizontally, dedicating more screen space to each individual cardiac cycle. This expanded view provides crucial magnification, making it significantly easier for the operator to place calipers accurately, thus improving the precision of quantitative measurements vital for diagnostic assessment of blood flow dynamics.",
     "image_explanation": "The question asks how to go from compressed waveforms (A) to expanded waveforms (B) for detailed measurements, linking this to the time display rate control."
-  }
+  },
+  {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 155,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is the primary technical problem shown by the spectral Doppler in this image?",
+        "image": "spectral_gate_error.png",
+        "opciones": [
+            "PRF set too high eliminating low frequencies",
+            "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave",
+            "Wall filter set too low producing low‑frequency noise",
+            "Excessive spectral gain causing spectral broadening"
+        ],
+        "respuesta_correcta": [
+            "Incorrect adjustment of sample volume (too large), resulting in false turbulent spectral wave"
+        ],
+        "concept_to_study": "Spectral Doppler sample volume size",
+        "explicacion_openai": "A sample volume that is too large mixes signals from different flow layers and vessel walls, producing an artificially widened, turbulent‑appearing spectrum.",
+        "image_explanation": "The image displays a spectral Doppler waveform that appears artificially broadened or turbulent, indicating a technical issue with the sample volume size."
+    }
 ]
