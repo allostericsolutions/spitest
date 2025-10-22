@@ -28548,5 +28548,63 @@
         "concept_to_study": "Spectral Doppler sample volume size",
         "explicacion_openai": "A sample volume that is too large mixes signals from different flow layers and vessel walls, producing an artificially widened, turbulent‑appearing spectrum.",
         "image_explanation": "The image displays a spectral Doppler waveform that appears artificially broadened or turbulent, indicating a technical issue with the sample volume size."
-    }
+    },
+      {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "An ultrasound operator is performing a Doppler study and observes a display issue in image A, where high velocities appear to be misrepresented. To correct this and obtain image B, which adjustment is most likely made?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Decrease the transducer frequency",
+      "Increase the sample volume size",
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Decrease the gain"
+    ],
+    "respuesta_correcta": [
+      "Increase the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Doppler aliasing and PRF adjustment",
+    "explicacion_openai": "Image A shows a phenomenon where the color Doppler signal \"wraps around,\" indicating that the detected velocity has exceeded the system's ability to accurately measure it. This is known as aliasing. To correct this and accurately display higher velocities (as seen in image B), the Pulse Repetition Frequency (PRF) must be increased. Increasing the PRF raises the Nyquist limit, allowing the system to sample at a rate sufficient for the higher velocities encountered.",
+    "image_explanation": "Image A displays aliasing (wrap-around artifact), while image B shows the corrected flow, indicating a change was made to resolve high velocity misrepresentation."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided ultrasound images, image A shows an artifactual display of blood flow, particularly in regions of higher velocity. If the operator adjusts the system to achieve the accurate flow representation in image B, what primary control was manipulated?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Reducing the color box size",
+      "Elevating the wall filter",
+      "Increasing the Pulse Repetition Frequency (PRF)",
+      "Lowering the overall power output"
+    ],
+    "respuesta_correcta": [
+      "Increasing the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Resolving Doppler aliasing with PRF",
+    "explicacion_openai": "The artifact visible in image A, characterized by the reversal of color flow (wrap-around), is aliasing. This occurs when the Doppler shift frequency exceeds the Nyquist limit (half the PRF). To resolve this artifact and obtain a correct display of flow (image B), the most effective control to adjust is the Pulse Repetition Frequency (PRF). Increasing the PRF raises the Nyquist limit, allowing for proper detection and display of higher velocities.",
+    "image_explanation": "Image A shows aliasing, while image B displays corrected flow, indicating that a primary control like PRF was adjusted to resolve the artifact."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 3,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The transition from ultrasound image A (displaying an artifact related to velocity measurement) to image B (showing corrected blood flow) typically involves which of the following operator actions?",
+    "image": "aliasing_prf_correction",
+    "opciones": [
+      "Decreasing color gain",
+      "Activating harmonic imaging",
+      "Increase the Pulse Repetition Frequency (PRF)",
+      "Adjusting the baseline shift only"
+    ],
+    "respuesta_correcta": [
+      "Increase the Pulse Repetition Frequency (PRF)"
+    ],
+    "concept_to_study": "Correcting aliasing artifact with PRF",
+    "explicacion_openai": "The artifact in image A, where the color Doppler spectrum appears to \"wrap around\" due to velocities exceeding the measurement capacity, is known as aliasing. To properly measure and display these higher velocities, as seen in the corrected image B, the operator must increase the Pulse Repetition Frequency (PRF). This action raises the Nyquist limit, which is the maximum velocity that can be accurately measured without aliasing. While a baseline shift (d) can move the artifact, it does not correct the underlying issue of aliasing; increasing the PRF is necessary for a true resolution.",
+    "image_explanation": "Image A shows an aliasing artifact, and image B shows the corrected flow, indicating that an operator action such as increasing PRF was taken to resolve it."
+  }
 ]
+
