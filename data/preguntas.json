@@ -28681,8 +28681,28 @@
     "concept_to_study": "Comprehensive aliasing resolution strategies",
     "explicacion_openai": "The artifact is aliasing. Here's why option (c) is correct and others are not: Increasing the PRF: Directly raises the Nyquist limit, the most common and effective way to resolve aliasing. Adjusting the baseline: Can \"move\" the aliasing to make it less visually disruptive or to ensure the highest velocities are within the non-aliased range, although it doesn't eliminate aliasing. Decreasing the Doppler angle (to reduce measured velocity): By making the angle more acute (closer to 0 degrees), the calculated velocity for the same actual flow can be lower, potentially falling below the Nyquist limit and thus reducing aliasing. Using a lower frequency transducer: Lower frequency transducers produce a smaller Doppler shift for the same velocity, making aliasing less likely. Options (a), (b), and (d) contain actions that would either worsen aliasing (e.g., decreasing PRF, increasing Doppler angle closer to 90), are unrelated, or primarily address other image quality issues.",
     "image_explanation": "The image shows aliasing, and the question asks for a set of effective actions to resolve it."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the name of the artifact in Image A?",
+    "image": "aliasing_artifact_name",
+    "opciones": [
+      "Color Aliasing",
+      "Confetti",
+      "Color bleeding",
+      "Flash artifact"
+    ],
+    "respuesta_correcta": [
+      "Color Aliasing"
+    ],
+    "concept_to_study": "Doppler aliasing",
+    "explicacion_openai": "Image A displays a color Doppler artifact where the colors representing flow direction abruptly change (e.g., from red to blue) within the vessel, particularly in areas of high velocity. This phenomenon, known as aliasing, occurs when the Doppler shift frequency exceeds the Nyquist limit, causing the system to misinterpret the velocity. Confetti artifact appears as scattered color throughout the image, not confined to the vessel. Color bleeding is when color extends beyond the vessel walls. Flash artifact is a transient, bright artifact often caused by patient movement.",
+    "image_explanation": "Image A clearly shows the characteristic 'wrap-around' effect of aliasing in the color Doppler display of the vessel."
   }
 ]
+
 
 
 
