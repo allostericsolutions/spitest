@@ -110,5 +110,5 @@
   "time_limit_seconds": 7200,
   "warning_time_seconds": 600,
   "passing_score": 555,
-  "time_limit_seconds_short": 1200
+  "time_limit_seconds_short": 1800
 }
