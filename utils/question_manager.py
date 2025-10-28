@@ -137,7 +137,7 @@ def load_short_questions():
     with open('data/preguntas_corto.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def select_short_questions(total=20):
+def select_short_questions(total=30):
     """
     Selects 'total' questions randomly from the short exam questions file.
     Since this is for the free/demo version, no distribution by classification is applied.
