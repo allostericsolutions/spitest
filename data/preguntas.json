@@ -508,8 +508,8 @@
         "respuesta_correcta": [
             "Directly proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between frequency and attenuation in ultrasound",
+        "explicacion_openai": "In ultrasound, the relationship between frequency and attenuation is that they are directly proportional. This means that as the frequency of the ultrasound wave increases, the attenuation of the wave also increases. Attenuation refers to the gradual loss of intensity of the ultrasound wave as it travels through a medium, such as tissue in the body. Higher frequency ultrasound waves are more rapidly attenuated compared to lower frequency waves. Understanding this relationship is crucial in medical imaging to optimize image quality and penetration depth.",
         "image_explanation": ""
     },
     {
@@ -812,8 +812,8 @@
         "respuesta_correcta": [
             "Mechanical"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Sound waves are classified as Mechanical waves.",
+        "explicacion_openai": "Sound waves are a type of mechanical wave, which means they require a medium (such as air, water, or solids) to travel through. As sound propagates, it causes particles in the medium to vibrate back and forth in the same direction as the wave is moving. This back and forth motion creates the sensation of hearing in our ears. Understanding sound waves as mechanical waves is important in fields such as acoustics and audio engineering.",
         "image_explanation": ""
     },
     {
@@ -1021,8 +1021,8 @@
         "respuesta_correcta": [
             "500 m/s to 1500 m/s"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Speed of sound in biological tissues",
+        "explicacion_openai": "The range of sound speeds in biological tissues typically falls between 500 m/s to 1500 m/s. This parameter is crucial in medical imaging techniques like ultrasound, as the speed of sound affects the quality and resolution of imaging. Understanding the speed of sound in different tissues helps in accurately interpreting ultrasound images and diagnosing various medical conditions.",
         "image_explanation": ""
     },
     {
@@ -1097,8 +1097,8 @@
         "respuesta_correcta": [
             "Bone"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Speed of sound in different mediums",
+        "explicacion_openai": "Sound travels fastest through bone compared to air, fat, and blood due to bone's higher density and stiffness. In medical ultrasound imaging, understanding the speed of sound in different tissues is crucial to produce accurate images. Bones have a higher acoustic impedance which allows sound waves to travel more quickly through them, making bone a good medium for conducting sound. This property is utilized in medical imaging techniques like bone density scans and ultrasonography to visualize structures within the body.",
         "image_explanation": ""
     },
     {
@@ -1686,8 +1686,8 @@
         "respuesta_correcta": [
             "Edge artifact"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound beam interaction with curved surfaces",
+        "explicacion_openai": "The Edge artifact is a result of the interaction of the ultrasound beam with curved surfaces. This artifact occurs at the edges of structures or tissues with abrupt changes in acoustic impedance. When the ultrasound beam encounters such curved surfaces, it can produce a shadowing effect that manifests as a hypoechoic or absent area beyond the edge. Understanding this concept is important for sonographers as it can impact the interpretation of ultrasound images and the accurate diagnosis of conditions.",
         "image_explanation": ""
     },
     {
@@ -1762,8 +1762,8 @@
         "respuesta_correcta": [
             "To eliminate low-frequency noise"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Wall filter function in Doppler ultrasound",
+        "explicacion_openai": "The primary purpose of the wall filter in Doppler ultrasound is to eliminate low-frequency noise. This filter helps remove unwanted signals originating from tissue movement or other sources that can interfere with the accurate depiction of blood flow and velocities. By setting an appropriate wall filter, the sonographer can improve the quality of the Doppler signal by suppressing irrelevant low-frequency noise, thus enhancing the clarity and accuracy of the blood flow visualization.",
         "image_explanation": ""
     },
     {
@@ -2465,8 +2465,8 @@
         "respuesta_correcta": [
             "Hundredths"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Centi- means hundredths.",
+        "explicacion_openai": "The prefix 'centi-' in the question means hundredths. It is a metric system prefix denoting one hundredth of a unit. In this context, 'centi-' indicates a fractional part of a whole where the whole is divided into one hundred equal parts. Understanding this prefix is important as it is commonly used in measurements and conversions, particularly in the metric system.",
         "image_explanation": ""
     },
     {
@@ -2712,8 +2712,8 @@
         "respuesta_correcta": [
             "Intensity"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Intensity",
+        "explicacion_openai": "Intensity, in the context of waves, is defined as the power of a wave divided by the area over which it is distributed. In medical imaging, particularly in ultrasound, intensity is a crucial parameter that directly impacts image quality and safety. Understanding the concept of intensity is essential for optimizing imaging parameters to achieve the desired diagnostic outcomes while ensuring patient safety by managing the acoustic energy transmitted during the examination.",
         "image_explanation": ""
     },
     {
@@ -2826,8 +2826,8 @@
         "respuesta_correcta": [
             "Amplitude"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Amplitude",
+        "explicacion_openai": "The difference between the maximum value of an acoustic variable and its average value is known as the amplitude. In medical ultrasound imaging, amplitude represents the variation in signal strength, which can indicate the presence of boundaries or different tissue densities. Understanding amplitude is crucial in ultrasound interpretation as it can affect image quality and diagnostic accuracy.",
         "image_explanation": ""
     },
     {
@@ -3206,8 +3206,8 @@
         "respuesta_correcta": [
             "The speed of sound in tissue and density of the tissue"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic impedance",
+        "explicacion_openai": "Acoustic impedance is a property that characterizes how sound waves propagate through a medium. It is calculated as the product of the speed of sound in the tissue and the density of the tissue. Acoustic impedance is important in medical imaging, particularly in ultrasound, as it affects the reflection and transmission of ultrasound waves at tissue boundaries. Understanding acoustic impedance helps in interpreting ultrasound images accurately and in differentiating between different types of tissues based on their acoustic properties.",
         "image_explanation": ""
     },
     {
@@ -3510,8 +3510,8 @@
         "respuesta_correcta": [
             "20 mW/cm²"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Understanding dB scale and its relation to intensity changes.",
+        "explicacion_openai": "When intensity increases by 10 dB, it means that the intensity is 10 times greater than the original intensity. Each 10 dB increase corresponds to a ten-fold increase in intensity. In this case, starting with an initial intensity of 2 mW/cm², increasing by 10 dB would result in a final intensity of 20 mW/cm² because 10 dB represents a ten-fold increase, bringing the intensity to 20 times the original value.",
         "image_explanation": ""
     },
     {
@@ -4232,8 +4232,8 @@
         "respuesta_correcta": [
             "Snell's law"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Snell's law",
+        "explicacion_openai": "Snell's law, also known as the law of refraction, predicts the behavior of light or sound waves at an interface between two different media with varying propagation speeds. It quantitatively describes how the angle of incidence of a wave (light or sound) changes as it passes from one medium to another, taking into account the different propagation speeds in each medium. This law is crucial in understanding phenomena like the bending of light or sound waves as they move from air to water or any other media with different optical or acoustic properties.",
         "image_explanation": ""
     },
     {
@@ -7823,8 +7823,8 @@
         "respuesta_correcta": [
             "It increases"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Reflection coefficient and impedance difference relationship",
+        "explicacion_openai": "The reflection coefficient, which describes the ratio of reflected wave intensity to the incident wave intensity at an interface, increases when the impedance difference between two mediums also increases. This is due to a greater mismatch of impedances leading to more reflection of the incident wave. Understanding this relationship is crucial in fields such as medical imaging (e.g., ultrasound) where impedance mismatches at tissue boundaries affect image quality and signal interpretation.",
         "image_explanation": ""
     },
     {
@@ -7842,8 +7842,8 @@
         "respuesta_correcta": [
             "It is directly proportional to speed of sound"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic impedance is directly proportional to speed of sound.",
+        "explicacion_openai": "Acoustic impedance is a property of a medium and is defined as the product of the density of the medium and the speed of sound in that medium. It is directly proportional to the speed of sound because the faster sound travels through a medium, the greater the resistance it will encounter from the density of the medium. This relationship is crucial in understanding how sound waves behave when propagating through different materials, such as in medical ultrasound where acoustic impedance mismatches can lead to reflection and refraction of sound waves at tissue interfaces.",
         "image_explanation": ""
     },
     {
@@ -8393,8 +8393,8 @@
         "respuesta_correcta": [
             "They can be resolved by adjusting the baseline"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Adjusting baseline to resolve aliased Doppler signals",
+        "explicacion_openai": "Aliased Doppler signals occur when the velocity of the blood flow exceeds the Nyquist limit, leading to incorrect display of flow direction. Adjusting the baseline in Doppler ultrasound can help resolve aliased signals by shifting the baseline reference point to accurately display flow velocities exceeding the limit, thus providing a more accurate representation of blood flow direction and velocity profiles.",
         "image_explanation": ""
     },
     {
@@ -8583,8 +8583,8 @@
         "respuesta_correcta": [
             "Scattering"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Scattering",
+        "explicacion_openai": "Scattering is the key term that describes sound reflection in multiple directions. In medical ultrasound imaging, scattering occurs when sound waves encounter small irregularities or structures in tissue, causing them to reflect in various directions. This phenomenon is important in the formation of an ultrasound image, as it contributes to the overall texture and contrast seen in the final image. Understanding scattering is crucial for sonographers to interpret ultrasound images accurately and identify different tissue types based on their scattering properties.",
         "image_explanation": ""
     },
     {
@@ -8773,8 +8773,8 @@
         "respuesta_correcta": [
             "Increases resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Sound resolution improves with shorter wavelengths.",
+        "explicacion_openai": "When the wavelength of sound decreases, the ability to distinguish fine details in the sound increases, leading to improved resolution. This concept is important in ultrasound imaging where shorter wavelengths result in better image resolution by allowing the system to detect smaller structures more accurately, enhancing diagnostic capabilities.",
         "image_explanation": ""
     },
     {
@@ -8792,8 +8792,8 @@
         "respuesta_correcta": [
             "Depth of penetration"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Depth of penetration",
+        "explicacion_openai": "Depth of penetration refers to the distance a sound wave can travel into tissue during imaging procedures. In medical imaging, such as ultrasound, it is crucial to understand the depth of penetration to ensure that the sound waves can adequately reach the desired structures for accurate diagnosis. Depth of penetration is influenced by factors like frequency of the sound wave and the characteristics of the tissue being scanned. Sonographers must consider the depth of penetration when adjusting settings to optimize image quality and diagnostic accuracy.",
         "image_explanation": ""
     },
     {
@@ -9001,8 +9001,8 @@
         "respuesta_correcta": [
             "The shape of the transducer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Transducer design factors",
+        "explicacion_openai": "The shape of the transducer does not influence the frequency of ultrasound produced by a transducer. The frequency of ultrasound is primarily determined by the thickness of the crystal, the propagation speed of sound in the crystal, and the backing material of the transducer. The shape of the transducer, although important for focusing and beam characteristics, does not directly impact the frequency of the ultrasound waves produced. Understanding transducer design factors is crucial in ultrasound imaging to optimize image quality and diagnostic capabilities.",
         "image_explanation": ""
     },
     {
@@ -9400,8 +9400,8 @@
         "respuesta_correcta": [
             "Cable assembly"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Cable assembly",
+        "explicacion_openai": "The cable assembly is the component that manages the power supply and electrical connections for a transducer in medical ultrasound imaging. It is crucial for transmitting electrical signals to and from the transducer, allowing the transducer to send and receive ultrasound waves to create images. Understanding the configuration and proper connection of the cable assembly is essential for ensuring the transducer functions correctly during diagnostic procedures.",
         "image_explanation": ""
     },
     {
@@ -9704,8 +9704,8 @@
         "respuesta_correcta": [
             "Improved axial resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Importance of damping material in transducers for improved axial resolution",
+        "explicacion_openai": "Having a well-designed damping material in a transducer can help in reducing reverberations and side lobes in the ultrasound beam, leading to improved axial resolution. Axial resolution refers to the ability of an ultrasound system to distinguish two structures that are close together along the axis of the ultrasound beam. By minimizing excessive reverberations, the damping material allows for better differentiation of structures in the depth direction, ultimately enhancing the overall resolution of the ultrasound image.",
         "image_explanation": ""
     },
     {
@@ -9761,8 +9761,8 @@
         "respuesta_correcta": [
             "Housing"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Housing",
+        "explicacion_openai": "The housing is crucial for maintaining the transducer's geometric shape. In medical ultrasound, the transducer's housing not only protects the delicate internal components but also determines the shape and characteristics of the emitted sound beam. The housing material must allow for optimal acoustic transmission while providing structural integrity to maintain the transducer's precise geometric shape. Understanding the importance of the housing in preserving the transducer's shape is essential for ensuring accurate and reliable imaging in medical ultrasonography.",
         "image_explanation": ""
     },
     {
@@ -11357,8 +11357,8 @@
         "respuesta_correcta": [
             "Frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Frequency",
+        "explicacion_openai": "Frequency is another factor that affects divergence in the far field. In medical ultrasound imaging, frequency refers to the number of sound waves produced per second. Higher frequencies result in narrower beams and less divergence in the far field, leading to improved resolution but reduced penetration. Lower frequencies produce wider beams with greater divergence, impacting imaging depth but enhancing tissue penetration. Understanding the relationship between frequency and beam divergence is crucial for optimizing image quality in ultrasound exams.",
         "image_explanation": ""
     },
     {
@@ -11490,8 +11490,8 @@
         "respuesta_correcta": [
             "Low-quality factors and wide bandwidths"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Imaging transducers characteristics: low-quality factors and wide bandwidths",
+        "explicacion_openai": "Imaging transducers typically possess low-quality factors and wide bandwidths. The quality factor refers to the efficiency of an imaging transducer in converting input power into output power. In medical ultrasound, a transducer with a low-quality factor will have lower sensitivity but a wider bandwidth, allowing it to transmit and receive a broader range of frequencies. This is beneficial for obtaining detailed images with good resolution across different tissue types. Radiology professionals need to understand this concept to optimize ultrasound imaging and interpretation.",
         "image_explanation": ""
     },
     {
@@ -11528,8 +11528,8 @@
         "respuesta_correcta": [
             "Curved"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound beam focusing",
+        "explicacion_openai": "In medical ultrasound imaging, electronic focusing of the ultrasound beam is achieved by using a curved pattern for the electrical signal. This curved pattern allows the ultrasound waves to converge at a specific focal point, resulting in improved resolution and image quality. By controlling the timing of the electrical signals sent to the transducer elements, the ultrasound beam can be focused and steered electronically, enhancing the ability to visualize structures of interest with clarity and precision.",
         "image_explanation": ""
     },
     {
@@ -11585,8 +11585,8 @@
         "respuesta_correcta": [
             "Bandwidth"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Bandwidth",
+        "explicacion_openai": "Bandwidth refers to the range of frequencies within a beam. In medical imaging, such as ultrasound, bandwidth is crucial as it determines the quality of the image produced. A wider bandwidth allows for better resolution and differentiation of tissues due to the diverse frequencies captured. Understanding bandwidth is essential in optimizing imaging parameters to obtain clear and detailed diagnostic images in medical settings.",
         "image_explanation": ""
     },
     {
@@ -11965,8 +11965,8 @@
         "respuesta_correcta": [
             "Matching layer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Matching layer",
+        "explicacion_openai": "The matching layer is the part of the transducer that directly contacts the patient's body. It is designed to efficiently transmit the ultrasound waves between the transducer and the patient by matching the acoustic impedance between the two mediums. This layer plays a crucial role in optimizing the transmission of ultrasound waves, enhancing image quality, and reducing the formation of unwanted reflections at the skin interface. Understanding the importance of the matching layer is essential in ultrasound imaging as it directly affects the quality and clarity of the images obtained during a scan.",
         "image_explanation": ""
     },
     {
@@ -13010,8 +13010,8 @@
         "respuesta_correcta": [
             "Absorption"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Absorption in soft tissue",
+        "explicacion_openai": "Absorption is the primary cause of attenuation in soft tissue. When an ultrasound beam passes through soft tissue, some of the ultrasound energy is absorbed by the tissue, leading to a decrease in the intensity of the beam. This absorption occurs due to the conversion of the ultrasound energy into molecular motion and heat within the tissue. Understanding the concept of absorption is crucial in medical ultrasound imaging as it affects the quality and depth of tissue imaging, as well as the overall interpretation of ultrasound scans.",
         "image_explanation": ""
     },
     {
@@ -13086,8 +13086,8 @@
         "respuesta_correcta": [
             "They are directly proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between frequency and attenuation",
+        "explicacion_openai": "In ultrasound imaging, the relationship between frequency and attenuation is that they are directly proportional. This means that as the frequency of the ultrasound wave increases, the attenuation also increases. This occurs because higher frequency waves are more easily absorbed and scattered by tissues compared to lower frequency waves. Understanding this relationship is crucial in optimizing ultrasound imaging parameters to achieve the desired image quality while minimizing attenuation effects.",
         "image_explanation": ""
     },
     {
@@ -13751,8 +13751,8 @@
         "respuesta_correcta": [
             "Amplitude"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Amplitude",
+        "explicacion_openai": "The amplitude of a wave refers to the maximum value of its displacement from the equilibrium position. In the context of frequency shift measurements, changes in amplitude do not directly affect the frequency shift because the frequency of a wave is determined by the number of complete cycles per unit of time, irrespective of the amplitude. Therefore, variations in the amplitude of a wave will not impact the measured frequency shift.",
         "image_explanation": ""
     },
     {
@@ -13941,8 +13941,8 @@
         "respuesta_correcta": [
             "It decreases the frequency shift"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Doppler effect and angle relationship",
+        "explicacion_openai": "As the Doppler angle increases, it decreases the observed frequency shift. This is due to the trigonometric relationship between the angle of insonation and the actual velocity vector of the moving blood cells. An increased Doppler angle reduces the effectiveness of detecting higher frequency shifts, resulting in a decrease in the observed frequency shift. Understanding this concept is crucial in Doppler ultrasound to accurately measure blood flow velocities.",
         "image_explanation": ""
     },
     {
@@ -14036,8 +14036,8 @@
         "respuesta_correcta": [
             "Peak systolic velocity minus the end diastolic velocity divided by the peak systolic velocity"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Calculating resistive index in vascular ultrasound",
+        "explicacion_openai": "The resistive index in vascular ultrasound is calculated by subtracting the end diastolic velocity from the peak systolic velocity, and then dividing this difference by the peak systolic velocity. This calculation helps assess vascular resistance and is commonly used in evaluating renal and other vascular conditions. Understanding how to calculate the resistive index is crucial for sonographers and clinicians in interpreting Doppler ultrasound waveforms accurately.",
         "image_explanation": ""
     },
     {
@@ -14188,8 +14188,8 @@
         "respuesta_correcta": [
             "Power Doppler"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Power Doppler",
+        "explicacion_openai": "Power Doppler imaging is a technique that measures the strength of the Doppler signal rather than the frequency shift. It is particularly useful for detecting low-velocity flow or when spectral Doppler is limited by angle dependency. This method is sensitive to the power of the reflected ultrasound signals and is often used in situations where traditional spectral Doppler may not provide adequate information, such as in detecting very weak blood flow in small vessels or assessing vascularity in tumors.",
         "image_explanation": ""
     },
     {
@@ -14473,8 +14473,8 @@
         "respuesta_correcta": [
             "Delay in the systolic upstroke"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Proximal stenosis appearance on spectral waveform",
+        "explicacion_openai": "In proximal stenosis, a delay in the systolic upstroke appears on the spectral waveform. This delay is due to the obstruction of blood flow in the proximal artery, causing a slower rise in the systolic peak compared to a normal waveform. It indicates increased impedance to flow in the proximal vessel, leading to changes in the velocity profile. This characteristic waveform finding can help in diagnosing proximal stenosis during Doppler ultrasound evaluations, as it reflects the hemodynamic changes associated with the stenotic lesion.",
         "image_explanation": ""
     },
     {
@@ -14530,8 +14530,8 @@
         "respuesta_correcta": [
             "100%"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Duty factor in Continuous-wave Doppler",
+        "explicacion_openai": "In Continuous-wave Doppler, the duty factor represents the ratio of the time the ultrasound beam is on, sending out signals, to the total time of the cardiac cycle. A duty factor of 100% means that the beam is constantly transmitting without interruptions throughout the entire cardiac cycle. This is essential in Continuous-wave Doppler to continuously assess blood flow velocities without gaps in data acquisition, providing comprehensive information about flow patterns and velocities.",
         "image_explanation": ""
     },
     {
@@ -14644,8 +14644,8 @@
         "respuesta_correcta": [
             "Each pixel can either be grayscale or color"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Color Doppler pixel display options",
+        "explicacion_openai": "In color Doppler imaging, each pixel on the display can be assigned either a grayscale or color value based on the velocity information of blood flow. This allows the visualization of flow patterns in various colors superimposed on the grayscale anatomical image. By assigning specific colors to different flow velocities, clinicians can interpret the direction and speed of blood flow within vessels. This capability enhances the diagnostic utility of Doppler ultrasound in assessing vascular physiology and pathology.",
         "image_explanation": ""
     },
     {
@@ -20154,8 +20154,8 @@
         "respuesta_correcta": [
             "Rate of intensity loss per unit distance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound attenuation coefficient",
+        "explicacion_openai": "In ultrasound, the attenuation coefficient is a measure of the rate at which the intensity of the ultrasound beam decreases as it travels through a medium. It is defined as the rate of intensity loss per unit distance. This coefficient is influenced by factors such as scattering, absorption, and reflection of the ultrasound waves within the medium. Understanding the attenuation coefficient is crucial in the field of medical ultrasound as it impacts image quality and the ability to visualize structures within the body accurately.",
         "image_explanation": ""
     },
     {
@@ -20610,8 +20610,8 @@
         "respuesta_correcta": [
             "Preventive maintenance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Preventive maintenance",
+        "explicacion_openai": "Preventive maintenance refers to the routine maintenance tasks performed on equipment to prevent failure or breakdown. This proactive approach aims to identify and address potential issues before they lead to costly downtime or malfunctions. By following a schedule of regular inspections, lubrication, cleaning, and parts replacement, organizations can extend the lifespan of their equipment and ensure optimal performance.",
         "image_explanation": ""
     },
     {
@@ -20667,8 +20667,8 @@
         "respuesta_correcta": [
             "To ensure compliance with standards"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound lab accreditation: ensuring compliance with standards.",
+        "explicacion_openai": "The primary goal of lab accreditation in ultrasound is to ensure compliance with established standards and guidelines set forth by organizations like the American Registry for Diagnostic Medical Sonography (ARDMS). By achieving accreditation, ultrasound facilities demonstrate their commitment to providing high-quality imaging services and meeting rigorous industry standards for clinical practice. This accreditation process helps to enhance patient safety, improve the quality of diagnostic images, and ensure that sonographers and healthcare providers adhere to best practices in ultrasound imaging. It also fosters credibility and trust among patients, referring physicians, and insurance providers. Overall, ultrasound lab accreditation plays a vital role in upholding the quality and integrity of ultrasound services in healthcare settings.",
         "image_explanation": ""
     },
     {
@@ -21997,8 +21997,8 @@
         "respuesta_correcta": [
             "Rectification"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Rectification",
+        "explicacion_openai": "Rectification is the receiver function that transforms the negative part of a signal into positive values. In the context of medical imaging, rectification is essential in ultrasound imaging to ensure all echoes are displayed as positive values, allowing for proper interpretation of the image. Understanding rectification is crucial for sonographers as it affects the visualization and analysis of ultrasound images, helping to identify anatomical structures and potential abnormalities.",
         "image_explanation": ""
     },
     {
@@ -22624,8 +22624,8 @@
         "respuesta_correcta": [
             "Signal-to-noise ratio"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Signal-to-noise ratio",
+        "explicacion_openai": "Coded excitation is a technique in ultrasound imaging that involves using complex coded waveforms to improve the signal-to-noise ratio. By encoding the ultrasound signal with specialized codes, the received signal can be distinguished from noise more effectively, leading to better image quality. Therefore, one of the advantages of using coded excitation in ultrasound imaging is the enhancement of the signal-to-noise ratio, which contributes to improved image clarity and diagnostic accuracy.",
         "image_explanation": ""
     },
     {
@@ -25855,8 +25855,8 @@
         "respuesta_correcta": [
             "Use the lowest possible output power that provides a diagnostic image."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "ALARA principle in ultrasound exams",
+        "explicacion_openai": "The ALARA principle stands for 'As Low As Reasonably Achievable' when it comes to minimizing radiation exposure in medical imaging. In ultrasound exams, this principle translates to using the lowest possible output power that still allows for obtaining a high-quality diagnostic image. By using the lowest power settings necessary, healthcare professionals can reduce the potential risks associated with ultrasound exposure while ensuring adequate image quality for accurate diagnosis. This practice aligns with the core principle of patient safety and radiation protection in medical imaging.",
         "image_explanation": ""
     },
     {
@@ -26045,8 +26045,8 @@
         "respuesta_correcta": [
             "Adhering to the ALARA principle."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "ALARA principle",
+        "explicacion_openai": "Adhering to the ALARA (As Low As Reasonably Achievable) principle is essential in minimizing potential bioeffects during an ultrasound exam. This principle emphasizes using the lowest output power settings that still allow for diagnostic imaging. By optimizing the scanning parameters and techniques to produce high-quality images with the least amount of energy, sonographers can reduce the risk of bioeffects such as tissue heating or cavitation. ALARA guides sonographers to prioritize patient safety while obtaining diagnostic information effectively.",
         "image_explanation": ""
     },
     {
@@ -26102,8 +26102,8 @@
         "respuesta_correcta": [
             "Keeping exam time to the minimum required for diagnosis."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "ALARA principle and patient exposure reduction",
+        "explicacion_openai": "Following the ALARA (As Low As Reasonably Achievable) principle in medical imaging means minimizing radiation exposure to patients while still obtaining necessary diagnostic information. In the context of fetal ultrasound, a key strategy for reducing patient exposure is to keep the exam time to the minimum required for diagnosis. By efficiently conducting the ultrasound exam with a focus on obtaining the necessary images and information in a timely manner, healthcare providers can reduce the amount of ultrasound energy and exposure time experienced by the fetus. This not only aligns with the ALARA principle but also helps ensure patient safety and adherence to best practices in ultrasound imaging.",
         "image_explanation": ""
     },
     {
@@ -26140,8 +26140,8 @@
         "respuesta_correcta": [
             "Output power should be reduced to the lowest level that still allows for diagnostic imaging."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "ALARA principle and output power relationship",
+        "explicacion_openai": "According to the ALARA (As Low As Reasonably Achievable) principle in medical imaging, output power should be reduced to the lowest level that still allows for diagnostic imaging. This principle aims to minimize radiation exposure to patients and healthcare providers without compromising the quality of diagnostic images. By adjusting the output power to the lowest level necessary for adequate imaging, healthcare professionals can adhere to the ALARA principle and ensure optimal balance between image quality and radiation dose.",
         "image_explanation": ""
     },
     {
