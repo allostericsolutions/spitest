@@ -11327,12 +11327,12 @@
         "clasificacion": "Ultrasound Transducers",
         "grupo": 189,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which statement about mechanical transducers is not accurate?",
+        "enunciado": "Which statement about mechanical transducers is Not accurate?",
         "image": "",
         "opciones": [
             "It utilizes a motor to steer the beam",
             "Most transducers are currently non-mechanical",
-            "It can be focused using a lens or phased focusing",
+            "It can be focused using a lens",
             "It has no moving parts"
         ],
         "respuesta_correcta": [
