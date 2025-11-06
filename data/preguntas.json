@@ -8762,7 +8762,7 @@
         "clasificacion": "Ultrasound Transducers",
         "grupo": 54,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How does a decrease in wavelength affect sound resolution?",
+        "enunciado": "How does a decrease in wavelength affect Axial resolution?",
         "image": "",
         "opciones": [
             "Increases resolution",
@@ -8773,7 +8773,7 @@
         "respuesta_correcta": [
             "Increases resolution"
         ],
-        "concept_to_study": "Sound resolution improves with shorter wavelengths.",
+        "concept_to_study": "Axial resolution improves with shorter wavelengths.",
         "explicacion_openai": "When the wavelength of sound decreases, the ability to distinguish fine details in the sound increases, leading to improved resolution. This concept is important in ultrasound imaging where shorter wavelengths result in better image resolution by allowing the system to detect smaller structures more accurately, enhancing diagnostic capabilities.",
         "image_explanation": ""
     },
