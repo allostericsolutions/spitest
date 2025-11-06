@@ -10648,7 +10648,7 @@
         "opciones": [
             "Increasing frame rate",
             "Decreasing frequency",
-            "Reducing depth",
+            "Increasing depth",
             "Focusing the beam"
         ],
         "respuesta_correcta": [
