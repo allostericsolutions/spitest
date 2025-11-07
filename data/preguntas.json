@@ -546,8 +546,8 @@
         "respuesta_correcta": [
             "Higher frequency increases attenuation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between ultrasound frequency and attenuation",
+        "explicacion_openai": "In ultrasound physics, attenuation refers to the reduction in intensity and amplitude of an ultrasound wave as it travels through tissue. This phenomenon occurs due to absorption, scattering, and reflection within the medium. The frequency of the ultrasound wave plays a critical role in this process. Specifically, as the frequency of the ultrasound increases, attenuation also increases. This is because higher frequency waves have more interactions with tissue particles, leading to greater energy loss per unit distance traveled. Therefore, high-frequency transducers produce images with better resolution but have limited penetration depth due to increased attenuation, while low-frequency transducers penetrate deeper but with less image detail. Options suggesting that frequency decreases attenuation or has no effect are incorrect because they disregard this fundamental relationship. The correct understanding is that higher frequency increases attenuation, which is a key consideration in transducer selection for diagnostic imaging in clinical practice.",
         "image_explanation": ""
     },
     {
@@ -736,8 +736,8 @@
         "respuesta_correcta": [
             "They are inversely proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between speed of sound and density in a medium",
+        "explicacion_openai": "In ultrasound physics, the speed of sound within a particular medium depends on both the stiffness (also known as bulk modulus) and the density of that medium. The key relationship is that as the density of a medium increases, while keeping stiffness constant, the speed of sound decreases. This is called an inverse proportionality. If a person answered that speed of sound and density are directly proportional, that would be incorrect because increased density actually impedes particle vibration transmission, causing slower propagation of sound waves. The correct understanding is that sound travels faster in media that are less dense when the stiffness is held constant. This concept underpins critical aspects of diagnostic ultrasound, such as understanding why sound moves fastest in solids (where stiffness dominates) and slower in gases (where density has a greater slowing effect). Therefore, for the ARDMS SPI exam, it is crucial to remember that speed of sound and medium density are inversely proportional.",
         "image_explanation": ""
     },
     {
@@ -831,8 +831,8 @@
         "respuesta_correcta": [
             "Period"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Period",
+        "explicacion_openai": "The period is the time required to complete one cycle of a repeating event, such as a sound wave or an ultrasound pulse. Understanding this concept is critical in ultrasound physics (SPI for ARDMS), as the period directly relates to the temporal characteristics of a wave. Among the choices given, wavelength measures the distance (not time) over one cycle, frequency is the number of cycles per second (the inverse of period), and amplitude refers to the strength or height of the wave, not its duration. Correctly, the period (measured in seconds or microseconds) defines the duration of a single cycle. It is an intrinsic property of a particular ultrasound transducer and is essential for calculating and understanding related parameters such as frequency and propagation speed. Thus, the period specifically answers the question of how long it takes to complete one cycle.",
         "image_explanation": ""
     },
     {
@@ -888,8 +888,8 @@
         "respuesta_correcta": [
             "Hertz"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Unit of frequency (Hertz, Hz)",
+        "explicacion_openai": "Frequency is a critical parameter in medical ultrasound and physics, representing the number of cycles or oscillations of a wave occurring per second. The correct unit for frequency is the Hertz (Hz), named after the physicist Heinrich Hertz. 1 Hz equals one cycle per second. Understanding this is fundamental in the SPI (Sonography Principles & Instrumentation) exam, since frequency determines important ultrasound characteristics such as image resolution and penetration. Other options like Rayls (unit of acoustic impedance), Decibels (unit for measuring relative power or intensity, especially in sound), and Watts (unit of power) do not describe frequency. Therefore, Hertz is the only correct unit to quantify frequency, and this is the concept assessed in the question.",
         "image_explanation": ""
     },
     {
@@ -1040,8 +1040,8 @@
         "respuesta_correcta": [
             "Amplitude squared"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between amplitude and intensity in ultrasound waves",
+        "explicacion_openai": "The intensity of an ultrasound wave is a critical concept in medical sonography, as it determines the amount of energy the wave delivers per unit area. Intensity is proportional to the square of the amplitude of the wave. Amplitude refers to the maximum pressure variation from the baseline, while intensity reflects the power transmitted by the wave over a specific area. Some may mistakenly think that frequency, wavelength, or velocity directly determine intensity, but mathematically, intensity is defined as I ∝ A², where I is intensity and A is amplitude. The other options, such as frequency times amplitude or wavelength divided by frequency, are unrelated to how wave energy is distributed; velocity simply describes the speed of propagation and not the energy level. Therefore, understanding that 'amplitude squared' is the correct answer forms the foundation for grasping patient safety, machine output, and image optimization in sonography practice.",
         "image_explanation": ""
     },
     {
@@ -1192,8 +1192,8 @@
         "respuesta_correcta": [
             "Frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Frequency of a wave and its independence from the medium",
+        "explicacion_openai": "When studying the propagation of sound waves, it is important to understand how different wave properties interact with the medium through which the wave travels. Frequency refers to the number of cycles (oscillations) that a wave completes in one second, and it is determined solely by the source of the sound, not by the characteristics of the medium (such as tissue or fluid in medical ultrasound). While properties like wavelength and speed of sound will change when a wave moves between different media (because the speed of sound varies with medium properties and wavelength depends on both speed and frequency), the frequency itself remains constant regardless of any medium change. This principle is fundamental in diagnostic medical sonography, as the transducer's frequency defines the axial resolution and penetration capabilities, and this frequency will not be altered as the ultrasound wave traverses different body tissues. Amplitude may also change due to attenuation, but it is not fixed by the medium. Therefore, the correct answer is frequency because it is governed by the wave's source and remains unchanged as the wave enters new media.",
         "image_explanation": ""
     },
     {
@@ -1857,8 +1857,8 @@
         "respuesta_correcta": [
             "Gain"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Doppler Gain Control",
+        "explicacion_openai": "The question pertains to which control adjusts the sensitivity of the Doppler signal. 'Gain' refers to the amplification of the received Doppler signal, allowing the operator to make weak signals more visible or strong signals less intense by increasing or decreasing overall signal amplitude. If someone selected a different option, such as 'Baseline,' they might think it changes sensitivity, but in reality, baseline shifts the zero baseline to display velocities better, not the signal's strength. 'Wall filter' removes low-frequency noise from stationary or slow-moving structures, improving clarity without affecting overall sensitivity. 'PRF' (Pulse Repetition Frequency) changes the scale for measurable velocities but does not impact the signal’s detectability. Therefore, only 'Gain' directly controls the amplitude of the received Doppler signal, adjusting its sensitivity—making it the correct answer, as emphasized in ARDMS SPI content.",
         "image_explanation": ""
     },
     {
@@ -2142,8 +2142,8 @@
         "respuesta_correcta": [
             "Refraction"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Refraction in ultrasound physics",
+        "explicacion_openai": "Refraction is a key concept in ultrasound physics, referring to the change in direction of a sound wave as it passes from one medium to another with a different propagation speed, provided there is an oblique (non-perpendicular) angle of incidence. This phenomenon occurs only when two conditions are met: the sound wave meets the interface at an oblique angle and there is a difference in the propagation speeds of the two media. If you chose damping, normal incidence, or reflection, it would be incorrect because those are either unrelated to the change in sound beam direction at an interface (damping relates to energy loss, normal incidence involves perpendicular interaction, and reflection can occur at both perpendicular and oblique angles but does not require a change in propagation speed). Refraction, on the other hand, specifically requires both an oblique interface and a mismatch in propagation speeds, which leads to the bending of the ultrasound beam, described by Snell's Law. Understanding this concept is crucial for interpreting image artifacts and changes in sound beam path in diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -2332,8 +2332,8 @@
         "respuesta_correcta": [
             "As amplitude increases, power remains unchanged"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between amplitude and power in ultrasound physics",
+        "explicacion_openai": "In ultrasound physics, power refers to the rate at which energy is delivered by the sound wave and is measured in units such as milliwatts (mW). An important physical principle is that the power of an ultrasound wave is directly proportional to the square of its amplitude; mathematically, this is expressed as Power ∝ Amplitude². This means that as the amplitude of the ultrasound wave increases, the power also increases, but at a greater rate since it is an exponential relationship. The incorrect statement is 'As amplitude increases, power remains unchanged.' This is false because increasing the amplitude will always increase the power. Understanding this relationship is crucial because it also affects the intensity and safety of ultrasound exposure to tissues. The correct understanding is that changes in amplitude directly impact the amount of power and thus the potential bioeffects, which is fundamental knowledge for the ARDMS SPI exam.",
         "image_explanation": ""
     },
     {
@@ -2427,8 +2427,8 @@
         "respuesta_correcta": [
             "Density"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Density of a medium in ultrasound physics",
+        "explicacion_openai": "In ultrasound physics, as tested by the ARDMS SPI exam, the 'inertia' of a medium specifically refers to its density. Density is defined as the mass per unit volume of a substance and describes how much matter is contained within a given space. Inertia is the property that resists a change in the motion of particles within the medium when ultrasound waves propagate through it. A medium with greater density has more mass, and thus greater inertia, which means it will be more resistant to the motion induced by the acoustic wave. This is in contrast to elasticity or stiffness, which relate to how easily a medium can restore its shape after being deformed, and attenuation, which refers to the loss of energy as sound propagates. Understanding the concept of density is essential for predicting how sound waves travel through various tissues, as it influences both the speed of sound and the acoustic impedance, key factors in diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -2503,8 +2503,8 @@
         "respuesta_correcta": [
             "Refraction"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Refraction",
+        "explicacion_openai": "Refraction occurs when an ultrasound wave passes through tissues that have different propagation speeds, causing the wave to change direction at the interface between these tissues. This phenomenon is governed by Snell's law, which states that the angle of incidence and the angle of refraction depend on the propagation speeds of the two media. Refraction can result in artifacts such as lateral displacement of structures on the image because the returning echoes are assumed by the system to have traveled in a straight path. The other options are incorrect: 'Absorption' involves the conversion of sound energy into heat within the tissue, 'Scattering' refers to the redirection of sound in multiple directions due to small structures, and 'Wavelength' is a measurement of the distance between two consecutive peaks of a wave. Understanding refraction is crucial for interpreting ultrasound images correctly, as it directly affects image accuracy and artifact production.",
         "image_explanation": ""
     },
     {
@@ -2541,8 +2541,8 @@
         "respuesta_correcta": [
             "Absorption"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Absorption as the primary source of attenuation in ultrasound",
+        "explicacion_openai": "Attenuation refers to the reduction in intensity and amplitude of the ultrasound beam as it travels through tissue. While several mechanisms contribute to this process, including reflection, refraction, scattering, and absorption, it is absorption that serves as the principal factor. Absorption is the conversion of ultrasound energy into heat within the tissues, and this process becomes more significant with increasing frequency. A common misconception is that mechanisms such as scattering or refraction may account for most attenuation; however, these processes primarily redirect the energy, rather than removing it from the beam. Transmission is not a mode of energy loss; rather, it refers to the continued passage of ultrasound waves through tissue. In summary, absorption dominates the attenuation of ultrasound, especially in soft tissue, because it directly reduces the transmitted energy by transforming it into heat, which is foundational knowledge for understanding tissue interactions in ultrasound physics.",
         "image_explanation": ""
     },
     {
@@ -2560,8 +2560,8 @@
         "respuesta_correcta": [
             "0.1 to 0.8 mm"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Wavelength of Ultrasound in Clinical Imaging",
+        "explicacion_openai": "In the context of ultrasound physics, understanding the typical wavelength range used in clinical imaging is fundamental. Wavelength (λ) is defined as the distance a sound wave travels during one cycle and is inversely related to frequency. The correct option, 0.1 to 0.8 mm, reflects the wavelengths of ultrasound frequencies commonly used in diagnostic imaging (2–15 MHz) as they propagate through soft tissue. Some distractor options, such as '1540 and 2000 m/s,' refer to the speed of sound in soft tissue, not wavelength. Similarly, '1 and 10 Hz' refer to frequency but are far below the ultrasound range, and '0 and 1' is nonspecific and not relevant. The wavelength range of 0.1 to 0.8 mm is correct because it derives from dividing the speed of sound in tissue (~1540 m/s) by the typical ultrasound frequencies, resulting in wavelengths appropriate for creating diagnostic images with sufficient resolution while maintaining adequate penetration. Knowing this relationship is crucial for understanding how ultrasound images are formed and why certain transducer frequencies are chosen for specific clinical applications.",
         "image_explanation": ""
     },
     {
@@ -3016,8 +3016,8 @@
         "respuesta_correcta": [
             "Decreases by one half"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between frequency and wavelength (inverse relationship)",
+        "explicacion_openai": "The relationship between frequency and wavelength is fundamental in ultrasound physics. In any given medium, the speed of sound is constant, so frequency and wavelength are inversely related: as one increases, the other decreases. Specifically, wavelength equals the propagation speed divided by the frequency (λ = c/f). If the frequency is doubled, the wavelength becomes half its original value because the speed of sound remains unchanged. Some may incorrectly think the wavelength would remain the same or increase; however, only by decreasing to half does the relationship hold true. Understanding this inverse relationship is crucial for interpreting how changes in ultrasound frequency affect image resolution and penetration.",
         "image_explanation": ""
     },
     {
@@ -3130,8 +3130,8 @@
         "respuesta_correcta": [
             "Wavelength, cycles"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Spatial Pulse Length (SPL): its relationship to wavelength and the number of cycles in a pulse.",
+        "explicacion_openai": "Spatial Pulse Length (SPL) is a fundamental parameter in diagnostic ultrasound physics, specifically addressed in the ARDMS SPI curriculum. SPL represents the physical length that a pulse occupies in the medium, measured from the beginning to the end of one pulse. It is determined by both the wavelength of the sound (which depends on frequency and the propagation speed in tissue) and by the number of cycles that make up each pulse. The correct formula is SPL = Number of Cycles × Wavelength.\n\nMisunderstandings sometimes arise when learners confuse SPL with parameters like frequency or amplitude—however, SPL does not express how often pulses occur (frequency), nor their strength (amplitude). The only variables that define SPL are how many cycles are in each pulse and how long each cycle is, i.e., its wavelength. Therefore, the correct and complete answer must be 'Wavelength, cycles,' as both are directly involved in the calculation and understanding of spatial pulse length in medical ultrasound.",
         "image_explanation": ""
     },
     {
@@ -3168,8 +3168,8 @@
         "respuesta_correcta": [
             "1 dB/cm"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Ultrasound attenuation rate per centimeter per megahertz",
+        "explicacion_openai": "Attenuation in ultrasound refers to the gradual loss of intensity as sound waves travel through tissue. In the context of diagnostic medical sonography, it is critical to understand that this attenuation is due to absorption, scattering, and reflection within biological tissues. The key relationship is that, on average, soft tissue attenuates ultrasound at a rate of approximately 1 decibel (dB) per centimeter (cm) for each megahertz (MHz) of frequency used (1 dB/cm/MHz). This rate is fundamental to clinical practice, as it helps sonographers adjust equipment settings for optimal image quality. If someone selected an answer other than 1 dB/cm, such as 0.5 dB/cm, 2 dB/cm, or 5 dB/cm, they misunderstood the standard approximation used in the field. While attenuation can vary based on tissue composition, the widely accepted and taught value for general soft tissue is 1 dB/cm/MHz. This knowledge is essential for correctly estimating penetration depth and image resolution during ultrasound examinations.",
         "image_explanation": ""
     },
     {
@@ -3472,8 +3472,8 @@
         "respuesta_correcta": [
             "Improved lateral resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Lateral resolution improvement through focusing in ultrasound",
+        "explicacion_openai": "Focusing in ultrasound refers to narrowing the width of the ultrasound beam at a particular depth, which concentrates acoustic energy within a smaller region. This process enhances the system's ability to distinguish between two structures that are close together and positioned side-by-side (perpendicular to the beam axis), known as lateral resolution. Some may incorrectly select options like 'Increased beam width' or 'Reduced penetration,' misunderstanding the physical effect of focusing. In reality, focusing reduces beam width at the focal point, which improves lateral resolution—not increases it—and may slightly reduce penetration due to energy concentration, but not as a primary effect. Lower intensity at depth is also not a direct result of focusing. Therefore, the correct effect of focusing is 'improved lateral resolution' because a narrower beam allows for more precise differentiation of adjacent structures in the lateral dimension, which is critical for diagnostic accuracy in sonography according to ARDMS SPI principles.",
         "image_explanation": ""
     },
     {
@@ -3529,8 +3529,8 @@
         "respuesta_correcta": [
             "cm²"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Units of measurement for area in ultrasonography",
+        "explicacion_openai": "In physics and medical imaging, different units describe different physical quantities. When dealing with measurements, it's critical to use the correct unit to represent the parameter being assessed. Linear measurements use units like centimeters (cm) or meters (m), which correspond only to length. If a student chooses 'cm' or 'm' as the unit for area, this is incorrect because these measure one-dimensional space. Sometimes students may incorrectly select 'cm³,' confusing area with volume. However, 'cm³' (cubic centimeters) refers to volumetric measurement, which is three-dimensional, and is used for fluid volumes or organ volumes, not area. The correct unit for area is 'cm²' (square centimeters), which represents two-dimensional space, such as the surface area of a structure visualized or measured on an ultrasound image. Recognizing and using 'cm²' as the unit for area ensures accurate documentation and understanding in sonographic assessment, which is fundamental in SPI (Sonography Principles & Instrumentation) and for ARDMS certification.",
         "image_explanation": ""
     },
     {
@@ -3567,8 +3567,8 @@
         "respuesta_correcta": [
             "15 Hz"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Infrasound frequency range",
+        "explicacion_openai": "Infrasound refers to acoustic frequencies that are below the lower limit of human hearing. In the context of diagnostic medical sonography and ARDMS SPI, human hearing typically ranges from about 20 Hz to 20,000 Hz (20 kHz). Therefore, any frequency below 20 Hz is classified as infrasound. If one answers with 20 kHz, 25 kHz, or 100 Hz, these are all above the audible range, with 20 kHz and 25 kHz falling into ultrasound and 100 Hz being within the normal hearing spectrum. Only 15 Hz is below the human hearing threshold and, thus, lies within the infrasound category, making it the correct response. Understanding these frequency classifications is essential in sonography to distinguish between infrasound, audible sound, and ultrasound, as ultrasound (used in medical imaging) operates at frequencies much higher than those humans can hear.",
         "image_explanation": ""
     },
     {
@@ -3890,8 +3890,8 @@
         "respuesta_correcta": [
             "The beam area decreases with distance from the transducer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Fresnel zone (near field) beam characteristics",
+        "explicacion_openai": "In ultrasound physics, the region closest to the transducer is called the Fresnel zone, or near field. Within this zone, the ultrasound beam does not maintain a uniform width; instead, it exhibits a complex pattern of constructive and destructive interference of sound waves. This interference causes the beam area (cross-sectional width) to gradually decrease as it travels away from the transducer face, culminating at the narrowest point known as the focal zone or focus. After this point, in the Fraunhofer zone (far field), the beam begins to diverge and the area increases. Therefore, the correct understanding is that in the Fresnel zone, the beam area decreases with increasing distance from the transducer until it reaches the focus. This effect is crucial for optimal lateral resolution and image quality in clinical ultrasound. Common misconceptions—such as the idea that the beam area increases, remains collimated, or that attenuation is minimal in this region—misinterpret the unique interference-driven narrowing process happening in the near field. Understanding the Fresnel zone's beam narrowing is essential for interpreting image resolution and probe selection in sonography, directly connecting to the key concept.",
         "image_explanation": ""
     },
     {
@@ -3966,8 +3966,8 @@
         "respuesta_correcta": [
             "Decrease the output power."
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Mechanical Index (MI) and Output Power Relationship in Ultrasound Safety",
+        "explicacion_openai": "The Mechanical Index (MI) is an important parameter in ultrasound safety, describing the potential for non-thermal bioeffects, specifically cavitation, in tissue during scanning. The MI is directly proportional to the peak rarefactional pressure of the ultrasound wave and inversely proportional to the square root of the frequency. The only operator-adjustable control among the given options that directly reduces the MI is the output power. Decreasing the output power lowers the amplitude of the emitted ultrasound waves, which in turn reduces the peak rarefactional pressure and therefore, the MI. Adjusting receiver gain only affects the amplification of returning echoes (image brightness) and does not impact the MI or patient exposure. Changes in period and frequency have opposite effects: increasing the frequency would decrease the MI, but the most immediate and practical control for reducing MI is decreasing output power. This adjustment is aligned with the ALARA (As Low As Reasonably Achievable) principle to ensure patient safety during diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -4042,8 +4042,8 @@
         "respuesta_correcta": [
             "65 µs"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "13-microsecond rule for soft tissue sound travel time",
+        "explicacion_openai": "Understanding the travel time of an ultrasound pulse in soft tissue relies on the 13-microsecond rule, which states that in soft tissue, sound travels at 1540 m/s and requires 13 microseconds to travel 1 cm and return (round-trip). Therefore, to calculate the total round-trip time for a reflector located at 5 cm depth, you multiply 13 microseconds by 5, resulting in 65 microseconds. If a candidate chooses a different option, they may have misunderstood the relationship between depth and time or the specific use of the 13-microsecond rule. The correct answer, 65 µs, accurately reflects the round-trip time for a 5 cm deep reflector in soft tissue, which is fundamental for accurate depth placement in diagnostic ultrasound imaging. Mastery of this concept is critical for safe and effective image interpretation and for passing the ARDMS SPI exam.",
         "image_explanation": ""
     },
     {
@@ -4270,8 +4270,8 @@
         "respuesta_correcta": [
             "Snell's law"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Snell's law",
+        "explicacion_openai": "In medical ultrasound physics, understanding how sound waves behave as they pass through different tissues is crucial. Refraction refers to the change in direction of a wave when it passes from one medium to another with a different propagation speed. The only law that quantitatively describes this bending of the wave is Snell's law. Students sometimes confuse this with Newton's law (which governs motion), Bernoulli's principle (fluid dynamics), or Poiseuille's law (flow in vessels), but those do not apply to the phenomenon of refraction. Snell’s law specifically states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is equal to the ratio of the wave velocities (or the inverse of media indices) in the two different tissues. This mathematical relationship allows sonographers to predict how ultrasound beams will change direction when crossing boundaries in the body, which is key to image interpretation and artifact identification.",
         "image_explanation": ""
     },
     {
@@ -7937,8 +7937,8 @@
         "respuesta_correcta": [
             "Directly proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic Impedance Mismatch and Reflection",
+        "explicacion_openai": "Understanding the concept of acoustic impedance mismatch is essential in medical ultrasound physics. Acoustic impedance (Z) refers to the product of tissue density and propagation speed of sound in the tissue. When an ultrasound wave encounters an interface between two tissues with different acoustic impedances, a portion of the sound wave is reflected back to the transducer, while the rest is transmitted. The greater the difference in acoustic impedance between the two media, the greater the percentage of the ultrasound wave that is reflected. Thus, the amplitude (or intensity) of the reflected echo is directly proportional to the difference in acoustic impedance across the boundary. If the impedances are exactly the same, no reflection occurs. Conversely, if the difference is large, reflection is maximized. Therefore, the relationship between impedance mismatch and reflection is directly proportional. Understanding this principle is crucial for interpreting ultrasound images and recognizing tissue boundaries.",
         "image_explanation": ""
     },
     {
@@ -8089,8 +8089,8 @@
         "respuesta_correcta": [
             "Inversely proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Impedancia acústica y su relación con la transmisión de ultrasonido en tejidos.",
+        "explicacion_openai": "In medical ultrasound physics, particularly as outlined by the ARDMS SPI exam, understanding the relationship between acoustic impedance and transmission is fundamental. Acoustic impedance is the property of tissue that determines how much of the incident ultrasound wave is reflected or transmitted at an interface. When two media have very different impedance values, a larger portion of the ultrasound beam is reflected, and less is transmitted. Conversely, when the impedance values are more similar, less reflection occurs, and the majority of the energy is transmitted through the interface. Thus, the relationship is inversely proportional: as the impedance mismatch (difference) increases, transmission decreases, and as impedance mismatch decreases, transmission increases. The incorrect answer 'directly proportional' would suggest that higher impedance leads to more transmission, which is not the case; rather, it leads to more reflection and less transmission. This fundamental principle helps explain image formation and artifact production in diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -8146,8 +8146,8 @@
         "respuesta_correcta": [
             "Impedance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic impedance mismatch at a tissue interface",
+        "explicacion_openai": "In ultrasound physics, as outlined by the ARDMS SPI curriculum, the primary factor influencing the amount of reflection at a tissue interface is the difference in acoustic impedance between the two tissues. Acoustic impedance (Z) is defined as the product of tissue density (ρ) and the speed of sound (c) within that tissue (Z = ρ × c). When an ultrasound beam encounters a boundary between tissues with different impedances, a portion of the sound wave is reflected back to the transducer, and this is fundamental for image formation in medical sonography. The greater the impedance mismatch, the higher the percentage of sound energy reflected. Other factors, such as bandwidth, beam profile, and velocity differences, have much less direct influence on reflection compared to impedance. Thus, understanding and recognizing impedance differences at tissue interfaces is critical for interpreting image quality and artifacts in diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -8184,8 +8184,8 @@
         "respuesta_correcta": [
             "Resonance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic Variables in Ultrasound Physics",
+        "explicacion_openai": "In ultrasound physics, as covered in the ARDMS SPI curriculum, acoustic variables are specific properties of a medium that change as an acoustic (sound) wave passes through it. The recognized acoustic variables are pressure, density, particle motion (also known as displacement), and temperature. These variables oscillate as the sound wave propagates, and their fluctuations are essential for interpreting ultrasound images. Resonance, although an important concept in physics, refers to the tendency of a system to oscillate with larger amplitude at certain frequencies. Resonance is not a fundamental acoustic variable because it does not describe how a sound wave physically alters the medium it travels through. Instead, resonance is a behavior that may arise under specific conditions, but it is not a measurable or inherent property of the wave-medium interaction like pressure, density, and particle motion are. Thus, 'resonance' is not an acoustic variable.",
         "image_explanation": ""
     },
     {
@@ -8412,8 +8412,8 @@
         "respuesta_correcta": [
             "Aliasing"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Aliasing in Doppler Ultrasound",
+        "explicacion_openai": "In spectral Doppler ultrasound, aliasing is a phenomenon that occurs when the Doppler shift frequency exceeds the Nyquist limit, which is the maximum frequency that can be accurately measured for a given pulse repetition frequency (PRF). When blood flow velocity creates a Doppler shift higher than this limit, the ultrasound system misrepresents these high velocities as wrapping around to the opposite side of the baseline on the spectral display. This gives the appearance of flow moving in the opposite direction or displaying as an artifact. Common wrong answers include 'Saturation' (which refers to signal amplitude exceeding the display range, unrelated to frequency wrap-around), 'Blocking' (not a Doppler ultrasound artifact), and 'Broadening' (refers to spectral broadening related to flow turbulence). The correct phenomenon at the highest detectable Doppler shift frequency is 'Aliasing,' a critical concept in understanding Doppler ultrasound limitations and signal interpretation, particularly in arterial and venous hemodynamics.",
         "image_explanation": ""
     },
     {
@@ -8469,8 +8469,8 @@
         "respuesta_correcta": [
             "Multipath artifact"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Multipath artifact",
+        "explicacion_openai": "Multipath artifact occurs in diagnostic ultrasound when a transmitted pulse encounters reflectors in such a way that the returning echo travels along multiple paths before reaching the transducer. This phenomenon leads to differences in pulse travel time, which can cause the ultrasound system to misplace the location of structures on the image. It results in artifacts such as duplicated or misplaced echoes. If a test-taker incorrectly chooses range gating artifact, diffraction artifact, or wrap-around artifact, it is likely due to confusion with other imaging artifacts that do not specifically relate to the travel time difference of ultrasound pulses. Range gating artifact is related to the timing of receiving echoes within a set distance, diffraction artifact is due to bending of sound waves around small structures, and wrap-around artifact (aliasing) involves Doppler frequency limits. Only multipath artifact precisely describes image errors caused by echoes following different routes and therefore arriving at different times, which is the direct result of variations in travel time.",
         "image_explanation": ""
     },
     {
@@ -8507,8 +8507,8 @@
         "respuesta_correcta": [
             "Attenuation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Attenuation (Atenuación)",
+        "explicacion_openai": "Attenuation refers to the progressive loss or weakening of sound wave intensity as it propagates through a medium—an essential concept in diagnostic medical sonography. While terms like scattering, diffraction, and reflection describe specific interactions between ultrasound and tissue, only attenuation encompasses all forms of energy loss: absorption, scattering, and reflection combined. When sound travels through tissue, part of its energy is absorbed and converted into heat, some may scatter in various directions, and some may be reflected. The cumulative effect of these phenomena is attenuation. Understanding this is crucial for interpreting image quality and selecting proper imaging settings, as greater attenuation can cause deeper structures to appear hypoechoic or absent. The other terms, although important in ultrasound physics, do not directly describe the overall weakening of the sound beam as it passes through the tissue; only attenuation does.",
         "image_explanation": ""
     },
     {
@@ -8678,8 +8678,8 @@
         "respuesta_correcta": [
             "Total internal reflection"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Total internal reflection",
+        "explicacion_openai": "Total internal reflection occurs when an ultrasound wave traveling from a medium with a higher propagation speed to a medium with a lower propagation speed strikes the interface at an angle greater than the so-called 'critical angle.' At this threshold, all of the ultrasound energy is reflected back into the original medium, and none is transmitted into the second medium. This phenomenon is crucial in ultrasound physics as it can result in the loss of information from deep structures or certain interfaces. Some may confuse this with terms like 'critical refraction' or 'Fresnel reflection'; however, 'critical refraction' involves partial transmission and bending of the wave at the interface, not complete reflection, and 'Fresnel reflection' simply refers to the partial reflection that occurs at any interface, not total and angle-dependent. 'Beam divergence' relates to beam spreading and is unrelated to reflection phenomena. Thus, 'total internal reflection' precisely describes the scenario where 100% of the ultrasound beam is reflected at a specific incident angle, which is central to understanding wave behavior in diagnostic imaging.",
         "image_explanation": ""
     },
     {
@@ -8697,8 +8697,8 @@
         "respuesta_correcta": [
             "Refraction at an oblique angle"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Snell's Law and Refraction at an Oblique Angle",
+        "explicacion_openai": "Snell's Law describes how the direction of sound changes—known as refraction—when passing from one medium to another with a different propagation speed. This law is only relevant when the incident sound wave strikes the interface between the two media at an oblique (non-perpendicular) angle. If the incidence is perpendicular, no refraction occurs, and the wave continues in the same direction without bending. Likewise, phenomena such as diffuse scattering or attenuation do not involve the directional change governed by Snell's Law. Thus, the correct condition when Snell’s Law applies is during refraction at an oblique angle, because this is when the difference in the speed of sound between the two media causes the transmitted wave to change its angle according to Snell’s mathematical relationship: sin(θ₁)/c₁ = sin(θ₂)/c₂, where θ is the angle of incidence or transmission and c is the speed of sound in each respective medium.",
         "image_explanation": ""
     },
     {
@@ -8963,8 +8963,8 @@
         "respuesta_correcta": [
             "By the thickness of the piezoelectric element"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relación entre el grosor del elemento piezoeléctrico y la frecuencia ultrasónica",
+        "explicacion_openai": "The frequency of an ultrasound wave generated by a transducer is primarily determined by the thickness of its piezoelectric crystal. The piezoelectric element resonates most efficiently at a frequency where its thickness is equal to half the wavelength of the sound produced. This means that a thinner crystal will produce a higher frequency, while a thicker crystal will produce a lower frequency. Choices such as the curvature of the lens, the depth of penetration, or the length of the ultrasound beam do not determine the frequency; these factors may affect beam focusing, resolution, or the clinical application, but not the fundamental frequency that originates from the crystal. Understanding this relationship is fundamental in SPI (Sonography Principles and Instrumentation), as matching the correct frequency with the intended clinical use depends on the physical properties of the piezoelectric element.",
         "image_explanation": ""
     },
     {
@@ -8982,8 +8982,8 @@
         "respuesta_correcta": [
             "Conversion of electrical energy to mechanical energy"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Reverse Piezoelectric Effect",
+        "explicacion_openai": "The reverse piezoelectric effect is a fundamental concept in ultrasound physics, particularly relevant to the function of transducers used in diagnostic imaging. This effect refers to the process by which an electrical voltage is applied to certain crystalline materials (known as piezoelectric crystals), causing them to deform physically, or change shape, and produce mechanical vibrations. These vibrations generate ultrasound waves used in imaging. If a candidate misidentifies the effect as, for example, the conversion of sound waves to electrical energy, they are confusing it with the direct piezoelectric effect (which is responsible for receiving echo signals in the transducer). The correct answer—conversion of electrical energy to mechanical energy—accurately captures the reverse piezoelectric effect's role in ultrasound: electrical pulses sent to the transducer crystal are converted into acoustic (mechanical) energy, which propagates into tissue. Mastering this concept is vital for understanding transducer operation and signal generation in medical ultrasound, as outlined in the ARDMS SPI exam content.",
         "image_explanation": ""
     },
     {
@@ -9153,8 +9153,8 @@
         "respuesta_correcta": [
             "PZT (Lead Zirconate Titanate)"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "PZT (Lead Zirconate Titanate) as the main piezoelectric material in ultrasound transducers",
+        "explicacion_openai": "In ultrasound technology, the generation and reception of sound waves depend on the use of piezoelectric materials. The question addresses which specific piezoelectric crystal is most commonly used in medical ultrasound transducers. While materials like quartz, generic ceramics, and gallium arsenide do possess piezoelectric properties, they are either inefficient or impractical for routine clinical use. Quartz, for example, is a natural crystal with a low piezoelectric coefficient, which limits the efficiency and sensitivity of the transducer. Gallium arsenide is rarely used in conventional ultrasound due to cost, toxicity, and fabrication limitations. The most widely used and efficient material is PZT (Lead Zirconate Titanate). PZT is a synthetic ceramic with excellent piezoelectric properties, allowing for strong signal generation and detection, high sensitivity, and stable performance over time—making it the industry standard for most diagnostic ultrasound transducers. Knowing PZT’s central role is essential for understanding how modern ultrasound imaging is achieved, and it is directly aligned with the core competencies of the SPI exam.",
         "image_explanation": ""
     },
     {
@@ -9191,8 +9191,8 @@
         "respuesta_correcta": [
             "They are lost"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Curie point (Curie temperature) and loss of piezoelectricity in ultrasound transducers",
+        "explicacion_openai": "Piezoelectric elements in ultrasound transducers have a unique property: they generate an electric charge when mechanically deformed and change shape when exposed to an electric field. This essential property is crucial for both transmitting and receiving ultrasound waves in medical imaging. The ability of these materials to exhibit piezoelectricity is highly dependent on their molecular polarization, which is achieved during manufacturing by heating the material above its Curie point and then cooling it in a strong electric field to align the dipoles. \n\nIf the piezoelectric material is later subjected to temperatures at or above its Curie point, the thermal energy disrupts this alignment by randomizing the orientation of the dipoles. Once this happens, the material irreversibly loses its piezoelectric properties—it no longer generates electrical signals in response to pressure, nor changes shape with electrical excitation. This destruction of piezoelectric properties due to excessive heat is why transducers must never be autoclaved or exposed to high temperatures. The correct answer is that the properties are 'lost,' not slowly degraded, unchanged, or enhanced, because the loss occurs abruptly once the Curie temperature is exceeded. This highlights the importance of safe handling and cleaning of ultrasound probes to preserve their functionality.",
         "image_explanation": ""
     },
     {
@@ -9514,8 +9514,8 @@
         "respuesta_correcta": [
             "Exceeding the Curie temperature"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Curie temperature and its effect on piezoelectric properties",
+        "explicacion_openai": "The Curie temperature is a critical threshold for piezoelectric materials used in ultrasound transducers. When a transducer’s piezoelectric elements are heated above this specific temperature, their polarized molecular structure is disrupted and becomes randomized. This irreversible change causes the material to lose its piezoelectric properties, meaning it can no longer efficiently convert electrical energy into mechanical (ultrasound) energy and vice versa. Once the Curie temperature is exceeded, the transducer's functionality is permanently compromised, which severely impacts image generation in diagnostic medical ultrasound. Proper handling and sterilization procedures are crucial to ensure the transducer never reaches this critical temperature.",
         "image_explanation": ""
     },
     {
@@ -9780,8 +9780,8 @@
         "respuesta_correcta": [
             "By optimizing its geometry and material composition"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Optimization of geometry and material composition of piezoelectric crystals",
+        "explicacion_openai": "The efficiency of a piezoelectric crystal in ultrasound transducers is primarily enhanced by optimizing both its geometry and material composition. Geometry affects the frequency, bandwidth, and resonance properties of the crystal, which directly impacts the transducer’s ability to produce and receive sound waves effectively. The material composition influences the piezoelectric properties, such as the efficiency of converting electrical energy into mechanical (acoustic) energy and vice versa. By selecting materials with high piezoelectric coefficients, low acoustic impedance, and suitable mechanical properties, manufacturers can maximize the sensitivity and bandwidth of the transducer. The ARDMS SPI content emphasizes that these optimizations lead to improved image quality and diagnostic performance in medical ultrasound. Alternative methods like merely increasing size or adjusting resistance do not target the fundamental piezoelectric efficiency and may even have adverse effects, such as degraded resolution or increased artifact. Therefore, precise engineering of geometry and material is key for efficient and effective piezoelectric crystals in ultrasound applications.",
         "image_explanation": ""
     },
     {
@@ -9818,8 +9818,8 @@
         "respuesta_correcta": [
             "Temporal resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "The primary factor that affects temporal resolution in real-time ultrasound scanning is frame rate. A higher frame rate allows for better temporal resolution, as it captures more frames per second, enabling clearer visualization of moving structures. Other factors, such as spatial resolution and axial resolution, influence different aspects of the image quality, while gain settings adjust image brightness but do not directly affect temporal resolution",
+        "concept_to_study": "Temporal resolution in ultrasound imaging",
+        "explicacion_openai": "A high frame rate in real-time ultrasound imaging directly enhances temporal resolution, which is the ability to accurately display and differentiate events occurring closely together in time. Temporal resolution is crucial when imaging rapidly moving structures, such as the heart or blood flow, because it determines how many images (frames) are produced per second, allowing clinicians to observe motion without motion artifacts or blurring. If candidates confuse this with lateral, axial, or general spatial resolution, it's a common mix-up. While spatial resolution (including lateral and axial components) relates to how well two objects can be distinguished as separate in the image (across or along the ultrasound beam), temporal resolution is about capturing fast movements without missing critical changes. Therefore, increasing the frame rate improves temporal resolution but does not enhance spatial resolution. This distinction is fundamental in ARDMS SPI concepts.",
         "image_explanation": ""
     },
     {
@@ -10027,8 +10027,8 @@
         "respuesta_correcta": [
             "Increases frame rate"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between imaging depth and frame rate in ultrasound scanning",
+        "explicacion_openai": "The key concept here is the direct relationship between imaging depth and frame rate in real-time ultrasound imaging. In ultrasound systems, frame rate refers to how many complete images (frames) are produced per second, affecting temporal resolution. As imaging depth increases, the ultrasound pulses must travel a longer distance to reach deeper structures and then return as echoes. This round-trip travel takes more time, so fewer lines can be transmitted and received per second, resulting in a lower frame rate. Conversely, when imaging depth is decreased, the distance sound waves travel is shorter, reducing the time required for each echo to return. This allows the system to send and receive more lines per second, thereby increasing the overall frame rate. A higher frame rate improves temporal resolution, allowing for better visualization of rapidly moving structures. Therefore, the correct answer is 'Increases frame rate' because decreasing the imaging depth shortens the time needed for pulse-echo travel, enabling more frames to be created per second. The other options are incorrect because increasing depth only decreases frame rate (not increases it), and depth settings do not directly alter overall gain.",
         "image_explanation": ""
     },
     {
@@ -10255,8 +10255,8 @@
         "respuesta_correcta": [
             "Increase frame rate"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Temporal resolution in ultrasound imaging",
+        "explicacion_openai": "Temporal resolution refers to the ability of an ultrasound system to accurately depict moving structures over time, which is particularly important in cardiac and fetal imaging where motion is rapid. Achieving optimal temporal resolution means the system must update the image as frequently as possible to capture quick physiological events. While adjustments like decreasing gain or increasing frequency can affect image quality or spatial resolution, they do not influence how rapidly images are updated. Widening the focus, in fact, generally reduces frame rate because more scan lines are used. The only adjustment among the options that directly enhances temporal resolution is increasing the frame rate. By increasing frame rate, the sonographer allows the machine to acquire more images per second, improving the system’s ability to follow fast-moving anatomy accurately. This is crucial when precise timing or motion evaluation is necessary, directly addressing the requirement for improved temporal resolution.",
         "image_explanation": ""
     },
     {
@@ -10502,8 +10502,8 @@
         "respuesta_correcta": [
             "Curvilinear array"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Curvilinear array transducer and its field of view characteristics in abdominal ultrasound",
+        "explicacion_openai": "In ultrasound imaging, selecting the appropriate transducer is crucial for optimizing image quality and field of view. The curvilinear (or convex) array transducer is specifically designed with a curved crystal arrangement, allowing it to produce a broad, sector-shaped field of view that is ideally suited for abdominal examinations. This transducer's wide footprint and broader imaging window enable the visualization of large anatomical areas and deep structures, which is essential for comprehensive abdominal assessments. Other options, such as the linear array, offer a rectangular and narrow field of view, mainly used for superficial structures like vascular or musculoskeletal imaging, and are not optimal for the abdomen. The phased array transducer provides a small footprint with a narrow sector field of view, primarily for cardiac imaging, and the annular array, while it allows for dynamic focusing, does not offer the wide field needed for abdominal scans. Thus, the curvilinear array transducer is the correct choice due to its ability to provide a broad field of view, facilitating accurate and thorough abdominal ultrasound exams.",
         "image_explanation": ""
     },
     {
@@ -11300,8 +11300,8 @@
         "respuesta_correcta": [
             "The number of lines per frame"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between image depth, frame rate, and number of lines per frame in ultrasound imaging",
+        "explicacion_openai": "When the depth of imaging increases in ultrasound, it takes more time for each pulse to travel to and return from deeper tissues. Because of this, the time required to generate a single frame increases. To maintain a constant frame rate despite deeper imaging, another parameter must be adjusted. The only factor that can be decreased without changing depth or frame rate is the number of lines per frame. By reducing the number of scan lines in each frame, the machine can maintain the same overall frame rate even though individual lines take longer to acquire due to the greater depth. The pulse repetition period (PRP) would actually increase with greater depth, the duty factor is mainly related to pulse duration and PRP, and output power is independent of frame rate and depth maintenance. Therefore, only the reduction of lines per frame compensates for the time increase from imaging deeper structures, ensuring the frame rate remains unchanged.",
         "image_explanation": ""
     },
     {
@@ -11338,8 +11338,8 @@
         "respuesta_correcta": [
             "It has no moving parts"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Mechanical transducers and their moving parts",
+        "explicacion_openai": "Mechanical transducers are a type of ultrasound transducer that physically moves one or more internal components (usually a small crystal or a set of crystals) using a motor to steer and sweep the ultrasound beam across the field of view. This movement is essential to create the image. Since mechanical parts are involved, these transducers inherently have moving parts. The statement that mechanical transducers 'have no moving parts' is incorrect, as the presence of moving parts is a defining characteristic of this transducer type. Modern transducers tend to be electronic (non-mechanical), where electronic steering and focusing eliminate the need for physical movement inside the probe. Understanding this distinction emphasizes that mechanical transducers do, in fact, rely on internal motion to function; therefore, the correct response highlights this unique feature of mechanical transducers.",
         "image_explanation": ""
     },
     {
@@ -11471,8 +11471,8 @@
         "respuesta_correcta": [
             "Large crystal diameter, high frequency"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Beam divergence and its dependence on crystal diameter and frequency",
+        "explicacion_openai": "Understanding how to control beam divergence in ultrasound is crucial for optimizing image resolution and penetration. Beam divergence, particularly in the far field (Fraunhofer zone), is inversely related to both the crystal (or transducer aperture) diameter and the frequency of the ultrasound wave. A larger crystal diameter produces a more collimated (narrower) beam, reducing lateral spread in the far field. Similarly, a higher frequency generates less diffraction, also narrowing the beam's divergence. Selecting a small crystal diameter or a low frequency increases divergence, which worsens lateral resolution at greater depths. Therefore, the correct approach to diminishing beam divergence in the far field is to use a large crystal diameter along with a high-frequency transducer. This combination ensures minimal beam spread and improved image resolution based on the foundational physics of sound propagation and diffraction in the ARDMS SPI curriculum.",
         "image_explanation": ""
     },
     {
@@ -11699,8 +11699,8 @@
         "respuesta_correcta": [
             "Damping shortens spatial pulse length"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Efectos del material de amortiguamiento (damping) en transductores de ultrasonido",
+        "explicacion_openai": "The damping material in an ultrasound transducer serves to reduce the number of cycles within each emitted pulse. This shortening of pulse duration, and thus spatial pulse length (SPL), results in improved axial resolution because the echoes from closely spaced structures are less likely to overlap. Damping also reduces the amplitude and sensitivity of the transducer, as it absorbs energy that would otherwise contribute to the signal's strength. Importantly, the statement claiming that 'Damping shortens spatial pulse length' is incorrect because, in reality, damping DOES shorten the spatial pulse length as described. The only assertion in the given options that is not correct is the one that denies this effect. Thus, understanding the role of damping focuses on recognizing its impact: it reduces pulse duration, lowers SPL, degrades sensitivity, and often improves (not degrades) axial resolution by limiting pulse length. Confusing the effect on axial resolution or pulse length demonstrates a misunderstanding of the core principle that damping makes pulses shorter and thus images clearer in the axial plane.",
         "image_explanation": ""
     },
     {
@@ -11889,8 +11889,8 @@
         "respuesta_correcta": [
             "Continuous-wave transducers"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Continuous-wave (CW) transducer functionality",
+        "explicacion_openai": "Continuous-wave (CW) transducers emit and receive ultrasound waves continuously and are specifically designed for Doppler applications to measure high-velocity blood flow. Unlike imaging transducers—such as curved sequenced arrays, linear sequenced arrays, and phased array transducers—which send pulses and then listen for echoes to create anatomical images, CW transducers lack the ability to provide anatomical detail or precise localization of the flow. This limitation exists because CW transducers do not use pulsed emission and do not have range resolution; instead, they detect all Doppler shifts along their ultrasound beam, resulting in no production of B-mode or 2D images. Therefore, CW transducers are not used for imaging but rather for measuring blood flow velocities where aliasing could be an issue. The correct answer is continuous-wave transducers, as they are dedicated to Doppler velocity measurement, not anatomical imaging, reflecting the principle that imaging requires both pulse transmission and echo reception with precise spatial resolution.",
         "image_explanation": ""
     },
     {
@@ -12003,8 +12003,8 @@
         "respuesta_correcta": [
             "Range resolution"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Range resolution",
+        "explicacion_openai": "Range resolution, also referred to as axial resolution, is the ability of an ultrasound system to distinguish two separate reflectors located parallel to the direction of the ultrasound beam. This parameter is determined by the spatial pulse length (SPL)—the shorter the pulse, the better the range resolution because the machine can differentiate between two closely spaced reflectors along the beam's path. If the user chose an option like angular or transverse resolution, those terms refer to distinguishing structures perpendicular to the beam (side-by-side), not parallel. Contrast resolution, meanwhile, pertains to the system's capacity to differentiate between differences in echo intensity, not spatial separation. In summary, only range resolution (axial resolution) describes the minimal distance between two structures aligned along the beam direction that can be displayed as two distinct reflectors, which directly connects to the concept being assessed in the ARDMS SPI exam.",
         "image_explanation": ""
     },
     {
@@ -12022,8 +12022,8 @@
         "respuesta_correcta": [
             "The resultant wave is less than the original"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Destructive interference in ultrasound physics",
+        "explicacion_openai": "Destructive interference occurs when two or more sound waves of the same frequency overlap and are out of phase with each other, meaning their peaks and troughs do not align. In this scenario, the amplitude of the resulting wave becomes less than that of the individual waves; this is due to the cancellation effect when a positive pressure from one wave coincides with a negative pressure from another. Incorrect responses, such as the idea that the resultant wave would be greater or that destructive interference does not occur in diagnostic imaging, demonstrate a misunderstanding of how wave interactions work in ultrasound physics. In clinical imaging, destructive interference plays a crucial role in image formation and artifact generation, as it reduces the combined amplitude, thereby affecting signal strength and image patterns. The correct answer is that the resultant wave is less than the original, which reflects the fundamental principle of destructive interference—a key concept for understanding acoustic wave behavior in diagnostic ultrasound.",
         "image_explanation": ""
     },
     {
@@ -12459,8 +12459,8 @@
         "respuesta_correcta": [
             "Time gain compensation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Time Gain Compensation (TGC)",
+        "explicacion_openai": "Time Gain Compensation (TGC) is a crucial function on ultrasound systems, designed to address the decrease in echo amplitude (attenuation) as ultrasound waves penetrate deeper into tissue. Attenuation occurs because sound waves lose energy—mainly due to absorption and scattering—the further they travel. Without TGC, echoes returning from deeper structures would appear much weaker than those from superficial structures, compromising diagnostic quality. TGC allows the operator to selectively amplify signals from specific depths, essentially 'balancing' brightness throughout the image, so that tissue echogenicity is consistently displayed regardless of depth. This precise adjustment is fundamental in producing uniformly clear diagnostic ultrasound images. Frequency and amplitude controls, while important, do not selectively compensate for depth-based signal loss as TGC does.",
         "image_explanation": ""
     },
     {
@@ -12497,8 +12497,8 @@
         "respuesta_correcta": [
             "Transducer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Transducer and Spatial Resolution Relationship",
+        "explicacion_openai": "In diagnostic ultrasound physics, as outlined in the ARDMS SPI curriculum, spatial resolution refers to the system's ability to distinguish between two structures that are close together. The transducer is the primary component influencing spatial resolution because it determines the frequency and type of ultrasound beam generated. Higher-frequency transducers produce shorter wavelengths, which improves axial and lateral resolution, allowing better separation of adjacent targets. The element size, configuration, and focusing of the transducer also impact lateral and elevational resolution. While display, computer processor, and image depth can influence perceived image quality, it is the transducer's physical properties that fundamentally establish the resolving capability of the ultrasound system.",
         "image_explanation": ""
     },
     {
@@ -12991,8 +12991,8 @@
         "respuesta_correcta": [
             "Inversely proportional"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Relationship between frequency and period in ultrasound physics",
+        "explicacion_openai": "In ultrasound physics, frequency and period are fundamental wave parameters that are inversely related. Frequency refers to the number of cycles a wave completes per second (measured in hertz), while period represents the duration of time it takes for one cycle to occur (measured in seconds). Mathematically, this inverse relationship is expressed as: frequency = 1/period and period = 1/frequency. If the frequency increases, the period must decrease, and vice versa. Therefore, selecting 'directly proportional' would be incorrect, as it implies both increase or decrease together, which is not the case. The correct answer, 'inversely proportional', accurately describes how when one of these parameters increases, the other decreases, a principle critical for understanding how ultrasound systems operate and how wave characteristics affect image resolution. Recognizing this relationship helps sonographers optimize image quality and adapt scanning techniques effectively.",
         "image_explanation": ""
     },
     {
@@ -13314,8 +13314,8 @@
         "respuesta_correcta": [
             "Pulsed Doppler"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Aliasing in Pulsed Doppler Ultrasound",
+        "explicacion_openai": "Aliasing refers to a type of artifact that occurs when the measured Doppler frequency shift exceeds the Nyquist limit in pulsed Doppler modes. This limitation is inherent to pulsed Doppler and color Doppler modalities because they use intermittent pulses and have a maximum detection limit determined by the pulse repetition frequency (PRF). When velocities are too high, the system cannot sample fast enough, causing the display of flow in the opposite direction or at incorrect velocities. Continuous wave (CW) Doppler, by contrast, is not limited by PRF since it transmits and receives signals continuously, making it immune to aliasing. Power Doppler is primarily used to display flow presence and amplitude, not velocity, so aliasing is not a significant concern. Therefore, pulsed Doppler is the Doppler modality most susceptible to aliasing because of its sampling technique and dependence on the Nyquist limit.",
         "image_explanation": ""
     },
     {
@@ -13371,8 +13371,8 @@
         "respuesta_correcta": [
             "Velocity of the reflector"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Velocity of the reflector",
+        "explicacion_openai": "The Doppler shift is fundamentally determined by the relative velocity between the sound wave source (the transducer) and the moving reflector (such as red blood cells). According to the Doppler equation, the frequency shift detected by the system is directly proportional to the velocity of the reflector along the line of ultrasound propagation. This means that the faster the red blood cells move, the greater the frequency shift generated. The other options—amplitude of the wave, frequency of the transducer, and beam width—do play roles in image quality or sensitivity, but they do not directly determine the measured Doppler shift. Thus, velocity of the reflector is the crucial factor for calculating the Doppler shift, as specified in the fundamental Doppler principle used in vascular and cardiac ultrasound studies.",
         "image_explanation": ""
     },
     {
@@ -13580,8 +13580,8 @@
         "respuesta_correcta": [
             "Beating heart"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Potential energy in the cardiovascular system originates from the beating heart.",
+        "explicacion_openai": "To understand the origin of potential energy in the cardiovascular system, it is crucial to recognize the role of the heart. Some may think that components like distal arterioles or the flowing blood itself provide this energy, but this is a misunderstanding. Distal arterioles regulate peripheral resistance and blood distribution, and the blood flowing through vessels possesses both kinetic and potential energy, but does not generate potential energy on its own. The venous system mainly serves as a low-pressure reservoir, not an energy source. The correct answer is the beating heart. According to the principles covered in ARDMS SPI, the heart functions as a pump that generates pressure by contracting, imparting potential energy to blood. This pressure, or potential energy, is the driving force that propels blood throughout the circulatory system, enabling tissue perfusion. The potential energy created by the heart is stored in the form of pressure until it is converted to kinetic energy as blood flows through vessels. Therefore, studying the heart as the origin of potential energy is essential for understanding hemodynamics in sonography.",
         "image_explanation": ""
     },
     {
@@ -13599,8 +13599,8 @@
         "respuesta_correcta": [
             "Variance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Variance color Doppler imaging",
+        "explicacion_openai": "In SPI ARDMS, 'variance' color Doppler imaging is a method used to display the degree of blood flow disturbance or turbulence on ultrasound images. Variance maps not only show the direction of flow (as in standard color Doppler), but also encode the amount of variation (or turbulence) within the sampled blood flow using color changes. Specifically, shades of green are introduced in the color scale to indicate regions where the flow is turbulent or disturbed, superimposed on the usual red/blue map indicating flow direction. This is vital for detecting pathological flows, such as those seen in stenotic or regurgitant valves. The other options—velocity, hue, and saturation—do not specifically use green to show turbulence: velocity maps use red and blue for direction and speed; hue refers to the color shade itself; and saturation is the intensity of color, not an indicator of turbulence. Therefore, the correct answer is 'Variance,' because only the variance color scale displays turbulence as green in Doppler imaging.",
         "image_explanation": ""
     },
     {
@@ -13618,8 +13618,8 @@
         "respuesta_correcta": [
             "Plug flow"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Plug flow at vessel entrances",
+        "explicacion_openai": "In vascular hemodynamics, the flow profile at the entrance of a vessel—particularly where blood enters from a larger chamber or through a sudden narrowing—is known as 'plug flow.' This term describes a uniform velocity profile across the entire vessel lumen, resulting in a 'flat' appearance. Unlike laminar flow, where the velocity profile is parabolic (highest in the center, slower near the vessel walls), plug flow maintains nearly the same velocity everywhere across the vessel cross-section for a short distance immediately after entry. Answering with 'laminar flow' suggests a misunderstanding: while laminar flow does occur in vessels, it refers to organized layers of blood moving at different velocities, not the flat profile seen at the entrance. 'Turbulent flow' and 'chaotic flow' refer to disorganized flow patterns that do not match the orderly flat profile of plug flow. Understanding plug flow is important for interpreting Doppler waveforms and predicting areas of transition to laminar or turbulent flow, especially in the context of ARDMS SPI principles.",
         "image_explanation": ""
     },
     {
@@ -13960,8 +13960,8 @@
         "respuesta_correcta": [
             "Phase quadrature"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Phase quadrature detection in Doppler ultrasound",
+        "explicacion_openai": "Phase quadrature detection is a signal processing technique crucial for Doppler ultrasound systems. It allows the system to distinguish between positive (toward the transducer) and negative (away from the transducer) frequency shifts, which correspond to the direction of blood flow. Some may mistakenly choose components such as the analog Doppler circuit, oscillator, or Fourier transformer. However, the analog Doppler only mixes received signals; the oscillator generates reference frequencies; and the Fourier transformer breaks down signals into their frequency components but does not differentiate directionality. Phase quadrature detection works by splitting the received Doppler signal into two waveforms that are 90 degrees out of phase (hence 'quadrature'). By analyzing the relative phase difference between these signals, the Doppler system can determine both the presence and direction of flow. Understanding this process is essential for interpreting Doppler spectral displays and is foundational for the ARDMS SPI exam.",
         "image_explanation": ""
     },
     {
@@ -14169,8 +14169,8 @@
         "respuesta_correcta": [
             "One"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Crystals required in Pulsed Wave (PW) Doppler transducers",
+        "explicacion_openai": "In Pulsed Wave (PW) Doppler ultrasound systems, a single piezoelectric crystal can alternate between transmitting ultrasound pulses and receiving echoes, allowing it to perform Doppler measurements using just one crystal. During operation, the crystal emits a pulse, and then the system switches it to receive mode to capture returning echoes containing Doppler frequency shifts from moving blood cells. This minimal design increases versatility and reduces complexity, making PW Doppler possible with the smallest number of just one crystal. This principle is routinely assessed in the SPI ARDMS exam to test foundational understanding of Doppler ultrasound technology and transducer design.",
         "image_explanation": ""
     },
     {
@@ -14302,8 +14302,8 @@
         "respuesta_correcta": [
             "3.0 kHz"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Aliasing and the Nyquist Limit in Doppler Ultrasound",
+        "explicacion_openai": "Aliasing occurs in Doppler ultrasound when the frequency shift produced by moving blood cells exceeds the Nyquist limit, which is defined as half the pulse repetition frequency (PRF). The Nyquist limit determines the maximum Doppler frequency shift that can be accurately measured without signal overlap, or aliasing. If the PRF is 5000 Hz, the Nyquist limit is 2500 Hz (5000 Hz ÷ 2 = 2500 Hz). Any Doppler frequency shift above 2500 Hz will experience aliasing, meaning the system will misrepresent the direction or magnitude of blood flow velocities. In the given options, a frequency shift of 3.0 kHz (3000 Hz) exceeds the 2500 Hz Nyquist limit, and therefore, would exhibit aliasing. Frequency shifts of 1.0 kHz (1000 Hz) and 2.5 kHz (2500 Hz) are at or below the Nyquist limit and would not cause aliasing. Therefore, the correct choice is 3.0 kHz, illustrating the importance of understanding the relationship between PRF, Nyquist limit, and Doppler frequency shifts in clinical practice.",
         "image_explanation": ""
     },
     {
@@ -14454,8 +14454,8 @@
         "respuesta_correcta": [
             "Transmural pressure"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Transmural pressure",
+        "explicacion_openai": "Transmural pressure refers to the difference between the pressure within a blood vessel (intravascular pressure) and the pressure in the surrounding tissue (tissue pressure). In vascular ultrasound and hemodynamics, understanding transmural pressure is essential because it determines the shape and compliance of veins and influences venous return. If the internal pressure exceeds the external, the vessel remains open; if the external pressure is greater, the vessel may collapse. Other terms like hydrostatic pressure (related to gravity's effect on blood pressure), autocorrelation (a Doppler processing method), and kinetic energy (energy related to blood flow velocity) do not directly describe this pressure difference. Therefore, the correct term to describe the pressure difference between the inside of a vein and the surrounding tissue is 'transmural pressure'.",
         "image_explanation": ""
     },
     {
@@ -14739,8 +14739,8 @@
         "respuesta_correcta": [
             "Bernoulli's principle"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Bernoulli's principle",
+        "explicacion_openai": "Bernoulli's principle is fundamental in understanding hemodynamics and the physics of blood flow within the vascular system. This principle states that within a closed system, as the velocity of a fluid increases, its pressure decreases, and vice versa, assuming constant energy. In vascular sonography and clinical practice, applying Bernoulli’s principle helps explain why high-velocity blood flow, such as that through a narrowed (stenotic) vessel segment, is associated with a drop in intraluminal pressure at the stenosis. This physical relationship is not explained by Newton's law (which is about motion and forces), Snell's law (which concerns light refraction), or Poiseuille's law (which relates to flow resistance in a cylindrical vessel based on viscosity, vessel length, and radius). Correctly identifying Bernoulli’s principle reveals a thorough understanding of fluid dynamics relevant to sonography, as tested on the ARDMS SPI exam.",
         "image_explanation": ""
     },
     {
@@ -14758,8 +14758,8 @@
         "respuesta_correcta": [
             "Poiseuille's Law"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Poiseuille's Law",
+        "explicacion_openai": "Understanding the relationship between pressure gradient, flow rate, and resistance in a vessel is essential in hemodynamics. Poiseuille’s Law quantitatively describes this relationship, stating that the flow rate (Q) of a fluid through a cylindrical vessel is directly proportional to the pressure difference (ΔP) across the vessel and the fourth power of the vessel radius, and inversely proportional to the viscosity (η) of the fluid and the length (L) of the vessel. The equation is expressed as: Q = (ΔP × π × r⁴) / (8 × η × L). None of the other options describe this hemodynamic relationship. Newton’s law addresses motion and force, Snell’s Law pertains to refraction of waves, and Bernoulli’s Principle deals with changes in pressure related to fluid speed, but not the direct vessel-based flow/resistance equation. Thus, Poiseuille’s Law is the correct answer because it specifically defines the mathematical relationship among pressure gradient, resistance, and flow in biological vessels, which is foundational for vascular hemodynamics as tested on the SPI ARDMS exam.",
         "image_explanation": ""
     },
     {
@@ -14815,8 +14815,8 @@
         "respuesta_correcta": [
             "Bernoulli's principle"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Bernoulli's principle",
+        "explicacion_openai": "In the physics of fluid dynamics, Bernoulli's principle is fundamental for understanding the energy relationships within a flowing fluid, which is highly relevant in RDMS Sonography Principles & Instrumentation (SPI). This principle states that for an incompressible, non-viscous fluid, the sum of kinetic energy, potential energy, and pressure energy remains constant along a streamline. If a fluid's velocity increases (and thus its kinetic energy), its pressure or potential energy correspondingly decreases, and vice versa. This energy conservation is essential for interpreting hemodynamic phenomena in vessels, such as stenosis, where an increase in flow velocity leads to a drop in pressure at the narrowed segment. The other options are unrelated: Newton's law covers motion laws in general, Snell's law explains refraction, and Poiseuille's law quantifies flow based on vessel dimensions and viscosity but does not describe the energy exchange. Understanding Bernoulli’s principle clarifies how kinetic and potential energy interact in blood flow, a core concept for diagnostic interpretation in vascular ultrasound.",
         "image_explanation": ""
     },
     {
@@ -19755,8 +19755,8 @@
         "respuesta_correcta": [
             "Spatial pulse length"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Spatial pulse length (SPL)",
+        "explicacion_openai": "Axial resolution refers to the ability of an ultrasound system to distinguish two structures that are close to each other along the direction of the sound beam. The primary physical factor that determines axial resolution is spatial pulse length (SPL), which is the distance that a pulse occupies in space, measured from the start to the end of one pulse. A shorter SPL leads to superior axial resolution because shorter pulses are better able to separate two closely spaced reflectors. Other parameters like beam width, transducer diameter, and pulse frequency do influence different types of resolution (such as lateral resolution or beam focusing), but they do not directly determine axial resolution. In summary, the correct answer is spatial pulse length, because reducing SPL improves the system’s ability to resolve structures along the axis of the sound beam, which is the very definition of axial resolution.",
         "image_explanation": ""
     },
     {
@@ -19793,8 +19793,8 @@
         "respuesta_correcta": [
             "Decreases"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Duty factor and its relationship with pulse repetition period (PRP)",
+        "explicacion_openai": "The duty factor is the percentage or fraction of time that a pulsed ultrasound system is actively transmitting sound, as opposed to listening for echoes. It is mathematically defined as the ratio of pulse duration (the 'on' time) to the pulse repetition period (PRP, the total cycle time from the start of one pulse to the start of the next). If the PRP increases while the pulse duration remains constant, the denominator becomes larger but the numerator stays the same, so the overall duty factor decreases. In a medical ultrasound context, a lower duty factor indicates that the system is sending out pulses less frequently, typically important for deeper imaging where echoes take longer to return. The correct answer is 'Decreases'; if someone answered otherwise, they likely misunderstood the inverse relationship between PRP and duty factor. As PRP increases, the duty factor always decreases, because the machine spends more time listening and less time transmitting relative to each cycle.",
         "image_explanation": ""
     },
     {
@@ -19926,8 +19926,8 @@
         "respuesta_correcta": [
             "Refraction"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Refraction",
+        "explicacion_openai": "Refraction occurs when a sound wave passes from one medium to another with a different propagation speed, causing the wave to change direction at the interface. This redirection happens because the speed of sound differs between various tissues or materials. In ultrasound, understanding refraction is crucial because it can lead to artifacts or misrepresentation of structures. While reflection involves bouncing of sound at a boundary, absorption refers to the attenuation of energy as heat, and interference pertains to the combination of multiple waves. Refraction is uniquely linked to differences in speed between two media. Recognizing how and why refraction occurs helps sonographers interpret images accurately and avoid diagnostic errors.",
         "image_explanation": ""
     },
     {
@@ -20325,8 +20325,8 @@
         "respuesta_correcta": [
             "Decreases sound intensity"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Attenuation in ultrasound imaging",
+        "explicacion_openai": "Attenuation refers to the gradual loss of intensity as an ultrasound wave propagates through tissue. This process occurs due to absorption, reflection, and scattering of sound energy within the tissue, which reduces the amplitude and overall strength (intensity) of the sound wave. Some may mistakenly think attenuation affects the speed, wavelength, or frequency of sound; however, these properties are determined by the tissue characteristics and the frequency of the initial sound wave, not by attenuation. The only direct effect of attenuation on the ultrasound wave is a decrease in its intensity. This reduction is clinically significant because it limits the depth at which clear images can be obtained in ultrasound imaging. Understanding attenuation is crucial for optimizing image quality and adjusting machine settings during sonographic exams.",
         "image_explanation": ""
     },
     {
@@ -20344,8 +20344,8 @@
         "respuesta_correcta": [
             "Number of cycles and wavelength"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Spatial Pulse Length (SPL) and its determining factors: number of cycles and wavelength.",
+        "explicacion_openai": "Spatial Pulse Length (SPL) describes the physical length that an ultrasound pulse occupies in space. It is a critical concept in ultrasound physics because it affects both axial resolution and image quality. SPL is calculated as the number of cycles in a pulse multiplied by the wavelength of each cycle. Therefore, it is determined exclusively by two factors: the number of cycles per pulse (which is influenced by the damping characteristics of the transducer) and the wavelength (set by the sound speed in tissue and the operating frequency of the transducer). Incorrectly attributing SPL to factors like wave type, transducer material, or amplitude does not align with ultrasound physics principles. Although these other variables can influence aspects of signal production or quality, they do not directly determine the spatial length of each pulse. Only the combination of pulse cycles and the wavelength governs SPL, directly impacting axial resolution and the ability to separate structures along the direction of the ultrasound beam.",
         "image_explanation": ""
     },
     {
@@ -20382,8 +20382,8 @@
         "respuesta_correcta": [
             "Doppler effect"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Doppler effect in ultrasound",
+        "explicacion_openai": "The Doppler effect is fundamental in medical ultrasound when measuring the velocity and direction of blood flow. Other options such as amplitude adjustment, frequency hopping, or wavelength inversion do not provide a method to assess flow velocity; instead, they relate to different aspects of signal processing or frequency management. The Doppler effect refers to the change in frequency or wavelength of ultrasound waves as they encounter moving red blood cells. When these cells move towards the transducer, the frequency increases; when they move away, it decreases. Ultrasound equipment calculates this frequency shift to determine the speed and direction of blood flow, which is crucial for diagnostic imaging of vascular conditions. Knowledge of the Doppler effect is essential, as it is the only technology among the options that allows ultrasound to measure flow velocity accurately.",
         "image_explanation": ""
     },
     {
@@ -20534,8 +20534,8 @@
         "respuesta_correcta": [
             "Acoustic impedance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Acoustic impedance",
+        "explicacion_openai": "Acoustic impedance is a fundamental concept in ultrasound physics, defined as the resistance that a medium offers to the propagation of sound waves. It is mathematically expressed as the product of the density of the tissue (ρ) and the speed of sound (c) in that tissue (Z = ρ × c). Variations in acoustic impedance between different organic structures determine how much of the ultrasound wave is reflected or transmitted at the interface of these structures. This is critical in ultrasound imaging, as the image is generated by detecting the echoes reflected due to these impedance differences. Therefore, measuring and understanding acoustic impedance is essential for characterizing and differentiating organic tissues in sonography. Doppler flow measures motion, reflective index is not an ultrasound term, and sonographic density is not a defined parameter—the correct answer is acoustic impedance.",
         "image_explanation": ""
     },
     {
@@ -20743,8 +20743,8 @@
         "respuesta_correcta": [
             "To simulate blood flow"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Doppler phantom usage for blood flow simulation in ultrasound quality assurance",
+        "explicacion_openai": "A Doppler phantom is a specialized device used in ultrasound physics and instrumentation to simulate the movement of blood within vessels. Its primary role is to provide a controlled and repeatable environment for evaluating the performance and accuracy of Doppler ultrasound systems. Some might mistakenly associate Doppler phantom testing with purposes like measuring acoustic pressure, assessing image resolution, or calibrating transducers, but these applications are not specific to the Doppler features of ultrasound. The correct application focuses on simulating blood flow, allowing operators or physicists to assess how well the ultrasound system detects and measures flow velocities, direction, and hemodynamic parameters. This is crucial for ensuring Doppler modalities are functioning correctly and can be relied upon for diagnostic purposes in the clinical setting. Understanding the use of the Doppler phantom in this context is essential for anyone preparing for the ARDMS SPI exam, as it connects directly to the principles of quality assurance and performance assessment specific to Doppler imaging.",
         "image_explanation": ""
     },
     {
@@ -21104,8 +21104,8 @@
         "respuesta_correcta": [
             "Every six months"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Preventive maintenance schedule for ultrasound equipment",
+        "explicacion_openai": "Preventive maintenance is a systematic process designed to preserve the optimal functionality and safety of ultrasound equipment. According to best practices in the field and recommendations outlined in ARDMS-related guidelines, preventive maintenance should be performed every six months. This biannual schedule helps detect and address any potential issues—such as transducer degradation, calibration drift, or electrical hazards—before they affect image quality or patient safety. Regular maintenance also ensures that all system components, including probes, monitors, and cables, are functioning within manufacturer specifications. Adhering to this schedule not only maximizes diagnostic accuracy and equipment longevity but also complies with regulatory and accreditation standards for quality assurance in medical imaging.",
         "image_explanation": ""
     },
     {
@@ -21161,8 +21161,8 @@
         "respuesta_correcta": [
             "Reverberation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Reverberation artifact",
+        "explicacion_openai": "Reverberation artifact occurs when the ultrasound beam encounters two strong reflectors, such as the transducer face and a tissue interface, causing the sound waves to bounce back and forth between them. Each time the echo returns to the transducer, an additional replica of the initial interface is recorded, but at an increased time delay. This leads the ultrasound system to display multiple, equally spaced parallel lines distal to the actual reflector on the image. Reverberation artifacts are a common type of image artifact in ultrasound, and their equally spaced appearance is a result of the consistent extra travel time of the sound waves between the reflectors. Recognizing reverberation is important for accurate image interpretation and avoiding potential diagnostic errors.",
         "image_explanation": ""
     },
     {
@@ -21636,8 +21636,8 @@
         "respuesta_correcta": [
             "IAC"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "IAC (Intersocietal Accreditation Commission) accreditation for vascular testing",
+        "explicacion_openai": "In the field of vascular ultrasound, accreditation ensures that a laboratory meets defined standards for quality and patient care. The Intersocietal Accreditation Commission (IAC) is the primary agency responsible for granting accreditation specifically for vascular testing laboratories in the United States. While other organizations like the American Institute of Ultrasound in Medicine (AIUM) and the American College of Radiology (ACR) also offer accreditation programs, these are generally tailored to other imaging modalities or broader scopes. The Food and Drug Administration (FDA) regulates medical devices and drugs, not the accreditation of imaging laboratories. Choosing IAC as the accrediting body for vascular testing is correct because the IAC sets specialty-specific standards, performs site inspections, and provides oversight specifically geared toward vascular diagnostic procedures. This is crucial knowledge for SPI (Sonography Principles and Instrumentation) as it reinforces the importance of quality assurance and regulatory frameworks directly impacting vascular imaging practice.",
         "image_explanation": ""
     },
     {
@@ -21807,8 +21807,8 @@
         "respuesta_correcta": [
             "ACR"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Accreditation of radiology practices by professional organizations",
+        "explicacion_openai": "Understanding which organizations are responsible for accrediting radiology practices is fundamental in medical imaging. The American College of Radiology (ACR) is the leading body recognized for accrediting diagnostic imaging facilities, including those offering ultrasound, MRI, CT, mammography, and nuclear medicine. The other options, while related to medical imaging, serve different roles: the Intersocietal Accreditation Commission (IAC) accredits specific imaging modalities like vascular testing and echocardiography, but is not as broadly recognized for radiology practice accreditation as the ACR; the American Institute of Ultrasound in Medicine (AIUM) focuses more on accrediting ultrasound practices and promoting quality through guidelines rather than comprehensive radiology practice accreditation; the Food and Drug Administration (FDA) regulates medical devices and ensures their safety, rather than accrediting practices. The correct answer is ACR because it specifically sets and maintains the standards for quality and safety in radiology practices, ensuring they meet the high benchmarks required for patient care within the discipline. This directly relates to SPI (Sonography Principles & Instrumentation) as accreditation helps ensure facilities use proper protocols, equipment, and personnel standards, all of which impact the quality and safety of sonographic imaging.",
         "image_explanation": ""
     },
     {
@@ -21845,8 +21845,8 @@
         "respuesta_correcta": [
             "AIUM"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "AIUM guidelines for ultrasound practice",
+        "explicacion_openai": "The American Institute of Ultrasound in Medicine (AIUM) is the principal agency responsible for providing comprehensive guidelines and standards related to the practice of diagnostic medical ultrasound in the United States. These guidelines cover various aspects such as technical parameters, examination protocols, safety limits, and quality assurance in ultrasonography. While other agencies like the ACR (American College of Radiology), IAC (Intersocietal Accreditation Commission), and FDA (Food and Drug Administration) play key roles in accreditation, regulation, and device approval, it is the AIUM that issues detailed practice recommendations and protocols to promote safe and effective ultrasound imaging. Understanding AIUM’s guidelines is essential for sonographers, as adherence ensures compliance with recognized standards and improves diagnostic quality, as outlined in the ARDMS SPI exam objectives.",
         "image_explanation": ""
     },
     {
@@ -21902,8 +21902,8 @@
         "respuesta_correcta": [
             "Intensity"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Output (or pulse) intensity of the pulser in diagnostic ultrasound systems",
+        "explicacion_openai": "In diagnostic ultrasound, the pulser is responsible for generating electrical voltage pulses that drive the transducer, which in turn emits acoustic pulses into the patient's body. The key factor that determines how strong or energetic each acoustic pulse is—the 'output gain'—is the intensity regulated by the pulser. Intensity refers specifically to the strength or amplitude of the electrical signal sent from the pulser to the transducer, directly controlling the acoustic energy produced. Other parameters like frequency, duration, and pulse repetition period influence aspects such as image resolution, depth, or temporal spacing of pulses, but they do not set the output amplitude or energy of each individual pulse. Only the pulse intensity (sometimes called acoustic output or output gain) sets the magnitude of the sound pressure wave generated, and thus, affects both the signal strength and, potentially, the patient's safety (bioeffects risk). Understanding this principle is essential for ARDMS SPI examination and safe clinical practice.",
         "image_explanation": ""
     },
     {
@@ -22681,8 +22681,8 @@
         "respuesta_correcta": [
             "Write zoom"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Write Zoom (Acoustic Zoom)",
+        "explicacion_openai": "Write zoom is a type of magnification that must be selected while the image is still live, before the ultrasound data are stored and processed. When write zoom is activated, the system uses a smaller field of view but increases line density and pixel count within the region of interest, acquiring new data with improved spatial resolution specific to that area. This results in high-quality, detailed magnification because the image is 'written' with more data rather than simply enlarging previously acquired information. In contrast, read zoom (or postprocessing zoom) magnifies a stored image by simply enlarging the existing pixels, which does not improve image resolution and can produce blurring or pixelation. Therefore, write zoom must be chosen in real-time during scanning for maximal image quality, aligning with high imaging standards in clinical practice, as recommended by ARDMS SPI guidelines.",
         "image_explanation": ""
     },
     {
@@ -22814,8 +22814,8 @@
         "respuesta_correcta": [
             "Too far away from the transducer"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Propagation speed differences in tissue types (muscle vs. soft tissue average)",
+        "explicacion_openai": "In sonographic imaging, the propagation speed of sound through different tissues varies. The system assumes a constant average soft tissue speed of 1540 m/s when calculating the depth of reflectors. However, muscle tissue conducts sound slower than this average, particularly when fibers are parallel to the sound beam (around 1540 m/s) but often slightly slower due to anatomical variation. When sound travels slower than the system's assumed speed, as is the case with a large amount of muscle tissue, the ultrasound machine miscalculates the echo's travel time, interpreting it as having taken longer to return. As a result, the reflector will be displayed deeper (too far away) than its actual anatomical location. Therefore, the correct answer is 'Too far away from the transducer.' Misconceptions, such as thinking the reflector would appear closer or not appear at all, ignore the crucial effect of tissue-specific propagation through muscle. Understanding tissue-specific propagation speed is essential for accurate image interpretation and artifact recognition in sonography.",
         "image_explanation": ""
     },
     {
@@ -23746,8 +23746,8 @@
         "respuesta_correcta": [
             "Medical record number"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Patient identification using the medical record number (MRN)",
+        "explicacion_openai": "Verifying patient identity is a critical safety procedure in sonography and all medical imaging. Sonographers must ensure they are performing studies on the correct patient to avoid medical errors. The medical record number (MRN), a unique identifier assigned to each patient, is the most reliable and accurate method for confirming a patient's identity. While other data, such as birth date or full name, may also be checked, the MRN eliminates ambiguity, especially in cases where patients have similar names or demographic details. Checking irrelevant details like race, date of registration, or birthplace does not contribute to secure patient verification and may lead to privacy issues or identification errors. Thus, sonographers should always match the MRN on the patient’s wristband with the corresponding health record before proceeding, as specified in the ARDMS SPI (Sonography Principles & Instrumentation) guidelines for patient safety and care.",
         "image_explanation": ""
     },
     {
@@ -24202,8 +24202,8 @@
         "respuesta_correcta": [
             "Methicillin-resistant Staphylococcus aureus"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Methicillin-resistant Staphylococcus aureus (MRSA) infections and their clinical manifestations",
+        "explicacion_openai": "MRSA stands for Methicillin-resistant Staphylococcus aureus, a type of bacterium that has become resistant to many commonly used antibiotics. In clinical practice, MRSA infections frequently present as skin and soft tissue infections characterized by redness, swelling, warmth, and the production of pus or fluid (weeping lesions). These lesions are often painful, can appear suddenly, and may rapidly worsen if left untreated. This manifestation distinguishes MRSA from conditions such as tuberculosis (which mainly affects the lungs and presents with chronic cough and systemic symptoms), HIV (which primarily impairs the immune system without directly causing weeping skin lesions), and hepatitis C (which impacts the liver and does not cause skin infections as a primary symptom). Recognizing the signs of MRSA is crucial in the context of patient care, as prompt diagnosis and appropriate infection control measures are essential to prevent serious complications and limit the spread of this resistant organism.",
         "image_explanation": ""
     },
     {
@@ -24335,8 +24335,8 @@
         "respuesta_correcta": [
             "Accreditation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Accreditation",
+        "explicacion_openai": "Accreditation is a voluntary process in which an external, recognized organization assesses a healthcare facility, educational program, or laboratory to ensure that it meets specific, established standards of quality and competence. In the context of medical imaging and ultrasound (as covered in ARDMS SPI), accreditation is intended to validate that an institution or program provides high-quality services and adheres to best practices, thus ensuring patient safety and optimal outcomes. This process differs from credentialing (which pertains to individual qualifications), licensure (a legal requirement to practice), and registration (the act of being listed or recorded), as accreditation specifically evaluates the institution or organization as a whole. Passing accreditation can enhance institutional reputation, encourage continual improvement, and allow for compliance with industry regulations.",
         "image_explanation": ""
     },
     {
@@ -24392,8 +24392,8 @@
         "respuesta_correcta": [
             "Vertical distance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Vertical distance (Depth parameter)",
+        "explicacion_openai": "In diagnostic ultrasound, 'vertical distance' refers to the depth parameter on the imaging display. This parameter indicates how deep the system can visualize structures within the body, measured from the transducer surface down to the bottom of the image. The maximum vertical distance (or depth) is determined by the settings of the ultrasound system—specifically, how long the system waits for returning echoes before starting a new pulse. The greater the vertical (depth) setting, the deeper tissues the system can interrogate, but often at the expense of reduced frame rate or image quality. This is critical for sonographers, as it allows adjustment of depth to appropriately include anatomy of interest without unnecessary imaging of deeper regions. The other options—horizontal distance (width), lateral resolution, and sensitivity—do not describe the system's ability to display maximum imaging depth. Therefore, the correct image parameter that represents the maximum depth the system can visualize is 'vertical distance.'",
         "image_explanation": ""
     },
     {
@@ -24411,8 +24411,8 @@
         "respuesta_correcta": [
             "Quality assurance"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Quality assurance (QA)",
+        "explicacion_openai": "Quality assurance (QA) refers to the systematic and scheduled evaluation of equipment performance to ensure that ultrasound systems consistently produce accurate and reliable diagnostic information. This process involves routine testing, data collection, analysis, and documentation of equipment function using standardized procedures and test objects, such as tissue-mimicking phantoms. The goal of QA is to detect and correct equipment problems before they affect patient care, maintaining image quality and patient safety. In the context of SPI (Sonography Principles & Instrumentation) for ARDMS, understanding QA is crucial because it supports ongoing compliance with regulatory and accreditation standards and helps prevent diagnostic errors related to technical issues.",
         "image_explanation": ""
     },
     {
@@ -24525,8 +24525,8 @@
         "respuesta_correcta": [
             "Tissue-equivalent phantom"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Tissue-equivalent phantom",
+        "explicacion_openai": "A tissue-equivalent phantom is a specialized test object designed to simulate the acoustic properties of human tissue. Its primary purpose is to evaluate the performance of ultrasound systems, ensuring that equipment is functioning properly and producing accurate images. Unlike other phantoms—such as Doppler testing phantoms (which are used specifically for Doppler applications) or slice-thickness phantoms (for assessing beam width and elevational resolution)—the tissue-equivalent phantom is constructed with materials that match the typical speed of sound, attenuation coefficient, and echogenicity of human soft tissues. This allows for comprehensive testing of imaging parameters like resolution, depth calibration, and sensitivity. In ARDMS SPI content, understanding the use of tissue-equivalent phantoms is crucial because proper system performance and quality assurance protocols depend on this realistic simulation of human tissue. Therefore, the correct answer is 'tissue-equivalent phantom,' as it accurately reflects the device used to mimic soft tissue for sonographic system evaluation.",
         "image_explanation": ""
     },
     {
@@ -24601,8 +24601,8 @@
         "respuesta_correcta": [
             "As Low As Reasonably Achievable"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "As Low As Reasonably Achievable (ALARA) Principle",
+        "explicacion_openai": "The ALARA principle is a fundamental guideline in medical ultrasound and other imaging procedures that aims to minimize the exposure to ultrasound energy for both patients and operators. This principle is based on the understanding that, although diagnostic ultrasound is generally considered safe, there may be some risks associated with prolonged or unnecessary exposure. The ALARA concept directs healthcare professionals to use the lowest possible levels of ultrasound power and the shortest possible exposure time needed to obtain the necessary diagnostic information. Other options, such as 'Nonthermal mechanisms' and 'Mechanical mechanism,' refer to the biological effects of ultrasound but do not address exposure minimization. The 'Health Insurance Portability and Accountability Act' (HIPAA) pertains to patient privacy and data security, not to exposure time. Therefore, the correct answer is ALARA because it directly addresses minimizing exposure time and is a critical safety practice in ultrasound, as outlined in the ARDMS SPI content.",
         "image_explanation": ""
     },
     {
@@ -24943,8 +24943,8 @@
         "respuesta_correcta": [
             "Urinary tract infections"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Hospital-acquired (nosocomial) urinary tract infections (UTIs)",
+        "explicacion_openai": "Hospital-acquired infections, known as nosocomial infections, are infections that patients develop during their stay in a healthcare facility and were not present or incubating at the time of admission. Among the various types of nosocomial infections, urinary tract infections (UTIs) are one of the most common, particularly due to factors like the use of urinary catheters, which create a pathway for bacteria to enter the urinary tract. In contrast, conditions such as AIDS, Hepatitis B, and Tuberculosis, while they can be transmitted in healthcare environments, do not occur as frequently as UTIs in the hospital setting. Understanding the prevalence and prevention of hospital-acquired UTIs is crucial for healthcare professionals, as these infections can significantly impact patient outcomes and healthcare costs. This knowledge forms an important part of the ARDMS SPI curriculum, reinforcing the importance of infection control procedures and proper equipment handling in the clinical environment.",
         "image_explanation": ""
     },
     {
@@ -25228,8 +25228,8 @@
         "respuesta_correcta": [
             "30° angle of abduction"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Maximum recommended arm abduction angle to prevent work-related musculoskeletal disorders in sonography.",
+        "explicacion_openai": "According to ergonomics guidelines endorsed by the ARDMS and sonography professional organizations, the maximum recommended angle for arm abduction during scanning is 30 degrees. This limit helps reduce the risk of work-related musculoskeletal disorders (WRMSDs), which are prevalent among sonographers due to repetitive movements and awkward postures. Keeping the arm within 30° of abduction minimizes stress on the shoulder muscles and joints, lowers muscular fatigue, and decreases the likelihood of developing injuries such as rotator cuff tendinitis and shoulder impingement syndrome. Therefore, sonographers should strive to keep their scanning arm as close to the body as possible and never exceed 30° of abduction during scanning tasks to promote occupational health and longevity in their career.",
         "image_explanation": ""
     },
     {
@@ -25323,8 +25323,8 @@
         "respuesta_correcta": [
             "Extreme thirst"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Clinical manifestations of shock",
+        "explicacion_openai": "To accurately identify the clinical manifestations of shock, it's important to understand the physiologic responses the body undergoes during this critical state. Shock is defined as systemic hypoperfusion and inadequate tissue oxygenation, and common clinical signs include clammy (cool, pale, and moist) skin due to vasoconstriction, decreased urine output due to renal hypoperfusion, and increased anxiety as a neurogenic response to decreased cerebral perfusion. Although extreme thirst can sometimes be present in cases of significant hypovolemia, it is not considered a primary or classic manifestation of shock. The question presented 'extreme thirst' as a possible sign; selecting this as the exception is correct, because while thirst may occur, the hallmark clinical manifestations used in medical assessment and SPI (Sonography Principles & Instrumentation) context are the first three. Recognizing these core signs is crucial for rapid diagnosis and intervention in patients suspected of being in shock.",
         "image_explanation": ""
     },
     {
@@ -25627,8 +25627,8 @@
         "respuesta_correcta": [
             "Decreases"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Effect of Damping Material on Transducer Bandwidth",
+        "explicacion_openai": "Understanding how the damping material in an ultrasound transducer affects bandwidth is fundamental in sonography physics. Damping material is used to absorb vibrations after the electrical excitation, shortening the pulse duration and controlling the 'ringing' of the crystal. When the amount of damping is reduced, the transducer vibrates for a longer period (increased 'ringing'), producing a longer spatial pulse length. This results in a more 'pure', narrow frequency output, which translates to a decreased bandwidth. Bandwidth refers to the range of frequencies produced during a pulse; more damping equals broader bandwidth (better axial resolution), while less damping equals a narrower bandwidth. Therefore, the correct answer is 'decreases'—reducing damping narrows the bandwidth. Choosing options like 'increases' or 'remains the same' would be incorrect, because without sufficient damping, the transducer does not generate a wide range of frequencies. These concepts are directly related to image resolution and transducer design in ARDMS SPI.",
         "image_explanation": ""
     },
     {
@@ -25646,8 +25646,8 @@
         "respuesta_correcta": [
             "100"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Gray scale perception by the human eye",
+        "explicacion_openai": "Understanding how many distinct shades of gray the human eye can perceive at one time is essential for interpreting gray scale imaging in medical ultrasound. Although digital systems can display a much higher number of gray levels (such as 256 levels corresponding to 8 bits), the human eye typically cannot distinguish more than around 100 distinct shades of gray simultaneously. Choosing any value above or below this is incorrect because it either overestimates or underestimates normal human vision under standard viewing conditions. This limitation is important in ultrasound image optimization, as increasing the number of available gray shades beyond what can be discriminated offers no practical visual benefit. Knowing this helps in understanding gray scale mapping and display system choices. The correct answer, 100, is based on studies of human visual perception and is referenced in ARDMS SPI content as a standard for grayscale discrimination.",
         "image_explanation": ""
     },
     {
@@ -25741,8 +25741,8 @@
         "respuesta_correcta": [
             "Increased output gain"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Output Power / Output Gain in Ultrasound Imaging",
+        "explicacion_openai": "Increased output gain (often referred to as output power) directly raises the amount of acoustic energy emitted by the transducer into the patient’s body during an ultrasound examination. This is a crucial parameter in acoustic exposure because a higher output gain means more intense ultrasound waves are transmitted, increasing the mechanical and thermal indices which are indicators of potential biological effects. Other parameters like frequency, pulse length, or array type have more subtle or indirect effects on exposure, while output gain has an immediate and proportional impact. In summary, to minimize patient risk and comply with the ALARA (As Low As Reasonably Achievable) principle in sonography, sonographers should use the lowest possible output gain necessary for diagnostic image quality.",
         "image_explanation": ""
     },
     {
@@ -25874,8 +25874,8 @@
         "respuesta_correcta": [
             "Transient"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Transient cavitation",
+        "explicacion_openai": "Transient cavitation refers to the rapid formation and violent collapse of gas bubbles in a liquid when exposed to intense ultrasound waves. Unlike stable cavitation, where bubbles oscillate without collapsing, transient cavitation involves a dramatic implosion that generates extremely high local temperatures and pressures. This event can cause significant mechanical damage to surrounding tissues and cells, making it the most concerning bioeffect in diagnostic ultrasound safety. While absorption and thermal effects relate to heating, and stable cavitation generally does not lead to tissue damage, transient cavitation poses a higher risk due to its potential to disrupt biological structures at the molecular and cellular level. Therefore, understanding transient cavitation is critical for recognizing the most hazardous bioeffect associated with ultrasound exposure.",
         "image_explanation": ""
     },
     {
@@ -26387,8 +26387,8 @@
         "respuesta_correcta": [
             "Decreased risk of cavitation"
         ],
-        "concept_to_study": "",
-        "explicacion_openai": "",
+        "concept_to_study": "Mechanical Index (MI) and its relationship to cavitation risk in ultrasound.",
+        "explicacion_openai": "The Mechanical Index (MI) is a dimensionless parameter used in diagnostic ultrasound to estimate the likelihood of non-thermal bioeffects, specifically cavitation, which refers to the formation and dynamic behavior of microbubbles in tissues due to the ultrasound waves. Cavitation can potentially cause biological effects in tissues exposed to ultrasound, especially at higher MI values. By reducing the MI, the amplitude and pressure of the ultrasound waves are lowered, significantly decreasing the probability of inducing cavitation. Therefore, the direct consequence of lowering the Mechanical Index is a decreased risk of cavitation bioeffects, aligning with safety principles in ultrasonography. On the other hand, MI reduction does not directly impact thermal bioeffects, image resolution, or penetration depth. This makes understanding the MI-cavitation relationship essential for safe ultrasound practice according to SPI principles outlined by ARDMS.",
         "image_explanation": ""
     },
     {
