@@ -16244,24 +16244,24 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 171,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Why may a sonographer use a dedicated, non-imaging probe for a continuous-wave (CW) Doppler exam?",
-        "image": "",
-        "opciones": [
-            "To improve axial resolution",
-            "To correct aliasing",
-            "To enhance spatial resolution",
-            "To improve Doppler signal sensitivity"
-        ],
-        "respuesta_correcta": [
-            "To improve Doppler signal sensitivity"
-        ],
-        "concept_to_study": "Non-imaging probes for CW Doppler.",
-        "explicacion_openai": "A dedicated, non-imaging probe optimizes Continuous-wave (CW) Doppler signal sensitivity by focusing on Doppler acquisition and signal processing. This is particularly used when the precise location of the vessel is known, and imaging is not necessary such as when using a Pedof probe over the heart.",
-        "image_explanation": ""
-    },
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 171,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Why does a sonographer use a dedicated, non-imaging continuous-wave (CW) Doppler probe such as a Pedof probe in clinical practice?",
+    "image": "",
+    "opciones": [
+        "To improve axial resolution",
+        "To obtain anatomical imaging simultaneously",
+        "To enhance Doppler signal sensitivity when imaging is not required",
+        "To increase spatial resolution of the ultrasound beam"
+    ],
+    "respuesta_correcta": [
+        "To enhance Doppler signal sensitivity when imaging is not required"
+    ],
+    "concept_to_study": "Dedicated non-imaging CW Doppler probes (e.g., Pedof) maximize Doppler sensitivity when imaging is unnecessary, especially in cardiac exams.",
+    "explicacion_openai": "Continuous-wave (CW) Doppler has specific advantages and disadvantages in clinical use. Advantages: it can measure very high velocities without aliasing, making it ideal for evaluating severe stenosis or regurgitant jets; it provides continuous sampling of blood flow along the beam path; and when used with a dedicated non-imaging probe (such as a Pedof probe), it maximizes Doppler signal sensitivity because the probe is optimized solely for Doppler acquisition. Disadvantages: CW Doppler lacks range resolution (range ambiguity), meaning signals from multiple depths and vessels may overlap; it does not provide anatomical imaging or spatial resolution; and it cannot localize the exact vessel or structure producing the signal. The distractors in this question highlight these limitations: CW Doppler does not improve axial resolution, does not provide anatomical imaging, and does not enhance spatial resolution. The correct answer is 'To enhance Doppler signal sensitivity when imaging is not required,' which reflects the clinical rationale for using a dedicated non-imaging CW probe."
+},
+
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 172,
