@@ -11772,7 +11772,7 @@
             "Damping lowers the transducer's sensitivity"
         ],
         "respuesta_correcta": [
-            "Damping shortens spatial pulse length"
+            "Damping degrades axial resolution"
         ],
         "concept_to_study": "Efectos del material de amortiguamiento (damping) en transductores de ultrasonido",
         "explicacion_openai": "The damping material in an ultrasound transducer serves to reduce the number of cycles within each emitted pulse. This shortening of pulse duration, and thus spatial pulse length (SPL), results in improved axial resolution because the echoes from closely spaced structures are less likely to overlap. Damping also reduces the amplitude and sensitivity of the transducer, as it absorbs energy that would otherwise contribute to the signal's strength. Importantly, the statement claiming that 'Damping shortens spatial pulse length' is incorrect because, in reality, damping DOES shorten the spatial pulse length as described. The only assertion in the given options that is not correct is the one that denies this effect. Thus, understanding the role of damping focuses on recognizing its impact: it reduces pulse duration, lowers SPL, degrades sensitivity, and often improves (not degrades) axial resolution by limiting pulse length. Confusing the effect on axial resolution or pulse length demonstrates a misunderstanding of the core principle that damping makes pulses shorter and thus images clearer in the axial plane.",
