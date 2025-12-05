@@ -14315,11 +14315,11 @@
         "opciones": [
             "The measured frequency shifts come from a user-selected depth",
             "A range gate is placed in the vessel to be sampled",
-            "CW beams have a large sample volume that may sample several vessels at once",
-            "CW Doppler is able to measure very high frequency shifts"
+            "CW beams have a large sample volume that may sample several vessels at once and measure very high frequency shifts",
+            "CW Doppler is able to measure very high frequency shifts and provide real time imaging"
         ],
         "respuesta_correcta": [
-            "CW beams have a large sample volume that may sample several vessels at once"
+            "CW beams have a large sample volume that may sample several vessels at once and measure very high frequency shifts"
         ],
         "concept_to_study": "Sample volume in CW Doppler",
         "explicacion_openai": "Continuous Wave (CW) Doppler uses two ultrasound crystals: one for continuous transmission and another for continuous reception. Because of this design, CW Doppler cannot localize signals to a specific depth (no range resolution); instead, it samples the Doppler shifts from all moving blood cells along the entire length of the ultrasound beam. This creates a large sample volume, often referred to as the 'range ambiguity' of CW Doppler. Therefore, CW Doppler may detect signals from multiple blood vessels that lie within the beam path at different depths, not just the target vessel. Unlike Pulsed Wave (PW) Doppler, which uses a range gate to sample at a specific location, CW Doppler’s inherent lack of depth discrimination means you must be cautious about overlapping signals. The other options are incorrect because CW Doppler does not provide sample depth selection or range gating, and while it can detect high-velocity flows without aliasing, the defining characteristic relevant to this question is the large and non-specific sample volume. Understanding this is critical in clinical practice to avoid misinterpretation of Doppler signals in vascular studies.",
