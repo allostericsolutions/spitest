@@ -3115,24 +3115,23 @@
         "explicacion_openai": "In ultrasound physics, the intensity of a sound wave refers to the amount of energy carried by the wave per unit area. As an ultrasound wave travels through various tissues, its intensity changes depending on the medium’s acoustic properties, mainly due to attenuation. Attenuation is the reduction in wave amplitude and intensity as it propagates, primarily caused by absorption, reflection, and scattering. Air is the medium that exhibits the lowest ultrasound intensity because it causes extremely high attenuation of sound waves. Most of the ultrasound energy is reflected at the tissue-air boundary due to the vast difference in acoustic impedance between tissues and air, and very little energy is transmitted. Therefore, virtually no ultrasound energy passes through air, making its measured intensity extremely low. In comparison, bone, muscle, and fat allow more ultrasound transmission, even though each has distinct attenuation rates. Understanding these principles is essential to comprehend why air is an ineffective medium for ultrasound transmission and imaging, leading to air exhibiting the lowest intensity among these choices.",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 165,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Define spatial pulse length in terms of wavelength and pulse cycles.",
-        "image": "",
-        "opciones": [
-            "Frequency, wavelength",
-            "Amplitude, cycles",
-            "Wavelength, cycles",
-            "Frequency, amplitude"
-        ],
-        "respuesta_correcta": [
-            "Wavelength, cycles"
-        ],
-        "concept_to_study": "Spatial Pulse Length (SPL): its relationship to wavelength and the number of cycles in a pulse.",
-        "explicacion_openai": "Spatial Pulse Length (SPL) is a fundamental parameter in diagnostic ultrasound physics, specifically addressed in the ARDMS SPI curriculum. SPL represents the physical length that a pulse occupies in the medium, measured from the beginning to the end of one pulse. It is determined by both the wavelength of the sound (which depends on frequency and the propagation speed in tissue) and by the number of cycles that make up each pulse. The correct formula is SPL = Number of Cycles × Wavelength.\n\nMisunderstandings sometimes arise when learners confuse SPL with parameters like frequency or amplitude—however, SPL does not express how often pulses occur (frequency), nor their strength (amplitude). The only variables that define SPL are how many cycles are in each pulse and how long each cycle is, i.e., its wavelength. Therefore, the correct and complete answer must be 'Wavelength, cycles,' as both are directly involved in the calculation and understanding of spatial pulse length in medical ultrasound.",
-        "image_explanation": ""
+   {
+    "clasificacion": "Physical Principles",
+    "grupo": 165,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which combination of parameters determines the spatial pulse length (SPL) in diagnostic ultrasound?",
+    "image": "",
+    "opciones": [
+        "Pulse repetition frequency and wavelength",
+        "Duty factor and cycles",
+        "Wavelength and number of cycles",
+        "Propagation speed and frequency"
+    ],
+    "respuesta_correcta": [
+        "Wavelength and number of cycles"
+    ],
+    "concept_to_study": "Spatial Pulse Length (SPL): SPL is defined as the product of wavelength and the number of cycles in a pulse.",
+    "explicacion_openai": "Spatial Pulse Length (SPL) is calculated by multiplying the wavelength of the sound by the number of cycles in the pulse. SPL = Wavelength × Number of cycles. Distractors such as 'Pulse repetition frequency and wavelength' or 'Propagation speed and frequency' are designed to confuse students by mixing related parameters, but they do not define SPL. 'Duty factor and cycles' relates to temporal characteristics, not spatial length. The correct answer is 'Wavelength and number of cycles,' which directly determines SPL and impacts axial resolution in diagnostic ultrasound."
     },
     {
         "clasificacion": "Physical Principles",
