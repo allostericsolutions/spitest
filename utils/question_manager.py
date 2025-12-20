@@ -1,13 +1,8 @@
-
 import json
 import random
 import streamlit as st
 
 def load_questions():
-    """
-    Loads all questions from 'data/preguntas.json'.
-    """
-    with open('data/preguntas.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 # ──────────────────────────────────────────────────────────
@@ -142,9 +137,6 @@ def shuffle_options(question):
     random.shuffle(opciones)
     return opciones
 
-# ──────────────────────────────────────────────────────────
-# FUNCIÓN calculate_score() AGREGADA
-# ──────────────────────────────────────────────────────────
 def calculate_score():
     """
     Calculates the exam score and stores incorrect answers.
@@ -156,24 +148,32 @@ def calculate_score():
         return 0
 
     correct_count = 0
+    # ──────────────────────────────────────────────────────────
+    # Contadores de aciertos por clasificación
+    # ──────────────────────────────────────────────────────────
     classification_stats = {}
 
-    # Acceso robusto al nombre del usuario
+    # --- CAMBIO AQUÍ: Acceso más robusto al nombre del usuario ---
+    # Aseguramos que user_data exista y luego obtenemos el nombre, con un fallback 'Unknown User'
     user_name = st.session_state.get('user_data', {}).get('nombre', 'Unknown User')
+    # --- FIN DEL CAMBIO ---
 
     for idx, question in enumerate(questions):
+        # Inicializar conteo para la clasificación de la pregunta
         clasif = question.get("clasificacion", "Other")
         if clasif not in classification_stats:
             classification_stats[clasif] = {"correct": 0, "total": 0}
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
+        # Añadir el nombre del usuario al print
         print(f"[{user_name}] Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")  # DEBUG
 
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
             classification_stats[clasif]["correct"] += 1
-        elif user_answer is not None:
+        elif user_answer is not None:  # Solo registra si el usuario respondió
+            # Construimos la info de respuesta incorrecta
             incorrect_info = {
                 "pregunta": {
                     "enunciado": question["enunciado"],
@@ -187,11 +187,14 @@ def calculate_score():
                 "indice_pregunta": idx
             }
             st.session_state.incorrect_answers.append(incorrect_info)
+            # Añadir el nombre del usuario al print
             print(f"[{user_name}] Añadida respuesta incorrecta a la lista: {incorrect_info}")  # DEBUG
 
+    # Añadir el nombre del usuario al print
     print(f"[{user_name}] Total de respuestas correctas: {correct_count}")  # DEBUG
     print(f"[{user_name}] Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")  # DEBUG
 
+    # Guardar la estadística de clasificaciones
     st.session_state.classification_stats = classification_stats
 
     x = correct_count / total_questions
