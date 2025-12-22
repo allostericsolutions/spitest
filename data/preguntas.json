@@ -12656,7 +12656,7 @@
         "clasificacion": "Ultrasound Transducers",
         "grupo": 255,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What refers to the ability to resolve two parallel reflectors?",
+        "enunciado": "What refers to the ability to resolve two reflectors located parallel to the sound beam's main axis?",
         "image": "",
         "opciones": [
             "Lateral resolution",
