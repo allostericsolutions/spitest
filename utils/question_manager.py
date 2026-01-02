@@ -1,80 +1,14 @@
+
 import json
 import random
 import streamlit as st
 
 def load_questions():
+    """
+    Loads all questions from 'data/preguntas.json'.
+    """
+    with open('data/preguntas.json', 'r', encoding='utf-8') as f:
         return json.load(f)
-
-# ──────────────────────────────────────────────────────────
-# Utilidades para post-proceso de imágenes (solo examen full)
-# ──────────────────────────────────────────────────────────
-def _qid(q):
-    """
-    Identificador único de la pregunta: usa 'id' si existe; si no, 'enunciado'.
-    """
-    return str(q.get("id") or q.get("enunciado"))
-
-def _has_image(q):
-    """
-    Determina si la pregunta tiene imagen (campo 'image' no vacío).
-    """
-    img = q.get("image")
-    return bool(img and str(img).strip())
-
-def ensure_additional_images_by_distribution(selected_questions, add_distribution):
-    """
-    Post-proceso: reemplaza preguntas SIN imagen por preguntas CON imagen
-    dentro de la MISMA clasificación, según la distribución pedida (p.ej. 4/4/2).
-    - No duplica preguntas (usa id/enunciado para evitar repetir).
-    - No altera la distribución por clasificación (reemplazo 1 a 1 en la misma clase).
-    - Si en alguna clase no hay suficientes víctimas o candidatas, añade las que se pueda.
-    - No redistribuye el faltante a otras clases (respeta el ratio).
-    """
-    if not add_distribution:
-        return selected_questions
-
-    # Fuente: banco completo
-    source = load_questions()
-
-    # Conjunto de IDs ya seleccionados
-    selected_ids = {_qid(q) for q in selected_questions}
-
-    # Víctimas (SIN imagen) por clase elegible
-    victims_by_class = {}
-    for idx, q in enumerate(selected_questions):
-        c = q.get("clasificacion", "Other")
-        if c in add_distribution and not _has_image(q):
-            victims_by_class.setdefault(c, []).append(idx)
-
-    # Pool de candidatas (CON imagen) por clase elegible, evitando duplicados
-    pool_by_class = {}
-    for q in source:
-        c = q.get("clasificacion", "Other")
-        if c in add_distribution and _has_image(q):
-            qid = _qid(q)
-            if qid not in selected_ids:
-                pool_by_class.setdefault(c, []).append(q)
-
-    # Aleatoriedad en víctimas y pool
-    for c in victims_by_class:
-        random.shuffle(victims_by_class[c])
-    for c in pool_by_class:
-        random.shuffle(pool_by_class[c])
-
-    # Ejecutar el plan por clase (no se redistribuye el faltante)
-    for c, target in add_distribution.items():
-        if target <= 0:
-            continue
-        victims = victims_by_class.get(c, [])
-        pool = pool_by_class.get(c, [])
-        while target > 0 and victims and pool:
-            v_idx = victims.pop()
-            cand = pool.pop()
-            selected_questions[v_idx] = cand
-            selected_ids.add(_qid(cand))
-            target -= 1
-
-    return selected_questions
 
 def select_random_questions(total=120):
     """
@@ -110,21 +44,6 @@ def select_random_questions(total=120):
     if remaining > 0:
         remaining_pool = [p for p in preguntas if p not in selected_questions]
         selected_questions.extend(random.sample(remaining_pool, remaining))
-
-    # ──────────────────────────────────────────────────────────
-    # POST-PROCESO: sumar +10 preguntas con imagen (4/4/2)
-    # Clases objetivo:
-    # - Doppler Imaging Concepts: 4
-    # - Imaging Principles and Instrumentation: 4
-    # - Ultrasound Transducers: 2
-    # ──────────────────────────────────────────────────────────
-    add_plan_by_class = {
-        "Doppler Imaging Concepts": 4,
-        "Imaging Principles and Instrumentation": 4,
-        "Ultrasound Transducers": 2,
-    }
-    selected_questions = ensure_additional_images_by_distribution(selected_questions, add_plan_by_class)
-    # ──────────────────────────────────────────────────────────
 
     random.shuffle(selected_questions)
     return selected_questions
