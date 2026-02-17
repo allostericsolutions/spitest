@@ -28460,5 +28460,141 @@
         "concept_to_study": "Accuracy of Diagnostic Tests",
         "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
         "image_explanation": ""
+    },
+    {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 246,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Adjusting the transmit frequency of an ultrasound system will directly change which of the following parameters?",
+    "image": "",
+    "opciones": [
+        "Displacement amplitude of particles in the medium",
+        "Propagation speed of sound in tissue",
+        "Number of cycles produced each second",
+        "Number of pulses emitted per second",
+        "Electrical pulse rate applied to the transducer"
+    ],
+    "respuesta_correcta": [
+        "Number of cycles produced each second"
+    ],
+    "concept_to_study": "Ultrasound Frequency and Wave Properties",
+    "explicacion_openai": "Transmit frequency refers to the number of cycles per second of the ultrasound wave. Changing the frequency alters this value but does not affect sound speed, pulse repetition frequency, or particle displacement amplitude.",
+    "image_explanation": ""
+},
+
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following situations may lead to increased tissue heating?",
+        "image": "",
+        "opciones": [
+            "Increase transmit power",
+            "Increase overall gain",
+            "Decrease scan time",
+            "Reduce duty cycle"
+        ],
+        "respuesta_correcta": [
+            "Increase transmit power"
+        ],
+        "concept_to_study": "Tissue Heating and Transmit Power",
+        "explicacion_openai": "Increasing transmit power increases the amount of acoustic energy delivered to tissue, which raises energy absorption and can result in increased tissue heating. Changes such as overall gain affect signal amplification, not energy transmission.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What does the mechanical index (MI) represent in an ultrasound system?",
+        "image": "",
+        "opciones": [
+            "The likelihood of cavitation",
+            "The amount of tissue heating",
+            "The depth of penetration",
+            "The overall image brightness"
+        ],
+        "respuesta_correcta": [
+            "The likelihood of cavitation"
+        ],
+        "concept_to_study": "Mechanical Index and Cavitation Risk",
+        "explicacion_openai": "The mechanical index (MI) indicates the likelihood of cavitation occurring in tissue due to ultrasound exposure. It is related to peak negative pressure and helps assess the risk of mechanical bioeffects, not thermal effects.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control directly increases the intensity of the transmitted ultrasound pulse?",
+        "image": "",
+        "opciones": [
+            "Increase transmit power",
+            "Increase overall gain",
+            "Adjust time gain compensation",
+            "Increase receiver amplification"
+        ],
+        "respuesta_correcta": [
+            "Increase transmit power"
+        ],
+        "concept_to_study": "Transmit Power and Pulse Intensity",
+        "explicacion_openai": "Transmit power directly controls the amount of acoustic energy sent into the patient and therefore increases the intensity of the transmitted pulse. Controls such as overall gain and receiver amplification only affect signal processing after reception and do not change transmitted intensity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which intensity measurement represents the maximum ultrasound intensity?",
+        "image": "",
+        "opciones": [
+            "SPTP",
+            "SATP",
+            "SATA",
+            "SPTA"
+        ],
+        "respuesta_correcta": [
+            "SPTP"
+        ],
+        "concept_to_study": "Ultrasound Intensity Descriptors",
+        "explicacion_openai": "SPTP (Spatial Peak Temporal Peak) represents the maximum ultrasound intensity because it reflects the highest intensity at a single point in space during the peak of the pulse.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which intensity measurement represents the lowest ultrasound intensity over time?",
+        "image": "",
+        "opciones": [
+            "SATA",
+            "SATP",
+            "SPPA",
+            "SPTP"
+        ],
+        "respuesta_correcta": [
+            "SATA"
+        ],
+        "concept_to_study": "Ultrasound Intensity Descriptors",
+        "explicacion_openai": "SATA (Spatial Average Temporal Average) represents the lowest intensity because it averages ultrasound intensity over both space and time, including pulse and rest periods.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which ultrasound application has the lowest FDA-approved SPTA intensity limit?",
+        "image": "",
+        "opciones": [
+            "Ophthalmic imaging",
+            "Abdominal imaging",
+            "Cardiac imaging",
+            "Obstetric imaging"
+        ],
+        "respuesta_correcta": [
+            "Ophthalmic imaging"
+        ],
+        "concept_to_study": "FDA SPTA Limits by Ultrasound Application",
+        "explicacion_openai": "Ophthalmic ultrasound has the lowest FDA-approved SPTA limits because ocular tissues are highly sensitive to ultrasound energy and more vulnerable to thermal and mechanical bioeffects.",
+        "image_explanation": ""
     }
+
 ]
