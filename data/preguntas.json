@@ -28823,5 +28823,24 @@
         "concept_to_study": "Distance conversion: m to cm",
         "explicacion_openai": "There are 100 centimeters in 1 meter. Multiplying 0.01 m by 100 gives 1 cm.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Wavelength is determined by which two factors?",
+        "image": "",
+        "opciones": [
+            "Amplitude and intensity",
+            "Frequency and propagation speed",
+            "Period and amplitude",
+            "Power and frequency"
+        ],
+        "respuesta_correcta": [
+            "Frequency and propagation speed"
+        ],
+        "concept_to_study": "Wavelength determinants",
+        "explicacion_openai": "Wavelength is defined by the equation λ = c / f, where 'c' is the propagation speed of the medium and 'f' is the frequency of the source.",
+        "image_explanation": ""
     }
 ]
