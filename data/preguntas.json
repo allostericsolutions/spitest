@@ -28595,6 +28595,233 @@
         "concept_to_study": "FDA SPTA Limits by Ultrasound Application",
         "explicacion_openai": "Ophthalmic ultrasound has the lowest FDA-approved SPTA limits because ocular tissues are highly sensitive to ultrasound energy and more vulnerable to thermal and mechanical bioeffects.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A pulse repetition frequency (PRF) of 5 kHz is equivalent to how many pulses per second?",
+        "image": "",
+        "opciones": [
+            "0.005",
+            "50",
+            "500",
+            "5,000"
+        ],
+        "respuesta_correcta": [
+            "5,000"
+        ],
+        "concept_to_study": "Unit conversion: Kilo",
+        "explicacion_openai": "The metric prefix 'kilo' denotes a factor of 1,000. Therefore, 5 kHz equals 5,000 Hz or pulses per second.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A transducer frequency of 7.5 MHz can also be expressed as:",
+        "image": "",
+        "opciones": [
+            "7,500 Hz",
+            "75,000 Hz",
+            "750,000 Hz",
+            "7,500,000 Hz"
+        ],
+        "respuesta_correcta": [
+            "7,500,000 Hz"
+        ],
+        "concept_to_study": "Unit conversion: Mega",
+        "explicacion_openai": "The prefix 'Mega' means million (10^6). Multiplying 7.5 by 1,000,000 results in 7,500,000 Hz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How many millimeters are in 4 centimeters?",
+        "image": "",
+        "opciones": [
+            "0.4 mm",
+            "4 mm",
+            "40 mm",
+            "400 mm"
+        ],
+        "respuesta_correcta": [
+            "40 mm"
+        ],
+        "concept_to_study": "Distance conversion: cm to mm",
+        "explicacion_openai": "There are 10 millimeters in every 1 centimeter. Therefore, 4 cm x 10 = 40 mm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following represents 0.000001 seconds?",
+        "image": "",
+        "opciones": [
+            "1 millisecond",
+            "1 microsecond",
+            "1 nanosecond",
+            "1 picosecond"
+        ],
+        "respuesta_correcta": [
+            "1 microsecond"
+        ],
+        "concept_to_study": "Unit conversion: Micro",
+        "explicacion_openai": "The prefix 'micro' represents one-millionth (10^-6), which is 0.000001.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A wave has a period of 500 nanoseconds. How is this expressed in microseconds?",
+        "image": "",
+        "opciones": [
+            "0.05 microseconds",
+            "0.5 microseconds",
+            "5 microseconds",
+            "50 microseconds"
+        ],
+        "respuesta_correcta": [
+            "0.5 microseconds"
+        ],
+        "concept_to_study": "Unit conversion: Nano to Micro",
+        "explicacion_openai": "There are 1,000 nanoseconds in 1 microsecond. To convert 500 ns to microseconds, divide by 1,000 (500/1000 = 0.5).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Convert 1.54 millimeters to meters:",
+        "image": "",
+        "opciones": [
+            "0.00154 m",
+            "0.0154 m",
+            "0.154 m",
+            "1,540 m"
+        ],
+        "respuesta_correcta": [
+            "0.00154 m"
+        ],
+        "concept_to_study": "Distance conversion: mm to m",
+        "explicacion_openai": "To convert millimeters to meters, divide by 1,000 (the number of mm in a meter). 1.54 / 1000 = 0.00154.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A frequency of 10,000,000 Hz is equivalent to:",
+        "image": "",
+        "opciones": [
+            "10 kHz",
+            "100 kHz",
+            "10 MHz",
+            "10 GHz"
+        ],
+        "respuesta_correcta": [
+            "10 MHz"
+        ],
+        "concept_to_study": "Unit conversion: Hz to MHz",
+        "explicacion_openai": "To convert Hz to MHz, divide by 1,000,000. 10,000,000 / 1,000,000 = 10 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How many microseconds are in 2 milliseconds?",
+        "image": "",
+        "opciones": [
+            "0.002",
+            "20",
+            "200",
+            "2,000"
+        ],
+        "respuesta_correcta": [
+            "2,000"
+        ],
+        "concept_to_study": "Time conversion: ms to microseconds",
+        "explicacion_openai": "There are 1,000 microseconds in 1 millisecond. Therefore, 2 ms x 1,000 = 2,000 microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a pulse repetition period (PRP) is 0.1 ms, what is it in microseconds?",
+        "image": "",
+        "opciones": [
+            "1 microsecond",
+            "10 microseconds",
+            "100 microseconds",
+            "1,000 microseconds"
+        ],
+        "respuesta_correcta": [
+            "100 microseconds"
+        ],
+        "concept_to_study": "Time conversion: decimal ms to microseconds",
+        "explicacion_openai": "Multiply the millisecond value by 1,000 to get microseconds. 0.1 x 1,000 = 100 microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the largest numerical value?",
+        "image": "",
+        "opciones": [
+            "100 mm",
+            "10 cm",
+            "1 m",
+            "0.1 km"
+        ],
+        "respuesta_correcta": [
+            "0.1 km"
+        ],
+        "concept_to_study": "Metric hierarchy",
+        "explicacion_openai": "0.1 km equals 100 meters. The other options are 0.1 m (100 mm and 10 cm) and 1 m. 100 meters is the largest value.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A signal that occurs 2,000,000 times per second can be written as:",
+        "image": "",
+        "opciones": [
+            "2 kHz",
+            "20 kHz",
+            "2 MHz",
+            "20 MHz"
+        ],
+        "respuesta_correcta": [
+            "2 MHz"
+        ],
+        "concept_to_study": "Unit conversion: frequency",
+        "explicacion_openai": "2,000,000 cycles per second is 2 million Hertz, which is 2 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 246,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is 0.01 meters expressed in centimeters?",
+        "image": "",
+        "opciones": [
+            "1 cm",
+            "10 cm",
+            "100 cm",
+            "0.1 cm"
+        ],
+        "respuesta_correcta": [
+            "1 cm"
+        ],
+        "concept_to_study": "Distance conversion: m to cm",
+        "explicacion_openai": "There are 100 centimeters in 1 meter. Multiplying 0.01 m by 100 gives 1 cm.",
+        "image_explanation": ""
     }
-
 ]
