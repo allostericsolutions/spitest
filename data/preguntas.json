@@ -28842,5 +28842,24 @@
         "concept_to_study": "Wavelength determinants",
         "explicacion_openai": "Wavelength is defined by the equation λ = c / f, where 'c' is the propagation speed of the medium and 'f' is the frequency of the source.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": 246,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "All of the following concepts are related to acoustic impedance EXCEPT:",
+    "image": "",
+    "opciones": [
+        "Stiffness",
+        "Density",
+        "Rayls",
+        "Frequency"
+    ],
+    "respuesta_correcta": [
+        "Frequency"
+    ],
+    "concept_to_study": "Acoustic Impedance",
+    "explicacion_openai": "Acoustic impedance depends on the density and stiffness of a medium. Density and stiffness together determine the propagation speed of sound, which is directly related to acoustic impedance. Impedance is expressed in rayls. Frequency is not a factor in determining acoustic impedance.",
+    "image_explanation": ""
+}
 ]
