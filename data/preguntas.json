@@ -3115,23 +3115,24 @@
         "explicacion_openai": "In ultrasound physics, the intensity of a sound wave refers to the amount of energy carried by the wave per unit area. As an ultrasound wave travels through various tissues, its intensity changes depending on the medium’s acoustic properties, mainly due to attenuation. Attenuation is the reduction in wave amplitude and intensity as it propagates, primarily caused by absorption, reflection, and scattering. Air is the medium that exhibits the lowest ultrasound intensity because it causes extremely high attenuation of sound waves. Most of the ultrasound energy is reflected at the tissue-air boundary due to the vast difference in acoustic impedance between tissues and air, and very little energy is transmitted. Therefore, virtually no ultrasound energy passes through air, making its measured intensity extremely low. In comparison, bone, muscle, and fat allow more ultrasound transmission, even though each has distinct attenuation rates. Understanding these principles is essential to comprehend why air is an ineffective medium for ultrasound transmission and imaging, leading to air exhibiting the lowest intensity among these choices.",
         "image_explanation": ""
     },
-   {
-    "clasificacion": "Physical Principles",
-    "grupo": 165,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which combination of parameters determines the spatial pulse length (SPL) in diagnostic ultrasound?",
-    "image": "",
-    "opciones": [
-        "Pulse repetition frequency and wavelength",
-        "Duty factor and cycles",
-        "Wavelength and number of cycles",
-        "Propagation speed and frequency"
-    ],
-    "respuesta_correcta": [
-        "Wavelength and number of cycles"
-    ],
-    "concept_to_study": "Spatial Pulse Length (SPL): SPL is defined as the product of wavelength and the number of cycles in a pulse.",
-    "explicacion_openai": "Spatial Pulse Length (SPL) is calculated by multiplying the wavelength of the sound by the number of cycles in the pulse. SPL = Wavelength × Number of cycles. Distractors such as 'Pulse repetition frequency and wavelength' or 'Propagation speed and frequency' are designed to confuse students by mixing related parameters, but they do not define SPL. 'Duty factor and cycles' relates to temporal characteristics, not spatial length. The correct answer is 'Wavelength and number of cycles,' which directly determines SPL and impacts axial resolution in diagnostic ultrasound."
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 165,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which combination of parameters determines the spatial pulse length (SPL) in diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "Pulse repetition frequency and wavelength",
+            "Duty factor and cycles",
+            "Wavelength and number of cycles",
+            "Propagation speed and frequency"
+        ],
+        "respuesta_correcta": [
+            "Wavelength and number of cycles"
+        ],
+        "concept_to_study": "Spatial Pulse Length (SPL): SPL is defined as the product of wavelength and the number of cycles in a pulse.",
+        "explicacion_openai": "Spatial Pulse Length (SPL) is calculated by multiplying the wavelength of the sound by the number of cycles in the pulse. SPL = Wavelength × Number of cycles. Distractors such as 'Pulse repetition frequency and wavelength' or 'Propagation speed and frequency' are designed to confuse students by mixing related parameters, but they do not define SPL. 'Duty factor and cycles' relates to temporal characteristics, not spatial length. The correct answer is 'Wavelength and number of cycles,' which directly determines SPL and impacts axial resolution in diagnostic ultrasound.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Physical Principles",
@@ -7824,6 +7825,272 @@
         ],
         "concept_to_study": "Wavelength",
         "explicacion_openai": "Wavelength (λ) is the spatial length of one complete cycle of a sound wave and is calculated as the propagation speed (c) divided by the frequency (f), i.e., λ = c/f. Since propagation speed is determined by the medium and frequency is determined by the source, wavelength is consequently influenced by both. For review: Frequency and Period are determined by the source; Propagation Speed is determined by the medium.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 413,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A pulse repetition frequency (PRF) of 5 kHz is equivalent to how many pulses per second?",
+        "image": "",
+        "opciones": [
+            "0.005",
+            "50",
+            "500",
+            "5,000"
+        ],
+        "respuesta_correcta": [
+            "5,000"
+        ],
+        "concept_to_study": "Unit conversion: Kilo",
+        "explicacion_openai": "The metric prefix 'kilo' denotes a factor of 1,000. Therefore, 5 kHz equals 5,000 Hz or pulses per second.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 414,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A transducer frequency of 7.5 MHz can also be expressed as:",
+        "image": "",
+        "opciones": [
+            "7,500 Hz",
+            "75,000 Hz",
+            "750,000 Hz",
+            "7,500,000 Hz"
+        ],
+        "respuesta_correcta": [
+            "7,500,000 Hz"
+        ],
+        "concept_to_study": "Unit conversion: Mega",
+        "explicacion_openai": "The prefix 'Mega' means million (10^6). Multiplying 7.5 by 1,000,000 results in 7,500,000 Hz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 415,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How many millimeters are in 4 centimeters?",
+        "image": "",
+        "opciones": [
+            "0.4 mm",
+            "4 mm",
+            "40 mm",
+            "400 mm"
+        ],
+        "respuesta_correcta": [
+            "40 mm"
+        ],
+        "concept_to_study": "Distance conversion: cm to mm",
+        "explicacion_openai": "There are 10 millimeters in every 1 centimeter. Therefore, 4 cm x 10 = 40 mm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 416,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following represents 0.000001 seconds?",
+        "image": "",
+        "opciones": [
+            "1 millisecond",
+            "1 microsecond",
+            "1 nanosecond",
+            "1 picosecond"
+        ],
+        "respuesta_correcta": [
+            "1 microsecond"
+        ],
+        "concept_to_study": "Unit conversion: Micro",
+        "explicacion_openai": "The prefix 'micro' represents one-millionth (10^-6), which is 0.000001.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 417,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A wave has a period of 500 nanoseconds. How is this expressed in microseconds?",
+        "image": "",
+        "opciones": [
+            "0.05 microseconds",
+            "0.5 microseconds",
+            "5 microseconds",
+            "50 microseconds"
+        ],
+        "respuesta_correcta": [
+            "0.5 microseconds"
+        ],
+        "concept_to_study": "Unit conversion: Nano to Micro",
+        "explicacion_openai": "There are 1,000 nanoseconds in 1 microsecond. To convert 500 ns to microseconds, divide by 1,000 (500/1000 = 0.5).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 418,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Convert 1.54 millimeters to meters:",
+        "image": "",
+        "opciones": [
+            "0.00154 m",
+            "0.0154 m",
+            "0.154 m",
+            "1,540 m"
+        ],
+        "respuesta_correcta": [
+            "0.00154 m"
+        ],
+        "concept_to_study": "Distance conversion: mm to m",
+        "explicacion_openai": "To convert millimeters to meters, divide by 1,000 (the number of mm in a meter). 1.54 / 1000 = 0.00154.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 419,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A frequency of 10,000,000 Hz is equivalent to:",
+        "image": "",
+        "opciones": [
+            "10 kHz",
+            "100 kHz",
+            "10 MHz",
+            "10 GHz"
+        ],
+        "respuesta_correcta": [
+            "10 MHz"
+        ],
+        "concept_to_study": "Unit conversion: Hz to MHz",
+        "explicacion_openai": "To convert Hz to MHz, divide by 1,000,000. 10,000,000 / 1,000,000 = 10 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 420,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How many microseconds are in 2 milliseconds?",
+        "image": "",
+        "opciones": [
+            "0.002",
+            "20",
+            "200",
+            "2,000"
+        ],
+        "respuesta_correcta": [
+            "2,000"
+        ],
+        "concept_to_study": "Time conversion: ms to microseconds",
+        "explicacion_openai": "There are 1,000 microseconds in 1 millisecond. Therefore, 2 ms x 1,000 = 2,000 microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 421,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If a pulse repetition period (PRP) is 0.1 ms, what is it in microseconds?",
+        "image": "",
+        "opciones": [
+            "1 microsecond",
+            "10 microseconds",
+            "100 microseconds",
+            "1,000 microseconds"
+        ],
+        "respuesta_correcta": [
+            "100 microseconds"
+        ],
+        "concept_to_study": "Time conversion: decimal ms to microseconds",
+        "explicacion_openai": "Multiply the millisecond value by 1,000 to get microseconds. 0.1 x 1,000 = 100 microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 422,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is the largest numerical value?",
+        "image": "",
+        "opciones": [
+            "100 mm",
+            "10 cm",
+            "1 m",
+            "0.1 km"
+        ],
+        "respuesta_correcta": [
+            "0.1 km"
+        ],
+        "concept_to_study": "Metric hierarchy",
+        "explicacion_openai": "0.1 km equals 100 meters. The other options are 0.1 m (100 mm and 10 cm) and 1 m. 100 meters is the largest value.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 423,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A signal that occurs 2,000,000 times per second can be written as:",
+        "image": "",
+        "opciones": [
+            "2 kHz",
+            "20 kHz",
+            "2 MHz",
+            "20 MHz"
+        ],
+        "respuesta_correcta": [
+            "2 MHz"
+        ],
+        "concept_to_study": "Unit conversion: frequency",
+        "explicacion_openai": "2,000,000 cycles per second is 2 million Hertz, which is 2 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 424,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What is 0.01 meters expressed in centimeters?",
+        "image": "",
+        "opciones": [
+            "1 cm",
+            "10 cm",
+            "100 cm",
+            "0.1 cm"
+        ],
+        "respuesta_correcta": [
+            "1 cm"
+        ],
+        "concept_to_study": "Distance conversion: m to cm",
+        "explicacion_openai": "There are 100 centimeters in 1 meter. Multiplying 0.01 m by 100 gives 1 cm.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 425,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Wavelength is determined by which two factors?",
+        "image": "",
+        "opciones": [
+            "Amplitude and intensity",
+            "Frequency and propagation speed",
+            "Period and amplitude",
+            "Power and frequency"
+        ],
+        "respuesta_correcta": [
+            "Frequency and propagation speed"
+        ],
+        "concept_to_study": "Wavelength determinants",
+        "explicacion_openai": "Wavelength is defined by the equation λ = c / f, where 'c' is the propagation speed of the medium and 'f' is the frequency of the source.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 426,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "All of the following concepts are related to acoustic impedance EXCEPT:",
+        "image": "",
+        "opciones": [
+            "Stiffness",
+            "Density",
+            "Rayls",
+            "Frequency"
+        ],
+        "respuesta_correcta": [
+            "Frequency"
+        ],
+        "concept_to_study": "Acoustic Impedance",
+        "explicacion_openai": "Acoustic impedance depends on the density and stiffness of a medium. Density and stiffness together determine the propagation speed of sound, which is directly related to acoustic impedance. Impedance is expressed in rayls. Frequency is not a factor in determining acoustic impedance.",
         "image_explanation": ""
     },
     {
@@ -16244,24 +16511,24 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 171,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Why does a sonographer use a dedicated, non-imaging continuous-wave (CW) Doppler probe such as a Pedof probe in clinical practice?",
-    "image": "",
-    "opciones": [
-        "To improve axial resolution",
-        "To obtain anatomical imaging simultaneously",
-        "To enhance Doppler signal sensitivity when imaging is not required",
-        "To increase spatial resolution of the ultrasound beam"
-    ],
-    "respuesta_correcta": [
-        "To enhance Doppler signal sensitivity when imaging is not required"
-    ],
-    "concept_to_study": "Dedicated non-imaging CW Doppler probes (e.g., Pedof) maximize Doppler sensitivity when imaging is unnecessary, especially in cardiac exams.",
-    "explicacion_openai": "Continuous-wave (CW) Doppler has specific advantages and disadvantages in clinical use. Advantages: it can measure very high velocities without aliasing, making it ideal for evaluating severe stenosis or regurgitant jets; it provides continuous sampling of blood flow along the beam path; and when used with a dedicated non-imaging probe (such as a Pedof probe), it maximizes Doppler signal sensitivity because the probe is optimized solely for Doppler acquisition. Disadvantages: CW Doppler lacks range resolution (range ambiguity), meaning signals from multiple depths and vessels may overlap; it does not provide anatomical imaging or spatial resolution; and it cannot localize the exact vessel or structure producing the signal. The distractors in this question highlight these limitations: CW Doppler does not improve axial resolution, does not provide anatomical imaging, and does not enhance spatial resolution. The correct answer is 'To enhance Doppler signal sensitivity when imaging is not required,' which reflects the clinical rationale for using a dedicated non-imaging CW probe."
-},
-
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 171,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why does a sonographer use a dedicated, non-imaging continuous-wave (CW) Doppler probe such as a Pedof probe in clinical practice?",
+        "image": "",
+        "opciones": [
+            "To improve axial resolution",
+            "To obtain anatomical imaging simultaneously",
+            "To enhance Doppler signal sensitivity when imaging is not required",
+            "To increase spatial resolution of the ultrasound beam"
+        ],
+        "respuesta_correcta": [
+            "To enhance Doppler signal sensitivity when imaging is not required"
+        ],
+        "concept_to_study": "Dedicated non-imaging CW Doppler probes (e.g., Pedof) maximize Doppler sensitivity when imaging is unnecessary, especially in cardiac exams.",
+        "explicacion_openai": "Continuous-wave (CW) Doppler has specific advantages and disadvantages in clinical use. Advantages: it can measure very high velocities without aliasing, making it ideal for evaluating severe stenosis or regurgitant jets; it provides continuous sampling of blood flow along the beam path; and when used with a dedicated non-imaging probe (such as a Pedof probe), it maximizes Doppler signal sensitivity because the probe is optimized solely for Doppler acquisition. Disadvantages: CW Doppler lacks range resolution (range ambiguity), meaning signals from multiple depths and vessels may overlap; it does not provide anatomical imaging or spatial resolution; and it cannot localize the exact vessel or structure producing the signal. The distractors in this question highlight these limitations: CW Doppler does not improve axial resolution, does not provide anatomical imaging, and does not enhance spatial resolution. The correct answer is 'To enhance Doppler signal sensitivity when imaging is not required,' which reflects the clinical rationale for using a dedicated non-imaging CW probe.",
+        "image_explanation": ""
+    },
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 172,
@@ -28462,29 +28729,28 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 246,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Adjusting the transmit frequency of an ultrasound system will directly change which of the following parameters?",
-    "image": "",
-    "opciones": [
-        "Displacement amplitude of particles in the medium",
-        "Propagation speed of sound in tissue",
-        "Number of cycles produced each second",
-        "Number of pulses emitted per second",
-        "Electrical pulse rate applied to the transducer"
-    ],
-    "respuesta_correcta": [
-        "Number of cycles produced each second"
-    ],
-    "concept_to_study": "Ultrasound Frequency and Wave Properties",
-    "explicacion_openai": "Transmit frequency refers to the number of cycles per second of the ultrasound wave. Changing the frequency alters this value but does not affect sound speed, pulse repetition frequency, or particle displacement amplitude.",
-    "image_explanation": ""
-},
-
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 247,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Adjusting the transmit frequency of an ultrasound system will directly change which of the following parameters?",
+        "image": "",
+        "opciones": [
+            "Displacement amplitude of particles in the medium",
+            "Propagation speed of sound in tissue",
+            "Number of cycles produced each second",
+            "Number of pulses emitted per second",
+            "Electrical pulse rate applied to the transducer"
+        ],
+        "respuesta_correcta": [
+            "Number of cycles produced each second"
+        ],
+        "concept_to_study": "Ultrasound Frequency and Wave Properties",
+        "explicacion_openai": "Transmit frequency refers to the number of cycles per second of the ultrasound wave. Changing the frequency alters this value but does not affect sound speed, pulse repetition frequency, or particle displacement amplitude.",
+        "image_explanation": ""
+    },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 248,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which of the following situations may lead to increased tissue heating?",
         "image": "",
@@ -28503,7 +28769,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 249,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "What does the mechanical index (MI) represent in an ultrasound system?",
         "image": "",
@@ -28522,7 +28788,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 250,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which operator control directly increases the intensity of the transmitted ultrasound pulse?",
         "image": "",
@@ -28541,7 +28807,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 251,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which intensity measurement represents the maximum ultrasound intensity?",
         "image": "",
@@ -28560,7 +28826,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 252,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which intensity measurement represents the lowest ultrasound intensity over time?",
         "image": "",
@@ -28579,7 +28845,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 246,
+        "grupo": 253,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Which ultrasound application has the lowest FDA-approved SPTA intensity limit?",
         "image": "",
@@ -28597,269 +28863,174 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 254,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A pulse repetition frequency (PRF) of 5 kHz is equivalent to how many pulses per second?",
+        "enunciado": "According to the AIUM guidelines, what is the first step that must be completed after every examination?",
         "image": "",
         "opciones": [
-            "0.005",
-            "50",
-            "500",
-            "5,000"
+            "Submerge the probe in glutaraldehyde",
+            "Disconnect the cable from the system",
+            "Apply a high-level disinfectant",
+            "Remove all gel from the transducer"
         ],
         "respuesta_correcta": [
-            "5,000"
+            "Remove all gel from the transducer"
         ],
-        "concept_to_study": "Unit conversion: Kilo",
-        "explicacion_openai": "The metric prefix 'kilo' denotes a factor of 1,000. Therefore, 5 kHz equals 5,000 Hz or pulses per second.",
+        "concept_to_study": "The AIUM guidelines emphasize that the first step after any ultrasound examination is to remove all gel from the transducer before proceeding with cleaning or disinfection.",
+        "explicacion_openai": "Definition: Post-examination transducer care begins with the physical removal of ultrasound gel, which can harbor contaminants if left in place. \nRationale: Proper cleaning must occur before any disinfection step, as organic material can reduce disinfectant effectiveness. \nExample: Before applying a low- or high-level disinfectant, the sonographer wipes the probe thoroughly to eliminate gel residue. \nMemory Strategy: Remember 'Clean before Disinfect' — gel removal always comes first.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 255,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A transducer frequency of 7.5 MHz can also be expressed as:",
+        "enunciado": "What is the correct direction for cleaning the transducer body?",
         "image": "",
         "opciones": [
-            "7,500 Hz",
-            "75,000 Hz",
-            "750,000 Hz",
-            "7,500,000 Hz"
+            "In a circular motion starting from the middle",
+            "From the connector towards the probe face",
+            "From the cable towards the housing",
+            "From the probe face towards the cable"
         ],
         "respuesta_correcta": [
-            "7,500,000 Hz"
+            "From the probe face towards the cable"
         ],
-        "concept_to_study": "Unit conversion: Mega",
-        "explicacion_openai": "The prefix 'Mega' means million (10^6). Multiplying 7.5 by 1,000,000 results in 7,500,000 Hz.",
+        "concept_to_study": "Ultrasound cleaning guidelines recommend wiping from the dirtiest area (probe face) toward the cleanest (cable) to avoid transferring contaminants back toward the patient-contact surface.",
+        "explicacion_openai": "Definition: Proper transducer cleaning requires directional wiping to prevent recontamination of the probe face. \nRationale: The probe face is the area with the highest exposure to biological material; therefore, cleaning must move away from it. \nExample: After removing gel, the sonographer wipes from the probe face down the handle toward the cable. \nMemory Strategy: Remember 'Face to Cable' — always clean away from the patient-contact surface.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 256,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How many millimeters are in 4 centimeters?",
+        "enunciado": "When cleaning the cable, where should the process begin?",
         "image": "",
         "opciones": [
-            "0.4 mm",
-            "4 mm",
-            "40 mm",
-            "400 mm"
+            "From the system connector",
+            "From the floor upwards",
+            "Only the middle section of the cable needs cleaning",
+            "From the probe head towards the connector"
         ],
         "respuesta_correcta": [
-            "40 mm"
+            "From the probe head towards the connector"
         ],
-        "concept_to_study": "Distance conversion: cm to mm",
-        "explicacion_openai": "There are 10 millimeters in every 1 centimeter. Therefore, 4 cm x 10 = 40 mm.",
+        "concept_to_study": "Cleaning should always begin at the area closest to the patient-contact surface (probe head) and move toward the system connector to prevent transferring contaminants back toward the transducer.",
+        "explicacion_openai": "Definition: Cable cleaning is part of proper ultrasound equipment hygiene and must follow a directional approach. \nRationale: The probe head is the area most exposed to biological material; cleaning should move away from it to avoid recontamination. \nExample: After wiping the transducer, the sonographer continues down the cable toward the connector. \nMemory Strategy: Remember 'Head to Connector' — always clean away from the patient-contact end.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 257,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following represents 0.000001 seconds?",
+        "enunciado": "What part of the transducer is referred to as the 'probe face'?",
         "image": "",
         "opciones": [
-            "1 millisecond",
-            "1 microsecond",
-            "1 nanosecond",
-            "1 picosecond"
+            "The electronic connector pins",
+            "The acoustic lens area that contacts the patient",
+            "The strain relief at the end of the cable",
+            "The plastic housing held by the sonographer"
         ],
         "respuesta_correcta": [
-            "1 microsecond"
+            "The acoustic lens area that contacts the patient"
         ],
-        "concept_to_study": "Unit conversion: Micro",
-        "explicacion_openai": "The prefix 'micro' represents one-millionth (10^-6), which is 0.000001.",
+        "concept_to_study": "The 'probe face' refers to the acoustic lens—the surface of the transducer that directly contacts the patient and emits/receives ultrasound waves.",
+        "explicacion_openai": "Definition: The probe face is the active scanning surface of the transducer, also known as the acoustic lens. \nRationale: This is the area responsible for transmitting and receiving ultrasound signals, making it the primary patient-contact surface. \nExample: When applying gel, it is placed on the probe face before scanning. \nMemory Strategy: Think 'Face = Front' — the part that touches the patient is the probe face.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 258,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A wave has a period of 500 nanoseconds. How is this expressed in microseconds?",
+        "enunciado": "According to cleaning guidelines for ultrasound equipment, what must be done with the cable during the cleaning process?",
         "image": "",
         "opciones": [
-            "0.05 microseconds",
-            "0.5 microseconds",
-            "5 microseconds",
-            "50 microseconds"
+            "It should be ignored if it didn't touch the patient",
+            "It should be cleaned starting from the probe head",
+            "It should be cleaned only once a week",
+            "It must be soaked in water"
         ],
         "respuesta_correcta": [
-            "0.5 microseconds"
+            "It should be cleaned starting from the probe head"
         ],
-        "concept_to_study": "Unit conversion: Nano to Micro",
-        "explicacion_openai": "There are 1,000 nanoseconds in 1 microsecond. To convert 500 ns to microseconds, divide by 1,000 (500/1000 = 0.5).",
+        "concept_to_study": "The cable must be cleaned as part of the standard post-examination procedure, beginning at the probe head and moving toward the connector to avoid transferring contaminants back toward the patient-contact area.",
+        "explicacion_openai": "Cleaning protocols require that the cable be wiped in a directional manner, starting at the probe head—the area closest to patient contact—and moving toward the system connector. This prevents recontamination and ensures proper hygiene. The cable is never ignored, nor should it be submerged in water.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 259,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Convert 1.54 millimeters to meters:",
+        "enunciado": "Why is the direction 'probe face towards the cable' significant in clinical practice?",
         "image": "",
         "opciones": [
-            "0.00154 m",
-            "0.0154 m",
-            "0.154 m",
-            "1,540 m"
+            "To make the cleaning faster",
+            "To prevent moving contaminants from the cable to the probe face",
+            "To protect the connector from moisture",
+            "Because the cable is more sensitive than the lens"
         ],
         "respuesta_correcta": [
-            "0.00154 m"
+            "To prevent moving contaminants from the cable to the probe face"
         ],
-        "concept_to_study": "Distance conversion: mm to m",
-        "explicacion_openai": "To convert millimeters to meters, divide by 1,000 (the number of mm in a meter). 1.54 / 1000 = 0.00154.",
+        "concept_to_study": "Cleaning from the probe face toward the cable ensures contaminants are moved away from the patient-contact surface, reducing the risk of recontamination and maintaining proper infection control.",
+        "explicacion_openai": "The probe face is the area that directly contacts the patient and therefore carries the highest contamination risk. Cleaning in the direction away from this surface prevents debris or pathogens from being transferred back toward the area that will contact the next patient. This directional cleaning supports infection prevention and aligns with standard ultrasound hygiene protocols.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 260,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A frequency of 10,000,000 Hz is equivalent to:",
+        "enunciado": "According to standard ultrasound cleaning protocols, what is the first step that must be completed before applying a disinfecting wipe?",
         "image": "",
         "opciones": [
-            "10 kHz",
-            "100 kHz",
-            "10 MHz",
-            "10 GHz"
+            "Mechanical removal of gel and debris",
+            "Air drying",
+            "Rinsing with alcohol",
+            "Sterilization"
         ],
         "respuesta_correcta": [
-            "10 MHz"
+            "Mechanical removal of gel and debris"
         ],
-        "concept_to_study": "Unit conversion: Hz to MHz",
-        "explicacion_openai": "To convert Hz to MHz, divide by 1,000,000. 10,000,000 / 1,000,000 = 10 MHz.",
+        "concept_to_study": "Before any disinfectant can be applied, the transducer must first be cleaned by physically removing gel and visible debris. Disinfection is ineffective if organic material remains on the probe.",
+        "explicacion_openai": "Cleaning and disinfection are two separate steps. The initial cleaning phase involves wiping away gel and debris so that disinfectants can work properly. If gel remains on the probe, it can block the disinfectant from contacting the surface, reducing its effectiveness.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 261,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "How many microseconds are in 2 milliseconds?",
+        "enunciado": "In ultrasound equipment terminology, which part of the device is referred to as the 'connector'?",
         "image": "",
         "opciones": [
-            "0.002",
-            "20",
-            "200",
-            "2,000"
+            "The middle of the cable",
+            "The part that touches the patient's skin",
+            "The part that plugs into the ultrasound machine",
+            "The button on the probe"
         ],
         "respuesta_correcta": [
-            "2,000"
+            "The part that plugs into the ultrasound machine"
         ],
-        "concept_to_study": "Time conversion: ms to microseconds",
-        "explicacion_openai": "There are 1,000 microseconds in 1 millisecond. Therefore, 2 ms x 1,000 = 2,000 microseconds.",
+        "concept_to_study": "The connector is the end of the transducer cable that attaches to the ultrasound system. It contains the electronic interface that allows the machine to interpret signals from the probe.",
+        "explicacion_openai": "The connector is a critical component because it houses the electronic contacts that transmit data between the transducer and the ultrasound system. It does not touch the patient and is not part of the scanning surface. Proper handling and cleaning of the connector are essential to avoid damage and ensure accurate signal transmission.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 262,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If a pulse repetition period (PRP) is 0.1 ms, what is it in microseconds?",
+        "enunciado": "According to standard ultrasound cleaning protocols, when is the cleaning process considered fully completed?",
         "image": "",
         "opciones": [
-            "1 microsecond",
-            "10 microseconds",
-            "100 microseconds",
-            "1,000 microseconds"
+            "The probe face is dry",
+            "The gel is wiped onto the cable",
+            "Both the probe and the entire cable assembly have been cleaned in the correct order",
+            "The machine is turned off"
         ],
         "respuesta_correcta": [
-            "100 microseconds"
+            "Both the probe and the entire cable assembly have been cleaned in the correct order"
         ],
-        "concept_to_study": "Time conversion: decimal ms to microseconds",
-        "explicacion_openai": "Multiply the millisecond value by 1,000 to get microseconds. 0.1 x 1,000 = 100 microseconds.",
+        "concept_to_study": "A complete cleaning process includes wiping the probe face, the housing, and the entire cable in the proper sequence. The protocol ensures that every part of the transducer assembly is free of gel and contaminants before disinfection.",
+        "explicacion_openai": "Ultrasound cleaning guidelines emphasize that the process is not limited to the probe face. The entire transducer assembly—including the housing and cable—must be cleaned in a specific order to prevent recontamination. Turning off the machine is unrelated to the cleaning protocol.",
         "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following is the largest numerical value?",
-        "image": "",
-        "opciones": [
-            "100 mm",
-            "10 cm",
-            "1 m",
-            "0.1 km"
-        ],
-        "respuesta_correcta": [
-            "0.1 km"
-        ],
-        "concept_to_study": "Metric hierarchy",
-        "explicacion_openai": "0.1 km equals 100 meters. The other options are 0.1 m (100 mm and 10 cm) and 1 m. 100 meters is the largest value.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A signal that occurs 2,000,000 times per second can be written as:",
-        "image": "",
-        "opciones": [
-            "2 kHz",
-            "20 kHz",
-            "2 MHz",
-            "20 MHz"
-        ],
-        "respuesta_correcta": [
-            "2 MHz"
-        ],
-        "concept_to_study": "Unit conversion: frequency",
-        "explicacion_openai": "2,000,000 cycles per second is 2 million Hertz, which is 2 MHz.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What is 0.01 meters expressed in centimeters?",
-        "image": "",
-        "opciones": [
-            "1 cm",
-            "10 cm",
-            "100 cm",
-            "0.1 cm"
-        ],
-        "respuesta_correcta": [
-            "1 cm"
-        ],
-        "concept_to_study": "Distance conversion: m to cm",
-        "explicacion_openai": "There are 100 centimeters in 1 meter. Multiplying 0.01 m by 100 gives 1 cm.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 246,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Wavelength is determined by which two factors?",
-        "image": "",
-        "opciones": [
-            "Amplitude and intensity",
-            "Frequency and propagation speed",
-            "Period and amplitude",
-            "Power and frequency"
-        ],
-        "respuesta_correcta": [
-            "Frequency and propagation speed"
-        ],
-        "concept_to_study": "Wavelength determinants",
-        "explicacion_openai": "Wavelength is defined by the equation λ = c / f, where 'c' is the propagation speed of the medium and 'f' is the frequency of the source.",
-        "image_explanation": ""
-    },
-    {
-    "clasificacion": "Physical Principles",
-    "grupo": 246,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "All of the following concepts are related to acoustic impedance EXCEPT:",
-    "image": "",
-    "opciones": [
-        "Stiffness",
-        "Density",
-        "Rayls",
-        "Frequency"
-    ],
-    "respuesta_correcta": [
-        "Frequency"
-    ],
-    "concept_to_study": "Acoustic Impedance",
-    "explicacion_openai": "Acoustic impedance depends on the density and stiffness of a medium. Density and stiffness together determine the propagation speed of sound, which is directly related to acoustic impedance. Impedance is expressed in rayls. Frequency is not a factor in determining acoustic impedance.",
-    "image_explanation": ""
-}
+    }
 ]
