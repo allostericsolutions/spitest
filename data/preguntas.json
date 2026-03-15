@@ -29035,7 +29035,7 @@
     },
     {
     "clasificacion": "Physical Principles",
-    "grupo": 157,
+    "grupo": 427,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "If the ultrasound beam encounters a tissue where the speed of sound significantly deviates from the standard 1,540 m/s, how will the resulting artifact typically manifest on the display?",
     "image": "",
@@ -29054,7 +29054,7 @@
 },
 {
     "clasificacion": "Physical Principles",
-    "grupo": 157,
+    "grupo": 428,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "When a sonographer activates Harmonic Imaging, which specific technical artifact is most effectively minimized to produce a cleaner image?",
     "image": "",
@@ -29073,7 +29073,7 @@
 },
 {
     "clasificacion": "Physical Principles",
-    "grupo": 157,
+    "grupo": 429,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "Which of the following imaging artifacts is least likely to interfere with the diagnostic quality of a scan when Spatial Compounding is enabled?",
     "image": "",
@@ -29092,7 +29092,7 @@
 },
  {
     "clasificacion": "Physical Principles",
-    "grupo": 2,
+    "grupo": 430,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer adjusts the PRF from 5 kHz to 10 kHz without changing the pulse duration. What happens to the Duty Factor?",
     "image": "",
@@ -29111,7 +29111,7 @@
   },
 {
     "clasificacion": "Physical Principles",
-    "grupo": 2,
+    "grupo": 431,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How is Duty Factor affected if the technician increases the Pulse Duration while keeping the PRP constant?",
     "image": "",
