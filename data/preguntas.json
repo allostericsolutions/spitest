@@ -29032,5 +29032,62 @@
         "concept_to_study": "A complete cleaning process includes wiping the probe face, the housing, and the entire cable in the proper sequence. The protocol ensures that every part of the transducer assembly is free of gel and contaminants before disinfection.",
         "explicacion_openai": "Ultrasound cleaning guidelines emphasize that the process is not limited to the probe face. The entire transducer assembly—including the housing and cable—must be cleaned in a specific order to prevent recontamination. Turning off the machine is unrelated to the cleaning protocol.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": 157,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the ultrasound beam encounters a tissue where the speed of sound significantly deviates from the standard 1,540 m/s, how will the resulting artifact typically manifest on the display?",
+    "image": "",
+    "opciones": [
+        "Inaccurate lateral placement of the reflectors.",
+        "Incorrect axial positioning of the echoes.",
+        "Acoustic shadowing posterior to the structure.",
+        "Appearance of a 'mirror image' artifact."
+    ],
+    "respuesta_correcta": [
+        "Incorrect axial positioning of the echoes."
+    ],
+    "concept_to_study": "Speed of sound errors.",
+    "explicacion_openai": "Depth is calculated using the round‑trip travel time of the pulse. When the true sound speed differs from 1,540 m/s, the system misinterprets the distance, causing axial displacement of structures. This does not affect lateral placement, shadowing, or mirror artifacts.",
+    "image_explanation": ""
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 157,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "When a sonographer activates Harmonic Imaging, which specific technical artifact is most effectively minimized to produce a cleaner image?",
+    "image": "",
+    "opciones": [
+        "Beam refraction.",
+        "Acoustic shadowing.",
+        "Grating lobes.",
+        "Speed of sound errors."
+    ],
+    "respuesta_correcta": [
+        "Grating lobes."
+    ],
+    "concept_to_study": "Harmonic imaging.",
+    "explicacion_openai": "Harmonics originate inside the tissue rather than at the transducer surface. Because the harmonic beam is narrower and more central, off‑axis energy such as grating lobes is significantly reduced, improving contrast resolution and reducing clutter.",
+    "image_explanation": ""
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 157,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following imaging artifacts is least likely to interfere with the diagnostic quality of a scan when Spatial Compounding is enabled?",
+    "image": "",
+    "opciones": [
+        "Acoustic shadowing and enhancement.",
+        "Acoustic speckle (grainy noise).",
+        "Refraction artifacts.",
+        "All are correct."
+    ],
+    "respuesta_correcta": [
+        "All are correct."
+    ],
+    "concept_to_study": "Spatial compounding.",
+    "explicacion_openai": "By steering the beam from several directions and averaging the resulting frames, spatial compounding reduces random interference like speckle, improves visualization behind structures, and diminishes refraction‑related distortions. This leads to a cleaner, more reliable image.",
+    "image_explanation": ""
+}
 ]
