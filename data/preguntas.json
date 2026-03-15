@@ -29089,5 +29089,44 @@
     "concept_to_study": "Spatial compounding.",
     "explicacion_openai": "By steering the beam from several directions and averaging the resulting frames, spatial compounding reduces random interference like speckle, improves visualization behind structures, and diminishes refraction‑related distortions. This leads to a cleaner, more reliable image.",
     "image_explanation": ""
-}
+},
+ {
+    "clasificacion": "Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer adjusts the PRF from 5 kHz to 10 kHz without changing the pulse duration. What happens to the Duty Factor?",
+    "image": "",
+    "opciones": [
+      "It is halved",
+      "It stays the same",
+      "It doubles",
+      "It decreases by four times"
+    ],
+    "respuesta_correcta": [
+      "It doubles"
+    ],
+    "concept_to_study": "PRF and Duty Factor have a direct linear relationship.",
+    "explicacion_openai": "To understand this intuitively, think of the 'Duty Factor' as the percentage of time the ultrasound machine is actually 'talking' versus 'listening.' 1. INCREASING THE WORKTIME: Since 'Duty Factor' = 'Pulse Duration' × 'Pulse Repetition Frequency', if you increase the 'Pulse Duration' (the length of each talk) or the 'Pulse Repetition Frequency' (how often it talks), the machine is working for a larger fraction of the total time, so the 'Duty Factor' increases. 2. INCREASING THE WAIT: Anything that increases the 'Pulse Repetition Period' (the total time from the start of one pulse to the next) will decrease the 'Duty Factor.' 3. THE DEPTH FACTOR: When a technician increases the imaging depth, the machine must wait longer for echoes to return. This increases the 'listening time,' which increases the 'Pulse Repetition Period' and therefore decreases the 'Duty Factor.' In summary: If the machine pulses longer or more often, the 'Duty Factor' goes up. If the machine spends more time waiting for deep signals, the 'Duty Factor' goes down.",
+    "image_explanation": ""
+  },
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 2,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "How is Duty Factor affected if the technician increases the Pulse Duration while keeping the PRP constant?",
+    "image": "",
+    "opciones": [
+      "It increases",
+      "It decreases",
+      "It remains the same",
+      "It becomes zero"
+    ],
+    "respuesta_correcta": [
+      "It increases"
+    ],
+    "concept_to_study": "Longer pulses mean the machine is 'on' for a greater fraction of time.",
+    "explicacion_openai": "Duty Factor (DF) is the fraction of time the system is actively transmitting sound. Think of it as a 'Work-to-Rest' ratio. 1. THE 'WORK' SIDE: Anything that increases the actual pulse time (↑ Pulse Duration) or how often pulses occur (↑ PRF) will INCREASE the DF because the machine is 'on duty' more often. 2. THE 'REST' SIDE: Anything that increases the waiting time (↑ PRP) will DECREASE the DF. A key example is DEPTH: When you increase imaging depth, the machine must wait longer for echoes to return from deeper tissues (↑ Listening Time). This increases the PRP and therefore DECREASES the Duty Factor. Intuitively: If the pulse is longer or more frequent, the machine works harder (↑ DF). If the machine spends more time waiting for deep echoes, it is 'working' a smaller percentage of the total time (↓ DF).",
+    "image_explanation": ""
+  }
 ]
+
