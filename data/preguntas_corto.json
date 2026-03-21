@@ -1303,5 +1303,24 @@
         "concept_to_study": "Accuracy of Diagnostic Tests",
         "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
+    "image": "doppler_laminarflow.png",
+    "opciones": [
+      "Laminar",
+      "Turbulent",
+      "Pulsatile",
+      "High resistance",
+      "Retrograde flow"
+    ],
+    "respuesta_correcta": [
+      "Laminar"
+    ],
+    "concept_to_study": "Laminar flow",
+    "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
+}
 ]
