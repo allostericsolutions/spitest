@@ -29127,6 +29127,26 @@
     "concept_to_study": "Longer pulses mean the machine is 'on' for a greater fraction of time.",
     "explicacion_openai": "Duty Factor (DF) is the fraction of time the system is actively transmitting sound. Think of it as a 'Work-to-Rest' ratio. 1. THE 'WORK' SIDE: Anything that increases the actual pulse time (↑ Pulse Duration) or how often pulses occur (↑ PRF) will INCREASE the DF because the machine is 'on duty' more often. 2. THE 'REST' SIDE: Anything that increases the waiting time (↑ PRP) will DECREASE the DF. A key example is DEPTH: When you increase imaging depth, the machine must wait longer for echoes to return from deeper tissues (↑ Listening Time). This increases the PRP and therefore DECREASES the Duty Factor. Intuitively: If the pulse is longer or more frequent, the machine works harder (↑ DF). If the machine spends more time waiting for deep echoes, it is 'working' a smaller percentage of the total time (↓ DF).",
     "image_explanation": ""
-  }
+  },
+    {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": "1",
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
+    "image": "doppler_laminarflow.png",
+    "opciones": [
+      "Laminar",
+      "Turbulent",
+      "Pulsatile",
+      "High resistance",
+      "Retrograde flow"
+    ],
+    "respuesta_correcta": [
+      "Laminar"
+    ],
+    "concept_to_study": "Laminar flow",
+    "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
+    
+    }
 ]
 
