@@ -19607,25 +19607,25 @@
         "explicacion_openai": "Aliasing arises when the Doppler frequency shift exceeds the Nyquist limit in pulsed systems. Power Doppler displays signal amplitude (power), not frequency shift, so it does not alias.",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 334,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which statement(s) correctly defines the Nyquist limit?",
-        "image": "",
-        "opciones": [
-            "One-half of the pulse repetition frequency.",
-            "The highest Doppler frequency measurable without aliasing.",
-            "A situation where the sampling rate is too low relative to blood velocities.",
-            "Both a and b."
-        ],
-        "respuesta_correcta": [
-            "Both a and b."
-        ],
-        "concept_to_study": "Definition of the Nyquist limit",
-        "explicacion_openai": "The Nyquist limit is half the PRF and represents the maximum Doppler shift measurable without aliasing. Option c describes aliasing itself, not the limit.",
-        "image_explanation": ""
-    },
+   {
+  "clasificacion": "Doppler Imaging Concepts",
+  "grupo": 334,
+  "tipo_pregunta": "opcion_multiple",
+  "enunciado": "Which statement correctly defines the Nyquist limit?",
+  "image": "",
+  "opciones": [
+    "One-half of the pulse repetition frequency.",
+    "A situation where the sampling rate is too low relative to blood velocities.",
+    "The distortion of the Doppler signal caused by velocity ambiguity.",
+    "The maximum depth that can be imaged using pulsed Doppler."
+  ],
+  "respuesta_correcta": [
+    "One-half of the pulse repetition frequency."
+  ],
+  "concept_to_study": "Definition of the Nyquist limit",
+  "explicacion_openai": "The Nyquist limit is defined as one-half of the pulse repetition frequency and represents the maximum Doppler frequency shift that can be measured without aliasing. The other options describe aliasing or unrelated Doppler concepts.",
+  "image_explanation": ""
+},
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 335,
