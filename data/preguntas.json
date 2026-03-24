@@ -1,4 +1,3 @@
-
 [
     {
         "clasificacion": "Physical Principles",
@@ -8092,6 +8091,253 @@
         ],
         "concept_to_study": "Acoustic Impedance",
         "explicacion_openai": "Acoustic impedance depends on the density and stiffness of a medium. Density and stiffness together determine the propagation speed of sound, which is directly related to acoustic impedance. Impedance is expressed in rayls. Frequency is not a factor in determining acoustic impedance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 427,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the ultrasound beam encounters a tissue where the speed of sound significantly deviates from the standard 1,540 m/s, how will the resulting artifact typically manifest on the display?",
+        "image": "",
+        "opciones": [
+            "Inaccurate lateral placement of the reflectors.",
+            "Incorrect axial positioning of the echoes.",
+            "Acoustic shadowing posterior to the structure.",
+            "Appearance of a 'mirror image' artifact."
+        ],
+        "respuesta_correcta": [
+            "Incorrect axial positioning of the echoes."
+        ],
+        "concept_to_study": "Speed of sound errors.",
+        "explicacion_openai": "Depth is calculated using the round‑trip travel time of the pulse. When the true sound speed differs from 1,540 m/s, the system misinterprets the distance, causing axial displacement of structures. This does not affect lateral placement, shadowing, or mirror artifacts.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 428,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When a sonographer activates Harmonic Imaging, which specific technical artifact is most effectively minimized to produce a cleaner image?",
+        "image": "",
+        "opciones": [
+            "Beam refraction.",
+            "Acoustic shadowing.",
+            "Grating lobes.",
+            "Speed of sound errors."
+        ],
+        "respuesta_correcta": [
+            "Grating lobes."
+        ],
+        "concept_to_study": "Harmonic imaging.",
+        "explicacion_openai": "Harmonics originate inside the tissue rather than at the transducer surface. Because the harmonic beam is narrower and more central, off‑axis energy such as grating lobes is significantly reduced, improving contrast resolution and reducing clutter.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 429,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following imaging artifacts is least likely to interfere with the diagnostic quality of a scan when Spatial Compounding is enabled?",
+        "image": "",
+        "opciones": [
+            "Acoustic shadowing and enhancement.",
+            "Acoustic speckle (grainy noise).",
+            "Refraction artifacts.",
+            "All are correct."
+        ],
+        "respuesta_correcta": [
+            "All are correct."
+        ],
+        "concept_to_study": "Spatial compounding.",
+        "explicacion_openai": "By steering the beam from several directions and averaging the resulting frames, spatial compounding reduces random interference like speckle, improves visualization behind structures, and diminishes refraction‑related distortions. This leads to a cleaner, more reliable image.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 430,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer adjusts the PRF from 5 kHz to 10 kHz without changing the pulse duration. What happens to the Duty Factor?",
+        "image": "",
+        "opciones": [
+            "It is halved",
+            "It stays the same",
+            "It doubles",
+            "It decreases by four times"
+        ],
+        "respuesta_correcta": [
+            "It doubles"
+        ],
+        "concept_to_study": "PRF and Duty Factor have a direct linear relationship.",
+        "explicacion_openai": "To understand this intuitively, think of the 'Duty Factor' as the percentage of time the ultrasound machine is actually 'talking' versus 'listening.' 1. INCREASING THE WORKTIME: Since 'Duty Factor' = 'Pulse Duration' × 'Pulse Repetition Frequency', if you increase the 'Pulse Duration' (the length of each talk) or the 'Pulse Repetition Frequency' (how often it talks), the machine is working for a larger fraction of the total time, so the 'Duty Factor' increases. 2. INCREASING THE WAIT: Anything that increases the 'Pulse Repetition Period' (the total time from the start of one pulse to the next) will decrease the 'Duty Factor.' 3. THE DEPTH FACTOR: When a technician increases the imaging depth, the machine must wait longer for echoes to return. This increases the 'listening time,' which increases the 'Pulse Repetition Period' and therefore decreases the 'Duty Factor.' In summary: If the machine pulses longer or more often, the 'Duty Factor' goes up. If the machine spends more time waiting for deep signals, the 'Duty Factor' goes down.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 431,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "How is Duty Factor affected if the technician increases the Pulse Duration while keeping the PRP constant?",
+        "image": "",
+        "opciones": [
+            "It increases",
+            "It decreases",
+            "It remains the same",
+            "It becomes zero"
+        ],
+        "respuesta_correcta": [
+            "It increases"
+        ],
+        "concept_to_study": "Longer pulses mean the machine is 'on' for a greater fraction of time.",
+        "explicacion_openai": "Duty Factor (DF) is the fraction of time the system is actively transmitting sound. Think of it as a 'Work-to-Rest' ratio. 1. THE 'WORK' SIDE: Anything that increases the actual pulse time (↑ Pulse Duration) or how often pulses occur (↑ PRF) will INCREASE the DF because the machine is 'on duty' more often. 2. THE 'REST' SIDE: Anything that increases the waiting time (↑ PRP) will DECREASE the DF. A key example is DEPTH: When you increase imaging depth, the machine must wait longer for echoes to return from deeper tissues (↑ Listening Time). This increases the PRP and therefore DECREASES the Duty Factor. Intuitively: If the pulse is longer or more frequent, the machine works harder (↑ DF). If the machine spends more time waiting for deep echoes, it is 'working' a smaller percentage of the total time (↓ DF).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 432,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the period of a sound wave if the frequency is tripled?",
+        "image": "",
+        "opciones": [
+            "The period triples",
+            "The period increases ninefold",
+            "The period remains unchanged",
+            "The period is reduced to one-third"
+        ],
+        "respuesta_correcta": [
+            "The period is reduced to one-third"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Period and frequency are reciprocals. If frequency triples, the period becomes one-third of its original value.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 433,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following units is most appropriate for measuring the period in diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "Watts (W)",
+            "Microseconds (μs)",
+            "Millimeters (mm)",
+            "Hertz (Hz)"
+        ],
+        "respuesta_correcta": [
+            "Microseconds (μs)"
+        ],
+        "concept_to_study": "Units used to measure time intervals in ultrasound physics.",
+        "explicacion_openai": "The period is the time for one cycle. In ultrasound, this is extremely short and measured in microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 434,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the frequency and the period are multiplied together, the product is always:",
+        "image": "",
+        "opciones": [
+            "1",
+            "Infinite",
+            "0",
+            "The speed of sound"
+        ],
+        "respuesta_correcta": [
+            "1"
+        ],
+        "concept_to_study": "Mathematical relationship between frequency and period.",
+        "explicacion_openai": "Frequency and period are reciprocals, so their product is always 1.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 435,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the period of an ultrasound wave is 0.1 μs, what is the frequency?",
+        "image": "",
+        "opciones": [
+            "100 Hz",
+            "1 MHz",
+            "0.1 MHz",
+            "10 MHz"
+        ],
+        "respuesta_correcta": [
+            "10 MHz"
+        ],
+        "concept_to_study": "Using the reciprocal relationship between period and frequency.",
+        "explicacion_openai": "A period of 0.1 μs equals 0.1 × 10⁻⁶ seconds. The reciprocal is 10 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 436,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Frequency is defined as:",
+        "image": "",
+        "opciones": [
+            "The speed at which a wave travels through a medium",
+            "The distance from the start to the end of one cycle",
+            "The time it takes for one cycle to occur",
+            "The number of cycles that occur in one second"
+        ],
+        "respuesta_correcta": [
+            "The number of cycles that occur in one second"
+        ],
+        "concept_to_study": "Definition of frequency in wave physics.",
+        "explicacion_openai": "Frequency is how many cycles occur per second, measured in Hertz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 437,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As a sonographer switches from a 3 MHz transducer to a 9 MHz transducer, what happens to the period?",
+        "image": "",
+        "opciones": [
+            "It doubles",
+            "It decreases",
+            "It increases",
+            "It remains the same"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Higher frequency means shorter period. Increasing from 3 to 9 MHz reduces the period.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 438,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following frequencies has the longest period?",
+        "image": "",
+        "opciones": [
+            "10 MHz",
+            "2 MHz",
+            "15 MHz",
+            "5 MHz"
+        ],
+        "respuesta_correcta": [
+            "2 MHz"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Lower frequency = longer period. 2 MHz is the lowest frequency listed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 439,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In clinical imaging, the period is determined by the:",
+        "image": "",
+        "opciones": [
+            "Thickness of the matching layer",
+            "Sound source",
+            "Medium through which the sound travels",
+            "Operator's gain settings"
+        ],
+        "respuesta_correcta": [
+            "Sound source"
+        ],
+        "concept_to_study": "Understanding what determines the period of an ultrasound wave.",
+        "explicacion_openai": "The period is fixed by the transducer's frequency and does not depend on the medium or machine settings.",
         "image_explanation": ""
     },
     {
@@ -19608,25 +19854,25 @@
         "explicacion_openai": "Aliasing arises when the Doppler frequency shift exceeds the Nyquist limit in pulsed systems. Power Doppler displays signal amplitude (power), not frequency shift, so it does not alias.",
         "image_explanation": ""
     },
-   {
-  "clasificacion": "Doppler Imaging Concepts",
-  "grupo": 334,
-  "tipo_pregunta": "opcion_multiple",
-  "enunciado": "Which statement correctly defines the Nyquist limit?",
-  "image": "",
-  "opciones": [
-    "One-half of the pulse repetition frequency.",
-    "A situation where the sampling rate is too low relative to blood velocities.",
-    "The distortion of the Doppler signal caused by velocity ambiguity.",
-    "The maximum depth that can be imaged using pulsed Doppler."
-  ],
-  "respuesta_correcta": [
-    "One-half of the pulse repetition frequency."
-  ],
-  "concept_to_study": "Definition of the Nyquist limit",
-  "explicacion_openai": "The Nyquist limit is defined as one-half of the pulse repetition frequency and represents the maximum Doppler frequency shift that can be measured without aliasing. The other options describe aliasing or unrelated Doppler concepts.",
-  "image_explanation": ""
-},
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 334,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement correctly defines the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "One-half of the pulse repetition frequency.",
+            "A situation where the sampling rate is too low relative to blood velocities.",
+            "The distortion of the Doppler signal caused by velocity ambiguity.",
+            "The maximum depth that can be imaged using pulsed Doppler."
+        ],
+        "respuesta_correcta": [
+            "One-half of the pulse repetition frequency."
+        ],
+        "concept_to_study": "Definition of the Nyquist limit",
+        "explicacion_openai": "The Nyquist limit is defined as one-half of the pulse repetition frequency and represents the maximum Doppler frequency shift that can be measured without aliasing. The other options describe aliasing or unrelated Doppler concepts.",
+        "image_explanation": ""
+    },
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 335,
@@ -20063,6 +20309,501 @@
         "concept_to_study": "Doppler angle and aliasing mitigation",
         "explicacion_openai": "The artifact shown is aliasing, which occurs when the measured Doppler shift exceeds the Nyquist limit. The Doppler equation includes the cosine of the angle of insonation. If the Doppler angle is made more acute (closer to 0 degrees), the cosine value increases, which can result in a lower calculated measured velocity for the same actual velocity. A lower measured velocity might then fall below the Nyquist limit, thereby correcting or reducing aliasing. However, it's crucial to note that while this can help, a very acute angle might also make the Doppler signal less accurate overall. Increasing the angle closer to 90 degrees (a) would worsen the problem as the cosine approaches zero, leading to an indeterminate velocity measurement.",
         "image_explanation": "The image shows aliasing, and the question asks how adjusting the Doppler angle might affect it."
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 358,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
+        "image": "doppler_laminarflow.png",
+        "opciones": [
+            "Laminar",
+            "Turbulent",
+            "Pulsatile",
+            "High resistance",
+            "Retrograde flow"
+        ],
+        "respuesta_correcta": [
+            "Laminar"
+        ],
+        "concept_to_study": "Laminar flow",
+        "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 359,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 10 kHz, the Nyquist limit will be 5 kHz. Will aliasing occur if a Doppler shift of 6.1 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = PRF/2 = 5 kHz. Since 6.1 kHz exceeds 5 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 360,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 12 kHz, the Nyquist limit will be 6 kHz. Will aliasing occur if a Doppler shift of 5.4 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 6 kHz. Since 5.4 kHz is within the 6 kHz limit, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 361,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 14 kHz, the Nyquist limit will be 7 kHz. Will aliasing occur if a Doppler shift of 7.6 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 7 kHz. Since 7.6 kHz exceeds 7 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 362,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 18 kHz, the Nyquist limit will be 9 kHz. Will aliasing occur if a Doppler shift of 8.2 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 9 kHz. Since 8.2 kHz is below 9 kHz, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 363,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 20 kHz, the Nyquist limit will be 10 kHz. Will aliasing occur if a Doppler shift of 10.8 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 10 kHz. Since 10.8 kHz exceeds 10 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 364,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 22 kHz, the Nyquist limit will be 11 kHz. Will aliasing occur if a Doppler shift of 10.9 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 11 kHz. Since 10.9 kHz is within the 11 kHz limit, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 365,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 24 kHz, the Nyquist limit will be 12 kHz. Will aliasing occur if a Doppler shift of 12.5 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 12 kHz. Since 12.5 kHz exceeds 12 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 366,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 26 kHz, the Nyquist limit will be 13 kHz. Will aliasing occur if a Doppler shift of 12.7 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 13 kHz. Since 12.7 kHz is below 13 kHz, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 367,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 28 kHz, the Nyquist limit will be 14 kHz. Will aliasing occur if a Doppler shift of 15.3 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 14 kHz. Since 15.3 kHz exceeds 14 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 368,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 30 kHz, the Nyquist limit will be 15 kHz. Will aliasing occur if a Doppler shift of 14.9 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 15 kHz. Since 14.9 kHz is within the 15 kHz limit, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 369,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 32 kHz, the Nyquist limit will be 16 kHz. Will aliasing occur if a Doppler shift of 16.4 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 16 kHz. Since 16.4 kHz exceeds 16 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 370,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 34 kHz, the Nyquist limit will be 17 kHz. Will aliasing occur if a Doppler shift of 16.8 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 17 kHz. Since 16.8 kHz is below 17 kHz, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 371,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 36 kHz, the Nyquist limit will be 18 kHz. Will aliasing occur if a Doppler shift of 19.2 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 18 kHz. Since 19.2 kHz exceeds 18 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 372,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 38 kHz, the Nyquist limit will be 19 kHz. Will aliasing occur if a Doppler shift of 18.6 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 19 kHz. Since 18.6 kHz is within the 19 kHz limit, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 373,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 40 kHz, the Nyquist limit will be 20 kHz. Will aliasing occur if a Doppler shift of 20.7 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 20 kHz. Since 20.7 kHz exceeds 20 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 374,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 44 kHz, the Nyquist limit will be 22 kHz. Will aliasing occur if a Doppler shift of 21.3 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 22 kHz. Since 21.3 kHz is below 22 kHz, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 375,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 46 kHz, the Nyquist limit will be 23 kHz. Will aliasing occur if a Doppler shift of 24.1 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 23 kHz. Since 24.1 kHz exceeds 23 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 376,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 48 kHz, the Nyquist limit will be 24 kHz. Will aliasing occur if a Doppler shift of 23.5 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 24 kHz. Since 23.5 kHz is within the 24 kHz limit, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 377,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 50 kHz, the Nyquist limit will be 25 kHz. Will aliasing occur if a Doppler shift of 27.9 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Yes, aliasing occurs."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 25 kHz. Since 27.9 kHz exceeds 25 kHz, aliasing will occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 378,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the PRF is set to 52 kHz, the Nyquist limit will be 26 kHz. Will aliasing occur if a Doppler shift of 25.8 kHz is observed?",
+        "image": "",
+        "opciones": [
+            "Yes, aliasing occurs.",
+            "No, aliasing does not occur.",
+            "Only if the sample volume is large.",
+            "Depends on the Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "No, aliasing does not occur."
+        ],
+        "concept_to_study": "PRF and Nyquist - Value Comparison",
+        "explicacion_openai": "Nyquist limit = 26 kHz. Since 25.8 kHz is below 26 kHz, aliasing does not occur.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 379,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which statement correctly defines the Nyquist limit in pulsed Doppler ultrasound?",
+        "image": "",
+        "opciones": [
+            "One-half of the pulse repetition frequency (PRF).",
+            "Twice the pulse repetition frequency (PRF).",
+            "The maximum imaging depth achievable with Doppler.",
+            "The artifact produced when PRF is increased too much."
+        ],
+        "respuesta_correcta": [
+            "One-half of the pulse repetition frequency (PRF)."
+        ],
+        "concept_to_study": "Definition of the Nyquist limit",
+        "explicacion_openai": "The Nyquist limit is defined as PRF/2 in pulsed Doppler. It represents the highest Doppler frequency shift that can be measured without aliasing. Options about depth or artifacts are not definitions of the Nyquist limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 380,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In spectral Doppler, what does the Nyquist limit represent?",
+        "image": "",
+        "opciones": [
+            "The highest Doppler frequency shift measurable without aliasing.",
+            "The lowest Doppler frequency shift detectable by the system.",
+            "The Doppler frequency shift at which wall filter activates.",
+            "The point at which color gain must be reduced."
+        ],
+        "respuesta_correcta": [
+            "The highest Doppler frequency shift measurable without aliasing."
+        ],
+        "concept_to_study": "Nyquist limit and aliasing threshold",
+        "explicacion_openai": "The Nyquist limit is the aliasing threshold in pulsed Doppler: it is the maximum Doppler frequency shift that can be sampled correctly (without wraparound). The other options refer to sensitivity limits, filtering, or display settings, not the Nyquist limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 381,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which relationship between PRF and the Nyquist limit is correct for pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "Nyquist limit increases when PRF increases.",
+            "Nyquist limit decreases when PRF increases.",
+            "Nyquist limit is independent of PRF.",
+            "Nyquist limit depends only on transducer frequency, not PRF."
+        ],
+        "respuesta_correcta": [
+            "Nyquist limit increases when PRF increases."
+        ],
+        "concept_to_study": "Nyquist limit dependence on PRF",
+        "explicacion_openai": "Because the Nyquist limit equals PRF/2, increasing PRF increases the Nyquist limit proportionally. A higher Nyquist limit raises the maximum Doppler shift that can be displayed without aliasing. Therefore, it is directly dependent on PRF.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 382,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which option best distinguishes aliasing from the Nyquist limit?",
+        "image": "",
+        "opciones": [
+            "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit.",
+            "Aliasing is the same thing as the Nyquist limit.",
+            "Nyquist limit is an imaging artifact caused by incorrect angle correction.",
+            "Nyquist limit occurs only in continuous-wave Doppler."
+        ],
+        "respuesta_correcta": [
+            "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit."
+        ],
+        "concept_to_study": "Nyquist limit vs aliasing",
+        "explicacion_openai": "The Nyquist limit is a sampling boundary (PRF/2). Aliasing is the sampling error (wraparound/ambiguity) that happens when the measured Doppler frequency shift is greater than that boundary. Continuous-wave Doppler does not have the same Nyquist sampling limit as pulsed Doppler.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 383,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which Doppler spectral characteristic is demonstrated in the provided image?",
+        "image": "Broadening.png",
+        "opciones": [
+            "Aliasing",
+            "Spectral broadening",
+            "Narrow bandwidth",
+            "Mirroring"
+        ],
+        "respuesta_correcta": [
+            "Spectral broadening"
+        ],
+        "concept_to_study": "Recognition of spectral broadening in Doppler waveforms.",
+        "explicacion_openai": "Spectral broadening occurs when a wide distribution of blood cell velocities exists within the Doppler sample volume. This is typically seen in turbulent flow, disturbed flow near stenosis, high Doppler gain, or when the Doppler angle is suboptimal. Inside the vessel, erythrocytes do not move uniformly; instead, they exhibit layered velocities due to laminar shear, collisions, and micro‑eddies. These internal variations in red blood cell motion generate a spread of Doppler frequency shifts, producing a thickened, fuzzy spectral envelope rather than a sharp, well‑defined border.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Imaging Principles and Instrumentation",
@@ -29035,809 +29776,60 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Physical Principles",
-    "grupo": 427,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the ultrasound beam encounters a tissue where the speed of sound significantly deviates from the standard 1,540 m/s, how will the resulting artifact typically manifest on the display?",
-    "image": "",
-    "opciones": [
-        "Inaccurate lateral placement of the reflectors.",
-        "Incorrect axial positioning of the echoes.",
-        "Acoustic shadowing posterior to the structure.",
-        "Appearance of a 'mirror image' artifact."
-    ],
-    "respuesta_correcta": [
-        "Incorrect axial positioning of the echoes."
-    ],
-    "concept_to_study": "Speed of sound errors.",
-    "explicacion_openai": "Depth is calculated using the round‑trip travel time of the pulse. When the true sound speed differs from 1,540 m/s, the system misinterprets the distance, causing axial displacement of structures. This does not affect lateral placement, shadowing, or mirror artifacts.",
-    "image_explanation": ""
-},
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 428,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "When a sonographer activates Harmonic Imaging, which specific technical artifact is most effectively minimized to produce a cleaner image?",
-    "image": "",
-    "opciones": [
-        "Beam refraction.",
-        "Acoustic shadowing.",
-        "Grating lobes.",
-        "Speed of sound errors."
-    ],
-    "respuesta_correcta": [
-        "Grating lobes."
-    ],
-    "concept_to_study": "Harmonic imaging.",
-    "explicacion_openai": "Harmonics originate inside the tissue rather than at the transducer surface. Because the harmonic beam is narrower and more central, off‑axis energy such as grating lobes is significantly reduced, improving contrast resolution and reducing clutter.",
-    "image_explanation": ""
-},
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 429,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following imaging artifacts is least likely to interfere with the diagnostic quality of a scan when Spatial Compounding is enabled?",
-    "image": "",
-    "opciones": [
-        "Acoustic shadowing and enhancement.",
-        "Acoustic speckle (grainy noise).",
-        "Refraction artifacts.",
-        "All are correct."
-    ],
-    "respuesta_correcta": [
-        "All are correct."
-    ],
-    "concept_to_study": "Spatial compounding.",
-    "explicacion_openai": "By steering the beam from several directions and averaging the resulting frames, spatial compounding reduces random interference like speckle, improves visualization behind structures, and diminishes refraction‑related distortions. This leads to a cleaner, more reliable image.",
-    "image_explanation": ""
-},
- {
-    "clasificacion": "Physical Principles",
-    "grupo": 430,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sonographer adjusts the PRF from 5 kHz to 10 kHz without changing the pulse duration. What happens to the Duty Factor?",
-    "image": "",
-    "opciones": [
-      "It is halved",
-      "It stays the same",
-      "It doubles",
-      "It decreases by four times"
-    ],
-    "respuesta_correcta": [
-      "It doubles"
-    ],
-    "concept_to_study": "PRF and Duty Factor have a direct linear relationship.",
-    "explicacion_openai": "To understand this intuitively, think of the 'Duty Factor' as the percentage of time the ultrasound machine is actually 'talking' versus 'listening.' 1. INCREASING THE WORKTIME: Since 'Duty Factor' = 'Pulse Duration' × 'Pulse Repetition Frequency', if you increase the 'Pulse Duration' (the length of each talk) or the 'Pulse Repetition Frequency' (how often it talks), the machine is working for a larger fraction of the total time, so the 'Duty Factor' increases. 2. INCREASING THE WAIT: Anything that increases the 'Pulse Repetition Period' (the total time from the start of one pulse to the next) will decrease the 'Duty Factor.' 3. THE DEPTH FACTOR: When a technician increases the imaging depth, the machine must wait longer for echoes to return. This increases the 'listening time,' which increases the 'Pulse Repetition Period' and therefore decreases the 'Duty Factor.' In summary: If the machine pulses longer or more often, the 'Duty Factor' goes up. If the machine spends more time waiting for deep signals, the 'Duty Factor' goes down.",
-    "image_explanation": ""
-  },
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 431,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How is Duty Factor affected if the technician increases the Pulse Duration while keeping the PRP constant?",
-    "image": "",
-    "opciones": [
-      "It increases",
-      "It decreases",
-      "It remains the same",
-      "It becomes zero"
-    ],
-    "respuesta_correcta": [
-      "It increases"
-    ],
-    "concept_to_study": "Longer pulses mean the machine is 'on' for a greater fraction of time.",
-    "explicacion_openai": "Duty Factor (DF) is the fraction of time the system is actively transmitting sound. Think of it as a 'Work-to-Rest' ratio. 1. THE 'WORK' SIDE: Anything that increases the actual pulse time (↑ Pulse Duration) or how often pulses occur (↑ PRF) will INCREASE the DF because the machine is 'on duty' more often. 2. THE 'REST' SIDE: Anything that increases the waiting time (↑ PRP) will DECREASE the DF. A key example is DEPTH: When you increase imaging depth, the machine must wait longer for echoes to return from deeper tissues (↑ Listening Time). This increases the PRP and therefore DECREASES the Duty Factor. Intuitively: If the pulse is longer or more frequent, the machine works harder (↑ DF). If the machine spends more time waiting for deep echoes, it is 'working' a smaller percentage of the total time (↓ DF).",
-    "image_explanation": ""
-  },
-    {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
-    "image": "doppler_laminarflow.png",
-    "opciones": [
-      "Laminar",
-      "Turbulent",
-      "Pulsatile",
-      "High resistance",
-      "Retrograde flow"
-    ],
-    "respuesta_correcta": [
-      "Laminar"
-    ],
-    "concept_to_study": "Laminar flow",
-    "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
-    
-    },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 273,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 10 kHz, the Nyquist limit will be 5 kHz. Will aliasing occur if a Doppler shift of 6.1 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = PRF/2 = 5 kHz. Since 6.1 kHz exceeds 5 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 274,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 12 kHz, the Nyquist limit will be 6 kHz. Will aliasing occur if a Doppler shift of 5.4 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 6 kHz. Since 5.4 kHz is within the 6 kHz limit, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 275,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 14 kHz, the Nyquist limit will be 7 kHz. Will aliasing occur if a Doppler shift of 7.6 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 7 kHz. Since 7.6 kHz exceeds 7 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 276,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 18 kHz, the Nyquist limit will be 9 kHz. Will aliasing occur if a Doppler shift of 8.2 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 9 kHz. Since 8.2 kHz is below 9 kHz, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 277,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 20 kHz, the Nyquist limit will be 10 kHz. Will aliasing occur if a Doppler shift of 10.8 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 10 kHz. Since 10.8 kHz exceeds 10 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 278,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 22 kHz, the Nyquist limit will be 11 kHz. Will aliasing occur if a Doppler shift of 10.9 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 11 kHz. Since 10.9 kHz is within the 11 kHz limit, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 279,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 24 kHz, the Nyquist limit will be 12 kHz. Will aliasing occur if a Doppler shift of 12.5 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 12 kHz. Since 12.5 kHz exceeds 12 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 280,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 26 kHz, the Nyquist limit will be 13 kHz. Will aliasing occur if a Doppler shift of 12.7 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 13 kHz. Since 12.7 kHz is below 13 kHz, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 281,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 28 kHz, the Nyquist limit will be 14 kHz. Will aliasing occur if a Doppler shift of 15.3 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 14 kHz. Since 15.3 kHz exceeds 14 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 282,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 30 kHz, the Nyquist limit will be 15 kHz. Will aliasing occur if a Doppler shift of 14.9 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 15 kHz. Since 14.9 kHz is within the 15 kHz limit, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 283,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 32 kHz, the Nyquist limit will be 16 kHz. Will aliasing occur if a Doppler shift of 16.4 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 16 kHz. Since 16.4 kHz exceeds 16 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 284,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 34 kHz, the Nyquist limit will be 17 kHz. Will aliasing occur if a Doppler shift of 16.8 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 17 kHz. Since 16.8 kHz is below 17 kHz, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 285,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 36 kHz, the Nyquist limit will be 18 kHz. Will aliasing occur if a Doppler shift of 19.2 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 18 kHz. Since 19.2 kHz exceeds 18 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 286,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 38 kHz, the Nyquist limit will be 19 kHz. Will aliasing occur if a Doppler shift of 18.6 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 19 kHz. Since 18.6 kHz is within the 19 kHz limit, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 287,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 40 kHz, the Nyquist limit will be 20 kHz. Will aliasing occur if a Doppler shift of 20.7 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 20 kHz. Since 20.7 kHz exceeds 20 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 288,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 44 kHz, the Nyquist limit will be 22 kHz. Will aliasing occur if a Doppler shift of 21.3 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 22 kHz. Since 21.3 kHz is below 22 kHz, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 289,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 46 kHz, the Nyquist limit will be 23 kHz. Will aliasing occur if a Doppler shift of 24.1 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 23 kHz. Since 24.1 kHz exceeds 23 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 290,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 48 kHz, the Nyquist limit will be 24 kHz. Will aliasing occur if a Doppler shift of 23.5 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 24 kHz. Since 23.5 kHz is within the 24 kHz limit, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 291,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 50 kHz, the Nyquist limit will be 25 kHz. Will aliasing occur if a Doppler shift of 27.9 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "Yes, aliasing occurs."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 25 kHz. Since 27.9 kHz exceeds 25 kHz, aliasing will occur.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 292,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is set to 52 kHz, the Nyquist limit will be 26 kHz. Will aliasing occur if a Doppler shift of 25.8 kHz is observed?",
-    "image": "",
-    "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the sample volume is large.",
-      "Depends on the Doppler angle."
-    ],
-    "respuesta_correcta": [
-      "No, aliasing does not occur."
-    ],
-    "concept_to_study": "PRF and Nyquist - Value Comparison",
-    "explicacion_openai": "Nyquist limit = 26 kHz. Since 25.8 kHz is below 26 kHz, aliasing does not occur.",
-    "image_explanation": ""
-  },
-  
-{
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 273,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement correctly defines the Nyquist limit in pulsed Doppler ultrasound?",
-    "image": "",
-    "opciones": [
-      "One-half of the pulse repetition frequency (PRF).",
-      "Twice the pulse repetition frequency (PRF).",
-      "The maximum imaging depth achievable with Doppler.",
-      "The artifact produced when PRF is increased too much."
-    ],
-    "respuesta_correcta": [
-      "One-half of the pulse repetition frequency (PRF)."
-    ],
-    "concept_to_study": "Definition of the Nyquist limit",
-    "explicacion_openai": "The Nyquist limit is defined as PRF/2 in pulsed Doppler. It represents the highest Doppler frequency shift that can be measured without aliasing. Options about depth or artifacts are not definitions of the Nyquist limit.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 273,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In spectral Doppler, what does the Nyquist limit represent?",
-    "image": "",
-    "opciones": [
-      "The highest Doppler frequency shift measurable without aliasing.",
-      "The lowest Doppler frequency shift detectable by the system.",
-      "The Doppler frequency shift at which wall filter activates.",
-      "The point at which color gain must be reduced."
-    ],
-    "respuesta_correcta": [
-      "The highest Doppler frequency shift measurable without aliasing."
-    ],
-    "concept_to_study": "Nyquist limit and aliasing threshold",
-    "explicacion_openai": "The Nyquist limit is the aliasing threshold in pulsed Doppler: it is the maximum Doppler frequency shift that can be sampled correctly (without wraparound). The other options refer to sensitivity limits, filtering, or display settings, not the Nyquist limit.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 273,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which relationship between PRF and the Nyquist limit is correct for pulsed Doppler?",
-    "image": "",
-    "opciones": [
-      "Nyquist limit increases when PRF increases.",
-      "Nyquist limit decreases when PRF increases.",
-      "Nyquist limit is independent of PRF.",
-      "Nyquist limit depends only on transducer frequency, not PRF."
-    ],
-    "respuesta_correcta": [
-      "Nyquist limit increases when PRF increases."
-    ],
-    "concept_to_study": "Nyquist limit dependence on PRF",
-    "explicacion_openai": "Because the Nyquist limit equals PRF/2, increasing PRF increases the Nyquist limit proportionally. A higher Nyquist limit raises the maximum Doppler shift that can be displayed without aliasing. Therefore, it is directly dependent on PRF.",
-    "image_explanation": ""
-  },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 273,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which option best distinguishes aliasing from the Nyquist limit?",
-    "image": "",
-    "opciones": [
-      "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit.",
-      "Aliasing is the same thing as the Nyquist limit.",
-      "Nyquist limit is an imaging artifact caused by incorrect angle correction.",
-      "Nyquist limit occurs only in continuous-wave Doppler."
-    ],
-    "respuesta_correcta": [
-      "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit."
-    ],
-    "concept_to_study": "Nyquist limit vs aliasing",
-    "explicacion_openai": "The Nyquist limit is a sampling boundary (PRF/2). Aliasing is the sampling error (wraparound/ambiguity) that happens when the measured Doppler frequency shift is greater than that boundary. Continuous-wave Doppler does not have the same Nyquist sampling limit as pulsed Doppler.",
-    "image_explanation": "" 
-  },
-  
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 261,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What maintenance issue is demonstrated in this image?",
-    "image": "cristal_broke.png",
-    "opciones": [
-      "Damage to the lens or transducer crystals",
-      "Electrical interference pattern",
-      "Damaged connector pins",
-      "Malfunction of the transmitter"
-    ],
-    "respuesta_correcta": [
-      "Damage to the lens or transducer crystals"
-    ],
-    "concept_to_study": "A vertical dropout line on an ultrasound image is typically caused by a damaged or non-functioning piezoelectric crystal within the transducer array.",
-    "explicacion_openai": "The image shows a perfectly vertical dark line running from top to bottom of the ultrasound field. This occurs when one of the piezoelectric crystals in the transducer stops transmitting or receiving sound. Each crystal corresponds to a vertical slice of the image, so when one fails, that slice becomes a black column. This is a classic sign of crystal damage, not electrical interference or connector issues.",
-    "image_explanation": ""
-  },
-
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 261,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What artifact is produced when one or more piezoelectric elements in a transducer stop functioning?",
-    "image": "cristal_broke.png",
-    "opciones": [
-      "Reverberation artifact",
-      "Vertical dropout line",
-      "Side lobe artifact",
-      "Beam‑width artifact"
-    ],
-    "respuesta_correcta": [
-      "Vertical dropout line"
-    ],
-    "concept_to_study": "Each crystal in a linear or phased array transducer generates one vertical column of the ultrasound image. When a crystal fails, that column disappears, producing a vertical dropout.",
-    "explicacion_openai": "The image shows a single, sharply defined vertical black band interrupting the otherwise smooth arc of returning echoes. This is the hallmark of a vertical dropout line, which occurs when a specific crystal in the transducer array stops working. Reverberations, side lobes, and beam‑width artifacts do not produce a clean, persistent vertical void like this.",
-    "image_explanation": ""
-  },
-
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 261,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A persistent vertical black line appears in the same location across all imaging modes. What is the most likely cause?",
-    "image": "cristal_broke.png",
-    "opciones": [
-      "Incorrect gain settings",
-      "Software processing error",
-      "Damaged piezoelectric crystal",
-      "Air trapped between probe and skin"
-    ],
-    "respuesta_correcta": [
-      "Damaged piezoelectric crystal"
-    ],
-    "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
-    "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
-    "image_explanation": ""
-  },
-   {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 176,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which Doppler spectral characteristic is demonstrated in the provided image?",
-    "image": "Broadening.png",
-    "opciones": [
-        "Aliasing",
-        "Spectral broadening",
-        "Narrow bandwidth",
-        "Mirroring"
-    ],
-    "respuesta_correcta": [
-        "Spectral broadening"
-    ],
-    "concept_to_study": "Recognition of spectral broadening in Doppler waveforms.",
-    "explicacion_openai": "Spectral broadening occurs when a wide distribution of blood cell velocities exists within the Doppler sample volume. This is typically seen in turbulent flow, disturbed flow near stenosis, high Doppler gain, or when the Doppler angle is suboptimal. Inside the vessel, erythrocytes do not move uniformly; instead, they exhibit layered velocities due to laminar shear, collisions, and micro‑eddies. These internal variations in red blood cell motion generate a spread of Doppler frequency shifts, producing a thickened, fuzzy spectral envelope rather than a sharp, well‑defined border.",
-    "image_explanation": ""
-},
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 263,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "What happens to the period of a sound wave if the frequency is tripled?",
-        "image": "",
+        "enunciado": "What maintenance issue is demonstrated in this image?",
+        "image": "cristal_broke.png",
         "opciones": [
-            "The period triples",
-            "The period increases ninefold",
-            "The period remains unchanged",
-            "The period is reduced to one-third"
+            "Damage to the lens or transducer crystals",
+            "Electrical interference pattern",
+            "Damaged connector pins",
+            "Malfunction of the transmitter"
         ],
         "respuesta_correcta": [
-            "The period is reduced to one-third"
+            "Damage to the lens or transducer crystals"
         ],
-        "concept_to_study": "Inverse relationship between frequency and period.",
-        "explicacion_openai": "Period and frequency are reciprocals. If frequency triples, the period becomes one-third of its original value.",
+        "concept_to_study": "A vertical dropout line on an ultrasound image is typically caused by a damaged or non-functioning piezoelectric crystal within the transducer array.",
+        "explicacion_openai": "The image shows a perfectly vertical dark line running from top to bottom of the ultrasound field. This occurs when one of the piezoelectric crystals in the transducer stops transmitting or receiving sound. Each crystal corresponds to a vertical slice of the image, so when one fails, that slice becomes a black column. This is a classic sign of crystal damage, not electrical interference or connector issues.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 264,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following units is most appropriate for measuring the period in diagnostic ultrasound?",
-        "image": "",
+        "enunciado": "What artifact is produced when one or more piezoelectric elements in a transducer stop functioning?",
+        "image": "cristal_broke.png",
         "opciones": [
-            "Watts (W)",
-            "Microseconds (μs)",
-            "Millimeters (mm)",
-            "Hertz (Hz)"
+            "Reverberation artifact",
+            "Vertical dropout line",
+            "Side lobe artifact",
+            "Beam‑width artifact"
         ],
         "respuesta_correcta": [
-            "Microseconds (μs)"
+            "Vertical dropout line"
         ],
-        "concept_to_study": "Units used to measure time intervals in ultrasound physics.",
-        "explicacion_openai": "The period is the time for one cycle. In ultrasound, this is extremely short and measured in microseconds.",
+        "concept_to_study": "Each crystal in a linear or phased array transducer generates one vertical column of the ultrasound image. When a crystal fails, that column disappears, producing a vertical dropout.",
+        "explicacion_openai": "The image shows a single, sharply defined vertical black band interrupting the otherwise smooth arc of returning echoes. This is the hallmark of a vertical dropout line, which occurs when a specific crystal in the transducer array stops working. Reverberations, side lobes, and beam‑width artifacts do not produce a clean, persistent vertical void like this.",
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 265,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When the frequency and the period are multiplied together, the product is always:",
-        "image": "",
+        "enunciado": "A persistent vertical black line appears in the same location across all imaging modes. What is the most likely cause?",
+        "image": "cristal_broke.png",
         "opciones": [
-            "1",
-            "Infinite",
-            "0",
-            "The speed of sound"
+            "Incorrect gain settings",
+            "Software processing error",
+            "Damaged piezoelectric crystal",
+            "Air trapped between probe and skin"
         ],
         "respuesta_correcta": [
-            "1"
+            "Damaged piezoelectric crystal"
         ],
-        "concept_to_study": "Mathematical relationship between frequency and period.",
-        "explicacion_openai": "Frequency and period are reciprocals, so their product is always 1.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the period of an ultrasound wave is 0.1 μs, what is the frequency?",
-        "image": "",
-        "opciones": [
-            "100 Hz",
-            "1 MHz",
-            "0.1 MHz",
-            "10 MHz"
-        ],
-        "respuesta_correcta": [
-            "10 MHz"
-        ],
-        "concept_to_study": "Using the reciprocal relationship between period and frequency.",
-        "explicacion_openai": "A period of 0.1 μs equals 0.1 × 10⁻⁶ seconds. The reciprocal is 10 MHz.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Frequency is defined as:",
-        "image": "",
-        "opciones": [
-            "The speed at which a wave travels through a medium",
-            "The distance from the start to the end of one cycle",
-            "The time it takes for one cycle to occur",
-            "The number of cycles that occur in one second"
-        ],
-        "respuesta_correcta": [
-            "The number of cycles that occur in one second"
-        ],
-        "concept_to_study": "Definition of frequency in wave physics.",
-        "explicacion_openai": "Frequency is how many cycles occur per second, measured in Hertz.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "As a sonographer switches from a 3 MHz transducer to a 9 MHz transducer, what happens to the period?",
-        "image": "",
-        "opciones": [
-            "It doubles",
-            "It decreases",
-            "It increases",
-            "It remains the same"
-        ],
-        "respuesta_correcta": [
-            "It decreases"
-        ],
-        "concept_to_study": "Inverse relationship between frequency and period.",
-        "explicacion_openai": "Higher frequency means shorter period. Increasing from 3 to 9 MHz reduces the period.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which of the following frequencies has the longest period?",
-        "image": "",
-        "opciones": [
-            "10 MHz",
-            "2 MHz",
-            "15 MHz",
-            "5 MHz"
-        ],
-        "respuesta_correcta": [
-            "2 MHz"
-        ],
-        "concept_to_study": "Inverse relationship between frequency and period.",
-        "explicacion_openai": "Lower frequency = longer period. 2 MHz is the lowest frequency listed.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In clinical imaging, the period is determined by the:",
-        "image": "",
-        "opciones": [
-            "Thickness of the matching layer",
-            "Sound source",
-            "Medium through which the sound travels",
-            "Operator's gain settings"
-        ],
-        "respuesta_correcta": [
-            "Sound source"
-        ],
-        "concept_to_study": "Understanding what determines the period of an ultrasound wave.",
-        "explicacion_openai": "The period is fixed by the transducer's frequency and does not depend on the medium or machine settings.",
+        "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
+        "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
         "image_explanation": ""
     }
-
 ]
-
-
