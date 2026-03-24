@@ -18,24 +18,7 @@
     "concept_to_study": "Transducer Focusing (Elevational Plane)",
     "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "When sound travels through a significant amount of water before hitting a reflector, the reflector appears:",
-    "image": "",
-    "opciones": [
-      "Closer than actual",
-      "Fainter than actual",
-      "Harder than actual",
-      "Too far away"
-    ],
-    "respuesta_correcta": [
-      "Too far away"
-    ],
-    "concept_to_study": "Speed Displacement Artifact",
-    "explicacion_openai": "Diagnostic ultrasound systems assume a constant speed of sound of 1540 m/s. In reality, the speed of sound in water is approximately 1480 m/s and is slower, so the wave's round-trip travel time is longer than the machine expects. Since the system still uses 1540 m/s \u00d7 time / 2 to calculate depth, it interprets the extra travel time as if the reflector were located farther away. This results in a display error called speed displacement artifact, where the reflector appears deeper than its true position. Recognizing this phenomenon is vital for understanding and correctly interpreting artifacts in ultrasound imaging."
-  },
+
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "1",
@@ -90,24 +73,7 @@
     "concept_to_study": "Aliasing, depth sample and PRF",
     "explicacion_openai": "If the sonographer has already increased the Pulse Repetition Frequency (PRF) to address aliasing and the issue persists, the next logical steps are to decrease the sample depth to allow a higher PRF and increase the Nyquist limit, lower the transducer frequency to reduce the Doppler shift for a given velocity, adjust the Doppler angle to decrease the magnitude of the Doppler shift (while staying below 60 degrees for accuracy), and, as a last resort, use a continuous-wave (CW) Doppler transducer to eliminate the Nyquist limit and measure high velocities without aliasing."
   },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A display limited to only black and white without shades of gray is known as:",
-    "image": "",
-    "opciones": [
-      "Grayscale",
-      "Color scale",
-      "Bistable",
-      "Multistable"
-    ],
-    "respuesta_correcta": [
-      "Bistable"
-    ],
-    "concept_to_study": "Bistable Display",
-    "explicacion_openai": "A bistable display is one that is limited to only two shades: black and white. There are no intermediate shades of gray. This type of display has high contrast but poor dynamic range. Recognizing display types is crucial for interpreting ultrasound images accurately."
-  },
+
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "2",
