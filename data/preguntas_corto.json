@@ -1247,63 +1247,7 @@
         "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
         "image_explanation": ""
     },
-    {
-        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Consider a new diagnostic test for Disease O. The results from 100 patients are summarized in the table below:\n\n| | Disease + | Disease - | Total |\n| :---------------- | :---------- | :---------- | :---- |\n| Test Positive | 80 | 10 | 90 |\n| Test Negative | 5 | 5 | 10 |\n| Total | 85 | 15 | 100 |\n\nWhat is the **Accuracy** of this test?",
-        "image": "",
-        "opciones": [
-            "80/85",
-            "85/100",
-            "10/15",
-            "5/10"
-        ],
-        "respuesta_correcta": [
-            "85/100"
-        ],
-        "concept_to_study": "Accuracy of Diagnostic Tests",
-        "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Consider a new diagnostic test for Disease P. The results from 100 patients are summarized in the table below:\n\n| | Disease + | Disease - | Total |\n| :---------------- | :---------- | :---------- | :---- |\n| Test Positive | 80 | 10 | 90 |\n| Test Negative | 5 | 5 | 10 |\n| Total | 85 | 15 | 100 |\n\nWhat is the **Accuracy** of this test?",
-        "image": "",
-        "opciones": [
-            "90/100",
-            "85/100",
-            "80/90",
-            "5/15"
-        ],
-        "respuesta_correcta": [
-            "85/100"
-        ],
-        "concept_to_study": "Accuracy of Diagnostic Tests",
-        "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Consider a new diagnostic test for Condition Q. The results from 100 patients are summarized in the table below:\n\n| | Disease + | Disease - | Total |\n| :---------------- | :---------- | :---------- | :---- |\n| Test Positive | 80 | 10 | 90 |\n| Test Negative | 5 | 5 | 10 |\n| Total | 85 | 15 | 100 |\n\nWhat is the **Accuracy** of this test?",
-        "image": "",
-        "opciones": [
-            "80/85",
-            "85/100",
-            "10/90",
-            "5/15"
-        ],
-        "respuesta_correcta": [
-            "85/100"
-        ],
-        "concept_to_study": "Accuracy of Diagnostic Tests",
-        "explicacion_openai": "Accuracy is calculated as (True Positives + True Negatives) / Total Patients. From the table, True Positives = 80, True Negatives = 5, and Total Patients = 100. So, Accuracy = (80 + 5) / 100 = 85/100.",
-        "image_explanation": ""
-    },
+    
     {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "1",
