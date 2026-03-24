@@ -29684,7 +29684,160 @@
     "concept_to_study": "Recognition of spectral broadening in Doppler waveforms.",
     "explicacion_openai": "Spectral broadening occurs when a wide distribution of blood cell velocities exists within the Doppler sample volume. This is typically seen in turbulent flow, disturbed flow near stenosis, high Doppler gain, or when the Doppler angle is suboptimal. Inside the vessel, erythrocytes do not move uniformly; instead, they exhibit layered velocities due to laminar shear, collisions, and micro‑eddies. These internal variations in red blood cell motion generate a spread of Doppler frequency shifts, producing a thickened, fuzzy spectral envelope rather than a sharp, well‑defined border.",
     "image_explanation": ""
-}
+},
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What happens to the period of a sound wave if the frequency is tripled?",
+        "image": "",
+        "opciones": [
+            "The period triples",
+            "The period increases ninefold",
+            "The period remains unchanged",
+            "The period is reduced to one-third"
+        ],
+        "respuesta_correcta": [
+            "The period is reduced to one-third"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Period and frequency are reciprocals. If frequency triples, the period becomes one-third of its original value.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following units is most appropriate for measuring the period in diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "Watts (W)",
+            "Microseconds (μs)",
+            "Millimeters (mm)",
+            "Hertz (Hz)"
+        ],
+        "respuesta_correcta": [
+            "Microseconds (μs)"
+        ],
+        "concept_to_study": "Units used to measure time intervals in ultrasound physics.",
+        "explicacion_openai": "The period is the time for one cycle. In ultrasound, this is extremely short and measured in microseconds.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the frequency and the period are multiplied together, the product is always:",
+        "image": "",
+        "opciones": [
+            "1",
+            "Infinite",
+            "0",
+            "The speed of sound"
+        ],
+        "respuesta_correcta": [
+            "1"
+        ],
+        "concept_to_study": "Mathematical relationship between frequency and period.",
+        "explicacion_openai": "Frequency and period are reciprocals, so their product is always 1.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the period of an ultrasound wave is 0.1 μs, what is the frequency?",
+        "image": "",
+        "opciones": [
+            "100 Hz",
+            "1 MHz",
+            "0.1 MHz",
+            "10 MHz"
+        ],
+        "respuesta_correcta": [
+            "10 MHz"
+        ],
+        "concept_to_study": "Using the reciprocal relationship between period and frequency.",
+        "explicacion_openai": "A period of 0.1 μs equals 0.1 × 10⁻⁶ seconds. The reciprocal is 10 MHz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Frequency is defined as:",
+        "image": "",
+        "opciones": [
+            "The speed at which a wave travels through a medium",
+            "The distance from the start to the end of one cycle",
+            "The time it takes for one cycle to occur",
+            "The number of cycles that occur in one second"
+        ],
+        "respuesta_correcta": [
+            "The number of cycles that occur in one second"
+        ],
+        "concept_to_study": "Definition of frequency in wave physics.",
+        "explicacion_openai": "Frequency is how many cycles occur per second, measured in Hertz.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "As a sonographer switches from a 3 MHz transducer to a 9 MHz transducer, what happens to the period?",
+        "image": "",
+        "opciones": [
+            "It doubles",
+            "It decreases",
+            "It increases",
+            "It remains the same"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Higher frequency means shorter period. Increasing from 3 to 9 MHz reduces the period.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following frequencies has the longest period?",
+        "image": "",
+        "opciones": [
+            "10 MHz",
+            "2 MHz",
+            "15 MHz",
+            "5 MHz"
+        ],
+        "respuesta_correcta": [
+            "2 MHz"
+        ],
+        "concept_to_study": "Inverse relationship between frequency and period.",
+        "explicacion_openai": "Lower frequency = longer period. 2 MHz is the lowest frequency listed.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In clinical imaging, the period is determined by the:",
+        "image": "",
+        "opciones": [
+            "Thickness of the matching layer",
+            "Sound source",
+            "Medium through which the sound travels",
+            "Operator's gain settings"
+        ],
+        "respuesta_correcta": [
+            "Sound source"
+        ],
+        "concept_to_study": "Understanding what determines the period of an ultrasound wave.",
+        "explicacion_openai": "The period is fixed by the transducer's frequency and does not depend on the medium or machine settings.",
+        "image_explanation": ""
+    }
+
 ]
 
 
