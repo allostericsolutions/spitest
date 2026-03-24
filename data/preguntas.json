@@ -29665,7 +29665,26 @@
     "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
     "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
     "image_explanation": ""
-  }
+  },
+   {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 176,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which Doppler spectral characteristic is demonstrated in the provided image?",
+    "image": "Broadening.png",
+    "opciones": [
+        "Aliasing",
+        "Spectral broadening",
+        "Narrow bandwidth",
+        "Mirroring"
+    ],
+    "respuesta_correcta": [
+        "Spectral broadening"
+    ],
+    "concept_to_study": "Recognition of spectral broadening in Doppler waveforms.",
+    "explicacion_openai": "Spectral broadening occurs when a wide distribution of blood cell velocities exists within the Doppler sample volume. This is typically seen in turbulent flow, disturbed flow near stenosis, high Doppler gain, or when the Doppler angle is suboptimal. Inside the vessel, erythrocytes do not move uniformly; instead, they exhibit layered velocities due to laminar shear, collisions, and micro‑eddies. These internal variations in red blood cell motion generate a spread of Doppler frequency shifts, producing a thickened, fuzzy spectral envelope rather than a sharp, well‑defined border.",
+    "image_explanation": ""
+}
 ]
 
 
