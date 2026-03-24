@@ -570,24 +570,7 @@
     },
    
 
-{
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 125,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Refer to the spectral Doppler tracing shown. Which technical factor most likely explains the marked spectral broadening?",
-        "image": "doopler_gate_open.png",
-        "opciones": [
-            "Sample gate encompassing the entire vessel lumen",
-            "Excessive wall filter setting",
-            "Insufficient Doppler angle correction",
-            "Low PRF leading to aliasing"
-        ],
-        "respuesta_correcta": [
-            "Sample gate encompassing the entire vessel lumen"
-        ],
-        "concept_to_study": "Spectral Broadening",
-        "explicacion_openai": "The image shows a longitudinal ultrasound view of a vessel with a large rectangular Doppler sample gate spanning the entire lumen. The accompanying spectral display has a thick, densely filled envelope indicating a wide spread of Doppler shifts from low velocities at the wall to high velocities in the center. This pronounced spectral broadening occurs because the oversized gate captures the full range of velocity gradients across the vessel in one sample volume, mixing slower edge flow with faster central flow."
-    },
+
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 126,
@@ -660,24 +643,7 @@
         "concept_to_study": "Spectral Broadening",
         "explicacion_openai": "The image shows a gate that spans the entire lumen, touching the walls, and a thick spectral envelope. Including wall-adjacent slow flow with central high velocity increases the velocity spread in the sample volume, producing spectral broadening."
     },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 131,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Based on the size and placement of the Doppler sample gate shown, which flow type will NOT be accurately represented in the spectral display?",
-        "image": "doopler_gate_open.png",
-        "opciones": [
-            "Turbulent flow",
-            "Disturbed flow",
-            "Plug flow",
-            "Laminar flow"
-        ],
-        "respuesta_correcta": [
-            "Laminar flow"
-        ],
-        "concept_to_study": "Flow Patterns",
-        "explicacion_openai": "The image depicts a longitudinal view of a vessel with a wide Doppler gate spanning the entire lumen. Because the gate captures velocities from the vessel wall (slow, disturbed flow) through the center (high-velocity flow), the spectral display will include turbulent, disturbed, and plug‐like components. Pure laminar flow, characterized by a smooth, parabolic velocity profile isolated at the center, cannot be individually resolved when the entire lumen is sampled in one volume."
-    },
+  
     
     {
     "clasificacion": "Doppler Imaging Concepts",
