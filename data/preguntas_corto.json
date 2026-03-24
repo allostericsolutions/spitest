@@ -1322,5 +1322,66 @@
     ],
     "concept_to_study": "Laminar flow",
     "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
-}
+},
+
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 261,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What maintenance issue is demonstrated in this image?",
+    "image": "cristal_broke.png",
+    "opciones": [
+      "Damage to the lens or transducer crystals",
+      "Electrical interference pattern",
+      "Damaged connector pins",
+      "Malfunction of the transmitter"
+    ],
+    "respuesta_correcta": [
+      "Damage to the lens or transducer crystals"
+    ],
+    "concept_to_study": "A vertical dropout line on an ultrasound image is typically caused by a damaged or non-functioning piezoelectric crystal within the transducer array.",
+    "explicacion_openai": "The image shows a perfectly vertical dark line running from top to bottom of the ultrasound field. This occurs when one of the piezoelectric crystals in the transducer stops transmitting or receiving sound. Each crystal corresponds to a vertical slice of the image, so when one fails, that slice becomes a black column. This is a classic sign of crystal damage, not electrical interference or connector issues.",
+    "image_explanation": ""
+  },
+
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 261,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What artifact is produced when one or more piezoelectric elements in a transducer stop functioning?",
+    "image": "cristal_broke.png",
+    "opciones": [
+      "Reverberation artifact",
+      "Vertical dropout line",
+      "Side lobe artifact",
+      "Beam‑width artifact"
+    ],
+    "respuesta_correcta": [
+      "Vertical dropout line"
+    ],
+    "concept_to_study": "Each crystal in a linear or phased array transducer generates one vertical column of the ultrasound image. When a crystal fails, that column disappears, producing a vertical dropout.",
+    "explicacion_openai": "The image shows a single, sharply defined vertical black band interrupting the otherwise smooth arc of returning echoes. This is the hallmark of a vertical dropout line, which occurs when a specific crystal in the transducer array stops working. Reverberations, side lobes, and beam‑width artifacts do not produce a clean, persistent vertical void like this.",
+    "image_explanation": ""
+  },
+
+  {
+    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+    "grupo": 261,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A persistent vertical black line appears in the same location across all imaging modes. What is the most likely cause?",
+    "image": "cristal_broke.png",
+    "opciones": [
+      "Incorrect gain settings",
+      "Software processing error",
+      "Damaged piezoelectric crystal",
+      "Air trapped between probe and skin"
+    ],
+    "respuesta_correcta": [
+      "Damaged piezoelectric crystal"
+    ],
+    "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
+    "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
+    "image_explanation": ""
+  }
+
 ]
