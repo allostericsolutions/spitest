@@ -128,24 +128,7 @@
     "concept_to_study": "Analog vs. Digital Signals",
     "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image. This conversion is crucial for interpreting ultrasound images accurately."
   },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement about color Doppler is accurate?",
-    "image": "",
-    "opciones": [
-      "It displays only upflow",
-      "Each pixel can either be grayscale or color",
-      "It has no color hues",
-      "It shows flow direction with depth only"
-    ],
-    "respuesta_correcta": [
-      "Each pixel can either be grayscale or color"
-    ],
-    "concept_to_study": "Color Doppler Display",
-    "explicacion_openai": "In color Doppler imaging, each pixel on the display can represent either grayscale information (structural data) or color information (velocity data). The color overlay indicates the presence, direction, and velocity of blood flow. This understanding aids in accurately assessing blood flow characteristics."
-  },
+
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "2",
