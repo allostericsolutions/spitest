@@ -29527,6 +29527,83 @@
     "concept_to_study": "PRF and Nyquist - Value Comparison",
     "explicacion_openai": "Nyquist limit = 26 kHz. Since 25.8 kHz is below 26 kHz, aliasing does not occur.",
     "image_explanation": ""
+  },
+  
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 273,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which statement correctly defines the Nyquist limit in pulsed Doppler ultrasound?",
+    "image": "",
+    "opciones": [
+      "One-half of the pulse repetition frequency (PRF).",
+      "Twice the pulse repetition frequency (PRF).",
+      "The maximum imaging depth achievable with Doppler.",
+      "The artifact produced when PRF is increased too much."
+    ],
+    "respuesta_correcta": [
+      "One-half of the pulse repetition frequency (PRF)."
+    ],
+    "concept_to_study": "Definition of the Nyquist limit",
+    "explicacion_openai": "The Nyquist limit is defined as PRF/2 in pulsed Doppler. It represents the highest Doppler frequency shift that can be measured without aliasing. Options about depth or artifacts are not definitions of the Nyquist limit.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 273,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In spectral Doppler, what does the Nyquist limit represent?",
+    "image": "",
+    "opciones": [
+      "The highest Doppler frequency shift measurable without aliasing.",
+      "The lowest Doppler frequency shift detectable by the system.",
+      "The Doppler frequency shift at which wall filter activates.",
+      "The point at which color gain must be reduced."
+    ],
+    "respuesta_correcta": [
+      "The highest Doppler frequency shift measurable without aliasing."
+    ],
+    "concept_to_study": "Nyquist limit and aliasing threshold",
+    "explicacion_openai": "The Nyquist limit is the aliasing threshold in pulsed Doppler: it is the maximum Doppler frequency shift that can be sampled correctly (without wraparound). The other options refer to sensitivity limits, filtering, or display settings, not the Nyquist limit.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 273,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which relationship between PRF and the Nyquist limit is correct for pulsed Doppler?",
+    "image": "",
+    "opciones": [
+      "Nyquist limit increases when PRF increases.",
+      "Nyquist limit decreases when PRF increases.",
+      "Nyquist limit is independent of PRF.",
+      "Nyquist limit depends only on transducer frequency, not PRF."
+    ],
+    "respuesta_correcta": [
+      "Nyquist limit increases when PRF increases."
+    ],
+    "concept_to_study": "Nyquist limit dependence on PRF",
+    "explicacion_openai": "Because the Nyquist limit equals PRF/2, increasing PRF increases the Nyquist limit proportionally. A higher Nyquist limit raises the maximum Doppler shift that can be displayed without aliasing. Therefore, it is directly dependent on PRF.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 273,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which option best distinguishes aliasing from the Nyquist limit?",
+    "image": "",
+    "opciones": [
+      "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit.",
+      "Aliasing is the same thing as the Nyquist limit.",
+      "Nyquist limit is an imaging artifact caused by incorrect angle correction.",
+      "Nyquist limit occurs only in continuous-wave Doppler."
+    ],
+    "respuesta_correcta": [
+      "Aliasing is the wraparound error that occurs when the Doppler shift exceeds the Nyquist limit."
+    ],
+    "concept_to_study": "Nyquist limit vs aliasing",
+    "explicacion_openai": "The Nyquist limit is a sampling boundary (PRF/2). Aliasing is the sampling error (wraparound/ambiguity) that happens when the measured Doppler frequency shift is greater than that boundary. Continuous-wave Doppler does not have the same Nyquist sampling limit as pulsed Doppler.",
+    "image_explanation": "" 
   }
 
 ]
