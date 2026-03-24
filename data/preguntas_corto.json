@@ -19,24 +19,7 @@
     "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
   },
 
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the maximum permissible temperature rise to avoid thermally induced biological effects?",
-    "image": "",
-    "opciones": [
-      "1\u00b0C",
-      "3\u00b0C",
-      "5\u00b0C",
-      "2\u00b0C"
-    ],
-    "respuesta_correcta": [
-      "2\u00b0C"
-    ],
-    "concept_to_study": "Thermal Bioeffects",
-    "explicacion_openai": "To minimize the risk of thermally induced biological effects, the maximum permissible temperature rise in tissue during diagnostic ultrasound is 2\u00b0C. This limit is based on guidelines from organizations like the AIUM. Familiarity with these guidelines is vital for ensuring patient safety during ultrasound examinations."
-  },
+
   {
     "clasificacion": "Physical Principles",
     "grupo": "2",
@@ -92,24 +75,7 @@
     "concept_to_study": "Bit (Binary Digit)",
     "explicacion_openai": "A bit is the smallest unit of digital storage, representing a single binary value (0 or 1). All digital information is ultimately stored as combinations of bits. Understanding digital storage is essential for managing and interpreting ultrasound data."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the Fresnel zone:",
-    "image": "",
-    "opciones": [
-      "The beam area decreases with distance from the transducer",
-      "The beam area increases with distance",
-      "The beam remains collimated",
-      "The attenuation is minimal"
-    ],
-    "respuesta_correcta": [
-      "The beam area decreases with distance from the transducer"
-    ],
-    "concept_to_study": "Fresnel Zone (Near Zone)",
-    "explicacion_openai": "Fresnel zone, also called the near zone, is the region closest to the transducer where the ultrasound beam converges before reaching its focal point. Within this zone, the beam width decreases progressively as the distance from the transducer increases, leading to improved lateral resolution up to the focal point.The length of the Fresnel zone depends on the diameter of the transducer crystal and the frequency of the ultrasound wave. Larger diameters and higher frequencies result in a longer near zone.Beyond the Fresnel zone lies the Fraunhofer zone (far zone), where the beam starts to diverge and resolution decreases. A longer Fresnel zone improves focus and resolution within the near field, which is advantageous for imaging superficial structures.Length and quality of the Fresnel zone can be adjusted by using higher frequency transducers. Higher frequency transducers create a longer Fresnel zone, allowing for better resolution in the near field." 
-  },
+ 
   {
     "clasificacion": "Ultrasound Transducers",
     "grupo": "2",
@@ -165,24 +131,7 @@
     "concept_to_study": "Amplitude and Frequency Relationship",
     "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "5",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the relationship between spatial pulse length and pulse duration?",
-    "image": "",
-    "opciones": [
-      "They are inversely related",
-      "Directly related",
-      "Not related",
-      "Dependent on frequency"
-    ],
-    "respuesta_correcta": [
-      "Directly related"
-    ],
-    "concept_to_study": "Spatial Pulse Length and Pulse Duration Relationship",
-    "explicacion_openai": "Spatial pulse length (SPL) and pulse duration (PD) are directly related. A longer pulse duration results in a longer spatial pulse length, and vice versa. Both affect axial resolution. Recognizing this relationship is crucial for optimizing image quality and resolution."
-  },
+ 
   {
     "clasificacion": "Physical Principles",
     "grupo": "6",
@@ -255,24 +204,7 @@
     "concept_to_study": "Laminar Flow",
     "explicacion_openai": "Laminar flow is the most common type of blood flow found in the normal circulatory system. It is characterized by smooth, orderly layers of fluid movement, with the highest velocity in the center of the vessel and lower velocities near the vessel walls. Recognizing laminar flow is crucial for interpreting normal and pathological flow patterns."
   },
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which type of transducer is most suitable for imaging deep structures in the abdomen?",
-    "image": "",
-    "opciones": [
-      "Endocavitary transducer",
-      "Linear sequenced array transducer",
-      "Convex transducer",
-      "Continuous-wave transducer"
-    ],
-    "respuesta_correcta": [
-      "Convex transducer"
-    ],
-    "concept_to_study": "Convex (Curved) Transducers",
-    "explicacion_openai": "Convex transducers, also known as curved array transducers, are well-suited for imaging deep structures in the abdomen. Their curved shape provides a wider field of view at depth, and they typically operate at lower frequencies, allowing for greater penetration. Selecting the appropriate transducer is essential for specific imaging needs."
-  },
+
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "3",
