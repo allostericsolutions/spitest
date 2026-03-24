@@ -29147,6 +29147,387 @@
     "concept_to_study": "Laminar flow",
     "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
     
-    }
+    },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 273,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 10 kHz, the Nyquist limit will be 5 kHz. Will aliasing occur if a Doppler shift of 6.1 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = PRF/2 = 5 kHz. Since 6.1 kHz exceeds 5 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 274,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 12 kHz, the Nyquist limit will be 6 kHz. Will aliasing occur if a Doppler shift of 5.4 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 6 kHz. Since 5.4 kHz is within the 6 kHz limit, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 275,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 14 kHz, the Nyquist limit will be 7 kHz. Will aliasing occur if a Doppler shift of 7.6 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 7 kHz. Since 7.6 kHz exceeds 7 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 276,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 18 kHz, the Nyquist limit will be 9 kHz. Will aliasing occur if a Doppler shift of 8.2 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 9 kHz. Since 8.2 kHz is below 9 kHz, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 277,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 20 kHz, the Nyquist limit will be 10 kHz. Will aliasing occur if a Doppler shift of 10.8 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 10 kHz. Since 10.8 kHz exceeds 10 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 278,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 22 kHz, the Nyquist limit will be 11 kHz. Will aliasing occur if a Doppler shift of 10.9 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 11 kHz. Since 10.9 kHz is within the 11 kHz limit, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 279,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 24 kHz, the Nyquist limit will be 12 kHz. Will aliasing occur if a Doppler shift of 12.5 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 12 kHz. Since 12.5 kHz exceeds 12 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 280,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 26 kHz, the Nyquist limit will be 13 kHz. Will aliasing occur if a Doppler shift of 12.7 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 13 kHz. Since 12.7 kHz is below 13 kHz, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 281,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 28 kHz, the Nyquist limit will be 14 kHz. Will aliasing occur if a Doppler shift of 15.3 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 14 kHz. Since 15.3 kHz exceeds 14 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 282,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 30 kHz, the Nyquist limit will be 15 kHz. Will aliasing occur if a Doppler shift of 14.9 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 15 kHz. Since 14.9 kHz is within the 15 kHz limit, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 283,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 32 kHz, the Nyquist limit will be 16 kHz. Will aliasing occur if a Doppler shift of 16.4 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 16 kHz. Since 16.4 kHz exceeds 16 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 284,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 34 kHz, the Nyquist limit will be 17 kHz. Will aliasing occur if a Doppler shift of 16.8 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 17 kHz. Since 16.8 kHz is below 17 kHz, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 285,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 36 kHz, the Nyquist limit will be 18 kHz. Will aliasing occur if a Doppler shift of 19.2 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 18 kHz. Since 19.2 kHz exceeds 18 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 286,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 38 kHz, the Nyquist limit will be 19 kHz. Will aliasing occur if a Doppler shift of 18.6 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 19 kHz. Since 18.6 kHz is within the 19 kHz limit, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 287,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 40 kHz, the Nyquist limit will be 20 kHz. Will aliasing occur if a Doppler shift of 20.7 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 20 kHz. Since 20.7 kHz exceeds 20 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 288,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 44 kHz, the Nyquist limit will be 22 kHz. Will aliasing occur if a Doppler shift of 21.3 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 22 kHz. Since 21.3 kHz is below 22 kHz, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 289,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 46 kHz, the Nyquist limit will be 23 kHz. Will aliasing occur if a Doppler shift of 24.1 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 23 kHz. Since 24.1 kHz exceeds 23 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 290,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 48 kHz, the Nyquist limit will be 24 kHz. Will aliasing occur if a Doppler shift of 23.5 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 24 kHz. Since 23.5 kHz is within the 24 kHz limit, aliasing does not occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 291,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 50 kHz, the Nyquist limit will be 25 kHz. Will aliasing occur if a Doppler shift of 27.9 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "Yes, aliasing occurs."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 25 kHz. Since 27.9 kHz exceeds 25 kHz, aliasing will occur.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "If the PRF is set to 52 kHz, the Nyquist limit will be 26 kHz. Will aliasing occur if a Doppler shift of 25.8 kHz is observed?",
+    "image": "",
+    "opciones": [
+      "Yes, aliasing occurs.",
+      "No, aliasing does not occur.",
+      "Only if the sample volume is large.",
+      "Depends on the Doppler angle."
+    ],
+    "respuesta_correcta": [
+      "No, aliasing does not occur."
+    ],
+    "concept_to_study": "PRF and Nyquist - Value Comparison",
+    "explicacion_openai": "Nyquist limit = 26 kHz. Since 25.8 kHz is below 26 kHz, aliasing does not occur.",
+    "image_explanation": ""
+  }
+
 ]
 
