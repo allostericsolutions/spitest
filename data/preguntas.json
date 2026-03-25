@@ -30117,8 +30117,200 @@
         "concept_to_study": "Strategies to minimize aliasing.",
         "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift, and using a shallow depth allows a higher PRF. Together, these adjustments significantly raise the Nyquist limit and reduce the likelihood of aliasing.",
         "image_explanation": ""
+    },
+    
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control is used to brighten echoes that are too weak in the far field due to attenuation?",
+        "image": "",
+        "opciones": [
+            "Overall gain",
+            "Time gain compensation",
+            "Dynamic range",
+            "Persistence"
+        ],
+        "respuesta_correcta": [
+            "Time gain compensation"
+        ],
+        "concept_to_study": "TGC compensates for depth‑dependent attenuation.",
+        "explicacion_openai": "Time Gain Compensation (TGC) allows the operator to selectively amplify echoes returning from deeper structures, which have lost energy due to attenuation. Unlike overall gain, which brightens the entire image uniformly, TGC corrects brightness based on depth, restoring uniformity across the field.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment reduces speckle and smooths the image by averaging multiple frames?",
+        "image": "",
+        "opciones": [
+            "Depth",
+            "Persistence",
+            "Focus position",
+            "PRF"
+        ],
+        "respuesta_correcta": [
+            "Persistence"
+        ],
+        "concept_to_study": "Persistence reduces noise by temporal averaging.",
+        "explicacion_openai": "Persistence blends information from consecutive frames, reducing random noise and speckle. This produces a smoother image, especially useful in slow‑moving or static structures. However, high persistence can reduce temporal resolution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control improves lateral resolution at a specific depth?",
+        "image": "",
+        "opciones": [
+            "Focal zone adjustment",
+            "TGC",
+            "Compression",
+            "Sector width"
+        ],
+        "respuesta_correcta": [
+            "Focal zone adjustment"
+        ],
+        "concept_to_study": "Focusing improves lateral resolution at the chosen depth.",
+        "explicacion_openai": "Placing the focal zone at or just below the structure of interest narrows the beam at that depth, improving lateral resolution. This is one of the most effective operator‑controlled methods for sharpening detail in a specific region.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control reduces noise by narrowing the range of displayed echo amplitudes?",
+        "image": "",
+        "opciones": [
+            "Compression (dynamic range)",
+            "PRF",
+            "Depth",
+            "Edge enhancement"
+        ],
+        "respuesta_correcta": [
+            "Compression (dynamic range)"
+        ],
+        "concept_to_study": "Dynamic range adjusts contrast by modifying amplitude mapping.",
+        "explicacion_openai": "Compression reduces the range of echo intensities displayed, increasing contrast and suppressing low‑level noise. A lower dynamic range produces a more black‑and‑white image, while a higher dynamic range shows more shades of gray.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment increases temporal resolution during fast‑moving exams like cardiac imaging?",
+        "image": "",
+        "opciones": [
+            "Increase sector width",
+            "Decrease depth",
+            "Increase persistence",
+            "Add more focal zones"
+        ],
+        "respuesta_correcta": [
+            "Decrease depth"
+        ],
+        "concept_to_study": "Temporal resolution improves when the system completes frames faster.",
+        "explicacion_openai": "Shallower imaging reduces the time required for sound to travel to and from the region of interest. This allows the system to produce more frames per second, improving temporal resolution—critical in cardiac and vascular imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control is used to eliminate low‑level motion artifacts such as vessel wall movement in Doppler?",
+        "image": "",
+        "opciones": [
+            "Wall filter",
+            "PRF",
+            "Baseline shift",
+            "Color priority"
+        ],
+        "respuesta_correcta": [
+            "Wall filter"
+        ],
+        "concept_to_study": "Wall filters remove low‑frequency Doppler signals.",
+        "explicacion_openai": "Wall filters suppress low‑frequency Doppler shifts caused by slow tissue motion, such as vessel wall movement. This helps isolate true blood flow signals and reduces clutter in spectral and color Doppler displays.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment improves visualization of superficial structures without increasing noise?",
+        "image": "",
+        "opciones": [
+            "Increase overall gain",
+            "Decrease depth",
+            "Increase dynamic range",
+            "Add focal zones"
+        ],
+        "respuesta_correcta": [
+            "Decrease depth"
+        ],
+        "concept_to_study": "Optimizing depth improves resolution and frame rate.",
+        "explicacion_openai": "Reducing depth enlarges superficial structures on the display and concentrates system resources on the region of interest. This improves detail without amplifying noise, unlike increasing overall gain.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control helps reduce aliasing in color Doppler without changing the transducer?",
+        "image": "",
+        "opciones": [
+            "Increase color scale (PRF)",
+            "Increase wall filter",
+            "Increase persistence",
+            "Decrease color priority"
+        ],
+        "respuesta_correcta": [
+            "Increase color scale (PRF)"
+        ],
+        "concept_to_study": "Color scale determines the Nyquist limit in color Doppler.",
+        "explicacion_openai": "Increasing the color scale raises the PRF, which increases the Nyquist limit. This reduces aliasing in color Doppler without requiring a change in transducer frequency or imaging depth.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control narrows the field of view to improve frame rate?",
+        "image": "",
+        "opciones": [
+            "Sector width",
+            "Compression",
+            "TGC",
+            "Frequency selection"
+        ],
+        "respuesta_correcta": [
+            "Sector width"
+        ],
+        "concept_to_study": "Narrowing the sector reduces the number of scan lines.",
+        "explicacion_openai": "A narrower sector requires fewer scan lines per frame, allowing the system to refresh the image more quickly. This improves temporal resolution, especially useful in cardiac and vascular imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment enhances edge definition by increasing the contrast between boundaries?",
+        "image": "",
+        "opciones": [
+            "Edge enhancement",
+            "Persistence",
+            "Depth",
+            "Dynamic range"
+        ],
+        "respuesta_correcta": [
+            "Edge enhancement"
+        ],
+        "concept_to_study": "Edge enhancement sharpens boundaries by emphasizing gradients.",
+        "explicacion_openai": "Edge enhancement increases the contrast at boundaries where echo intensity changes abruptly. This makes edges appear sharper and more defined, improving visualization of structures such as vessel walls and organ borders.",
+        "image_explanation": ""
     }
 ]
+
 
 
 
