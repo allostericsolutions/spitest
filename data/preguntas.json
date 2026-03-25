@@ -30308,7 +30308,179 @@
         "concept_to_study": "Edge enhancement sharpens boundaries by emphasizing gradients.",
         "explicacion_openai": "Edge enhancement increases the contrast at boundaries where echo intensity changes abruptly. This makes edges appear sharper and more defined, improving visualization of structures such as vessel walls and organ borders.",
         "image_explanation": ""
+    },
+    
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control is used to brighten echoes that are too weak in the far field due to attenuation?",
+        "image": "",
+        "opciones": [
+            "Overall gain",
+            "Time gain compensation",
+            "Dynamic range",
+            "Persistence"
+        ],
+        "respuesta_correcta": ["Time gain compensation"],
+        "concept_to_study": "TGC compensates depth-related attenuation.",
+        "explicacion_openai": "TGC selectively amplifies echoes from deeper regions without affecting the near field, correcting brightness loss caused by attenuation. Overall gain brightens the entire image, while TGC targets specific depths.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment reduces speckle and smooths the image by averaging multiple frames?",
+        "image": "",
+        "opciones": [
+            "Depth",
+            "Persistence",
+            "Focus position",
+            "PRF"
+        ],
+        "respuesta_correcta": ["Persistence"],
+        "concept_to_study": "Persistence reduces noise via frame averaging.",
+        "explicacion_openai": "Persistence averages several frames to reduce random noise and speckle. This produces a smoother image but may reduce temporal resolution if set too high.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control improves lateral resolution at a specific depth?",
+        "image": "",
+        "opciones": [
+            "Focal zone adjustment",
+            "TGC",
+            "Compression",
+            "Sector width"
+        ],
+        "respuesta_correcta": ["Focal zone adjustment"],
+        "concept_to_study": "Focusing improves lateral resolution.",
+        "explicacion_openai": "Placing the focal zone at or just below the target narrows the beam at that depth, improving the ability to distinguish side-by-side structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control reduces noise by narrowing the range of displayed echo amplitudes?",
+        "image": "",
+        "opciones": [
+            "Compression (dynamic range)",
+            "PRF",
+            "Depth",
+            "Edge enhancement"
+        ],
+        "respuesta_correcta": ["Compression (dynamic range)"],
+        "concept_to_study": "Dynamic range adjusts contrast.",
+        "explicacion_openai": "Compression reduces the range of echo intensities displayed, increasing contrast and suppressing low-level noise. Lower dynamic range produces a more black-and-white image.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You want to improve temporal resolution to visualize the movement of a fetus's heart valves. Which change is most effective?",
+        "image": "",
+        "opciones": [
+            "Reduce the image sector width.",
+            "Increase line density.",
+            "Increase the number of focal zones.",
+            "Increase image depth."
+        ],
+        "respuesta_correcta": ["Reduce the image sector width."],
+        "concept_to_study": "Sector width affects frame rate.",
+        "explicacion_openai": "Reducing sector width decreases the number of scan lines per frame, allowing the system to refresh the image faster and improving temporal resolution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If you are following the ALARA principle during an obstetric study and the image is too dim, what should be your first action?",
+        "image": "",
+        "opciones": [
+            "Use Color Doppler to better see the structures.",
+            "Increase the output power.",
+            "Increase the receiver gain.",
+            "Reduce the transducer frequency."
+        ],
+        "respuesta_correcta": ["Increase the receiver gain."],
+        "concept_to_study": "ALARA prioritizes receiver adjustments.",
+        "explicacion_openai": "Receiver gain amplifies returning echoes without increasing acoustic exposure. Under ALARA, it must be adjusted before increasing output power or using Doppler modes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You observe a cystic structure with 'internal echoes' that you suspect is a reverberation artifact. How can you confirm it is not a real structure?",
+        "image": "",
+        "opciones": [
+            "Increase the dynamic range.",
+            "Decrease the output power.",
+            "Turn on tissue harmonics.",
+            "Change the angle of incidence of the transducer."
+        ],
+        "respuesta_correcta": ["Change the angle of incidence of the transducer."],
+        "concept_to_study": "Reverberation changes with angulation.",
+        "explicacion_openai": "Reverberation artifacts often disappear or change when the transducer angle is altered. This is the fastest way to confirm whether echoes are real or artifactual.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When using Color Doppler on a blood vessel, the color disappears completely in one segment even though the vessel is patent. The angle of incidence is 90°. What should you do?",
+        "image": "",
+        "opciones": [
+            "Increase the color gain.",
+            "Angle the transducer (heel-toe) to obtain an angle other than 90°.",
+            "Invert the color scale.",
+            "Decrease the color PRF."
+        ],
+        "respuesta_correcta": ["Angle the transducer (heel-toe) to obtain an angle other than 90°."],
+        "concept_to_study": "Color Doppler requires a non-90° angle.",
+        "explicacion_openai": "At 90°, there is no Doppler shift, so color disappears. Angling the transducer restores an angle that allows flow detection.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A linear array transducer has a damaged crystal. How will this typically manifest in the B-mode image?",
+        "image": "",
+        "opciones": [
+            "A vertical black line or 'dropout' from top to bottom.",
+            "Total loss of focus in the entire image.",
+            "A horizontal black line at a specific depth.",
+            "An acoustic shadow artifact below a rib."
+        ],
+        "respuesta_correcta": ["A vertical black line or 'dropout' from top to bottom."],
+        "concept_to_study": "Crystal failure patterns in arrays.",
+        "explicacion_openai": "Each crystal corresponds to a vertical slice of the image. A damaged crystal produces a vertical dropout extending through the entire field.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are measuring the wall thickness of an artery. Which type of resolution is most critical to ensure the measurement is accurate in the direction of the beam?",
+        "image": "",
+        "opciones": [
+            "Elevational resolution.",
+            "Lateral resolution.",
+            "Axial resolution.",
+            "Contrast resolution."
+        ],
+        "respuesta_correcta": ["Axial resolution."],
+        "concept_to_study": "Axial resolution measures detail along beam path.",
+        "explicacion_openai": "Axial resolution determines the system's ability to distinguish structures lying one in front of the other along the beam, making it essential for accurate wall thickness measurements.",
+        "image_explanation": ""
     }
+
 ]
 
 
