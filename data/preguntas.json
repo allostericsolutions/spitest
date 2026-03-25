@@ -30479,9 +30479,67 @@
         "concept_to_study": "Axial resolution measures detail along beam path.",
         "explicacion_openai": "Axial resolution determines the system's ability to distinguish structures lying one in front of the other along the beam, making it essential for accurate wall thickness measurements.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While evaluating a vessel, the spectral waveform suddenly appears inverted and wraps below the baseline, even though flow direction has not changed. What is the most appropriate first adjustment?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Increase the PRF/scale.",
+            "Lower the wall filter.",
+            "Invert the Doppler baseline.",
+            "Reduce the sample volume size."
+        ],
+        "respuesta_correcta": [
+            "Increase the PRF/scale."
+        ],
+        "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
+        "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a Doppler exam, the systolic peaks appear cut off and mirrored below the baseline, similar to an inverted waveform. What adjustment would best restore the true waveform shape?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Switch to a lower Doppler frequency.",
+            "Increase the Doppler gain.",
+            "Increase the sweep speed.",
+            "Raise the dynamic range."
+        ],
+        "respuesta_correcta": [
+            "Switch to a lower Doppler frequency."
+        ],
+        "concept_to_study": "Lower Doppler frequency reduces Doppler shift.",
+        "explicacion_openai": "Lowering the Doppler transmit frequency decreases the Doppler shift produced by high velocities, reducing aliasing when PRF is already near its limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You notice that only the highest velocities in the waveform are aliasing while the rest of the tracing is normal. What is the most targeted adjustment to correct this without altering the entire display?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Shift the baseline upward.",
+            "Increase the wall filter.",
+            "Reduce overall gain.",
+            "Increase persistence."
+        ],
+        "respuesta_correcta": [
+            "Shift the baseline upward."
+        ],
+        "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
+        "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
+        "image_explanation": ""
     }
-
 ]
+
+
 
 
 
