@@ -1,5 +1,3 @@
-
-
 [
   {
     "clasificacion": "Ultrasound Transducers",
@@ -706,43 +704,66 @@
     "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
     "image_explanation": ""
   },
-   {
+ 
+    {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 345,
+        "grupo": 278,
         "tipo_pregunta": "opcion_multiple",
-        "enunciado": "An operator is examining a Doppler spectral display (similar to image **A**), showing many compressed waveforms. To perform a detailed analysis and obtain precise measurements of specific points like peak systolic and end-diastolic velocities within a single heartbeat, transitioning to a more expanded view resembling image **B**, what control should be adjusted, and what is the practical advantage for diagnosis?",
-        "image": "sweep_adjust.png",
+        "enunciado": "While evaluating a vessel, the spectral waveform suddenly appears inverted and wraps below the baseline, even though flow direction has not changed. What is the most appropriate first adjustment?",
+        "image": "aliasing.png",
         "opciones": [
-            "Decrease the gain to enhance contrast for velocity differentiation.",
-            "Increase the wall filter to remove low-frequency noise.",
-            "Increase the time display rate  (sweep speed control) to expand the waveform, allowing for precise measurements.",
-            "Adjust the sample volume size to encompass more flow."
+            "Increase the PRF/scale.",
+            "Lower the wall filter.",
+            "Invert the Doppler baseline.",
+            "Reduce the sample volume size."
         ],
         "respuesta_correcta": [
-            "Increase the time display rate  (sweep speed control) to expand the waveform, allowing for precise measurements."
+            "Increase the PRF/scale."
         ],
-        "concept_to_study": "Adjusting time display rate for waveform detail and precise measurements",
-        "explicacion_openai": "When a waveform is compressed (many cycles on screen), detailed analysis and accurate measurement of specific points, such as peak systolic and end-diastolic velocities, become challenging. Increasing the time display rate 'stretches' the waveform horizontally, dedicating more screen space to each individual cardiac cycle. This expanded view provides crucial magnification, making it significantly easier for the operator to place calipers accurately, thus improving the precision of quantitative measurements vital for diagnostic assessment of blood flow dynamics.",
-        "image_explanation": "The question asks how to go from compressed waveforms (A) to expanded waveforms (B) for detailed measurements, linking this to the time display rate control."
+        "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
+        "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
+        "image_explanation": ""
     },
     {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 176,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which Doppler spectral characteristic is demonstrated in the provided image?",
-    "image": "Broadening.png",
-    "opciones": [
-        "Aliasing",
-        "Spectral broadening",
-        "Narrow bandwidth",
-        "Mirroring"
-    ],
-    "respuesta_correcta": [
-        "Spectral broadening"
-    ],
-    "concept_to_study": "Recognition of spectral broadening in Doppler waveforms.",
-    "explicacion_openai": "Spectral broadening occurs when a wide distribution of blood cell velocities exists within the Doppler sample volume. This is typically seen in turbulent flow, disturbed flow near stenosis, high Doppler gain, or when the Doppler angle is suboptimal. Inside the vessel, erythrocytes do not move uniformly; instead, they exhibit layered velocities due to laminar shear, collisions, and micro‑eddies. These internal variations in red blood cell motion generate a spread of Doppler frequency shifts, producing a thickened, fuzzy spectral envelope rather than a sharp, well‑defined border.",
-    "image_explanation": ""
-}
-
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a Doppler exam, the systolic peaks appear cut off and mirrored below the baseline, similar to an inverted waveform. What adjustment would best restore the true waveform shape?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Switch to a lower Doppler frequency.",
+            "Increase the Doppler gain.",
+            "Increase the sweep speed.",
+            "Raise the dynamic range."
+        ],
+        "respuesta_correcta": [
+            "Switch to a lower Doppler frequency."
+        ],
+        "concept_to_study": "Lower Doppler frequency reduces Doppler shift.",
+        "explicacion_openai": "Lowering the Doppler transmit frequency decreases the Doppler shift produced by high velocities, reducing aliasing when PRF is already near its limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You notice that only the highest velocities in the waveform are aliasing while the rest of the tracing is normal. What is the most targeted adjustment to correct this without altering the entire display?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Shift the baseline upward.",
+            "Increase the wall filter.",
+            "Reduce overall gain.",
+            "Increase persistence."
+        ],
+        "respuesta_correcta": [
+            "Shift the baseline upward."
+        ],
+        "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
+        "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
+        "image_explanation": ""
+    }
 ]
+
+
+
+
