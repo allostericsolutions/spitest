@@ -29926,8 +29926,200 @@
         "concept_to_study": "Impact of focal zones on frame rate.",
         "explicacion_openai": "Each focal zone requires the system to fire a complete set of scan lines for that zone. Adding more focal zones multiplies the workload. Even with shallow depth, using three focal zones forces the machine to create three separate passes of the image, dramatically reducing frame rate.",
         "image_explanation": ""
+    },
+    
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the PRF is increased but the Doppler shift remains the same, what happens to the likelihood of aliasing?",
+        "image": "",
+        "opciones": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It becomes unpredictable"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ],
+        "concept_to_study": "Relationship between PRF and aliasing.",
+        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit. Increasing PRF raises the Nyquist limit, making it less likely that the Doppler shift will surpass it. Therefore, aliasing becomes less likely.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A vessel shows aliasing even at maximum PRF. Which adjustment is most effective to eliminate the artifact?",
+        "image": "",
+        "opciones": [
+            "Increase wall filter",
+            "Lower the Doppler frequency",
+            "Increase sample volume size",
+            "Narrow the color box"
+        ],
+        "respuesta_correcta": [
+            "Lower the Doppler frequency"
+        ],
+        "concept_to_study": "How transducer frequency affects Doppler shift and aliasing.",
+        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift produced by moving blood cells. A smaller Doppler shift is less likely to exceed the Nyquist limit, making this one of the most effective ways to eliminate aliasing when PRF cannot be increased further.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler system displays wrap-around of velocities despite normal PRF. What does this indicate?",
+        "image": "",
+        "opciones": [
+            "Beam misalignment",
+            "Excessive Doppler angle",
+            "Doppler shift exceeding the Nyquist limit",
+            "Low wall filter settings"
+        ],
+        "respuesta_correcta": [
+            "Doppler shift exceeding the Nyquist limit"
+        ],
+        "concept_to_study": "Recognition of aliasing patterns in spectral Doppler.",
+        "explicacion_openai": "Wrap-around or mirrored waveforms are classic signs of aliasing. This occurs when the Doppler shift surpasses the Nyquist limit, causing the system to misrepresent high velocities as if they were flowing in the opposite direction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario is most likely to produce aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "Low velocity flow with high PRF",
+            "High velocity flow with shallow depth",
+            "High velocity flow with low PRF",
+            "Low velocity flow with low wall filter"
+        ],
+        "respuesta_correcta": [
+            "High velocity flow with low PRF"
+        ],
+        "concept_to_study": "Conditions that increase the risk of aliasing.",
+        "explicacion_openai": "Aliasing is most likely when Doppler shifts are large and PRF is low. High velocities generate large Doppler shifts, and a low PRF lowers the Nyquist limit, making aliasing almost inevitable.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why does deeper imaging increase the risk of aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "It increases the Doppler angle",
+            "It reduces the PRF",
+            "It widens the sample volume",
+            "It increases beam attenuation"
+        ],
+        "respuesta_correcta": [
+            "It reduces the PRF"
+        ],
+        "concept_to_study": "How imaging depth affects PRF and Nyquist limit.",
+        "explicacion_openai": "At greater depths, sound takes longer to return to the transducer. This forces the system to lower the PRF to avoid pulse overlap. A lower PRF reduces the Nyquist limit, increasing the chance of aliasing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reduces the Doppler frequency from 5 MHz to 2.5 MHz. What effect does this have on aliasing?",
+        "image": "",
+        "opciones": [
+            "Aliasing becomes more likely",
+            "Aliasing becomes less likely",
+            "Aliasing disappears completely",
+            "Aliasing is unaffected"
+        ],
+        "respuesta_correcta": [
+            "Aliasing becomes less likely"
+        ],
+        "concept_to_study": "Effect of transducer frequency on Doppler shift magnitude.",
+        "explicacion_openai": "Lower transducer frequencies generate smaller Doppler shifts for the same blood velocity. Smaller shifts are less likely to exceed the Nyquist limit, reducing the risk of aliasing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment increases the Nyquist limit without altering the Doppler frequency?",
+        "image": "",
+        "opciones": [
+            "Decreasing imaging depth",
+            "Increasing sample volume size",
+            "Lowering wall filter",
+            "Increasing color priority"
+        ],
+        "respuesta_correcta": [
+            "Decreasing imaging depth"
+        ],
+        "concept_to_study": "Depth–PRF–Nyquist relationship.",
+        "explicacion_openai": "Shallower imaging allows the system to use a higher PRF because echoes return more quickly. A higher PRF raises the Nyquist limit, reducing aliasing without changing the Doppler frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler waveform shows aliasing only during systole. What is the most likely explanation?",
+        "image": "",
+        "opciones": [
+            "PRF is too high",
+            "PRF is too low for peak velocities",
+            "Doppler angle is too small",
+            "Sample volume is too deep"
+        ],
+        "respuesta_correcta": [
+            "PRF is too low for peak velocities"
+        ],
+        "concept_to_study": "Understanding aliasing during high-velocity phases.",
+        "explicacion_openai": "Systole produces the highest blood velocities. If the PRF is adequate for diastolic flow but too low for systolic peaks, aliasing will appear only during systole when Doppler shifts exceed the Nyquist limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the Nyquist limit is 6 kHz and the Doppler shift reaches 6.5 kHz, what will the spectral display show?",
+        "image": "",
+        "opciones": [
+            "A flattened waveform",
+            "A mirrored waveform wrapping below the baseline",
+            "A complete loss of signal",
+            "A widened spectral window"
+        ],
+        "respuesta_correcta": [
+            "A mirrored waveform wrapping below the baseline"
+        ],
+        "concept_to_study": "Visual recognition of aliasing on spectral Doppler.",
+        "explicacion_openai": "When the Doppler shift exceeds the Nyquist limit, the system cannot represent the true velocity and instead wraps the signal to the opposite side of the baseline, producing a mirrored or inverted appearance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which combination most strongly reduces aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "Higher frequency + deeper depth",
+            "Lower frequency + shallower depth",
+            "Higher PRF + larger sample volume",
+            "Lower PRF + narrow sector"
+        ],
+        "respuesta_correcta": [
+            "Lower frequency + shallower depth"
+        ],
+        "concept_to_study": "Strategies to minimize aliasing.",
+        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift, and using a shallow depth allows a higher PRF. Together, these adjustments significantly raise the Nyquist limit and reduce the likelihood of aliasing.",
+        "image_explanation": ""
     }
 ]
+
 
 
 
