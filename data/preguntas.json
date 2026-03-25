@@ -29831,5 +29831,105 @@
         "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
         "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
         "image_explanation": ""
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Frame rate would be decreased by:",
+    "image": "",
+    "opciones": [
+        "Decreasing the number of focal zones",
+        "Decreasing sector width and image depth",
+        "Increasing acoustic scan line density",
+        "Increasing pulse repetition frequency"
+    ],
+    "respuesta_correcta": [
+        "Increasing acoustic scan line density"
+    ],
+    "concept_to_study": "Factors that reduce frame rate in ultrasound imaging.",
+    "explicacion_openai": "Frame rate decreases when more scan lines must be produced per frame. Increasing acoustic scan line density requires the system to send and receive more pulses for each image, slowing down the frame rate. The other options either maintain or increase frame rate.",
+    "image_explanation": ""
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which of the following will result in the highest frame rate?",
+    "image": "",
+    "opciones": [
+        "Shallow imaging with high line density",
+        "Deep imaging with multiple focal zones",
+        "Shallow imaging with a narrow sector",
+        "Deep imaging with a single focal zone"
+    ],
+    "respuesta_correcta": [
+        "Shallow imaging with a narrow sector"
+    ],
+    "concept_to_study": "Factors that maximize frame rate in ultrasound imaging.",
+    "explicacion_openai": "Frame rate increases when the system has less work to do per frame. Shallow imaging reduces travel time for each pulse, and a narrow sector reduces the number of scan lines required. Together, these conditions produce the highest frame rate.",
+    "image_explanation": ""
+},
+ {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When comparing two ultrasound images, one with a 30° sector and one with a 90° sector, which setup will produce a higher frame rate?",
+        "image": "",
+        "opciones": [
+            "The 90° sector",
+            "The 30° sector",
+            "Both produce the same frame rate",
+            "Frame rate depends only on depth"
+        ],
+        "respuesta_correcta": [
+            "The 30° sector"
+        ],
+        "concept_to_study": "Effect of sector width on frame rate.",
+        "explicacion_openai": "A narrower sector contains fewer scan lines, so the system completes each frame more quickly. Reducing the sector from 90° to 30° dramatically decreases the number of lines that must be transmitted and received, which directly increases frame rate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reduces the imaging depth from 16 cm to 8 cm. What happens to the frame rate?",
+        "image": "",
+        "opciones": [
+            "It decreases",
+            "It doubles",
+            "It stays the same",
+            "It becomes unpredictable"
+        ],
+        "respuesta_correcta": [
+            "It doubles"
+        ],
+        "concept_to_study": "Effect of imaging depth on frame rate.",
+        "explicacion_openai": "Shallower imaging means sound travels a shorter distance before returning to the transducer. Because each pulse completes its round trip faster, the system can send out pulses more frequently, increasing the number of frames produced per second—often nearly doubling the frame rate when depth is halved.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario will produce the lowest frame rate?",
+        "image": "",
+        "opciones": [
+            "One focal zone, shallow depth",
+            "Three focal zones, shallow depth",
+            "One focal zone, deep depth",
+            "Narrow sector with one focal zone"
+        ],
+        "respuesta_correcta": [
+            "Three focal zones, shallow depth"
+        ],
+        "concept_to_study": "Impact of focal zones on frame rate.",
+        "explicacion_openai": "Each focal zone requires the system to fire a complete set of scan lines for that zone. Adding more focal zones multiplies the workload. Even with shallow depth, using three focal zones forces the machine to create three separate passes of the image, dramatically reducing frame rate.",
+        "image_explanation": ""
     }
 ]
+
+
+
+
+
