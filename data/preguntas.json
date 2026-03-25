@@ -3610,23 +3610,23 @@
         "image_explanation": ""
     },
     {
-        "clasificacion": "Physical Principles",
-        "grupo": 191,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "The spatial pulse length refers to the:",
-        "image": "",
-        "opciones": [
-            "Beam width",
-            "Pulse duration",
-            "Frequency",
-            "Spatial pulse length"
-        ],
-        "respuesta_correcta": [
-            "Spatial pulse length"
-        ],
-        "concept_to_study": "Spatial pulse length (SPL)",
-        "explicacion_openai": "Spatial pulse length (SPL) is a key concept in ultrasound physics, particularly in the SPI (Sonography Principles and Instrumentation) exam content. SPL is defined as the physical length that one pulse occupies in space as it propagates through tissue. It is calculated by multiplying the number of cycles in a pulse by the wavelength of each cycle. A common error is to confuse SPL with pulse duration (the time the pulse exists), frequency (number of cycles per second), or beam width (the width of the ultrasound beam), but these are distinctly different parameters. SPL specifically addresses how much distance the pulse covers, which has direct implications for image resolution: shorter SPLs improve axial resolution because less tissue is insonated by each pulse, allowing structures that are close together to be more clearly distinguished. Therefore, when asked about 'spatial pulse length,' the correct focus is on the literal length of the pulse in space—not its width, duration, or frequency.",
-        "image_explanation": ""
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "The spatial pulse length refers to the:",
+    "image": "",
+    "opciones": [
+        "The physical length of a pulse from the start to the end",
+        "The frequency of the sound wave",
+        "The time it takes for one pulse to occur",
+        "The width of the ultrasound beam"
+    ],
+    "respuesta_correcta": [
+        "The physical length of a pulse from the start to the end"
+    ],
+    "concept_to_study": "Definition and determinants of spatial pulse length (SPL).",
+    "explicacion_openai": "Spatial pulse length (SPL) is a distance measurement that describes how long the pulse is in space. It depends on the number of cycles in the pulse and the wavelength. It is not a measure of frequency, time, or beam geometry.",
+    "image_explanation": ""
     },
     {
         "clasificacion": "Physical Principles",
