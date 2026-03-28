@@ -226,7 +226,7 @@
     "concept_to_study": "Inverse relationship between frequency and wavelength",
     "explicacion_openai": "Frequency and wavelength are inversely proportiona. Since the propagation speed in soft tissue is relatively constant at **1540 m/s**, an increase in frequency must result in a shorter wavelength. This is a critical trade-off in sonography: higher frequencies improve axial resolution but decrease penetration due to this shorter wavelength.",
     "image_explanation": ""
-}
+},
   {
     "clasificacion": "Physical Principles",
     "grupo": 13,
@@ -284,23 +284,23 @@
     "explicacion_openai": "In ultrasound imaging, the speed of sound (c) in a given medium is generally constant. According to the equation c = f × λ, if the frequency (f) increases, the wavelength (λ) must decrease to maintain that constant speed. This inverse relationship means that higher frequencies produce shorter wavelengths, which improves resolution while reducing penetration depth.",
     "image_explanation": ""
   },
-  {
+ {
     "clasificacion": "Physical Principles",
     "grupo": 16,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How does frequency affect wavelength in ultrasound?",
+    "enunciado": "A sonographer switches from a 3.5 MHz transducer to a 7.5 MHz transducer to image a superficial structure. What is the primary effect on the spatial pulse length (SPL) and wavelength within the same medium?",
     "image": "",
     "opciones": [
-      "Higher frequency increases wavelength",
-      "Higher frequency decreases wavelength",
-      "Frequency has no effect on wavelength",
-      "Frequency doubles the wavelength"
+      "The wavelength increases, improving penetration",
+      "The wavelength decreases, resulting in improved axial resolution",
+      "The wavelength remains unchanged as speed is constant",
+      "The wavelength doubles, reducing the spatial pulse length"
     ],
     "respuesta_correcta": [
-      "Higher frequency decreases wavelength"
+      "The wavelength decreases, resulting in improved axial resolution"
     ],
-    "concept_to_study": "A rise in frequency results in a lower wavelength in ultrasound.",
-    "explicacion_openai": "Ultrasound speed is generally fixed in a given medium, so boosting frequency reduces wavelength.",
+    "concept_to_study": "Inverse relationship between frequency and wavelength and its impact on axial resolution",
+    "explicacion_openai": "In ultrasound physics, frequency and wavelength are inversely proportional. By increasing the frequency from 3.5 MHz to 7.5 MHz, the wavelength is significantly shortened. a shorter wavelength directly reduces the SPL, which is the fundamental requirement for superior axial resolution. This is why high-frequency transducers are preferred for superficial structures where detail is more critical than depth of penetration.",
     "image_explanation": ""
   },
   {
@@ -337,7 +337,7 @@
     "respuesta_correcta": [
       "Wavelength"
     ],
-    "concept_to_study": "Wavelength depends on the source's frequency and the medium´s speed of sound.",
+    "concept_to_study": "Wavelength.",
     "explicacion_openai": "Frequency is set by the transducer, while speed is inherent to the medium. Wavelength follows from both.",
     "image_explanation": ""
   },
@@ -18775,40 +18775,41 @@
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 259,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the PRF is 10 kHz (Nyquist = 5 kHz) and the measured Doppler shift is exactly 5 kHz, will aliasing occur?",
+    "enunciado": "During a spectral Doppler examination of a deep-seated vessel, a sonographer sets the Pulse Repetition Frequency (PRF) to 10 kHz. If the peak Doppler shift returned from the moving red blood cells is measured at exactly 5 kHz, what will be the appearance of the spectral waveform?",
     "image": "",
     "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only if the Doppler angle is incorrect.",
-      "Depends on the transducer frequency."
+      "The waveform will exhibit aliasing (wrap-around effect).",
+      "The waveform will be displayed completely without aliasing.",
+      "The signal will be eliminated by the wall filter.",
+      "The waveform will only alias if the Doppler angle is increased."
     ],
     "respuesta_correcta": [
-      "No, aliasing does not occur."
+      "The waveform will be displayed completely without aliasing."
     ],
-    "concept_to_study": "PRF and Nyquist - Borderline Aliasing",
-    "explicacion_openai": "Theoretically, if the Doppler shift equals the Nyquist limit, aliasing does not occur (although it is a borderline situation).",
+    "concept_to_study": "Identifying the Nyquist Limit in clinical scenarios",
+    "explicacion_openai": "Don't let the clinical 'fluff' of any question to overwhelm you! To solve this, scan the text for these **three key elements**: 1) **The PRF** (10 kHz), 2) **The Doppler Shift** (5 kHz), and 3) **The question's goal** (waveform appearance). Ignore the rest (deep vessels, sonographer actions). **The Logic:** Calculate the Nyquist Limit immediately ($$PRF / 2$$). Here, $$10 / 2 = 5$$. Since the Shift (5 kHz) is **equal to** the Limit (5 kHz), and not higher, the 'bouncer' (Nyquist) lets the signal through. Aliasing only occurs when the shift **exceeds** the limit (> 5.1 kHz).",
     "image_explanation": ""
-  },
-  {
+
+},
+ {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 260,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "With a PRF of 6 kHz (Nyquist = 3 kHz), if a Doppler shift of 3.2 kHz is measured, will aliasing be present?",
+    "enunciado": "A sonographer is evaluating a patient with suspected internal carotid artery stenosis. To optimize the spectral display, the Pulse Repetition Frequency (PRF) is adjusted to 6 kHz. During the peak systole within the stenotic segment, the system detects a Doppler shift of 3.2 kHz. What will be the most likely result on the spectral display?",
     "image": "",
     "opciones": [
-      "Yes, aliasing occurs.",
-      "No, aliasing does not occur.",
-      "Only in the presence of turbulence.",
-      "Only when using color Doppler."
+      "The waveform will be displayed clearly without artifacts.",
+      "The waveform will exhibit aliasing (wrap-around effect).",
+      "The signal will be completely eliminated by the wall filter.",
+      "The peak velocity will be underestimated due to the range ambiguity."
     ],
     "respuesta_correcta": [
-      "Yes, aliasing occurs."
+      "The waveform will exhibit aliasing (wrap-around effect)."
     ],
-    "concept_to_study": "PRF and Nyquist - Determination of Aliasing",
-    "explicacion_openai": "A Doppler shift of 3.2 kHz slightly exceeds the Nyquist limit of 3 kHz, resulting in aliasing.",
+    "concept_to_study": "Threshold for Aliasing (Doppler Shift > Nyquist Limit)",
+    "explicacion_openai": "To master these long questions, you must learn to **filter the noise**. Don't let terms like 'internal carotid' or 'stenotic segment' distract you—they are just context. Look for the **clues**: 1) **The PRF** (6 kHz), and 2) **The Doppler Shift** (3.2 kHz). **The Strategy:** Immediately calculate the Nyquist Limit ($$PRF / 2$$). In this case, $$6 / 2 = 3\\text{ kHz}$$. Compare your 'ceiling' (3 kHz) to your 'signal' (3.2 kHz). Since the shift is higher than the limit ($$3.2 > 3.0$$), the signal 'breaks through the roof' and reappears at the bottom. This is **Aliasing**.",
     "image_explanation": ""
-  },
+},
   {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 261,
