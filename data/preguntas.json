@@ -208,11 +208,11 @@
     "explicacion_openai": "More frequency equals a shorter wavelength, assuming constant speed of sound.",
     "image_explanation": ""
   },
-  {
+ {
     "clasificacion": "Physical Principles",
     "grupo": 12,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How does frequency influence the wavelength in ultrasound?",
+    "enunciado": "Assuming the propagation speed remains constant within a specific medium, how does an increase in transducer frequency affect the resulting wavelength?",
     "image": "",
     "opciones": [
       "Increases wavelength",
@@ -223,10 +223,10 @@
     "respuesta_correcta": [
       "Decreases wavelength"
     ],
-    "concept_to_study": "When frequency increases, wavelength decreases accordingly.",
-    "explicacion_openai": "Soft tissue speed stays roughly constant, so higher frequency inevitably shortens the wavelength.",
+    "concept_to_study": "Inverse relationship between frequency and wavelength",
+    "explicacion_openai": "Frequency and wavelength are inversely proportiona. Since the propagation speed in soft tissue is relatively constant at **1540 m/s**, an increase in frequency must result in a shorter wavelength. This is a critical trade-off in sonography: higher frequencies improve axial resolution but decrease penetration due to this shorter wavelength.",
     "image_explanation": ""
-  },
+}
   {
     "clasificacion": "Physical Principles",
     "grupo": 13,
