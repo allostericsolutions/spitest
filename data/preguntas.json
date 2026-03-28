@@ -475,24 +475,25 @@
     "image_explanation": ""
   },
   {
-    "clasificacion": "Physical Principles",
+   "clasificacion": "Physical Principles",
     "grupo": 26,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary determinant of the frequency of an ultrasound wave?",
+    "enunciado": "A sonographer begins a carotid study with a 10 MHz linear transducer but decides to switch to a 5 MHz transducer to achieve better penetration. In this scenario, what is the primary determinant of the frequency of the sound wave produced?",
     "image": "",
     "opciones": [
-      "The medium",
-      "The source",
-      "The receiver",
-      "The transducer"
+      "The density and stiffness of the biological tissue (the medium)",
+      "The characteristics of the piezoelectric crystal (the source)",
+      "The overall propagation speed within the soft tissue",
+      "The gain settings adjusted on the ultrasound receiver"
     ],
     "respuesta_correcta": [
-      "The source"
+      "The characteristics of the piezoelectric crystal (the source)"
     ],
-    "concept_to_study": "The source determines the frequency of an ultrasound wave.",
-    "explicacion_openai": "Understanding what controls the frequency of an ultrasound wave is crucial in sonography physics. The frequency is established exclusively by the ultrasound transducer, specifically by the piezoelectric crystals within the transducer. Neither the medium through which the sound travels, nor the receiver alter the initial frequency generated. The source (transducer) sets this frequency at the moment the ultrasound is produced; this frequency remains constant as the wave propagates through different tissues. Answers such as 'the medium' or 'the receiver' are incorrect, because while the medium affects propagation speed and wavelength, it does not influence frequency. The receiver merely detects the returning echoes but does not generate or affect the original frequency. Therefore, the correct answer is 'The source,' emphasizing that in ultrasound imaging, the designed characteristics of the transducer fully determine the frequency of the ultrasound waves produced.",
+    "concept_to_study": "The sound source as the sole determinant of frequency",
+    "explicacion_openai": "The frequency is determined **exclusively** by the sound source—specifically the thickness and propagation speed of the piezoelectric crystal. The medium (the patient) has **no power** to change the frequency of the wave once it is emitted; it only affects the wavelength and the speed. **Key Hack:** If the frequency changes, look for the 'Source' (transducer). If the speed changes, look for the 'Medium' (tissue).",
     "image_explanation": ""
-  },
+},
+ 
   {
     "clasificacion": "Physical Principles",
     "grupo": 27,
@@ -531,25 +532,25 @@
     "explicacion_openai": "In ultrasound physics, frequency refers to the number of sound wave cycles per second, measured in megahertz (MHz). As the frequency of an ultrasound wave increases, its wavelength becomes shorter, which enhances resolution but also increases the rate of attenuation as the wave travels through tissue. Attenuation includes absorption, scattering, and reflection, which cumulatively diminish the energy of the sound beam. Therefore, higher-frequency sound waves lose energy more rapidly and cannot penetrate as deeply into tissues. Conversely, lower-frequency waves penetrate further because they experience less attenuation. This relationship is described as inversely proportional: as frequency increases, penetration depth decreases. Understanding this concept is essential for ARDMS SPI exam preparation, as it explains why sonographers must balance frequency selection based on the required imaging depth and resolution. Choosing an incorrect relationship (for example, 'directly proportional') would misunderstand this principle and could lead to inappropriate transducer selection in clinical practice.",
     "image_explanation": ""
   },
-  {
+ {
     "clasificacion": "Physical Principles",
     "grupo": 29,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How does frequency influence the attenuation of ultrasound?",
+    "enunciado": "A sonographer is attempting to image the posterior capsule of a large liver, but the image is very dark and noisy at the bottom of the screen. Which physical principle explains why switching to a higher frequency transducer would make this problem worse?",
     "image": "",
     "opciones": [
-      "Higher frequency increases attenuation",
-      "Higher frequency decreases attenuation",
-      "Frequency has no effect on attenuation",
-      "Frequency doubles the attenuation"
+      "Higher frequency waves have a higher propagation speed",
+      "Higher frequency waves undergo more attenuation",
+      "Higher frequency waves produce less scattering",
+      "Higher frequency waves increase the period of the pulse"
     ],
     "respuesta_correcta": [
-      "Higher frequency increases attenuation"
+      "Higher frequency waves undergo more attenuation"
     ],
-    "concept_to_study": "Relationship between ultrasound frequency and attenuation",
-    "explicacion_openai": "In ultrasound physics, attenuation refers to the reduction in intensity and amplitude of an ultrasound wave as it travels through tissue. This phenomenon occurs due to absorption, scattering, and reflection within the medium. The frequency of the ultrasound wave plays a critical role in this process. Specifically, as the frequency of the ultrasound increases, attenuation also increases. This is because higher frequency waves have more interactions with tissue particles, leading to greater energy loss per unit distance traveled. Therefore, high-frequency transducers produce images with better resolution but have limited penetration depth due to increased attenuation, while low-frequency transducers penetrate deeper but with less image detail. Options suggesting that frequency decreases attenuation or has no effect are incorrect because they disregard this fundamental relationship. The correct understanding is that higher frequency increases attenuation, which is a key consideration in transducer selection for diagnostic imaging in clinical practice.",
+    "concept_to_study": "Direct relationship between Frequency and Attenuation",
+    "explicacion_openai": "In ultrasound physics, **Attenuation** is the loss of energy (strength) as the sound wave travels through the body. There is a **direct relationship** between frequency and attenuation: the higher the frequency, the faster the sound wave loses its energy. This happens because high-frequency waves interact more frequently with the tissue, causing more absorption (heat) and scattering. Therefore, if you use a high-frequency probe to look at deep structures (like the bottom of a large liver), the sound will 'run out of gas' before it can return to the transducer, resulting in a dark image at depth. To see deeper, you must always lower the frequency to reduce this energy loss.",
     "image_explanation": ""
-  },
+},
   {
     "clasificacion": "Physical Principles",
     "grupo": 30,
