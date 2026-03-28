@@ -30918,27 +30918,9 @@
         "explicacion_openai": "The operator applies light pressure to observe how the tissue deforms, helping estimate elasticity.",
         "image_explanation": ""
     },
+  
     {
-        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A cardiologist requests tissue Doppler measurements during a diastolic function assessment. What does tissue Doppler primarily measure?",
-        "image": "",
-        "opciones": [
-            "Blood flow velocity.",
-            "Myocardial motion velocity.",
-            "Valve regurgitation severity.",
-            "Changes in ventricular volume."
-        ],
-        "respuesta_correcta": [
-            "Myocardial motion velocity."
-        ],
-        "concept_to_study": "Tissue Doppler measures myocardial motion, not blood flow.",
-        "explicacion_openai": "TDI detects low-velocity movements of the heart muscle, useful for evaluating diastolic function.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "clasificacion": "Doppler Imaging Concepts",
         "grupo": 116,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "While optimizing a tissue Doppler study, the sonographer lowers the wall filter. Why is this adjustment necessary?",
