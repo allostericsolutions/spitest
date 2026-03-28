@@ -22211,25 +22211,25 @@
     "explicacion_openai": "Tissue composition refers to the physical properties of biological tissues—namely, their density and stiffness (bulk modulus). In sonography, these properties determine the tissue's acoustic impedance, calculated as the product of tissue density and the speed of sound in that tissue. Acoustic impedance is crucial because it governs how much of an ultrasound wave is transmitted or reflected at tissue boundaries. While factors like wave speed and intensity can be influenced by tissue, the direct and primary effect of tissue composition is the modification of wave impedance. A change in impedance at tissue interfaces leads to reflections, which are the basis of image formation in ultrasound. The other options—enhancement of wave speed, dampening of intensity, or stabilization of diffraction—are not directly and uniquely determined by tissue composition. Therefore, understanding acoustic impedance and its modification by varying tissue composition is essential in the context of ultrasound physics.",
     "image_explanation": ""
   },
-  {
+ {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": 42,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How do surface irregularities impact ultrasound behavior?",
+    "enunciado": "When an incident ultrasound beam encounters a tissue interface characterized by surface irregularities smaller than the beam's wavelength, what is the primary acoustic phenomenon observed?",
     "image": "",
     "opciones": [
-      "Promotes straight paths",
-      "Induces significant absorption",
-      "Facilitates random scattering",
-      "Reduces frequency variation"
+        "Promotes straight paths",
+        "Induces significant absorption",
+        "Facilitates random scattering",
+        "Reduces frequency variation"
     ],
     "respuesta_correcta": [
-      "Facilitates random scattering"
+        "Facilitates random scattering"
     ],
     "concept_to_study": "Scattering caused by surface irregularities in ultrasound",
-    "explicacion_openai": "Surface irregularities refer to the uneven or rough characteristics present on the boundary of an interface within the body, such as tissue or organ surfaces. When an ultrasound beam encounters these irregular surfaces, the incident sound waves are disrupted and redirected in multiple directions. This phenomenon is known as scattering, specifically random (or diffuse) scattering, and it increases with both the degree of irregularity and the frequency of the ultrasound. The selected response, 'Facilitates random scattering,' is correct because surface roughness breaks the uniformity required for smooth reflection, causing returning echoes to scatter randomly rather than travel in straight paths. Choosing other options, such as 'Promotes straight paths,' misinterprets the effect, as only smooth surfaces allow for predictable reflection. 'Induces significant absorption' is also incorrect—absorption relates more to tissue composition rather than surface contours. 'Reduces frequency variation' is irrelevant in this context because surface irregularities do not homogenize or regularize frequency; they alter directionality. In summary, understanding that irregular surfaces facilitate random scattering is crucial because it directly affects image texture and speckle in ultrasound imaging, reflecting the foundational SPI (Sonography Principles & Instrumentation) principle.",
+    "explicacion_openai": "Scattering occurs when an ultrasound beam strikes a rough or irregular surface with dimensions equal to or smaller than the wavelength. Unlike specular reflection, which requires smooth surfaces to bounce waves predictably, these irregularities redirect the sound energy in multiple random directions. This phenomenon is responsible for the granular 'parenchyma' texture seen in solid organ imaging. Other options are incorrect because absorption depends on tissue attenuation, and rough surfaces disrupt, rather than promote, straight paths.",
     "image_explanation": ""
-  },
+},
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": 43,
