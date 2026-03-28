@@ -30593,8 +30593,411 @@
     "concept_to_study": "Axial resolution improves when spatial pulse length decreases.",
     "explicacion_openai": "Higher frequency produces shorter wavelengths, which shorten the spatial pulse length and improve axial resolution.",
     "image_explanation": ""
-}
+},
+
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are using a 6 MHz linear array transducer with a 50 mm footprint to evaluate a superficial structure. What will be the displayed image width?",
+        "image": "",
+        "opciones": [
+            "25 mm",
+            "40 mm",
+            "50 mm",
+            "75 mm"
+        ],
+        "respuesta_correcta": [
+            "50 mm"
+        ],
+        "concept_to_study": "Linear array image width equals transducer footprint.",
+        "explicacion_openai": "Linear array transducers produce a rectangular field of view whose width matches the physical footprint of the probe.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are evaluating a very small thyroid structure and need the best possible axial resolution. Which probe selection will provide the best axial resolution for this measurement?",
+        "image": "",
+        "opciones": [
+            "5 MHz linear array",
+            "7 MHz linear array",
+            "10 MHz linear array",
+            "5 MHz curved array"
+        ],
+        "respuesta_correcta": [
+            "10 MHz linear array"
+        ],
+        "concept_to_study": "Higher frequency improves axial resolution.",
+        "explicacion_openai": "Higher-frequency transducers generate shorter wavelengths and shorter spatial pulse lengths, improving axial resolution for superficial structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are scanning a superficial mass using a linear array transducer with a 38 mm footprint. What determines the displayed image width?",
+        "image": "",
+        "opciones": [
+            "The depth setting",
+            "The physical footprint of the transducer",
+            "The number of focal zones",
+            "The selected frequency"
+        ],
+        "respuesta_correcta": [
+            "The physical footprint of the transducer"
+        ],
+        "concept_to_study": "Linear array field of view equals footprint.",
+        "explicacion_openai": "Linear arrays produce a rectangular image whose width is determined by the physical footprint of the transducer, not by depth or frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are scanning a deep abdominal structure in an adult patient. Which transducer type is most appropriate for this exam?",
+        "image": "",
+        "opciones": [
+            "Linear array",
+            "Curvilinear array",
+            "Phased array",
+            "Endocavity probe"
+        ],
+        "respuesta_correcta": [
+            "Curvilinear array"
+        ],
+        "concept_to_study": "Curvilinear transducers provide wide field of view and good penetration.",
+        "explicacion_openai": "Curvilinear arrays are preferred for abdominal imaging because they offer a wide field of view and adequate penetration for deep structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are imaging a superficial tendon in the wrist. Which frequency range is most appropriate for this exam?",
+        "image": "",
+        "opciones": [
+            "2–3 MHz",
+            "4–5 MHz",
+            "7–10 MHz",
+            "1–2 MHz"
+        ],
+        "respuesta_correcta": [
+            "7–10 MHz"
+        ],
+        "concept_to_study": "Higher frequencies improve resolution for superficial structures.",
+        "explicacion_openai": "Superficial structures require high-frequency transducers to achieve optimal resolution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a quality check, you notice a vertical dropout line on the image. What is the most likely cause?",
+        "image": "",
+        "opciones": [
+            "Incorrect depth setting",
+            "A damaged piezoelectric element",
+            "Low dynamic range",
+            "Excessive gain"
+        ],
+        "respuesta_correcta": [
+            "A damaged piezoelectric element"
+        ],
+        "concept_to_study": "Element failure causes vertical dropout.",
+        "explicacion_openai": "A damaged or non-functioning piezoelectric element produces a vertical dropout line corresponding to its position in the array.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reports that the image appears blurry and uneven after the probe was dropped. What type of damage is most likely?",
+        "image": "",
+        "opciones": [
+            "Cracked lens",
+            "Incorrect TGC",
+            "Low frame rate",
+            "Improper focus selection"
+        ],
+        "respuesta_correcta": [
+            "Cracked lens"
+        ],
+        "concept_to_study": "Physical damage to the lens degrades image quality.",
+        "explicacion_openai": "A cracked lens alters beam transmission and reception, causing uneven or blurry images.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are performing an abdominal survey on a pregnant patient. Why is a curvilinear transducer preferred?",
+        "image": "",
+        "opciones": [
+            "It provides the highest frequency",
+            "It offers a wide field of view at greater depths",
+            "It has the smallest footprint",
+            "It eliminates the need for focusing"
+        ],
+        "respuesta_correcta": [
+            "It offers a wide field of view at greater depths"
+        ],
+        "concept_to_study": "Curvilinear arrays provide wide field of view for deep imaging.",
+        "explicacion_openai": "Curvilinear transducers produce a large sector-shaped field of view suitable for obstetric and abdominal imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are evaluating a superficial mass in the neck. Why is a linear array the best choice?",
+        "image": "",
+        "opciones": [
+            "It provides the deepest penetration",
+            "It produces a rectangular field of view ideal for superficial structures",
+            "It has the smallest footprint",
+            "It automatically adjusts frequency"
+        ],
+        "respuesta_correcta": [
+            "It produces a rectangular field of view ideal for superficial structures"
+        ],
+        "concept_to_study": "Linear arrays are ideal for superficial imaging.",
+        "explicacion_openai": "Linear transducers provide high resolution and a rectangular field of view suited for superficial anatomy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are imaging the heart through a narrow intercostal space. What is the primary advantage of a phased array transducer?",
+        "image": "",
+        "opciones": [
+            "It provides the widest near-field footprint",
+            "It electronically steers the beam from a small footprint",
+            "It offers the highest frequency",
+            "It eliminates attenuation artifacts"
+        ],
+        "respuesta_correcta": [
+            "It electronically steers the beam from a small footprint"
+        ],
+        "concept_to_study": "Phased arrays steer the beam electronically from a small footprint.",
+        "explicacion_openai": "Phased arrays use electronic steering to create a wide sector image from a very small footprint, ideal for intercostal windows.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 34,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which component of the transducer is responsible for matching acoustic impedance between the crystal and the patient?",
+        "image": "",
+        "opciones": [
+            "Backing material",
+            "Matching layer",
+            "Electrical shield",
+            "Lens"
+        ],
+        "respuesta_correcta": [
+            "Matching layer"
+        ],
+        "concept_to_study": "The matching layer reduces impedance mismatch.",
+        "explicacion_openai": "The matching layer improves transmission efficiency by reducing the impedance difference between the piezoelectric crystal and soft tissue.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A liver lesion appears indeterminate on grayscale imaging. The interpreting physician requests the use of an ultrasound contrast agent. What is the primary advantage of using contrast in this situation?",
+        "image": "",
+        "opciones": [
+            "It increases penetration for deep structures.",
+            "It enhances visualization of vascularity and perfusion patterns.",
+            "It replaces the need for Doppler evaluation.",
+            "It reduces acoustic shadowing."
+        ],
+        "respuesta_correcta": [
+            "It enhances visualization of vascularity and perfusion patterns."
+        ],
+        "concept_to_study": "Contrast agents improve visualization of perfusion and vascular characteristics.",
+        "explicacion_openai": "Ultrasound contrast agents highlight blood flow and perfusion, helping differentiate solid, benign, or malignant lesions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Before administering an ultrasound contrast agent for a splenic perfusion study, the sonographer lowers the Mechanical Index (MI). Why is this adjustment necessary?",
+        "image": "",
+        "opciones": [
+            "To improve penetration.",
+            "To prevent premature microbubble destruction.",
+            "To increase frame rate.",
+            "To reduce reverberation artifacts."
+        ],
+        "respuesta_correcta": [
+            "To prevent premature microbubble destruction."
+        ],
+        "concept_to_study": "A low MI preserves microbubble stability during contrast imaging.",
+        "explicacion_openai": "High MI levels can rupture microbubbles; lowering MI keeps them intact for proper contrast enhancement.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a routine QA session, a Doppler flow phantom is connected to a pump that generates steady flow. What parameter is primarily evaluated with this setup?",
+        "image": "",
+        "opciones": [
+            "Beam steering accuracy.",
+            "Accuracy of Doppler velocity measurements.",
+            "Near-field spatial resolution.",
+            "Frame rate performance."
+        ],
+        "respuesta_correcta": [
+            "Accuracy of Doppler velocity measurements."
+        ],
+        "concept_to_study": "Flow phantoms verify Doppler velocity accuracy.",
+        "explicacion_openai": "Flow phantoms simulate real blood flow, allowing the system’s Doppler velocity calculations to be tested.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Students practicing with a tissue-mimicking phantom notice that structures appear at realistic depths. Which property of the phantom is designed to match human soft tissue?",
+        "image": "",
+        "opciones": [
+            "Electrical impedance.",
+            "Speed of sound.",
+            "Mechanical Index.",
+            "Doppler angle."
+        ],
+        "respuesta_correcta": [
+            "Speed of sound."
+        ],
+        "concept_to_study": "Tissue phantoms replicate the speed of sound in soft tissue.",
+        "explicacion_openai": "Matching the speed of sound ensures accurate depth and distance calculations during QA testing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A thyroid nodule is scheduled for elastography to help determine its nature. What physical property does elastography evaluate?",
+        "image": "",
+        "opciones": [
+            "Echogenicity.",
+            "Tissue stiffness.",
+            "Blood flow velocity.",
+            "Attenuation coefficient."
+        ],
+        "respuesta_correcta": [
+            "Tissue stiffness."
+        ],
+        "concept_to_study": "Elastography measures tissue stiffness or elasticity.",
+        "explicacion_openai": "Stiffer tissues often correlate with pathology; elastography helps distinguish soft from firm structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A breast imaging technologist performs strain elastography on a suspicious mass. The patient notices gentle pressure applied with the transducer. What characteristic is specific to strain elastography?",
+        "image": "",
+        "opciones": [
+            "It requires manual compression.",
+            "It uses shear waves to quantify stiffness.",
+            "It provides exact numerical stiffness values.",
+            "It is not affected by operator technique."
+        ],
+        "respuesta_correcta": [
+            "It requires manual compression."
+        ],
+        "concept_to_study": "Strain elastography relies on manual compression to assess deformation.",
+        "explicacion_openai": "The operator applies light pressure to observe how the tissue deforms, helping estimate elasticity.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A cardiologist requests tissue Doppler measurements during a diastolic function assessment. What does tissue Doppler primarily measure?",
+        "image": "",
+        "opciones": [
+            "Blood flow velocity.",
+            "Myocardial motion velocity.",
+            "Valve regurgitation severity.",
+            "Changes in ventricular volume."
+        ],
+        "respuesta_correcta": [
+            "Myocardial motion velocity."
+        ],
+        "concept_to_study": "Tissue Doppler measures myocardial motion, not blood flow.",
+        "explicacion_openai": "TDI detects low-velocity movements of the heart muscle, useful for evaluating diastolic function.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While optimizing a tissue Doppler study, the sonographer lowers the wall filter. Why is this adjustment necessary?",
+        "image": "",
+        "opciones": [
+            "Myocardial velocities are low.",
+            "Myocardial velocities are extremely high.",
+            "It improves color Doppler sensitivity.",
+            "It increases penetration."
+        ],
+        "respuesta_correcta": [
+            "Myocardial velocities are low."
+        ],
+        "concept_to_study": "Low wall filters are required to detect low-velocity myocardial motion.",
+        "explicacion_openai": "High filters remove slow signals; lowering them allows the system to capture subtle myocardial movement.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a liver ablation procedure, the team activates fusion imaging to assist with lesion targeting. What modalities are combined in this technique?",
+        "image": "",
+        "opciones": [
+            "Ultrasound and Doppler.",
+            "Ultrasound with CT or MRI.",
+            "Ultrasound with elastography.",
+            "Ultrasound with contrast agents."
+        ],
+        "respuesta_correcta": [
+            "Ultrasound with CT or MRI."
+        ],
+        "concept_to_study": "Fusion imaging overlays ultrasound with CT or MRI datasets.",
+        "explicacion_openai": "Fusion aligns real-time ultrasound with prior CT/MRI to improve lesion localization during interventions.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 116,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A radiologist notes that a liver lesion is difficult to visualize on ultrasound alone, but fusion imaging improves targeting. What is the main advantage of fusion imaging?",
+        "image": "",
+        "opciones": [
+            "It increases ultrasound penetration.",
+            "It provides real-time alignment with prior CT/MRI studies.",
+            "It eliminates the need for Doppler.",
+            "It reduces acoustic shadowing."
+        ],
+        "respuesta_correcta": [
+            "It provides real-time alignment with prior CT/MRI studies."
+        ],
+        "concept_to_study": "Fusion imaging enhances localization by aligning ultrasound with CT/MRI.",
+        "explicacion_openai": "Real-time alignment helps identify lesions that are poorly visible on ultrasound alone.",
+        "image_explanation": ""
+    }
 ]
+
+
+
 
 
 
