@@ -30536,7 +30536,64 @@
         "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
         "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are performing an abdominal ultrasound on a patient with a large body habitus using a broadband transducer. Which transmit frequency should you choose to obtain the greatest depth penetration?",
+    "image": "",
+    "opciones": [
+        "2.5 MHz",
+        "4.0 MHz",
+        "5.0 MHz",
+        "6.0 MHz"
+    ],
+    "respuesta_correcta": [
+        "2.5 MHz"
+    ],
+    "concept_to_study": "Lower frequency increases penetration.",
+    "explicacion_openai": "Attenuation increases with frequency, so the lowest available frequency provides the greatest penetration.",
+    "image_explanation": ""
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are evaluating a very small thyroid structure and need the best possible axial resolution. Which probe selection will provide the best axial resolution for this measurement?",
+    "image": "",
+    "opciones": [
+        "5 MHz linear array",
+        "7 MHz linear array",
+        "10 MHz linear array",
+        "5 MHz curved array"
+    ],
+    "respuesta_correcta": [
+        "10 MHz linear array"
+    ],
+    "concept_to_study": "Higher frequency improves axial resolution.",
+    "explicacion_openai": "Axial resolution improves with higher frequency because it shortens the spatial pulse length.",
+    "image_explanation": ""
+},
+{
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "You are measuring the wall thickness of a tiny cystic structure and require the best axial resolution possible. Which combination of factors is true and therefore results in the best axial resolution in diagnostic ultrasound?",
+    "image": "",
+    "opciones": [
+        "Low frequency and long spatial pulse length",
+        "High frequency and short spatial pulse length",
+        "Low frequency and short spatial pulse length",
+        "High frequency and long spatial pulse length"
+    ],
+    "respuesta_correcta": [
+        "High frequency and short spatial pulse length"
+    ],
+    "concept_to_study": "Axial resolution improves when spatial pulse length decreases.",
+    "explicacion_openai": "Higher frequency produces shorter wavelengths, which shorten the spatial pulse length and improve axial resolution.",
+    "image_explanation": ""
+}
 ]
 
 
