@@ -3610,23 +3610,23 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "The spatial pulse length refers to the:",
-    "image": "",
-    "opciones": [
-        "The physical length of a pulse from the start to the end",
-        "The frequency of the sound wave",
-        "The time it takes for one pulse to occur",
-        "The width of the ultrasound beam"
-    ],
-    "respuesta_correcta": [
-        "The physical length of a pulse from the start to the end"
-    ],
-    "concept_to_study": "Definition and determinants of spatial pulse length (SPL).",
-    "explicacion_openai": "Spatial pulse length (SPL) is a distance measurement that describes how long the pulse is in space. It depends on the number of cycles in the pulse and the wavelength. It is not a measure of frequency, time, or beam geometry.",
-    "image_explanation": ""
+        "clasificacion": "Physical Principles",
+        "grupo": 191,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "The spatial pulse length refers to the:",
+        "image": "",
+        "opciones": [
+            "The physical length of a pulse from the start to the end",
+            "The frequency of the sound wave",
+            "The time it takes for one pulse to occur",
+            "The width of the ultrasound beam"
+        ],
+        "respuesta_correcta": [
+            "The physical length of a pulse from the start to the end"
+        ],
+        "concept_to_study": "Definition and determinants of spatial pulse length (SPL).",
+        "explicacion_openai": "Spatial pulse length (SPL) is a distance measurement that describes how long the pulse is in space. It depends on the number of cycles in the pulse and the wavelength. It is not a measure of frequency, time, or beam geometry.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Physical Principles",
@@ -8338,6 +8338,139 @@
         ],
         "concept_to_study": "Understanding what determines the period of an ultrasound wave.",
         "explicacion_openai": "The period is fixed by the transducer's frequency and does not depend on the medium or machine settings.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 440,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Frame rate would be decreased by:",
+        "image": "",
+        "opciones": [
+            "Decreasing the number of focal zones",
+            "Decreasing sector width and image depth",
+            "Increasing acoustic scan line density",
+            "Increasing pulse repetition frequency"
+        ],
+        "respuesta_correcta": [
+            "Increasing acoustic scan line density"
+        ],
+        "concept_to_study": "Factors that reduce frame rate in ultrasound imaging.",
+        "explicacion_openai": "Frame rate decreases when more scan lines must be produced per frame. Increasing acoustic scan line density requires the system to send and receive more pulses for each image, slowing down the frame rate. The other options either maintain or increase frame rate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 441,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following will result in the highest frame rate?",
+        "image": "",
+        "opciones": [
+            "Shallow imaging with high line density",
+            "Deep imaging with multiple focal zones",
+            "Shallow imaging with a narrow sector",
+            "Deep imaging with a single focal zone"
+        ],
+        "respuesta_correcta": [
+            "Shallow imaging with a narrow sector"
+        ],
+        "concept_to_study": "Factors that maximize frame rate in ultrasound imaging.",
+        "explicacion_openai": "Frame rate increases when the system has less work to do per frame. Shallow imaging reduces travel time for each pulse, and a narrow sector reduces the number of scan lines required. Together, these conditions produce the highest frame rate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 442,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When comparing two ultrasound images, one with a 30° sector and one with a 90° sector, which setup will produce a higher frame rate?",
+        "image": "",
+        "opciones": [
+            "The 90° sector",
+            "The 30° sector",
+            "Both produce the same frame rate",
+            "Frame rate depends only on depth"
+        ],
+        "respuesta_correcta": [
+            "The 30° sector"
+        ],
+        "concept_to_study": "Effect of sector width on frame rate.",
+        "explicacion_openai": "A narrower sector contains fewer scan lines, so the system completes each frame more quickly. Reducing the sector from 90° to 30° dramatically decreases the number of lines that must be transmitted and received, which directly increases frame rate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 443,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reduces the imaging depth from 16 cm to 8 cm. What happens to the frame rate?",
+        "image": "",
+        "opciones": [
+            "It decreases",
+            "It doubles",
+            "It stays the same",
+            "It becomes unpredictable"
+        ],
+        "respuesta_correcta": [
+            "It doubles"
+        ],
+        "concept_to_study": "Effect of imaging depth on frame rate.",
+        "explicacion_openai": "Shallower imaging means sound travels a shorter distance before returning to the transducer. Because each pulse completes its round trip faster, the system can send out pulses more frequently, increasing the number of frames produced per second—often nearly doubling the frame rate when depth is halved.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 444,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario will produce the lowest frame rate?",
+        "image": "",
+        "opciones": [
+            "One focal zone, shallow depth",
+            "Three focal zones, shallow depth",
+            "One focal zone, deep depth",
+            "Narrow sector with one focal zone"
+        ],
+        "respuesta_correcta": [
+            "Three focal zones, shallow depth"
+        ],
+        "concept_to_study": "Impact of focal zones on frame rate.",
+        "explicacion_openai": "Each focal zone requires the system to fire a complete set of scan lines for that zone. Adding more focal zones multiplies the workload. Even with shallow depth, using three focal zones forces the machine to create three separate passes of the image, dramatically reducing frame rate.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 445,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are performing an abdominal ultrasound on a patient with a large body habitus using a broadband transducer. Which transmit frequency should you choose to obtain the greatest depth penetration?",
+        "image": "",
+        "opciones": [
+            "2.5 MHz",
+            "4.0 MHz",
+            "5.0 MHz",
+            "6.0 MHz"
+        ],
+        "respuesta_correcta": [
+            "2.5 MHz"
+        ],
+        "concept_to_study": "Lower frequency increases penetration.",
+        "explicacion_openai": "Attenuation increases with frequency, so the lowest available frequency provides the greatest penetration.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 446,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are measuring the wall thickness of a tiny cystic structure and require the best axial resolution possible. Which combination of factors is true and therefore results in the best axial resolution in diagnostic ultrasound?",
+        "image": "",
+        "opciones": [
+            "Low frequency and long spatial pulse length",
+            "High frequency and short spatial pulse length",
+            "Low frequency and short spatial pulse length",
+            "High frequency and long spatial pulse length"
+        ],
+        "respuesta_correcta": [
+            "High frequency and short spatial pulse length"
+        ],
+        "concept_to_study": "Axial resolution improves when spatial pulse length decreases.",
+        "explicacion_openai": "Higher frequency produces shorter wavelengths, which shorten the spatial pulse length and improve axial resolution.",
         "image_explanation": ""
     },
     {
@@ -13526,6 +13659,215 @@
         "concept_to_study": "Nyquist limit and aliasing in Doppler ultrasound.",
         "explicacion_openai": "The Nyquist limit is the maximum frequency that can be accurately measured in Pulsed Wave (PW) Doppler imaging. If the detected Doppler frequency exceeds this limit, aliasing occurs, distorting velocity measurements. Continuous Wave (CW) Doppler, as seen in Transducer A, does not have this limitation because it continuously samples the signal. Therefore, PW Doppler (Transducer B) is affected by the Nyquist limit.",
         "image_explanation": "The image 'CW.png' shows PW Doppler (Transducer B) emitting pulses, which are subject to aliasing due to the Nyquist limit."
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 274,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are using a 6 MHz linear array transducer with a 50 mm footprint to evaluate a superficial structure. What will be the displayed image width?",
+        "image": "",
+        "opciones": [
+            "25 mm",
+            "40 mm",
+            "50 mm",
+            "75 mm"
+        ],
+        "respuesta_correcta": [
+            "50 mm"
+        ],
+        "concept_to_study": "Linear array image width equals transducer footprint.",
+        "explicacion_openai": "Linear array transducers produce a rectangular field of view whose width matches the physical footprint of the probe.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 275,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are evaluating a very small thyroid structure and need the best possible axial resolution. Which probe selection will provide the best axial resolution for this measurement?",
+        "image": "",
+        "opciones": [
+            "5 MHz linear array",
+            "7 MHz linear array",
+            "10 MHz linear array",
+            "5 MHz curved array"
+        ],
+        "respuesta_correcta": [
+            "10 MHz linear array"
+        ],
+        "concept_to_study": "Higher frequency improves axial resolution.",
+        "explicacion_openai": "Higher-frequency transducers generate shorter wavelengths and shorter spatial pulse lengths, improving axial resolution for superficial structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 276,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are scanning a superficial mass using a linear array transducer with a 38 mm footprint. What determines the displayed image width?",
+        "image": "",
+        "opciones": [
+            "The depth setting",
+            "The physical footprint of the transducer",
+            "The number of focal zones",
+            "The selected frequency"
+        ],
+        "respuesta_correcta": [
+            "The physical footprint of the transducer"
+        ],
+        "concept_to_study": "Linear array field of view equals footprint.",
+        "explicacion_openai": "Linear arrays produce a rectangular image whose width is determined by the physical footprint of the transducer, not by depth or frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 277,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are scanning a deep abdominal structure in an adult patient. Which transducer type is most appropriate for this exam?",
+        "image": "",
+        "opciones": [
+            "Linear array",
+            "Curvilinear array",
+            "Phased array",
+            "Endocavity probe"
+        ],
+        "respuesta_correcta": [
+            "Curvilinear array"
+        ],
+        "concept_to_study": "Curvilinear transducers provide wide field of view and good penetration.",
+        "explicacion_openai": "Curvilinear arrays are preferred for abdominal imaging because they offer a wide field of view and adequate penetration for deep structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 278,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are imaging a superficial tendon in the wrist. Which frequency range is most appropriate for this exam?",
+        "image": "",
+        "opciones": [
+            "2–3 MHz",
+            "4–5 MHz",
+            "7–10 MHz",
+            "1–2 MHz"
+        ],
+        "respuesta_correcta": [
+            "7–10 MHz"
+        ],
+        "concept_to_study": "Higher frequencies improve resolution for superficial structures.",
+        "explicacion_openai": "Superficial structures require high-frequency transducers to achieve optimal resolution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 279,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a quality check, you notice a vertical dropout line on the image. What is the most likely cause?",
+        "image": "",
+        "opciones": [
+            "Incorrect depth setting",
+            "A damaged piezoelectric element",
+            "Low dynamic range",
+            "Excessive gain"
+        ],
+        "respuesta_correcta": [
+            "A damaged piezoelectric element"
+        ],
+        "concept_to_study": "Element failure causes vertical dropout.",
+        "explicacion_openai": "A damaged or non-functioning piezoelectric element produces a vertical dropout line corresponding to its position in the array.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 280,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reports that the image appears blurry and uneven after the probe was dropped. What type of damage is most likely?",
+        "image": "",
+        "opciones": [
+            "Cracked lens",
+            "Incorrect TGC",
+            "Low frame rate",
+            "Improper focus selection"
+        ],
+        "respuesta_correcta": [
+            "Cracked lens"
+        ],
+        "concept_to_study": "Physical damage to the lens degrades image quality.",
+        "explicacion_openai": "A cracked lens alters beam transmission and reception, causing uneven or blurry images.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 281,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are performing an abdominal survey on a pregnant patient. Why is a curvilinear transducer preferred?",
+        "image": "",
+        "opciones": [
+            "It provides the highest frequency",
+            "It offers a wide field of view at greater depths",
+            "It has the smallest footprint",
+            "It eliminates the need for focusing"
+        ],
+        "respuesta_correcta": [
+            "It offers a wide field of view at greater depths"
+        ],
+        "concept_to_study": "Curvilinear arrays provide wide field of view for deep imaging.",
+        "explicacion_openai": "Curvilinear transducers produce a large sector-shaped field of view suitable for obstetric and abdominal imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 282,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are evaluating a superficial mass in the neck. Why is a linear array the best choice?",
+        "image": "",
+        "opciones": [
+            "It provides the deepest penetration",
+            "It produces a rectangular field of view ideal for superficial structures",
+            "It has the smallest footprint",
+            "It automatically adjusts frequency"
+        ],
+        "respuesta_correcta": [
+            "It produces a rectangular field of view ideal for superficial structures"
+        ],
+        "concept_to_study": "Linear arrays are ideal for superficial imaging.",
+        "explicacion_openai": "Linear transducers provide high resolution and a rectangular field of view suited for superficial anatomy.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 283,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are imaging the heart through a narrow intercostal space. What is the primary advantage of a phased array transducer?",
+        "image": "",
+        "opciones": [
+            "It provides the widest near-field footprint",
+            "It electronically steers the beam from a small footprint",
+            "It offers the highest frequency",
+            "It eliminates attenuation artifacts"
+        ],
+        "respuesta_correcta": [
+            "It electronically steers the beam from a small footprint"
+        ],
+        "concept_to_study": "Phased arrays steer the beam electronically from a small footprint.",
+        "explicacion_openai": "Phased arrays use electronic steering to create a wide sector image from a very small footprint, ideal for intercostal windows.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Ultrasound Transducers",
+        "grupo": 284,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which component of the transducer is responsible for matching acoustic impedance between the crystal and the patient?",
+        "image": "",
+        "opciones": [
+            "Backing material",
+            "Matching layer",
+            "Electrical shield",
+            "Lens"
+        ],
+        "respuesta_correcta": [
+            "Matching layer"
+        ],
+        "concept_to_study": "The matching layer reduces impedance mismatch.",
+        "explicacion_openai": "The matching layer improves transmission efficiency by reducing the impedance difference between the piezoelectric crystal and soft tissue.",
+        "image_explanation": ""
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
@@ -20806,6 +21148,291 @@
         "image_explanation": ""
     },
     {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 384,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When the PRF is increased but the Doppler shift remains the same, what happens to the likelihood of aliasing?",
+        "image": "",
+        "opciones": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It becomes unpredictable"
+        ],
+        "respuesta_correcta": [
+            "It decreases"
+        ],
+        "concept_to_study": "Relationship between PRF and aliasing.",
+        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit. Increasing PRF raises the Nyquist limit, making it less likely that the Doppler shift will surpass it. Therefore, aliasing becomes less likely.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 385,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A vessel shows aliasing even at maximum PRF. Which adjustment is most effective to eliminate the artifact?",
+        "image": "",
+        "opciones": [
+            "Increase wall filter",
+            "Lower the Doppler frequency",
+            "Increase sample volume size",
+            "Narrow the color box"
+        ],
+        "respuesta_correcta": [
+            "Lower the Doppler frequency"
+        ],
+        "concept_to_study": "How transducer frequency affects Doppler shift and aliasing.",
+        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift produced by moving blood cells. A smaller Doppler shift is less likely to exceed the Nyquist limit, making this one of the most effective ways to eliminate aliasing when PRF cannot be increased further.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 386,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler system displays wrap-around of velocities despite normal PRF. What does this indicate?",
+        "image": "",
+        "opciones": [
+            "Beam misalignment",
+            "Excessive Doppler angle",
+            "Doppler shift exceeding the Nyquist limit",
+            "Low wall filter settings"
+        ],
+        "respuesta_correcta": [
+            "Doppler shift exceeding the Nyquist limit"
+        ],
+        "concept_to_study": "Recognition of aliasing patterns in spectral Doppler.",
+        "explicacion_openai": "Wrap-around or mirrored waveforms are classic signs of aliasing. This occurs when the Doppler shift surpasses the Nyquist limit, causing the system to misrepresent high velocities as if they were flowing in the opposite direction.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 387,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which scenario is most likely to produce aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "Low velocity flow with high PRF",
+            "High velocity flow with shallow depth",
+            "High velocity flow with low PRF",
+            "Low velocity flow with low wall filter"
+        ],
+        "respuesta_correcta": [
+            "High velocity flow with low PRF"
+        ],
+        "concept_to_study": "Conditions that increase the risk of aliasing.",
+        "explicacion_openai": "Aliasing is most likely when Doppler shifts are large and PRF is low. High velocities generate large Doppler shifts, and a low PRF lowers the Nyquist limit, making aliasing almost inevitable.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 388,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Why does deeper imaging increase the risk of aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "It increases the Doppler angle",
+            "It reduces the PRF",
+            "It widens the sample volume",
+            "It increases beam attenuation"
+        ],
+        "respuesta_correcta": [
+            "It reduces the PRF"
+        ],
+        "concept_to_study": "How imaging depth affects PRF and Nyquist limit.",
+        "explicacion_openai": "At greater depths, sound takes longer to return to the transducer. This forces the system to lower the PRF to avoid pulse overlap. A lower PRF reduces the Nyquist limit, increasing the chance of aliasing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 389,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer reduces the Doppler frequency from 5 MHz to 2.5 MHz. What effect does this have on aliasing?",
+        "image": "",
+        "opciones": [
+            "Aliasing becomes more likely",
+            "Aliasing becomes less likely",
+            "Aliasing disappears completely",
+            "Aliasing is unaffected"
+        ],
+        "respuesta_correcta": [
+            "Aliasing becomes less likely"
+        ],
+        "concept_to_study": "Effect of transducer frequency on Doppler shift magnitude.",
+        "explicacion_openai": "Lower transducer frequencies generate smaller Doppler shifts for the same blood velocity. Smaller shifts are less likely to exceed the Nyquist limit, reducing the risk of aliasing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 390,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment increases the Nyquist limit without altering the Doppler frequency?",
+        "image": "",
+        "opciones": [
+            "Decreasing imaging depth",
+            "Increasing sample volume size",
+            "Lowering wall filter",
+            "Increasing color priority"
+        ],
+        "respuesta_correcta": [
+            "Decreasing imaging depth"
+        ],
+        "concept_to_study": "Depth–PRF–Nyquist relationship.",
+        "explicacion_openai": "Shallower imaging allows the system to use a higher PRF because echoes return more quickly. A higher PRF raises the Nyquist limit, reducing aliasing without changing the Doppler frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 391,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A Doppler waveform shows aliasing only during systole. What is the most likely explanation?",
+        "image": "",
+        "opciones": [
+            "PRF is too high",
+            "PRF is too low for peak velocities",
+            "Doppler angle is too small",
+            "Sample volume is too deep"
+        ],
+        "respuesta_correcta": [
+            "PRF is too low for peak velocities"
+        ],
+        "concept_to_study": "Understanding aliasing during high-velocity phases.",
+        "explicacion_openai": "Systole produces the highest blood velocities. If the PRF is adequate for diastolic flow but too low for systolic peaks, aliasing will appear only during systole when Doppler shifts exceed the Nyquist limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 392,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If the Nyquist limit is 6 kHz and the Doppler shift reaches 6.5 kHz, what will the spectral display show?",
+        "image": "",
+        "opciones": [
+            "A flattened waveform",
+            "A mirrored waveform wrapping below the baseline",
+            "A complete loss of signal",
+            "A widened spectral window"
+        ],
+        "respuesta_correcta": [
+            "A mirrored waveform wrapping below the baseline"
+        ],
+        "concept_to_study": "Visual recognition of aliasing on spectral Doppler.",
+        "explicacion_openai": "When the Doppler shift exceeds the Nyquist limit, the system cannot represent the true velocity and instead wraps the signal to the opposite side of the baseline, producing a mirrored or inverted appearance.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 393,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which combination most strongly reduces aliasing in pulsed Doppler?",
+        "image": "",
+        "opciones": [
+            "Higher frequency + deeper depth",
+            "Lower frequency + shallower depth",
+            "Higher PRF + larger sample volume",
+            "Lower PRF + narrow sector"
+        ],
+        "respuesta_correcta": [
+            "Lower frequency + shallower depth"
+        ],
+        "concept_to_study": "Strategies to minimize aliasing.",
+        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift, and using a shallow depth allows a higher PRF. Together, these adjustments significantly raise the Nyquist limit and reduce the likelihood of aliasing.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 394,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "When using Color Doppler on a blood vessel, the color disappears completely in one segment even though the vessel is patent. The angle of incidence is 90°. What should you do?",
+        "image": "",
+        "opciones": [
+            "Increase the color gain.",
+            "Angle the transducer (heel-toe) to obtain an angle other than 90°.",
+            "Invert the color scale.",
+            "Decrease the color PRF."
+        ],
+        "respuesta_correcta": [
+            "Angle the transducer (heel-toe) to obtain an angle other than 90°."
+        ],
+        "concept_to_study": "Color Doppler requires a non-90° angle.",
+        "explicacion_openai": "At 90°, there is no Doppler shift, so color disappears. Angling the transducer restores an angle that allows flow detection.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 395,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While evaluating a vessel, the spectral waveform suddenly appears inverted and wraps below the baseline, even though flow direction has not changed. What is the most appropriate first adjustment?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Increase the PRF/scale.",
+            "Lower the wall filter.",
+            "Invert the Doppler baseline.",
+            "Reduce the sample volume size."
+        ],
+        "respuesta_correcta": [
+            "Increase the PRF/scale."
+        ],
+        "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
+        "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 396,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a Doppler exam, the systolic peaks appear cut off and mirrored below the baseline, similar to an inverted waveform. What adjustment would best restore the true waveform shape?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Switch to a lower Doppler frequency.",
+            "Increase the Doppler gain.",
+            "Increase the sweep speed.",
+            "Raise the dynamic range."
+        ],
+        "respuesta_correcta": [
+            "Switch to a lower Doppler frequency."
+        ],
+        "concept_to_study": "Lower Doppler frequency reduces Doppler shift.",
+        "explicacion_openai": "Lowering the Doppler transmit frequency decreases the Doppler shift produced by high velocities, reducing aliasing when PRF is already near its limit.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 397,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You notice that only the highest velocities in the waveform are aliasing while the rest of the tracing is normal. What is the most targeted adjustment to correct this without altering the entire display?",
+        "image": "aliasing.png",
+        "opciones": [
+            "Shift the baseline upward.",
+            "Increase the wall filter.",
+            "Reduce overall gain.",
+            "Increase persistence."
+        ],
+        "respuesta_correcta": [
+            "Shift the baseline upward."
+        ],
+        "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
+        "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Doppler Imaging Concepts",
+        "grupo": 398,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While optimizing a tissue Doppler study, the sonographer lowers the wall filter. Why is this adjustment necessary?",
+        "image": "",
+        "opciones": [
+            "Myocardial velocities are low.",
+            "Myocardial velocities are extremely high.",
+            "It improves color Doppler sensitivity.",
+            "It increases penetration."
+        ],
+        "respuesta_correcta": [
+            "Myocardial velocities are low."
+        ],
+        "concept_to_study": "Low wall filters are required to detect low-velocity myocardial motion.",
+        "explicacion_openai": "High filters remove slow signals; lowering them allows the system to capture subtle myocardial movement.",
+        "image_explanation": ""
+    },
+    {
         "clasificacion": "Imaging Principles and Instrumentation",
         "grupo": 1,
         "tipo_pregunta": "opcion_multiple",
@@ -24794,6 +25421,291 @@
         ],
         "concept_to_study": "Axes representation in spectral Doppler imaging.",
         "explicacion_openai": "Spectral Doppler imaging plots blood flow characteristics, with the X-axis representing time and the Y-axis representing velocity. This provides detailed information about the speed and direction of blood flow over time.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 211,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment increases temporal resolution during fast‑moving exams like cardiac imaging?",
+        "image": "",
+        "opciones": [
+            "Increase sector width",
+            "Decrease depth",
+            "Increase persistence",
+            "Add more focal zones"
+        ],
+        "respuesta_correcta": [
+            "Decrease depth"
+        ],
+        "concept_to_study": "Temporal resolution improves when the system completes frames faster.",
+        "explicacion_openai": "Shallower imaging reduces the time required for sound to travel to and from the region of interest. This allows the system to produce more frames per second, improving temporal resolution—critical in cardiac and vascular imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 212,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control is used to eliminate low‑level motion artifacts such as vessel wall movement in Doppler?",
+        "image": "",
+        "opciones": [
+            "Wall filter",
+            "PRF",
+            "Baseline shift",
+            "Color priority"
+        ],
+        "respuesta_correcta": [
+            "Wall filter"
+        ],
+        "concept_to_study": "Wall filters remove low‑frequency Doppler signals.",
+        "explicacion_openai": "Wall filters suppress low‑frequency Doppler shifts caused by slow tissue motion, such as vessel wall movement. This helps isolate true blood flow signals and reduces clutter in spectral and color Doppler displays.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 213,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment improves visualization of superficial structures without increasing noise?",
+        "image": "",
+        "opciones": [
+            "Increase overall gain",
+            "Decrease depth",
+            "Increase dynamic range",
+            "Add focal zones"
+        ],
+        "respuesta_correcta": [
+            "Decrease depth"
+        ],
+        "concept_to_study": "Optimizing depth improves resolution and frame rate.",
+        "explicacion_openai": "Reducing depth enlarges superficial structures on the display and concentrates system resources on the region of interest. This improves detail without amplifying noise, unlike increasing overall gain.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 214,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control helps reduce aliasing in color Doppler without changing the transducer?",
+        "image": "",
+        "opciones": [
+            "Increase color scale (PRF)",
+            "Increase wall filter",
+            "Increase persistence",
+            "Decrease color priority"
+        ],
+        "respuesta_correcta": [
+            "Increase color scale (PRF)"
+        ],
+        "concept_to_study": "Color scale determines the Nyquist limit in color Doppler.",
+        "explicacion_openai": "Increasing the color scale raises the PRF, which increases the Nyquist limit. This reduces aliasing in color Doppler without requiring a change in transducer frequency or imaging depth.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 215,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control narrows the field of view to improve frame rate?",
+        "image": "",
+        "opciones": [
+            "Sector width",
+            "Compression",
+            "TGC",
+            "Frequency selection"
+        ],
+        "respuesta_correcta": [
+            "Sector width"
+        ],
+        "concept_to_study": "Narrowing the sector reduces the number of scan lines.",
+        "explicacion_openai": "A narrower sector requires fewer scan lines per frame, allowing the system to refresh the image more quickly. This improves temporal resolution, especially useful in cardiac and vascular imaging.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 216,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment enhances edge definition by increasing the contrast between boundaries?",
+        "image": "",
+        "opciones": [
+            "Edge enhancement",
+            "Persistence",
+            "Depth",
+            "Dynamic range"
+        ],
+        "respuesta_correcta": [
+            "Edge enhancement"
+        ],
+        "concept_to_study": "Edge enhancement sharpens boundaries by emphasizing gradients.",
+        "explicacion_openai": "Edge enhancement increases the contrast at boundaries where echo intensity changes abruptly. This makes edges appear sharper and more defined, improving visualization of structures such as vessel walls and organ borders.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 217,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control is used to brighten echoes that are too weak in the far field due to attenuation?",
+        "image": "",
+        "opciones": [
+            "Overall gain",
+            "Time gain compensation",
+            "Dynamic range",
+            "Persistence"
+        ],
+        "respuesta_correcta": [
+            "Time gain compensation"
+        ],
+        "concept_to_study": "TGC compensates depth-related attenuation.",
+        "explicacion_openai": "TGC selectively amplifies echoes from deeper regions without affecting the near field, correcting brightness loss caused by attenuation. Overall gain brightens the entire image, while TGC targets specific depths.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 218,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which adjustment reduces speckle and smooths the image by averaging multiple frames?",
+        "image": "",
+        "opciones": [
+            "Depth",
+            "Persistence",
+            "Focus position",
+            "PRF"
+        ],
+        "respuesta_correcta": [
+            "Persistence"
+        ],
+        "concept_to_study": "Persistence reduces noise via frame averaging.",
+        "explicacion_openai": "Persistence averages several frames to reduce random noise and speckle. This produces a smoother image but may reduce temporal resolution if set too high.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 219,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which control improves lateral resolution at a specific depth?",
+        "image": "",
+        "opciones": [
+            "Focal zone adjustment",
+            "TGC",
+            "Compression",
+            "Sector width"
+        ],
+        "respuesta_correcta": [
+            "Focal zone adjustment"
+        ],
+        "concept_to_study": "Focusing improves lateral resolution.",
+        "explicacion_openai": "Placing the focal zone at or just below the target narrows the beam at that depth, improving the ability to distinguish side-by-side structures.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 220,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which operator control reduces noise by narrowing the range of displayed echo amplitudes?",
+        "image": "",
+        "opciones": [
+            "Compression (dynamic range)",
+            "PRF",
+            "Depth",
+            "Edge enhancement"
+        ],
+        "respuesta_correcta": [
+            "Compression (dynamic range)"
+        ],
+        "concept_to_study": "Dynamic range adjusts contrast.",
+        "explicacion_openai": "Compression reduces the range of echo intensities displayed, increasing contrast and suppressing low-level noise. Lower dynamic range produces a more black-and-white image.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 221,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You want to improve temporal resolution to visualize the movement of a fetus's heart valves. Which change is most effective?",
+        "image": "",
+        "opciones": [
+            "Reduce the image sector width.",
+            "Increase line density.",
+            "Increase the number of focal zones.",
+            "Increase image depth."
+        ],
+        "respuesta_correcta": [
+            "Reduce the image sector width."
+        ],
+        "concept_to_study": "Sector width affects frame rate.",
+        "explicacion_openai": "Reducing sector width decreases the number of scan lines per frame, allowing the system to refresh the image faster and improving temporal resolution.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 222,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If you are following the ALARA principle during an obstetric study and the image is too dim, what should be your first action?",
+        "image": "",
+        "opciones": [
+            "Use Color Doppler to better see the structures.",
+            "Increase the output power.",
+            "Increase the receiver gain.",
+            "Reduce the transducer frequency."
+        ],
+        "respuesta_correcta": [
+            "Increase the receiver gain."
+        ],
+        "concept_to_study": "ALARA prioritizes receiver adjustments.",
+        "explicacion_openai": "Receiver gain amplifies returning echoes without increasing acoustic exposure. Under ALARA, it must be adjusted before increasing output power or using Doppler modes.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 223,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You observe a cystic structure with 'internal echoes' that you suspect is a reverberation artifact. How can you confirm it is not a real structure?",
+        "image": "",
+        "opciones": [
+            "Increase the dynamic range.",
+            "Decrease the output power.",
+            "Turn on tissue harmonics.",
+            "Change the angle of incidence of the transducer."
+        ],
+        "respuesta_correcta": [
+            "Change the angle of incidence of the transducer."
+        ],
+        "concept_to_study": "Reverberation changes with angulation.",
+        "explicacion_openai": "Reverberation artifacts often disappear or change when the transducer angle is altered. This is the fastest way to confirm whether echoes are real or artifactual.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 224,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A linear array transducer has a damaged crystal. How will this typically manifest in the B-mode image?",
+        "image": "",
+        "opciones": [
+            "A vertical black line or 'dropout' from top to bottom.",
+            "Total loss of focus in the entire image.",
+            "A horizontal black line at a specific depth.",
+            "An acoustic shadow artifact below a rib."
+        ],
+        "respuesta_correcta": [
+            "A vertical black line or 'dropout' from top to bottom."
+        ],
+        "concept_to_study": "Crystal failure patterns in arrays.",
+        "explicacion_openai": "Each crystal corresponds to a vertical slice of the image. A damaged crystal produces a vertical dropout extending through the entire field.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Imaging Principles and Instrumentation",
+        "grupo": 225,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "You are measuring the wall thickness of an artery. Which type of resolution is most critical to ensure the measurement is accurate in the direction of the beam?",
+        "image": "",
+        "opciones": [
+            "Elevational resolution.",
+            "Lateral resolution.",
+            "Axial resolution.",
+            "Contrast resolution."
+        ],
+        "respuesta_correcta": [
+            "Axial resolution."
+        ],
+        "concept_to_study": "Axial resolution measures detail along beam path.",
+        "explicacion_openai": "Axial resolution determines the system's ability to distinguish structures lying one in front of the other along the beam, making it essential for accurate wall thickness measurements.",
         "image_explanation": ""
     },
     {
@@ -29833,980 +30745,8 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Frame rate would be decreased by:",
-    "image": "",
-    "opciones": [
-        "Decreasing the number of focal zones",
-        "Decreasing sector width and image depth",
-        "Increasing acoustic scan line density",
-        "Increasing pulse repetition frequency"
-    ],
-    "respuesta_correcta": [
-        "Increasing acoustic scan line density"
-    ],
-    "concept_to_study": "Factors that reduce frame rate in ultrasound imaging.",
-    "explicacion_openai": "Frame rate decreases when more scan lines must be produced per frame. Increasing acoustic scan line density requires the system to send and receive more pulses for each image, slowing down the frame rate. The other options either maintain or increase frame rate.",
-    "image_explanation": ""
-},
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which of the following will result in the highest frame rate?",
-    "image": "",
-    "opciones": [
-        "Shallow imaging with high line density",
-        "Deep imaging with multiple focal zones",
-        "Shallow imaging with a narrow sector",
-        "Deep imaging with a single focal zone"
-    ],
-    "respuesta_correcta": [
-        "Shallow imaging with a narrow sector"
-    ],
-    "concept_to_study": "Factors that maximize frame rate in ultrasound imaging.",
-    "explicacion_openai": "Frame rate increases when the system has less work to do per frame. Shallow imaging reduces travel time for each pulse, and a narrow sector reduces the number of scan lines required. Together, these conditions produce the highest frame rate.",
-    "image_explanation": ""
-},
- {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When comparing two ultrasound images, one with a 30° sector and one with a 90° sector, which setup will produce a higher frame rate?",
-        "image": "",
-        "opciones": [
-            "The 90° sector",
-            "The 30° sector",
-            "Both produce the same frame rate",
-            "Frame rate depends only on depth"
-        ],
-        "respuesta_correcta": [
-            "The 30° sector"
-        ],
-        "concept_to_study": "Effect of sector width on frame rate.",
-        "explicacion_openai": "A narrower sector contains fewer scan lines, so the system completes each frame more quickly. Reducing the sector from 90° to 30° dramatically decreases the number of lines that must be transmitted and received, which directly increases frame rate.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A sonographer reduces the imaging depth from 16 cm to 8 cm. What happens to the frame rate?",
-        "image": "",
-        "opciones": [
-            "It decreases",
-            "It doubles",
-            "It stays the same",
-            "It becomes unpredictable"
-        ],
-        "respuesta_correcta": [
-            "It doubles"
-        ],
-        "concept_to_study": "Effect of imaging depth on frame rate.",
-        "explicacion_openai": "Shallower imaging means sound travels a shorter distance before returning to the transducer. Because each pulse completes its round trip faster, the system can send out pulses more frequently, increasing the number of frames produced per second—often nearly doubling the frame rate when depth is halved.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Physical Principles",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which scenario will produce the lowest frame rate?",
-        "image": "",
-        "opciones": [
-            "One focal zone, shallow depth",
-            "Three focal zones, shallow depth",
-            "One focal zone, deep depth",
-            "Narrow sector with one focal zone"
-        ],
-        "respuesta_correcta": [
-            "Three focal zones, shallow depth"
-        ],
-        "concept_to_study": "Impact of focal zones on frame rate.",
-        "explicacion_openai": "Each focal zone requires the system to fire a complete set of scan lines for that zone. Adding more focal zones multiplies the workload. Even with shallow depth, using three focal zones forces the machine to create three separate passes of the image, dramatically reducing frame rate.",
-        "image_explanation": ""
-    },
-    
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When the PRF is increased but the Doppler shift remains the same, what happens to the likelihood of aliasing?",
-        "image": "",
-        "opciones": [
-            "It increases",
-            "It decreases",
-            "It stays the same",
-            "It becomes unpredictable"
-        ],
-        "respuesta_correcta": [
-            "It decreases"
-        ],
-        "concept_to_study": "Relationship between PRF and aliasing.",
-        "explicacion_openai": "Aliasing occurs when the Doppler shift exceeds the Nyquist limit. Increasing PRF raises the Nyquist limit, making it less likely that the Doppler shift will surpass it. Therefore, aliasing becomes less likely.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A vessel shows aliasing even at maximum PRF. Which adjustment is most effective to eliminate the artifact?",
-        "image": "",
-        "opciones": [
-            "Increase wall filter",
-            "Lower the Doppler frequency",
-            "Increase sample volume size",
-            "Narrow the color box"
-        ],
-        "respuesta_correcta": [
-            "Lower the Doppler frequency"
-        ],
-        "concept_to_study": "How transducer frequency affects Doppler shift and aliasing.",
-        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift produced by moving blood cells. A smaller Doppler shift is less likely to exceed the Nyquist limit, making this one of the most effective ways to eliminate aliasing when PRF cannot be increased further.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A Doppler system displays wrap-around of velocities despite normal PRF. What does this indicate?",
-        "image": "",
-        "opciones": [
-            "Beam misalignment",
-            "Excessive Doppler angle",
-            "Doppler shift exceeding the Nyquist limit",
-            "Low wall filter settings"
-        ],
-        "respuesta_correcta": [
-            "Doppler shift exceeding the Nyquist limit"
-        ],
-        "concept_to_study": "Recognition of aliasing patterns in spectral Doppler.",
-        "explicacion_openai": "Wrap-around or mirrored waveforms are classic signs of aliasing. This occurs when the Doppler shift surpasses the Nyquist limit, causing the system to misrepresent high velocities as if they were flowing in the opposite direction.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which scenario is most likely to produce aliasing in pulsed Doppler?",
-        "image": "",
-        "opciones": [
-            "Low velocity flow with high PRF",
-            "High velocity flow with shallow depth",
-            "High velocity flow with low PRF",
-            "Low velocity flow with low wall filter"
-        ],
-        "respuesta_correcta": [
-            "High velocity flow with low PRF"
-        ],
-        "concept_to_study": "Conditions that increase the risk of aliasing.",
-        "explicacion_openai": "Aliasing is most likely when Doppler shifts are large and PRF is low. High velocities generate large Doppler shifts, and a low PRF lowers the Nyquist limit, making aliasing almost inevitable.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Why does deeper imaging increase the risk of aliasing in pulsed Doppler?",
-        "image": "",
-        "opciones": [
-            "It increases the Doppler angle",
-            "It reduces the PRF",
-            "It widens the sample volume",
-            "It increases beam attenuation"
-        ],
-        "respuesta_correcta": [
-            "It reduces the PRF"
-        ],
-        "concept_to_study": "How imaging depth affects PRF and Nyquist limit.",
-        "explicacion_openai": "At greater depths, sound takes longer to return to the transducer. This forces the system to lower the PRF to avoid pulse overlap. A lower PRF reduces the Nyquist limit, increasing the chance of aliasing.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A sonographer reduces the Doppler frequency from 5 MHz to 2.5 MHz. What effect does this have on aliasing?",
-        "image": "",
-        "opciones": [
-            "Aliasing becomes more likely",
-            "Aliasing becomes less likely",
-            "Aliasing disappears completely",
-            "Aliasing is unaffected"
-        ],
-        "respuesta_correcta": [
-            "Aliasing becomes less likely"
-        ],
-        "concept_to_study": "Effect of transducer frequency on Doppler shift magnitude.",
-        "explicacion_openai": "Lower transducer frequencies generate smaller Doppler shifts for the same blood velocity. Smaller shifts are less likely to exceed the Nyquist limit, reducing the risk of aliasing.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment increases the Nyquist limit without altering the Doppler frequency?",
-        "image": "",
-        "opciones": [
-            "Decreasing imaging depth",
-            "Increasing sample volume size",
-            "Lowering wall filter",
-            "Increasing color priority"
-        ],
-        "respuesta_correcta": [
-            "Decreasing imaging depth"
-        ],
-        "concept_to_study": "Depth–PRF–Nyquist relationship.",
-        "explicacion_openai": "Shallower imaging allows the system to use a higher PRF because echoes return more quickly. A higher PRF raises the Nyquist limit, reducing aliasing without changing the Doppler frequency.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A Doppler waveform shows aliasing only during systole. What is the most likely explanation?",
-        "image": "",
-        "opciones": [
-            "PRF is too high",
-            "PRF is too low for peak velocities",
-            "Doppler angle is too small",
-            "Sample volume is too deep"
-        ],
-        "respuesta_correcta": [
-            "PRF is too low for peak velocities"
-        ],
-        "concept_to_study": "Understanding aliasing during high-velocity phases.",
-        "explicacion_openai": "Systole produces the highest blood velocities. If the PRF is adequate for diastolic flow but too low for systolic peaks, aliasing will appear only during systole when Doppler shifts exceed the Nyquist limit.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If the Nyquist limit is 6 kHz and the Doppler shift reaches 6.5 kHz, what will the spectral display show?",
-        "image": "",
-        "opciones": [
-            "A flattened waveform",
-            "A mirrored waveform wrapping below the baseline",
-            "A complete loss of signal",
-            "A widened spectral window"
-        ],
-        "respuesta_correcta": [
-            "A mirrored waveform wrapping below the baseline"
-        ],
-        "concept_to_study": "Visual recognition of aliasing on spectral Doppler.",
-        "explicacion_openai": "When the Doppler shift exceeds the Nyquist limit, the system cannot represent the true velocity and instead wraps the signal to the opposite side of the baseline, producing a mirrored or inverted appearance.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which combination most strongly reduces aliasing in pulsed Doppler?",
-        "image": "",
-        "opciones": [
-            "Higher frequency + deeper depth",
-            "Lower frequency + shallower depth",
-            "Higher PRF + larger sample volume",
-            "Lower PRF + narrow sector"
-        ],
-        "respuesta_correcta": [
-            "Lower frequency + shallower depth"
-        ],
-        "concept_to_study": "Strategies to minimize aliasing.",
-        "explicacion_openai": "Lowering the Doppler frequency reduces the Doppler shift, and using a shallow depth allows a higher PRF. Together, these adjustments significantly raise the Nyquist limit and reduce the likelihood of aliasing.",
-        "image_explanation": ""
-    },
-    
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control is used to brighten echoes that are too weak in the far field due to attenuation?",
-        "image": "",
-        "opciones": [
-            "Overall gain",
-            "Time gain compensation",
-            "Dynamic range",
-            "Persistence"
-        ],
-        "respuesta_correcta": [
-            "Time gain compensation"
-        ],
-        "concept_to_study": "TGC compensates for depth‑dependent attenuation.",
-        "explicacion_openai": "Time Gain Compensation (TGC) allows the operator to selectively amplify echoes returning from deeper structures, which have lost energy due to attenuation. Unlike overall gain, which brightens the entire image uniformly, TGC corrects brightness based on depth, restoring uniformity across the field.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment reduces speckle and smooths the image by averaging multiple frames?",
-        "image": "",
-        "opciones": [
-            "Depth",
-            "Persistence",
-            "Focus position",
-            "PRF"
-        ],
-        "respuesta_correcta": [
-            "Persistence"
-        ],
-        "concept_to_study": "Persistence reduces noise by temporal averaging.",
-        "explicacion_openai": "Persistence blends information from consecutive frames, reducing random noise and speckle. This produces a smoother image, especially useful in slow‑moving or static structures. However, high persistence can reduce temporal resolution.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control improves lateral resolution at a specific depth?",
-        "image": "",
-        "opciones": [
-            "Focal zone adjustment",
-            "TGC",
-            "Compression",
-            "Sector width"
-        ],
-        "respuesta_correcta": [
-            "Focal zone adjustment"
-        ],
-        "concept_to_study": "Focusing improves lateral resolution at the chosen depth.",
-        "explicacion_openai": "Placing the focal zone at or just below the structure of interest narrows the beam at that depth, improving lateral resolution. This is one of the most effective operator‑controlled methods for sharpening detail in a specific region.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which operator control reduces noise by narrowing the range of displayed echo amplitudes?",
-        "image": "",
-        "opciones": [
-            "Compression (dynamic range)",
-            "PRF",
-            "Depth",
-            "Edge enhancement"
-        ],
-        "respuesta_correcta": [
-            "Compression (dynamic range)"
-        ],
-        "concept_to_study": "Dynamic range adjusts contrast by modifying amplitude mapping.",
-        "explicacion_openai": "Compression reduces the range of echo intensities displayed, increasing contrast and suppressing low‑level noise. A lower dynamic range produces a more black‑and‑white image, while a higher dynamic range shows more shades of gray.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment increases temporal resolution during fast‑moving exams like cardiac imaging?",
-        "image": "",
-        "opciones": [
-            "Increase sector width",
-            "Decrease depth",
-            "Increase persistence",
-            "Add more focal zones"
-        ],
-        "respuesta_correcta": [
-            "Decrease depth"
-        ],
-        "concept_to_study": "Temporal resolution improves when the system completes frames faster.",
-        "explicacion_openai": "Shallower imaging reduces the time required for sound to travel to and from the region of interest. This allows the system to produce more frames per second, improving temporal resolution—critical in cardiac and vascular imaging.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control is used to eliminate low‑level motion artifacts such as vessel wall movement in Doppler?",
-        "image": "",
-        "opciones": [
-            "Wall filter",
-            "PRF",
-            "Baseline shift",
-            "Color priority"
-        ],
-        "respuesta_correcta": [
-            "Wall filter"
-        ],
-        "concept_to_study": "Wall filters remove low‑frequency Doppler signals.",
-        "explicacion_openai": "Wall filters suppress low‑frequency Doppler shifts caused by slow tissue motion, such as vessel wall movement. This helps isolate true blood flow signals and reduces clutter in spectral and color Doppler displays.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment improves visualization of superficial structures without increasing noise?",
-        "image": "",
-        "opciones": [
-            "Increase overall gain",
-            "Decrease depth",
-            "Increase dynamic range",
-            "Add focal zones"
-        ],
-        "respuesta_correcta": [
-            "Decrease depth"
-        ],
-        "concept_to_study": "Optimizing depth improves resolution and frame rate.",
-        "explicacion_openai": "Reducing depth enlarges superficial structures on the display and concentrates system resources on the region of interest. This improves detail without amplifying noise, unlike increasing overall gain.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control helps reduce aliasing in color Doppler without changing the transducer?",
-        "image": "",
-        "opciones": [
-            "Increase color scale (PRF)",
-            "Increase wall filter",
-            "Increase persistence",
-            "Decrease color priority"
-        ],
-        "respuesta_correcta": [
-            "Increase color scale (PRF)"
-        ],
-        "concept_to_study": "Color scale determines the Nyquist limit in color Doppler.",
-        "explicacion_openai": "Increasing the color scale raises the PRF, which increases the Nyquist limit. This reduces aliasing in color Doppler without requiring a change in transducer frequency or imaging depth.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which operator control narrows the field of view to improve frame rate?",
-        "image": "",
-        "opciones": [
-            "Sector width",
-            "Compression",
-            "TGC",
-            "Frequency selection"
-        ],
-        "respuesta_correcta": [
-            "Sector width"
-        ],
-        "concept_to_study": "Narrowing the sector reduces the number of scan lines.",
-        "explicacion_openai": "A narrower sector requires fewer scan lines per frame, allowing the system to refresh the image more quickly. This improves temporal resolution, especially useful in cardiac and vascular imaging.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment enhances edge definition by increasing the contrast between boundaries?",
-        "image": "",
-        "opciones": [
-            "Edge enhancement",
-            "Persistence",
-            "Depth",
-            "Dynamic range"
-        ],
-        "respuesta_correcta": [
-            "Edge enhancement"
-        ],
-        "concept_to_study": "Edge enhancement sharpens boundaries by emphasizing gradients.",
-        "explicacion_openai": "Edge enhancement increases the contrast at boundaries where echo intensity changes abruptly. This makes edges appear sharper and more defined, improving visualization of structures such as vessel walls and organ borders.",
-        "image_explanation": ""
-    },
-    
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control is used to brighten echoes that are too weak in the far field due to attenuation?",
-        "image": "",
-        "opciones": [
-            "Overall gain",
-            "Time gain compensation",
-            "Dynamic range",
-            "Persistence"
-        ],
-        "respuesta_correcta": ["Time gain compensation"],
-        "concept_to_study": "TGC compensates depth-related attenuation.",
-        "explicacion_openai": "TGC selectively amplifies echoes from deeper regions without affecting the near field, correcting brightness loss caused by attenuation. Overall gain brightens the entire image, while TGC targets specific depths.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which adjustment reduces speckle and smooths the image by averaging multiple frames?",
-        "image": "",
-        "opciones": [
-            "Depth",
-            "Persistence",
-            "Focus position",
-            "PRF"
-        ],
-        "respuesta_correcta": ["Persistence"],
-        "concept_to_study": "Persistence reduces noise via frame averaging.",
-        "explicacion_openai": "Persistence averages several frames to reduce random noise and speckle. This produces a smoother image but may reduce temporal resolution if set too high.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which control improves lateral resolution at a specific depth?",
-        "image": "",
-        "opciones": [
-            "Focal zone adjustment",
-            "TGC",
-            "Compression",
-            "Sector width"
-        ],
-        "respuesta_correcta": ["Focal zone adjustment"],
-        "concept_to_study": "Focusing improves lateral resolution.",
-        "explicacion_openai": "Placing the focal zone at or just below the target narrows the beam at that depth, improving the ability to distinguish side-by-side structures.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which operator control reduces noise by narrowing the range of displayed echo amplitudes?",
-        "image": "",
-        "opciones": [
-            "Compression (dynamic range)",
-            "PRF",
-            "Depth",
-            "Edge enhancement"
-        ],
-        "respuesta_correcta": ["Compression (dynamic range)"],
-        "concept_to_study": "Dynamic range adjusts contrast.",
-        "explicacion_openai": "Compression reduces the range of echo intensities displayed, increasing contrast and suppressing low-level noise. Lower dynamic range produces a more black-and-white image.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You want to improve temporal resolution to visualize the movement of a fetus's heart valves. Which change is most effective?",
-        "image": "",
-        "opciones": [
-            "Reduce the image sector width.",
-            "Increase line density.",
-            "Increase the number of focal zones.",
-            "Increase image depth."
-        ],
-        "respuesta_correcta": ["Reduce the image sector width."],
-        "concept_to_study": "Sector width affects frame rate.",
-        "explicacion_openai": "Reducing sector width decreases the number of scan lines per frame, allowing the system to refresh the image faster and improving temporal resolution.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "If you are following the ALARA principle during an obstetric study and the image is too dim, what should be your first action?",
-        "image": "",
-        "opciones": [
-            "Use Color Doppler to better see the structures.",
-            "Increase the output power.",
-            "Increase the receiver gain.",
-            "Reduce the transducer frequency."
-        ],
-        "respuesta_correcta": ["Increase the receiver gain."],
-        "concept_to_study": "ALARA prioritizes receiver adjustments.",
-        "explicacion_openai": "Receiver gain amplifies returning echoes without increasing acoustic exposure. Under ALARA, it must be adjusted before increasing output power or using Doppler modes.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You observe a cystic structure with 'internal echoes' that you suspect is a reverberation artifact. How can you confirm it is not a real structure?",
-        "image": "",
-        "opciones": [
-            "Increase the dynamic range.",
-            "Decrease the output power.",
-            "Turn on tissue harmonics.",
-            "Change the angle of incidence of the transducer."
-        ],
-        "respuesta_correcta": ["Change the angle of incidence of the transducer."],
-        "concept_to_study": "Reverberation changes with angulation.",
-        "explicacion_openai": "Reverberation artifacts often disappear or change when the transducer angle is altered. This is the fastest way to confirm whether echoes are real or artifactual.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "When using Color Doppler on a blood vessel, the color disappears completely in one segment even though the vessel is patent. The angle of incidence is 90°. What should you do?",
-        "image": "",
-        "opciones": [
-            "Increase the color gain.",
-            "Angle the transducer (heel-toe) to obtain an angle other than 90°.",
-            "Invert the color scale.",
-            "Decrease the color PRF."
-        ],
-        "respuesta_correcta": ["Angle the transducer (heel-toe) to obtain an angle other than 90°."],
-        "concept_to_study": "Color Doppler requires a non-90° angle.",
-        "explicacion_openai": "At 90°, there is no Doppler shift, so color disappears. Angling the transducer restores an angle that allows flow detection.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A linear array transducer has a damaged crystal. How will this typically manifest in the B-mode image?",
-        "image": "",
-        "opciones": [
-            "A vertical black line or 'dropout' from top to bottom.",
-            "Total loss of focus in the entire image.",
-            "A horizontal black line at a specific depth.",
-            "An acoustic shadow artifact below a rib."
-        ],
-        "respuesta_correcta": ["A vertical black line or 'dropout' from top to bottom."],
-        "concept_to_study": "Crystal failure patterns in arrays.",
-        "explicacion_openai": "Each crystal corresponds to a vertical slice of the image. A damaged crystal produces a vertical dropout extending through the entire field.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Imaging Principles and Instrumentation",
-        "grupo": 1,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are measuring the wall thickness of an artery. Which type of resolution is most critical to ensure the measurement is accurate in the direction of the beam?",
-        "image": "",
-        "opciones": [
-            "Elevational resolution.",
-            "Lateral resolution.",
-            "Axial resolution.",
-            "Contrast resolution."
-        ],
-        "respuesta_correcta": ["Axial resolution."],
-        "concept_to_study": "Axial resolution measures detail along beam path.",
-        "explicacion_openai": "Axial resolution determines the system's ability to distinguish structures lying one in front of the other along the beam, making it essential for accurate wall thickness measurements.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "While evaluating a vessel, the spectral waveform suddenly appears inverted and wraps below the baseline, even though flow direction has not changed. What is the most appropriate first adjustment?",
-        "image": "aliasing.png",
-        "opciones": [
-            "Increase the PRF/scale.",
-            "Lower the wall filter.",
-            "Invert the Doppler baseline.",
-            "Reduce the sample volume size."
-        ],
-        "respuesta_correcta": [
-            "Increase the PRF/scale."
-        ],
-        "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
-        "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "During a Doppler exam, the systolic peaks appear cut off and mirrored below the baseline, similar to an inverted waveform. What adjustment would best restore the true waveform shape?",
-        "image": "aliasing.png",
-        "opciones": [
-            "Switch to a lower Doppler frequency.",
-            "Increase the Doppler gain.",
-            "Increase the sweep speed.",
-            "Raise the dynamic range."
-        ],
-        "respuesta_correcta": [
-            "Switch to a lower Doppler frequency."
-        ],
-        "concept_to_study": "Lower Doppler frequency reduces Doppler shift.",
-        "explicacion_openai": "Lowering the Doppler transmit frequency decreases the Doppler shift produced by high velocities, reducing aliasing when PRF is already near its limit.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You notice that only the highest velocities in the waveform are aliasing while the rest of the tracing is normal. What is the most targeted adjustment to correct this without altering the entire display?",
-        "image": "aliasing.png",
-        "opciones": [
-            "Shift the baseline upward.",
-            "Increase the wall filter.",
-            "Reduce overall gain.",
-            "Increase persistence."
-        ],
-        "respuesta_correcta": [
-            "Shift the baseline upward."
-        ],
-        "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
-        "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
-        "image_explanation": ""
-    },
-    {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "You are performing an abdominal ultrasound on a patient with a large body habitus using a broadband transducer. Which transmit frequency should you choose to obtain the greatest depth penetration?",
-    "image": "",
-    "opciones": [
-        "2.5 MHz",
-        "4.0 MHz",
-        "5.0 MHz",
-        "6.0 MHz"
-    ],
-    "respuesta_correcta": [
-        "2.5 MHz"
-    ],
-    "concept_to_study": "Lower frequency increases penetration.",
-    "explicacion_openai": "Attenuation increases with frequency, so the lowest available frequency provides the greatest penetration.",
-    "image_explanation": ""
-},
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "You are evaluating a very small thyroid structure and need the best possible axial resolution. Which probe selection will provide the best axial resolution for this measurement?",
-    "image": "",
-    "opciones": [
-        "5 MHz linear array",
-        "7 MHz linear array",
-        "10 MHz linear array",
-        "5 MHz curved array"
-    ],
-    "respuesta_correcta": [
-        "10 MHz linear array"
-    ],
-    "concept_to_study": "Higher frequency improves axial resolution.",
-    "explicacion_openai": "Axial resolution improves with higher frequency because it shortens the spatial pulse length.",
-    "image_explanation": ""
-},
-{
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "You are measuring the wall thickness of a tiny cystic structure and require the best axial resolution possible. Which combination of factors is true and therefore results in the best axial resolution in diagnostic ultrasound?",
-    "image": "",
-    "opciones": [
-        "Low frequency and long spatial pulse length",
-        "High frequency and short spatial pulse length",
-        "Low frequency and short spatial pulse length",
-        "High frequency and long spatial pulse length"
-    ],
-    "respuesta_correcta": [
-        "High frequency and short spatial pulse length"
-    ],
-    "concept_to_study": "Axial resolution improves when spatial pulse length decreases.",
-    "explicacion_openai": "Higher frequency produces shorter wavelengths, which shorten the spatial pulse length and improve axial resolution.",
-    "image_explanation": ""
-},
-
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are using a 6 MHz linear array transducer with a 50 mm footprint to evaluate a superficial structure. What will be the displayed image width?",
-        "image": "",
-        "opciones": [
-            "25 mm",
-            "40 mm",
-            "50 mm",
-            "75 mm"
-        ],
-        "respuesta_correcta": [
-            "50 mm"
-        ],
-        "concept_to_study": "Linear array image width equals transducer footprint.",
-        "explicacion_openai": "Linear array transducers produce a rectangular field of view whose width matches the physical footprint of the probe.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are evaluating a very small thyroid structure and need the best possible axial resolution. Which probe selection will provide the best axial resolution for this measurement?",
-        "image": "",
-        "opciones": [
-            "5 MHz linear array",
-            "7 MHz linear array",
-            "10 MHz linear array",
-            "5 MHz curved array"
-        ],
-        "respuesta_correcta": [
-            "10 MHz linear array"
-        ],
-        "concept_to_study": "Higher frequency improves axial resolution.",
-        "explicacion_openai": "Higher-frequency transducers generate shorter wavelengths and shorter spatial pulse lengths, improving axial resolution for superficial structures.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are scanning a superficial mass using a linear array transducer with a 38 mm footprint. What determines the displayed image width?",
-        "image": "",
-        "opciones": [
-            "The depth setting",
-            "The physical footprint of the transducer",
-            "The number of focal zones",
-            "The selected frequency"
-        ],
-        "respuesta_correcta": [
-            "The physical footprint of the transducer"
-        ],
-        "concept_to_study": "Linear array field of view equals footprint.",
-        "explicacion_openai": "Linear arrays produce a rectangular image whose width is determined by the physical footprint of the transducer, not by depth or frequency.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are scanning a deep abdominal structure in an adult patient. Which transducer type is most appropriate for this exam?",
-        "image": "",
-        "opciones": [
-            "Linear array",
-            "Curvilinear array",
-            "Phased array",
-            "Endocavity probe"
-        ],
-        "respuesta_correcta": [
-            "Curvilinear array"
-        ],
-        "concept_to_study": "Curvilinear transducers provide wide field of view and good penetration.",
-        "explicacion_openai": "Curvilinear arrays are preferred for abdominal imaging because they offer a wide field of view and adequate penetration for deep structures.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are imaging a superficial tendon in the wrist. Which frequency range is most appropriate for this exam?",
-        "image": "",
-        "opciones": [
-            "2–3 MHz",
-            "4–5 MHz",
-            "7–10 MHz",
-            "1–2 MHz"
-        ],
-        "respuesta_correcta": [
-            "7–10 MHz"
-        ],
-        "concept_to_study": "Higher frequencies improve resolution for superficial structures.",
-        "explicacion_openai": "Superficial structures require high-frequency transducers to achieve optimal resolution.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "During a quality check, you notice a vertical dropout line on the image. What is the most likely cause?",
-        "image": "",
-        "opciones": [
-            "Incorrect depth setting",
-            "A damaged piezoelectric element",
-            "Low dynamic range",
-            "Excessive gain"
-        ],
-        "respuesta_correcta": [
-            "A damaged piezoelectric element"
-        ],
-        "concept_to_study": "Element failure causes vertical dropout.",
-        "explicacion_openai": "A damaged or non-functioning piezoelectric element produces a vertical dropout line corresponding to its position in the array.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A sonographer reports that the image appears blurry and uneven after the probe was dropped. What type of damage is most likely?",
-        "image": "",
-        "opciones": [
-            "Cracked lens",
-            "Incorrect TGC",
-            "Low frame rate",
-            "Improper focus selection"
-        ],
-        "respuesta_correcta": [
-            "Cracked lens"
-        ],
-        "concept_to_study": "Physical damage to the lens degrades image quality.",
-        "explicacion_openai": "A cracked lens alters beam transmission and reception, causing uneven or blurry images.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are performing an abdominal survey on a pregnant patient. Why is a curvilinear transducer preferred?",
-        "image": "",
-        "opciones": [
-            "It provides the highest frequency",
-            "It offers a wide field of view at greater depths",
-            "It has the smallest footprint",
-            "It eliminates the need for focusing"
-        ],
-        "respuesta_correcta": [
-            "It offers a wide field of view at greater depths"
-        ],
-        "concept_to_study": "Curvilinear arrays provide wide field of view for deep imaging.",
-        "explicacion_openai": "Curvilinear transducers produce a large sector-shaped field of view suitable for obstetric and abdominal imaging.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are evaluating a superficial mass in the neck. Why is a linear array the best choice?",
-        "image": "",
-        "opciones": [
-            "It provides the deepest penetration",
-            "It produces a rectangular field of view ideal for superficial structures",
-            "It has the smallest footprint",
-            "It automatically adjusts frequency"
-        ],
-        "respuesta_correcta": [
-            "It produces a rectangular field of view ideal for superficial structures"
-        ],
-        "concept_to_study": "Linear arrays are ideal for superficial imaging.",
-        "explicacion_openai": "Linear transducers provide high resolution and a rectangular field of view suited for superficial anatomy.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "You are imaging the heart through a narrow intercostal space. What is the primary advantage of a phased array transducer?",
-        "image": "",
-        "opciones": [
-            "It provides the widest near-field footprint",
-            "It electronically steers the beam from a small footprint",
-            "It offers the highest frequency",
-            "It eliminates attenuation artifacts"
-        ],
-        "respuesta_correcta": [
-            "It electronically steers the beam from a small footprint"
-        ],
-        "concept_to_study": "Phased arrays steer the beam electronically from a small footprint.",
-        "explicacion_openai": "Phased arrays use electronic steering to create a wide sector image from a very small footprint, ideal for intercostal windows.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": 34,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which component of the transducer is responsible for matching acoustic impedance between the crystal and the patient?",
-        "image": "",
-        "opciones": [
-            "Backing material",
-            "Matching layer",
-            "Electrical shield",
-            "Lens"
-        ],
-        "respuesta_correcta": [
-            "Matching layer"
-        ],
-        "concept_to_study": "The matching layer reduces impedance mismatch.",
-        "explicacion_openai": "The matching layer improves transmission efficiency by reducing the impedance difference between the piezoelectric crystal and soft tissue.",
-        "image_explanation": ""
-    },
-    {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 266,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A liver lesion appears indeterminate on grayscale imaging. The interpreting physician requests the use of an ultrasound contrast agent. What is the primary advantage of using contrast in this situation?",
         "image": "",
@@ -30825,7 +30765,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 267,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Before administering an ultrasound contrast agent for a splenic perfusion study, the sonographer lowers the Mechanical Index (MI). Why is this adjustment necessary?",
         "image": "",
@@ -30844,7 +30784,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 268,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "During a routine QA session, a Doppler flow phantom is connected to a pump that generates steady flow. What parameter is primarily evaluated with this setup?",
         "image": "",
@@ -30863,7 +30803,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 269,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "Students practicing with a tissue-mimicking phantom notice that structures appear at realistic depths. Which property of the phantom is designed to match human soft tissue?",
         "image": "",
@@ -30882,7 +30822,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 270,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A thyroid nodule is scheduled for elastography to help determine its nature. What physical property does elastography evaluate?",
         "image": "",
@@ -30901,7 +30841,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 271,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A breast imaging technologist performs strain elastography on a suspicious mass. The patient notices gentle pressure applied with the transducer. What characteristic is specific to strain elastography?",
         "image": "",
@@ -30918,29 +30858,9 @@
         "explicacion_openai": "The operator applies light pressure to observe how the tissue deforms, helping estimate elasticity.",
         "image_explanation": ""
     },
-  
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 116,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "While optimizing a tissue Doppler study, the sonographer lowers the wall filter. Why is this adjustment necessary?",
-        "image": "",
-        "opciones": [
-            "Myocardial velocities are low.",
-            "Myocardial velocities are extremely high.",
-            "It improves color Doppler sensitivity.",
-            "It increases penetration."
-        ],
-        "respuesta_correcta": [
-            "Myocardial velocities are low."
-        ],
-        "concept_to_study": "Low wall filters are required to detect low-velocity myocardial motion.",
-        "explicacion_openai": "High filters remove slow signals; lowering them allows the system to capture subtle myocardial movement.",
-        "image_explanation": ""
-    },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 272,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "During a liver ablation procedure, the team activates fusion imaging to assist with lesion targeting. What modalities are combined in this technique?",
         "image": "",
@@ -30959,7 +30879,7 @@
     },
     {
         "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-        "grupo": 116,
+        "grupo": 273,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A radiologist notes that a liver lesion is difficult to visualize on ultrasound alone, but fusion imaging improves targeting. What is the main advantage of fusion imaging?",
         "image": "",
@@ -30977,15 +30897,3 @@
         "image_explanation": ""
     }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
