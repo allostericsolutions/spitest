@@ -56,25 +56,25 @@
     "explicacion_openai": "The speed of sound in a medium is generally constant under normal conditions. This relationship is expressed by the equation c = f × λ, where c is the speed of sound, f is the frequency, and λ (lambda) is the wavelength. Therefore, if the frequency increases while the speed of sound remains constant, the wavelength must decrease accordingly. In other words, higher frequencies produce shorter wavelengths. This principle is crucial in ultrasound imaging because higher frequency waves offer better resolution, though they typically have reduced penetration depth due to their shorter wavelengths.",
     "image_explanation": ""
   },
-  {
+ {
     "clasificacion": "Physical Principles",
     "grupo": 4,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which parameter is directly affected by the frequency of an ultrasound wave?",
+    "enunciado": "A sonographer is using a 5 MHz transducer and then switches to a 10 MHz transducer while scanning the same tissue. Which of the following parameters will be fundamentally altered as a direct result of this change in frequency?",
     "image": "",
     "opciones": [
-      "Amplitude",
-      "Wavelength",
-      "Intensity",
-      "Velocity"
+      "The propagation speed of the sound wave",
+      "The wavelength of the sound wave",
+      "The initial amplitude of the pulse",
+      "The density of the medium being scanned"
     ],
     "respuesta_correcta": [
-      "Wavelength"
+      "The wavelength of the sound wave"
     ],
-    "concept_to_study": "Wavelength changes inversely with frequency.",
-    "explicacion_openai": "As frequency increases, the wavelength automatically decreases.",
+    "concept_to_study": "Inverse relationship between frequency and wavelength",
+    "explicacion_openai": "In ultrasound physics, there is an **inverse relationship** between frequency and wavelength. When you increase the frequency (for example, switching from a 5 MHz to a 10 MHz probe), the waves must become shorter to fit more of them into the same space and time. **Key Takeaway:** The wavelength is the distance of one complete cycle; if the frequency doubles, the wavelength is cut in half. Remember, the **propagation speed** (1540 m/s in soft tissue) remains constant and is NOT affected by the transducer's frequency. Density is a property of the patient (medium), and amplitude is controlled by the power settings, not the probe's frequency.",
     "image_explanation": ""
-  },
+},
   {
     "clasificacion": "Physical Principles",
     "grupo": 5,
