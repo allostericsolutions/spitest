@@ -30897,5 +30897,62 @@
     "concept_to_study": "Fusion imaging enhances localization by aligning ultrasound with CT/MRI.",
     "explicacion_openai": "Real-time alignment helps identify lesions that are poorly visible on ultrasound alone.",
     "image_explanation": ""
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which flow profile is most likely present at location 'A' before the narrowing?",
+    "image": "arterial_stenosis.png",
+    "opciones": [
+      "Turbulent flow",
+      "Parabolic flow",
+      "Spectral broadening",
+      "Tardus parvus flow"
+    ],
+    "respuesta_correcta": [
+      "Parabolic flow"
+    ],
+    "concept_to_study": "Hemodynamics and Laminar Flow Profiles",
+    "explicacion_openai": "Proximal to a stenosis (Location A), blood typically maintains a laminar, parabolic profile where velocity is highest in the center and decreases towards the vessel walls due to friction.",
+    "image_explanation": "This image shows an arterial stenosis with three distinct zones. Point A represents the pre-stenotic region where flow is still organized and laminar before entering the narrowing."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "According to the Bernoulli principle, what happens to velocity and pressure at location 'B'?",
+    "image": "arterial_stenosis.png",
+    "opciones": [
+      "Velocity increases and pressure decreases",
+      "Velocity decreases and pressure increases",
+      "Both velocity and pressure increase",
+      "Both velocity and pressure decrease"
+    ],
+    "respuesta_correcta": [
+      "Velocity increases and pressure decreases"
+    ],
+    "concept_to_study": "Bernoulli Principle and Continuity Equation",
+    "explicacion_openai": "To maintain flow continuity through a narrowed area (Location B), the velocity of the blood must increase. According to Bernoulli's principle, this increase in velocity is accompanied by a simultaneous drop in pressure.",
+    "image_explanation": "Point B indicates the narrowest part of the stenosis. The arrows converging and accelerating through this gap illustrate the increase in velocity required to maintain the same volume flow rate."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the primary cause of the 'spectral broadening' observed at location 'C'?",
+    "image": "arterial_stenosis.png",
+    "opciones": [
+      "Uniformly high velocity of all red blood cells",
+      "Laminar flow returning to its original state",
+      "A wide range of velocities and directions (turbulence)",
+      "Decreased pulse repetition frequency (PRF)"
+    ],
+    "respuesta_correcta": [
+      "A wide range of velocities and directions (turbulence)"
+    ],
+    "concept_to_study": "Post-stenotic Turbulence and Spectral Analysis",
+    "explicacion_openai": "Post-stenotic turbulence at Location C creates chaotic flow with many different speeds and directions. On a Doppler spectrum, this results in spectral broadening, which is the disappearance of the clear spectral window.",
+    "image_explanation": "Point C shows the post-stenotic zone. The disorganized arrows represent eddy currents and vortices typical of turbulent flow, which leads to the spectral broadening profile."
   }
 ]
