@@ -549,28 +549,6 @@
     "explicacion_openai": "Letter D represents the assessment of slice thickness and elevational resolution in ultrasound imaging. This test is performed using cystic spaces of various sizes and depths in the quality assurance phantom to evaluate the system's ability to focus and maintain resolution within the elevational plane (the third dimension of imaging).Elevational resolution, also known as slice thickness resolution or out-of-plane resolution, refers to the system's ability to distinguish between two structures in the dimension perpendicular to the imaging plane. This property is vital for ensuring accurate three-dimensional imaging and reducing overlapping or blending of structures.\n\nElevational resolution depends primarily on the thickness of the ultrasound beam in the elevational plane. A thinner beam improves resolution by allowing better differentiation of structures. Conversely, a thicker beam may worsen resolution, causing artifacts like partial volume artifact, where echoes from adjacent structures are averaged, leading to distorted or unclear images.\n\nImprovement in elevational resolution can be achieved by using advanced transducers, such as 1.5D or 2D matrix arrays, which allow for precise control of the beam's shape in all dimensions. These transducers are superior to traditional linear or convex arrays, as they produce narrower beams in the elevational plane, minimizing artifacts and enhancing diagnostic accuracy.For example, in the evaluation of small cysts or fluid-filled spaces, a transducer with poor elevational resolution may create an artifact that combines echoes from the cyst and adjacent tissues, making it appear larger or irregularly shaped. Advanced transducers with focused beams mitigate this issue, ensuring accurate representation of the size structure  and shape."
     },
     {
-        "clasificacion": "Ultrasound Transducers",
-        "grupo": "2",
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Which transducer type continuously emits and receives ultrasound waves?",
-        "image": "CW.png",
-        "opciones": [
-            "Transducer A (CW)",
-            "Transducer B (PW)",
-            "Both transducers",
-            "Neither transducer"
-        ],
-        "respuesta_correcta": [
-            "Transducer A (CW)"
-        ],
-        "concept_to_study": "Continuous Wave (CW) vs. Pulsed Wave (PW) transducers.",
-        "explicacion_openai": "Continuous Wave (CW) transducers, like Transducer A in the image, emit ultrasound waves continuously without pauses. This allows for precise Doppler measurements of high-velocity blood flow but does not provide depth information. In contrast, Pulsed Wave (PW) transducers, like Transducer B, send pulses of sound and wait for echoes, allowing for depth resolution but being limited by aliasing at high velocities.",
-        "image_explanation": "The image 'CW.png' shows Transducer A emitting continuous waves, while Transducer B emits pulses."
-    },
-   
-
-
-    {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 126,
         "tipo_pregunta": "opcion_multiple",
@@ -606,62 +584,63 @@
         "concept_to_study": "Spectral Broadening",
         "explicacion_openai": "The figure shows a large sample gate over the vessel and a wide Doppler spectrum. By shortening the gate length, you limit the range of velocities sampled, excluding slower edge flow and thus narrowing the spectral envelope without changing the Doppler angle."
     },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 130,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "A student inadvertently widens the Doppler sample gate so that it includes the vessel wall. Which artifact is shown on the spectral display?",
-        "image": "doopler_gate_open.png",
-        "opciones": [
-            "Spectral broadening",
-            "Mirror imaging",
-            "Flash artifact",
-            "Clutter"
-        ],
-        "respuesta_correcta": [
-            "Spectral broadening"
-        ],
-        "concept_to_study": "Spectral Broadening",
-        "explicacion_openai": "The image shows a gate that spans the entire lumen, touching the walls, and a thick spectral envelope. Including wall-adjacent slow flow with central high velocity increases the velocity spread in the sample volume, producing spectral broadening."
-    },
   {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 261,
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What maintenance issue is demonstrated in this image?",
-    "image": "cristal_broke.png",
+    "enunciado": "In a graph depicting acoustic pressure versus distance, what parameter is represented by the length of one complete cycle?",
+    "image": "acoustic_wave_parameters.png",
     "opciones": [
-      "Damage to the lens or transducer crystals",
-      "Electrical interference pattern",
-      "Damaged connector pins",
-      "Malfunction of the transmitter"
+      "Amplitude",
+      "Wavelength",
+      "Period",
+      "Spatial pulse length"
     ],
     "respuesta_correcta": [
-      "Damage to the lens or transducer crystals"
+      "Wavelength"
     ],
-    "concept_to_study": "A vertical dropout line on an ultrasound image is typically caused by a damaged or non-functioning piezoelectric crystal within the transducer array.",
-    "explicacion_openai": "The image shows a perfectly vertical dark line running from top to bottom of the ultrasound field. This occurs when one of the piezoelectric crystals in the transducer stops transmitting or receiving sound. Each crystal corresponds to a vertical slice of the image, so when one fails, that slice becomes a black column. This is a classic sign of crystal damage, not electrical interference or connector issues.",
-    "image_explanation": ""
+    "concept_to_study": "Wavelength definition",
+    "explicacion_openai": "Wavelength is defined as the distance or length of one complete cycle of a wave. When acoustic pressure is plotted against distance, the physical space from the start of one cycle to the start of the next is the wavelength.",
+    "image_explanation": "The image displays a sinusoidal wave representing pressure changes. The bracket spans exactly one full cycle of compression and rarefaction along a distance axis."
   },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "While evaluating a vessel, the spectral waveform suddenly appears inverted and wraps below the baseline, even though flow direction has not changed. What is the most appropriate first adjustment?",
-        "image": "aliasing.png",
-        "opciones": [
-            "Increase the PRF/scale.",
-            "Lower the wall filter.",
-            "Invert the Doppler baseline.",
-            "Reduce the sample volume size."
-        ],
-        "respuesta_correcta": [
-            "Increase the PRF/scale."
-        ],
-        "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
-        "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
-        "image_explanation": ""
-    },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to the wavelength of an ultrasound wave if the transducer frequency is doubled while traveling through the same medium?",
+    "image": "acoustic_wave_parameters.png",
+    "opciones": [
+      "It doubles in length",
+      "It remains unchanged",
+      "It is reduced by half",
+      "It becomes four times longer"
+    ],
+    "respuesta_correcta": [
+      "It is reduced by half"
+    ],
+    "concept_to_study": "Frequency and wavelength relationship",
+    "explicacion_openai": "Wavelength and frequency are inversely proportional. If the frequency of a sound source increases and the propagation speed of the medium remains constant, the physical length of each cycle must decrease proportionally.",
+    "image_explanation": "This diagram illustrates the spatial footprint of a wave. A higher frequency means more cycles occur per unit of distance, effectively shortening the space each individual cycle occupies."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which two factors determine the wavelength of an ultrasound wave?",
+    "image": "acoustic_wave_parameters.png",
+    "opciones": [
+      "The ultrasound system and the transducer",
+      "The sound source and the medium",
+      "The density and stiffness of the medium only",
+      "The gain settings and dynamic range"
+    ],
+    "respuesta_correcta": [
+      "The sound source and the medium"
+    ],
+    "concept_to_study": "Parameters determined by source and medium",
+    "explicacion_openai": "Wavelength is unique because it is determined by both the frequency of the sound source and the propagation speed of the medium through which it travels, according to the equation wavelength = speed / frequency.",
+    "image_explanation": "The wavelength shown depends on how fast the wave travels through the material and how quickly the source oscillates."
+  },
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 278,
