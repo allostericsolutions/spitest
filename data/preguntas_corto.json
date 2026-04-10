@@ -17,26 +17,6 @@
     "concept_to_study": "Transducer Focusing (Elevational Plane)",
     "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
   },
-
-
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If two sound beams with different frequencies travel through soft tissue, which travels faster?",
-    "image": "",
-    "opciones": [
-      "Lower frequency beam",
-      "Higher frequency beam",
-      "Both will travel at the same speed",
-      "It depends on attenuation"
-    ],
-    "respuesta_correcta": [
-      "Both will travel at the same speed"
-    ],
-    "concept_to_study": "Speed of Sound in Soft Tissue",
-    "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same. This principle is fundamental in understanding how ultrasound images are formed and interpreted.However, factors like tissue density and stiffness do affect the speed of sound. Increased density typically slows down the sound slightly, whereas greater stiffness (or elasticity) increases the speed. These variations are generally minor in soft tissues, allowing for the assumption of a constant speed of sound in most clinical scenarios."
-  },
  {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 292,
@@ -56,25 +36,7 @@
     "explicacion_openai": "Proximal to a stenosis (Location A), blood typically maintains a laminar, parabolic profile where velocity is highest in the center and decreases towards the vessel walls due to friction.",
     "image_explanation": "This image shows an arterial stenosis with three distinct zones. Point A represents the pre-stenotic region where flow is still organized and laminar before entering the narrowing."
   },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 292,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "According to the Bernoulli principle, what happens to velocity and pressure at location 'B'?",
-    "image": "arterial_stenosis.png",
-    "opciones": [
-      "Velocity increases and pressure decreases",
-      "Velocity decreases and pressure increases",
-      "Both velocity and pressure increase",
-      "Both velocity and pressure decrease"
-    ],
-    "respuesta_correcta": [
-      "Velocity increases and pressure decreases"
-    ],
-    "concept_to_study": "Bernoulli Principle and Continuity Equation",
-    "explicacion_openai": "To maintain flow continuity through a narrowed area (Location B), the velocity of the blood must increase. According to Bernoulli's principle, this increase in velocity is accompanied by a simultaneous drop in pressure.",
-    "image_explanation": "Point B indicates the narrowest part of the stenosis. The arrows converging and accelerating through this gap illustrate the increase in velocity required to maintain the same volume flow rate."
-  },
+  
   {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 292,
