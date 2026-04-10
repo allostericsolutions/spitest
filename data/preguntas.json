@@ -30959,7 +30959,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In a graph depicting acoustic pressure versus distance, what parameter is represented by the length of one complete cycle?",
+    "enunciado": "In a graph depicting acoustic pressure versus distance, what parameter is represented by the length of one complete cycle in letter A?",
     "image": "acoustic_wave_parameters.png",
     "opciones": [
       "Amplitude",
@@ -30978,7 +30978,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What happens to the wavelength of an ultrasound wave if the transducer frequency is doubled while traveling through the same medium?",
+    "enunciado": "If the transducer frequency is doubled while traveling through the same medium, what happens to the parameter represented by the letter A in the illustration?",
     "image": "acoustic_wave_parameters.png",
     "opciones": [
       "It doubles in length",
@@ -30997,7 +30997,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which two factors determine the wavelength of an ultrasound wave?",
+    "enunciado": "Which two factors determine the parameter labeled 'A' in this illustration?",
     "image": "acoustic_wave_parameters.png",
     "opciones": [
       "The ultrasound system and the transducer",
