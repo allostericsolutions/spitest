@@ -37,63 +37,63 @@
     "concept_to_study": "Speed of Sound in Soft Tissue",
     "explicacion_openai": "The speed of sound in soft tissue is considered constant (approximately 1540 m/s) and is independent of the frequency of the sound beam. Different frequencies will attenuate differently, but their speed remains the same. This principle is fundamental in understanding how ultrasound images are formed and interpreted.However, factors like tissue density and stiffness do affect the speed of sound. Increased density typically slows down the sound slightly, whereas greater stiffness (or elasticity) increases the speed. These variations are generally minor in soft tissues, allowing for the assumption of a constant speed of sound in most clinical scenarios."
   },
+ {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which flow profile is most likely present at location 'A' before the narrowing?",
+    "image": "arterial_stenosis.png",
+    "opciones": [
+      "Turbulent flow",
+      "Parabolic flow",
+      "Spectral broadening",
+      "Tardus parvus flow"
+    ],
+    "respuesta_correcta": [
+      "Parabolic flow"
+    ],
+    "concept_to_study": "Hemodynamics and Laminar Flow Profiles",
+    "explicacion_openai": "Proximal to a stenosis (Location A), blood typically maintains a laminar, parabolic profile where velocity is highest in the center and decreases towards the vessel walls due to friction.",
+    "image_explanation": "This image shows an arterial stenosis with three distinct zones. Point A represents the pre-stenotic region where flow is still organized and laminar before entering the narrowing."
+  },
   {
     "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "1",
+    "grupo": 292,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "While performing a carotid artery exam, you detect aliasing in the spectral Doppler waveform. If increasing the PRF does not resolve the aliasing, what is the NEXT best action?",
-    "image": "aliasing.png",
+    "enunciado": "According to the Bernoulli principle, what happens to velocity and pressure at location 'B'?",
+    "image": "arterial_stenosis.png",
     "opciones": [
-      "Decrease the sample depth",
-      "Increase the Doppler angle",
-      "Use a continuous wave transducer",
-      "Decrease the frequency"
+      "Velocity increases and pressure decreases",
+      "Velocity decreases and pressure increases",
+      "Both velocity and pressure increase",
+      "Both velocity and pressure decrease"
     ],
     "respuesta_correcta": [
-      "Decrease the sample depth"
+      "Velocity increases and pressure decreases"
     ],
-    "concept_to_study": "Aliasing, depth sample and PRF",
-    "explicacion_openai": "If the sonographer has already increased the Pulse Repetition Frequency (PRF) to address aliasing and the issue persists, the next logical steps are to decrease the sample depth to allow a higher PRF and increase the Nyquist limit, lower the transducer frequency to reduce the Doppler shift for a given velocity, adjust the Doppler angle to decrease the magnitude of the Doppler shift (while staying below 60 degrees for accuracy), and, as a last resort, use a continuous-wave (CW) Doppler transducer to eliminate the Nyquist limit and measure high velocities without aliasing."
+    "concept_to_study": "Bernoulli Principle and Continuity Equation",
+    "explicacion_openai": "To maintain flow continuity through a narrowed area (Location B), the velocity of the blood must increase. According to Bernoulli's principle, this increase in velocity is accompanied by a simultaneous drop in pressure.",
+    "image_explanation": "Point B indicates the narrowest part of the stenosis. The arrows converging and accelerating through this gap illustrate the increase in velocity required to maintain the same volume flow rate."
   },
-
   {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "2",
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 292,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the term for the smallest unit of digital storage?",
-    "image": "",
+    "enunciado": "What is the primary cause of the 'spectral broadening' observed at location 'C'?",
+    "image": "arterial_stenosis.png",
     "opciones": [
-      "The bit",
-      "The byte",
-      "The nibble",
-      "The word"
+      "Uniformly high velocity of all red blood cells",
+      "Laminar flow returning to its original state",
+      "A wide range of velocities and directions (turbulence)",
+      "Decreased pulse repetition frequency (PRF)"
     ],
     "respuesta_correcta": [
-      "The bit"
+      "A wide range of velocities and directions (turbulence)"
     ],
-    "concept_to_study": "Bit (Binary Digit)",
-    "explicacion_openai": "A bit is the smallest unit of digital storage, representing a single binary value (0 or 1). All digital information is ultimately stored as combinations of bits. Understanding digital storage is essential for managing and interpreting ultrasound data."
+    "concept_to_study": "Post-stenotic Turbulence and Spectral Analysis",
+    "explicacion_openai": "Post-stenotic turbulence at Location C creates chaotic flow with many different speeds and directions. On a Doppler spectrum, this results in spectral broadening, which is the disappearance of the clear spectral window.",
+    "image_explanation": "Point C shows the post-stenotic zone. The disorganized arrows represent eddy currents and vortices typical of turbulent flow, which leads to the spectral broadening profile."
   },
- 
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Initially, the information sent to the scan converter from the receiver is in what format?",
-    "image": "",
-    "opciones": [
-      "Digital",
-      "Analog",
-      "Binary",
-      "Pulsed"
-    ],
-    "respuesta_correcta": [
-      "Analog"
-    ],
-    "concept_to_study": "Analog vs. Digital Signals",
-    "explicacion_openai": "The signals returning from the body and received by the transducer are initially in analog format. The scan converter then performs analog-to-digital conversion (ADC) to process and display the image. This conversion is crucial for interpreting ultrasound images accurately."
-  },
-
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "2",
@@ -608,24 +608,6 @@
     },
     {
         "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 128,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "In spectral Doppler instrumentation, which parameter defines the axial (depth) dimension of the sample volume?",
-        "image": "doopler_gate_open.png",
-        "opciones": [
-            "Gate length",
-            "Gate persistance",
-            "Wall filter setting",
-            "PRF"
-        ],
-        "respuesta_correcta": [
-            "Gate length"
-        ],
-        "concept_to_study": "Spectral Broadening",
-        "explicacion_openai": "The ultrasound image displays a long rectangular gate covering the vessel. The gate length determines how much depth is sampled. A longer gate length spans a greater range of depths and velocities, leading to broader spectral envelopes when velocity gradients exist."
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
         "grupo": 130,
         "tipo_pregunta": "opcion_multiple",
         "enunciado": "A student inadvertently widens the Doppler sample gate so that it includes the vessel wall. Which artifact is shown on the spectral display?",
@@ -642,28 +624,6 @@
         "concept_to_study": "Spectral Broadening",
         "explicacion_openai": "The image shows a gate that spans the entire lumen, touching the walls, and a thick spectral envelope. Including wall-adjacent slow flow with central high velocity increases the velocity spread in the sample volume, producing spectral broadening."
     },
-  
-    
-    {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A Doppler spectral waveform was recorded from the central flow stream of the common carotid artery. Which term most accurately characterizes the flow pattern shown?",
-    "image": "doppler_laminarflow.png",
-    "opciones": [
-      "Laminar",
-      "Turbulent",
-      "Pulsatile",
-      "High resistance",
-      "Retrograde flow"
-    ],
-    "respuesta_correcta": [
-      "Laminar"
-    ],
-    "concept_to_study": "Laminar flow",
-    "explicacion_openai": "Laminar flow occurs when blood moves in parallel layers with minimal mixing,spectral window is clean, producing a narrow and well‑defined spectral Doppler envelope. This pattern reflects uniform velocities across the vessel. Turbulent flow would show a broad, chaotic spectrum with mixed velocities. Pulsatile describes normal arterial flow but does not define the quality of velocity distribution. High‑resistance flow typically shows diminished or absent diastolic flow, which is inconsistent with laminar characteristics. Retrograde flow represents reversed direction and would appear below the baseline, which is not compatible with laminar physiology."
-},
-
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": 261,
@@ -683,28 +643,6 @@
     "explicacion_openai": "The image shows a perfectly vertical dark line running from top to bottom of the ultrasound field. This occurs when one of the piezoelectric crystals in the transducer stops transmitting or receiving sound. Each crystal corresponds to a vertical slice of the image, so when one fails, that slice becomes a black column. This is a classic sign of crystal damage, not electrical interference or connector issues.",
     "image_explanation": ""
   },
-
-
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": 261,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A persistent vertical black line appears in the same location across all imaging modes. What is the most likely cause?",
-    "image": "cristal_broke.png",
-    "opciones": [
-      "Incorrect gain settings",
-      "Software processing error",
-      "Damaged piezoelectric crystal",
-      "Air trapped between probe and skin"
-    ],
-    "respuesta_correcta": [
-      "Damaged piezoelectric crystal"
-    ],
-    "concept_to_study": "Hardware failures in the transducer—especially crystal damage—produce fixed, mode‑independent defects such as vertical dropouts.",
-    "explicacion_openai": "The image shows a vertical black line that remains fixed in place regardless of imaging mode. This consistency indicates a hardware defect rather than a user‑adjustable setting or coupling issue. A damaged crystal produces a permanent loss of signal in its corresponding column, creating the same dropout in B‑mode, color Doppler, and M‑mode. Gain errors or trapped air affect only superficial brightness, not a full‑depth vertical void.",
-    "image_explanation": ""
-  },
- 
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 278,
@@ -722,25 +660,6 @@
         ],
         "concept_to_study": "Aliasing occurs when Doppler shift exceeds the Nyquist limit.",
         "explicacion_openai": "Waveform wraparound is a classic sign of aliasing. Increasing the PRF raises the Nyquist limit and is the primary first-line correction before adjusting baseline or frequency.",
-        "image_explanation": ""
-    },
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 278,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "During a Doppler exam, the systolic peaks appear cut off and mirrored below the baseline, similar to an inverted waveform. What adjustment would best restore the true waveform shape?",
-        "image": "aliasing.png",
-        "opciones": [
-            "Switch to a lower Doppler frequency.",
-            "Increase the Doppler gain.",
-            "Increase the sweep speed.",
-            "Raise the dynamic range."
-        ],
-        "respuesta_correcta": [
-            "Switch to a lower Doppler frequency."
-        ],
-        "concept_to_study": "Lower Doppler frequency reduces Doppler shift.",
-        "explicacion_openai": "Lowering the Doppler transmit frequency decreases the Doppler shift produced by high velocities, reducing aliasing when PRF is already near its limit.",
         "image_explanation": ""
     },
     {
