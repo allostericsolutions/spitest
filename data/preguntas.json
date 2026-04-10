@@ -30954,5 +30954,62 @@
     "concept_to_study": "Post-stenotic Turbulence and Spectral Analysis",
     "explicacion_openai": "Post-stenotic turbulence at Location C creates chaotic flow with many different speeds and directions. On a Doppler spectrum, this results in spectral broadening, which is the disappearance of the clear spectral window.",
     "image_explanation": "Point C shows the post-stenotic zone. The disorganized arrows represent eddy currents and vortices typical of turbulent flow, which leads to the spectral broadening profile."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In a graph depicting acoustic pressure versus distance, what parameter is represented by the length of one complete cycle?",
+    "image": "acoustic_wave_parameters.png",
+    "opciones": [
+      "Amplitude",
+      "Wavelength",
+      "Period",
+      "Spatial pulse length"
+    ],
+    "respuesta_correcta": [
+      "Wavelength"
+    ],
+    "concept_to_study": "Wavelength definition",
+    "explicacion_openai": "Wavelength is defined as the distance or length of one complete cycle of a wave. When acoustic pressure is plotted against distance, the physical space from the start of one cycle to the start of the next is the wavelength.",
+    "image_explanation": "The image displays a sinusoidal wave representing pressure changes. The bracket spans exactly one full cycle of compression and rarefaction along a distance axis."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What happens to the wavelength of an ultrasound wave if the transducer frequency is doubled while traveling through the same medium?",
+    "image": "acoustic_wave_parameters.png",
+    "opciones": [
+      "It doubles in length",
+      "It remains unchanged",
+      "It is reduced by half",
+      "It becomes four times longer"
+    ],
+    "respuesta_correcta": [
+      "It is reduced by half"
+    ],
+    "concept_to_study": "Frequency and wavelength relationship",
+    "explicacion_openai": "Wavelength and frequency are inversely proportional. If the frequency of a sound source increases and the propagation speed of the medium remains constant, the physical length of each cycle must decrease proportionally.",
+    "image_explanation": "This diagram illustrates the spatial footprint of a wave. A higher frequency means more cycles occur per unit of distance, effectively shortening the space each individual cycle occupies."
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which two factors determine the wavelength of an ultrasound wave?",
+    "image": "acoustic_wave_parameters.png",
+    "opciones": [
+      "The ultrasound system and the transducer",
+      "The sound source and the medium",
+      "The density and stiffness of the medium only",
+      "The gain settings and dynamic range"
+    ],
+    "respuesta_correcta": [
+      "The sound source and the medium"
+    ],
+    "concept_to_study": "Parameters determined by source and medium",
+    "explicacion_openai": "Wavelength is unique because it is determined by both the frequency of the sound source and the propagation speed of the medium through which it travels, according to the equation wavelength = speed / frequency.",
+    "image_explanation": "The wavelength shown depends on how fast the wave travels through the material and how quickly the source oscillates."
   }
 ]
