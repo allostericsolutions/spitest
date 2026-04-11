@@ -1,22 +1,5 @@
 [
-  {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": "1",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In typical transducers, how is the slice-thickness plane focused?",
-    "image": "",
-    "opciones": [
-      "Using a lens",
-      "By the transducer's physical shape",
-      "Electronically",
-      "Through acoustic matching"
-    ],
-    "respuesta_correcta": [
-      "Using a lens"
-    ],
-    "concept_to_study": "Transducer Focusing (Elevational Plane)",
-    "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
-  },
+ 
 
   {
     "clasificacion": "Physical Principles",
@@ -37,25 +20,7 @@
     "explicacion_openai": "Synonyms: Longitudinal, Range, Radial, Depth (LARRD). It is determined by Spatial Pulse Length (SPL). It improves with higher frequency, shorter pulses (damping), and fewer cycles per pulse. It is constant with depth and does not change with focusing.",
     "image_explanation": ""
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'A'?",
-    "image": "types_resolution.png",
-    "opciones": [
-      "Axial resolution",
-      "Lateral resolution",
-      "Elevational resolution",
-      "Contrast resolution"
-    ],
-    "respuesta_correcta": [
-      "Lateral resolution"
-    ],
-    "concept_to_study": "Lateral resolution.",
-    "explicacion_openai": "Synonyms: Angular, Transverse, Azimuthal (LATA). It is determined by the width of the sound beam; narrower beams provide better resolution. It is best at the focus (focal point) and degrades as the beam diverges in the far zone. It improves with focusing and higher frequency (due to less divergence).",
-    "image_explanation": ""
-  },
+ 
   {
     "clasificacion": "Physical Principles",
     "grupo": 1,
@@ -94,24 +59,7 @@
     "concept_to_study": "Amplitude and Frequency Relationship",
     "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "6",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which statement about axial resolution is true?",
-    "image": "",
-    "opciones": [
-      "It varies with depth",
-      "It is always worse than lateral resolution",
-      "It does not vary with depth",
-      "It depends only on frequency"
-    ],
-    "respuesta_correcta": [
-      "It does not vary with depth"
-    ],
-    "concept_to_study": "Axial Resolution",
-    "explicacion_openai": "Axial resolution, also known as longitudinal, depth, or range resolution, is determined by the spatial pulse length. This resolution remains constant regardless of image depth and is crucial for distinguishing between structures that are close together along the direction of the sound beam.Frequency plays a key role in axial resolution. Higher frequencies produce shorter wavelengths, resulting in shorter pulses and improved axial resolution. This allows for better differentiation between closely spaced structures. However, higher frequencies also have less penetration, so there's a trade-off between resolution and imaging depth. Understanding these factors helps in optimizing image quality for accurate clinical assessments."
-  },
+  
   {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": "3",
