@@ -31030,5 +31030,24 @@
     "concept_to_study": "Transducer Image Formats and Clinical Applications",
     "explicacion_openai": "A Curved Phased Array (also known as a Convex Array) consists of crystals arranged in an arc. This configuration produces a sector-shaped image with a curved top, matching the transducer's footprint. This transducer is the primary tool for abdominal and obstetric imaging because it provides a wide field of view and deep penetration. In contrast, a linear array produces a rectangular image, and a phased array produces a sector that starts from a near-point at the top.",
     "image_explanation": "The image format shows a wide, curved top, which identifies the use of a curved (convex) array transducer."
+},
+{
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": 193,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Which transducer was used to create the image shown below?",
+    "image": "sector_array.png",
+    "opciones": [
+      "Linear Sequential Array",
+      "Curved Phased Array",
+      "Phased Array",
+      "Annular Array"
+    ],
+    "respuesta_correcta": [
+      "Phased Array"
+    ],
+    "concept_to_study": "Transducer Image Formats and Clinical Applications",
+    "explicacion_openai": "A Phased Array (or Sector Array) is designed with a very small footprint where all crystals are fired nearly simultaneously to create a beam that sweeps like an electronic fan. This results in a pie-shaped image that starts from a very narrow point (near-point) at the top. This format is essential for scanning through small acoustic windows, such as between the ribs (intercostal) for cardiac imaging or through the fontanelles in neonatal brains. While it provides a wide field of view at greater depths, its narrow near-field is its most defining characteristic.",
+    "image_explanation": "The image format shows a triangular or fan-like shape that originates from a single point at the top, which is typical of a Phased Array transducer."
 }
 ]
