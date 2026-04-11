@@ -453,7 +453,7 @@
     "grupo": 225,
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "A sonographer is performing an abdominal ultrasound. The initial image on the left appears uniformly 'bright' or 'washed out' across the entire depth. After adjusting a specific control on the system console, the sonographer produces the optimized image on the right, which shows a balanced grayscale. Which control was most likely adjusted?",
-    "image": "gain_correct",
+    "image": "gain_correct.png",
     "opciones": [
       "Time Gain Compensation (TGC).",
       "Dynamic Range.",
