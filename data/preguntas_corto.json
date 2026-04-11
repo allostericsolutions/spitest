@@ -22,7 +22,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'A'?",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'C'?",
     "image": "types_resolution.png",
     "opciones": [
       "Axial resolution",
@@ -41,7 +41,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'B'?",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'A'?",
     "image": "types_resolution.png",
     "opciones": [
       "Axial resolution",
@@ -60,7 +60,7 @@
     "clasificacion": "Physical Principles",
     "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'C'?",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'B'?",
     "image": "types_resolution.png",
     "opciones": [
       "Axial resolution",
@@ -423,24 +423,7 @@
     "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
   },
 
-    {
-        "clasificacion": "Doppler Imaging Concepts",
-        "grupo": 126,
-        "tipo_pregunta": "opcion_multiple",
-        "enunciado": "Refer to the spectral Doppler tracing shown. What effect does increasing the Doppler sample gate length have on the spectral display?",
-        "image": "doopler_gate_open.png",
-        "opciones": [
-            "Increases spectral broadening",
-            "Improves spectral windowing",
-            "Reduces aliasing",
-            "Increases Doppler sensitivity"
-        ],
-        "respuesta_correcta": [
-            "Increases spectral broadening"
-        ],
-        "concept_to_study": "Spectral Broadening",
-        "explicacion_openai": "The image depicts a Doppler gate spanning the entire lumen and a filled-in spectral envelope. By extending the sample gate length, you include a wider range of velocities—from faster central flow to slower peripheral flow—within a single sample volume. This wide velocity gradient produces the broadened spectrum observed."
-    },
+   
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 127,
@@ -478,25 +461,7 @@
     "explicacion_openai": "Wavelength is defined as the distance or length of one complete cycle of a wave. When acoustic pressure is plotted against distance, the physical space from the start of one cycle to the start of the next is the wavelength.",
     "image_explanation": "The image displays a sinusoidal wave representing pressure changes. The bracket spans exactly one full cycle of compression and rarefaction along a distance axis."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "If the transducer frequency is doubled while traveling through the same medium, what happens to the parameter represented by the letter A in the illustration?",
-    "image": "acoustic_wave_parameters.png",
-    "opciones": [
-      "It doubles in length",
-      "It remains unchanged",
-      "It is reduced by half",
-      "It becomes four times longer"
-    ],
-    "respuesta_correcta": [
-      "It is reduced by half"
-    ],
-    "concept_to_study": "Frequency and wavelength relationship",
-    "explicacion_openai": "Wavelength and frequency are inversely proportional. If the frequency of a sound source increases and the propagation speed of the medium remains constant, the physical length of each cycle must decrease proportionally.",
-    "image_explanation": "This diagram illustrates the spatial footprint of a wave. A higher frequency means more cycles occur per unit of distance, effectively shortening the space each individual cycle occupies."
-  },
+ 
   {
     "clasificacion": "Physical Principles",
     "grupo": 1,
