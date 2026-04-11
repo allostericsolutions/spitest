@@ -501,24 +501,24 @@
         "image_explanation": ""
     },
     {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": 191,
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": 225,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Based on the rectangular field of view displayed in the image, which type of transducer was most likely used to perform this scan?",
-    "image": "linear_array.png",
+    "enunciado": "A sonographer is performing an abdominal ultrasound. The initial image on the left appears uniformly 'bright' or 'washed out' across the entire depth. After adjusting a specific control on the system console, the sonographer produces the optimized image on the right, which shows a balanced grayscale. Which control was most likely adjusted?",
+    "image": "gain_correct",
     "opciones": [
-      "Curved Phased Array",
-      "Linear Sequential Array",
-      "Annular Phased Array",
-      "Vector Array"
+      "Time Gain Compensation (TGC).",
+      "Dynamic Range.",
+      "Overall Receiver Gain.",
+      "Output Power."
     ],
     "respuesta_correcta": [
-      "Linear Sequential Array"
+      "Overall Receiver Gain."
     ],
-    "concept_to_study": "Transducer Formats and Image Shapes",
-    "explicacion_openai": "A Linear Sequential Array (often simply called a Linear Array) is composed of multiple crystals arranged in a straight line. These crystals are fired in small groups to produce parallel scan lines that travel straight out from the transducer. This physical arrangement results in a rectangular image format, where the width of the image is equal to the length of the transducer's footprint. This is ideal for superficial structures, such as small parts or vascular studies. In contrast, Curved arrays produce a sector with a curved top, and Phased arrays typically produce a pie-shaped sector with a pointed top.",
-    "image_explanation": "The image shows a perfectly rectangular field of view, which is the hallmark of a Linear Array transducer."
-}
+    "concept_to_study": "Overall Receiver Gain and image optimization.",
+    "explicacion_openai": "In ultrasound instrumentation, the 'Overall Receiver Gain' (also known as 2D Gain) applies a uniform amplification to all returning electronic signals regardless of their depth. When an image is described as being 'uniformly washed out' or 'too bright' from the near field to the far field, it indicates that the amplification is too high across the entire screen. Reducing the receiver gain decreases the brightness of all echoes simultaneously, correcting the over-saturation. Unlike TGC, which adjusts brightness at specific depths, or Output Power, which affects the intensity of the sound beam sent into the patient, Receiver Gain only modifies the signals after they have been detected by the transducer.",
+    "image_explanation": ""
+  }
 ]
 
 
