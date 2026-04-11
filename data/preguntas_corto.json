@@ -37,24 +37,24 @@
     "image_explanation": "The image format shows a wide, curved top, which identifies the use of a curved (convex) array transducer."
 },
   {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 292,
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": 193,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the primary cause of the 'spectral broadening' observed at location 'C'?",
-    "image": "arterial_stenosis.png",
+    "enunciado": "Which transducer was used to create the image shown below?",
+    "image": "sector_array.png",
     "opciones": [
-      "Uniformly high velocity of all red blood cells",
-      "Laminar flow returning to its original state",
-      "A wide range of velocities and directions (turbulence)",
-      "Decreased pulse repetition frequency (PRF)"
+      "Linear Sequential Array",
+      "Curved Phased Array",
+      "Phased Array",
+      "Annular Array"
     ],
     "respuesta_correcta": [
-      "A wide range of velocities and directions (turbulence)"
+      "Phased Array"
     ],
-    "concept_to_study": "Post-stenotic Turbulence and Spectral Analysis",
-    "explicacion_openai": "Post-stenotic turbulence at Location C creates chaotic flow with many different speeds and directions. On a Doppler spectrum, this results in spectral broadening, which is the disappearance of the clear spectral window.",
-    "image_explanation": "Point C shows the post-stenotic zone. The disorganized arrows represent eddy currents and vortices typical of turbulent flow, which leads to the spectral broadening profile."
-  },
+    "concept_to_study": "Transducer Image Formats and Clinical Applications",
+    "explicacion_openai": "A Phased Array (or Sector Array) is designed with a very small footprint where all crystals are fired nearly simultaneously to create a beam that sweeps like an electronic fan. This results in a pie-shaped image that starts from a very narrow point (near-point) at the top. This format is essential for scanning through small acoustic windows, such as between the ribs (intercostal) for cardiac imaging or through the fontanelles in neonatal brains. While it provides a wide field of view at greater depths, its narrow near-field is its most defining characteristic.",
+    "image_explanation": "The image format shows a triangular or fan-like shape that originates from a single point at the top, which is typical of a Phased Array transducer."
+},
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "2",
