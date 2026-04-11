@@ -419,24 +419,6 @@
     "concept_to_study": "Doppler Sample Volume Placement",
     "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. Proper sample volume placement is crucial for obtaining accurate Doppler measurements and assessing blood flow characteristics."
   },
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "11",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What type of resolution is demonstrated in the image if it is determined by the ability to distinguish structures along the ultrasound beam path?",
-    "image": "axial.png",
-    "opciones": [
-      "Lateral",
-      "Axial",
-      "Temporal",
-      "Contrast"
-    ],
-    "respuesta_correcta": [
-      "Axial"
-    ],
-    "concept_to_study": "Resolution Types",
-    "explicacion_openai": "Axial resolution refers to the ability of an ultrasound system to distinguish two structures positioned along the direction of the sound beam. This is essential for accurate imaging and reliable diagnoses because it ensures that closely spaced structures are displayed as separate entities rather than merging into one.\n\n**Synonyms**: Axial resolution is sometimes referred to as longitudinal, depth, or range resolution.\n\n**Improvement**: Axial resolution improves with shorter pulse durations. This is achieved by increasing the frequency of the transducer, as higher frequencies produce shorter wavelengths, resulting in shorter spatial pulse lengths (SPL). Shorter SPL allows for better separation of closely spaced objects in the axial direction.\n\n**Deterioration**: Axial resolution worsens with longer pulses, which occur at lower frequencies. Longer pulses increase the SPL, making it harder to differentiate between structures that are close together in the direction of the sound beam.\n\n**Dependencies**: Axial resolution depends on:\n  - **Spatial Pulse Length (SPL)**: Shorter SPL improves resolution. SPL is a product of the wavelength and the number of cycles in the pulse.\n  - **Frequency**: Higher frequencies improve axial resolution but reduce penetration depth.\n  - **Transducer Quality**: Advanced transducers with optimized pulse-shaping technology can enhance resolution.\n\n**Relationship with Frequency and Wavelength**: Axial resolution is directly related to frequency and inversely related to wavelength. Higher frequencies create shorter wavelengths, which result in improved axial resolution. However, this comes at the cost of reduced penetration, making high frequencies ideal for imaging superficial structures and low frequencies better for deeper structures.\n\n**Artifacts**: Poor axial resolution may lead to merging or overlapping of closely spaced structures, reducing the clarity of diagnostic images.\n\n**Example**: For imaging small vessels or structures in superficial tissues, a high-frequency transducer (e.g., 10 MHz) with excellent axial resolution is preferred. For abdominal imaging in larger patients, a lower frequency transducer (e.g., 3 MHz) may be used, which sacrifices some resolution for greater depth penetration."
-  },
 
   {
     "clasificacion": "Imaging Principles and Instrumentation",
@@ -458,24 +440,6 @@
   },
   {
     "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What is the effect of increasing frequency on the pulse duration?",
-    "image": "",
-    "opciones": [
-      "Increases pulse duration",
-      "Decreases pulse duration",
-      "No effect on pulse duration",
-      "Doubles the pulse duration"
-    ],
-    "respuesta_correcta": [
-      "Decreases pulse duration"
-    ],
-    "concept_to_study": "Frequency and Pulse Duration",
-    "explicacion_openai": "Frequency and pulse duration are inversely related in ultrasound: as frequency increases, pulse duration decreases. Pulse duration refers to the actual: on-time, of an ultrasound pulse, typically measured in microseconds, and shorter durations improve axial resolution, enhancing the ability to distinguish structures close together. This occurs because higher frequencies produce shorter wavelengths, reducing the time for each wave cycle and, thus, the overall pulse duration. For example, a sprinter running faster (higher frequency) completes more laps in the same amount of time, but each lap takes less time (shorter duration). This relationship is vital in balancing image resolution and tissue penetration in medical imaging, as higher frequencies provide greater detail but have limited penetration."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "8",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How does the spatial pulse length affect axial resolution?",
@@ -492,24 +456,7 @@
     "concept_to_study": "Spatial Pulse Length and Axial Resolution",
     "explicacion_openai": "Shorter spatial pulse length improves axial resolution. Axial resolution is determined by the ability to distinguish structures along the direction of the sound beam. Mastery of this relationship is essential for achieving high-quality images and accurate diagnoses."
   },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "7",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "What does letter D in the phantom image represent?",
-    "image": "phantom.png",
-    "opciones": [
-      "Dead zone assessment",
-      "Spatial resolution testing",
-      "Slice thickness and elevational resolution",
-      "Grey scale accuracy"
-    ],
-    "respuesta_correcta": [
-      "Slice thickness and elevational resolution"
-    ],
-    "concept_to_study": "Slice thickness, elevational resolution",
-    "explicacion_openai": "Letter D represents the assessment of slice thickness and elevational resolution in ultrasound imaging. This test is performed using cystic spaces of various sizes and depths in the quality assurance phantom to evaluate the system's ability to focus and maintain resolution within the elevational plane (the third dimension of imaging).Elevational resolution, also known as slice thickness resolution or out-of-plane resolution, refers to the system's ability to distinguish between two structures in the dimension perpendicular to the imaging plane. This property is vital for ensuring accurate three-dimensional imaging and reducing overlapping or blending of structures.\n\nElevational resolution depends primarily on the thickness of the ultrasound beam in the elevational plane. A thinner beam improves resolution by allowing better differentiation of structures. Conversely, a thicker beam may worsen resolution, causing artifacts like partial volume artifact, where echoes from adjacent structures are averaged, leading to distorted or unclear images.\n\nImprovement in elevational resolution can be achieved by using advanced transducers, such as 1.5D or 2D matrix arrays, which allow for precise control of the beam's shape in all dimensions. These transducers are superior to traditional linear or convex arrays, as they produce narrower beams in the elevational plane, minimizing artifacts and enhancing diagnostic accuracy.For example, in the evaluation of small cysts or fluid-filled spaces, a transducer with poor elevational resolution may create an artifact that combines echoes from the cyst and adjacent tissues, making it appear larger or irregularly shaped. Advanced transducers with focused beams mitigate this issue, ensuring accurate representation of the size structure  and shape."
-    },
+
     {
         "clasificacion": "Doppler Imaging Concepts",
         "grupo": 126,
@@ -621,7 +568,26 @@
         "concept_to_study": "Baseline shift helps display high velocities without wraparound.",
         "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
         "image_explanation": ""
-    }
+    },
+    {
+    "clasificacion": "Ultrasound Transducers",
+    "grupo": 191,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Based on the rectangular field of view displayed in the image, which type of transducer was most likely used to perform this scan?",
+    "image": "linear_array.png",
+    "opciones": [
+      "Curved Phased Array",
+      "Linear Sequential Array",
+      "Annular Phased Array",
+      "Vector Array"
+    ],
+    "respuesta_correcta": [
+      "Linear Sequential Array"
+    ],
+    "concept_to_study": "Transducer Formats and Image Shapes",
+    "explicacion_openai": "A Linear Sequential Array (often simply called a Linear Array) is composed of multiple crystals arranged in a straight line. These crystals are fired in small groups to produce parallel scan lines that travel straight out from the transducer. This physical arrangement results in a rectangular image format, where the width of the image is equal to the length of the transducer's footprint. This is ideal for superficial structures, such as small parts or vascular studies. In contrast, Curved arrays produce a sector with a curved top, and Phased arrays typically produce a pie-shaped sector with a pointed top.",
+    "image_explanation": "The image shows a perfectly rectangular field of view, which is the hallmark of a Linear Array transducer."
+}
 ]
 
 
