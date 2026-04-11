@@ -17,62 +17,65 @@
     "concept_to_study": "Transducer Focusing (Elevational Plane)",
     "explicacion_openai": "Traditionally, single-row array transducers rely on a mechanical acoustic lens to focus the slice-thickness (elevational) plane. This lens narrows the beam out of plane, improving image resolution in that dimension. In newer 1.5D (multi-row) designs, additional rows of elements can electronically adjust the elevational focus. Understanding both methods helps sonographers select the right transducer and achieve optimal elevational resolution for clear, detailed images."
   },
-{
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": 192,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which transducer was used to create the image shown below?",
-    "image": "curved_array.png",
-    "opciones": [
-      "Linear Sequential Array",
-      "Curved Phased Array",
-      "Phased Array",
-      "Annular Array"
-    ],
-    "respuesta_correcta": [
-      "Curved Phased Array"
-    ],
-    "concept_to_study": "Transducer Image Formats and Clinical Applications",
-    "explicacion_openai": "A Curved Phased Array (also known as a Convex Array) consists of crystals arranged in an arc. This configuration produces a sector-shaped image with a curved top, matching the transducer's footprint. This transducer is the primary tool for abdominal and obstetric imaging because it provides a wide field of view and deep penetration. In contrast, a linear array produces a rectangular image, and a phased array produces a sector that starts from a near-point at the top.",
-    "image_explanation": "The image format shows a wide, curved top, which identifies the use of a curved (convex) array transducer."
-},
+[
   {
-    "clasificacion": "Ultrasound Transducers",
-    "grupo": 193,
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
     "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which transducer was used to create the image shown below?",
-    "image": "sector_array.png",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'A'?",
+    "image": "types_resolution.png",
     "opciones": [
-      "Linear Sequential Array",
-      "Curved Phased Array",
-      "Phased Array",
-      "Annular Array"
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Temporal resolution"
     ],
     "respuesta_correcta": [
-      "Phased Array"
+      "Axial resolution"
     ],
-    "concept_to_study": "Transducer Image Formats and Clinical Applications",
-    "explicacion_openai": "A Phased Array (or Sector Array) is designed with a very small footprint where all crystals are fired nearly simultaneously to create a beam that sweeps like an electronic fan. This results in a pie-shaped image that starts from a very narrow point (near-point) at the top. This format is essential for scanning through small acoustic windows, such as between the ribs (intercostal) for cardiac imaging or through the fontanelles in neonatal brains. While it provides a wide field of view at greater depths, its narrow near-field is its most defining characteristic.",
-    "image_explanation": "The image format shows a triangular or fan-like shape that originates from a single point at the top, which is typical of a Phased Array transducer."
-},
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "2",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which method maintains pixel density when enlarging an image?",
-    "image": "",
-    "opciones": [
-      "Linear magnification",
-      "Nearest neighbor scaling",
-      "Area magnification",
-      "Write magnification"
-    ],
-    "respuesta_correcta": [
-      "Write magnification"
-    ],
-    "concept_to_study": "Write Magnification (Write Zoom)",
-    "explicacion_openai": "Write magnification, also known as regional expansion selection (RES), is a pre-processing zoom technique. It rescans only the region of interest, maintaining pixel density and improving image resolution. This technique is essential for enhancing image quality in specific areas of interest."
+    "concept_to_study": "Axial resolution.",
+    "explicacion_openai": "Synonyms: Longitudinal, Range, Radial, Depth (LARRD). It is determined by Spatial Pulse Length (SPL). It improves with higher frequency, shorter pulses (damping), and fewer cycles per pulse. It is constant with depth and does not change with focusing.",
+    "image_explanation": ""
   },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'B'?",
+    "image": "types_resolution.png",
+    "opciones": [
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Contrast resolution"
+    ],
+    "respuesta_correcta": [
+      "Lateral resolution"
+    ],
+    "concept_to_study": "Lateral resolution.",
+    "explicacion_openai": "Synonyms: Angular, Transverse, Azimuthal (LATA). It is determined by the width of the sound beam; narrower beams provide better resolution. It is best at the focus (focal point) and degrades as the beam diverges in the far zone. It improves with focusing and higher frequency (due to less divergence).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'C'?",
+    "image": "types_resolution.png",
+    "opciones": [
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Spatial resolution"
+    ],
+    "respuesta_correcta": [
+      "Elevational resolution"
+    ],
+    "concept_to_study": "Elevational resolution.",
+    "explicacion_openai": "Synonyms: Slice thickness resolution. It is determined by the thickness of the imaging plane. It is generally the poorest resolution in 2D transducers. It improves with the use of 1.5D or 2D array transducers or mechanical focusing (lenses). When the beam is thick, it creates 'slice thickness artifact' or filling in of cystic structures.",
+    "image_explanation": ""
+  },
+ 
   {
     "clasificacion": "Physical Principles",
     "grupo": "4",
@@ -91,7 +94,6 @@
     "concept_to_study": "Amplitude and Frequency Relationship",
     "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
   },
- 
   {
     "clasificacion": "Physical Principles",
     "grupo": "6",
@@ -183,24 +185,7 @@
     "concept_to_study": "Sonographer Ergonomics",
     "explicacion_openai": "To prevent musculoskeletal injuries, sonographers should avoid abducting (raising) their arm more than 30 degrees from their body while scanning. Proper ergonomics are crucial for long-term health and career longevity. Adhering to ergonomic principles is essential for maintaining a healthy work environment."
   },
-  {
-    "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Which action demonstrates best practice during ultrasound exams regarding the ALARA principle?",
-    "image": "",
-    "opciones": [
-      "The exposure time should be extended during the exam.",
-      "Use the lowest possible output power that provides a diagnostic image.",
-      "Use the lowest possible gain.",
-      "Ensure that the time gain compensation (TGC) is within acceptable limits."
-    ],
-    "respuesta_correcta": [
-      "Use the lowest possible output power that provides a diagnostic image."
-    ],
-    "concept_to_study": "ALARA Principle",
-    "explicacion_openai": "ALARA stands for \"As Low As Reasonably Achievable.\" In ultrasound, this means using the lowest possible output power and shortest scan time necessary to obtain a diagnostic image, minimizing potential bioeffects. Applying the ALARA principle is crucial for ensuring patient safety during ultrasound examinations."
-  },
+
   {
     "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
     "grupo": "5",
@@ -218,24 +203,6 @@
     ],
     "concept_to_study": "Transient Cavitation",
     "explicacion_openai": "Transient cavitation, also known as inertial cavitation, involves the rapid expansion and violent collapse of microbubbles. This collapse generates high temperatures and pressures, potentially causing tissue damage. It is more concerning than stable cavitation. Recognizing cavitation is essential for assessing potential bioeffects in ultrasound imaging."
-  },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "3",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sonographer is performing an abdominal ultrasound examination. The image appears excessively bright, with a loss of detail in some areas and saturation of the echoes. Which of the following adjustments is MOST likely set too high?",
-    "image": "",
-    "opciones": [
-      "Output Power",
-      "Time Gain Compensation (TGC)",
-      "Overall Gain (Receiver Gain)",
-      "Dynamic Range"
-    ],
-    "respuesta_correcta": [
-      "Overall Gain (Receiver Gain)"
-    ],
-    "concept_to_study": "Gain Settings",
-    "explicacion_openai": "Overall Gain (Receiver Gain) controls the amplification of the received echoes. If set too high, it can cause the image to appear excessively bright, leading to a loss of detail and saturation. Proper adjustment of gain settings is essential for optimizing image quality and ensuring accurate diagnostic information."
   },
   {
     "clasificacion": "Doppler Imaging Concepts",
