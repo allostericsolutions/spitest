@@ -31049,5 +31049,63 @@
     "concept_to_study": "Transducer Image Formats and Clinical Applications",
     "explicacion_openai": "A Phased Array (or Sector Array) is designed with a very small footprint where all crystals are fired nearly simultaneously to create a beam that sweeps like an electronic fan. This results in a pie-shaped image that starts from a very narrow point (near-point) at the top. This format is essential for scanning through small acoustic windows, such as between the ribs (intercostal) for cardiac imaging or through the fontanelles in neonatal brains. While it provides a wide field of view at greater depths, its narrow near-field is its most defining characteristic.",
     "image_explanation": "The image format shows a triangular or fan-like shape that originates from a single point at the top, which is typical of a Phased Array transducer."
-}
+},
+ {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'C'?",
+    "image": "types_resolution.png",
+    "opciones": [
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Temporal resolution"
+    ],
+    "respuesta_correcta": [
+      "Axial resolution"
+    ],
+    "concept_to_study": "Axial resolution.",
+    "explicacion_openai": "Synonyms: Longitudinal, Range, Radial, Depth (LARRD). It is determined by Spatial Pulse Length (SPL). It improves with higher frequency, shorter pulses (damping), and fewer cycles per pulse. It is constant with depth and does not change with focusing.",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'A'?",
+    "image": "types_resolution.png",
+    "opciones": [
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Contrast resolution"
+    ],
+    "respuesta_correcta": [
+      "Lateral resolution"
+    ],
+    "concept_to_study": "Lateral resolution.",
+    "explicacion_openai": "Synonyms: Angular, Transverse, Azimuthal (LATA). It is determined by the width of the sound beam; narrower beams provide better resolution. It is best at the focus (focal point) and degrades as the beam diverges in the far zone. It improves with focusing and higher frequency (due to less divergence).",
+    "image_explanation": ""
+  },
+  {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'B'?",
+    "image": "types_resolution.png",
+    "opciones": [
+      "Axial resolution",
+      "Lateral resolution",
+      "Elevational resolution",
+      "Spatial resolution"
+    ],
+    "respuesta_correcta": [
+      "Elevational resolution"
+    ],
+    "concept_to_study": "Elevational resolution.",
+    "explicacion_openai": "Synonyms: Slice thickness resolution. It is determined by the thickness of the imaging plane. It is generally the poorest resolution in 2D transducers. It improves with the use of 1.5D or 2D array transducers or mechanical focusing (lenses). When the beam is thick, it creates 'slice thickness artifact' or filling in of cystic structures.",
+    "image_explanation": ""
+  }
+ 
 ]
