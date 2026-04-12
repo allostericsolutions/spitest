@@ -31106,6 +31106,25 @@
     "concept_to_study": "Elevational resolution.",
     "explicacion_openai": "Synonyms: Slice thickness resolution. It is determined by the thickness of the imaging plane. It is generally the poorest resolution in 2D transducers. It improves with the use of 1.5D or 2D array transducers or mechanical focusing (lenses). When the beam is thick, it creates 'slice thickness artifact' or filling in of cystic structures.",
     "image_explanation": ""
+  },
+    {
+    "clasificacion": "Imaging Principles and Instrumentation",
+    "grupo": 225,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "A sonographer is performing an abdominal ultrasound. The initial image on the left appears uniformly 'bright' or 'washed out' across the entire depth. After adjusting a specific control on the system console, the sonographer produces the optimized image on the right, which shows a balanced grayscale. Which control was most likely adjusted?",
+    "image": "gain_correct.png",
+    "opciones": [
+      "Time Gain Compensation (TGC).",
+      "Dynamic Range.",
+      "Overall Receiver Gain.",
+      "Output Power."
+    ],
+    "respuesta_correcta": [
+      "Overall Receiver Gain."
+    ],
+    "concept_to_study": "Overall Receiver Gain and image optimization.",
+    "explicacion_openai": "In ultrasound instrumentation, the 'Overall Receiver Gain' (also known as 2D Gain) applies a uniform amplification to all returning electronic signals regardless of their depth. When an image is described as being 'uniformly washed out' or 'too bright' from the near field to the far field, it indicates that the amplification is too high across the entire screen. Reducing the receiver gain decreases the brightness of all echoes simultaneously, correcting the over-saturation. Unlike TGC, which adjusts brightness at specific depths, or Output Power, which affects the intensity of the sound beam sent into the patient, Receiver Gain only modifies the signals after they have been detected by the transducer.",
+    "image_explanation": ""
   }
  
 ]
