@@ -31123,5 +31123,44 @@
         "concept_to_study": "Fusion imaging enhances localization by aligning ultrasound with CT/MRI.",
         "explicacion_openai": "Real-time alignment helps identify lesions that are poorly visible on ultrasound alone.",
         "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which echo amplitude in the provided illustration will result in the highest intensity (brightest) pixel on a B-mode display?",
+        "image": "amplitude_bmode.png",
+        "opciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "E"
+        ],
+        "concept_to_study": "Echo amplitude and B-mode brightness.",
+        "explicacion_openai": "In B-mode (Brightness mode), the ultrasound system converts the amplitude of the returning echo into a corresponding grayscale level. Wave E has the highest peak amplitude, which translates to the brightest white dot on the monitor.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "If wave 'A' represents a low-amplitude reflection from a hypoechoic structure, which wave best illustrates the reflection from a hyperechoic interface?",
+        "image": "amplitude_bmode.png",
+        "opciones": [
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "respuesta_correcta": [
+            "E"
+        ],
+        "concept_to_study": "Echo amplitude and tissue echogenicity.",
+        "explicacion_openai": "Hyperechoic structures reflect ultrasound waves with high intensity. Since wave E represents the maximum amplitude in the series, it corresponds to the strongest reflection and most echogenic appearance.",
+        "image_explanation": ""
     }
 ]
