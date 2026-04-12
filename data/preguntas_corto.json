@@ -1,3 +1,4 @@
+
 [
  
 
@@ -396,7 +397,7 @@
         "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
         "image_explanation": ""
     },
-    [
+    
     {
         "clasificacion": "Physical Principles",
         "grupo": 1,
