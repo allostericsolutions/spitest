@@ -41,24 +41,7 @@
     "image_explanation": ""
   },
  
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "How are amplitude and frequency related?",
-    "image": "",
-    "opciones": [
-      "Direct",
-      "Inverse",
-      "No relation",
-      "Quadratic"
-    ],
-    "respuesta_correcta": [
-      "No relation"
-    ],
-    "concept_to_study": "Amplitude and Frequency Relationship",
-    "explicacion_openai": "Amplitude and frequency are two distinct and independent properties of a sound wave. Amplitude refers to the strength or intensity of the wave, which is perceived as loudness in audible sound waves or as the brightness of the reflected signal in ultrasound imaging. For example, a higher amplitude wave produces stronger echoes that can be crucial for visualizing structures clearly. On the other hand, frequency describes the number of cycles a wave completes in one second, measured in Hertz (Hz). It dictates the pitch of audible sound and plays a key role in ultrasound imaging by affecting resolution and penetration depth. Grasping these properties is essential for understanding how ultrasound waves interact with tissues and how they influence the quality of diagnostic images."
-  },
+ 
   
   {
     "clasificacion": "Doppler Imaging Concepts",
@@ -170,24 +153,7 @@
     "concept_to_study": "Doppler Angle and Velocity Accuracy",
     "explicacion_openai": "The most accurate Doppler velocity measurements are obtained when the ultrasound beam is parallel to the direction of blood flow (Doppler angle of 0 degrees). The Doppler equation includes the cosine of the Doppler angle, and cos(0) = 1. Selecting the correct Doppler angle is crucial for accurate velocity measurements."
   },
-  {
-    "clasificacion": "Imaging Principles and Instrumentation",
-    "grupo": "4",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Reverberation artifacts are most likely to occur between:",
-    "image": "",
-    "opciones": [
-      "Two weak reflectors",
-      "Two strong reflectors",
-      "A strong reflector and a weak reflector",
-      "Two tissues with different acoustic impedances"
-    ],
-    "respuesta_correcta": [
-      "Two strong reflectors"
-    ],
-    "concept_to_study": "Reverberation Artifact",
-    "explicacion_openai": "Reverberation artifacts occur when sound bounces back and forth between two strong, parallel reflectors. This creates multiple, equally spaced echoes on the display, appearing deeper than the actual reflectors. Recognizing reverberation artifacts is essential for accurate image interpretation and diagnosis."
-  },
+  
   {
     "clasificacion": "Ultrasound Transducers",
     "grupo": "4",
@@ -315,25 +281,7 @@
     "explicacion_openai": "Imagine standing by the roadside as a car approaches, honking its horn. The horn sounds higher in pitch as it comes closer. This is an example of the Doppler effect: the sound frequency increases because the car is moving toward you. In ultrasound, a positive Doppler shift happens when blood flow moves toward the transducer, similar to the approaching car. This causes the reflected sound to have a higher frequency. Transducers detecting flow toward them will show a positive waveform, those detecting flow away will show a negative waveform, and those positioned perpendicularly will not detect any flow. This concept is crucial for doctors and technicians because it helps them visualize how and how fast blood is moving in the body. For example, detecting abnormal flow in a blood vessel might indicate a blockage or narrowing, which is important for diagnosis and treatment."
   },
  
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": "9",
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "A sonographer is evaluating blood flow within a vessel using pulsed-wave Doppler. The image displays four sample volumes (A, B, C, and D) placed in different locations within the vessel. Which sample volume is *MOST LIKELY* to provide an accurate representation of the maximum velocity (peak systole) in a non-stenotic vessel segment?",
-    "image": "window2.png",
-    "opciones": [
-      "Sample A",
-      "Sample B",
-      "Sample C",
-      "Sample D"
-    ],
-    "respuesta_correcta": [
-      "Sample B"
-    ],
-    "concept_to_study": "Doppler Sample Volume Placement",
-    "explicacion_openai": "Sample volume B, positioned centrally within the vessel, is most likely to accurately represent the peak systolic velocity in a non-stenotic segment. Proper sample volume placement is crucial for obtaining accurate Doppler measurements and assessing blood flow characteristics."
-  },
-
+ 
   {
     "clasificacion": "Imaging Principles and Instrumentation",
     "grupo": "6",
