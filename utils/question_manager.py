@@ -97,7 +97,6 @@ def select_random_questions(total=120):
         remaining_pool = [p for p in preguntas if _qid(p) not in current_ids]
         selected_questions.extend(random.sample(remaining_pool, min(remaining, len(remaining_pool))))
 
-    # Plan de inyección para todas las categorías
     add_plan_by_class = {
         "Doppler Imaging Concepts": 12,
         "Imaging Principles and Instrumentation": 10,
@@ -116,7 +115,14 @@ def shuffle_options(question):
     random.shuffle(opciones)
     return opciones
 
+# ---------------------------------------------------------
+# ✅ FUNCIÓN calculate_score() RESTAURADA (CON LOG COMPLETO)
+# ---------------------------------------------------------
 def calculate_score():
+    """
+    Calculates the exam score and stores incorrect answers.
+    Also calculates a classification-wise count of correct answers.
+    """
     questions = st.session_state.selected_questions
     total_questions = len(questions)
     if total_questions == 0:
@@ -124,6 +130,7 @@ def calculate_score():
 
     correct_count = 0
     classification_stats = {}
+
     user_name = st.session_state.get('user_data', {}).get('nombre', 'Unknown User')
 
     for idx, question in enumerate(questions):
@@ -133,6 +140,10 @@ def calculate_score():
         classification_stats[clasif]["total"] += 1
 
         user_answer = st.session_state.answers.get(str(idx), None)
+
+        # LOG EN CONSOLA
+        print(f"[{user_name}] Pregunta {idx}: Respuesta del usuario: {user_answer}, Respuesta correcta: {question['respuesta_correcta']}")
+
         if user_answer is not None and user_answer in question["respuesta_correcta"]:
             correct_count += 1
             classification_stats[clasif]["correct"] += 1
@@ -151,7 +162,15 @@ def calculate_score():
             }
             st.session_state.incorrect_answers.append(incorrect_info)
 
+            # LOG EN CONSOLA
+            print(f"[{user_name}] Añadida respuesta incorrecta a la lista: {incorrect_info}")
+
+    # LOG FINAL
+    print(f"[{user_name}] Total de respuestas correctas: {correct_count}")
+    print(f"[{user_name}] Lista final de respuestas incorrectas en calculate_score: {st.session_state.incorrect_answers}")
+
     st.session_state.classification_stats = classification_stats
+
     x = correct_count / total_questions
     if x <= 0:
         final_score = 0
@@ -162,6 +181,9 @@ def calculate_score():
 
     return int(final_score)
 
+# ------------------------------------------
+# Para examen corto
+# ------------------------------------------
 def load_short_questions():
     with open('data/preguntas_corto.json', 'r', encoding='utf-8') as f:
         return json.load(f)
