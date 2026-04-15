@@ -31162,5 +31162,85 @@
         "concept_to_study": "Echo amplitude and tissue echogenicity.",
         "explicacion_openai": "Hyperechoic structures reflect ultrasound waves with high intensity. Since wave E represents the maximum amplitude in the series, it corresponds to the strongest reflection and most echogenic appearance.",
         "image_explanation": ""
-    }
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a cardiac exam, the sonographer notices that the fast-moving mitral valve leaflets appear blurred. Which adjustment would most effectively improve temporal resolution?",
+        "image": "",
+        "opciones": [
+            "Increase line density",
+            "Reduce sector width",
+            "Add additional focal zones",
+            "Increase dynamic range"
+        ],
+        "respuesta_correcta": [
+            "Reduce sector width"
+        ],
+        "concept_to_study": "Narrowing the sector increases frame rate, improving visualization of rapid motion.",
+        "explicacion_openai": "A smaller sector requires fewer scan lines per frame, allowing the system to refresh the image more quickly.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "A sonographer is evaluating a patient with tachycardia and needs to capture rapid wall motion in real time. Which setting will most likely reduce the frame rate and should be avoided?",
+        "image": "",
+        "opciones": [
+            "Using a single focal zone",
+            "Increasing line density",
+            "Reducing depth",
+            "Narrowing the sector"
+        ],
+        "respuesta_correcta": [
+            "Increasing line density"
+        ],
+        "concept_to_study": "Higher line density lowers frame rate and reduces temporal resolution.",
+        "explicacion_openai": "More scan lines per frame slow down image acquisition, making it harder to capture fast cardiac motion.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 1,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "While imaging a moving fetus, the sonographer widens the sector to visualize both fetal limbs. What is the expected effect on frame rate?",
+        "image": "",
+        "opciones": [
+            "Frame rate increases",
+            "Frame rate decreases",
+            "Frame rate remains unchanged",
+            "Frame rate becomes unstable"
+        ],
+        "respuesta_correcta": [
+            "Frame rate decreases"
+        ],
+        "concept_to_study": "A wider sector requires more scan lines, reducing frame rate.",
+        "explicacion_openai": "Expanding the field of view increases the number of lines per frame, lowering temporal resolution during motion imaging.",
+        "image_explanation": ""
+    },
+    {
+    "clasificacion": "Physical Principles",
+    "grupo": 1,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "During a liver exam, the sonographer increases the pulse duration to improve penetration in a large patient. Which option correctly describes the duty factor under these conditions?",
+    "image": "",
+    "opciones": [
+        "Ratio of pulse duration to PRP",
+        "Ratio of gain to depth",
+        "Ratio of PRF to frequency",
+        "Ratio of amplitude to impedance"
+    ],
+    "respuesta_correcta": [
+        "Ratio of pulse duration to PRP"
+    ],
+    "concept_to_study": "Duty factor represents the fraction of time the system is actively transmitting sound.",
+    "explicacion_openai": "Increasing pulse duration increases the numerator of the duty factor, but the definition remains the ratio of pulse duration to PRP.",
+    "image_explanation": ""
+}
+
 ]
+
+    
+
