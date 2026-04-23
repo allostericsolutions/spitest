@@ -31239,9 +31239,52 @@
     "concept_to_study": "Duty factor represents the fraction of time the system is actively transmitting sound.",
     "explicacion_openai": "Increasing pulse duration increases the numerator of the duty factor, but the definition remains the ratio of pulse duration to PRP.",
     "image_explanation": ""
-}
+},
+
+{
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 304,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "Comparing the top and bottom images, what primary adjustment was made to achieve the clearer signal seen in the bottom panel?",
+    "image": "dopplergain_comparison.png",
+    "opciones": [
+      "The color gain was increased to fill the vessel walls",
+      "The color gain was decreased to eliminate bleeding and speckle artifacts",
+      "The PRF was raised to remove aliasing from the lumen",
+      "The wall filter was increased to sharpen the vessel borders"
+    ],
+    "respuesta_correcta": [
+      "The color gain was decreased to eliminate bleeding and speckle artifacts"
+    ],
+    "concept_to_study": "Optimizing Color Doppler Gain.",
+    "explicacion_openai": "To solve this without the image, visualize a scan where color is not just inside the vessel, but 'bleeding' into the surrounding walls and showing random spots of noise (speckle) in stationary tissues. This is the definition of excessive color gain. When you see two images where one is 'messy' with extra color and the other is 'clean' and confined to the lumen, the correction is always a reductive one. By decreasing the color gain, you suppress the background noise and artifacts, leaving only the true flow signal. In an exam, if three options suggest adding or shifting signal and only one suggests removing noise to clean the image, that reductive action is usually the correct technical fix.",
+    "image_explanation": "The top image shows color noise outside the vessel (bleeding), while the bottom image shows color strictly within the lumen. This change confirms a reduction in color gain."
+  },
+  {
+    "clasificacion": "Doppler Imaging Concepts",
+    "grupo": 305,
+    "tipo_pregunta": "opcion_multiple",
+    "enunciado": "What is the consequence of the technical setting shown in the top image compared to the bottom one?",
+    "image": "dopplergain_comparison.png",
+    "opciones": [
+      "The setting in the top image provides a more accurate measurement of vessel diameter",
+      "The setting in the top image creates 'color blooming' that obscures the true vessel walls",
+      "The top image shows a higher velocity flow than the bottom image",
+      "The top image is the result of an optimized 'low-flow' preset"
+    ],
+    "respuesta_correcta": [
+      "The setting in the top image creates 'color blooming' that obscures the true vessel walls"
+    ],
+    "concept_to_study": "Impact of excessive gain on diagnostic accuracy.",
+    "explicacion_openai": "This question focuses on identifying the 'color blooming' artifact. Visualize a vessel where the color signal is so strong that it overlaps the gray-scale borders of the vessel wall. This leads to a false perception of the vessel's size and can hide real pathology like small plaques. In the exam, you must recognize that 'more color' does not equal 'more accuracy.' When comparing an over-saturated image to a clean one, the over-saturated one is technically flawed because it obscures anatomical detail. Identifying the term 'blooming' is key, as it describes this exact phenomenon where gain is set too high, masking the true boundaries between flow and tissue.",
+    "image_explanation": "The top image exhibits color noise spillover into the vessel wall and surrounding tissue, a classic artifact that masks true anatomy, which is corrected in the bottom view."
+  }
 
 ]
+
+
+
+
 
     
 
