@@ -31278,9 +31278,106 @@
     "concept_to_study": "Impact of excessive gain on diagnostic accuracy.",
     "explicacion_openai": "This question focuses on identifying the 'color blooming' artifact. Visualize a vessel where the color signal is so strong that it overlaps the gray-scale borders of the vessel wall. This leads to a false perception of the vessel's size and can hide real pathology like small plaques. In the exam, you must recognize that 'more color' does not equal 'more accuracy.' When comparing an over-saturated image to a clean one, the over-saturated one is technically flawed because it obscures anatomical detail. Identifying the term 'blooming' is key, as it describes this exact phenomenon where gain is set too high, masking the true boundaries between flow and tissue.",
     "image_explanation": "The top image exhibits color noise spillover into the vessel wall and surrounding tissue, a classic artifact that masks true anatomy, which is corrected in the bottom view."
-  }
+  },
 
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 149,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "According to ergonomic studies in sonography, what is the recommended neck position to prevent musculoskeletal disorders during an ultrasound examination?",
+        "image": "",
+        "opciones": [
+            "Neutral position with 0° flexion",
+            "Slight flexion between 15-20° while facing the monitor",
+            "Lateral rotation to share the monitor with the patient",
+            "Slight extension to improve visibility of the screen"
+        ],
+        "respuesta_correcta": [
+            "Slight flexion between 15-20° while facing the monitor"
+        ],
+        "concept_to_study": "Ergonomics - Neck Position",
+        "explicacion_openai": "To avoid neck strain, the sonographer should maintain a slight flexion of 15-20 degrees. Avoiding neck extension and rotation (often caused by sharing monitors) is critical for preventing musculoskeletal injury.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 149,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "To maintain shoulder health during a scan, what is the maximum recommended abduction angle for the arm holding the transducer?",
+        "image": "",
+        "opciones": [
+            "Less than 10°",
+            "Less than 30°",
+            "Exactly 45°",
+            "Up to 60° if the forearm is supported"
+        ],
+        "respuesta_correcta": [
+            "Less than 30°"
+        ],
+        "concept_to_study": "Ergonomics - Shoulder Abduction",
+        "explicacion_openai": "Abduction greater than 30° can reduce blood flow and increase the risk of musculoskeletal disorders. Maintaining a neutral position with supported forearms is the ergonomic standard.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 149,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Which of the following is an appropriate strategy to reduce wrist and hand strain when scanning obese patients?",
+        "image": "",
+        "opciones": [
+            "Increasing the pressure of the grip on the transducer",
+            "Using higher frequency transducers to improve penetration",
+            "Optimizing machine settings such as harmonics and lower frequencies",
+            "Maintaining the wrist in a constant state of extension"
+        ],
+        "respuesta_correcta": [
+            "Optimizing machine settings such as harmonics and lower frequencies"
+        ],
+        "concept_to_study": "Ergonomics - Hand and Wrist Strain",
+        "explicacion_openai": "When scanning difficult patients (e.g., obese), sonographers should use technical optimizations like lowering the frequency or using harmonics to improve the image without needing to apply excessive physical pressure with the hand and wrist.",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 149,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "Regarding work-related musculoskeletal disorders (MSKDs) in sonography, which anatomical area is reported to be affected in nearly 98% of symptomatic ultrasound professionals?",
+        "image": "",
+        "opciones": [
+            "Lower back",
+            "Shoulders",
+            "Neck",
+            "Wrist and Hand"
+        ],
+        "respuesta_correcta": [
+            "Neck"
+        ],
+        "concept_to_study": "Occupational Health Statistics",
+        "explicacion_openai": "Statistics show that approximately 90% of sonographers suffer from MSKDs, with the neck being the most frequently affected area (98%), followed by the shoulders (92%) and the back (83%).",
+        "image_explanation": ""
+    },
+    {
+        "clasificacion": "Clinical Safety, Patient Care, and Quality Assurance",
+        "grupo": 149,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "What administrative or personal strategy is recommended to mitigate the risk of injury from repetitive movements and high workloads?",
+        "image": "",
+        "opciones": [
+            "Increasing the speed of examinations to finish early",
+            "Implementing regular rest periods and joint-movement exercises",
+            "Using only the dominant hand for both scanning and console manipulation",
+            "Avoiding physical exercise to prevent additional muscle fatigue"
+        ],
+        "respuesta_correcta": [
+            "Implementing regular rest periods and joint-movement exercises"
+        ],
+        "concept_to_study": "Risk Reduction Strategies",
+        "explicacion_openai": "Organizing work to include regular breaks and performing specific exercises (stretching, joint mobilization) helps reduce the cumulative physical stress that leads to chronic injuries.",
+        "image_explanation": ""
+    }
 ]
+
+
 
 
 
