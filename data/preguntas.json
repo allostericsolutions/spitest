@@ -22,6 +22,25 @@
         "clasificacion": "Physical Principles",
         "grupo": 2,
         "tipo_pregunta": "opcion_multiple",
+        "enunciado": "During a gallbladder evaluation, a sonographer identifies a hyperechoic focus with the posterior appearance shown in the image. Which mechanism best explains the dark region indicated by the arrow?",
+        "image": "shadowing_liver.png",
+        "opciones": [
+            "High attenuation or reflection of the ultrasound beam",
+            "Enhanced through-transmission of the sound waves",
+            "Reverberation between two highly reflective surfaces",
+            "Increase in the propagation speed of the medium"
+        ],
+        "respuesta_correcta": [
+            "High attenuation or reflection of the ultrasound beam"
+        ],
+        "concept_to_study": "Interaction of sound with high-density interfaces.",
+        "explicacion_openai": "The artifact occurs because the ultrasound beam is either strongly reflected or absorbed by a dense structure, preventing sound from reaching the tissues located deeper in that specific path.",
+        "image_explanation": "The arrow points to the void of signal created when a superficial structure acts as a barrier to the ultrasound beam, a phenomenon known as clean shadowing."
+    },
+    {
+        "clasificacion": "Physical Principles",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
         "enunciado": "How does increasing frequency affect the wavelength of ultrasound?",
         "image": "",
         "opciones": [
