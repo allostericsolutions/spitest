@@ -378,25 +378,25 @@
         "explicacion_openai": "When aliasing affects only the systolic peaks, shifting the baseline provides more display room above the zero line, reducing wraparound without changing PRF or frequency.",
         "image_explanation": ""
     },
-  {
-    "clasificacion": "Doppler Imaging Concepts",
-    "grupo": 304,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "Comparing the top and bottom images, what primary adjustment was made to achieve the clearer signal seen in the bottom panel?",
-    "image": "dopplergain_comparison.png",
-    "opciones": [
-      "The color gain was increased to fill the vessel walls",
-      "The color gain was decreased to eliminate bleeding and speckle artifacts",
-      "The PRF was raised to remove aliasing from the lumen",
-      "The wall filter was increased to sharpen the vessel borders"
-    ],
-    "respuesta_correcta": [
-      "The color gain was decreased to eliminate bleeding and speckle artifacts"
-    ],
-    "concept_to_study": "Optimizing Color Doppler Gain.",
-    "explicacion_openai": "To solve this without the image, visualize a scan where color is not just inside the vessel, but 'bleeding' into the surrounding walls and showing random spots of noise (speckle) in stationary tissues. This is the definition of excessive color gain. When you see two images where one is 'messy' with extra color and the other is 'clean' and confined to the lumen, the correction is always a reductive one. By decreasing the color gain, you suppress the background noise and artifacts, leaving only the true flow signal. In an exam, if three options suggest adding or shifting signal and only one suggests removing noise to clean the image, that reductive action is usually the correct technical fix.",
-    "image_explanation": "The top image shows color noise outside the vessel (bleeding), while the bottom image shows color strictly within the lumen. This change confirms a reduction in color gain."
-  },
+{
+        "clasificacion": "Physical Principles",
+        "grupo": 2,
+        "tipo_pregunta": "opcion_multiple",
+        "enunciado": "In the provided ultrasound of the liver, what physical phenomenon is responsible for the dark area indicated by the arrow (acoustic shadowing)?",
+        "image": "shadowing_liver.png",
+        "opciones": [
+            "Complete reflection or absorption of the sound beam",
+            "Increased transmission through a fluid-filled structure",
+            "Refraction of the beam at a curved interface",
+            "Constructive interference of returning echoes"
+        ],
+        "respuesta_correcta": [
+            "Complete reflection or absorption of the sound beam"
+        ],
+        "concept_to_study": "Acoustic shadowing occurs when a highly attenuating structure blocks the sound beam.",
+        "explicacion_openai": "Acoustic shadowing is a subtraction artifact that occurs when the ultrasound beam encounters a structure with high attenuation or reflection (like a gallstone or bone), leaving the area behind it devoid of echoes.",
+        "image_explanation": "The arrow points to an anechoic (dark) region behind a dense structure, where the sound beam was unable to penetrate, creating a shadow."
+    },
   {
     "clasificacion": "Doppler Imaging Concepts",
     "grupo": 305,
