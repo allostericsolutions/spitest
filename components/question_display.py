@@ -23,11 +23,17 @@ def display_question(question, question_num):
       if os.path.exists(image_path):
         try:
           st.markdown('<div class="image-container">', unsafe_allow_html=True)
-          st.image(image_path) # Eliminado use_container_width=True
-          st.markdown(f'<a href="{image_path}" target="_blank">Ver imagen en pestaña nueva</a>', unsafe_allow_html=True)
+          
+          # Lógica para detectar si es video o imagen
+          if image_name.lower().endswith(".mp4"):
+            st.video(image_path, loop=True, autoplay=True, muted=True)
+          else:
+            st.image(image_path) 
+            
+          st.markdown(f'<a href="{image_path}" target="_blank">Ver archivo en pestaña nueva</a>', unsafe_allow_html=True)
           st.markdown('</div>', unsafe_allow_html=True)
-        except Exception: # Cambiado de FileNotFoundError a Exception para capturar más errores de renderizado
-          st.warning("Image could not be displayed. Please continue the exam and report this issue.")
+        except Exception: 
+          st.warning("Media could not be displayed. Please continue the exam and report this issue.")
       else:
         st.warning("Image file not found. Please continue the exam and report this issue.")
     # --- FIN DE LA IMPLEMENTACIÓN DE LA SOLUCIÓN ---
