@@ -22,25 +22,6 @@
     "image_explanation": ""
   },
  
-  {
-    "clasificacion": "Physical Principles",
-    "grupo": 1,
-    "tipo_pregunta": "opcion_multiple",
-    "enunciado": "In the provided illustration, what type of resolution is represented by the letter 'B'?",
-    "image": "types_resolution.png",
-    "opciones": [
-      "Axial resolution",
-      "Lateral resolution",
-      "Elevational resolution",
-      "Spatial resolution"
-    ],
-    "respuesta_correcta": [
-      "Elevational resolution"
-    ],
-    "concept_to_study": "Elevational resolution.",
-    "explicacion_openai": "Synonyms: Slice thickness resolution. It is determined by the thickness of the imaging plane. It is generally the poorest resolution in 2D transducers. It improves with the use of 1.5D or 2D array transducers or mechanical focusing (lenses). When the beam is thick, it creates 'slice thickness artifact' or filling in of cystic structures.",
-    "image_explanation": ""
-  },
  
  
   
@@ -49,7 +30,7 @@
     "grupo": "3",
     "tipo_pregunta": "opcion_multiple",
     "enunciado": "How does increasing the pressure differential across a vessel affect blood flow?",
-    "image": "",
+    "image": "WhatsApp Video 2026-04-26 at 9.42.50 AM.mp4",
     "opciones": [
       "Resistance decreases",
       "Flow rate increases",
